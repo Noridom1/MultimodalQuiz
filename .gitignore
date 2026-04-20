@@ -4,4 +4,4 @@ env/
 __pycache__/
 *.pyc
 auth.sh
-
+.env
