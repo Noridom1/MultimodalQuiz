@@ -1,0 +1,9 @@
+project:
+  name: quizgen
+  version: 0.1.0
+pipeline:
+  num_questions: 10
+  difficulty_distribution:
+    easy: 0.3
+    medium: 0.5
+    hard: 0.2

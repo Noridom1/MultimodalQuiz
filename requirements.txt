@@ -1,0 +1,8 @@
+pyyaml
+pydantic
+networkx
+numpy
+pillow
+requests
+pymupdf
+uv

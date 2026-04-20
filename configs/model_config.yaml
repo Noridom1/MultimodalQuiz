@@ -1,0 +1,9 @@
+llm:
+  provider: openai
+  model: gpt-5.4-mini
+image_generation:
+  provider: placeholder
+  model: placeholder
+embedding:
+  provider: placeholder
+  model: placeholder
