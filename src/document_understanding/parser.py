@@ -12,6 +12,7 @@ from typing import Iterable
 
 @dataclass
 class ParsedDocument:
+    markdown: str
     sections: list[str]
     paragraphs: list[str]
     figures: list[str]
@@ -51,6 +52,7 @@ def parse_document(document_path: str | Path) -> ParsedDocument:
     lines = _normalize_lines(text.splitlines())
     sections, paragraphs, figures, captions = _extract_structure(lines)
     return ParsedDocument(
+        markdown=text,
         sections=sections,
         paragraphs=paragraphs,
         figures=figures,

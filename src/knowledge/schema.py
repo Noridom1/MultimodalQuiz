@@ -1,24 +1,100 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from enum import Enum
+from pathlib import Path
+from typing import Any, Literal
+
+import networkx as nx
+from pydantic import BaseModel, Field
 
 
-@dataclass
-class KnowledgeNode:
+class NodeKind(str, Enum):
+    block = "block"
+    concept = "concept"
+    image = "image"
+    section = "section"
+
+
+class EdgeRelation(str, Enum):
+    contains = "contains"
+    follows = "follows"
+    mentions = "mentions"
+    references = "references"
+    explains = "explains"
+    illustrates = "illustrates"
+    supports = "supports"
+    defines = "defines"
+    related_to = "related_to"
+    semantically_similar_to = "semantically_similar_to"
+
+
+class GraphNode(BaseModel):
     id: str
     label: str
-    metadata: dict[str, object] = field(default_factory=dict)
+    kind: NodeKind
+    source_file: str | None = None
+    page_idx: int | None = None
+    section_path: list[str] = Field(default_factory=list)
+    text: str | None = None
+    image_path: str | None = None
+    metadata: dict[str, Any] = Field(default_factory=dict)
 
 
-@dataclass
-class KnowledgeEdge:
+class GraphEdge(BaseModel):
     source: str
     target: str
-    relation: str
-    metadata: dict[str, object] = field(default_factory=dict)
+    relation: EdgeRelation
+    confidence: Literal["EXTRACTED", "INFERRED", "AMBIGUOUS"] = "EXTRACTED"
+    confidence_score: float = 1.0
+    weight: float = 1.0
+    source_file: str | None = None
+    source_location: str | None = None
+    metadata: dict[str, Any] = Field(default_factory=dict)
 
 
-@dataclass
-class KnowledgeGraph:
-    nodes: list[KnowledgeNode] = field(default_factory=list)
-    edges: list[KnowledgeEdge] = field(default_factory=list)
+class MultimodalDocumentGraph(BaseModel):
+    document_id: str
+    source_file: str | None = None
+    nodes: list[GraphNode] = Field(default_factory=list)
+    edges: list[GraphEdge] = Field(default_factory=list)
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
+    def to_networkx(self) -> nx.MultiDiGraph:
+        graph = nx.MultiDiGraph()
+        for node in self.nodes:
+            graph.add_node(node.id, **node.model_dump())
+
+        for edge in self.edges:
+            graph.add_edge(
+                edge.source,
+                edge.target,
+                key=f"{edge.relation.value}:{edge.source}->{edge.target}",
+                **edge.model_dump(),
+            )
+
+        graph.graph.update(self.metadata)
+        graph.graph["document_id"] = self.document_id
+        graph.graph["source_file"] = self.source_file
+        return graph
+
+    def summary(self) -> dict[str, Any]:
+        return {
+            "document_id": self.document_id,
+            "source_file": self.source_file,
+            "node_count": len(self.nodes),
+            "edge_count": len(self.edges),
+            "node_kinds": _count_enum_values(node.kind for node in self.nodes),
+            "edge_relations": _count_enum_values(edge.relation for edge in self.edges),
+        }
+
+
+def _count_enum_values(values: list[Enum] | tuple[Enum, ...] | Any) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for value in values:
+        key = value.value if isinstance(value, Enum) else str(value)
+        counts[key] = counts.get(key, 0) + 1
+    return counts
+
+
+def make_document_id(source_file: str | Path) -> str:
+    return Path(source_file).stem

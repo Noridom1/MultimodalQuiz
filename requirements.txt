@@ -6,3 +6,9 @@ pillow
 requests
 pymupdf
 uv
+pyvis
+langchain
+langchain-core
+langchain-openai
+langchain-mistralai
+python-dotenv
