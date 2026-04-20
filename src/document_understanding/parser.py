@@ -1,12 +1,10 @@
 from __future__ import annotations
 
 import argparse
-import os
 
 import re
 import shutil
 import subprocess
-import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -14,6 +12,7 @@ from typing import Iterable
 
 @dataclass
 class ParsedDocument:
+    markdown: str
     sections: list[str]
     paragraphs: list[str]
     figures: list[str]
@@ -30,6 +29,10 @@ _SECTION_PATTERN = re.compile(
 
 _FIGURE_PATTERN = re.compile(r"^(?:figure|fig\.)\s*\d+[\s:\-–—]*(?P<caption>.+)?$", re.IGNORECASE)
 _IMAGE_PATTERN = re.compile(r"\[image:\s*(?P<label>.+?)\]", re.IGNORECASE)
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+MINERU_OUTPUT_DIR = PROJECT_ROOT / "data" / "processed"
+MINERU_BACKEND = "pipeline"
 
 
 def parse_document(document_path: str | Path) -> ParsedDocument:
@@ -49,6 +52,7 @@ def parse_document(document_path: str | Path) -> ParsedDocument:
     lines = _normalize_lines(text.splitlines())
     sections, paragraphs, figures, captions = _extract_structure(lines)
     return ParsedDocument(
+        markdown=text,
         sections=sections,
         paragraphs=paragraphs,
         figures=figures,
@@ -92,41 +96,44 @@ def _extract_pdf_with_mineru(path: Path) -> str | None:
     if mineru_executable is None:
         return None
 
-    with tempfile.TemporaryDirectory(prefix="mineru_parse_") as temporary_dir:
-        output_dir = Path(temporary_dir) / "output"
-        output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir = _resolve_mineru_output_dir()
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-        command = [
-            mineru_executable,
-            "-p",
-            str(path),
-            "-o",
-            str(output_dir),
-            "-b",
-            os.environ.get("MINERU_BACKEND", "pipeline"),
-        ]
+    command = [
+        mineru_executable,
+        "-p",
+        str(path),
+        "-o",
+        str(output_dir),
+        # "-b",
+        # MINERU_BACKEND,
+    ]
 
-        try:
-            completed = subprocess.run(
-                command,
-                check=True,
-                capture_output=True,
-                text=True,
-            )
-        except FileNotFoundError:
-            return None
-        except subprocess.CalledProcessError:
-            return None
+    try:
+        subprocess.run(
+            command,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except FileNotFoundError:
+        return None
+    except subprocess.CalledProcessError:
+        return None
 
-        markdown_path = _find_mineru_markdown(output_dir, path.stem)
-        if markdown_path is None or not markdown_path.exists():
-            return None
+    markdown_path = _find_mineru_markdown(output_dir, path.stem)
+    if markdown_path is None or not markdown_path.exists():
+        return None
 
-        markdown_text = markdown_path.read_text(encoding="utf-8", errors="ignore")
-        if not markdown_text.strip():
-            return None
+    markdown_text = markdown_path.read_text(encoding="utf-8", errors="ignore")
+    if not markdown_text.strip():
+        return None
 
-        return markdown_text
+    return markdown_text
+
+
+def _resolve_mineru_output_dir() -> Path:
+    return MINERU_OUTPUT_DIR
 
 
 def _find_mineru_markdown(output_dir: Path, document_stem: str) -> Path | None:
