@@ -1,6 +1,9 @@
 llm:
-  provider: openai
-  model: gpt-5.4-mini
+  provider: google
+  model: gemini-2.5-flash-lite
+  api_key_env: GOOGLE_API_KEY
+  timeout_seconds: 60
+
 image_generation:
   provider: imagerouter
   endpoint: https://api.imagerouter.io/v1/openai/images/generations
