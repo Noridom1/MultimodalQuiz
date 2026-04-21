@@ -21,7 +21,6 @@ class QuestionPlan:
     question_type: str
     difficulty: str
     reasoning_type: str
-    requires_image: bool
     image_role: str | None = None
     image_description: str | None = None
     learning_objective: str | None = None
@@ -178,12 +177,22 @@ class QuizPlanner:
             question_type = self._normalized_text(row.get("question_type"))
             difficulty = self._normalized_text(row.get("difficulty")).lower()
             reasoning_type = self._normalized_text(row.get("reasoning_type")).lower()
-            requires_image = bool(row.get("requires_image"))
-            image_role = self._normalize_image_role(row.get("image_role"), requires_image)
-            image_description = self._normalize_image_description(
-                row.get("image_description"),
-                requires_image,
-            )
+            # Images are mandatory for all generated questions
+            # Provide sensible defaults if the planner did not include image fields
+            raw_role = row.get("image_role")
+            if raw_role is None:
+                image_role_raw = "illustrative"
+            else:
+                normalized_role = str(raw_role).strip().lower()
+                # Treat explicit 'none'/'null' or empty as missing and fall back
+                if normalized_role in {"", "none", "null"}:
+                    image_role_raw = "illustrative"
+                else:
+                    image_role_raw = raw_role
+
+            image_description_raw = row.get("image_description") or target_concept
+            image_role = self._normalize_image_role(image_role_raw)
+            image_description = self._normalize_image_description(image_description_raw)
             learning_objective = self._normalized_text(row.get("learning_objective"))
 
             if difficulty not in self._VALID_DIFFICULTIES:
@@ -197,7 +206,6 @@ class QuizPlanner:
                     question_type=question_type,
                     difficulty=difficulty,
                     reasoning_type=reasoning_type,
-                    requires_image=requires_image,
                     image_role=image_role,
                     image_description=image_description,
                     learning_objective=learning_objective,
@@ -206,32 +214,17 @@ class QuizPlanner:
 
         return plans
 
-    def _normalize_image_role(self, value: object, requires_image: bool) -> str:
-        if requires_image:
-            normalized = self._normalized_text(value).lower()
-            if normalized not in self._VALID_IMAGE_ROLES:
-                raise RuntimeError(f"Unsupported image_role: {normalized}")
-            return normalized
-
-        if value is None:
-            return "none"
+    def _normalize_image_role(self, value: object) -> str:
         normalized = self._normalized_text(value).lower()
-        if normalized not in {"", "none", "null"}:
-            raise RuntimeError("image_role must be none when requires_image is false.")
-        return "none"
+        if normalized not in self._VALID_IMAGE_ROLES:
+            raise RuntimeError(f"Unsupported image_role: {normalized}")
+        return normalized
 
-    def _normalize_image_description(self, value: object, requires_image: bool) -> str | None:
-        if requires_image:
-            description = self._normalized_text(value)
-            if not description:
-                raise RuntimeError("image_description is required when requires_image is true.")
-            return description
-
-        if value is None:
-            return None
-        if self._normalized_text(value) not in {"", "none", "null"}:
-            raise RuntimeError("image_description must be null/empty when requires_image is false.")
-        return None
+    def _normalize_image_description(self, value: object) -> str:
+        description = self._normalized_text(value)
+        if not description:
+            raise RuntimeError("image_description is required for all questions.")
+        return description
 
     @staticmethod
     def _normalized_text(value: object) -> str:
