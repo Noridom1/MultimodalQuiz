@@ -12,9 +12,7 @@ Hard constraints:
 - Use diverse target concepts whenever possible.
 - Follow the target difficulty distribution: {difficulty_distribution}.
 - reasoning_type must be one of: factoid, causal, multi-hop.
-- image_role must be one of: illustrative, reasoning, distractor when requires_image is true.
-- If requires_image is false, image_role must be "none" and image_description must be null.
-- If requires_image is true, image_description must be a short concrete visual description.
+- Every planned question must include an associated image: provide `image_role` (illustrative, reasoning, distractor) and a concrete `image_description` suitable for generating an educational image.
 
 Output format:
 - Return JSON only.
@@ -26,13 +24,13 @@ Output format:
 	- "question_type": string (e.g. "multiple_choice", "short_answer", "true_false")
 	- "difficulty": string (one of "easy", "medium", "hard")
 	- "reasoning_type": string (one of "factoid", "causal", "multi-hop")
-	- "requires_image": boolean
-	- "image_role": string or "none" (if requires_image true: "illustrative", "reasoning", "distractor")
-	- "image_description": string or null (must be non-empty when requires_image is true)
+	- "image_role": string ("illustrative" or "reasoning"). Illustrative means just for visualization. Reasoning means the question requires analyzing the image to answer.
+	- "image_description": string (non-empty)
 	- "learning_objective": string
 	- "metadata": object
 
 - Return only valid JSON. Do not include any explanatory text, markdown, or commentary.
+
 
 Example single question item (must follow this exact schema):
 
@@ -41,7 +39,6 @@ Example single question item (must follow this exact schema):
 	"question_type": "multiple_choice",
 	"difficulty": "easy",
 	"reasoning_type": "factoid",
-	"requires_image": true,
 	"image_role": "illustrative",
 	"image_description": "A diagram showing interconnected layers of nodes representing a neural network structure.",
 	"learning_objective": "Identify components of a simple neural network.",
