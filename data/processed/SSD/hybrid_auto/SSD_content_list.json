@@ -1,0 +1,3066 @@
+[
+    {
+        "type": "text",
+        "text": "P&S Modern SSDs ",
+        "text_level": 1,
+        "bbox": [
+            234,
+            187,
+            772,
+            261
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Basics of NAND Flash-Based SSDs ",
+        "text_level": 1,
+        "bbox": [
+            109,
+            325,
+            895,
+            392
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dr. Mohammad Sadrosadati ",
+        "bbox": [
+            262,
+            600,
+            745,
+            655
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Prof. Onur Mutlu ",
+        "bbox": [
+            356,
+            674,
+            647,
+            727
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ETH Zürich ",
+        "bbox": [
+            419,
+            746,
+            586,
+            792
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Fall 2022 ",
+        "bbox": [
+            434,
+            811,
+            572,
+            855
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "12 October 2022 ",
+        "bbox": [
+            384,
+            875,
+            633,
+            920
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            " SSD Organization & Request Handling ",
+            "NAND Flash Organization "
+        ],
+        "bbox": [
+            31,
+            381,
+            816,
+            618
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Today’s Agenda ",
+        "bbox": [
+            29,
+            40,
+            383,
+            118
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2 ",
+        "bbox": [
+            951,
+            951,
+            965,
+            974
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": " A modern SSD is a complicated system that consists of multiple cores, HW controllers, DRAM, and NAND flash memory packages ",
+        "bbox": [
+            20,
+            150,
+            872,
+            307
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/156e8e5dca7f188b0ddde85761cf979f161f290dbebe8a916e3a8f8f21ce3772.jpg",
+        "image_caption": [],
+        "image_footnote": [
+            "Samsung PM853T 960GB Enterprise SSD (from https://www.tweaktown.com/reviews/6695/samsung-pm853t-960gb-enterprise-ssd-review/index.html) "
+        ],
+        "sub_type": "text_image",
+        "bbox": [
+            58,
+            316,
+            951,
+            888
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Modern SSD Architecture ",
+        "bbox": [
+            30,
+            40,
+            572,
+            100
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3 ",
+        "bbox": [
+            951,
+            951,
+            965,
+            975
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Another Overview ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            35,
+            441,
+            96
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Host Interface Layer (HIL) ",
+        "text_level": 1,
+        "bbox": [
+            97,
+            200,
+            400,
+            238
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Flash Translation Layer (FTL) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            279,
+            419,
+            316
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Data Cache Management ",
+        "bbox": [
+            116,
+            338,
+            383,
+            377
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Address Translation ",
+        "bbox": [
+            138,
+            394,
+            356,
+            429
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "GC/WL/Refresh/… ",
+        "bbox": [
+            145,
+            450,
+            352,
+            488
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Flash Controller ",
+        "text_level": 1,
+        "bbox": [
+            91,
+            537,
+            281,
+            570
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "ECC ",
+        "bbox": [
+            88,
+            596,
+            133,
+            627
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Randomizer ",
+        "bbox": [
+            172,
+            596,
+            305,
+            629
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "CTR ",
+        "bbox": [
+            331,
+            540,
+            356,
+            625
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "CTR ",
+        "bbox": [
+            406,
+            542,
+            430,
+            625
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "NAND ",
+        "bbox": [
+            72,
+            742,
+            143,
+            774
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Flash ",
+        "bbox": [
+            76,
+            783,
+            140,
+            814
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Package ",
+        "bbox": [
+            59,
+            822,
+            156,
+            859
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "NAND ",
+        "bbox": [
+            188,
+            742,
+            259,
+            774
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Flash ",
+        "bbox": [
+            191,
+            783,
+            256,
+            814
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Package ",
+        "bbox": [
+            176,
+            822,
+            272,
+            859
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "NAND ",
+        "bbox": [
+            354,
+            742,
+            425,
+            774
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Flash ",
+        "bbox": [
+            358,
+            783,
+            420,
+            814
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Package ",
+        "bbox": [
+            341,
+            822,
+            438,
+            859
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "DRAM ",
+        "text_level": 1,
+        "bbox": [
+            702,
+            203,
+            777,
+            233
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Host Request Queue ",
+        "bbox": [
+            631,
+            262,
+            850,
+            300
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Write Buffer ",
+        "bbox": [
+            672,
+            318,
+            809,
+            351
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Logical-to-Physical Mappings ",
+        "bbox": [
+            583,
+            374,
+            897,
+            412
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Metadata (e.g., P/E Cycles) ",
+        "bbox": [
+            597,
+            429,
+            883,
+            466
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/e6f2bde518463f973976d192f78ecfbcf1e94fd75ef306412e5f66d895050355.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            550,
+            535,
+            938,
+            887
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4 ",
+        "bbox": [
+            952,
+            951,
+            965,
+            974
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Host Interface Layer (HIL) ",
+        "text_level": 1,
+        "bbox": [
+            97,
+            200,
+            400,
+            238
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Flash Translation Layer (FTL) ",
+        "bbox": [
+            77,
+            279,
+            418,
+            316
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Data Cache Management ",
+        "bbox": [
+            116,
+            338,
+            381,
+            377
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Address Translation ",
+        "bbox": [
+            138,
+            394,
+            356,
+            427
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "GC/WL/Refresh/… ",
+        "bbox": [
+            145,
+            450,
+            352,
+            488
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/d9b87a16d784c651ef577cb485387250db8a4694f519914cad052c38c681f04c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            52,
+            518,
+            444,
+            879
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "DRAM ",
+        "text_level": 1,
+        "bbox": [
+            702,
+            203,
+            777,
+            233
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Host Request Queue ",
+        "bbox": [
+            631,
+            262,
+            850,
+            300
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Write Buffer ",
+        "bbox": [
+            672,
+            318,
+            808,
+            351
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Logical-to-Physical Mappings ",
+        "bbox": [
+            583,
+            374,
+            897,
+            412
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Metadata (e.g., P/E Cycles) ",
+        "bbox": [
+            597,
+            429,
+            883,
+            466
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": " Communication with the host operating system (receives & returns requests) ",
+        "bbox": [
+            459,
+            507,
+            936,
+            587
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Via a certain interface (SATA or NVMe) ",
+        "bbox": [
+            498,
+            592,
+            918,
+            629
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A host I/O request includes ",
+        "bbox": [
+            459,
+            685,
+            804,
+            722
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Request direction (read or write) ",
+        "bbox": [
+            498,
+            731,
+            858,
+            770
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": " Offset (start sector address) ",
+        "bbox": [
+            500,
+            775,
+            813,
+            811
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": " Size (number of sectors) ",
+        "bbox": [
+            500,
+            818,
+            777,
+            853
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Typically aligned by 4 KiB ",
+        "bbox": [
+            500,
+            859,
+            786,
+            896
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Request Handling: Write ",
+        "bbox": [
+            31,
+            33,
+            566,
+            111
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5 ",
+        "bbox": [
+            951,
+            950,
+            965,
+            975
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Request Handling: Write ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            33,
+            566,
+            111
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Host Interface Layer (HIL) ",
+        "bbox": [
+            97,
+            200,
+            400,
+            238
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Flash Translation Layer (FTL) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            279,
+            419,
+            316
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Data Cache Management ",
+        "bbox": [
+            116,
+            338,
+            383,
+            377
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Address Translation ",
+        "bbox": [
+            138,
+            394,
+            358,
+            429
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "GC/WL/Refresh/… ",
+        "bbox": [
+            145,
+            450,
+            352,
+            488
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/dc507aa04f0298bf6fe60b68a61731ff9a30c2a610d57ade5e4efea62b58fd6b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            52,
+            518,
+            445,
+            883
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "DRAM ",
+        "text_level": 1,
+        "bbox": [
+            702,
+            201,
+            777,
+            233
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Host Request Queue ",
+        "bbox": [
+            631,
+            262,
+            850,
+            300
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Write Buffer ",
+        "bbox": [
+            672,
+            318,
+            809,
+            351
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Logical-to-Physical Mappings ",
+        "bbox": [
+            583,
+            374,
+            897,
+            412
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Metadata (e.g., P/E Cycles) ",
+        "bbox": [
+            597,
+            429,
+            883,
+            466
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": " Buffering data to write (read from NAND flash memory) ",
+        "bbox": [
+            459,
+            505,
+            950,
+            585
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Essential to reducing write latency ",
+            "Enables flexible I/O scheduling ",
+            "Helpful for improving lifetime (not so likely) "
+        ],
+        "bbox": [
+            497,
+            594,
+            963,
+            716
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Limited size (e.g., tens of MBs) ",
+        "bbox": [
+            459,
+            722,
+            845,
+            762
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            " Needs to ensure data integrity even under sudden power-off ",
+            "Most DRAM capacity is used for L2P mappings "
+        ],
+        "bbox": [
+            497,
+            770,
+            952,
+            918
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6 ",
+        "bbox": [
+            951,
+            951,
+            965,
+            974
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Request Handling: Write ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            33,
+            566,
+            111
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Host Interface Layer (HIL) ",
+        "bbox": [
+            97,
+            200,
+            400,
+            238
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Flash Translation Layer (FTL) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            279,
+            419,
+            316
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Data Cache Management ",
+        "bbox": [
+            116,
+            338,
+            383,
+            377
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Address Translation ",
+        "bbox": [
+            138,
+            394,
+            356,
+            429
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "GC/WL/Refresh/… ",
+        "bbox": [
+            145,
+            450,
+            352,
+            488
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/df6f9037593e826761a475f2206dac403f08edd316aa82cea7bc7ffbdaccf787.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            52,
+            518,
+            445,
+            883
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "DRAM ",
+        "text_level": 1,
+        "bbox": [
+            702,
+            201,
+            777,
+            233
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Host Request Queue ",
+        "bbox": [
+            631,
+            262,
+            850,
+            300
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Write Buffer ",
+        "bbox": [
+            672,
+            318,
+            809,
+            351
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Logical-to-Physical Mappings ",
+        "bbox": [
+            583,
+            374,
+            897,
+            412
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Metadata (e.g., P/E Cycles) ",
+        "bbox": [
+            597,
+            429,
+            883,
+            466
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Core functionality for out-of-place writes ",
+        "bbox": [
+            459,
+            507,
+            948,
+            546
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": " To hide the erase-before-write property ",
+        "bbox": [
+            498,
+            553,
+            927,
+            590
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": " Needs to maintain L2P mappings ",
+        "bbox": [
+            459,
+            646,
+            865,
+            685
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Logical Page Address (LPA) ",
+            " Physical Page Address (PPA) "
+        ],
+        "bbox": [
+            498,
+            692,
+            844,
+            762
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": " Mapping granularity: 4 KiB ",
+        "bbox": [
+            459,
+            814,
+            795,
+            853
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": " 4 Bytes for 4 KiB  0.1% of SSD capacity ",
+        "bbox": [
+            498,
+            859,
+            950,
+            896
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7 ",
+        "bbox": [
+            951,
+            951,
+            965,
+            974
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Host Interface Layer (HIL) ",
+        "bbox": [
+            97,
+            200,
+            400,
+            238
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Flash Translation Layer (FTL) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            279,
+            419,
+            316
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Data Cache Management ",
+        "bbox": [
+            116,
+            338,
+            383,
+            377
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Address Translation ",
+        "bbox": [
+            138,
+            394,
+            358,
+            429
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "GC/WL/Refresh/… ",
+        "bbox": [
+            145,
+            450,
+            352,
+            488
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/8d3513864b6775024b4482902f549571137b6422d1206e5e6f315a9bb626ffe5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            52,
+            518,
+            445,
+            883
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "DRAM ",
+        "text_level": 1,
+        "bbox": [
+            702,
+            201,
+            777,
+            233
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Host Request Queue ",
+        "bbox": [
+            631,
+            262,
+            850,
+            300
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Write Buffer ",
+        "bbox": [
+            672,
+            318,
+            809,
+            351
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Logical-to-Physical Mappings ",
+        "bbox": [
+            583,
+            374,
+            897,
+            412
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Metadata (e.g., P/E Cycles) ",
+        "bbox": [
+            595,
+            429,
+            883,
+            466
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Garbage collection (GC) ",
+        "bbox": [
+            459,
+            507,
+            763,
+            546
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            " Reclaims free pages ",
+            "Selects a victim block  copies all valid pages  erase the victim block "
+        ],
+        "bbox": [
+            498,
+            553,
+            925,
+            666
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Wear-leveling (WL) ",
+        "bbox": [
+            459,
+            675,
+            713,
+            716
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            " Evenly distributes P/E cycles across NAND flash blocks ",
+            "Hot/cold swapping "
+        ],
+        "bbox": [
+            498,
+            722,
+            950,
+            837
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Data refresh ",
+        "bbox": [
+            459,
+            846,
+            638,
+            879
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": " Refresh pages with long retention ages ",
+        "bbox": [
+            498,
+            890,
+            920,
+            927
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Request Handling: Write ",
+        "bbox": [
+            31,
+            33,
+            566,
+            111
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8 ",
+        "bbox": [
+            951,
+            951,
+            965,
+            974
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Request Handling: Write ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            33,
+            566,
+            111
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Host Interface Layer (HIL) ",
+        "bbox": [
+            97,
+            200,
+            400,
+            238
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Flash Translation Layer (FTL) ",
+        "bbox": [
+            77,
+            279,
+            419,
+            318
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Data Cache Management ",
+        "bbox": [
+            116,
+            338,
+            383,
+            377
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Address Translation ",
+        "bbox": [
+            138,
+            394,
+            358,
+            429
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "GC/WL/Refresh/… ",
+        "bbox": [
+            145,
+            450,
+            352,
+            488
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/3fdf9503373cbfd9621dda1e6d484b3a89bfcaf1ac58be39356c28872b9195b4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            52,
+            518,
+            445,
+            883
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "DRAM ",
+        "text_level": 1,
+        "bbox": [
+            702,
+            201,
+            779,
+            233
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Host Request Queue ",
+        "bbox": [
+            631,
+            262,
+            850,
+            300
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Write Buffer ",
+        "bbox": [
+            672,
+            318,
+            809,
+            351
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Logical-to-Physical Mappings ",
+        "bbox": [
+            583,
+            374,
+            897,
+            412
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Metadata (e.g., P/E Cycles) ",
+        "bbox": [
+            597,
+            429,
+            883,
+            466
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Randomizer ",
+        "text_level": 1,
+        "bbox": [
+            459,
+            507,
+            634,
+            542
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Scrambling data to write ",
+            "To avoid worst-case data patterns that can lead to significant errors "
+        ],
+        "bbox": [
+            497,
+            553,
+            959,
+            666
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Error-correcting codes (ECC) ",
+        "text_level": 1,
+        "bbox": [
+            459,
+            675,
+            816,
+            716
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Can detect/correct errors: e.g., 72 bits/1 KiB error-correction capability ",
+            "Stores additional parity information together with raw data "
+        ],
+        "bbox": [
+            497,
+            722,
+            934,
+            870
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Issues NAND flash commands ",
+        "text_level": 1,
+        "bbox": [
+            459,
+            879,
+            833,
+            914
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9 ",
+        "bbox": [
+            951,
+            951,
+            965,
+            975
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Request Handling: Read ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            33,
+            558,
+            111
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Host Interface Layer (HIL) ",
+        "bbox": [
+            97,
+            200,
+            400,
+            238
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Flash Translation Layer (FTL) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            279,
+            419,
+            316
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Data Cache Management ",
+        "bbox": [
+            116,
+            338,
+            383,
+            377
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Address Translation ",
+        "bbox": [
+            138,
+            394,
+            358,
+            429
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "GC/WL/Refresh/… ",
+        "bbox": [
+            145,
+            450,
+            352,
+            488
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/9ea43e4d6819cde36166e51a26fdfed7e715ec632463bef2c1bfd5666a744462.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            52,
+            518,
+            445,
+            883
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "DRAM ",
+        "text_level": 1,
+        "bbox": [
+            702,
+            203,
+            777,
+            233
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Host Request Queue ",
+        "bbox": [
+            631,
+            262,
+            850,
+            300
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Write Buffer ",
+        "bbox": [
+            672,
+            318,
+            809,
+            351
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Logical-to-Physical Mappings ",
+        "bbox": [
+            583,
+            374,
+            897,
+            412
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Metadata (e.g., P/E Cycles) ",
+        "bbox": [
+            597,
+            429,
+            883,
+            466
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": " First checks if the request data exists in the write buffer ",
+        "bbox": [
+            459,
+            507,
+            938,
+            581
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": " If so, returns the corresponding request immediately with the data ",
+        "bbox": [
+            497,
+            594,
+            931,
+            666
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": " A host read request can be involved with several pages ",
+        "bbox": [
+            459,
+            716,
+            954,
+            796
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Such a request can be returned only after all the requested data is ready ",
+        "bbox": [
+            497,
+            801,
+            947,
+            875
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Request Handling: Read ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            33,
+            558,
+            111
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Host Interface Layer (HIL) ",
+        "bbox": [
+            97,
+            200,
+            400,
+            238
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Flash Translation Layer (FTL) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            279,
+            419,
+            316
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Data Cache Management ",
+        "bbox": [
+            116,
+            338,
+            383,
+            377
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Address Translation ",
+        "bbox": [
+            138,
+            394,
+            356,
+            429
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "GC/WL/Refresh/… ",
+        "bbox": [
+            145,
+            450,
+            352,
+            488
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/a9de280c60419696b051a33947aefeaf09e5589a1bfa99211dc729505b4fb473.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            52,
+            518,
+            445,
+            883
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "DRAM ",
+        "text_level": 1,
+        "bbox": [
+            702,
+            203,
+            777,
+            233
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Host Request Queue ",
+        "bbox": [
+            631,
+            262,
+            850,
+            300
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Write Buffer ",
+        "bbox": [
+            672,
+            318,
+            809,
+            351
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Logical-to-Physical Mappings ",
+        "bbox": [
+            583,
+            374,
+            897,
+            412
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Metadata (e.g., P/E Cycles) ",
+        "bbox": [
+            597,
+            429,
+            883,
+            466
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": " Finds the PPA where the request data is stored from the L2P mapping table ",
+        "bbox": [
+            459,
+            505,
+            945,
+            587
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11 ",
+        "bbox": [
+            941,
+            950,
+            963,
+            974
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Request Handling: Read ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            33,
+            558,
+            111
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Host Interface Layer (HIL) ",
+        "bbox": [
+            97,
+            200,
+            400,
+            238
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Flash Translation Layer (FTL) ",
+        "bbox": [
+            77,
+            279,
+            419,
+            318
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Data Cache Management ",
+        "bbox": [
+            116,
+            338,
+            383,
+            377
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Address Translation ",
+        "bbox": [
+            138,
+            394,
+            358,
+            429
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "GC/WL/Refresh/… ",
+        "bbox": [
+            145,
+            450,
+            352,
+            488
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/a6503a1d7050f7dff4c572bbcdd5ee995c5538682bcd5d170edba2c8e2e65cc0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            52,
+            518,
+            444,
+            883
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "DRAM ",
+        "text_level": 1,
+        "bbox": [
+            702,
+            201,
+            779,
+            233
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Host Request Queue ",
+        "bbox": [
+            631,
+            262,
+            850,
+            300
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Write Buffer ",
+        "bbox": [
+            672,
+            318,
+            809,
+            351
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Logical-to-Physical Mappings ",
+        "bbox": [
+            583,
+            374,
+            897,
+            412
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Metadata (e.g., P/E Cycles) ",
+        "bbox": [
+            597,
+            429,
+            883,
+            466
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            " First reads the raw data from the flash chip ",
+            " Performs ECC decoding ",
+            " Derandomizes the raw data ",
+            " ECC decoding can fail "
+        ],
+        "bbox": [
+            450,
+            505,
+            970,
+            833
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Retries reading of the page w/ adjusted $V _ { \\tt R E F }$ ",
+        "bbox": [
+            486,
+            840,
+            963,
+            879
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12 ",
+        "bbox": [
+            937,
+            957,
+            959,
+            981
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            " SSD Organization & Request Handling ",
+            "NAND Flash Organization "
+        ],
+        "bbox": [
+            31,
+            381,
+            816,
+            618
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "Today’s Agenda ",
+        "bbox": [
+            29,
+            40,
+            383,
+            118
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            975
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Basically, it is a transistor ",
+        "bbox": [
+            30,
+            142,
+            447,
+            192
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/e98f0fbd42fc7d7d9d0fd8f4e9b83c9407f67cba6edb819d910dc5efb5f782ff.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            56,
+            442,
+            481,
+            892
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "chart",
+        "img_path": "images/b00be20e67da3bc3f807f1817e5402511d7d9a8f83c0b8e28d651f054916c13c.jpg",
+        "content": "| V_GS Range       | I_D Value |\n| ---------------- | --------- |\n| V_GS < V_TH      | Low       |\n| V_TH             | High      |\n| V_GS > V_TH      | High      |",
+        "chart_caption": [
+            "(Threshold Voltage) "
+        ],
+        "chart_footnote": [],
+        "sub_type": "line",
+        "bbox": [
+            545,
+            479,
+            941,
+            883
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "A Flash Cell ",
+        "bbox": [
+            30,
+            40,
+            300,
+            100
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "A Flash Cell ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            40,
+            300,
+            100
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Basically, it is a transistor ",
+        "bbox": [
+            30,
+            144,
+            447,
+            192
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": " $\\boldsymbol { \\mathsf { W } } /$ a special material: Floating gate (2D) or Charge trap (3D) ",
+        "bbox": [
+            66,
+            205,
+            927,
+            253
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/9622722e70e665e4880c78ce7eb9f85b77d6b42734bb78d2aa3823b2b9e0e8e0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            30,
+            442,
+            481,
+            890
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "chart",
+        "img_path": "images/f1f7b3ff78e7af9b8c973a0e689c07c535cc22bda1f512093d98d4487dbf533b.jpg",
+        "content": "| V_GS | I_D |\n|------|-----|\n| V_TH | Peak |",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "sub_type": "line",
+        "bbox": [
+            545,
+            479,
+            941,
+            887
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "15 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Basically, it is a transistor ",
+        "bbox": [
+            30,
+            144,
+            448,
+            192
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            " w/ a special material: Floating gate (2D) or Charge trap (3D) ",
+            "Can hold electrons in a non-volatile manner "
+        ],
+        "bbox": [
+            66,
+            205,
+            927,
+            307
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/231d97208de674cfa567935eeead10143a74fec63249fd11150973366c6451ba.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            27,
+            385,
+            481,
+            892
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "chart",
+        "img_path": "images/8c5ebf5ff5a696d13b6bd7a8dfe84bedaecb92f8604a4197fcb50b4f097b374a.jpg",
+        "content": "| V_GS | I_D |\n|------|-----|\n| V_TH | Peak |",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "sub_type": "line",
+        "bbox": [
+            544,
+            479,
+            943,
+            888
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "A Flash Cell ",
+        "bbox": [
+            30,
+            40,
+            300,
+            100
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "16 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Basically, it is a transistor ",
+        "bbox": [
+            29,
+            144,
+            448,
+            192
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            " $\\boldsymbol { \\mathsf { W } } /$ a special material: Floating gate (2D) or Charge trap (3D) ",
+            "Can hold electrons in a non-volatile manner ",
+            "Changes the cell’s threshold voltage $( V _ { \\mathsf { T H } } )$ "
+        ],
+        "bbox": [
+            66,
+            205,
+            927,
+            372
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/b28ab9b48af002ee4605a390e069235536d26186f74581f3ca6ddedea51ef3c4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            27,
+            390,
+            481,
+            890
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "chart",
+        "img_path": "images/e1e28a6a97dbed9b9dbc8aafeff2853f5ec2ee6ae416b3f66353b7d16800a2a0.jpg",
+        "content": "| V_TH | I_D (Blue Line) | I_D (Red Line) |\n|------|-----------------|----------------|\n| V_TH | ~0              | ~0             |\n| V_TH' | High            | Low            |\n| V_GS | High            | High           |",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "sub_type": "line",
+        "bbox": [
+            545,
+            457,
+            975,
+            888
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "A Flash Cell ",
+        "bbox": [
+            30,
+            40,
+            300,
+            100
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "17 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Multi-leveling: A flash cell can store multiple bits ",
+        "bbox": [
+            29,
+            142,
+            786,
+            192
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/028213a685cfa7f30f759d413ff536073432bdea01c926994882ef4dbe1e4b41.jpg",
+        "image_caption": [
+            "Program: Inject electrons ",
+            "Flash Cell ",
+            "Erase: Eject electrons "
+        ],
+        "image_footnote": [],
+        "sub_type": "natural_image",
+        "bbox": [
+            270,
+            222,
+            420,
+            351
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/23f55fc2ab34ad2affb062afa73e9e1d22c7d4631423134456334df3532da959.jpg",
+        "image_caption": [
+            "2-bit Multi-level Cell "
+        ],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            619,
+            222,
+            831,
+            351
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Retention loss: A cell leaks electrons over time ",
+        "bbox": [
+            29,
+            407,
+            761,
+            455
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/888d98f5fa461a20887e766724c6e1f35eac6b2c6fe172c9993bc5b9dbfa4a84.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            70,
+            487,
+            229,
+            618
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/e7eb8e55d273fa54a12e4d927dd25b28645b7c410122299c346757253f3ee3cf.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            280,
+            544,
+            361,
+            607
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/5f90f8dfeca63fa896d7a3f3e58935d2ede0e6161cc8d01be7b3ad2314a447ec.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            422,
+            488,
+            577,
+            618
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/8556a18578900303b630d5c66008b62ef394a38d651f0550ef87f2fdd9a13fd9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            630,
+            544,
+            712,
+            607
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "chart",
+        "img_path": "images/6f1d8061a89ce7905cbbf80b23ef443af30117635ed64468e733f3ebff20a456.jpg",
+        "content": "| Category | Value |\n|---|---|\n| 00 | 10 |\n| 01 | 01 |\n| 10 | 11 |\nThe chart displays a single filled circle representing 10 units of a total. The other three columns are not explicitly labeled but are visually represented as smaller segments on the right side.",
+        "chart_caption": [
+            "Retention error! "
+        ],
+        "chart_footnote": [],
+        "sub_type": "pie",
+        "bbox": [
+            770,
+            488,
+            929,
+            618
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Limited lifetime: A cell wears out after P/E cycling ",
+        "bbox": [
+            29,
+            664,
+            804,
+            714
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/16d01b8f36c7d6d35bb4e390a0f570da212e7ce535ffb38e3efd9ee2ca3763f7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            73,
+            761,
+            229,
+            890
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/f1d5095b1bd996f1eb3eefa5a89496c9b15b9733f6474006d0cb4d4256932468.jpg",
+        "image_caption": [
+            "1 year @ 1K P/E cycles "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            281,
+            816,
+            365,
+            840
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "chart",
+        "img_path": "images/c7baa61b76fcf96ab0183f6febc161c762eed949a021856a6116a732682fa121.jpg",
+        "content": "| Category | Value |\n|---|---|\n| 10 | 10 |\n| 00 | 00 |\n| 01 | 01 |\n| 11 | 11 |",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "sub_type": "pie",
+        "bbox": [
+            425,
+            761,
+            579,
+            890
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/5ed1acafa120489c2042530c4a3e37590c34bded31afb540b6dd2dbeb7ec9bb7.jpg",
+        "image_caption": [
+            "1 year @ 10K P/E cycles "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            631,
+            816,
+            713,
+            840
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "chart",
+        "img_path": "images/1e8740a7fdccc89e142aee9cd99ea613d1d70f48c1274323d8f272ea20caee13.jpg",
+        "content": "| Segment | Value |\n|---|---|\n| 10 | 10 |\n| 00 | 00 |\n| 01 | 01 |\n| 11 | 11 |",
+        "chart_caption": [
+            "Retention error! "
+        ],
+        "chart_footnote": [],
+        "sub_type": "pie",
+        "bbox": [
+            775,
+            761,
+            930,
+            890
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "Flash Cell Characteristics ",
+        "bbox": [
+            31,
+            40,
+            576,
+            101
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "18 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": " Multiple (e.g., 128) flash cells are serially connected ",
+        "bbox": [
+            30,
+            142,
+            840,
+            196
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "images/9a386de25e5f4957f9fc1bde8a3e4239f393ddbcc5d65b1631891c6b1b7b5c79.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "text_image",
+        "bbox": [
+            27,
+            253,
+            600,
+            905
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "A NAND String ",
+        "bbox": [
+            29,
+            40,
+            398,
+            118
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "19 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Pages and Blocks ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            42,
+            409,
+            118
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": " A large number $( > 1 0 0 , 0 0 0 )$ of cells operate concurrently ",
+        "bbox": [
+            30,
+            142,
+            919,
+            196
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "chart",
+        "img_path": "images/5b171eb909305f06df1649ff0dfa8128c3f8236c47d965dc57ed42e3c50a6703.jpg",
+        "content": "| Block | Wordline WL0 | Wordline WL1 | Wordline WL126 | Wordline WL127 |\n|-------|--------------|--------------|----------------|----------------|\n| Block | 16 + α KiB    | -            | -              | -              |\n| Block = {(# of WL) × (# of bits per cell)} pages | -            | -            | -              | -              |",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "sub_type": "other",
+        "bbox": [
+            9,
+            253,
+            931,
+            909
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "20 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Pages and Blocks (Continued) ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            40,
+            680,
+            118
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Program and erase: Unidirectional ",
+        "bbox": [
+            30,
+            144,
+            576,
+            192
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Programming a cell  Increasing the cell’s $\\mathsf { V } _ { \\mathsf { T H } }$ ",
+            "Eraseing a cell  Decreasing the cell’s $\\mathsf { V } _ { \\mathsf { T H } }$ "
+        ],
+        "bbox": [
+            66,
+            205,
+            737,
+            312
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": " Programming a page cannot change ‘0’ cells to ‘1’ cells  Erase-before-write property ",
+        "bbox": [
+            29,
+            388,
+            880,
+            494
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Erase unit: Block ",
+        "bbox": [
+            30,
+            570,
+            320,
+            616
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Increase erase bandwidth ",
+            "Makes in-place write on a page very inefficient  Out-of-place write & GC "
+        ],
+        "bbox": [
+            66,
+            633,
+            473,
+            837
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/6db35aafbbb4fa41c3cf39317546ac186099bcf8adccab0f23f8b244c89b01a3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            497,
+            535,
+            959,
+            864
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "21 ",
+        "bbox": [
+            940,
+            950,
+            963,
+            974
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": " A large number (> 1,000) of blocks share bitlines in a plane ",
+        "bbox": [
+            30,
+            142,
+            952,
+            196
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/c77682faff06a8357f7f0cdef86df83e3d6aafef1e2054cdfbeaedc5b938fb3b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            23,
+            227,
+            769,
+            927
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "Planes ",
+        "bbox": [
+            31,
+            42,
+            172,
+            100
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "22 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": " A large number (> 1,000) of blocks share bitlines in a plane ",
+        "bbox": [
+            30,
+            142,
+            952,
+            196
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/d5b71dacd8f7b1eb282f05712cc4d8fe2417aafc1ac0446c0658cfcdd175fba4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            23,
+            227,
+            769,
+            927
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "Planes ",
+        "bbox": [
+            31,
+            42,
+            172,
+            100
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "23 ",
+        "bbox": [
+            941,
+            950,
+            963,
+            974
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Planes and Dies ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            42,
+            381,
+            101
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": " A die contains multiple (e.g., 2 – 4) planes ",
+        "bbox": [
+            30,
+            142,
+            702,
+            196
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/19f82f6a95e19cc7c92c249a091ea2d98c9ae4ced5c15d0547a41fc391b668c8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "sub_type": "flowchart",
+        "bbox": [
+            13,
+            214,
+            983,
+            935
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "24 ",
+        "bbox": [
+            941,
+            950,
+            965,
+            974
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "P&S Modern SSDs ",
+        "text_level": 1,
+        "bbox": [
+            234,
+            187,
+            772,
+            261
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Basics of NAND Flash-Based SSDs ",
+        "text_level": 1,
+        "bbox": [
+            109,
+            325,
+            895,
+            392
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Dr. Mohammad Sadrosadati ",
+        "bbox": [
+            262,
+            600,
+            745,
+            655
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Prof. Onur Mutlu ",
+        "bbox": [
+            356,
+            674,
+            647,
+            727
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "ETH Zürich ",
+        "bbox": [
+            419,
+            746,
+            586,
+            792
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Fall 2022 ",
+        "bbox": [
+            434,
+            811,
+            572,
+            855
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "12 October 2022 ",
+        "bbox": [
+            384,
+            875,
+            633,
+            920
+        ],
+        "page_idx": 24
+    }
+]
