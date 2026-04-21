@@ -17,12 +17,11 @@ def build_question_prompt(question_plan: QuestionPlan) -> str:
         "explanation": "string",
     }
 
+    # Always require visual evidence in generated questions (images are mandatory)
     image_rule = (
         "The question must require visual evidence from the associated image. "
         "Reference visible attributes such as shape, labels, orientation, relative position, color, "
         "or annotations in the explanation."
-        if question_plan.requires_image
-        else "The question should be answerable from text context without image dependency."
     )
 
     constraints = [

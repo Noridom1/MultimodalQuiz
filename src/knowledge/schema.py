@@ -98,3 +98,42 @@ def _count_enum_values(values: list[Enum] | tuple[Enum, ...] | Any) -> dict[str,
 
 def make_document_id(source_file: str | Path) -> str:
     return Path(source_file).stem
+
+
+class Question(BaseModel):
+    id: str
+    question_text: str
+    options: list[str] = Field(default_factory=list)
+    correct_answer: str
+    explanation: str
+    target_concept: str
+    difficulty: str
+    question_type: str
+    associated_image: str | None = None
+    image_grounded: bool = False
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
+    def validate(self) -> None:
+        """Basic validation for question payloads used by generators.
+
+        Raises ValueError on invalid content.
+        """
+        if not self.question_text or not self.question_text.strip():
+            raise ValueError("question_text must be non-empty")
+
+        if self.question_type == "multiple-choice" or self.question_type == "multiple_choice":
+            if not isinstance(self.options, list) or len(self.options) != 4:
+                raise ValueError("multiple-choice questions must include 4 options")
+            opts = [str(o).strip() for o in self.options]
+            if not all(opts):
+                raise ValueError("options must be non-empty strings")
+            ca = str(self.correct_answer).strip()
+            # allow correct_answer as option text or label A/B/C/D
+            if ca not in opts and ca.upper() not in {"A", "B", "C", "D"}:
+                raise ValueError("correct_answer must match one of the options or A/B/C/D")
+
+        if not self.difficulty or self.difficulty.lower() not in {"easy", "medium", "hard"}:
+            raise ValueError("difficulty must be one of: easy, medium, hard")
+
+        if self.associated_image is None or not str(self.associated_image).strip():
+            raise ValueError("associated_image must be a non-empty URL/path for multimodal questions")

@@ -97,20 +97,17 @@ class LLMQuestionGenerator:
         return question
 
     @staticmethod
-    def _default_plan(*, requires_image: bool) -> QuestionPlan:
+    def _default_plan() -> QuestionPlan:
         return QuestionPlan(
             target_concept="unspecified",
             question_type="multiple-choice",
             difficulty="medium",
             reasoning_type="factual",
-            requires_image=requires_image,
+            image_role="illustrative",
+            image_description="unspecified",
             metadata={},
         )
-
-    def generate_from_plan(self, question_plan: QuestionPlan, image_path: str | None = None) -> Question:
-        question_prompt = build_question_prompt(question_plan)
-        return self.inference(question_prompt, question_plan=question_plan, image_path=image_path)
-
+    
     def inference(
         self,
         question_prompt: str,
@@ -123,7 +120,10 @@ class LLMQuestionGenerator:
         if not prompt:
             raise ValueError("Question prompt cannot be empty.")
 
-        effective_plan = question_plan or self._default_plan(requires_image=bool(image_path))
+        # Ensure the effective plan exists; images are mandatory
+        effective_plan = question_plan or self._default_plan()
+        if not image_path:
+            raise ValueError("Image is required by plan but no image_path provided to generator.")
 
         last_error: Exception | None = None
         for attempt in range(self._max_retries + 1):

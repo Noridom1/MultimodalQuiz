@@ -115,8 +115,6 @@ class ImageGenerator:
             return ""
 
         effective_images = list(image_paths or self._config.default_images)
-        if not effective_images:
-            return ""
 
         effective_mask = mask_path or self._config.default_mask
 
@@ -152,7 +150,19 @@ class ImageGenerator:
                     files.append(("mask[]", (mask.name, handle, mime_type)))
 
             if not files:
-                return ""
+                # No seed images provided — attempt text-only image generation via JSON body
+                try:
+                    response = requests.post(
+                        self._config.endpoint,
+                        json=payload,
+                        headers=headers,
+                        timeout=self._config.timeout_seconds,
+                    )
+                    response.raise_for_status()
+                    body = response.json()
+                    return self._extract_url(body)
+                except requests.RequestException:
+                    return ""
 
             response = requests.post(
                 self._config.endpoint,

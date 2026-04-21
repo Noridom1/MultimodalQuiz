@@ -391,6 +391,53 @@ def main():
     # -----------------------------
     graph = None
 
+
+def load_plan(plan_path: str | Path) -> list[QuestionPlan]:
+    """Load a saved plan JSON (list of question objects) and return QuestionPlan instances.
+
+    This is a lightweight loader used by scripts that consume planner output.
+    It fills sensible defaults for missing `image_role`/`image_description`.
+    """
+    path = Path(plan_path)
+    if not path.exists():
+        raise FileNotFoundError(f"Plan JSON not found: {path}")
+
+    with path.open("r", encoding="utf-8") as fh:
+        data = json.load(fh)
+
+    if not isinstance(data, list):
+        raise RuntimeError("Plan JSON must be a list of question objects.")
+
+    plans: list[QuestionPlan] = []
+    for item in data:
+        if not isinstance(item, dict):
+            raise RuntimeError("Each plan item must be an object.")
+
+        target_concept = str(item.get("target_concept", "")).strip()
+        question_type = str(item.get("question_type", "multiple_choice")).strip()
+        difficulty = str(item.get("difficulty", "medium")).strip()
+        reasoning_type = str(item.get("reasoning_type", "factoid")).strip()
+
+        image_role = item.get("image_role") or "illustrative"
+        image_description = item.get("image_description") or target_concept
+        learning_objective = item.get("learning_objective")
+        metadata = item.get("metadata", {}) or {}
+
+        plans.append(
+            QuestionPlan(
+                target_concept=target_concept,
+                question_type=question_type,
+                difficulty=difficulty,
+                reasoning_type=reasoning_type,
+                image_role=image_role,
+                image_description=image_description,
+                learning_objective=learning_objective,
+                metadata=metadata,
+            )
+        )
+
+    return plans
+
     if args.use_memory:
         print("Using in-memory graph...")
 
