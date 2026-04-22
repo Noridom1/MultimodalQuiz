@@ -12,3 +12,4 @@ langchain-core
 langchain-openai
 langchain-mistralai
 python-dotenv
+google-genai

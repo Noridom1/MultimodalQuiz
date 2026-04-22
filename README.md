@@ -116,7 +116,6 @@ Plan quiz before generating content.
       "question_type": "MCQ",
       "difficulty": "medium",
       "reasoning_type": "causal",
-      "requires_image": true,
       "image_role": "illustrative",
       "image_description": "...",
       "learning_objective": "..."
