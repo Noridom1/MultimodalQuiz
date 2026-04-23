@@ -4,7 +4,6 @@ import json
 from dataclasses import asdict, is_dataclass
 from uuid import uuid4
 
-from src.generator.prompt_builder import build_question_prompt
 from src.knowledge.schema import Question
 from src.planner.planner import QuestionPlan
 from src.utils.llm import LLMClient
@@ -30,6 +29,11 @@ class LLMQuestionGenerator:
             'For multiple-choice questions, always return exactly 4 non-empty options and set '
             '"correct_answer" to either the full correct option text or one of A, B, C, D.'
         )
+
+    @staticmethod
+    def _requires_image_grounding(question_plan: QuestionPlan) -> bool:
+        image_role = (question_plan.image_role or "illustrative").strip().lower()
+        return image_role == "reasoning"
 
     @staticmethod
     def _repair_prompt(
@@ -119,7 +123,7 @@ class LLMQuestionGenerator:
             difficulty=question_plan.difficulty,
             question_type=question_plan.question_type,
             associated_image=image_path,
-            image_grounded=bool(image_path),
+            image_grounded=LLMQuestionGenerator._requires_image_grounding(question_plan),
             metadata={"reasoning_type": question_plan.reasoning_type, **question_plan.metadata},
         )
         question.validate()
@@ -153,6 +157,7 @@ class LLMQuestionGenerator:
         effective_plan = question_plan or self._default_plan()
         if not image_path:
             raise ValueError("Image is required by plan but no image_path provided to generator.")
+        require_image_grounding = self._requires_image_grounding(effective_plan)
 
         last_error: Exception | None = None
         previous_output: str | None = None
@@ -163,9 +168,9 @@ class LLMQuestionGenerator:
                     original_prompt=prompt,
                     invalid_payload_text=previous_output,
                     validation_error=str(last_error),
-                    require_image_grounding=bool(image_path),
+                    require_image_grounding=require_image_grounding,
                 )
-            elif image_path and attempt > 0:
+            elif require_image_grounding and attempt > 0:
                 attempt_prompt = (
                     f"{prompt}\n\n"
                     "Retry instruction: The output must require visual evidence from the associated image. "
@@ -183,7 +188,7 @@ class LLMQuestionGenerator:
                     image_path=image_path,
                 )
 
-                if image_path and not self._is_image_grounded(question):
+                if require_image_grounding and not self._is_image_grounded(question):
                     raise ValueError("Generated question is not image-grounded.")
 
                 return question
