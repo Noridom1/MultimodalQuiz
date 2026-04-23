@@ -15,6 +15,9 @@ from src.utils.llm import LLMClient
 
 from dotenv import load_dotenv
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_PLAN_OUTPUT = PROJECT_ROOT / "data" / "plans" / "quiz_plan.json"
+
 @dataclass
 class QuestionPlan:
     target_concept: str
@@ -312,7 +315,7 @@ class QuizPlanner:
     def save_plan(
         self,
         plans: list["QuestionPlan"],
-        output_path: str | Path,
+        output_path: str | Path = DEFAULT_PLAN_OUTPUT,
     ) -> None:
         output_path = Path(output_path)
         output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -373,6 +376,12 @@ def main():
         type=float,
         default=0.2,
         help="Hard difficulty ratio"
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=DEFAULT_PLAN_OUTPUT,
+        help="Path to write the generated plan JSON",
     )
 
     args = parser.parse_args()
@@ -480,7 +489,7 @@ def load_plan(plan_path: str | Path) -> list[QuestionPlan]:
         difficulty_distribution=difficulty_distribution
     )
 
-    planner.save_plan(plans, "./quiz_plan.json")
+    planner.save_plan(plans, args.output)
 
 if __name__ == "__main__":
     raise SystemExit(main())
