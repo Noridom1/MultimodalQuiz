@@ -1,0 +1,4454 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "TỈNH ỦY ĐắK LắK BTC CUỘC THI TÌM HIỂU 80 NĂM LỊCH SỬ VỀ VANG ĐẢNG BỘ TỈNH "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                122,
+                53,
+                520,
+                113
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "* "
+                    }
+                ]
+            },
+            "bbox": [
+                320,
+                114,
+                333,
+                124
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Số1706 -CV/BTC "
+                    }
+                ]
+            },
+            "bbox": [
+                233,
+                130,
+                416,
+                148
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "V/v công bố Thể lệ, Tư liệu tham khảo Cước thi "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                150,
+                516,
+                166
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "tìm hiểu 80 năm lịch sử về vang Đàng bộ "
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                167,
+                489,
+                183
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "tỉnh Đắk Lắk (23/11/1940-23/11/2020) "
+                    }
+                ]
+            },
+            "bbox": [
+                161,
+                183,
+                481,
+                199
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ĐẢNG CỘNG SẢN VIỆT NAM "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                550,
+                52,
+                903,
+                75
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đắk Lắk, ngày 25 tháng 3 năm 2020 "
+                    }
+                ]
+            },
+            "bbox": [
+                552,
+                109,
+                906,
+                132
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Kính gửi: - Ban cán sự đắng, đắng đoàn, "
+                    }
+                ]
+            },
+            "bbox": [
+                279,
+                219,
+                672,
+                238
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Các cơ quan tham mưu, giúp việc của Tỉnh ủy, "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Mặt trận Tổ quốc và các tổ chức chính trị-xã hội tỉnh, "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Các sở, ban, ngành và tương đương, "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                381,
+                238,
+                906,
+                296
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Các huyện ủy, thị ủy, thành ủy, đắng ủy trực thuộc, "
+                    }
+                ]
+            },
+            "bbox": [
+                381,
+                298,
+                884,
+                317
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đài Phát thanh - Truyền hình tỉnh, Báo Đắk Lắk, "
+                    }
+                ]
+            },
+            "bbox": [
+                381,
+                318,
+                862,
+                338
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tạp chí Chư Yang Sin, Cổng Thông tin điện tử tỉnh. "
+                    }
+                ]
+            },
+            "bbox": [
+                381,
+                340,
+                879,
+                360
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Thực hiện Kế hoạch số 140-KH/TU, ngày 12/12/2019 của Ban Thường vụ Tỉnh ủy về tổ chức Cuộc thi tìm hiểu 80 năm lịch sử về vang Đắng bộ tỉnh Đắk Lắk (23/11/1940-23/11/2020); Ban Tổ chức Cuộc thi tìm hiểu 80 năm lịch sử về vang Đắng bộ tỉnh Đắk Lắk: "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                381,
+                928,
+                459
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Công bố Thể lệ số 03, Tư liệu, Danh mục tài liệu tham khảo Cược thi (gửi kèm theo). Đề nghị Đài Phát thanh-Truyền hình tỉnh, Báo Đắk Lắk, Cổng Thông tin điện tử tỉnh đăng tải toàn văn Thể lệ, Tư liệu, Danh mục nói trên tại địa chỉ https://drt.org.vn/; http://baodaklak.vn/; https://daklak.gov.vn/. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                465,
+                928,
+                544
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Đề nghị các cơ quan, đơn vị, địa phương sử dụng, đăng tải tư liệu trên các cổng thông tin điện tử, trang web, bản tin, trang fanpage, các trang mạng xã hội và các hình thức tuyên truyền khác để phổ biến rộng rãi đến cán bộ, đăng viên; công chức, viên chức, người lao động; chiến sỹ lực lượng vũ trang; đoàn viên, hội viên, học sinh, sinh viên và các tầng lớp Nhân dân các dân tộc trong tỉnh tìm hiểu, tham gia Cước thi./. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                550,
+                928,
+                667
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Nơi nhận: "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                138,
+                681,
+                238,
+                698
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Như trên, "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- TTTU (b/c), "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đ/c Trường BTC Cuộc thi (b/c), "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Lưu Ban Tuyên giáo Tỉnh ủy. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                138,
+                701,
+                418,
+                767
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "TRƯỞNG BAN TUYÊN GIÁO "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                523,
+                678,
+                847,
+                698
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "kiêm "
+                    }
+                ]
+            },
+            "bbox": [
+                659,
+                701,
+                710,
+                716
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "PHÓ TRƯỜNG BAN TỔ CHỨC CUỘC THI "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                452,
+                718,
+                916,
+                739
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/615d33371c0f30a38c247dd95ad9f788b890b83f481147c96021657bd8c06337.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                501,
+                740,
+                833,
+                861
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Huỳnh Thị Chiến Hòa "
+                    }
+                ]
+            },
+            "bbox": [
+                569,
+                854,
+                798,
+                874
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "I. CÁC CUỘC KHỜI NGHĨA CHỐNG THỰC DÂN PHÁP TIÊU BIỂU TRƯỚC NĂM 1940 Ô ĐắK LắK "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                133,
+                925,
+                176
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Cuộc khởi nghĩa do N'Trang Guh lãnh đạo (1887-1913) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                191,
+                182,
+                781,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "N'Trang Guh là người dân tộc Êđê, tên thật là Y Guh H'Dók, sinh năm 1845, tại buôn Čuah Kplang, nay thuộc xã Buôn Čuah (Krông Nô, Đắk Nông). Năm 1887, quân xâm lược Xiêm, Miến Điện được sự hậu thuẫn của thực dân Anh xâm phạm lãnh thổ của Đắk Lắk. N'Trang Guh đã lãnh đạo 25 buôn, với 600 đồng bào người Bih düng cảm chặn đánh quân xâm lược, giành chiến thăng oanh liệt, tiêu diệt gần hết quân dịch trên cánh đồng buôn Phôk, buôn Tuôr  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{(1)}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " , buộc chúng phải rút chạy khởi Đắk Lắk. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                207,
+                928,
+                347
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tháng 3-1900, quân Pháp do tên công sứ Buốc-Gioa (Bourgeois) đánh chiếm các buôn người Bih ở hạ lưu sông Krông Ana và Krông Nô (Krông Knô) bị nghĩa quân N'Trang Guh bắn chết hụt, buộc phải bỏ chạy khởi buôn Tuôr. Trước khi bỏ chạy chúng còn đốt trụi buôn Trấp, buôn Čuah quê hương của N'Trang Guh. Năm 1901, sau khi cứng cố lực lượng, nghĩa quân đã vượt sông Krông Knô tiến công tiêu diệt toàn bộ lính Pháp tại đôn buôn Tuôr. Sau đó, nghĩa quân lần lượt hạ tiếp các đồn khác của Pháp ở các buôn như Djiêng, Djou, Phity, Tinh... "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                352,
+                928,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Từ năm 1901-1913, quân Pháp liên tục mở nhiều cuộc hành quân khá quy mô nhằm tiêu diệt nghĩa quân. Do thể giấc quá mạnh, thủ lĩnh N'Trang Guh đã kêu gọi nhân dân chuyển buôn vào rừng sâu, bất hợp tác với Pháp. Năm 1914, do trong hàng ngũ nghĩa quân có người phần bội, địa điểm đóng quân của N'Trang Guh bị tiết lộ nên ông bị thực dân Pháp bắt và giết hại. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                494,
+                928,
+                592
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Cuộc khởi nghĩa do Ama Jhao lãnh đạo (1889-1905) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                191,
+                599,
+                742,
+                620
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ama Jhao tên thật là Y Yên Ayǔn, sinh năm 1840 tại buôn Tung (Có tài liệu cho là buôn Kô Tam, thành phố Buôn Ma Thuột). Ama Jhao là một từ trưởng giàu có, uy tín của ông nổi lên mạnh mê và lan sang những vùng khác. Nhận thấy tầm ảnh hưởng to lớn của Ama Jhao, thực dân Pháp đã tìm mọi cách lôi kéo, hăm doạ, nhưng Ama Jhao vẫn phần kháng và quyết tâm chuẩn bị khởi nghĩa. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                624,
+                928,
+                722
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Năm 1890, Ama Jhao tổ chức mai phục một toán quân Pháp trên đường từ Cũng Sơn (huyện Sơn Hoà, tỉnh Phú Yên) tiến lên chiếm Buôn Ma Thuột. Tại Ea Yông, toán quân này bị nghĩa quân chặn đánh dữ đội, buộc phải rút chạy. Năm 1901, Ama Jhao dẫn đầu một đoàn các từ trưởng, giả làng xuống Phú Yên phần đối việc mở đường, tự tiện sáp nhập đất đai của người Êđê vào Lào. Sau đó, Ama Jhao đã tăng cường liên kết với các từ trưởng khác như Ama Gơm, Ama Hap, Ama Dak, Ama Jak chỉ huy, đồng thời hưởng ứng các cuộc khởi nghĩa khác đang nổi lên lúc đó của N'Trang Guh, Ôi H'Mai và MaDla... tạo thành mạng lưới chống Pháp rộng khắp vùng Tây Nguyên, gây cho giấc Pháp rất nhiều khó khăn. Thực dân Pháp treo thường cho bắt cứ ai giết hoặc chỉ điểm nơi ở của Ama Jhao. Tháng 1-1905, qua tin mật báo, quân Pháp bao vậy và bắt được Ama Jhao. Chứng tra tấn ông rất tàn bạo, Ama Jhao mất vào tháng 3-1905. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                728,
+                928,
+                885
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "BAN\nTUYÊNGIÁO\nCUOCTI\nDÀNG B\nTINHỦY ĐÀKLĐI\nĐÀNG B "
+                    }
+                ]
+            },
+            "bbox": [
+                201,
+                17,
+                377,
+                140
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "TƯ LIÊU THAM KHẢO "
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                60,
+                703,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "CƯỚCTHI TÌM HIỂU 80 NĂM LỊCH SỬ VỀ VANG "
+                    }
+                ]
+            },
+            "bbox": [
+                281,
+                83,
+                833,
+                103
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "ĐẢNG BỘ TỈNH ĐắK LắK (23/11/1940-23/11/2020) "
+                    }
+                ]
+            },
+            "bbox": [
+                284,
+                105,
+                828,
+                124
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) Ô vùng buôn Trấp, huyện Krông Ana hiện nay. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                919,
+                469,
+                937
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                150,
+                81,
+                931,
+                159
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3. Cước dấu tranh do Ôi H'Mai và MaDla lãnh đạo (1901-1922) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                210,
+                165,
+                841,
+                185
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ôi H'Mai và MaDla là thủ lĩnh của người Êđê Mdhur vùng M'Drák, Cheo Reo, Krông Búk, Krông Pắc, lãnh đạo cuộc khởi nghĩa từ năm 1901-1922. "
+                    }
+                ]
+            },
+            "bbox": [
+                150,
+                190,
+                931,
+                228
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Trước việc quân Pháp ngang nhiên lập đồn ở buôn của mình, tháng 7-1901, Ôi H'Mai, Ôi H'Phai cùng 40 nghĩa quân tấn công tiêu diệt đồn Ea H'ly, giết chết tên chỉ huy người Pháp và gần hết toán lĩnh khó xanh. Sau thất bại này, quân Pháp bắt đầu cử những đơn vị lớn hơn tiến hành lùng sục nghĩa quân khắp nơi nhưng không có kết quả. Năm 1905, Ôi H'Mai lâm bệnh và mất ở Ea H'ly. Ôi H'Phai và những người khác tiếp tục chiến dấu đến tháng 3-1909 thì bị dịch bắt. Sau khi cuộc khởi nghĩa của Ôi H'Mai và các đồng đội của ông thất bại, MaDla, tủ trưởng Buôn MaDla tiếp tục đúng lên lãnh đạo khởi nghĩa, phong trào lan rộng khắp vùng M'Drák, xuống Cứng Sơn, qua Cheo Reo và phía Krông Pắc. Tháng 6-1920, MaDla bị bắt và giết hại. Phong trào kéo dài đến năm 1922 mới chấm dứt. "
+                    }
+                ]
+            },
+            "bbox": [
+                150,
+                234,
+                933,
+                427
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4. Phong trào đấu tranh chống thực dân Pháp của giới công chức, viên chức Buôn Ma Thuột (1925-1926) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                151,
+                433,
+                931,
+                473
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Y Jút H'Wing là một nhân sĩ trí thức người Êđê, ông sinh năm 1888 tại buôn Kram, xã Ea Tiêu (nay thuộc huyện Cư Kuin, Đắk Lắk). Cha của ông là Y Chăm đã từng tham gia phong trào khởi nghĩa của N'Trang Guh và bị bắt. Ông học qua các trường sơ học Buôn Ma Thuột, trung học Khải Định. Năm 1916, tốt nghiệp trung học, Y Jút về dạy ở trường Pháp-Êđê ở Buôn Ma Thuột. Đầu năm 1925, Y Jút H'Wing và Y Út Niê bí mật tổ chức âm sát tên công sứ Pháp Léopold Sabatier nhưng không thành công. "
+                    }
+                ]
+            },
+            "bbox": [
+                150,
+                477,
+                933,
+                615
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đầu tháng 10-1925, ông lãnh đạo đông đảo học sinh và giáo viên trường Pháp-Êđê biểu tình, viết đơn kiện gửi đến Toàn quyền Đông Dương và Khâm sứ Trung Kỳ, Tổng Thanh tra Đông Dương tố cáo những hành vi tôi ác của Léopold Sabatier (L.Sabatier). Kết quả là chính quyền thực dân buộc phải chuyển L.Sabatier khởi Đắk Lắk và ít lâu sau trả L.Sabatier về nước. "
+                    }
+                ]
+            },
+            "bbox": [
+                153,
+                619,
+                933,
+                716
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5. Cước khởi nghĩa do N'Trang Lông lãnh đạo (1912-1935) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                213,
+                723,
+                799,
+                744
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "N'Trang Lóng sinh năm 1870 là tù trưởng của bộ lạc Biết sống ở Bu N'Trang, một làng M'Nông thuộc khu vực sông Đắk Rtih ở phía bắc cao nguyên M'Nông (nay thuộc tỉnh Đắk Nông). "
+                    }
+                ]
+            },
+            "bbox": [
+                153,
+                747,
+                933,
+                809
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Trước cảnh thực dân Pháp xâm lược, áp bức buôn làng, N'Trang Long đã đúng lên tập hợp lực lượng khởi nghĩa, có lúc lực lượng nghĩa quân lên đến 5.000 người, thanh thế của N'Trang Long vang đội chấp miền Nam Tây Nguyên. "
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                812,
+                936,
+                874
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cược khởi nghĩa do N'Trang Long lãnh đạo kéo dài từ năm 1912-1935, ông cùng nghĩa quân đã ghi bao chiến công oanh liệt, tấn công và làm vô hiệu hóa nhieu dàn bôt cua dich, tiu duet hang tram linh Phap, trong do có nhung ten si quan sung so nu Henri Maitre, Trul Fet, Gatille, Margad, Levily More, Leconte... gai phong vung cao nguyen M'Nong rong lón. "
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                877,
+                936,
+                918
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2 "
+                    }
+                ]
+            },
+            "bbox": [
+                532,
+                42,
+                545,
+                56
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                128,
+                78,
+                925,
+                139
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Giữa tháng 5-1935, quân Pháp tập trung lực lượng lớn, từ ba hướng Thủ Dầu Một đánh lên, từ Campuchia đánh sang, từ Đắk Lắk đánh xuống, tập trung tiến công đại bản doanh của nghĩa quân. Liên tục bị vậy hãm, một số tù trường đầu hàng, một số khác hy sinh hoặc bị bắt. Lương thực, vũ khí, quân số của nghĩa quân tại vùng căn cứ Nâm Nung thiếu thôn nghiêm trọng. Quân Pháp lập thêm nhiều đơn bốt như đồn Hăngrimét, đồn Boukok và nhiều căn cứ vệ tinh bao vậy vùng căn cứ Nâm Nung, tiếp tục tiết chặt vòng vậy đối với nghĩa quân. Trong một trận chiến đấu không cân sức, N'Trang Lọng bị trọng thương và mất vào cuối tháng 5-1935. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                144,
+                925,
+                300
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "II. QUÁ TRÌNH THÀNH LẬP CHI BỘ CỘNG SẢN ĐẦU TIÊN Ô ĐắK LắK VÀ Ý NGHĨA LỊCH SỬ "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                303,
+                925,
+                346
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Quá trình thành lập Chi bộ Cộng sản đầu tiên ở Đắk Lắk "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                189,
+                351,
+                794,
+                374
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Nhà dày Buôn Ma Thuột (trước đây có lúc gọi là nhà từ Ban Mê Thuột), do thực dân Pháp thiết lập trong những năm 1930 - 1931, với mục đích chính là để dày ai và thủ tiêu từ chính trị ở các tỉnh Trung Kỳ. Sau năm 1930-1931, chúng dày lên Buôn Ma Thuột 30 chiến sĩ cộng sản. Từ năm 1932, thực dân Pháp xây cất thêm và mở rộng quy mô nhà dày. Đến năm 1936, thực dân Pháp chuyển số từ còn sống sót ở nhà từ Lao Bảo (Quảng Trị) đến Buôn Ma Thuột, Nhà dày Buôn Ma Thuột từ đó trở thành một nhà dày lớn của Pháp ở Đông Dương. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                377,
+                925,
+                515
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Phong trào cách mạng trong nước cảng phát triển, cảng thời thúc những chiến sĩ cộng sản và những người yêu nước bị giam cảm trong Nhà dày Buôn Ma Thuột tăng cường đoàn kết dấu tranh, dịch cảng khủng bố giết hại tù chính trị, cuộc dấu tranh trong Nhà dày cảng diễn ra quyết liệt. Các chiến sĩ cách mạng vừa dấu tranh trực diện với kê thù, vừa đẩy mạnh tuyên truyền chủ nghĩa Mác - Lênin, tổ chức vượt ngực, nhen nhóm gây dựng cơ sở Đảng. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                520,
+                925,
+                637
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cuối năm 1940, một số chiến sĩ cộng sản trong Nhà đày (khoảng 10 đồng chí) thành lập chi bộ Đăng Cộng sản². Với các ký hiệu và tên gọi khác nhau, chỉ bộ được tổ chức hoạt động và phát triển đội ngũ đăng viên của mình theo Chính cương, Điều lệ Đăng và tự xác định phải thực hiện các nhiệm vụ sau: "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                642,
+                925,
+                722
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Là hạt nhân tổ chức và lãnh đạo toàn thể tù nhân dấu tranh bảo vệ quyền lợi vật chất và tinh thần của tù chính trị, là lực lượng nòng cốt duy trì, cũng cố các tổ chức của tù nhân. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                727,
+                925,
+                785
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đào tạo và bồi dưỡng cán bộ cho Đắng, chuẩn bị lực lượng cán bộ lãnh đạo phong trào quản chúng khi thoát khởi cảnh lao tù. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                791,
+                925,
+                832
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Tìm cách liên lạc để tổ chức vận động cách mạng ở thị xã Buôn Ma Thuột. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                837,
+                925,
+                877
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3 "
+                    }
+                ]
+            },
+            "bbox": [
+                518,
+                40,
+                530,
+                53
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "2 Trên cơ sở kết quả Hội thảo “Xác định ngày, tháng kỳ niệm thành lập Đằng bộ tỉnh Đắk Lắk”, Tỉnh ủy đã ban hành Quyết định số 1502/QĐ-TU về việc lấy ngày 23-11-1940 làm Ngày kỳ niệm thành lập Đằng bộ tỉnh Đắk Lắk. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                907,
+                925,
+                938
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Tổ chức các cuộc vượt ngực, đưa cán bộ về cho Đảng. Bồi dưỡng lý luận cách mạng và các chỉ thị, nghị quyết của Đảng cho những người sắp hết hạn tủ để trở ra hoạt động cách mạng. "
+                    }
+                ]
+            },
+            "bbox": [
+                150,
+                82,
+                934,
+                140
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Ý nghĩa của sự kiện thành lập Chi bộ Cộng sản đầu tiên ở Đắk Lắk "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                207,
+                145,
+                907,
+                167
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Thông nhất sự lãnh đạo của Đảng trong Nhà dày. Dưới sự lãnh đạo của Chỉ bộ, các chiến sỹ cộng sản đã kế thừa, phát triển về tổ chức, hình thức dấu tranh của các thời kỳ trước đó, trên một quy mô rộng lớn và quyết liệt hơn, mục tiêu dấu tranh cũng cụ thể và cao hơn, đem lại kết quả lớn hơn. "
+                    }
+                ]
+            },
+            "bbox": [
+                150,
+                173,
+                934,
+                249
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Từ Chi bộ cộng sản đầu tiên đã gieo mầm, tạo những hạt giống đồ đầu tiên của Đắng bộ tính Đắk Lắk. Nhiều nhân sĩ, trí thức, công chức là người dân tộc thiểu số làm việc cho chính quyền thực dân đã được những người cộng sản giáo dục, cảm hóa thành những cán bộ cách mạng, theo Đắng, theo Bác Hồ, có uy tín lớn đối với nhân dân các dân tộc Tây Nguyên nói chung, Đắk Lắk nói riêng như các đồng chí Y Blók Êban, Y Bih Alê Ô, Y Yôn (Minh Sơn)... "
+                    }
+                ]
+            },
+            "bbox": [
+                150,
+                255,
+                934,
+                371
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Là mốc lịch sử quan trọng đánh dấu bước chuyển mình trong phong trào dấu tranh giải phóng dân tộc tại tỉnh Đắk Lắk. Sự thành lập Chi bộ cộng sản đầu tiên của tỉnh Đắk Lắk là nhân tố quyết định đến thắng lợi trong cuộc vận động giải phóng dân tộc, góp phần đưa Cách mạng Tháng Tám - 1945 tới thành công ở Đắk Lắk. "
+                    }
+                ]
+            },
+            "bbox": [
+                150,
+                377,
+                934,
+                473
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "III. CÁC KÝ ĐẠI HỘI ĐẢNG BỘ TỈNH ĐắK LắK VÀ CÁC ĐỒNG CHÍ BÍ THU TỈNH ỦY QUA CÁC THỜI KÝ "
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                477,
+                934,
+                519
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Các kỳ Đại hội Đăng bộ tỉnh Đắk Lắk "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                214,
+                525,
+                614,
+                547
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.1. Đại hội lần thứ I (tháng 8-1960): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                214,
+                553,
+                581,
+                573
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đầu năm 1960, để tăng cường sự lãnh đạo phong trào cách mạng ở các địa bàn phía Nam tỉnh Đắk Lắk, Liên khu ủy V quyết định chia tỉnh Đắk Lắk thành 4 đơn vị riêng: B3, B4, B5, B6, dưới sự chỉ đạo trực tiếp của Liên tỉnh 4 và Liên khu ủy V³. Khu ủy tăng cường nhiều cán bộ lãnh đạo và lực lượng cho các đơn vị (B) ở phía Nam. "
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                577,
+                936,
+                677
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tháng 8-1960, được sự chỉ đạo của Liên khu ủy V, tỉnh Đắk Lắk triệu tập Hội nghị đại biểu Đăng bộ tỉnh lần thứ I⁴ (Hội nghị đại biểu được cấp trên chuẩn y như Đại hội) tại vùng căn cứ Cư Jú-Dliêya phía Bắc của tỉnh. Dự Đại hội có 50 đại biểu được bầu từ các huyện và các cơ quan của tỉnh. "
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                678,
+                936,
+                760
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4 "
+                    }
+                ]
+            },
+            "bbox": [
+                532,
+                42,
+                546,
+                56
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "^{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " B3 (Bắc Đắk Lắk) bao gồm 4 huyện: M'Đrák, đông Cheo Reo, tây Cheo Reo và Buôn Hồ. "
+                    }
+                ]
+            },
+            "bbox": [
+                206,
+                805,
+                819,
+                821
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "- B4 (Quảng Đức) gồm các huyện Đắk Mil, Đức Xuyên của Đắk Lắk và Khiêm Đức, Kiên Đức của Lâm Đồng và Phước Long. Đồng chí Hồng Ung làm Bí thư Ban Cán sự. "
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                819,
+                939,
+                850
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "- B5 gồm huyện Lắk và một số vùng bắc Lạc Dương, Đức Trọng, một số làng thuộc Đức Xuyên và một số làng nam đường 21, đồng chí Đào Tấn Ngoại làm Bí thư Ban cán sự. "
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                844,
+                939,
+                879
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "- B6 gồm có 3 huyện nông thôn (ven thị xã) và thị xã Buôn Ma Thuột, hai huyện Bắc và Nam thị xã với mật danh K61, K62. Một huyện Tây Thị xã gọi là K63 gồm toàn bộ phía Bắc và phần lớn phía Nam huyện Đắk Mil (Đức Lập). Thị xã Buôn Ma Thuột (chủ yếu là nội thị) gọi là K64. "
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                875,
+                941,
+                918
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "4 Trước Đại hội lần thứ I, Đắk Lắk chưa thực hiện chủ trương chia tách các B. "
+                    }
+                ]
+            },
+            "bbox": [
+                207,
+                917,
+                731,
+                933
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội đề ra phương hướng, nhiệm vụ tiếp tục thực hiện Nghị quyết 15 của Ban Chấp hành Trung ương Đăng (khoá II) về đường lối cách mạng Việt Nam ở miền Nam: \"Con đường phát triển cơ bản của cách mạng Việt Nam ở miền Nam là khởi nghĩa giành chính quyền về tay nhân dân. Theo tình hình cụ thể và yêu cầu hiện nay của cách mạng thì con đường đó là lấy sức mạnh của quản chúng, dưa vào lực lượng chính trị của quản chúng là chủ yếu, kết hợp với lực lượng vũ trang để đánh đồ quyền thống trị của để quốc và phong kiến, dụng lên chính quyền cách mạng của nhân dân...\". "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                79,
+                927,
+                236
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đăng bộ tỉnh gồm 13 đồng chí, đồng chí Nguyễn Hồng U Ng (Vũ Anh Ba) được bầu làm Bí thư Tỉnh ủy. Tháng 12-1960, đồng chí Nguyễn Tuân (Ama Đăng) làm Bí thư Tỉnh ủy thay đồng chí Nguyễn Hồng U Ng nhận công tác khác. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                239,
+                927,
+                319
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1.2. Đại hội lần thứ II (Đại hội đại biểu Đăng bộ B3, tháng 8-1963; Đại hội đại biểu Đăng bộ B5, tháng 1-1965): "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                325,
+                927,
+                367
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đại hội B3: Tháng 8-1963, Đại hội đại biểu lần thứ II của Đảng bộ tỉnh Đắk Lắk (B3) hợp tại Ea Drãh, vùng căn cứ Cư Jú-Dliêya phía Bắc của tỉnh. Đại hội kiểm điểm tình hình lãnh đạo của tỉnh trong thời kì dịch chuyển sang chiến lược chiến tranh đặc biệt và đề ra phương hướng nhiệm vụ trung tâm là phát động quản chúng phá kìm, phá áp, giành lại quyền làm chủ vùng nông thôn. Đại hội cũng đặc biệt nhân mạnh đến công tác xây dựng Đảng, tăng cường sự đoàn kết nhất trí trong Đảng bộ, khác phục tư tưởng của một bộ phận dång viên ngại gian khô, co thủ rụt rè, tập trung cho công tác tiến công ra phía trước. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                371,
+                927,
+                526
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đắng bộ tỉnh Đắk Lắk khóa II, đồng chí Nguyễn Xuân Nguyên (Nguyễn Liên, Mười Nguyên) được bầu làm Bí thư Tỉnh ủy. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                531,
+                927,
+                572
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đại hội B5: Tháng 1-1965, Hội nghị đại biểu Đăng bộ B5 hợp tại Jiê Yuk (nay thuộc xã Đắk Phơi, huyện Lắk) được cấp trên chuẩn y như Đại hội. Đại hội kiểm điểm tình hình từ khi hợp nhất hai đơn vị B5, B6 và đề ra nhiệm vụ mới, trọng tâm là đầy mạnh phát động quản chúng, phá áp chiến lược, mở rộng vùng giải phóng nông thôn. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                577,
+                927,
+                675
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đăng bộ B5 gồm 11 đồng chí, đồng chí Nguyễn Xuân Nguyên (Nguyễn Liên, Mười Nguyên) được bầu làm Bí thư Tỉnh uỷ. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                680,
+                927,
+                721
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.3. Đại hội lần thứ III (tháng 7-1966): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                189,
+                727,
+                577,
+                749
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sau 5 năm chia tách thành các đơn vị B3, B4, B5, B6, tình hình và phong trào cách mạng của các đơn vị đã phát triển tương đối đều, vùng giải phóng được mở rộng và nổi liền. Để thống nhất sự chỉ đạo trong toàn tỉnh, tháng 10-1965, Khu uy V quyết định hợp nhất B3, B5 lại thành tỉnh Đắk Lắk do đồng chí Nguyễn Xuân Nguyên làm Bí thư Tỉnh ủy. Tháng 7-1966, Đại hội đại biểu Đăng bộ tỉnh Đắk Lắk lần thứ III được triệu tập tại Ea Play, xã Đăng Tuôr (nay là xã Cư Pui, huyện Krông Bông) vùng căn cứ phía Nam của tỉnh. Đại hội đánh giá những thắng lợi đã giành được trong năm 1965-1966, kiểm điểm sự lãnh đạo của Đăng bộ; đề ra những vấn đề trọng tâm cần nằm vững trong chỉ đạo kháng chiến. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                754,
+                927,
+                929
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5 "
+                    }
+                ]
+            },
+            "bbox": [
+                520,
+                41,
+                533,
+                56
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đắng bộ tỉnh khóa III, đồng chí Nguyễn Xuân Nguyên (Nguyễn Liên, Mười Nguyên) được bầu làm Bí thư Tỉnh ủy. "
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                81,
+                934,
+                121
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.4. Đại hội lần thứ IV (tháng 4-1969): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                212,
+                127,
+                589,
+                147
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tháng 4-1969, Đại hội đại biểu Đăng bộ tỉnh lần thứ IV hợp tại buôn M'Năng Dong (nay thuộc xã Yang Mao, huyện Krông Bông), vùng căn cứ phía Nam của tỉnh. Đại hội xác định nhiệm vụ trọng tâm là: chống bình định, giành và giữ dân vùng nông thôn; cũng cổ và mở rộng vùng giải phóng; phát triển thực lực cách mạng ở thị xã, thị trấn nhằm đánh bại căn bản kế hoạch bình định của dịch trên địa bàn tỉnh, góp phần làm thất bại chiến lược \"Việt Nam hóa chiến tranh\" của để quốc Mỹ. "
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                152,
+                936,
+                289
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Khóa IV, đồng chí Nguyễn Xuân Nguyên (Nguyễn Liên, Mười Nguyên) được bầu làm Bí thư Tỉnh ủy. Tháng 5-1969, Thường vụ Khu uy V quyết định điều động đồng chí Võ Trung Thành (Năm Vinh) làm Bí thư Tỉnh uy thay đồng chí Nguyễn Xuân Nguyên về Khu V nhận công tác mới. "
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                292,
+                936,
+                389
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.5. Đại hội lần thứ V (tháng 10-1971): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                214,
+                396,
+                592,
+                417
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tháng 10-1971, Đại hội đại biểu Đăng bộ tỉnh Đắk Lắk lần thứ V hợp tại buôn H'Ngô, xã Cư Đrăm (nay thuộc xã Hòa Phong, huyện Krông Bông), vùng căn cứ phía Nam của tỉnh. Đại hội tổng kết các mặt hoạt động của Đăng bộ trong ba năm chống chiến lược \"Việt Nam hóa chiến tranh\" và xác định nhiệm vụ công tác trước mắt là chuẩn bị tốt mọi điều kiện để thực hiện thành công cuộc tổng tiến công chiến lược năm 1972 trên địa bàn tỉnh, góp phần làm thất bại chiến lược \"Việt Nam hóa chiến tranh\" của để quốc Mỹ. "
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                421,
+                936,
+                557
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đăng bộ tỉnh khóa V gồm 31 đồng chí, đồng chí Huỳnh Văn Cần được bầu làm Bí thư Tỉnh ủy. "
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                560,
+                936,
+                603
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.6. Đại hội lần thứ VI (tháng 9-1973): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                216,
+                609,
+                592,
+                630
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tháng 9-1973, Đại hội đại biểu Đăng bộ tỉnh lần thứ VI hợp tại buôn Ea M'Dlan vùng căn cứ Cư Jú-Dliêya phía Bắc của tỉnh. Đại hội đề ra phương hướng và nhiệm vụ hoạt động trong thời gian tiếp theo là: Đầy mạnh tiến công và nổi dậy, kiện quyết đánh bại một bước quan trọng kế hoạch \"bình định, lấn chiếm\" của dịch, mở rộng vùng giải phóng, làm chủ vùng tranh chấp, đưa phong trào vùng dịch hậu lên một bước cao hơn, nhằm làm rối loạn hậu phương dịch. Ra sức xây dựng thực lực cách mạng về mọi mặt; tăng cường công tác xây dựng Đăng, chú trọng công tác cán bộ, nhất là cán bộ cơ sở, cán bộ hoạt động hợp pháp. Tất cả những nhiệm vụ đó là nhằm tạo ra điều kiện và thời cơ sẵn sàng phối hợp chiến trường chung, tranh thủ giành thắng lợi cao hơn. "
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                634,
+                939,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành khóa VI gồm 27 đồng chí, đồng chí Huỳnh Văn Cần tiếp tục được bầu làm Bí thư Tỉnh ủy. Tháng 5-1975, đồng chí Nguyễn Xuân Nguyên được phân công về làm Bí thư Tỉnh ủy Đắk Lắk. "
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                831,
+                941,
+                894
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1.7. Đại hội lần thứ VII (vòng 1 tháng 11-1976; vòng 2 tháng 6-1977): "
+                    }
+                ]
+            },
+            "bbox": [
+                219,
+                897,
+                899,
+                920
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6 "
+                    }
+                ]
+            },
+            "bbox": [
+                534,
+                42,
+                547,
+                56
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đại hội đại biểu Đăng bộ tỉnh Đắk Lắk lần thứ VII (vòng 1) diễn ra từ ngày 12 đến ngày 21-11-1976 tại thị xã Buôn Ma Thuột. Tham dự Đại hội có 261 đại biểu đến từ 11 đẳng bộ trực thuộc, đại diện cho hơn 12.000 đẳng viên trong toàn Đăng bộ. Trong thời gian Đại hội, các đại biểu thảo luận và đóng góp ý kiến vào dự thảo Báo cáo Chính trị của Ban Chấp hành Trung ương Đăng khóa III trình Đại hội toàn quốc lần thứ IV của Đăng; Dự thảo Điều lệ Đăng (sửa đổi). Đại hội đã bầu 10 đại biểu tham dự Đại hội toàn quốc lần thứ IV của Đăng. "
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                78,
+                926,
+                213
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đại hội đại biểu Đăng bộ tỉnh Đắk Lắk lần thứ VII (vòng 2) diễn ra từ ngày 13-6-1977 đến 19-6-1977, tại thị xã Buôn Ma Thuột. Tham dự Đại hội có 252 đại biểu đại diện cho các đăng bộ trong toàn tỉnh. Đại hội quyết định phương hướng, nhiệm vụ chung đến năm 1980 là: “Nắm vững chuyên chính vô sản, phát huy quyền làm chủ tập thể của nhân dân lao động để tiến hành đồng thời ba cuộc cách mạng. Xây dựng tỉnh Đắk Lắk thành một tỉnh có cơ cấu nông-lâm-công nghiệp, vững mạnh về chính trị, kinh tế, quốc phòng”. "
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                219,
+                926,
+                358
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành khóa VII gồm 39 đồng chí, trong đó có 35 đồng chí là ủy viên chính thức, 04 đồng chí là ủy viên dự khuyết. Đồng chí Trần Kiên (Nguyễn Tài) được bầu làm Bí thư Tỉnh ủy. "
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                362,
+                926,
+                422
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.8. Đại hội lần thứ VIII (tháng 11-1979): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                188,
+                428,
+                604,
+                449
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội đại biểu Đăng bộ Đắk Lắk tỉnh lần thứ VIII diễn ra từ ngày 07 đến ngày 10-11-1979, tại thị xã Buôn Ma Thuột. Tham dự Đại hội có 351 đại biểu đến từ 16 tổ chức đắng bộ trực thuộc. Đại hội đề ra phương hướng, nhiệm vụ chung trong những năm 1980-1981 là: “Nắm vững chuyên chính vô sản, xây dựng và phát huy quyền làm chủ tập thể của nhân dân lao động, tăng cường đoàn kết các dân tộc, phát huy tỉnh thần yêu nước, yêu chủ nghĩa xã hội, ý chí cách mạng tiến công, tỉnh thần tự lực tự cường, tiến hành đồng thời 3 cuộc cách mạng, tập trung đầy mạnh công cuộc xây dựng, cải tạo và phát triển kinh tế, văn hóa, đầy mạnh sản xuất, ổn định và bảo đảm đời sống nhân dân; đầy mạnh tấn công truy quét bơn phản động, tăng cường an ninh quốc phòng, sẵn sàng chiến đấu bảo vệ Tổ quốc; kiến quyết đấu tranh khác phục những mặt tiêu cực trong hoạt động kinh tế và xã hội; ra sức xây dựng Đăng bộ trong sạch vững mạnh về chính trị, tư twống và tổ chức, nâng cao sức chiến đấu và năng lực lãnh đạo của Đăng; tích cực đưa tỉnh ta tiến lên thành một tỉnh có nền công, nông, lâm nghiệp phát triển, làm tròn nghĩa vụ hậu phương và căn cứ cho cả nước và nghĩa vụ quốc tế được giao”. "
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                452,
+                926,
+                745
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đắng bộ khóa VIII gồm 43 đồng chí, trong đó có 40 đồng chí ủy viên chính thức và 03 đồng chí ủy viên dự khuyết. Đồng chí Y Ngông Niê Kđăm được bầu làm Bí thư Tỉnh uỷ. "
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                749,
+                926,
+                810
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.9. Đại hội lần thứ IX (vòng 1 tháng 01-1982; vòng 2 tháng 3-1983): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                188,
+                814,
+                872,
+                837
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đại hội đại biểu Đằng bộ tỉnh lần thứ IX (vòng 1) diễn ra từ ngày 08 đến ngày 16-01-1982. Tham dự Đại hội có 366 đại biểu chính thức thay mặt cho hơn 7.500 đẳng viên thuộc 19 Đằng bộ trực thuộc. "
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                841,
+                926,
+                900
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7 "
+                    }
+                ]
+            },
+            "bbox": [
+                519,
+                39,
+                531,
+                52
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội đã thảo luận, góp ý vào dự thảo Báo cáo chính trị và Báo cáo về công tác xây dựng Đảng của Ban Chấp hành Trung ương khoá IV trình Đại hội đại biểu toàn quốc lần thứ V. Đại hội đã bầu đoàn đại biểu đi dự Đại hội lần thứ V của Đảng gồm 13 đồng chí, trong đó có 01 đồng chí dự khuyết. "
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                81,
+                936,
+                159
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đại hội đại biểu Đăng bộ tỉnh lần thứ IX (vòng 2) diễn ra từ ngày 05 đến ngày 09-3-1983. Tham dự Đại hội có 372 đại biểu chính thức đại diện cho gần 9.000 đẳng viên của 20 đẳng bộ trực thuộc trong tỉnh. Đại hội xác định phương hướng, nhiệm vụ trong 3 năm từ 1983-1985 là: “Phát huy mạnh hơn nữa quyền làm chủ của tập thể nhân dân lao động, tăng cường hơn nữa chuyên chính vô sản, động viên toàn Đăng bộ, quân, dân trong tỉnh đầy mạnh ba cuộc cách mạng: cách mạng về quan hệ sản xuất, cách mạng khoa học kỹ thuật, cách mạng tư tưởng văn hoá, trong đó cách mạng khoa học là then chốt, đầy mạnh công cuộc xây dựng phát triển kinh tế-xã hội theo hướng xây dựng tỉnh nhà thành một tỉnh có cơ cấu kinh tế công-nông-lâm nghiệp hợp lý. Tổ chức lại sản xuất, sắp xếp lại nền kinh tế, xây dựng cơ sở vật chất có trọng điểm, ổn định và từng bước cải thiện đời sống nhân dân và đầy mạnh hơn nữa xuất khẩu. Kiên quyết đánh bại kiểu chiến tranh phá hoại nhiều mặt của dịch, tăng cường cũng có an ninh - quốc phòng, nếu cao cảnh giác sẵn sàng chiến đấu đánh bại mọi hành động xâm lược của kê thù, bảo vệ tổ quốc. Tiếp tục phát triển vững chắc sự nghiệp văn hoá - xã hội. Ra sức xây dựng Đăng bộ vững mạnh về mọi mặt, nâng cao sức chiến đấu và năng lực lãnh đạo, bảo đảm hoàn thành xuất sắc nhiệm vụ chính trị của tỉnh và làm tròn nghĩa vụ quốc tế được phân công”. "
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                165,
+                936,
+                507
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành khóa IX gồm 45 đồng chí, trong đó có 41 đồng chí là ủy viên chính thức và 04 đồng chí là ủy viên dự khuyết, đồng chí Y Ngông Niê Kđăm được bầu làm Bí thư Tỉnh ủy. "
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                512,
+                936,
+                572
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.10. Đại hội lần thứ X (tháng 10-1986): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                218,
+                578,
+                607,
+                598
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Từ ngày 09 đến ngày 14-10-1986, Đại hội đại biểu Đăng bộ tỉnh lần thứ X được tiến hành tại thị xã Buôn Ma Thuột. Tham dự Đại hội có 400 đại biểu chính thức, thay mặt cho hơn 10.000 đăng viên của 24 tổ chức Đăng trực thuộc Tỉnh ủy. Đại hội quyết định phương hướng và nhiệm vụ trong những năm 1986 – 1991 của tỉnh là: “Nắm vững đường lối và các quan điểm cơ bản của Đăng, ra sức phần đầu đến mức cao nhất với tỉnh thần tự lực, tự cường, tính năng động, sáng tạo, phát huy triệt để các nhân tố cách mạng nội tại, khai thác và huy động mọi tiềm năng, mọi nguồn dự trữ sẵn có để tạo ra một thay đổi to lớn trong tình hình mọi mặt của tỉnh, đưa sự nghiệp cách mạng xã hội chủ nghĩa trong tỉnh phát triển với thắng lợi ngày càng to lớn hơn”. "
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                601,
+                936,
+                797
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành khóa X gồm 55 đồng chí (trong đó có 45 đồng chí ủy viên chính thức, 10 đồng chí ủy viên dự khuyết), đồng chí Huỳnh Văn Cần được bầu làm Bí thư Tỉnh uỷ. "
+                    }
+                ]
+            },
+            "bbox": [
+                158,
+                800,
+                939,
+                862
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.11. Đại hội lần thứ XI (Vòng 1 tháng 4-1991; vòng 2 tháng 1-1992): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                220,
+                866,
+                894,
+                889
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8 "
+                    }
+                ]
+            },
+            "bbox": [
+                539,
+                42,
+                552,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Từ ngày 22 đến 25-4-1991, Đại hội đại biểu Đắng bộ tỉnh lần thứ XI (vòng I) được tiến hành tại thị xã Buôn Ma Thuột. Tham dự Đại hội có 292 đại biểu chính thức, thay mặt cho 16.298 đẳng viên thuộc 26 đẳng bộ trực thuộc. Đại hội có góp ý kiến vào dự thảo các văn kiện của Ban Chấp hành Trung ương trình Đại hội Đắng toàn quốc lần thứ VII: Báo cáo chính trị; Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội; Chiến lược ổn định và phát triển kinh tế-xã hội đến năm 2000; Báo cáo sửa đổi điều lệ Đắng. Với tỉnh thân đổi mới, dân chủ, Đại hội đã sôi nổi thảo luận và thống nhất cao với các văn kiện đã trình bày. Đại hội bầu đoàn đại biểu Đắng bộ tỉnh tham dự Đại hội toàn quốc lần thứ VII của Đắng gồm 15 đồng chí. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                82,
+                930,
+                277
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Từ ngày 08 đến ngày 11-01-1992, tại thị xã Buôn Ma Thuột, Đại hội đại biểu Đảng bộ tính lần thứ XI (vòng 2) được tiến hành. Tham dự Đại hội có 292 đại biểu chính thức, thay mặt cho 16.509 đẳng viên trong toàn Đảng bộ. Đại hội xác định mục tiêu tổng quát trong những năm 1991 – 1995 là: “Phát huy tinh thần độc lập tự chủ, ý chí tự lực, tự cường, đoàn kết toàn Đảng bộ, quân dân các dân tộc trong tinh, quyết tâm vượt qua khó khăn thử thách trong vải năm đầu, ổn định chính trị, có gằng tự cân đối đáp ứng được nhu cầu tiền vốn, vật tư, giữ vững sản xuất, tạo thế chủ động và tranh thủ vốn đầu tư từ bên ngoài để phát triển nhanh hơn ở những năm sau nhằm ổn định và phát triển kinh tế - xã hội, từng bước cải thiện đời sống vật chất và tinh thần của nhân dân, bước đầu tạo được tích lũy từ nội bộ nền kinh tế, góp phần kèm chế và đầy lùi làm phát, cũng có và giữ vững quốc phòng-an ninh, trật tự an toàn xã hội, đầy lùi tiêu cực và bất công xã hội”. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                283,
+                930,
+                533
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đắng bộ tỉnh khóa XI gồm 47 đồng chí. Đồng chí Huỳnh Văn Cần tiếp tục được bầu làm Bí thư Tỉnh ủy. Đến giữa nhiệm kỳ đồng chí Huỳnh Văn Cần được Trung ương điều động nhận nhiệm vụ khác, đồng chí Ama Pui (Y Liã Mjhão) được bầu làm Bí thư Tỉnh ủy. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                538,
+                930,
+                617
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.12. Đại hội lần thứ XII (tháng 5-1996): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                193,
+                623,
+                599,
+                644
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Từ ngày 07 đến ngày 10-5-1996, tại thành phố Buôn Ma Thuột, Đằng bộ tỉnh Đắk Lắk tiến hành Đại hội đại biểu lần thứ XII. Tham dự Đại hội có 292 đại biểu, thay mặt cho 16.298 đẳng viên của 26 đẳng bộ trực thuộc. Đại hội xác định phương hướng và mục tiêu tổng quát phát triển kinh tế-xã hội trong 5 năm từ 1996-2000 là: “Tăng cường khối đoàn kết nhân dân các dân tộc, phát huy mạnh mê tinh thần cách mạng, ý chí tự lực tự cường, khởi dây các nguồn lực trong tỉnh kết hợp với mở rộng hợp tác kinh tế với bên ngoài để đầy mạnh quá trình chuyển dịch cơ cấu kinh tế theo hướng công nghiệp hóa, hiện đại hóa. Nâng cao đời sống và dân trí, thu hep sự chênh lệch giữa các vùng, các tầng lớp dân cư. Giữ vững ổn định chính trị, đầy lùi tiêu cực và đảm bảo trật tự an toàn xã hội, cũng cố an ninh biên giới và tăng cường khả năng phòng thủ. Tiếp tục đổi mới và tăng cường sự lãnh đạo của Đắng. Ra sức phần đấu xây dựng tỉnh thoát ra tình trạng là một tỉnh nghèo, chuẩn bị điều kiện để phát triển nhanh hơn vào những năm đầu thế ký XXI”. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                650,
+                930,
+                918
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9 "
+                    }
+                ]
+            },
+            "bbox": [
+                522,
+                42,
+                536,
+                56
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chập hành khóa XII gồm 49 đồng chí, đồng chí Mai Văn Năm được bầu làm Bí thư Tĩnh ủy. Đến tháng 9-1999, Trung ương điều động đồng chí Mai Văn Năm nhận nhiệm vụ tại Ủy ban Kiểm tra Trung ương, đồng chí Nguyễn An Vinh được bầu làm Bí thư Tĩnh ủy. "
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                78,
+                934,
+                158
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.13. Đại hội lần thứ XIII (từ ngày 31-1 đến ngày 02-02-2001): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                213,
+                164,
+                819,
+                185
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội đại biểu Đăng bộ tỉnh lần thứ XIII diễn ra từ ngày 31-1-2001 đến ngày 02-2-2001 tại thành phố Buôn Ma Thuột. Tham dự Đại hội có 349 đại biểu, đại diện cho hơn 17.000 đẳng viên của 23 Đăng bộ trực thuộc. Đại hội đề ra phương hướng, nhiệm vụ của Đăng bộ trong 5 năm từ 2001-2005 là: “Bảo đảm tăng trưởng kinh tế với tốc độ cao và ổn định trên cơ sở phát huy nội lực, khoi dây tiềm năng to lớn của địa phương, kết hợp với việc tranh thủ tối đa nguồn lực bên ngoài, tăng cường hợp tác đầu tư, từng bước mở rộng thị trường nước ngoài, tiếp tục phát triển mạnh nông sản xuất khẩu đi đôi với chuyển dịch cơ cấu kinh tế theo hướng công nghiệp hóa, hiện đại hóa, phát triển mạnh các ngành công nghiệp, dịch vụ, trong đó trọng tâm là công nghiệp chế biến nông-lâm sản. Kết hợp chặt chẽ kinh tế với môi trường, thực hiện tốt các vấn đề xã hội; xây dựng vững chắc thế trận quốc phòng toàn dân; giữ vững ổn định chính trị và trật tự an toàn xã hội; xây dựng Đăng và cả hệ thống chính trị vững mạnh. "
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                189,
+                934,
+                439
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Phân đấu đến năm 2010 đưa Đắk Lắk trở thành một tỉnh có kinh tế phát triển đạt mức trên trung bình của cả nước; có nền văn hóa tiên tiến và giữ được bản sắc dân tộc; xã hội công bằng, dân chủ, văn minh\". "
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                443,
+                934,
+                502
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành khóa XIII gồm 47 đồng chí, đồng chí Y Luyện Niê Kđăm được bầu làm Bí thư Tỉnh ủy. "
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                507,
+                934,
+                549
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.14. Đại hội lần thứ XIV (tháng 12-2005): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                217,
+                555,
+                629,
+                575
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội đại biểu Đăng bộ tỉnh lần thứ XIV được tiến hành từ ngày 12-12-2005 đến ngày 14-12-2005 tại thành phố Buôn Ma Thuột. Tham dự Đại hội có 299 đại biểu đại diện cho gần 32.000 đẳng viên trong toàn Đăng bộ. Đại hội xác định phương hướng trong 5 năm 2006-2010: “Nâng cao năng lực lãnh đạo và sức chiến đấu của Đăng bộ, phát huy sức mạnh đại đoàn kết toàn dân, khắc phục mọi khó khăn thách thức, huy động và sử dụng tốt các nguồn lực, khai thác có hiệu quả các tiềm năng để tập trung đầy mạnh công nghiệp hoá- hiện đại hoá, phát triển đô thị và nông thôn. Phấn đấu tăng trưởng kinh tế với nhịp độ nhanh và bền vững. Gắn phát triển kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường. Phát triển nguồn nhân lực, nâng cao đời sống vật chất và tinh thần cho nhân dân. Phát triển văn hoá thực sự trở thành nền tầng tinh thần của xã hội. Xây dựng Đăng và hệ thống chính trị vững mạnh, đảm bảo quốc phòng- an ninh”. "
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                579,
+                936,
+                814
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đăng bộ tỉnh khóa XIV gồm 48 đồng chí, đồng chí Niê Thuật được bầu làm Bí thư Tỉnh ủy. "
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                814,
+                936,
+                859
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.15. Đại hội lần thứ XV (tháng 10-2010): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                220,
+                864,
+                626,
+                886
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội đại biểu Đắng bộ tính lần thứ XV, nhiệm kỳ 2010 – 2015 được tiến hành từ ngày 01 đến ngày 03-10-2010 tại thành phố Buôn Ma Thuột. Tham dự "
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                888,
+                939,
+                931
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10 "
+                    }
+                ]
+            },
+            "bbox": [
+                530,
+                41,
+                552,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội có 299 đại biểu, đại diện cho gần 32.000 đang viên trong toàn Đảng bộ. Đại hội xác định phương hướng trong 5 năm 2010-2015: “Nâng cao năng lực lãnh đạo và sức chiến đấu của Đảng bộ, phát huy sức mạnh đại đoàn kết các dân tộc, xây dựng hệ thống chính trị vững mạnh. Tiếp tục đầy mạnh toàn diện sự nghiệp công nghiệp hoá, hiện đại hoá; chuyển dịch cơ cấu kinh tế theo hướng công nghiệp, dịch vụ gắn với sản xuất nông nghiệp chất lượng cao, quy mô lớn, đáp ứng yêu cầu hội nhập quốc tế. Kết hợp chặt chẽ phát triển kinh tế - xã hội với bảo vệ môi trường sinh thái; thực hiện tốt chính sách an sinh xã hội; đảm bảo quốc phòng - an ninh, giữ vững trật tự - an toàn xã hội. Xây dựng Dak Lak trở thành trung tâm vùng Tây Nguyên và đóng vai trò quan trọng đưa Tây Nguyên trở thành vùng kinh tế động lực của cả nước”. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                81,
+                930,
+                294
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đăng bộ tỉnh khoá XV gồm 55 đồng chí. Đồng chí Niê Thuật tiếp tục được bầu làm Bí thư Tỉnh ủy. Tháng 9-2015, đồng chí Niê Thuật được Trung ương điều động về làm Phó Trường ban Chỉ đạo Tây Nguyên, đồng chí Êban Y Phu, Phó Bí thư Thường trực Tỉnh ủy được bầu làm Bí thư Tỉnh uỷ. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                297,
+                930,
+                400
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.16. Đại hội lần thứ XVI (tháng 10-2015): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                194,
+                404,
+                620,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội đại biểu Đăng bộ tỉnh lần thứ XVI, nhiệm kỳ 2015 – 2020 được tiến hành từ ngày 12 đến ngày 14-10-2015 tại thành phố Buôn Ma Thuột. Dự Đại hội có 352 đại biểu đại diện cho 64.358 đẳng viên toàn Đăng bộ. Đại hội xác định mục tiêu tổng quát trong những năm 2015-2020 là: “Xây dựng Đăng bộ trong sạch, có năng lực lãnh đạo và sức chiến đấu cao; phát huy dân chủ và sức mạnh đại đoàn kết các dân tộc; đầy mạnh cải cách hành chính, tăng cường kỷ luật, kỷ cương, hiệu lực, hiệu quả quản lý nhà nước và tạo môi trường đầu tư thông thoáng để huy động tối đa, sử dụng có hiệu quả các nguồn lực; từng bước đầu tư hoàn thiện, đồng bộ kết cấu hạ tầng; phát triển kinh tế bền vững, cải thiện đời sống vật chất và tinh thần cho Nhân dân; bảo vệ môi trường và ứng phó với biến đổi khí hậu, đảm bảo vững chắc quốc phòng an ninh, duy trì trật tự an toàn xã hội; xây dựng Đắk Lắk phát triển toàn diện, tạo nền tảng để sớm trở thành trung tâm kinh tế, văn hóa - xã hội của vùng Tây Nguyên”. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                429,
+                930,
+                682
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đại hội bầu Ban Chấp hành Đăng bộ tỉnh Khóa XVI, nhiệm kỳ 2015-2020 gồm 56 đồng chí. Đồng chí Êban Y Phu tiếp tục được bầu làm Bí thư Tĩnh ủy. Tháng 7-2019 đến nay, Bộ Chính trị điều động, chỉ định đồng chí Bùi Văn Cường, Ủy viên Ban Chấp hành Trung ương Đăng, giữ chức vụ Bí thư Tĩnh ủy thay đồng chí Êban Y Phu nghi hưu. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                686,
+                930,
+                785
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Các đồng chí Bí thư Tỉnh ủy qua các thời kỳ "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                193,
+                789,
+                669,
+                812
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đồng chí Phan Kiệm (1920-1998); Bí thư Ban Cán sự Đằng từ năm 1945-1946. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                817,
+                930,
+                855
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Đồng chí Nguyễn Khắc Tính (1920-2008), Bí thư Ban Cán sự Đắng tỉnh từ năm 1947-1949. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                862,
+                930,
+                900
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11 "
+                    }
+                ]
+            },
+            "bbox": [
+                518,
+                42,
+                540,
+                57
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Lê Vụ (1923-1990), Bí thư Tỉnh ủy năm 1949; từ năm 1951-1952. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Truong Quang Giao (1910-1983), Bí thư Tĩnh ủy năm 1950. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Lê Văn Nhiễu (1920-1976), Bí thư Tỉnh ủy từ năm 1952-1954. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Truong Quang Tuân (1923-1959), Bí thư Tỉnh ủy từ năm 1955-1959. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Nguyễn Hồng U Ng (1922-1996), Bí thư Tỉnh ủy từ năm 1959-1960, Bí thư Tỉnh ủy Khóa I. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Nguyễn Tuấn (sinh năm 1926), Bí thư Tỉnh ủy Khóa I, (từ năm 1960-1962). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Nguyễn Xuân Nguyên (1922-2009), Bí thư Tỉnh ủy Khóa II (từ năm 1963-1966), Khóa III (từ năm 1966-1969), Khóa IV (từ năm 1970-1971), Khóa VI (từ năm 1975-1977). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Võ Trung Thành (1924-1982), Bí thư Tỉnh ủy Khóa IV (từ năm 1969-1970). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Huỳnh Văn Cần (1927-2018), Bí thư Tỉnh ủy Khóa V (từ năm 1971-1973), Khóa VI (từ năm 1973-1975), Khóa X (từ năm 1986-1992), Khóa XI (từ năm 1992-1994). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Trần Kiên (1920-2004), Bí thư Tỉnh ủy Khóa VII (từ năm 1977-1979). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Y Ngông Niê Kđăm (1922-2001), Bí thư Tĩnh ủy Khóa VIII (từ năm 1979-1983), Khóa IX (từ năm 1983-1986). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Ama Pui (1932-2005), Bí thư Tỉnh ủy Khóa XI (từ năm 1994-1996) "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí\nnăm 1996-1999) Mai Văn Năm (sinh năm 1948), Bí thư Tỉnh ủy Khóa XII (từ "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Nguyễn An Vinh (sinh năm 1940), Bí thư Tỉnh ủy Khóa XII (từ năm 1999-2001). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Y Luyện Niê Kđăm (sinh năm 1943), Bí thư Tỉnh ủy khóa XIII, (từ năm 2001-2005). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Niê Thuật (sinh năm 1956), Bí thư Tỉnh ủy Khóa XIV (từ năm 2005-2010), Khóa XV (từ năm 2010-2015). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Êban Y Phu (sinh năm 1959), Bí thư Tỉnh ủy Khóa XV (năm 2015), Khóa XVI (từ năm 2015-2019). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "- Đồng chí Bùi Văn Cường (sinh năm 1965), Bí thư Tỉnh ủy Khóa XVI (từ năm 2019 đến nay). "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                80,
+                935,
+                895
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12 "
+                    }
+                ]
+            },
+            "bbox": [
+                532,
+                41,
+                555,
+                56
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "IV. NHỮNG THẢNG LỢI TIÊU BIỂU CỦA PHONG TRÀO CÁCH MẠNG TỈNH ĐắK LắK DƯỚI SỰ LĨNH ĐẠO CỦA ĐẢNG BỘ TỈNH (1940-1975), Ý NGHĨA LỊCH SỬ CỦA CHIÓN THẢNG BUÔN MA THUỘT, GIẢI PHÓNG TỈNH ĐắK LắK (10-3-1975) "
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                81,
+                930,
+                160
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Những thắng lợi tiêu biểu của phong trào cách mạng tỉnh Đắk Lắk dưới sự lãnh đạo của Đảngng bộ tỉnh (1940-1975) "
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                165,
+                930,
+                207
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1.1. Khởi nghĩa giành chính quyền trong Cách mạng Tháng Tám năm 1945: "
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                212,
+                930,
+                251
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tháng 9-1939, chiến tranh thế giới lần thứ hai bùng nổ. Sau khi tham gia chiến tranh, chính phủ phần động Pháp đã thi hành chính sách phát xít, huỷ bổ các quyền tự do, dân chủ, đàn áp phong trào cộng sản và phong trào dân chủ ở Pháp cũng như ở các nước thuộc địa. Ô Đông Dương, chúng thực hiện phát xít hoá bộ máy cai trị và thẳng tay bắn giết, tủ dày các chiến sĩ cộng sản. Ngày 22-6-1940, Pháp đầu hàng phát xít Đức. Lợi dụng tình thế đó, phát xít Nhật nhảy vào xâm lược Đông Dương. Nhiệm vụ trực tiếp và cấp bách của cách mạng Việt Nam lúc này là phải tập trung mọi lực lượng để đánh Pháp, đuổi Nhật giành độc lập, tự do cho Tổ quốc. "
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                257,
+                930,
+                433
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Nhà dày Buôn Ma Thuột cũng chịu tác động trực tiếp của tình hình chính trị Đông Dương và thế giới. Số lượng tù nhân tăng lên nhanh chóng, do dịch chuyển nhiều đoàn từ từ các tỉnh miền Trung lên. Đồng thời, họ cũng bị khủng bố, đàn áp đã man hơn, nhiều thành quả giành được trong cuộc dấu tranh ở thời kỳ Mặt trận dân chủ cũng bị cắt xén, xoá bổ từng bước. Do đó, nhiều vấn đề mới đặt ra thuộc đường lối, chủ trương, chính sách của Đảng trong tình hình mới cần được tù nhân thảo luận, quán triệt nhằm đi đến thống nhất ý chí và hành động trong nhà dày. "
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                439,
+                930,
+                574
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cuối năm 1940, một số từ nhân cũ và mới liên hệ với nhau lập một tổ chức bí mật gọi là lực lượng trung kiện. Những người tham gia lực lượng này đều hoàn toàn tự nguyện và phải có đủ những tiêu chuẩn nhất định. Tiêu chuẩn cơ bản, số một là phải thực hiện đúng Điều lệ Đảng, tự nguyện suốt đời hy sinh cho chủ nghĩa cộng sản. "
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                580,
+                930,
+                676
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tuy không gọi là chi bộ đằng, nhưng lực lượng này trên thực tế đã đóng vai trò một chi bộ cộng sản. Việc chi bộ của Đằng ra đời đã thống nhất sự lãnh đạo của Đằng trong Nhà dày, tạo điều kiện thuận lợi cho cuộc vận động cách mạng ở Đắk Lắk phát triển mạnh mê hơn. "
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                682,
+                930,
+                760
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tháng 5-1945, các cơ sở của Mặt trận Việt Minh và các đoàn thể cứu quốc phát triển khá rộng rãi, để đảm bảo sự lãnh đạo tập trung thống nhất, Hội nghị thành lập Ban lãnh đạo lâm thời của tính được tổ chức. Hội nghị đã đề ra một số chủ trương, công tác chuẩn bị cho tổng khởi nghĩa. Ngày 17-8-1945, tỉnh bộ Việt Minh Đắk Lắk quyết định khởi nghĩa giành quyền ở các đơn điền CADA, cây số 24 và đơn điền cây số 07. Tôi ngày 19-8-1945, tại nhà số 57 Lý Thường Kiệt, thị xã Buôn Ma Thuột, Ban lãnh đạo lâm thời của tỉnh triệu tập hội nghị khẩn cấp đề nghe thông báo tình hình khởi nghĩa ở các tình bạn và quyết định thời điểm\ngiành chính quyền ở cấp tình. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                767,
+                930,
+                903
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13 "
+                    }
+                ]
+            },
+            "bbox": [
+                522,
+                44,
+                543,
+                57
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                157,
+                79,
+                928,
+                123
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ngày 22-8-1945, Ban lãnh đạo lâm thời tỉnh hợp Hội nghị mở rộng, Hội nghị quyết định tổng khởi nghĩa ở thị xã Buôn Ma Thuột và cả tỉnh vào 24-8-1945. Lệnh khởi nghĩa được truyền về cơ sở. 15 giờ, ngày 24-8-1945, cuộc mít tỉnh giành chính quyền diễn ra trọng thể tại sân vận động thị xã Buôn Ma Thuột. Tham dự mít tỉnh có lực lượng vũ trang của các đồn điền, nhân dân lao động trong và ngoài thị xã, thanh niên, học sinh, viên chức, nhân sĩ trí thức các dân tộc và toàn bộ lực lượng bảo an bình có vũ trang khoảng 500 binh lính. Đặc biệt, có hơn 3.000 đồng bào các dân tộc Êđê, M'Nông, Gia Rai từ các buôn làng ven thị xã tham gia. Một đại biểu của Việt Minh bước lên lễ dài, tuyên bố xoá bổ chế độ thống trị của Nhật và tay sai, thành lập chính quyền của nhân dân lao động, kêu gọi quản chứng các dân tộc nhiệt liệt hưởng ứng chương trình của Việt Minh, ứng hộ chính quyền cách mạng, tích cực tham gia xây dựng cuộc sống mới. Ủy ban nhân dân Cách mạng lâm thời ra mất đồng bào, cuộc mít tỉnh nhanh chóng biến thành cuộc tuần hành qua các đường phố của thị xã. "
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                126,
+                933,
+                398
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cược khởi nghĩa giành chính quyền của nhân dân các dân tộc thành công rục rõ, nhân dân trong tỉnh phần khởi, havn hoan đón chào Cách mạng Tháng Tám thành công. "
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                401,
+                933,
+                463
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.2. Kháng chiến chống thực dân Pháp (1945-1954): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                221,
+                467,
+                725,
+                488
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sau khởi nghĩa giành chính quyền trong Cách mạng Tháng Tám cho đến khi bước vào cuộc kháng chiến chống thực dân Pháp trở lại xâm lược, nhân dân các dân tộc Đắk Lắk chỉ có một trăm ngày hoà bình để xây dựng chế độ mới, Đăng bộ đã lãnh đạo và dân trong tỉnh phát huy nhiệt tình cách mạng, thực hiện các chủ trương, chính sách lớn của Đăng và Nhà nước để cũng có chính quyền cách mạng, xây dựng kinh tế, văn hoá và an ninh-quốc phòng, chống giấc đói, giấc đốt, đồng thời anh đúng chiến dấu chặn từng bước tiến của quân Pháp, góp phần làm phá sản chiến lược đánh nhanh thắng nhanh của thực dân Pháp, bảo toàn lực lượng để chuẩn bị cho cuộc kháng chiến lâu dài. "
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                489,
+                937,
+                668
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sau khi Đắk Lắk bị chiếm đóng, Đàng bộ tỉnh lãnh đạo xây dựng cơ sở chính trị trong vùng dịch hậu, phát động chiến tranh du kích, từng bước biến hậu phương của dịch thành tiền phương của ta, đi đôi với lãnh đạo hoạt động tác chiến tiêu hao, tiêu diệt dịch để phối hợp với các chiến trường. "
+                    }
+                ]
+            },
+            "bbox": [
+                165,
+                671,
+                938,
+                752
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đầu năm 1947, theo quyết định của Ban Chập hành Đăng bộ miền Nam Trung Bộ, Ban Cán sự Đăng tỉnh Đắk Lắk được thành lập với ba đồng chí: Nguyễn Khắc Tính làm Bí thu, Ama Khê, Nguyễn Trọng Ba làm ủy viên. Ban Cán sự Đăng tỉnh Đắk Lắk ra đời, đánh dấu một bước ngoại trong phong trào kháng chiến của nhân dân các dân tộc trong tỉnh, từ đây các cơ quan, chính quyền, các tổ chức quản chúng và lực lượng vũ trang cũng dàn được hình thành. "
+                    }
+                ]
+            },
+            "bbox": [
+                167,
+                753,
+                940,
+                876
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đến cuối năm 1949, ta đã khởi phục được các cơ quan lãnh đạo về mặt\nĐăng, chính quyền, lực lượng vũ trang, cũng cố căn cứ bản đạp ở phía tây Phú "
+                    }
+                ]
+            },
+            "bbox": [
+                170,
+                876,
+                940,
+                922
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14 "
+                    }
+                ]
+            },
+            "bbox": [
+                531,
+                41,
+                552,
+                56
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Yên; gây dựng lại cơ sở ở các xã phía Đông Bắc huyện M'Drắk, hai bên bờ sông Ba, ở Cheo Reo từ đèo Tân Á trở xuống, một số xã Đông đường 14 thuộc Buôn Hồ (xã Krông Năng, Krông Búk, Ea Drông, Ea Drăng...). Xây dựng được một số vùng lôm làm căn cứ đúng chân ngay trong vùng dịch, hình thành một số vùng tương đối liên hoàn tranh chấp giữa ta và dịch. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                82,
+                928,
+                181
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Liên Khu ủy cũng chú trọng tăng cường cán bộ cho Đắk Lắk, Ban Cán sự tỉnh từ 7 đồng chí tăng lên 11 đồng chí, Ban Thường vụ gồm 5 đồng chí là: Trương Quang Giao, Lê Vụ, Y Wang, Nguyễn Tuấn và Đoàn Khuê. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                185,
+                928,
+                246
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Trong đợt hoạt động Hè năm 1950, ở hướng Nam Tây Nguyên ta mở chiến dịch Nguyễn Huệ. Trong chiến dịch Nguyễn Huệ, các lực lượng của ta đã đánh dịch 15 trận, trong đó có 8 trận lớn, có trận thắng lớn giòn giả như trận Ma Rik, tiêu diệt được 2 chỉ huy Pháp, 14 lính Âu-Phi, 120 lính nguy, làm bị thương và bắt sống gần 60 tên, thu nhiều vũ khí, quân trang, quân dụng của dịch. Với chiến dịch Nguyễn Huệ ta đã đặt được nền móng đầu tiên cho việc xây dựng một khu du kích, mở đường xây dựng một khu căn cứ địa trên vùng dịch hậu Đắk Lắk. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                250,
+                928,
+                388
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Thời kỳ năm 1951-1953, các lực lượng của ta đã dàn lớn mạnh với sự phát triển của các phong trào quản chúng, chiến tranh du kích. Trong chiến dịch Đông-Xuân năm 1953-1954, phối hợp với quân và dân Bắc Tây Nguyên và các chiến trường trong cả nước, quân và dân Đắk Lắk cũng đồng loạt nổ sung tán công dịch, góp phần đập tan cuộc hành quân Atlante, làm cho một bộ phận quan trọng của kế hoạch Nava thất bại. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                393,
+                928,
+                510
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Chiến thắng lịch sử Điện Biên Phú ngày 07-5-1954 đã tiếp thêm sức mạnh cho toàn quân, toàn dân trên cả nước, trong đó có quân và dân Đắk Lắk. Phối hợp với các lực lượng ở chiến trường Pleiku, quân ta đã chăn đánh và tiêu diệt quân dịch rút chạy ở đèo Cư Drê, cắt đứt đường 14. Cùng với hoạt động quân sự, ta chủ trương đầy mạnh các hoạt động vũ trang tuyên truyền, phát động quản chúng nổi dậy. Từ Buôn Hồ, Buôn Ma Thuột, Buôn Đôn, Đắk Mil, Lắk, cơ sở của ta phát triển rất mạnh, phía Bắc ta đã bắt liên lạc được với cơ sở tỉnh Gia Lai-Kon Tum, phía Tây Nam với cơ sở của Đông Campuchia, phía Đông Nam với cơ sở của Lâm Đồng. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                514,
+                928,
+                688
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ngày 20-7-1954, Hiệp định Gio-ne-vơ được ký kết, ngày 01-8-1954 là ngày chính thức đình chiến. Tuân thủ những điều khoản đã quy định trong nội dung Hiệp định, tỉnh cử phải đoàn do đồng chí Nguyễn Khắc Tính làm trường đoàn cùng với phải đoàn đối phương ký vào biên bản bàn giao, tất cả các lực lượng của ta đang hoạt động ở Đắk Lắk đều rút về địa điểm tập kết. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                694,
+                928,
+                793
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Trải qua 9 năm liên tục chiến đấu, quân và dân Đắk Lắk đã vượt qua nhiều hy sinh, gian khô, góp phần đánh thẳng thực dân Pháp xâm lược, giải phóng quê hương, góp phần xúng đáng vào sự nghiệp cách mạng về vang của cả nước. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                797,
+                928,
+                858
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.3. Kháng chiến chống Mỹ, cứu nước (1954-1975): "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                188,
+                862,
+                701,
+                884
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sau Hiệp định Gio-ne-vơ, Mỹ đã nhanh chóng gạt Pháp đưa Ngô Đình Diệm về nước lập chính phủ bù nhìn, âm mưu thôn tính miền Nam, chia cắt lâu dài đất nước ta, biến miền Nam thành thuộc địa kiểu mới và tiền đơn chống cộng ở khu vực Đông Nam Á. "
+                    }
+                ]
+            },
+            "bbox": [
+                128,
+                890,
+                928,
+                929
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15 "
+                    }
+                ]
+            },
+            "bbox": [
+                516,
+                42,
+                540,
+                58
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                157,
+                78,
+                935,
+                121
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ở Đắk Lắk từ cuối năm 1954, số cán bộ được phân công ở lại miền Nam lần lượt lên bám lại các địa bàn, tiếp tục nằm dân, tuyên truyền giáo dục nhân dân, giữ phong trào liên tục ngay từ đầu không bị gián đoạn trong giai đoạn mới, đầy mạnh phong trào dấu tranh yêu cầu đối phương thi hành Hiệp định Gio-ne-vơ. "
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                124,
+                936,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Giai đoạn từ năm 1954-1960, Ban Cán sự Đằng tỉnh đã tích cực lãnh đạo thực hiện công tác xây dựng và phát triển cơ sở cách mạng, liên tục giữ vững và phát triển phong trào cách mạng, tiến đến phong trào Đồng khởi cuối năm 1960. Đến năm 1961, đợt nổi dây giải phóng nông thôn tiếp tục diễn ra trên khắp các địa bàn trong tỉnh, ta đã giành quyền làm chủ nhiều vùng rộng lớn, giữ được thế dấu tranh hợp pháp cho quản chúng nhân dân. "
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                209,
+                936,
+                326
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Trong thời kỳ dịch dồn dân, lập áp chiến lược (1961-1965), dưới sự lãnh đạo của Đăng bộ tỉnh, quân và dân Đắk Lắk đã kiến trì bám áp, bám dân, vận dụng phương châm hai chân, ba mũi giáp công, phát động cao trào tấn công nổi dậy, phá áp chiến lược từ năm 1964-1965, phá âm mưu vũ trang của dịch, giải phóng đại bộ phận nông thôn trong tỉnh, cả vùng đồng bào các dân tộc thiểu số và vùng đồng bào Kinh, dinh điền, đơn điền, với những phương thức và cách làm rất linh hoạt, độc đáo, sáng tạo, góp phần làm thất bại chiến lược “Chiến tranh đặc biệt” của Mỹngụy. "
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                329,
+                936,
+                487
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Trong thời kỳ chống chiến lược “chiến tranh cục bộ” của để quốc Mỹ (1965-1968), dưới sự lãnh đạo của Đảng bộ tỉnh, quân dân Đắk Lắk đã vượt qua nhiều gian khô ác liệt, thực hiện nhiệm vụ chống càn quét, lấn chiếm, xây dựng bảo vệ căn cứ và vùng giải phóng, đầy mạnh công tác vùng dịch và các hoạt động vũ trang, giữ vững thế chủ động tấn công dịch, đồng thời tiếp tục được duy trì phong trào dấu tranh chính trị của nhân dân. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                488,
+                938,
+                606
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "* Cước Tổng tiến công và nổi dậy Tét Mậu Thân năm 1968: "
+                    }
+                ]
+            },
+            "bbox": [
+                227,
+                611,
+                779,
+                634
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tháng 01-1968, Hội nghị Trung ương lần thứ tư (khóa III) chủ trương mở cuộc Tổng tấn công và nổi dậy đồng loạt trong Tết Mậu Thân nhằm tiêu diệt và làm tan rã đại bộ phận nguy quân, nguy quyền, giành toàn bộ chính quyền về tay nhân dân; tiêu diệt một bộ phận quan trọng sinh lực và phương tiện chiến tranh của Mỹ, đánh vào các cơ quan đầu não, giảng một đơn quyết định vào ý chí xâm lược của để quốc Mỹ, buộc Mỹ phải xuống thang chiến tranh, ngồi vào bản đảm phán với ta. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                637,
+                941,
+                776
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Triển khai kế hoạch hoạt động trước Tết Mậu Thân nhằm đánh lạc hướng sự chú ý của dịch. O các huyện nông thôn, ngày 22-1-1968 bộ đội tỉnh và huyện tấn công vào quận ly Lạc Thiện diệt một số dịch. O Buôn Hồ lực lượng ta đánh các ấp buôn Trinh, buôn A Nua, ấp Cuôr Đăng và phục kích đánh dịch ở dèo Hà Lan trên đường 14. "
+                    }
+                ]
+            },
+            "bbox": [
+                167,
+                778,
+                943,
+                880
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Thực hiện quyết tâm chiến lược của Trung ương, của Khu ủy V và mặt trận Tây Nguyên, từ đêm 30 đến hết mùng 4 Tết Mậu Thân 1968, ta đã tổng tấn công vào thị xã Buôn Ma Thuột, đánh vào các mục tiêu quan trọng như Ty Ngân khó, Toà Thị chính, Đài phát thanh Buôn Ma Thuột, Trường huấn luyện nghĩa quân, Tiểu khu bảo an, sân bay Hoà Bình... chiểm lĩnh được nhiều mục tiêu quan trọng trong thị xã. Kết quả trong đợt tấn công nổi dậy Mậu Thân 1968 ở Đắk Lắk ta đã diệt và làm tan rã 2.000 tên dịch, bắt 85 tên, có 3 tên Mỹ, tiêu diệt 01 tiểu đoàn và 01 đại đội dịch, bắn cháy 150 xe quân sự, 13 xe M113, 04 khẩu pháo, 12 kho xăng dầu, đạn được. "
+                    }
+                ]
+            },
+            "bbox": [
+                167,
+                882,
+                945,
+                925
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16 "
+                    }
+                ]
+            },
+            "bbox": [
+                534,
+                41,
+                556,
+                56
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                134,
+                79,
+                933,
+                215
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Phối hợp với cuộc tấn công quân sự ở thị xã, tại một số đường phố của thị xã Buôn Ma Thuột, quản chúng được cán bộ cơ sở chuẩn bị trước đã xuống đường chiêm trụ sở thôn áp, xé cò và khẩu hiệu của dịch, treo cò cách mạng, rãi truyền đơn, dán khẩu hiệu, lùng bắt bơn ác ôn, kêu gọi bình lính đầu hàng. "
+                    }
+                ]
+            },
+            "bbox": [
+                134,
+                220,
+                933,
+                300
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cùng với cuộc tiến công diễn ra sôi nổi ở Buôn Ma Thuột thì ở các huyện cũng đồng loạt nổ ra tấn công dịch, đồng thời phối hợp nhịp nhàng giữa tấn công quân sự với tấn công bình vận và phong trào nổi dậy của quản chúng, giữa nông thôn và đô thị đưa hàng vận quản chúng nổi dậy với khí thế rất sôi nổi và quyết liệt. Quản chúng nhân dân các huyện H4, H5, H9, H10 gồm trên 18.000 người cùng với nhân dân các huyện khác trong tỉnh như ở cánh Bắc với trên 6.000 người, phần lớn là đồng bào các dân tộc ở huyện H3, H4, H5; cánh phía Nam có 2.500 người cả đồng bào Kinh và đồng bào dân tộc thiểu số ở H10 và vùng ven H6; cánh phía đông trên 9.000 người, gồm đồng bào Kinh ở các khu dinh diễn giải phóng và đồng bào các dân tộc ở H8, H9... cùng chuẩn bị cò, khẩu hiệu, với khí thế hiện ngang, bất khuất tiến về thị xã Buôn Ma Thuột đầu tranh chính trị với dịch. "
+                    }
+                ]
+            },
+            "bbox": [
+                134,
+                305,
+                933,
+                519
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cược Tổng tấn công và nổi dậy Tết Mậu Thân năm 1968 là một thắng lợi quan trọng trong cuộc kháng chiến chống Mỹ, cứu nước của quân và dân Đắk Lắk. Mặc dù Tổng tiến công và nổi dậy Mậu Thân 1968 ở Đắk Lắk không đạt được đầy đủ mục tiêu đã đề ra, nhưng thắng lợi của Tét Mậu Thân về trình độ tổ chức, chỉ đạo, chỉ huy và ý chí quyết tâm, tỉnh thần chiến đấu hy sinh düng cảm, kiên cường, bất khuất của quân và dân các dân tộc trong tỉnh sẽ mãi mãi là bản anh hùng ca bất diệt mà Đăng bộ, quân và dân Đắk Lắk đã góp phần vào lịch sử cuộc kháng chiến chống Mỹ, cứu nước vĩ đại của dân tộc. "
+                    }
+                ]
+            },
+            "bbox": [
+                134,
+                523,
+                933,
+                680
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Từ sau cuộc Tổng tiến công và nổi dạy Tết Mậu Thân năm 1968, ta liên tục giữ vững thế chủ động tiến công dịch. Phong trào du kích, công tác phát động quản chúng diệt ác, phá kèm trong tỉnh có bước phát triển mới. Sau khi Hiệp định Pa-ri được ký kết, Đằng bộ đã tích cực lãnh đạo quân và dân trong tỉnh đầu tranh chống dịch bình định, lấn chiếm, phá hoại Hiệp định Pa-ri, giữ vững thế tấn công dịch, cũng cổ, mở rộng các căn cứ và vùng giải phóng. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                686,
+                930,
+                804
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "* Chiến thẳng Buôn Ma Thuột, giải phóng tỉnh Đắk Lắk tháng 3-1975 "
+                    }
+                ]
+            },
+            "bbox": [
+                193,
+                809,
+                864,
+                831
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cuối năm 1974, nguy quân nguy quyền Sài Gòn tuy thất bại nặng nề, những vẫn còn ngoan có, đầy mạnh bình định, lấn chiếm, chống phá cách mạng, nhưng thế và lực của dịch ngày càng suy yếu, các lực lượng cách mạng ở miền Nam tiếp tục giành nhiều thắng lợi. Tháng 10-1974, Bộ Chính trị hợp nhận định tình hình và thời cơ chiến lược mới. Hội nghị khẳng định: “Mỹ đã rút khởi miền Nam thì khó có khả năng đưa quân trở lại và dù chúng có can thiệp đi nữa cũng không thể cứu văn nguy cơ sup đồ của nguy quyền Sài Gòn”. Bộ Chính trị hạ quyết tâm giải phóng miền Nam trong hai năm 1975 đến 1976 và chọn Tây Nguyên làm hướng tấn công chủ yếu trong năm 1975. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                836,
+                930,
+                934
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17 "
+                    }
+                ]
+            },
+            "bbox": [
+                522,
+                41,
+                546,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                158,
+                81,
+                932,
+                161
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Từ ngày 18-12-1974 đến ngày 08-01-1975, Bộ Chính trị hợp (mở rộng) soát xét tình hình dịch, ta ở miền Nam và sau chiến thắng Phước Long (ngày 6-1-1975), Bộ Chính trị quyết định: “Tiến hành tổng công kích, tổng khởi nghĩa tiêu diệt và làm tan rã nguy quân, đánh đồ nguy quyền từ Trung ương đến địa phương, giành chính quyền về tay nhân dân, giải phóng miền Nam, tiến tới thống nhất nước nhà”. Bộ Chính trị còn dự kiến: “Nếu thời cơ đến vào đầu năm hoặc cuối năm 1975 thì lập tức giải phóng miền Nam trong năm 1975”. Cũng thời gian này, Bộ Chính trị và Quân ủy Trung ương quyết định chọn Buôn Ma Thuột làm mục tiêu chủ yếu của Chiến dịch Nam Tây Nguyên. "
+                    }
+                ]
+            },
+            "bbox": [
+                158,
+                165,
+                932,
+                338
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Việc lấy Buôn Ma Thuột làm mục tiêu quyết chiến trong mùa xuân 1975 có ý nghĩa chiến lược hết sức quan trọng. Buôn Ma Thuột là thủ phủ của tỉnh Đắk Lắk và cũng là thị xã đầu tiên của Tây Nguyên. Đây là một đô thị có giá trị lớn về chiến lược, không những đối với Tây Nguyên mà cả miền Nam. Đánh chiếm Buôn Ma Thuột sẽ tạo ra bàn đạp giải phóng toàn bộ Tây Nguyên, uy hiếp đồng bằng ven biển miền Trung, mở ra hướng tiến công quan trọng vào Sài Gòn. "
+                    }
+                ]
+            },
+            "bbox": [
+                158,
+                342,
+                933,
+                460
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Để chuẩn bị cho giải phóng Buôn Ma Thuột, Trung ương chi viện cho Đắk Lắk Sư đoàn 10, Sư đoàn 316, Trung đoàn 95B, Trung đoàn đặc công 198, Trung đoàn 25, Tiểu đoàn 196 công bình và bộ bình, pháo bình. So sánh tương quan lực lượng lúc bấy giờ, quân ta hơn hằng quân dịch về số lượng, chất lượng và thiết bị, bổ trí thế trận liên hoàn và hiểm hốc, hình thành những “quả đấm” mạnh ở những khu vực tác chiến then chốt của chiến dịch. Được Quân ủy Trung ương và Bộ Tư lệnh trực tiếp chỉ huy, chỉ đạo, với sự chi viện đổi đào của hậu phương lớn, cán bộ, chiến sỹ các đơn vị chủ lực và địa phương đều phần khởi, tin tưởng, quyết tâm, hăng hái lập công. Về lực lượng của dịch, trước ngày ta nổ sung có khoảng 10.000 tên cả chủ lực, bảo an, cảnh sát và dân vệ, có Sư đoàn 23 với hàng trăm cố vấn Mỹ và mạng lưới đơn bốt dày đặc kiện cố. "
+                    }
+                ]
+            },
+            "bbox": [
+                158,
+                461,
+                933,
+                678
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Phối hợp với kế hoạch quân sự, Ban Thường vụ Tỉnh ủy Đắk Lắk tiến hành nhiều phiên hợp ra nghị quyết và bàn các biện pháp phối hợp với đơn tiến công của bộ đội chủ lực. Tỉnh ủy đã quán triệt cho cán bộ, đẳng viên và quản chúng nhân dân, trước hết là các cấp ủy đẳng, phương hướng, nhiệm vụ của tỉnh trước thời cơ lịch sử. Xác định kế hoạch tiến công và nổi dậy trong toàn tỉnh, đặc biệt là trên các địa bàn trọng điểm: Buôn Ma Thuột, Đức Lập (Đắk Min), Cẩm Gar-Thuần Mẫn (Ea H'Leo), Đức Xuyên, Lạc Thiện (Lắk). Đồng thời, dự kiến và có kế hoạch hướng phát triển theo các trực đường số 14, 21 (nay là Quốc lộ 26) khi có thời cơ thuận lợi. Cũng cố và phát huy vai trò của các đội vũ trang công tác, khởi phục và mở rộng các cơ sở quản chúng, tạo hành lang và bàn đạp cho các vùng sâu, vùng yếu, vùng tiếp cận đô thị. Tỉnh ủy Đắk Lắk và thị xã Buôn Ma Thuột đã tổ chức nhiều đoàn cán bộ dân vận, phát động quản chúng áp sát vào thị xã để làm nhiệm vụ tiếp tế, tải thương, dẫn đường liên lạc, làm công tác vận động bình lính, gọi hàng, trình diện, phục vụ chiến đấu và nổi dậy của quản chúng với khẩu hiệu hành động là “Tất cả cho phía trước, tất cả để giành thẳng lợi”. "
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                680,
+                938,
+                915
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18 "
+                    }
+                ]
+            },
+            "bbox": [
+                532,
+                44,
+                553,
+                57
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                127,
+                77,
+                928,
+                140
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Để tạo bí mật bất ngờ cho trận quyết chiến chiến lược ở Buôn Ma Thuột, từ đầu năm 1975, bộ đội chủ lực của ta ở Tây Nguyên đã tiến hành một kế hoạch nghi bình rất tài tỉnh, thu hút sự chú ý, đối phó của dịch ở Bắc Tây Nguyên. Cuối tháng 2-1975, Sư đoàn 968 đánh tiêu diệt chốt Mỹ, bức rút Đồn Tám và một số cứ điểm ở tây Pleiku, uy hiếp các quận ly Thanh An, căn cứ Thanh Bình. Ô phía đông An Khê, ngày 4-3-1975 Sư đoàn 3 của Quân khu V cắt đường 19 và đánh tiêu diệt một số vị trí của dịch từ An Khê đến Bình Khê. Cho đến đầu tháng 3-1975, dịch vẫn chưa phát hiện ta sẽ tấn công Buôn Ma Thuột, chúng còn đưa Trung đoàn 45 ở Đắk Lắk ra Pleiku đối phó với hoạt động của chủ lực ta ở Bắc Tây Nguyên. "
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                143,
+                931,
+                320
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sáng 05-3-1975, Trung đoàn 25 cắt đường 21 (nay là Quốc lộ 26) trên đoạn Cư Kúc; ngày 08-3-1975 Trung đoàn 48 đánh chiếm quận ly Thuần Mẫn và căn cứ Cẩm Ga cắt đứt đường 14, diệt một tiểu đoàn bảo an, bắt sống 120 tên, thu 200 súng. "
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                324,
+                931,
+                405
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ngày 09-3-1975, ta đã triển khai lực lượng, cài xong thế chiến lược và chiến dịch kết hợp với chiến trường, ta đánh quận ly Đức Lập, nghi bình bao vậy đánh vào Pleiku, Kon Tum, cắt đường 19 tạo ra chia cắt Tây Nguyên với đồng bằng, chia cắt phía Nam với phía Bắc, hoàn toàn bao vậy, cô lập thị xã Buôn Ma Thuột. "
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                408,
+                931,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đúng 2 giờ 03 phút, sáng ngày 10-3-1975, từ các hướng, quân ta nổ súng tiến công vào thị xã Buôn Ma Thuột. Mở đầu, đặc công đánh sân bay thị xã, đánh khu Kho Mai Hắc Đế, lực lượng bộ bình đánh sân bay Hòa Bình; cùng thời gian này hóa tiễn H12, ĐKB và các cụm pháo tập trung bán vào Sư bộ 23 của dịch. Sáng ngày 10-3, ở hướng Bắc, bộ bình ta có xe tăng phối hợp đánh vào Ngã Sáu và đánh chiếm Tiểu khu Buôn Ma Thuột. Hướng tây Bắc, lực lượng ta tiêu diệt Sở chỉ huy khu Kho Mai Hắc Đế, đánh chiếm các cứ điểm Cư Êbuôr, Cư Dluê... phá hệ thống cứ điểm án ngữ vòng ngoài thị xã. Ô hướng Tây quân ta đánh chiếm doanh trại Tiểu đoàn Quân y và áp sát căn cứ Sư bộ 23. Ô hướng Nam, ta đánh vào Khu Hành chính, Khu Tiếp vận, Sở Thú y, Ty Ngân khó, Khu cư xá Sĩ quan và đánh chiếm quận ly Hòa Bình. "
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                494,
+                931,
+                709
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ngày 11-3-1975, bộ bình, xe tăng và trọng pháo của ta tập trung đánh vào Sư bộ 23, dịch chống trả quyết liệt, nhưng đến 10 giờ quân ta đã làm chủ các mục tiêu, chiếm lĩnh Sư bộ 23, bắt sống tên tỉnh trường Đắk Lắk và đại tá sư đoàn phó Sư 23 nguy, lực lượng ta đã làm chủ hoàn toàn thị xã. "
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                715,
+                931,
+                793
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ngày 12-3-1975, ta tiến quân tiêu diệt căn cứ 45 nguy, đánh dịch ở Cư Bao, Đạt Lý, giải phóng Buôn Hồ. "
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                799,
+                928,
+                839
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ngày 13-3-1975, ta giải phóng Châu Sơn, diệt dịch cứ điểm Cư M'Gar phối hợp với bộ đội chủ lực, bộ đội địa phương tỉnh đánh chiếm và làm chủ quận ly Lạc Thiện. Trong khi bộ đội đánh chiếm thị xã, các đội công tác chính trị của tỉnh cũng như các phường trong nội tuyến, phát động quản chúng ổn định tư tưởng, sửa chữa điện nước, làm công tác tiếp quản, thành lập Ủy ban quân quản ở các địa phương, giữ vững trật tự an ninh, bảo đảm sinh hoạt bình thường cho nhân dân. "
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                844,
+                931,
+                925
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "19 "
+                    }
+                ]
+            },
+            "bbox": [
+                518,
+                39,
+                540,
+                53
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                164,
+                85,
+                935,
+                125
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ngày 14-3-1975, ta tấn công hậu cứ Trung đoàn 53 khu sân bay Hoà Bình và giải phóng Buôn Đôn, quét sạch căn cứ FULRO ở Tây Nguyên. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                129,
+                935,
+                170
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ngày 17-3-1975, quân chủ lực mở trận đánh quyết định vào Phước An, tiêu diệt và bắt sống gần hết máy ngân tên dịch, giải phóng Phước An. Ngày 18-3-1975, Trung đoàn 25 đã ngăn chặn và đánh tranç cuối cùng, tiêu diệt tàn quân của Sư đoàn 23 tháo chạy ở vùng Cư Kúc, thị xã Cheo Reo, tiêu diệt cơ quan hành chính tiểu khu Phú Bồn. Cũng trong ngày 18-3-1975, Ủy ban quân quản thị xã Buôn Ma Thuột được thành lập ra mắt tại Đình Lạc Giao do đại tá Y Blôk Êban làm Chủ tịch. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                174,
+                935,
+                309
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ngày 19-3-1975 đến 21-3-1975, quân ta đánh chiếm quận ly Khánh Dương truy quét sạch quản dịch co cụm ở đây, tiêu diệt và làm tan rã Lữ đoàn dù 3 nguy, chiếm lĩnh đèo Phương Hoàng mở đường cho quân ta tiến xuống tỉnh Khánh Hòa. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                313,
+                935,
+                374
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sau khi tiêu diệt lực lượng dịch, giải phóng thị xã Buôn Ma Thuột, Tỉnh ủy đã lãnh đạo các huyện sử dụng lực lượng địa phương phát động quản chúng nổi dạy diệt ác, phá kèm, truy quét tàn quân dịch. Đến ngày 24-3-1975, tỉnh Đắk Lắk hoàn toàn được giải phóng. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                377,
+                935,
+                458
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Chỉ 20 ngày trong tháng 3-1975 lịch sử (từ ngày 05 đến ngày 24-3-1975), quân chủ lực đã đánh đơn quyết chiến chiến lược, diệt và làm tan rã toàn bộ quân chủ lực phòng ngữ và rút chạy của Quân đoàn 2 nguy cùng với toàn bộ bình khí kỹ thuật trên địa bàn Đắk Lắk và Tây Nguyên, hỗ trợ và tạo điều kiện cho lực lượng vũ trang địa phương tiêu diệt bơn dịch ở cơ sở, phát động quản chúng nổi dây làm chủ và giải phóng hoàn toàn 3 đơn vị hành chính cấp tỉnh của dịch là Đắk Lắk, Quảng Đức, Phú Bồn với khoảng 400.000 dân. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                460,
+                935,
+                598
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Phối hợp với quân chủ lực, các lực lượng vũ trang tỉnh, huyện, đội vũ trang công tác của tỉnh đã đánh dịch 99 trận, diệt 329 tên, bắt 1.013 tên; bắt gọn Ban chỉ huy quận Lạc Thiện. Diệt và làm tan rã 3 tiểu đoàn bảo an, 2 tiểu đoàn FULRO, 50 trung đội nghĩa quân và toàn bộ lực lượng phòng vệ dân sự, thu 13.000 súng, 4 pháo 105mm... "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                601,
+                935,
+                700
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Ý nghĩa lịch sử của chiến thắng Buôn Ma Thuột, giải phóng tỉnh Đắk Lắk (10/3/1975) "
+                    }
+                ]
+            },
+            "bbox": [
+                166,
+                703,
+                937,
+                747
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Chiến thắng Buôn Ma Thuột và đánh bại quân dịch phản kích chiến dịch đã đầy nguy quân, nguy quyền Sài Gòn đến tình trạng hỗn loạn, tan rã, buộc dịch phải rút khởi Tây Nguyên, đánh dấu bước suy sup mới của Mỹ-nguy, mở ra bước ngoặt quan trọng trong quá trình phát triển của cục diện quân sự, chính trị ở Miền Nam. Buôn Ma Thuột từ trận tiến công có ý nghĩa chiến dịch trở thành một thắng lợi chiến lược. "
+                    }
+                ]
+            },
+            "bbox": [
+                166,
+                749,
+                939,
+                868
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Thắng lợi to lớn, toàn diện của trận Buôn Ma Thuột đã tạo ra đột biến về chiến lược, tạo ra thể và lực mới để ta giành thắng lợi từ bộ phận đến giành thắng lợi hoàn toàn, xuất hiện thời cơ chiến lược giải phóng hoàn toàn miền Nam nhanh hon, chín muòi hon. Đó là cơ sở để Đàng ta bổ sung quyết tâm chiến lược, rút ngắn thời gian kế hoạch chiến lược giải phóng miền Nam trong 2 năm xuống còn 55 ngày đêm, kịp thời lãnh đạo, chỉ đạo các hướng chiến trường nằm thời cơ huy động toàn bộ lực lượng, mở ra chiến dịch Hồ Chí Minh lịch sử, tiến lên giải phóng hoàn toàn miền Nam, thống nhất Tổ quốc. "
+                    }
+                ]
+            },
+            "bbox": [
+                169,
+                870,
+                940,
+                933
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "20 "
+                    }
+                ]
+            },
+            "bbox": [
+                535,
+                45,
+                558,
+                59
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                130,
+                81,
+                928,
+                180
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sau 30 năm chiến tranh ác liệt, đầy gian nan thử thách, dưới sự lãnh đạo của Đằng, nhân dân ta bền bị kháng chiến, nay được giải phóng, thực sự thoát khởi cảnh nước mất nhà tan, làm than nô lệ, đúng lên làm chủ vận mênh của mình. Trong một thời gian ngắn, trước sức tán công mãnh liệt và quật cường, quân và dân ta đã làm cho toàn bộ cơ đồ chủ nghĩa thực dân kiểu mới của Mỹ - Nguy xây dựng ròng rã 20 năm ở Đắk Lắk đã hoàn toàn sup đồ. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                184,
+                928,
+                303
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Chiến thắng Buôn Ma Thuột mãi mãi đi vào lịch sử dân tộc Việt Nam như một khác ca hùng tráng, một chiến thắng oanh liệt, là niềm vinh dự và tự hào to lớn của Đăng bộ, quân và dân các dân tộc Đắk Lắk. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                307,
+                928,
+                368
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "V. NHỮNG THÀNH TỰU CHỦ YẾU TRÊN LĨNH VỰC KINH TẾ - XÃ HỘI CỦA TỈNH ĐắK LắK SAU 45 NĂM GIẢI PHÓNG (TỪ 1975 ĐẾN NAY) "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                372,
+                928,
+                412
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sau 45 năm giải phóng, nhất là gần 35 năm đổi mới, Đắk Lắk đã có những bước phát triển vượt bậc, đạt nhiều thành tựu quan trọng làm thay đổi sâu sắc đời sống xã hội. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                418,
+                928,
+                478
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sau ngày giải phóng, nền kinh tế của tỉnh rất khó khăn, hậu quả chiến tranh để lại rất nặng nề; cơ sở hạ tầng còn nghèo nàn, lạc hậu. Tổng sản phẩm xã hội năm 1978 mới chỉ có 197,630 triệu đồng. Năm 1976, vốn đầu tư xây dựng cơ bản 16,995 triệu đồng; tổng mức bán lẻ hàng hóa xã hội đạt 44,573 triệu đồng; diện tích lúa nước năm 1976 là 8.653 ha, lúa rầy 50.979 ha, sản lượng 117.708 tấn. Diện tích cà phê (1978) 8.768 ha, sản lượng 18.282 tấn tươi. Sau 45 năm giải phóng, vốn đầu tư toàn xã hội có sự phát triển vượt bậc với 56.250 tỷ đồng; huy động vốn đầu tư toàn xã hội ước đạt 33.795 tỷ đồng; vốn đầu tư xây dựng cơ bản 4.379 tỷ đồng; tổng mức bán lẻ hàng hóa và doanh thu dịch vụ tiêu dùng trên địa bàn ước thực hiện 75.047 tỷ đồng; diện tích cây cà phê 203.063 ha, sản lượng ước đạt 478.000 tấn, lúa nước 104.803 ha, sản lượng 692.140 tấn; tổng sản lượng lương thực có hạt cả năm 2019 ước đạt khoảng 1.270.183 tấn; từ tỉnh thiếu lương thực đến nay, lương thực bình quân đầu người đạt 659kg/người. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                483,
+                928,
+                735
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cơ sở hạ tầng từ chỗ gần như không có gì, đến nay hệ thống giao thông đường bộ, đường không khá thuận lợi, với sân bay Buôn Ma Thuột và hệ thống các đường quốc lộ 14, 26, 27, 29 kết nối Đắk Lắk với các tỉnh trong khu vực miền Trung, Tây Nguyên, Đông Nam Bộ và cả nước. Hệ thống giao thông đến các huyện, xã ngày càng được cải tạo, nâng cấp, với 100% xã đã có đường ô tô đến trung tâm; cải tạo, nâng cấp nhựa hoặc bê tông hóa các tuyến đường tỉnh đạt 95,17%; các tuyến đường huyện đạt 85%; các tuyến đường xã và liên xã đạt 49%; 100% xã có điện lưới quốc gia, 98% thôn, buôn có điện, trong đó 98,5 % số hộ được dùng điện; đầu tư xây dựng được 233 dự án/công trình cho vùng đồng bào DTTS với tổng mức đầu tư 950,948 tỷ đồng; có 52 xã đạt chuẩn nông thôn mới. "
+                    }
+                ]
+            },
+            "bbox": [
+                130,
+                739,
+                928,
+                935
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "21 "
+                    }
+                ]
+            },
+            "bbox": [
+                516,
+                42,
+                538,
+                57
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Giá trị sản xuất công nghiệp năm 2019 đạt 16.500 tỷ đồng; sản xuất công nghiệp chế biến, chế tạo tiếp tục đóng vai trò quan trọng, chiếm chiếm 71,67% trong cơ cấu giá trị sản xuất công nghiệp toàn ngành. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                82,
+                935,
+                141
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Về y tế, sau giải phóng, đội ngũ y bác sỹ toàn tỉnh chỉ có 155 người, với 12 cơ sở khám chữa bệnh (gồm 03 bệnh viện, 07 bệnh xá, 01 nhà điều dưỡng, 01 trại phong), với 932 guồng. Đến nay, toàn tỉnh có 226 cơ sở y tế, 6.660 nhân viên y tế, với 5.893 giường bệnh. Công tác khám chữa bệnh, chăm sóc sức khỏe nhân dân được duy trì thực hiện tốt. Năm 2019 đã khám cho 3.819.542 lượt người, điều trị nội trú 317.840 lượt người và phẫu thuật cho 77.458 lượt người; xã hội hóa trong lĩnh vực y tế có chuyển biến tốt, nhiều cơ sở y tế ngoài công lập hoạt động có hiệu quả đã góp phần tích cực trong công tác chăm sóc sức khỏe cho nhân dân; 6,83 bắc sỹ/1 vận dân, 27 guồng bệnh/1 vận dân; tỷ lệ bao phủ bảo hiểm y tế đạt 87,6% dân số. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                147,
+                935,
+                338
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Về giáo dục, sau giải phóng chỉ có trường 137 trường (115 trường cấp I, 21 trường cấp II, 01 trường cấp III), với 1.260 giáo viên, với 1.409 lớp, 65.000 học sinh. Đến nay, toàn tỉnh có 1.027 trường (trong đó: Mầm non: 323 trường; Tiểu học: 425 trường, THCS: 227 trường; THPT: 52 trường), với 28.302 giáo viên (phổ thông 22.174, mầm non 6.128); với 15.652 lớp (12.242 lớp phổ thông, 3.410 lớp mẫu giáo), có 08 trường trung cấp (280 giáo viên, 3.116 học sinh), 06 trường cao đẳng (509 giáo viên, 3.352 sinh viên), 02 trường đại học (668 giảng viên, 11.501 sinh viên). việc xây dựng trường chuẩn quốc gia ở các cấp học được quan tâm đầy mạnh; trường đạt chuẩn quốc gia đạt tỷ lệ 46,5%. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                343,
+                935,
+                518
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Về thông tin liên lạc, sau giải phóng mới chỉ có 25km đường dây điện thoại, 250 máy điện thoại, Đến nay, đã phủ sóng điện thoại toàn tỉnh, với 1.931.851 thuê bao điện thoại , tỷ lệ người sử dụng điện thoại di động 71,18%, internet 821.387 thuê bao, tỷ lệ hộ gia đình có kết nối internet đạt 42,11% số hộ, tỷ lệ người sử dụng internet đạt 42,83%. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                522,
+                935,
+                620
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Về thiết chế văn hóa, sau giải phóng chỉ 01 thư viện, 01 nhà văn hóa, 10 đội chiếu bóng. Đến nay, hệ thống thiết chế văn hóa, thể thao khá đồng bộ, toàn tỉnh có có 03 nhà văn hóa cấp tỉnh, 13 trung tâm văn hóa cấp huyện; 49 nhà văn hóa cấp xã; 585 buôn có nhà văn hóa cộng đồng; 12 thư viện và một số nhà truyền thống trong các cơ quan, đơn vị; 100% trường học có thư viện và 3 địa điểm chiếu phim do các doanh nghiệp đầu tư trong các siêu thị, có 14 đội chiếu bóng lưu động; 01 sân vận động có khán dài; 58 nhà thi đấu, nhà tập luyện đa năng; 190 sân bóng đá 11 người; 270 sân bóng đá mini; 184 sân cầu lông; 870 sân bóng chuyển; 22 sân bóng rổ; 62 sân quản vọt; 16 bề bởi; 06/15 huyện có Trung tâm thể dục thể thao "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{5}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                625,
+                935,
+                799
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Về quốc phòng - an ninh, sau ngày giải phóng, bên cạnh việc khác phục hậu quả nặng nề của chiến tranh để lại, tỉnh vừa tập trung chăm lo phát triển kinh tế, nâng cao đời sống nhân dân, vừa phải đầy mạnh công tác dấu tranh giải quyết vấn đề FULRO; đồng thời chiến đấu và chiến thắng âm mưu xâm lân, diệt chủng của bơn Pôn Pốt - Iêng Xary, góp phần bảo vệ vững chắc biên giới và làm tròn nghĩa vụ quốc tế, giúp bạn giải phóng tỉnh Mondunkiri - Campuchia... Lực lượng vũ trang từng bước được xây dựng chính quy, hiện đại, có bản lĩnh chính trị vững vàng và nâng cao chất lượng tổng hợp, sức mạnh chiến đấu; thường xuyên rà soát, bổ sung, hoàn thiện các phương án, kế hoạch tác chiến và thường xuyên huấn luyện, sẵn sàng trong mọi tình huống. Phát huy sức mạnh khối đại đoàn kết toàn dân tộc; tăng cường công tác vận động quản chúng; đấu tranh làm thất bại nhiều âm mưu, thủ đoạn của các thể lực thù dịch lợi dụng vấn đề tôn giáo, dân tộc, dân chủ, nhân quyền đề chống phá chế độ và nhân dân ta. "
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                800,
+                939,
+                861
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "22 "
+                    }
+                ]
+            },
+            "bbox": [
+                535,
+                45,
+                558,
+                58
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "5 Nguồn: Niên giám thống kê 1976-1981 tỉnh Đắk Lắk và Niên giám thống kê tỉnh Đắk Lắk 2018; Số liệu có thể thamn khảo các báo cáo hàng năm, báo cáo 05 năm của Tỉnh ủy, Hội đồng nhân dân tỉnh, Ủy ban nhân dân tỉnh. "
+                    }
+                ]
+            },
+            "bbox": [
+                166,
+                899,
+                939,
+                930
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                133,
+                82,
+                928,
+                277
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Về quan hệ đối ngoại, sau giải phóng tỉnh chủ yếu quan hệ, hợp tác với các nước thuộc khối các nước xã hội chủ nghĩa; đến nay, tỉnh đã đa dạng hóa, đa phương hóa mối quan hệ quốc tế với các địa phương nước ngoài, các đối tác, tổ chức quốc tế. Tiếp tục giữ vững, phát triển mối quan hệ đối ngoại với các tỉnh thành trong và ngoài nước, thúc đẩy hòa bình, hữu nghị, hợp tác; phát triển kinh tế, xã hội, giữ vững và đảm bảo chủ quyền, an ninh biên giới Quốc gia. "
+                    }
+                ]
+            },
+            "bbox": [
+                133,
+                278,
+                928,
+                396
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Về hệ thống chính trị, sau ngày giải phóng, công tác xây dựng, cũng có hệ thống chính trị các cấp luôn được quan tâm. Năng lực lãnh đạo và sức chiến đấu của tổ chức đẳng các cấp được nâng lên; phương thức lãnh đạo từng bước được đổi mới, là nhân tố quyết định của mọi thắng lợi. Năm 1975, Đằng bộ tỉnh chỉ có 216 tổ chức cơ sở đẳng với hơn 2.400 đẳng viên, đến nay Đằng bộ tỉnh Đắk Lắk có 20 đẳng bộ trực thuộc (trong đó 15 đẳng bộ huyện, thị xã, thành phố; 01 đẳng bộ khối; 03 đẳng bộ lực lượng vũ trang và 01 Đằng bộ cơ sở Trường Đại học Tây Nguyên), với 783 tổ chức cơ sở đẳng (410 đẳng bộ và 373 chi bộ); có 05 đẳng bộ bộ phận và 5.353 chỉ bộ trực thuộc đẳng bộ cơ sở, với tổng số 80.214 đẳng viên. Hệ thống chính trị từ tỉnh đến cơ sở từng bước được cũng có và kiện toàn. Hiệu lực, hiệu quả hoạt động của bộ máy chính quyền các cấp có tiến bộ. Mặt trận Tổ quốc và các đoàn thể nhân dân có nhiều hoạt động hướng về cơ sở khá phong phú, gắn liền với lợi ích của nhân dân, tạo được các phong trào hành động cách mạng thiết thực. "
+                    }
+                ]
+            },
+            "bbox": [
+                133,
+                396,
+                928,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Năm 2004, tỉnh Đắk Lắk tách thành hai tỉnh Đắk Lắk và Đắk Nông, dân số của tỉnh Đắk Lắk hiện nay trên 1.919.147 người, với 49 dân tộc anh em. Những thành tựu kinh tế-xã hội đạt được trong 45 năm, từ 1975 đến nay là vô cùng to lớn. Từ một tỉnh miền núi nghèo nàn, lạc hậu với kinh tế nông nghiệp thô sơ, đến nay, Đắk Lắk đã trở thành một tỉnh khá của khu vực miền Trung-Tây Nguyên. Đó chính là nền tảng cho những chặng đường tiếp theo đưa Đắk Lắk tiến nhanh trên con đường công nghiệp hóa, hiện đại hóa. "
+                    }
+                ]
+            },
+            "bbox": [
+                133,
+                649,
+                928,
+                786
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "BAN TỔ CHỨC CUỘC THI "
+                    }
+                ]
+            },
+            "bbox": [
+                574,
+                817,
+                869,
+                837
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "23 "
+                    }
+                ]
+            },
+            "bbox": [
+                518,
+                45,
+                542,
+                59
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DANH MỤC TÀI LIÊU THAM KHẢO "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                326,
+                100,
+                729,
+                123
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1. Ban Chập hành Đằng bộ tỉnh Đắk Lắk (2002): Lịch sử Đăng bộ tỉnh Đắk Lắk 1930-1954, Nhà xuất bản Chính trị Quốc gia, Hà Nội. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2. Ban Cháp hành Đăng bộ tỉnh Đắk Lắk (2003): Lịch sử Đăng bộ tỉnh Đắk Lắk 1954-1975, Nhà xuất bản Chính trị Quốc gia, Hà Nội. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3. Ban Cháp hành Đăng bộ tỉnh Đắk Lắk (2010): Lịch sử Đăng bộ tỉnh Đắk Lắk 1975-2005, Nhà xuất bản Chính trị Quốc gia, Hà Nội. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4. Ban Cháp hành Đăng bộ tỉnh Đăng Lắk (2010): Kỷ yếu các kỳ Đại hội Đăng bộ tỉnh 1940-2010, Xí nghiệp in Đăng Lắk. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "5. Ban Chập hành Đăng bộ tỉnh Đắk Lắk (2012): Lịch sử Nhà đầy Buôn Ma Thuột (bổ sung, tái bản), Xí nghiệp in Đắk Lắk. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "6. Ban Cháp hành Đăng bộ tỉnh Đắk Lắk (2005): Tiểu sử tóm tắt các đồng chí Bí thư Tỉnh ủy Đắk Lắk qua các thời kỳ, Xí nghiệp in Đắk Lắk. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "7. Bộ Chỉ huy Quân sự tỉnh Đắk Lắk (1991): Đắk Lắk 30 năm chiến tranh giải phóng (1945-1975), tập I, Kháng chiến chống thực dân Pháp (1945-1954), Xí nghiệp in Đắk Lắk. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "8. Bộ Chỉ huy Quân sự tỉnh Đắk Lắk (1994): Đắk Lắk 30 năm chiến tranh giải phóng (1945-1975), tập II, Kháng chiến chống Mỹ (1954-1975), Xí nghiệp in Đắk Lắk. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "9. Tỉnh ủy-HĐND-UBND tỉnh Đắk Lắk (2015): Địa chí Đắk Lắk, Nhà xuất bản Khoa học xã hội, Đắk Lắk. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "10. Các Văn kiện Đại hội Đảng bộ tỉnh. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "11. Các báo cáo, nghị quyết hàng năm của Ban Cháp hành Đăng bộ tỉnh, Hội đồng nhân dân tỉnh, Ủy ban nhân dân tỉnh. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "12. Một số sách chuyên đề tham khảo khác. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                126,
+                142,
+                930,
+                693
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "24 "
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                41,
+                541,
+                57
+            ]
+        }
+    ]
+]

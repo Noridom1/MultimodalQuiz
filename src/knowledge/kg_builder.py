@@ -638,6 +638,8 @@ def main() -> int:
         backend=args.backend,
         provider=args.provider,
         granularity=args.granularity,
+        batch_size=8,
+        max_calls=24,
     )
     extracted = extractor.extract(parsed_document.markdown) if parsed_document.markdown.strip() else {
         "concepts": [],

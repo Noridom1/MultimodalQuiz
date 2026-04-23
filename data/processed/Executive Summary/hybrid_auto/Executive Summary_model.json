@@ -1,0 +1,6587 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.128,
+                0.091,
+                0.167,
+                0.117
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.178,
+                0.094,
+                0.303,
+                0.114
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.128,
+                0.141,
+                0.43,
+                0.166
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.183,
+                0.874,
+                0.486
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.128,
+                0.51,
+                0.396,
+                0.534
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.552,
+                0.873,
+                0.599
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.127,
+                0.617,
+                0.544,
+                0.632
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.952,
+                0.504,
+                0.962
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.086,
+                0.174,
+                0.123
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.175,
+                0.093,
+                0.306,
+                0.117
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.136,
+                0.434,
+                0.17
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.183,
+                0.872,
+                0.198
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.198,
+                0.873,
+                0.214
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.215,
+                0.872,
+                0.23
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.231,
+                0.871,
+                0.246
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.248,
+                0.871,
+                0.262
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.263,
+                0.871,
+                0.278
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.28,
+                0.872,
+                0.295
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.295,
+                0.872,
+                0.311
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.311,
+                0.871,
+                0.326
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.328,
+                0.871,
+                0.342
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.344,
+                0.871,
+                0.358
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.36,
+                0.871,
+                0.375
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.375,
+                0.871,
+                0.391
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.39,
+                0.872,
+                0.408
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.408,
+                0.871,
+                0.422
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.424,
+                0.872,
+                0.438
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.438,
+                0.874,
+                0.457
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.456,
+                0.871,
+                0.471
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.472,
+                0.729,
+                0.487
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.505,
+                0.398,
+                0.537
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.551,
+                0.872,
+                0.568
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.568,
+                0.872,
+                0.584
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.125,
+                0.584,
+                0.871,
+                0.601
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.616,
+                0.544,
+                0.634
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.952,
+                0.505,
+                0.965
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.128,
+                0.09,
+                0.999,
+                0.744
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Title (ref)</td><td>Authors</td><td>Year</td><td>Venue</td><td>Domain</td><td>Method Summary</td><td>TTS Role</td><td>Data</td></tr><tr><td>RegionFocus: Visual Test-time Scaling for GUI Agents1</td><td>Luo et al.</td><td>2025</td><td>ICCV (OpenAccess)</td><td>GUI/ Vision-Language</td><td>Introduces RegionFocus: at inference, VLM agent zooms into salient UI sub-regions and aggregates actions; uses an &quot;image-as-map&quot; to record context.</td><td>Central</td><td>Scram Product Weis</td></tr><tr><td>MindJourney: SpatialNavigator (Poster)3</td><td>Yang et al.</td><td>2025</td><td>NeurIPS (Poster)</td><td>Spatial Reasoning</td><td>Couples a pre-trained VLM with a video-diffusion world model: iteratively generates imagined camera views (via a policy) to provide multi-view input.</td><td>Central</td><td>SAW Aw Tes</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.952,
+                0.506,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.952,
+                0.507,
+                0.966
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.128,
+                0.09,
+                0.999,
+                0.744
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Title (ref)</td><td>Authors</td><td>Year</td><td>Venue</td><td>Domain</td><td>Method Summary</td><td>TTS Role</td><td>Data</td></tr><tr><td>EasyARC: True Visual Reasoning (Vision-Language)</td><td>(Conference abstract) Yue Zhao et al.</td><td>2025 (ViSCALE)</td><td>CVPR Workshop</td><td>VLM Reasoning</td><td>Proposes evaluation of VLMs on ARC (visual question answering) tasks with multi-hop reasoning.</td><td>Auxiliary</td><td>AR (vis</td></tr><tr><td>Get a GRIP on Test Time Adaptation 5</td><td>Sanga et al.</td><td>2025</td><td>CVPR Workshop</td><td>Domain Adaptation</td><td>Introduces GRIP: a test-time adaptation method combining self-supervised objectives with policy optimization to adapt model to corruptions (CIFAR-C).</td><td>Adaptation (not typical scaling)</td><td>CIF</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.952,
+                0.506,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.951,
+                0.507,
+                0.964
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.128,
+                0.09,
+                0.999,
+                0.66
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Title (ref)</td><td>Authors</td><td>Year</td><td>Venue</td><td>Domain</td><td>Method Summary</td><td>TTS Role</td><td>Data</td></tr><tr><td>On Suitability of RFT to Visual Tasks7</td><td>Chen et al.</td><td>2025</td><td>CVPR Workshop</td><td>VLM Fine-tuning</td><td>Studies Reinforcement Fine-Tuning (RFT) of multi-modal LLMs (like RLHF) on vision tasks vs standard fine-tuning (SFT). Assesses effect of “thinking more”.</td><td>Investigation</td><td>Mu vis (un</td></tr><tr><td>Efficient TTS for Small VLMs (TTAug, TTAdapt)9</td><td>Kaya et al.</td><td>2026</td><td>ICLR Poster</td><td>VLM Efficiency</td><td>Proposes TTAug: token-level aggregation over augmentations, and TTAdapt: self-training via pseudo-labels, to boost small VLMs at inference efficiently.</td><td>Central</td><td>9 V La tass (un</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.952,
+                0.506,
+                0.962
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.952,
+                0.507,
+                0.965
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.128,
+                0.09,
+                0.999,
+                0.765
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Title (ref)</td><td>Authors</td><td>Year</td><td>Venue</td><td>Domain</td><td>Method Summary</td><td>TTS Role</td><td>Date</td></tr><tr><td>Limits &amp; Gains of TTS in VLMs11</td><td>Ahmadpour et al.</td><td>2025</td><td>ArXiv (Sharif U.)</td><td>VLM Reasoning</td><td>Systematic study of LLM-style TTS (CoT, Best-of-N, Self-Refinement, etc.) applied to VLMs (open/ closed) on MathVista, MMMU, MMBench benchmarks.</td><td>Survey/ Evaluation</td><td>Ma MM MM (VO rea</td></tr><tr><td>MG-Select: VLA Test-Time Scaling13 14</td><td>Jang et al.</td><td>2025</td><td>ArXiv</td><td>Vision-Language Actions (Robotics)</td><td>Masking-guided selection (MG-Select): At inference, sample multiple action tokens; select best via KL-divergence to an “uncertain” reference distribution (self-generated by masking).</td><td>Central</td><td>Ro be (pi pla</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.128,
+                0.817,
+                0.449,
+                0.832
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.952,
+                0.505,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.817,
+                0.449,
+                0.832
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.952,
+                0.507,
+                0.965
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.128,
+                0.09,
+                0.999,
+                0.725
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Title (ref)</td><td>Authors</td><td>Year</td><td>Venue/Type</td><td>Domain</td><td>Method Summary</td><td>TTS Role</td><td>Datasets</td></tr><tr><td>TTGen: TTS for Diffusion Models1516</td><td>Qiao et al.</td><td>2025</td><td>CVPR Workshop</td><td>Image Generation (Diffusion)</td><td>Framework to integrate sampling-based TTS into text-to-image diffusion: (1) sample clean latent per step; (2) refine prompts via LVLM; (3) Best-of-N denoising.</td><td>Central</td><td>Standard text-to-image (unspecified prompts)</td></tr><tr><td>EvoSearch: Test-Time Evolutionary Search1920</td><td>He et al.</td><td>2025</td><td>ArXiv</td><td>Image/Video Gen (Diffusion &amp; Flow)</td><td>Reformulates inference as an evolutionary search over diffusion/flow denoising trajectories: uses mutation/selection to refine image/video candidates, preserving diversity.</td><td>Central</td><td>Various (diffusion/flow models, image/video tasks)</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.952,
+                0.506,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.952,
+                0.507,
+                0.965
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.128,
+                0.09,
+                0.999,
+                0.725
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Title (ref)</td><td>Authors</td><td>Year</td><td>Venue/Type</td><td>Domain</td><td>Method Summary</td><td>TTS Role</td><td>Datasets</td></tr><tr><td>Progress by Pieces (GridAR)2223</td><td>Park et al.</td><td>2025</td><td>ArXiv</td><td>Autoregressive Image Gen (T2I)</td><td>GridAR: Partition image into grid patches; for each patch generate multiple partial candidates (with prompt reformulation), prune infeasible ones, fix and continue.</td><td>Central</td><td>T2I-CompBench++, PIE-Bench (text-&gt;image/edit)</td></tr><tr><td>Video-T1: TTS for Video Generation25 26</td><td>Liu et al.</td><td>2025</td><td>ICCV (OpenAccess)</td><td>Text-to-Video Gen</td><td>Treats video inference as search: (a) linear search: increase noise samples per frame; (b) Tree-of-Frames (ToF): autoregressively expand/prune frame branches.</td><td>Central</td><td>Video generation benchmarks (e.g. VBench)</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.952,
+                0.506,
+                0.962
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.952,
+                0.507,
+                0.965
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.128,
+                0.09,
+                0.999,
+                0.563
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Title (ref)</td><td>Authors</td><td>Year</td><td>Venue/Type</td><td>Domain</td><td>Method Summary</td><td>TTS Role</td><td>Datasets</td></tr><tr><td>EndoCoT:Diffusion with Chain-of-Thought28 29</td><td>Kai Chen et al.</td><td>2026</td><td>ArXiv</td><td>Visual Reasoning via Diffusion</td><td>Embeds a latent chain-of-thought into diffusion: alternating “iterative thought guidance” (refining MLLM latent) and “terminal grounding” (align final state).</td><td>Central</td><td>Maze, TSP, VSP, Sudoku tasks</td></tr><tr><td>Scaling TTS in Diffusion (Survey)</td><td>[Future Work] Bai et al.</td><td>2024</td><td>AI Safety (?)</td><td>-</td><td>[Hypothetical] Review of applying chain-of-thought to diffusion (not an actual published ref).</td><td>-</td><td>-</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.128,
+                0.577,
+                0.467,
+                0.591
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.952,
+                0.504,
+                0.962
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.952,
+                0.507,
+                0.964
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.577,
+                0.468,
+                0.592
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.128,
+                0.09,
+                0.999,
+                0.891
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Title (ref)</td><td>Authors</td><td>Year</td><td>Venue</td><td>Domain</td><td>Method Summary</td><td>TTS Role</td><td>Datasets</td><td>Metrics</td></tr><tr><td>Gated Depth (Scaling Compute)31 32</td><td>Darzi et al.</td><td>2025</td><td>CVPR Workshop</td><td>Vision (Classification)</td><td>Proposes Gated Depth: partitions network into core and optional gated subpaths; trains depth-aware model that can run at various depths.</td><td>Implicit (scalable arch.)</td><td>Standard image benchmarks (ResNet)</td><td>Accuracy vs FLOP</td></tr><tr><td>Centaur: Test-Time Training for Driving34</td><td>Sima et al.</td><td>2025</td><td>ArXiv (not CVPR)</td><td>Autonomous Driving</td><td>Centaur: updates end-to-end planner via one gradient step at deployment: minimize a novel Cluster Entropy measure of action uncertainty (no labels).</td><td>Central</td><td>NavTest (CARLA)</td><td>Safety (time-to collision NavTest rank</td></tr><tr><td>Adaptive Instance Norm &amp; Calibration (various)</td><td>Many (e.g., Luo et al.)</td><td>2024-26</td><td>CVPR/NeurIPS</td><td>Various</td><td>Techniques like AdaBN (adapt BN stats at test time), temperature scaling, dropout ensembling, etc.</td><td>Auxiliary</td><td>Calibration benchmarks (CIFAR, ImageNet)</td><td>Error, ECE</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.952,
+                0.506,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.952,
+                0.507,
+                0.965
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.086,
+                0.873,
+                0.135
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.127,
+                0.157,
+                0.73,
+                0.183
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.199,
+                0.871,
+                0.23
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.162,
+                0.245,
+                0.874,
+                0.538
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.167,
+                0.249,
+                0.87,
+                0.295
+            ],
+            "angle": 0,
+            "content": "- Sampling/Ensemble Methods: Run multiple inference passes and aggregate. Examples: Best-of-N, Monte Carlo Tree Search, Self-consistency. (Image generation can use multiple samples to pick best; VLMs ensemble answers.)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.167,
+                0.297,
+                0.811,
+                0.327
+            ],
+            "angle": 0,
+            "content": "- Iterative Reasoning: Perform multi-step inference (chain-of-thought). E.g., feeding back intermediate outputs or prompts (EndoCoT, UniT, chain-of-thought prompting).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.167,
+                0.329,
+                0.851,
+                0.36
+            ],
+            "angle": 0,
+            "content": "- Model Adaptation: Update model at test time (TTA, TENT, GRIP). These use unlabeled test data or augmentations to fine-tune, effectively altering computation (e.g. multiple gradient steps).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.361,
+                0.821,
+                0.391
+            ],
+            "angle": 0,
+            "content": "- Architectural Scaling: Dynamically change model depth/width at inference (Gated Depth, adaptive early-exit networks).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.393,
+                0.843,
+                0.423
+            ],
+            "angle": 0,
+            "content": "- Visual Focus / Region Scaling: Direct compute to parts of the input (RegionFocus zooms into salient GUI regions).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.425,
+                0.854,
+                0.47
+            ],
+            "angle": 0,
+            "content": "- Calibration & Uncertainty-based Scaling: Use confidence measures (temperature scaling, KL-divergence as in MG-Select \\( ^{13} \\) ) to decide when to apply extra computation or which output to trust.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.473,
+                0.825,
+                0.504
+            ],
+            "angle": 0,
+            "content": "- Prompt/Conditioning Scaling: In diffusion/AR generative models, adapt the prompt or conditioning signal during sampling (e.g., TTGen revises prompts each denoising step \\( ^{37} \\) ).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.506,
+                0.822,
+                0.537
+            ],
+            "angle": 0,
+            "content": "- World-Model Coupling: Use learned environment/world simulators at inference to gather evidence (SpatialNavigator \\( ^{3} \\) uses video diffusion to “imagine” new views).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.548,
+                0.442,
+                0.563
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "code_caption",
+            "bbox": [
+                0.145,
+                0.593,
+                0.258,
+                0.606
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "code",
+            "bbox": [
+                0.178,
+                0.609,
+                0.692,
+                0.913
+            ],
+            "angle": 0,
+            "content": "A[Test-Time Scaling Approaches] --> B[Sampling/Ensemble]\nA --> C[Iterative Reasoning]\nA --> D[Model Adaptation]\nA --> E[Architectural Scaling]\nA --> F[Spatial/Region Focus]\nA --> G[Calibration/Confidence]\nA --> H[Prompt/Conditioning]\nA --> I[World-Models]\n\nB --> B1[Best-of-N Sampling]\nB --> B2[Monte Carlo Search]\nB --> B3[Evolutionary (EvoSearch)]\nC --> C1[Chain-of-Thought Prompts (UniT, Uni-CoT)]\nC --> C2[Self-Refinement (Self-Consistency)]\nC --> C3[Verifier loop (MG-Select)]\nD --> D1[Test-Time Training (GRIP)]\nD --> D2[Test-Time Augmentation (TTAug)]\nE --> E1[Gated Depth Networks]\nE --> E2[Early-exit models]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.952,
+                0.51,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.145,
+                0.593,
+                0.259,
+                0.608
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.548,
+                0.443,
+                0.563
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.086,
+                0.871,
+                0.102
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.103,
+                0.872,
+                0.119
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.115,
+                0.724,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.154,
+                0.732,
+                0.184
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.199,
+                0.871,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.215,
+                0.655,
+                0.233
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.167,
+                0.248,
+                0.868,
+                0.265
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.265,
+                0.872,
+                0.281
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.282,
+                0.406,
+                0.296
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.167,
+                0.424,
+                0.856,
+                0.441
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.44,
+                0.851,
+                0.458
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.457,
+                0.224,
+                0.472
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.168,
+                0.297,
+                0.813,
+                0.313
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.312,
+                0.745,
+                0.33
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.168,
+                0.36,
+                0.823,
+                0.376
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.378,
+                0.392,
+                0.393
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.169,
+                0.474,
+                0.805,
+                0.49
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.488,
+                0.829,
+                0.505
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.169,
+                0.505,
+                0.823,
+                0.521
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.521,
+                0.722,
+                0.538
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.168,
+                0.328,
+                0.854,
+                0.346
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.345,
+                0.843,
+                0.363
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.167,
+                0.391,
+                0.846,
+                0.41
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.408,
+                0.328,
+                0.425
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.95,
+                0.511,
+                0.967
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "code",
+            "bbox": [
+                0.18,
+                0.085,
+                0.638,
+                0.214
+            ],
+            "angle": 0,
+            "content": "F --> F1[RegionFocus (GUI)]\nF --> F2[Saliency-based focus]\nG --> G1[Temperature/Logit Scaling]\nG --> G2[Uncertainty Metrics (KL as in MG-Select)]\nH --> H1[Dynamic Prompt Editing (TTGen)]\nH --> H2[AR Layout scaling (GridAR)]\nI --> I1[Video World Model (SpatialNavigator)]\nI --> I2[Multiview aggregation]"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.125,
+                0.237,
+                0.872,
+                0.3
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.127,
+                0.323,
+                0.862,
+                0.347
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.365,
+                0.872,
+                0.38
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.381,
+                0.872,
+                0.41
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.413,
+                0.872,
+                0.445
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.446,
+                0.872,
+                0.476
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.478,
+                0.837,
+                0.492
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.494,
+                0.871,
+                0.524
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.526,
+                0.758,
+                0.54
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.125,
+                0.381,
+                0.872,
+                0.54
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.56,
+                0.872,
+                0.589
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.592,
+                0.872,
+                0.622
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.624,
+                0.714,
+                0.638
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.64,
+                0.56,
+                0.654
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.656,
+                0.51,
+                0.67
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.69,
+                0.872,
+                0.753
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.772,
+                0.871,
+                0.803
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.127,
+                0.822,
+                0.436,
+                0.835
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.952,
+                0.508,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.822,
+                0.435,
+                0.836
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.238,
+                0.872,
+                0.254
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.253,
+                0.871,
+                0.269
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.269,
+                0.872,
+                0.286
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.284,
+                0.693,
+                0.302
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.69,
+                0.872,
+                0.706
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.704,
+                0.874,
+                0.723
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.721,
+                0.873,
+                0.739
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.738,
+                0.488,
+                0.754
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.639,
+                0.562,
+                0.657
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.524,
+                0.759,
+                0.543
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.323,
+                0.863,
+                0.349
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.363,
+                0.872,
+                0.383
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.379,
+                0.873,
+                0.397
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.395,
+                0.198,
+                0.414
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.125,
+                0.411,
+                0.871,
+                0.43
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.125,
+                0.428,
+                0.201,
+                0.448
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.444,
+                0.872,
+                0.462
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.458,
+                0.426,
+                0.479
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.493,
+                0.871,
+                0.509
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.125,
+                0.506,
+                0.192,
+                0.527
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.506,
+                0.224,
+                0.527
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.557,
+                0.873,
+                0.577
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.575,
+                0.215,
+                0.592
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.59,
+                0.871,
+                0.608
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.608,
+                0.309,
+                0.623
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.307,
+                0.605,
+                0.347,
+                0.625
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.771,
+                0.872,
+                0.789
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.788,
+                0.735,
+                0.804
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.474,
+                0.839,
+                0.494
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.95,
+                0.511,
+                0.967
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.62,
+                0.716,
+                0.64
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.655,
+                0.51,
+                0.672
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.128,
+                0.09,
+                0.873,
+                0.86
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Task Type</td><td>Example Benchmark</td><td>Domain / Task</td><td>Metric</td><td>Evaluation Notes</td></tr><tr><td>Spatial Reasoning</td><td>SAT (Spatial Aware)4</td><td>Egocentric motion prediction</td><td>Accuracy (%)</td><td>VLM must predict view after motion</td></tr><tr><td></td><td>Maze, TSP, Sudoku28</td><td>Visual puzzles (routes, puzzles)</td><td>Accuracy (%)</td><td>Complex generalisation (maze sizes etc.)</td></tr><tr><td></td><td>VSP (Visual Spatial Planning)</td><td>Placement tasks</td><td>Success%/ Accuracy</td><td>(e.g. place objects with constraints)</td></tr><tr><td>Vision-Language VQA</td><td>MathVista, MMMU, MMBench12</td><td>Multi-hop VQA tasks</td><td>Accuracy</td><td>Test if multimodal CoT helps</td></tr><tr><td></td><td>NLVR2, Visual7W (general VQA)</td><td>Compositional language+vision</td><td>Accuracy</td><td></td></tr><tr><td>GUI Navigation</td><td>ScreenSpot-Pro, WebVoyager 1</td><td>Web/OS interface navigation</td><td>Success rate (%)</td><td>Multi-step UI tasks (click/scroll sequences)</td></tr><tr><td>Driving/ Robotics</td><td>CARLA NavTest/ NavSafe 35</td><td>Autonomous driving (route planning)</td><td>Safety metrics, collision time, rank</td><td>End-to-end planner evaluation</td></tr><tr><td></td><td>RoboCasa pick-place 13</td><td>Robot manipulation (simulation)</td><td>Task completion (%)</td><td>Real vs OOD scenarios</td></tr><tr><td>Image Generation</td><td>CIFAR-10/ Imagenet (FID)</td><td>General image quality</td><td>FID, IS, CLIPScore</td><td>Generated vs real distributions</td></tr><tr><td></td><td>COCO text-to-image</td><td>Text-conditioned generation</td><td>FID, CLIPScore, Precision/ Recall</td><td>E.g. CLIPScore gain in TTGen</td></tr><tr><td></td><td>Specialized (CompBench++, PIE-Bench) 22 23</td><td>Text-&gt;Image layout tasks</td><td>Task success (%), semantic alignment</td><td>Prompt-specific tasks</td></tr><tr><td>Video Generation</td><td>VBench 38</td><td>Text-to-video quality</td><td>VBench score</td><td>Motion + alignment across 16 dims</td></tr><tr><td></td><td>UCF101, Kinetics (FVD)</td><td>Generic video quality</td><td>FVD (Fréchet Video Dist.)</td><td>Higher = better</td></tr><tr><td>Adaptation</td><td>CIFAR-10-C, CIFAR-100-C 6</td><td>Corrupted image classification</td><td>Error (%)</td><td>Classification error after adaptation</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.952,
+                0.509,
+                0.962
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.951,
+                0.512,
+                0.967
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.129,
+                0.092,
+                0.87,
+                0.182
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Task Type</td><td>Example Benchmark</td><td>Domain / Task</td><td>Metric</td><td>Evaluation Notes</td></tr><tr><td>Calibration</td><td>CIFAR/ImageNet calibration</td><td>Label calibration</td><td>ECE, NLL, accuracy</td><td>Improvement via temperature scaling36</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.198,
+                0.871,
+                0.245
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.127,
+                0.269,
+                0.545,
+                0.294
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.31,
+                0.872,
+                0.373
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.156,
+                0.388,
+                0.86,
+                0.58
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.392,
+                0.842,
+                0.422
+            ],
+            "angle": 0,
+            "content": "1. Adaptive Visual Chain-of-Thought: Investigate iterative reasoning prompts for purely visual tasks (e.g. \"Describe intermediate steps to interpret this complex scene\").",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.424,
+                0.855,
+                0.47
+            ],
+            "angle": 0,
+            "content": "2. Experiment: Train a vision-language model (e.g. Flamingo) on a sequence of spatial puzzles (e.g. Maze environment snapshots) with a chain-of-thought prompt. At test time, allow multiple reasoning rounds by feeding generated answers back.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.472,
+                0.758,
+                0.502
+            ],
+            "angle": 0,
+            "content": "3. Datasets: Procedural puzzle datasets (Maze, Sudoku from EndoCoT \\( ^{28} \\) ), synthetic \"ObjectRearrange\" scenes.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.505,
+                0.63,
+                0.519
+            ],
+            "angle": 0,
+            "content": "4. Metrics: Task accuracy, reasoning step count, computation cost.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.52,
+                0.598,
+                0.535
+            ],
+            "angle": 0,
+            "content": "5. Baseline: Single-step inference vs sequential (iterative) CoT.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.537,
+                0.856,
+                0.551
+            ],
+            "angle": 0,
+            "content": "6. Challenges: Designing natural multi-step prompts for visual tasks; avoiding error compounding.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.563,
+                0.821,
+                0.577
+            ],
+            "angle": 0,
+            "content": "7. Sources: Inspired by EndoCoT \\( ^{28} \\) (diffusion-based puzzles) and UniT \\( ^{40} \\) (multimodal CoT).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.597,
+                0.87,
+                0.627
+            ],
+            "angle": 0,
+            "content": "8. Reinforcement Learning for Compute Allocation: Use RL to dynamically allocate inference steps or focus for vision tasks.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.156,
+                0.642,
+                0.847,
+                0.693
+            ],
+            "angle": 0,
+            "content": "9. Experiment: For a GUI agent (e.g. ScreenSpot-Pro), train an RL policy that at each step decides whether to zoom into a region (RegionFocus) or accept current action. Reward for accuracy vs compute.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.695,
+                0.485,
+                0.71
+            ],
+            "angle": 0,
+            "content": "10. Datasets: ScreenSpot-Pro 1, WebVoyager.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.711,
+                0.561,
+                0.726
+            ],
+            "angle": 0,
+            "content": "11. Metrics: Success rate, time-to-solution, compute used.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.728,
+                0.542,
+                0.742
+            ],
+            "angle": 0,
+            "content": "12. Baseline: Fixed heuristic (always zoom) vs no zoom.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.743,
+                0.48,
+                0.758
+            ],
+            "angle": 0,
+            "content": "13. Challenges: Sparse rewards; high variance.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.153,
+                0.77,
+                0.87,
+                0.8
+            ],
+            "angle": 0,
+            "content": "14. Sources: RegionFocus  \\( ^{1} \\)  suggests focusing helps; RL policy for \"thinking\" akin to Clean bench in LLM TTS.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.153,
+                0.82,
+                0.87,
+                0.85
+            ],
+            "angle": 0,
+            "content": "15. Uncertainty-Guided TTS (Selective Computation): Only apply extra inference when model is unsure.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.153,
+                0.87,
+                0.798,
+                0.901
+            ],
+            "angle": 0,
+            "content": "16. Experiment: For a vision classifier or VLM, compute predictive entropy or dropout MC. If uncertainty > threshold, trigger TTS (e.g. sample multiple times or refine).",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.952,
+                0.509,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.743,
+                0.481,
+                0.759
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.199,
+                0.871,
+                0.213
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.212,
+                0.872,
+                0.231
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.228,
+                0.864,
+                0.247
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.311,
+                0.872,
+                0.327
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.327,
+                0.872,
+                0.343
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.343,
+                0.872,
+                0.359
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.357,
+                0.547,
+                0.376
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.265,
+                0.55,
+                0.293
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.521,
+                0.597,
+                0.536
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.711,
+                0.562,
+                0.726
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.692,
+                0.488,
+                0.713
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.471,
+                0.758,
+                0.488
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.487,
+                0.372,
+                0.504
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.768,
+                0.358,
+                0.786
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.768,
+                0.872,
+                0.786
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.176,
+                0.784,
+                0.25,
+                0.802
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.82,
+                0.872,
+                0.835
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.835,
+                0.24,
+                0.853
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.159,
+                0.423,
+                0.857,
+                0.442
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.44,
+                0.823,
+                0.457
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.457,
+                0.57,
+                0.472
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.646,
+                0.841,
+                0.663
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.661,
+                0.848,
+                0.68
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.679,
+                0.253,
+                0.696
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.16,
+                0.56,
+                0.689,
+                0.58
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.69,
+                0.561,
+                0.823,
+                0.579
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.87,
+                0.8,
+                0.886
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.886,
+                0.705,
+                0.902
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.39,
+                0.843,
+                0.41
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.407,
+                0.702,
+                0.425
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.16,
+                0.534,
+                0.858,
+                0.555
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.159,
+                0.595,
+                0.872,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.613,
+                0.397,
+                0.628
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.95,
+                0.511,
+                0.967
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.727,
+                0.543,
+                0.743
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.504,
+                0.629,
+                0.52
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.086,
+                0.482,
+                0.101
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.156,
+                0.103,
+                0.631,
+                0.117
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.155,
+                0.119,
+                0.45,
+                0.133
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.155,
+                0.135,
+                0.677,
+                0.149
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.161,
+                0.842,
+                0.176
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.195,
+                0.688,
+                0.21
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.229,
+                0.815,
+                0.26
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.262,
+                0.424,
+                0.274
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.277,
+                0.588,
+                0.291
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.294,
+                0.407,
+                0.307
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.309,
+                0.676,
+                0.324
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.336,
+                0.738,
+                0.351
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.37,
+                0.795,
+                0.385
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.403,
+                0.867,
+                0.434
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.436,
+                0.565,
+                0.45
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.452,
+                0.435,
+                0.466
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.468,
+                0.419,
+                0.482
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.484,
+                0.596,
+                0.498
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.51,
+                0.748,
+                0.525
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.545,
+                0.722,
+                0.559
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.578,
+                0.838,
+                0.608
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.611,
+                0.537,
+                0.625
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.627,
+                0.352,
+                0.641
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.643,
+                0.699,
+                0.657
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.659,
+                0.651,
+                0.673
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.685,
+                0.445,
+                0.7
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.719,
+                0.802,
+                0.734
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.753,
+                0.847,
+                0.783
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.785,
+                0.53,
+                0.799
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.801,
+                0.698,
+                0.815
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.817,
+                0.415,
+                0.83
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.833,
+                0.738,
+                0.847
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.86,
+                0.721,
+                0.874
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.893,
+                0.849,
+                0.907
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.952,
+                0.509,
+                0.962
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.119,
+                0.451,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.684,
+                0.328,
+                0.699
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.329,
+                0.684,
+                0.447,
+                0.702
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.293,
+                0.409,
+                0.309
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.452,
+                0.437,
+                0.467
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.466,
+                0.42,
+                0.484
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.818,
+                0.416,
+                0.832
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.276,
+                0.59,
+                0.294
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.435,
+                0.567,
+                0.451
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.484,
+                0.598,
+                0.5
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.086,
+                0.481,
+                0.102
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.228,
+                0.76,
+                0.247
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.244,
+                0.818,
+                0.262
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.369,
+                0.797,
+                0.386
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.718,
+                0.805,
+                0.736
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.16,
+                0.339,
+                0.177
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.339,
+                0.159,
+                0.844,
+                0.179
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.403,
+                0.868,
+                0.421
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.419,
+                0.853,
+                0.437
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.578,
+                0.839,
+                0.595
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.594,
+                0.715,
+                0.61
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.752,
+                0.849,
+                0.77
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.769,
+                0.609,
+                0.786
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.892,
+                0.852,
+                0.91
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.95,
+                0.513,
+                0.967
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.334,
+                0.74,
+                0.353
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.508,
+                0.314,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.317,
+                0.509,
+                0.341,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.343,
+                0.509,
+                0.577,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.579,
+                0.509,
+                0.75,
+                0.526
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.543,
+                0.724,
+                0.561
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.832,
+                0.741,
+                0.85
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.859,
+                0.34,
+                0.874
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.342,
+                0.859,
+                0.72,
+                0.875
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.61,
+                0.539,
+                0.626
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.784,
+                0.531,
+                0.801
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.103,
+                0.632,
+                0.118
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.135,
+                0.678,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.195,
+                0.69,
+                0.212
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.309,
+                0.678,
+                0.325
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.643,
+                0.701,
+                0.658
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.801,
+                0.701,
+                0.817
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.262,
+                0.425,
+                0.277
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.625,
+                0.353,
+                0.643
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.657,
+                0.653,
+                0.676
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "bbox": [
+                0.151,
+                0.086,
+                0.854,
+                0.192
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.086,
+                0.854,
+                0.117
+            ],
+            "angle": 0,
+            "content": "51. Plan: Assemble a suite of tasks (vision QA, VQA with reasoning, generative tasks) with scripts to measure performance vs compute. Publish codebase.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.119,
+                0.343,
+                0.132
+            ],
+            "angle": 0,
+            "content": "52. Datasets: Mix of above.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.135,
+                0.331,
+                0.148
+            ],
+            "angle": 0,
+            "content": "53. Metrics: Task-specific.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.151,
+                0.623,
+                0.165
+            ],
+            "angle": 0,
+            "content": "54. Outcome: Enable fair comparison of TTS methods across tasks.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.177,
+                0.747,
+                0.192
+            ],
+            "angle": 0,
+            "content": "55. Sources: Workshop call 41 and open challenges motivate need for benchmarks.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.211,
+                0.871,
+                0.243
+            ],
+            "angle": 0,
+            "content": "56. Resource-aware TTS Models: Design architectures that natively support test-time scaling (e.g. dynamic routing).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.261,
+                0.867,
+                0.292
+            ],
+            "angle": 0,
+            "content": "57. Experiment: Extend gated-depth networks  \\( ^{31} \\)  or conditional computation (mixture-of-experts) to allow graceful quality scaling.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.294,
+                0.482,
+                0.307
+            ],
+            "angle": 0,
+            "content": "58. Datasets: ImageNet, MS-COCO generation.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.31,
+                0.403,
+                0.323
+            ],
+            "angle": 0,
+            "content": "59. Metrics: Quality vs FLOPs curve.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.326,
+                0.392,
+                0.338
+            ],
+            "angle": 0,
+            "content": "60. Baseline: Static nets with BoN.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.341,
+                0.647,
+                0.356
+            ],
+            "angle": 0,
+            "content": "61. Challenges: Training multi-exit networks, selecting quality bounds.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.368,
+                0.467,
+                0.383
+            ],
+            "angle": 0,
+            "content": "62. Sources: Gated Depth 31 (CVPRW 2025).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.402,
+                0.85,
+                0.417
+            ],
+            "angle": 0,
+            "content": "63. Multimodal Unified TTS: Apply TTS in unified models (CLIP-type or multimodal transformers).",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.213,
+                0.436,
+                0.856,
+                0.546
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.213,
+                0.436,
+                0.856,
+                0.466
+            ],
+            "angle": 0,
+            "content": "Experiment: Train a unified vision-text model (like MOSS or PandaLM) on short reasoning chains, then at test extend chain-of-thought.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.213,
+                0.468,
+                0.672,
+                0.482
+            ],
+            "angle": 0,
+            "content": "- Datasets: Multimodal tasks (visual Entailment, caption editing).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.214,
+                0.485,
+                0.552,
+                0.499
+            ],
+            "angle": 0,
+            "content": "- Metrics: Combined vision+language accuracy.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.214,
+                0.5,
+                0.445,
+                0.514
+            ],
+            "angle": 0,
+            "content": "- Baseline: No chain-of-thought.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.214,
+                0.516,
+                0.591,
+                0.53
+            ],
+            "angle": 0,
+            "content": "- Challenges: High training cost; modality imbalance.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.214,
+                0.532,
+                0.574,
+                0.546
+            ],
+            "angle": 0,
+            "content": "- Sources: UniT 40, Uni-CoT 42 (multimodal CoT).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.559,
+                0.871,
+                0.59
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.127,
+                0.613,
+                0.776,
+                0.639
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.655,
+                0.871,
+                0.687
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.159,
+                0.705,
+                0.865,
+                0.912
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.705,
+                0.858,
+                0.735
+            ],
+            "angle": 0,
+            "content": "1. Select Task & Model: Choose a vision task (e.g. image classification, VQA, T2I generation) and a state-of-art model (e.g. CLIP, SOTA diffusion).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.737,
+                0.865,
+                0.767
+            ],
+            "angle": 0,
+            "content": "2. Implement TTS Methods: For the task, implement one or more TTS strategies (from taxonomy): e.g. Best-of-N ensemble, iterative CoT prompting, or RegionFocus.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.769,
+                0.797,
+                0.783
+            ],
+            "angle": 0,
+            "content": "3. Compute Baseline: Run the model with standard inference on test set; record metrics.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.785,
+                0.824,
+                0.816
+            ],
+            "angle": 0,
+            "content": "4. Run TTS Variants: For each TTS method, vary the \"scale\" (e.g. number of samples N, depth gating level, prompt length) and measure:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.161,
+                0.818,
+                0.403,
+                0.831
+            ],
+            "angle": 0,
+            "content": "5. Task metric (accuracy, FID, etc.)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.161,
+                0.833,
+                0.474,
+                0.847
+            ],
+            "angle": 0,
+            "content": "6. Computational cost (FLOPs, time, or NFE)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.161,
+                0.849,
+                0.441,
+                0.863
+            ],
+            "angle": 0,
+            "content": "7. Uncertainty / calibration (if relevant).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.865,
+                0.845,
+                0.894
+            ],
+            "angle": 0,
+            "content": "8. Analyze Trade-offs: Plot performance vs compute. Compute ROI: performance gain per extra resource.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.897,
+                0.807,
+                0.912
+            ],
+            "angle": 0,
+            "content": "9. Robustness Checks: Test under distribution shifts (perturbed images, novel categories).",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.952,
+                0.509,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.368,
+                0.359,
+                0.383
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.369,
+                0.467,
+                0.383
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.834,
+                0.473,
+                0.849
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.308,
+                0.405,
+                0.325
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.85,
+                0.443,
+                0.864
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.292,
+                0.484,
+                0.31
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.213,
+                0.482,
+                0.553,
+                0.501
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.213,
+                0.529,
+                0.443,
+                0.548
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.445,
+                0.532,
+                0.576,
+                0.547
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.209,
+                0.872,
+                0.229
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.227,
+                0.309,
+                0.245
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.261,
+                0.501,
+                0.277
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.503,
+                0.26,
+                0.867,
+                0.277
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.275,
+                0.393,
+                0.295
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.557,
+                0.872,
+                0.576
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.574,
+                0.481,
+                0.591
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.653,
+                0.871,
+                0.671
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.67,
+                0.247,
+                0.689
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.212,
+                0.434,
+                0.857,
+                0.452
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.229,
+                0.451,
+                0.549,
+                0.468
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.611,
+                0.779,
+                0.64
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.768,
+                0.798,
+                0.784
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.16,
+                0.784,
+                0.825,
+                0.802
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.801,
+                0.485,
+                0.817
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.896,
+                0.808,
+                0.913
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.085,
+                0.854,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.103,
+                0.563,
+                0.119
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.4,
+                0.851,
+                0.418
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.702,
+                0.86,
+                0.722
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.72,
+                0.499,
+                0.736
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.16,
+                0.736,
+                0.867,
+                0.755
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.752,
+                0.652,
+                0.77
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.16,
+                0.863,
+                0.848,
+                0.882
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.881,
+                0.251,
+                0.897
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.95,
+                0.512,
+                0.967
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.177,
+                0.344,
+                0.192
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.345,
+                0.177,
+                0.366,
+                0.191
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.368,
+                0.176,
+                0.749,
+                0.194
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.213,
+                0.516,
+                0.593,
+                0.532
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.151,
+                0.624,
+                0.166
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.213,
+                0.466,
+                0.674,
+                0.484
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.118,
+                0.345,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.134,
+                0.332,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.341,
+                0.649,
+                0.357
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.326,
+                0.393,
+                0.34
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.214,
+                0.499,
+                0.446,
+                0.515
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.817,
+                0.403,
+                0.833
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.086,
+                0.856,
+                0.116
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.119,
+                0.857,
+                0.148
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.152,
+                0.086,
+                0.857,
+                0.148
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.162,
+                0.87,
+                0.209
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.228,
+                0.87,
+                0.275
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.128,
+                0.298,
+                0.611,
+                0.323
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.126,
+                0.34,
+                0.384,
+                0.354
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.374,
+                0.868,
+                0.435
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.455,
+                0.868,
+                0.485
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.505,
+                0.868,
+                0.535
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.168,
+                0.374,
+                0.868,
+                0.535
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.126,
+                0.556,
+                0.397,
+                0.57
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.589,
+                0.868,
+                0.635
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.655,
+                0.868,
+                0.701
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.721,
+                0.868,
+                0.751
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.168,
+                0.589,
+                0.868,
+                0.751
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.126,
+                0.772,
+                0.212,
+                0.784
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.788,
+                0.868,
+                0.817
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.82,
+                0.868,
+                0.849
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.852,
+                0.671,
+                0.866
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.868,
+                0.868,
+                0.897
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.125,
+                0.788,
+                0.868,
+                0.897
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.952,
+                0.509,
+                0.962
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.34,
+                0.385,
+                0.355
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.555,
+                0.4,
+                0.571
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.161,
+                0.872,
+                0.178
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.178,
+                0.872,
+                0.193
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.195,
+                0.71,
+                0.21
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.227,
+                0.871,
+                0.242
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.242,
+                0.872,
+                0.259
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.26,
+                0.456,
+                0.275
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.785,
+                0.871,
+                0.805
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.802,
+                0.438,
+                0.82
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.124,
+                0.816,
+                0.873,
+                0.838
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.835,
+                0.372,
+                0.851
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.866,
+                0.871,
+                0.884
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.882,
+                0.282,
+                0.9
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.167,
+                0.373,
+                0.872,
+                0.39
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.39,
+                0.871,
+                0.405
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.407,
+                0.87,
+                0.421
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.422,
+                0.391,
+                0.437
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.169,
+                0.59,
+                0.872,
+                0.605
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.605,
+                0.872,
+                0.622
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.622,
+                0.739,
+                0.637
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.167,
+                0.654,
+                0.872,
+                0.672
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.672,
+                0.872,
+                0.688
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.687,
+                0.524,
+                0.704
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.084,
+                0.857,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.102,
+                0.345,
+                0.118
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.117,
+                0.862,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.133,
+                0.409,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.166,
+                0.454,
+                0.872,
+                0.473
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.472,
+                0.735,
+                0.488
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.166,
+                0.504,
+                0.87,
+                0.522
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.522,
+                0.843,
+                0.539
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.168,
+                0.719,
+                0.872,
+                0.737
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.737,
+                0.585,
+                0.752
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.95,
+                0.512,
+                0.967
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.852,
+                0.674,
+                0.867
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.295,
+                0.617,
+                0.323
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.771,
+                0.214,
+                0.786
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.128,
+                0.091,
+                0.456,
+                0.117
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.133,
+                0.871,
+                0.164
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.183,
+                0.871,
+                0.23
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.249,
+                0.871,
+                0.279
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.299,
+                0.871,
+                0.346
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.365,
+                0.851,
+                0.38
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.127,
+                0.404,
+                0.25,
+                0.424
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.444,
+                0.872,
+                0.524
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.561,
+                0.531,
+                0.577
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.578,
+                0.57,
+                0.591
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.593,
+                0.498,
+                0.606
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.615,
+                0.801,
+                0.631
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.633,
+                0.414,
+                0.645
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.655,
+                0.433,
+                0.67
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.672,
+                0.804,
+                0.685
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.687,
+                0.375,
+                0.7
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.709,
+                0.458,
+                0.724
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.726,
+                0.815,
+                0.739
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.741,
+                0.421,
+                0.754
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.763,
+                0.717,
+                0.778
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.78,
+                0.395,
+                0.793
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.803,
+                0.663,
+                0.818
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.819,
+                0.345,
+                0.832
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.842,
+                0.756,
+                0.857
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.859,
+                0.324,
+                0.872
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.952,
+                0.509,
+                0.963
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.401,
+                0.253,
+                0.428
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.653,
+                0.177,
+                0.67
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.178,
+                0.654,
+                0.434,
+                0.672
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.741,
+                0.421,
+                0.754
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.78,
+                0.395,
+                0.794
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.183,
+                0.872,
+                0.199
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.199,
+                0.871,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.216,
+                0.693,
+                0.232
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.299,
+                0.872,
+                0.315
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.315,
+                0.872,
+                0.331
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.331,
+                0.244,
+                0.347
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.131,
+                0.561,
+                0.154,
+                0.575
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.56,
+                0.532,
+                0.578
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.087,
+                0.459,
+                0.117
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.707,
+                0.179,
+                0.723
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.708,
+                0.459,
+                0.726
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.839,
+                0.154,
+                0.856
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.841,
+                0.758,
+                0.858
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.131,
+                0.872,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.146,
+                0.788,
+                0.169
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.247,
+                0.872,
+                0.265
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.263,
+                0.175,
+                0.28
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.362,
+                0.852,
+                0.383
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.613,
+                0.152,
+                0.63
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.157,
+                0.615,
+                0.175,
+                0.629
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.177,
+                0.614,
+                0.8,
+                0.632
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.669,
+                0.805,
+                0.687
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.724,
+                0.816,
+                0.74
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.95,
+                0.511,
+                0.967
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.761,
+                0.153,
+                0.778
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.761,
+                0.717,
+                0.779
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.593,
+                0.499,
+                0.607
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.578,
+                0.57,
+                0.592
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.801,
+                0.664,
+                0.82
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.633,
+                0.415,
+                0.646
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.859,
+                0.326,
+                0.872
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.687,
+                0.375,
+                0.7
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.819,
+                0.346,
+                0.832
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.442,
+                0.511,
+                0.46
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.513,
+                0.442,
+                0.539,
+                0.46
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.543,
+                0.442,
+                0.666,
+                0.46
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.668,
+                0.442,
+                0.872,
+                0.46
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.457,
+                0.874,
+                0.479
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.475,
+                0.872,
+                0.493
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.133,
+                0.491,
+                0.872,
+                0.508
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.509,
+                0.238,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "bbox": [
+                0.129,
+                0.086,
+                0.861,
+                0.555
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.13,
+                0.086,
+                0.51,
+                0.101
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.103,
+                0.72,
+                0.116
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.118,
+                0.484,
+                0.13
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.13,
+                0.14,
+                0.803,
+                0.155
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.158,
+                0.326,
+                0.17
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.18,
+                0.86,
+                0.195
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.197,
+                0.326,
+                0.209
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.13,
+                0.219,
+                0.575,
+                0.234
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.237,
+                0.581,
+                0.25
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.252,
+                0.47,
+                0.264
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.13,
+                0.273,
+                0.771,
+                0.288
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.291,
+                0.345,
+                0.303
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.13,
+                0.313,
+                0.458,
+                0.328
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.33,
+                0.64,
+                0.343
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.345,
+                0.73,
+                0.357
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.13,
+                0.367,
+                0.795,
+                0.383
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.385,
+                0.326,
+                0.396
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.13,
+                0.406,
+                0.641,
+                0.421
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.423,
+                0.345,
+                0.435
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.13,
+                0.446,
+                0.682,
+                0.461
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.463,
+                0.326,
+                0.475
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.13,
+                0.485,
+                0.655,
+                0.5
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.502,
+                0.276,
+                0.515
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.525,
+                0.808,
+                0.54
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.129,
+                0.542,
+                0.407,
+                0.554
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.952,
+                0.509,
+                0.962
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.31,
+                0.459,
+                0.33
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.344,
+                0.73,
+                0.358
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.178,
+                0.204,
+                0.195
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.207,
+                0.177,
+                0.863,
+                0.197
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.138,
+                0.154,
+                0.155
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.139,
+                0.178,
+                0.154
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.139,
+                0.203,
+                0.154
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.204,
+                0.14,
+                0.804,
+                0.156
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.272,
+                0.154,
+                0.287
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.272,
+                0.178,
+                0.287
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.272,
+                0.773,
+                0.289
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.364,
+                0.797,
+                0.384
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.524,
+                0.81,
+                0.542
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.488,
+                0.95,
+                0.512,
+                0.966
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.101,
+                0.721,
+                0.118
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.084,
+                0.511,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.216,
+                0.577,
+                0.236
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.237,
+                0.582,
+                0.25
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.445,
+                0.684,
+                0.463
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.484,
+                0.657,
+                0.501
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.542,
+                0.409,
+                0.556
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.463,
+                0.326,
+                0.477
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.33,
+                0.64,
+                0.343
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.405,
+                0.641,
+                0.422
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.291,
+                0.345,
+                0.304
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.423,
+                0.346,
+                0.437
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.118,
+                0.485,
+                0.132
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.251,
+                0.472,
+                0.265
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.158,
+                0.328,
+                0.171
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.197,
+                0.326,
+                0.21
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.383,
+                0.327,
+                0.398
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.502,
+                0.278,
+                0.516
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]
