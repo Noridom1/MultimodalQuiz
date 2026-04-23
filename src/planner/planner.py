@@ -5,9 +5,6 @@ import json
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Optional
-import re
-
-from requests.help import main
 
 from src.knowledge.schema import MultimodalDocumentGraph, NodeKind
 from src.planner.prompt_templates import render_planner_prompt
@@ -289,7 +286,11 @@ class QuizPlanner:
             counts[bucket] += 1
         return counts
     
-    def _load_graph(self, graph: Optional[MultimodalDocumentGraph] = None,json_path: Optional[str | Path] = None,) -> MultimodalDocumentGraph:
+    def _load_graph(
+        self,
+        graph: Optional[MultimodalDocumentGraph] = None,
+        json_path: Optional[str | Path] = None,
+    ) -> MultimodalDocumentGraph:
         """
         Returns a MultimodalDocumentGraph from memory or JSON fallback.
         """
@@ -400,6 +401,51 @@ def main():
     # -----------------------------
     graph = None
 
+    if args.use_memory:
+        print("Using in-memory graph...")
+
+        graph = MultimodalDocumentGraph(
+            document_id="test",
+            nodes=[],
+            edges=[]
+        )
+
+    else:
+        graph_path = Path(args.graph_path)
+
+        print(f"Loading graph from: {graph_path}")
+
+        if not graph_path.exists():
+            raise FileNotFoundError(f"Graph not found: {graph_path}")
+
+        with open(graph_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        graph = MultimodalDocumentGraph(**data)
+
+    # -----------------------------
+    # INIT PLANNER
+    # -----------------------------
+    print("Initializing planner...")
+
+    planner = QuizPlanner(
+        knowledge_graph=graph,
+        max_retries=2
+    )
+
+    # -----------------------------
+    # RUN PLANNING
+    # -----------------------------
+    print("Generating quiz plan...\n")
+
+    plans = planner.plan(
+        num_questions=args.num_questions,
+        difficulty_distribution=difficulty_distribution
+    )
+
+    planner.save_plan(plans, args.output)
+    return 0
+
 
 def load_plan(plan_path: str | Path) -> list[QuestionPlan]:
     """Load a saved plan JSON (list of question objects) and return QuestionPlan instances.
@@ -446,50 +492,6 @@ def load_plan(plan_path: str | Path) -> list[QuestionPlan]:
         )
 
     return plans
-
-    if args.use_memory:
-        print("Using in-memory graph...")
-
-        graph = MultimodalDocumentGraph(
-            document_id="test",
-            nodes=[],
-            edges=[]
-        )
-
-    else:
-        graph_path = Path(args.graph_path)
-
-        print(f"Loading graph from: {graph_path}")
-
-        if not graph_path.exists():
-            raise FileNotFoundError(f"Graph not found: {graph_path}")
-
-        with open(graph_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        graph = MultimodalDocumentGraph(**data)
-
-    # -----------------------------
-    # INIT PLANNER
-    # -----------------------------
-    print("Initializing planner...")
-
-    planner = QuizPlanner(
-        knowledge_graph=graph,
-        max_retries=2
-    )
-
-    # -----------------------------
-    # RUN PLANNING
-    # -----------------------------
-    print("Generating quiz plan...\n")
-
-    plans = planner.plan(
-        num_questions=args.num_questions,
-        difficulty_distribution=difficulty_distribution
-    )
-
-    planner.save_plan(plans, args.output)
 
 if __name__ == "__main__":
     raise SystemExit(main())
