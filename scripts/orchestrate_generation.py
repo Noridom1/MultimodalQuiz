@@ -14,20 +14,20 @@ from src.generator.orchestrator import GenerationOrchestrator
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Orchestrate image + question generation from prompts JSON")
-    group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--prompts-json", type=Path, default=None, help="Combined prompts JSON file (legacy)")
+    parser = argparse.ArgumentParser(description="Orchestrate image + question generation from a quiz plan")
+    parser.add_argument(
+        "--plan-json",
+        type=Path,
+        required=True,
+        help="Quiz plan JSON file used to build prompts and generate outputs",
+    )
+    group = parser.add_mutually_exclusive_group(required=False)
+    group.add_argument("--prompts-json", type=Path, default=None, help="Combined prompts JSON file (legacy override)")
     group.add_argument(
         "--prompts-dir",
         type=Path,
         default=None,
-        help="Directory containing question_prompt.json and image_prompts.json",
-    )
-    parser.add_argument(
-        "--plan-json",
-        type=Path,
-        default=None,
-        help="Optional original plan JSON file to preserve metadata",
+        help="Directory containing question_prompt.json and image_prompts.json (legacy override)",
     )
     parser.add_argument(
         "--output",
@@ -48,14 +48,15 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     orchestrator = GenerationOrchestrator()
+    prompts = None
     if args.prompts_dir is not None:
         prompts = orchestrator.load_prompts_from_dir(args.prompts_dir)
-    else:
+    elif args.prompts_json is not None:
         prompts = json.loads(args.prompts_json.read_text(encoding="utf-8"))
 
     orchestrator.run(
-        prompts,
-        plan_json=args.plan_json,
+        args.plan_json,
+        prompts=prompts,
         output_path=args.output,
         run_id=args.run_id,
         image_paths=args.image_paths,

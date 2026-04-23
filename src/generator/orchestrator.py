@@ -7,9 +7,9 @@ from typing import Any
 from uuid import uuid4
 
 from src.generator.image_gen import ImageGenerator
-from src.generator.prompt_builder import build_image_prompt
+from src.generator.prompt_builder import PromptBuilder
 from src.generator.question_gen import LLMQuestionGenerator
-from src.planner.planner import load_plan
+from src.planner.planner import QuestionPlan, load_plan
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
@@ -20,9 +20,11 @@ class GenerationOrchestrator:
         *,
         image_generator: ImageGenerator | None = None,
         question_generator: LLMQuestionGenerator | None = None,
+        prompt_builder: PromptBuilder | None = None,
     ) -> None:
         self._image_generator = image_generator or ImageGenerator()
         self._question_generator = question_generator or LLMQuestionGenerator()
+        self._prompt_builder = prompt_builder or PromptBuilder()
 
     @staticmethod
     def _generate_run_id() -> str:
@@ -72,6 +74,28 @@ class GenerationOrchestrator:
             records.append(rec)
         return records
 
+    def build_prompts_from_plan(self, plan_json: Path) -> list[dict[str, Any]]:
+        """Convert a saved quiz plan JSON into prompt records for generation."""
+        plans = load_plan(plan_json)
+        records: list[dict[str, Any]] = []
+        for idx, plan in enumerate(plans, start=1):
+            records.append(
+                {
+                    "index": idx,
+                    "target_concept": plan.target_concept,
+                    "question_prompt": self._prompt_builder.build_question_prompt(plan),
+                    "question_type": plan.question_type,
+                    "difficulty": plan.difficulty,
+                    "reasoning_type": plan.reasoning_type,
+                    "image_role": plan.image_role,
+                    "image_description": plan.image_description,
+                    "learning_objective": plan.learning_objective,
+                    "metadata": plan.metadata,
+                    "image_prompt": self._prompt_builder.build_image_prompt(plan),
+                }
+            )
+        return records
+
     @staticmethod
     def _serialize_image_ref(image_value: str | None) -> str | None:
         if not image_value:
@@ -85,9 +109,9 @@ class GenerationOrchestrator:
 
     def run(
         self,
-        prompts: list[dict[str, Any]],
-        plan_json: Path | None = None,
+        plan_json: Path,
         *,
+        prompts: list[dict[str, Any]] | None = None,
         output_path: Path | None = None,
         run_id: str | None = None,
         image_paths: list[str] | None = None,
@@ -97,23 +121,31 @@ class GenerationOrchestrator:
         effective_run_id = run_id or self._generate_run_id()
         image_output_dir = self._image_output_dir(effective_run_id)
 
-        plans_by_index = {}
-        if plan_json:
-            plans = load_plan(plan_json)
-            for i, p in enumerate(plans, start=1):
-                plans_by_index[i] = p
+        plan_records = self.build_prompts_from_plan(plan_json)
+        effective_prompts = prompts or plan_records
+        plans_by_index = {
+            record["index"]: QuestionPlan(
+                target_concept=record.get("target_concept") or f"unknown_{record['index']}",
+                question_type=record.get("question_type") or "multiple_choice",
+                difficulty=record.get("difficulty") or "medium",
+                reasoning_type=record.get("reasoning_type") or "factoid",
+                image_role=record.get("image_role"),
+                image_description=record.get("image_description"),
+                learning_objective=record.get("learning_objective"),
+                metadata=record.get("metadata", {}),
+            )
+            for record in plan_records
+        }
 
         results = []
-        for rec in prompts:
+        for rec in effective_prompts:
             idx = rec.get("index")
             q_prompt = rec.get("question_prompt", "")
             img_prompt = rec.get("image_prompt")
 
             plan = plans_by_index.get(idx)
             if plan is None:
-                from src.planner.planner import QuestionPlan as _QP
-
-                plan = _QP(
+                plan = QuestionPlan(
                     target_concept=rec.get("target_concept") or f"unknown_{idx}",
                     question_type=rec.get("question_type") or "multiple_choice",
                     difficulty=rec.get("difficulty") or "medium",
@@ -124,9 +156,15 @@ class GenerationOrchestrator:
                     metadata=rec.get("metadata", {}),
                 )
 
+            if not q_prompt and plan is not None:
+                try:
+                    q_prompt = self._prompt_builder.build_question_prompt(plan)
+                except Exception:
+                    q_prompt = ""
+
             if not img_prompt and plan is not None:
                 try:
-                    img_prompt = build_image_prompt(plan)
+                    img_prompt = self._prompt_builder.build_image_prompt(plan)
                 except Exception:
                     img_prompt = None
 
@@ -152,6 +190,7 @@ class GenerationOrchestrator:
             serialized_image_ref = self._serialize_image_ref(image_url)
 
             if mock_question:
+                image_grounded = bool(plan and (plan.image_role or "").strip().lower() == "reasoning")
                 q_obj = {
                     "id": f"q_mock_{idx}",
                     "question_text": f"Mock question for {plan.target_concept if plan else idx}",
@@ -162,7 +201,7 @@ class GenerationOrchestrator:
                     "difficulty": plan.difficulty if plan else "medium",
                     "question_type": plan.question_type if plan else "multiple_choice",
                     "associated_image": serialized_image_ref,
-                    "image_grounded": bool(serialized_image_ref),
+                    "image_grounded": image_grounded,
                     "metadata": {
                         "reasoning_type": plan.reasoning_type if plan else "factoid",
                         "run_id": effective_run_id,
@@ -170,6 +209,9 @@ class GenerationOrchestrator:
                 }
                 results.append({"index": idx, "question": q_obj, "image_url": serialized_image_ref})
                 continue
+
+            if not q_prompt:
+                raise RuntimeError(f"No question prompt available for index {idx}; cannot generate question.")
 
             question = self._question_generator.inference(
                 q_prompt,
