@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import html
 import json
+import mimetypes
 import sys
 import webbrowser
 from pathlib import Path
@@ -73,6 +75,14 @@ def normalize_record(item: Any, fallback_index: int) -> dict[str, Any]:
     }
 
 
+def encode_local_image(image_path: Path) -> str:
+    mime_type, _ = mimetypes.guess_type(image_path.name)
+    if not mime_type:
+        mime_type = "application/octet-stream"
+    encoded = base64.b64encode(image_path.read_bytes()).decode("ascii")
+    return f"data:{mime_type};base64,{encoded}"
+
+
 def resolve_image_uri(image_ref: Any, json_path: Path, image_dir: Path) -> tuple[str | None, str | None]:
     if not image_ref:
         return None, "No image path"
@@ -98,7 +108,7 @@ def resolve_image_uri(image_ref: Any, json_path: Path, image_dir: Path) -> tuple
     if not image_path.exists():
         return None, f"Missing file: {image_path}"
 
-    return image_path.as_uri(), None
+    return encode_local_image(image_path), None
 
 
 def format_value(value: Any) -> str:
