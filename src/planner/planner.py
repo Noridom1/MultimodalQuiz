@@ -5,15 +5,15 @@ import json
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Optional
-import re
-
-from requests.help import main
 
 from src.knowledge.schema import MultimodalDocumentGraph, NodeKind
 from src.planner.prompt_templates import render_planner_prompt
 from src.utils.llm import LLMClient
 
 from dotenv import load_dotenv
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_PLAN_OUTPUT = PROJECT_ROOT / "data" / "plans" / "quiz_plan.json"
 
 @dataclass
 class QuestionPlan:
@@ -286,7 +286,11 @@ class QuizPlanner:
             counts[bucket] += 1
         return counts
     
-    def _load_graph(self, graph: Optional[MultimodalDocumentGraph] = None,json_path: Optional[str | Path] = None,) -> MultimodalDocumentGraph:
+    def _load_graph(
+        self,
+        graph: Optional[MultimodalDocumentGraph] = None,
+        json_path: Optional[str | Path] = None,
+    ) -> MultimodalDocumentGraph:
         """
         Returns a MultimodalDocumentGraph from memory or JSON fallback.
         """
@@ -312,7 +316,7 @@ class QuizPlanner:
     def save_plan(
         self,
         plans: list["QuestionPlan"],
-        output_path: str | Path,
+        output_path: str | Path = DEFAULT_PLAN_OUTPUT,
     ) -> None:
         output_path = Path(output_path)
         output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -374,6 +378,12 @@ def main():
         default=0.2,
         help="Hard difficulty ratio"
     )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=DEFAULT_PLAN_OUTPUT,
+        help="Path to write the generated plan JSON",
+    )
 
     args = parser.parse_args()
 
@@ -433,7 +443,55 @@ def main():
         difficulty_distribution=difficulty_distribution
     )
 
-    planner.save_plan(plans, "./quiz_plan.json")
+    planner.save_plan(plans, args.output)
+    return 0
+
+
+def load_plan(plan_path: str | Path) -> list[QuestionPlan]:
+    """Load a saved plan JSON (list of question objects) and return QuestionPlan instances.
+
+    This is a lightweight loader used by scripts that consume planner output.
+    It fills sensible defaults for missing `image_role`/`image_description`.
+    """
+    path = Path(plan_path)
+    if not path.exists():
+        raise FileNotFoundError(f"Plan JSON not found: {path}")
+
+    with path.open("r", encoding="utf-8") as fh:
+        data = json.load(fh)
+
+    if not isinstance(data, list):
+        raise RuntimeError("Plan JSON must be a list of question objects.")
+
+    plans: list[QuestionPlan] = []
+    for item in data:
+        if not isinstance(item, dict):
+            raise RuntimeError("Each plan item must be an object.")
+
+        target_concept = str(item.get("target_concept", "")).strip()
+        question_type = str(item.get("question_type", "multiple_choice")).strip()
+        difficulty = str(item.get("difficulty", "medium")).strip()
+        reasoning_type = str(item.get("reasoning_type", "factoid")).strip()
+
+        image_role = item.get("image_role") or "illustrative"
+        image_description = item.get("image_description") or target_concept
+        learning_objective = item.get("learning_objective")
+        metadata = item.get("metadata", {}) or {}
+
+        plans.append(
+            QuestionPlan(
+                target_concept=target_concept,
+                question_type=question_type,
+                difficulty=difficulty,
+                reasoning_type=reasoning_type,
+                image_role=image_role,
+                image_description=image_description,
+                learning_objective=learning_objective,
+                metadata=metadata,
+            )
+        )
+
+    return plans
 
 if __name__ == "__main__":
     raise SystemExit(main())
