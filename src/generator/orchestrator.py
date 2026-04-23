@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import logging
 from pathlib import Path
 from typing import Any
 from uuid import uuid4
@@ -12,6 +13,7 @@ from src.generator.question_gen import LLMQuestionGenerator
 from src.planner.planner import QuestionPlan, load_plan
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+LOGGER = logging.getLogger(__name__)
 
 
 class GenerationOrchestrator:
@@ -42,6 +44,7 @@ class GenerationOrchestrator:
     @staticmethod
     def load_prompts_from_dir(prompts_dir: Path) -> list[dict[str, Any]]:
         """Load question_prompt.json and image_prompts.json from a directory and merge them into records."""
+        LOGGER.info("Loading prompts from directory: %s", prompts_dir)
         q_path = prompts_dir / "question_prompt.json"
         i_path = prompts_dir / "image_prompts.json"
         questions: list[dict[str, Any]] = []
@@ -50,6 +53,11 @@ class GenerationOrchestrator:
             questions = json.loads(q_path.read_text(encoding="utf-8"))
         if i_path.exists():
             images = json.loads(i_path.read_text(encoding="utf-8"))
+        LOGGER.info(
+            "Loaded prompt source files: questions=%d image_prompts=%d",
+            len(questions),
+            len(images),
+        )
 
         images_by_index = {item["index"]: item for item in images}
         records: list[dict[str, Any]] = []
@@ -72,11 +80,14 @@ class GenerationOrchestrator:
             if img:
                 rec["image_prompt"] = img.get("image_prompt")
             records.append(rec)
+        LOGGER.info("Prepared %d merged prompt records from %s", len(records), prompts_dir)
         return records
 
     def build_prompts_from_plan(self, plan_json: Path) -> list[dict[str, Any]]:
         """Convert a saved quiz plan JSON into prompt records for generation."""
+        LOGGER.info("Building prompts from plan: %s", plan_json)
         plans = load_plan(plan_json)
+        LOGGER.info("Loaded %d question plans", len(plans))
         records: list[dict[str, Any]] = []
         for idx, plan in enumerate(plans, start=1):
             records.append(
@@ -94,6 +105,7 @@ class GenerationOrchestrator:
                     "image_prompt": self._prompt_builder.build_image_prompt(plan),
                 }
             )
+        LOGGER.info("Built %d prompt records from plan %s", len(records), plan_json)
         return records
 
     @staticmethod
@@ -120,9 +132,24 @@ class GenerationOrchestrator:
     ) -> dict[str, Any]:
         effective_run_id = run_id or self._generate_run_id()
         image_output_dir = self._image_output_dir(effective_run_id)
+        LOGGER.info(
+            "Starting generation run: run_id=%s plan=%s mock_image=%s mock_question=%s",
+            effective_run_id,
+            plan_json,
+            mock_image,
+            mock_question,
+        )
+        LOGGER.info("Image outputs will be written under %s", image_output_dir)
 
         plan_records = self.build_prompts_from_plan(plan_json)
         effective_prompts = prompts or plan_records
+        prompt_source = "provided prompts override" if prompts is not None else "plan-derived prompts"
+        LOGGER.info(
+            "Using %d prompt records from %s (plan_records=%d)",
+            len(effective_prompts),
+            prompt_source,
+            len(plan_records),
+        )
         plans_by_index = {
             record["index"]: QuestionPlan(
                 target_concept=record.get("target_concept") or f"unknown_{record['index']}",
@@ -138,13 +165,22 @@ class GenerationOrchestrator:
         }
 
         results = []
-        for rec in effective_prompts:
+        total_records = len(effective_prompts)
+        for position, rec in enumerate(effective_prompts, start=1):
             idx = rec.get("index")
             q_prompt = rec.get("question_prompt", "")
             img_prompt = rec.get("image_prompt")
+            LOGGER.info(
+                "Processing record %d/%d (index=%s, target_concept=%s)",
+                position,
+                total_records,
+                idx,
+                rec.get("target_concept"),
+            )
 
             plan = plans_by_index.get(idx)
             if plan is None:
+                LOGGER.warning("No plan record found for index=%s; building fallback plan from prompt record", idx)
                 plan = QuestionPlan(
                     target_concept=rec.get("target_concept") or f"unknown_{idx}",
                     question_type=rec.get("question_type") or "multiple_choice",
@@ -157,21 +193,27 @@ class GenerationOrchestrator:
                 )
 
             if not q_prompt and plan is not None:
+                LOGGER.info("Question prompt missing for index=%s; rebuilding from plan", idx)
                 try:
                     q_prompt = self._prompt_builder.build_question_prompt(plan)
                 except Exception:
+                    LOGGER.exception("Failed to rebuild question prompt for index=%s", idx)
                     q_prompt = ""
 
             if not img_prompt and plan is not None:
+                LOGGER.info("Image prompt missing for index=%s; rebuilding from plan", idx)
                 try:
                     img_prompt = self._prompt_builder.build_image_prompt(plan)
                 except Exception:
+                    LOGGER.exception("Failed to rebuild image prompt for index=%s", idx)
                     img_prompt = None
 
             image_url = None
             if img_prompt:
+                LOGGER.info("Generating image for index=%s", idx)
                 if mock_image:
                     image_url = f"mock://image/{effective_run_id}/{idx}.png"
+                    LOGGER.info("Using mock image output for index=%s: %s", idx, image_url)
                 else:
                     image_url = self._image_generator.generate(
                         img_prompt,
@@ -181,15 +223,21 @@ class GenerationOrchestrator:
                     )
                     if not image_url:
                         image_url = None
+                    else:
+                        LOGGER.info("Image generation completed for index=%s: %s", idx, image_url)
             else:
+                LOGGER.error("No image prompt available for index=%s", idx)
                 raise RuntimeError(f"No image prompt available for index {idx}; images are required.")
 
             if image_url is None:
+                LOGGER.error("Image generation failed for index=%s", idx)
                 raise RuntimeError(f"Image generation failed for index {idx}; cannot continue without an image.")
 
             serialized_image_ref = self._serialize_image_ref(image_url)
+            LOGGER.info("Serialized image reference for index=%s: %s", idx, serialized_image_ref)
 
             if mock_question:
+                LOGGER.info("Using mock question output for index=%s", idx)
                 image_grounded = bool(plan and (plan.image_role or "").strip().lower() == "reasoning")
                 q_obj = {
                     "id": f"q_mock_{idx}",
@@ -208,11 +256,14 @@ class GenerationOrchestrator:
                     },
                 }
                 results.append({"index": idx, "question": q_obj, "image_url": serialized_image_ref})
+                LOGGER.info("Completed record index=%s with mock question output", idx)
                 continue
 
             if not q_prompt:
+                LOGGER.error("No question prompt available for index=%s", idx)
                 raise RuntimeError(f"No question prompt available for index {idx}; cannot generate question.")
 
+            LOGGER.info("Generating question for index=%s", idx)
             question = self._question_generator.inference(
                 q_prompt,
                 question_plan=plan,
@@ -226,6 +277,11 @@ class GenerationOrchestrator:
             metadata["run_id"] = effective_run_id
             question_dict["metadata"] = metadata
             results.append({"index": idx, "question": question_dict, "image_url": serialized_image_ref})
+            LOGGER.info(
+                "Completed record index=%s question_id=%s",
+                idx,
+                question_dict.get("id"),
+            )
 
         payload = {
             "run_id": effective_run_id,
@@ -235,7 +291,14 @@ class GenerationOrchestrator:
 
         effective_output_path = output_path or self._default_output_path(effective_run_id)
         effective_output_path.parent.mkdir(parents=True, exist_ok=True)
+        LOGGER.info("Writing generation payload to %s", effective_output_path)
         with effective_output_path.open("w", encoding="utf-8") as fh:
             json.dump(payload, fh, ensure_ascii=False, indent=2)
 
+        LOGGER.info(
+            "Generation run completed: run_id=%s records=%d output=%s",
+            effective_run_id,
+            len(results),
+            effective_output_path,
+        )
         return payload
