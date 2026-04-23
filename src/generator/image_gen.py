@@ -1,29 +1,38 @@
 from __future__ import annotations
 
-import mimetypes
+import base64
+import logging
 import os
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Sequence
+from uuid import uuid4
 
 import requests
 import yaml
 
+try:
+    from dotenv import load_dotenv
+except Exception:  # pragma: no cover - optional dependency
+    load_dotenv = None  # type: ignore[assignment]
+
+
+LOGGER = logging.getLogger(__name__)
+
+SUPPORTED_PROVIDERS = {"freepik", "freepik_gemini", "freepik/gemini", "google", "genai"}
+
 
 @dataclass(frozen=True)
 class ImageGenerationConfig:
-    provider: str = "imagerouter"
-    endpoint: str = "https://api.imagerouter.io/v1/openai/images/edits"
-    model: str = "google/nano-banana-2:free"
-    quality: str = "auto"
-    size: str = "auto"
-    response_format: str = "url"
-    output_format: str = "jpeg"
-    api_key_env: str = "IMAGEROUTER_API_KEY"
+    provider: str = "freepik"
+    endpoint: str = "https://api.freepik.com/v1/ai/gemini-2-5-flash-image-preview"
+    model: str = "gemini-2-5-flash-image-preview"
+    output_format: str = "png"
+    api_key_env: str = "FREEPIK_API_KEY"
     api_key: str | None = None
     timeout_seconds: int = 120
-    default_images: tuple[str, ...] = ()
-    default_mask: str | None = None
+    poll_interval_seconds: int = 2
 
 
 class ImageGenerator:
@@ -50,51 +59,116 @@ class ImageGenerator:
         if not isinstance(image_cfg, dict):
             image_cfg = {}
 
-        default_images = image_cfg.get("default_images", [])
-        if not isinstance(default_images, list):
-            default_images = []
-
         return ImageGenerationConfig(
             provider=str(image_cfg.get("provider", ImageGenerationConfig.provider)),
             endpoint=str(image_cfg.get("endpoint", ImageGenerationConfig.endpoint)),
             model=str(image_cfg.get("model", ImageGenerationConfig.model)),
-            quality=str(image_cfg.get("quality", ImageGenerationConfig.quality)),
-            size=str(image_cfg.get("size", ImageGenerationConfig.size)),
-            response_format=str(image_cfg.get("response_format", ImageGenerationConfig.response_format)),
             output_format=str(image_cfg.get("output_format", ImageGenerationConfig.output_format)),
             api_key_env=str(image_cfg.get("api_key_env", ImageGenerationConfig.api_key_env)),
             api_key=image_cfg.get("api_key", ImageGenerationConfig.api_key),
             timeout_seconds=int(image_cfg.get("timeout_seconds", ImageGenerationConfig.timeout_seconds)),
-            default_images=tuple(str(item) for item in default_images),
-            default_mask=(
-                str(image_cfg.get("default_mask"))
-                if image_cfg.get("default_mask") not in (None, "")
-                else ImageGenerationConfig.default_mask
+            poll_interval_seconds=max(
+                1, int(image_cfg.get("poll_interval_seconds", ImageGenerationConfig.poll_interval_seconds))
             ),
         )
 
     def _resolve_api_key(self) -> str | None:
         if self._config.api_key:
             return self._config.api_key
+        if load_dotenv is not None:
+            try:
+                project_root = Path(__file__).resolve().parents[2]
+                load_dotenv(project_root / ".env")
+            except Exception:
+                pass
         return os.environ.get(self._config.api_key_env)
 
+    def _output_dir(self, output_dir: str | Path | None = None) -> Path:
+        out_dir = Path(output_dir) if output_dir else Path(__file__).resolve().parents[2] / "data" / "images"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        return out_dir
+
+    def _download_to_file(
+        self,
+        url: str,
+        *,
+        output_dir: str | Path | None = None,
+        file_stem: str | None = None,
+    ) -> str:
+        response = requests.get(url, timeout=self._config.timeout_seconds)
+        response.raise_for_status()
+
+        ext = (self._config.output_format or "").lstrip(".")
+        if not ext:
+            content_type = response.headers.get("Content-Type", "")
+            ext = content_type.split("/")[-1] if "/" in content_type else "png"
+
+        stem = file_stem or f"img_{uuid4().hex}"
+        dest = self._output_dir(output_dir) / f"{stem}.{ext}"
+        dest.write_bytes(response.content)
+        return str(dest)
+
     @staticmethod
-    def _extract_url(payload: Any) -> str:
-        if isinstance(payload, dict):
-            data = payload.get("data")
-            if isinstance(data, list) and data:
-                first = data[0]
-                if isinstance(first, dict) and isinstance(first.get("url"), str):
-                    return first["url"]
+    def _is_public_url(value: str) -> bool:
+        lowered = value.lower()
+        return lowered.startswith("http://") or lowered.startswith("https://")
 
-            if isinstance(payload.get("url"), str):
-                return payload["url"]
+    def _encode_reference_image(self, path_or_url: str | Path) -> str:
+        raw_value = str(path_or_url)
+        if self._is_public_url(raw_value):
+            return raw_value
 
-            result = payload.get("result")
-            if isinstance(result, dict) and isinstance(result.get("url"), str):
-                return result["url"]
+        path = Path(path_or_url)
+        with path.open("rb") as handle:
+            return base64.b64encode(handle.read()).decode("ascii")
 
-        return ""
+    def _build_reference_images(self, image_paths: Sequence[str | Path] | None, mask_path: str | Path | None) -> list[str]:
+        refs: list[str] = []
+        for item in image_paths or ():
+            if len(refs) >= 3:
+                break
+            try:
+                refs.append(self._encode_reference_image(item))
+            except OSError:
+                LOGGER.debug("Skipping unreadable reference image: %s", item, exc_info=True)
+
+        if mask_path:
+            LOGGER.debug("Ignoring mask_path because Freepik Gemini endpoint only supports reference_images")
+
+        return refs
+
+    def _submit_task(self, *, prompt: str, reference_images: list[str], api_key: str) -> dict[str, Any]:
+        headers = {
+            "x-freepik-api-key": api_key,
+            "Content-Type": "application/json",
+        }
+        payload: dict[str, Any] = {"prompt": prompt}
+        if reference_images:
+            payload["reference_images"] = reference_images
+
+        response = requests.post(
+            self._config.endpoint,
+            json=payload,
+            headers=headers,
+            timeout=self._config.timeout_seconds,
+        )
+        response.raise_for_status()
+        return response.json()
+
+    def _get_task(self, task_id: str, api_key: str) -> dict[str, Any]:
+        headers = {"x-freepik-api-key": api_key}
+        response = requests.get(
+            f"{self._config.endpoint}/{task_id}",
+            headers=headers,
+            timeout=self._config.timeout_seconds,
+        )
+        response.raise_for_status()
+        return response.json()
+
+    @staticmethod
+    def _extract_task_data(payload: dict[str, Any]) -> dict[str, Any]:
+        data = payload.get("data", {})
+        return data if isinstance(data, dict) else {}
 
     def generate(
         self,
@@ -102,85 +176,84 @@ class ImageGenerator:
         *,
         image_paths: Sequence[str | Path] | None = None,
         mask_path: str | Path | None = None,
+        output_dir: str | Path | None = None,
+        file_stem: str | None = None,
     ) -> str:
         cleaned_prompt = image_prompt.strip()
+        LOGGER.debug("ImageGenerator.generate called (prompt_len=%d, provider=%s)", len(cleaned_prompt), self._config.provider)
         if not cleaned_prompt:
+            LOGGER.debug("Empty image prompt provided; aborting")
             return ""
 
-        if self._config.provider != "imagerouter":
+        provider = (self._config.provider or "").lower()
+        if provider not in SUPPORTED_PROVIDERS:
+            LOGGER.debug("Unsupported image provider: %s", self._config.provider)
             return ""
 
         api_key = self._resolve_api_key()
         if not api_key:
+            LOGGER.debug("No API key found (env var: %s); aborting image generation", self._config.api_key_env)
             return ""
 
-        effective_images = list(image_paths or self._config.default_images)
-
-        effective_mask = mask_path or self._config.default_mask
-
-        headers = {"Authorization": f"Bearer {api_key}"}
-        payload = {
-            "prompt": cleaned_prompt,
-            "model": self._config.model,
-            "quality": self._config.quality,
-            "size": self._config.size,
-            "response_format": self._config.response_format,
-            "output_format": self._config.output_format,
-        }
-
-        open_handles: list[Any] = []
-        files: list[tuple[str, tuple[str, Any, str]]] = []
+        reference_images = self._build_reference_images(image_paths, mask_path)
+        LOGGER.debug(
+            "Prepared Freepik image request: endpoint=%s model=%s references=%d",
+            self._config.endpoint,
+            self._config.model,
+            len(reference_images),
+        )
 
         try:
-            for raw_path in effective_images:
-                path = Path(raw_path)
-                if not path.exists() or not path.is_file():
-                    continue
-                handle = path.open("rb")
-                open_handles.append(handle)
-                mime_type = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
-                files.append(("image[]", (path.name, handle, mime_type)))
+            create_payload = self._submit_task(prompt=cleaned_prompt, reference_images=reference_images, api_key=api_key)
+            task_data = self._extract_task_data(create_payload)
+        except Exception:
+            LOGGER.exception("Freepik image generation task submission failed")
+            return ""
 
-            if effective_mask:
-                mask = Path(effective_mask)
-                if mask.exists() and mask.is_file():
-                    handle = mask.open("rb")
-                    open_handles.append(handle)
-                    mime_type = mimetypes.guess_type(mask.name)[0] or "application/octet-stream"
-                    files.append(("mask[]", (mask.name, handle, mime_type)))
+        task_id = str(task_data.get("task_id", "")).strip()
+        status = str(task_data.get("status", "")).strip().upper()
+        generated = task_data.get("generated") if isinstance(task_data.get("generated"), list) else []
 
-            if not files:
-                # No seed images provided — attempt text-only image generation via JSON body
-                try:
-                    response = requests.post(
-                        self._config.endpoint,
-                        json=payload,
-                        headers=headers,
-                        timeout=self._config.timeout_seconds,
-                    )
-                    response.raise_for_status()
-                    body = response.json()
-                    return self._extract_url(body)
-                except requests.RequestException:
-                    return ""
+        if not task_id:
+            LOGGER.debug("Freepik task response did not include task_id: %s", create_payload)
+            return ""
 
-            response = requests.post(
-                self._config.endpoint,
-                files=files,
-                data=payload,
-                headers=headers,
-                timeout=self._config.timeout_seconds,
+        deadline = time.monotonic() + self._config.timeout_seconds
+        while status in {"", "CREATED", "IN_PROGRESS"} and time.monotonic() < deadline:
+            time.sleep(self._config.poll_interval_seconds)
+            try:
+                poll_payload = self._get_task(task_id, api_key)
+                task_data = self._extract_task_data(poll_payload)
+            except Exception:
+                LOGGER.exception("Freepik image generation task polling failed")
+                return ""
+
+            status = str(task_data.get("status", "")).strip().upper()
+            generated = task_data.get("generated") if isinstance(task_data.get("generated"), list) else []
+
+            if status == "FAILED":
+                LOGGER.debug("Freepik image generation task failed: %s", poll_payload)
+                return ""
+            if status == "COMPLETED":
+                break
+
+        if status != "COMPLETED":
+            LOGGER.debug("Freepik image generation timed out waiting for completion; task_id=%s status=%s", task_id, status)
+            return ""
+
+        image_url = next((str(item).strip() for item in generated if str(item).strip()), "")
+        if not image_url:
+            LOGGER.debug("Freepik task completed without generated image URLs; task_id=%s payload=%s", task_id, task_data)
+            return ""
+
+        try:
+            local_path = self._download_to_file(
+                image_url,
+                output_dir=output_dir,
+                file_stem=file_stem,
             )
-            response.raise_for_status()
-            body = response.json()
-            return self._extract_url(body)
-        except requests.RequestException:
-            return ""
-        except ValueError:
-            return ""
-        finally:
-            for handle in open_handles:
-                try:
-                    handle.close()
-                except OSError:
-                    pass
+            LOGGER.debug("Downloaded Freepik generated image to %s", local_path)
+            return local_path
+        except Exception:
+            LOGGER.exception("Failed to download generated Freepik image; returning source URL instead")
+            return image_url

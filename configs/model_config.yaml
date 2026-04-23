@@ -5,17 +5,13 @@ llm:
   timeout_seconds: 60
 
 image_generation:
-  provider: imagerouter
-  endpoint: https://api.imagerouter.io/v1/openai/images/generations
-  model: openai/gpt-image-1.5:free
-  quality: auto
-  size: auto
-  response_format: b64_json
-  output_format: jpeg
-  api_key_env: IMAGEROUTER_API_KEY
+  provider: freepik
+  endpoint: https://api.freepik.com/v1/ai/gemini-2-5-flash-image-preview
+  model: gemini-2-5-flash-image-preview
+  output_format: png
+  api_key_env: FREEPIK_API_KEY
   timeout_seconds: 120
-  default_images: []
-  default_mask:
+  poll_interval_seconds: 2
 embedding:
   provider: placeholder
   model: placeholder
