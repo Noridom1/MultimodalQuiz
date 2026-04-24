@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import logging
 import sys
 from pathlib import Path
 
@@ -14,6 +15,11 @@ from src.generator.orchestrator import GenerationOrchestrator
 
 
 def main(argv: list[str] | None = None) -> int:
+    logging.basicConfig(
+        level=logging.INFO,
+        format="[%(levelname)s] %(name)s: %(message)s",
+    )
+
     parser = argparse.ArgumentParser(description="Orchestrate image + question generation from a quiz plan")
     parser.add_argument(
         "--plan-json",

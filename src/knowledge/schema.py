@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from enum import Enum
 from pathlib import Path
-from typing import Any, Literal
+from typing import Any, Literal, Optional
 
 import networkx as nx
 from pydantic import BaseModel, Field
@@ -32,11 +32,11 @@ class GraphNode(BaseModel):
     id: str
     label: str
     kind: NodeKind
-    source_file: str | None = None
-    page_idx: int | None = None
+    source_file: Optional[str] = None
+    page_idx: Optional[int] = None
     section_path: list[str] = Field(default_factory=list)
-    text: str | None = None
-    image_path: str | None = None
+    text: Optional[str] = None
+    image_path: Optional[str] = None
     metadata: dict[str, Any] = Field(default_factory=dict)
 
 
@@ -47,14 +47,14 @@ class GraphEdge(BaseModel):
     confidence: Literal["EXTRACTED", "INFERRED", "AMBIGUOUS"] = "EXTRACTED"
     confidence_score: float = 1.0
     weight: float = 1.0
-    source_file: str | None = None
-    source_location: str | None = None
+    source_file: Optional[str] = None
+    source_location: Optional[str] = None
     metadata: dict[str, Any] = Field(default_factory=dict)
 
 
 class MultimodalDocumentGraph(BaseModel):
     document_id: str
-    source_file: str | None = None
+    source_file: Optional[str] = None
     nodes: list[GraphNode] = Field(default_factory=list)
     edges: list[GraphEdge] = Field(default_factory=list)
     metadata: dict[str, Any] = Field(default_factory=dict)
@@ -109,7 +109,7 @@ class Question(BaseModel):
     target_concept: str
     difficulty: str
     question_type: str
-    associated_image: str | None = None
+    associated_image: Optional[str] = None
     image_grounded: bool = False
     metadata: dict[str, Any] = Field(default_factory=dict)
 
