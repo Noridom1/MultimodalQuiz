@@ -5,7 +5,6 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
-from envs.database_env.Lib import logging
 from langchain_mistralai import ChatMistralAI
 from langchain_core.messages import SystemMessage, HumanMessage
 
@@ -216,7 +215,6 @@ def build_provider(config: LLMConfig) -> LLMProvider:
 class LLMClient:
     def __init__(self, config_path: str | Path | None = None):
         config = load_config(config_path)
-        logging.info(f"[planning] LLMClient initialized with provider: {config.provider}, model: {config.model}")
         self.provider = build_provider(config)
 
     def complete(self, prompt: str, *, system_prompt: str | None = None) -> str:
