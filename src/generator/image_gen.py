@@ -39,6 +39,13 @@ class ImageGenerator:
     def __init__(self, pipeline=None, *, config_path: str | Path | None = None):
         self.pipeline = pipeline
         self._config = self._load_config(config_path)
+        LOGGER.info(
+            "Initialized image generator provider=%s model=%s endpoint=%s api_key_env=%s",
+            self._config.provider,
+            self._config.model,
+            self._config.endpoint,
+            self._config.api_key_env,
+        )
 
     @staticmethod
     def _default_config_path() -> Path:
@@ -74,6 +81,7 @@ class ImageGenerator:
 
     def _resolve_api_key(self) -> str | None:
         if self._config.api_key:
+            LOGGER.info("Using image generation API key from config for provider=%s", self._config.provider)
             return self._config.api_key
         if load_dotenv is not None:
             try:
@@ -81,7 +89,12 @@ class ImageGenerator:
                 load_dotenv(project_root / ".env")
             except Exception:
                 pass
-        return os.environ.get(self._config.api_key_env)
+        api_key = os.environ.get(self._config.api_key_env)
+        if api_key:
+            LOGGER.info("Resolved image generation API key from env var=%s", self._config.api_key_env)
+        else:
+            LOGGER.warning("Image generation API key not found in env var=%s", self._config.api_key_env)
+        return api_key
 
     def _output_dir(self, output_dir: str | Path | None = None) -> Path:
         out_dir = Path(output_dir) if output_dir else Path(__file__).resolve().parents[2] / "data" / "images"
@@ -95,6 +108,7 @@ class ImageGenerator:
         output_dir: str | Path | None = None,
         file_stem: str | None = None,
     ) -> str:
+        LOGGER.info("Downloading generated image from %s", url)
         response = requests.get(url, timeout=self._config.timeout_seconds)
         response.raise_for_status()
 
@@ -106,6 +120,7 @@ class ImageGenerator:
         stem = file_stem or f"img_{uuid4().hex}"
         dest = self._output_dir(output_dir) / f"{stem}.{ext}"
         dest.write_bytes(response.content)
+        LOGGER.info("Saved generated image to %s", dest)
         return str(dest)
 
     @staticmethod
@@ -180,34 +195,44 @@ class ImageGenerator:
         file_stem: str | None = None,
     ) -> str:
         cleaned_prompt = image_prompt.strip()
-        LOGGER.debug("ImageGenerator.generate called (prompt_len=%d, provider=%s)", len(cleaned_prompt), self._config.provider)
+        started_at = time.perf_counter()
+        LOGGER.info(
+            "Starting image generation provider=%s model=%s prompt_len=%d reference_images=%d output_dir=%s file_stem=%s",
+            self._config.provider,
+            self._config.model,
+            len(cleaned_prompt),
+            len(image_paths or []),
+            output_dir,
+            file_stem,
+        )
         if not cleaned_prompt:
-            LOGGER.debug("Empty image prompt provided; aborting")
+            LOGGER.warning("Empty image prompt provided; aborting image generation")
             return ""
 
         provider = (self._config.provider or "").lower()
         if provider not in SUPPORTED_PROVIDERS:
-            LOGGER.debug("Unsupported image provider: %s", self._config.provider)
+            LOGGER.error("Unsupported image provider=%s", self._config.provider)
             return ""
 
         api_key = self._resolve_api_key()
         if not api_key:
-            LOGGER.debug("No API key found (env var: %s); aborting image generation", self._config.api_key_env)
+            LOGGER.error("No API key found (env var=%s); aborting image generation", self._config.api_key_env)
             return ""
 
         reference_images = self._build_reference_images(image_paths, mask_path)
-        LOGGER.debug(
-            "Prepared Freepik image request: endpoint=%s model=%s references=%d",
+        LOGGER.info(
+            "Prepared image request endpoint=%s model=%s references=%d",
             self._config.endpoint,
             self._config.model,
             len(reference_images),
         )
 
         try:
+            LOGGER.info("Submitting image generation task to provider=%s", self._config.provider)
             create_payload = self._submit_task(prompt=cleaned_prompt, reference_images=reference_images, api_key=api_key)
             task_data = self._extract_task_data(create_payload)
         except Exception:
-            LOGGER.exception("Freepik image generation task submission failed")
+            LOGGER.exception("Image generation task submission failed provider=%s", self._config.provider)
             return ""
 
         task_id = str(task_data.get("task_id", "")).strip()
@@ -215,8 +240,10 @@ class ImageGenerator:
         generated = task_data.get("generated") if isinstance(task_data.get("generated"), list) else []
 
         if not task_id:
-            LOGGER.debug("Freepik task response did not include task_id: %s", create_payload)
+            LOGGER.error("Image generation response did not include task_id provider=%s payload=%s", self._config.provider, create_payload)
             return ""
+
+        LOGGER.info("Submitted image generation task task_id=%s initial_status=%s", task_id, status or "UNKNOWN")
 
         deadline = time.monotonic() + self._config.timeout_seconds
         while status in {"", "CREATED", "IN_PROGRESS"} and time.monotonic() < deadline:
@@ -225,25 +252,26 @@ class ImageGenerator:
                 poll_payload = self._get_task(task_id, api_key)
                 task_data = self._extract_task_data(poll_payload)
             except Exception:
-                LOGGER.exception("Freepik image generation task polling failed")
+                LOGGER.exception("Image generation task polling failed task_id=%s", task_id)
                 return ""
 
             status = str(task_data.get("status", "")).strip().upper()
             generated = task_data.get("generated") if isinstance(task_data.get("generated"), list) else []
+            LOGGER.info("Polled image generation task task_id=%s status=%s", task_id, status or "UNKNOWN")
 
             if status == "FAILED":
-                LOGGER.debug("Freepik image generation task failed: %s", poll_payload)
+                LOGGER.error("Image generation task failed task_id=%s payload=%s", task_id, poll_payload)
                 return ""
             if status == "COMPLETED":
                 break
 
         if status != "COMPLETED":
-            LOGGER.debug("Freepik image generation timed out waiting for completion; task_id=%s status=%s", task_id, status)
+            LOGGER.error("Image generation timed out waiting for completion task_id=%s status=%s", task_id, status)
             return ""
 
         image_url = next((str(item).strip() for item in generated if str(item).strip()), "")
         if not image_url:
-            LOGGER.debug("Freepik task completed without generated image URLs; task_id=%s payload=%s", task_id, task_data)
+            LOGGER.error("Image generation completed without generated image URL task_id=%s payload=%s", task_id, task_data)
             return ""
 
         try:
@@ -252,8 +280,19 @@ class ImageGenerator:
                 output_dir=output_dir,
                 file_stem=file_stem,
             )
-            LOGGER.debug("Downloaded Freepik generated image to %s", local_path)
+            LOGGER.info(
+                "Completed image generation task_id=%s local_path=%s elapsed=%.2fs",
+                task_id,
+                local_path,
+                time.perf_counter() - started_at,
+            )
             return local_path
         except Exception:
-            LOGGER.exception("Failed to download generated Freepik image; returning source URL instead")
+            LOGGER.exception("Failed to download generated image task_id=%s; returning source URL instead", task_id)
+            LOGGER.info(
+                "Completed image generation task_id=%s source_url=%s elapsed=%.2fs",
+                task_id,
+                image_url,
+                time.perf_counter() - started_at,
+            )
             return image_url

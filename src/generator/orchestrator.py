@@ -3,6 +3,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import logging
+import time
 from pathlib import Path
 from typing import Any
 from uuid import uuid4
@@ -151,10 +152,21 @@ class GenerationOrchestrator:
         effective_artifact_root = Path(artifact_root) if artifact_root is not None else effective_output_dir
         image_output_dir = effective_output_dir / "images"
         image_output_dir.mkdir(parents=True, exist_ok=True)
+        run_started_at = time.perf_counter()
 
         plan_records = self.build_prompts_from_plan(plan_json)
         effective_prompts = prompts or plan_records
         prompt_source = "provided prompts override" if prompts is not None else "plan-derived prompts"
+        LOGGER.info(
+            "Starting generation run_id=%s plan=%s output_dir=%s artifact_root=%s mock_image=%s mock_question=%s image_refs=%d",
+            effective_run_id,
+            plan_json,
+            effective_output_dir,
+            effective_artifact_root,
+            mock_image,
+            mock_question,
+            len(image_paths or []),
+        )
         LOGGER.info(
             "Using %d prompt records from %s (plan_records=%d)",
             len(effective_prompts),
@@ -178,147 +190,185 @@ class GenerationOrchestrator:
         question_records: list[dict[str, Any]] = []
         image_artifacts: list[dict[str, Any]] = []
         questions: list[dict[str, Any]] = []
-        for rec in effective_prompts:
+        total_records = len(effective_prompts)
+        for position, rec in enumerate(effective_prompts, start=1):
             idx = rec.get("index")
             q_prompt = rec.get("question_prompt", "")
             img_prompt = rec.get("image_prompt")
+            record_started_at = time.perf_counter()
             LOGGER.info(
-                "Processing record %d/%d (index=%s, target_concept=%s)",
+                "Processing generation record %d/%d index=%s target_concept=%s difficulty=%s question_type=%s",
                 position,
                 total_records,
                 idx,
                 rec.get("target_concept"),
+                rec.get("difficulty"),
+                rec.get("question_type"),
             )
+            try:
+                plan = plans_by_index.get(idx)
+                if plan is None:
+                    LOGGER.warning("No plan record found for index=%s; building fallback plan from prompt record", idx)
+                    plan = QuestionPlan(
+                        target_concept=rec.get("target_concept") or f"unknown_{idx}",
+                        question_type=rec.get("question_type") or "multiple_choice",
+                        difficulty=rec.get("difficulty") or "medium",
+                        reasoning_type=rec.get("reasoning_type") or "factoid",
+                        image_role=rec.get("image_role"),
+                        image_description=rec.get("image_description"),
+                        learning_objective=rec.get("learning_objective"),
+                        metadata=rec.get("metadata", {}),
+                    )
 
-            plan = plans_by_index.get(idx)
-            if plan is None:
-                LOGGER.warning("No plan record found for index=%s; building fallback plan from prompt record", idx)
-                plan = QuestionPlan(
-                    target_concept=rec.get("target_concept") or f"unknown_{idx}",
-                    question_type=rec.get("question_type") or "multiple_choice",
-                    difficulty=rec.get("difficulty") or "medium",
-                    reasoning_type=rec.get("reasoning_type") or "factoid",
-                    image_role=rec.get("image_role"),
-                    image_description=rec.get("image_description"),
-                    learning_objective=rec.get("learning_objective"),
-                    metadata=rec.get("metadata", {}),
+                if not q_prompt and plan is not None:
+                    LOGGER.info("Question prompt missing for index=%s; rebuilding from plan", idx)
+                    try:
+                        q_prompt = self._prompt_builder.build_question_prompt(plan)
+                    except Exception:
+                        LOGGER.exception("Failed to rebuild question prompt for index=%s", idx)
+                        q_prompt = ""
+
+                if not img_prompt and plan is not None:
+                    LOGGER.info("Image prompt missing for index=%s; rebuilding from plan", idx)
+                    try:
+                        img_prompt = self._prompt_builder.build_image_prompt(plan)
+                    except Exception:
+                        LOGGER.exception("Failed to rebuild image prompt for index=%s", idx)
+                        img_prompt = None
+
+                LOGGER.info(
+                    "Prepared prompts for index=%s question_prompt=%s image_prompt=%s",
+                    idx,
+                    "yes" if bool(self._safe_text(q_prompt)) else "no",
+                    "yes" if bool(self._safe_text(img_prompt)) else "no",
                 )
 
-            if not q_prompt and plan is not None:
-                LOGGER.info("Question prompt missing for index=%s; rebuilding from plan", idx)
-                try:
-                    q_prompt = self._prompt_builder.build_question_prompt(plan)
-                except Exception:
-                    LOGGER.exception("Failed to rebuild question prompt for index=%s", idx)
-                    q_prompt = ""
-
-            if not img_prompt and plan is not None:
-                LOGGER.info("Image prompt missing for index=%s; rebuilding from plan", idx)
-                try:
-                    img_prompt = self._prompt_builder.build_image_prompt(plan)
-                except Exception:
-                    LOGGER.exception("Failed to rebuild image prompt for index=%s", idx)
-                    img_prompt = None
-
-            image_url = None
-            image_status = "skipped"
-            if img_prompt:
-                LOGGER.info("Generating image for index=%s", idx)
-                if mock_image:
-                    image_url = f"mock://image/{effective_run_id}/{idx}.png"
-                    image_status = "generated"
-                else:
-                    image_url = self._image_generator.generate(
-                        img_prompt,
-                        image_paths=image_paths,
-                        output_dir=image_output_dir,
-                        file_stem=str(idx),
-                    )
-                    if not image_url:
-                        image_url = None
-                    else:
+                image_url = None
+                image_status = "skipped"
+                if img_prompt:
+                    LOGGER.info("Starting image generation for index=%s mode=%s", idx, "mock" if mock_image else "provider")
+                    if mock_image:
+                        image_url = f"mock://image/{effective_run_id}/{idx}.png"
                         image_status = "generated"
-            else:
-                raise RuntimeError(f"No image prompt available for index {idx}; images are required.")
+                    else:
+                        image_url = self._image_generator.generate(
+                            img_prompt,
+                            image_paths=image_paths,
+                            output_dir=image_output_dir,
+                            file_stem=str(idx),
+                        )
+                        if not image_url:
+                            image_url = None
+                        else:
+                            image_status = "generated"
+                    LOGGER.info(
+                        "Completed image generation for index=%s status=%s image_ref=%s",
+                        idx,
+                        image_status,
+                        image_url,
+                    )
+                else:
+                    raise RuntimeError(f"No image prompt available for index {idx}; images are required.")
 
-            if image_url is None:
-                LOGGER.error("Image generation failed for index=%s", idx)
-                raise RuntimeError(f"Image generation failed for index {idx}; cannot continue without an image.")
+                if image_url is None:
+                    LOGGER.error("Image generation failed for index=%s", idx)
+                    raise RuntimeError(f"Image generation failed for index {idx}; cannot continue without an image.")
 
-            serialized_image_ref = self._serialize_image_ref(image_url, artifact_root=effective_artifact_root)
-            image_local_path = None
-            if serialized_image_ref and not serialized_image_ref.startswith(("http://", "https://", "data:", "mock://")):
-                image_local_path = relative_path(Path(image_url), effective_artifact_root)
+                serialized_image_ref = self._serialize_image_ref(image_url, artifact_root=effective_artifact_root)
+                image_local_path = None
+                if serialized_image_ref and not serialized_image_ref.startswith(("http://", "https://", "data:", "mock://")):
+                    image_local_path = relative_path(Path(image_url), effective_artifact_root)
 
-            image_artifacts.append(
-                {
-                    "index": idx,
-                    "status": image_status,
-                    "image_prompt": img_prompt,
-                    "source_url": image_url,
-                    "local_path": image_local_path,
-                    "image_ref": serialized_image_ref,
-                }
-            )
+                image_artifacts.append(
+                    {
+                        "index": idx,
+                        "status": image_status,
+                        "image_prompt": img_prompt,
+                        "source_url": image_url,
+                        "local_path": image_local_path,
+                        "image_ref": serialized_image_ref,
+                    }
+                )
 
-            if mock_question:
-                LOGGER.info("Using mock question output for index=%s", idx)
-                image_grounded = bool(plan and (plan.image_role or "").strip().lower() == "reasoning")
-                q_obj = {
-                    "id": f"q_mock_{idx}",
-                    "question_text": f"Mock question for {plan.target_concept if plan else idx}",
-                    "options": ["A", "B", "C", "D"],
-                    "correct_answer": "A",
-                    "explanation": "This is a mock explanation.",
-                    "target_concept": plan.target_concept if plan else f"unknown_{idx}",
-                    "difficulty": plan.difficulty if plan else "medium",
-                    "question_type": plan.question_type if plan else "multiple_choice",
-                    "associated_image": serialized_image_ref,
-                    "image_grounded": image_grounded,
-                    "metadata": {
-                        "reasoning_type": plan.reasoning_type if plan else "factoid",
-                        "run_id": effective_run_id,
-                    },
-                }
+                if mock_question:
+                    LOGGER.info("Using mock question output for index=%s", idx)
+                    image_grounded = bool(plan and (plan.image_role or "").strip().lower() == "reasoning")
+                    q_obj = {
+                        "id": f"q_mock_{idx}",
+                        "question_text": f"Mock question for {plan.target_concept if plan else idx}",
+                        "options": ["A", "B", "C", "D"],
+                        "correct_answer": "A",
+                        "explanation": "This is a mock explanation.",
+                        "target_concept": plan.target_concept if plan else f"unknown_{idx}",
+                        "difficulty": plan.difficulty if plan else "medium",
+                        "question_type": plan.question_type if plan else "multiple_choice",
+                        "associated_image": serialized_image_ref,
+                        "image_grounded": image_grounded,
+                        "metadata": {
+                            "reasoning_type": plan.reasoning_type if plan else "factoid",
+                            "run_id": effective_run_id,
+                        },
+                    }
+                    question_records.append(
+                        {
+                            "index": idx,
+                            "question": q_obj,
+                            "image_url": serialized_image_ref,
+                            "question_prompt": q_prompt,
+                            "image_prompt": img_prompt,
+                        }
+                    )
+                    questions.append(q_obj)
+                    LOGGER.info(
+                        "Completed record index=%s with mock question id=%s elapsed=%.2fs",
+                        idx,
+                        q_obj["id"],
+                        time.perf_counter() - record_started_at,
+                    )
+                    continue
+
+                if not q_prompt:
+                    LOGGER.error("No question prompt available for index=%s", idx)
+                    raise RuntimeError(f"No question prompt available for index {idx}; cannot generate question.")
+
+                LOGGER.info("Starting question generation for index=%s", idx)
+                question = self._question_generator.inference(
+                    q_prompt,
+                    question_plan=plan,
+                    image_path=image_url,
+                )
+                question_dict = LLMQuestionGenerator.to_dict(question)
+                question_dict["associated_image"] = serialized_image_ref
+                metadata = question_dict.get("metadata")
+                if not isinstance(metadata, dict):
+                    metadata = {}
+                metadata["run_id"] = effective_run_id
+                question_dict["metadata"] = metadata
                 question_records.append(
                     {
                         "index": idx,
-                        "question": q_obj,
+                        "question": question_dict,
                         "image_url": serialized_image_ref,
                         "question_prompt": q_prompt,
                         "image_prompt": img_prompt,
                     }
                 )
-                questions.append(q_obj)
-                continue
-
-            if not q_prompt:
-                LOGGER.error("No question prompt available for index=%s", idx)
-                raise RuntimeError(f"No question prompt available for index {idx}; cannot generate question.")
-
-            LOGGER.info("Generating question for index=%s", idx)
-            question = self._question_generator.inference(
-                q_prompt,
-                question_plan=plan,
-                image_path=image_url,
-            )
-            question_dict = LLMQuestionGenerator.to_dict(question)
-            question_dict["associated_image"] = serialized_image_ref
-            metadata = question_dict.get("metadata")
-            if not isinstance(metadata, dict):
-                metadata = {}
-            metadata["run_id"] = effective_run_id
-            question_dict["metadata"] = metadata
-            question_records.append(
-                {
-                    "index": idx,
-                    "question": question_dict,
-                    "image_url": serialized_image_ref,
-                    "question_prompt": q_prompt,
-                    "image_prompt": img_prompt,
-                }
-            )
-            questions.append(question_dict)
+                questions.append(question_dict)
+                LOGGER.info(
+                    "Completed question generation for index=%s question_id=%s elapsed=%.2fs",
+                    idx,
+                    question_dict.get("id"),
+                    time.perf_counter() - record_started_at,
+                )
+            except Exception:
+                LOGGER.exception(
+                    "Generation record failed %d/%d index=%s target_concept=%s",
+                    position,
+                    total_records,
+                    idx,
+                    rec.get("target_concept"),
+                )
+                raise
 
         payload = {
             "run_id": effective_run_id,
@@ -341,6 +391,16 @@ class GenerationOrchestrator:
             else:
                 legacy_output_path.mkdir(parents=True, exist_ok=True)
                 write_json(legacy_output_path / "quiz_package.json", payload)
+
+        LOGGER.info(
+            "Completed generation run_id=%s records=%d questions=%d images=%d output_dir=%s elapsed=%.2fs",
+            effective_run_id,
+            total_records,
+            len(questions),
+            len(image_artifacts),
+            effective_output_dir,
+            time.perf_counter() - run_started_at,
+        )
 
         return {
             "run_id": effective_run_id,
