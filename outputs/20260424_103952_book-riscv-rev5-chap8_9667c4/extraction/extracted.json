@@ -1,0 +1,562 @@
+{
+  "concepts": [
+    "operating system",
+    "processes",
+    "cpus",
+    "time-share",
+    "virtual cpu",
+    "multiplexing",
+    "xv6",
+    "system call",
+    "blocking",
+    "read",
+    "wait",
+    "yield()",
+    "sched()",
+    "schedule()",
+    "voluntary switches",
+    "involuntary switches",
+    "cpu registers",
+    "context switches",
+    "hardware timer",
+    "interrupts",
+    "locking plan",
+    "multi-core machine",
+    "context switch",
+    "cpu",
+    "kernel thread",
+    "scheduler thread",
+    "user space",
+    "shell",
+    "kernel space",
+    "kstack shell",
+    "kstack scheduler",
+    "kstack cat",
+    "restore kernel space",
+    "cat",
+    "user process",
+    "trap",
+    "interrupt",
+    "thread",
+    "struct proc",
+    "struct context",
+    "ram",
+    "struct cpu",
+    "swtch()",
+    "context",
+    "sd",
+    "ra",
+    "sp",
+    "s0",
+    "a0",
+    "ld",
+    "s11",
+    "a1",
+    "swtch",
+    "ret",
+    "risc-v calling convention",
+    "callee-saved registers",
+    "caller-saved registers",
+    "scheduler",
+    "process lock",
+    "sched",
+    "yield",
+    "sleep",
+    "kexit",
+    "scheduler context",
+    "process 1",
+    "acquire",
+    "p->lock",
+    "runnable",
+    "release",
+    "running",
+    "process table",
+    "runnable process",
+    "current process variable",
+    "per-cpu",
+    "p->state",
+    "p->context",
+    "registers",
+    "stack",
+    "c->proc",
+    "allocproc",
+    "forkret",
+    "current process",
+    "proc structure",
+    "uniprocessor",
+    "hartid",
+    "tp register",
+    "risc-v",
+    "mycpu",
+    "cpu structure",
+    "saved registers",
+    "spinlocks",
+    "start",
+    "machine mode",
+    "prepare_return",
+    "tp",
+    "trampoline page",
+    "uservec",
+    "risc-v hardware",
+    "supervisor mode",
+    "cpuid",
+    "myproc",
+    "xv6 scheduler",
+    "round robin",
+    "scheduling policy",
+    "priorities",
+    "fairness",
+    "high throughput",
+    "deadlocks"
+  ],
+  "definitions": {
+    "operating system": "A system that manages computer hardware and software resources and provides common services for computer programs.",
+    "processes": "Instances of computer programs that are being executed.",
+    "time-share": "A method of sharing computer resources among multiple users or processes by allocating time slots to each.",
+    "multiplexing": "The process of switching a CPU from one process to another.",
+    "xv6": "An operating system used in the example.",
+    "system call": "A request made by a process to the operating system to perform a specific task.",
+    "blocking": "A state where a process is waiting for an event or resource to become available.",
+    "voluntary switches": "Process switches that occur when a process makes a blocking system call.",
+    "involuntary switches": "Process switches that occur periodically to cope with long-running processes.",
+    "context switches": "The process of switching from one process to another.",
+    "hardware timer": "A component that generates periodic interrupts to drive context switches.",
+    "interrupts": "Signals sent to the CPU to indicate an event that needs immediate attention.",
+    "locking plan": "A strategy to prevent multiple CPUs from accessing shared resources simultaneously.",
+    "multi-core machine": "A computer system with multiple CPUs or cores.",
+    "context switch": "The process of switching from one user process to another, involving traps, scheduler threads, and kernel threads.",
+    "thread": "A sequence of execution that consists of data in memory and CPU registers.",
+    "struct context": "A structure defined in kernel/proc.h (1951) that includes fields such as s0.",
+    "swtch()": "A function that saves the current CPU registers and loads the content of another thread’s context into the CPU registers.",
+    "scheduler": "a special thread per CPU responsible for choosing which process to run next.",
+    "scheduler thread": "a special thread per CPU that manages process switching.",
+    "runnable process": "a process that has p->state = RUNNABLE.",
+    "prepare_return": "Saves tp in the trampoline page before returning to user space.",
+    "uservec": "Restores the saved tp when entering the kernel from user space.",
+    "myproc": "Returns the struct proc pointer for the process running on the current CPU.",
+    "round robin": "A scheduling policy that runs each process in turn."
+  },
+  "relations": [
+    {
+      "source": "operating system",
+      "target": "processes",
+      "relation": "manages"
+    },
+    {
+      "source": "multiplexing",
+      "target": "processes",
+      "relation": "part_of"
+    },
+    {
+      "source": "virtual CPU",
+      "target": "multiplexing",
+      "relation": "achieved_by"
+    },
+    {
+      "source": "xv6",
+      "target": "multiplexing",
+      "relation": "implements"
+    },
+    {
+      "source": "system call",
+      "target": "blocking",
+      "relation": "causes"
+    },
+    {
+      "source": "read",
+      "target": "system call",
+      "relation": "example_of"
+    },
+    {
+      "source": "wait",
+      "target": "system call",
+      "relation": "example_of"
+    },
+    {
+      "source": "voluntary switches",
+      "target": "blocking system call",
+      "relation": "caused_by"
+    },
+    {
+      "source": "involuntary switches",
+      "target": "long-running processes",
+      "relation": "caused_by"
+    },
+    {
+      "source": "context switches",
+      "target": "CPU registers",
+      "relation": "involves"
+    },
+    {
+      "source": "hardware timer",
+      "target": "interrupts",
+      "relation": "generates"
+    },
+    {
+      "source": "interrupts",
+      "target": "context switches",
+      "relation": "drives"
+    },
+    {
+      "source": "locking plan",
+      "target": "multi-core machine",
+      "relation": "necessary_for"
+    },
+    {
+      "source": "context switch",
+      "target": "multiplexing",
+      "relation": "part_of"
+    },
+    {
+      "source": "context switch",
+      "target": "kernel thread",
+      "relation": "involves"
+    },
+    {
+      "source": "scheduler thread",
+      "target": "kernel thread",
+      "relation": "manages"
+    },
+    {
+      "source": "shell",
+      "target": "user space",
+      "relation": "part_of"
+    },
+    {
+      "source": "shell",
+      "target": "kernel space",
+      "relation": "interacts_with"
+    },
+    {
+      "source": "kstack shell",
+      "target": "kstack scheduler",
+      "relation": "switches_to"
+    },
+    {
+      "source": "kstack scheduler",
+      "target": "kstack cat",
+      "relation": "switches_to"
+    },
+    {
+      "source": "restore kernel space",
+      "target": "cat",
+      "relation": "enables"
+    },
+    {
+      "source": "xv6",
+      "target": "CPU",
+      "relation": "depends_on"
+    },
+    {
+      "source": "context switch",
+      "target": "scheduler thread",
+      "relation": "part_of"
+    },
+    {
+      "source": "trap",
+      "target": "user space",
+      "relation": "related_to"
+    },
+    {
+      "source": "thread",
+      "target": "CPU registers",
+      "relation": "depends_on"
+    },
+    {
+      "source": "struct context",
+      "target": "struct proc",
+      "relation": "part_of"
+    },
+    {
+      "source": "scheduler thread",
+      "target": "struct cpu",
+      "relation": "part_of"
+    },
+    {
+      "source": "swtch()",
+      "target": "CPU registers",
+      "relation": "depends_on"
+    },
+    {
+      "source": "swtch()",
+      "target": "context",
+      "relation": "related_to"
+    },
+    {
+      "source": "a0",
+      "target": "struct context",
+      "relation": "part_of"
+    },
+    {
+      "source": "a1",
+      "target": "struct context",
+      "relation": "part_of"
+    },
+    {
+      "source": "s0",
+      "target": "struct context",
+      "relation": "part_of"
+    },
+    {
+      "source": "ret",
+      "target": "ra",
+      "relation": "depends_on"
+    },
+    {
+      "source": "swtch",
+      "target": "ra",
+      "relation": "depends_on"
+    },
+    {
+      "source": "ra",
+      "target": "struct context",
+      "relation": "part_of"
+    },
+    {
+      "source": "swtch",
+      "target": "ra",
+      "relation": "depends_on"
+    },
+    {
+      "source": "swtch",
+      "target": "sp",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RISC-V calling convention",
+      "target": "caller-saved registers",
+      "relation": "related_to"
+    },
+    {
+      "source": "RISC-V calling convention",
+      "target": "callee-saved registers",
+      "relation": "related_to"
+    },
+    {
+      "source": "swtch",
+      "target": "caller-saved registers",
+      "relation": "depends_on"
+    },
+    {
+      "source": "scheduler",
+      "target": "kernel thread",
+      "relation": "part_of"
+    },
+    {
+      "source": "scheduler thread",
+      "target": "CPU",
+      "relation": "part_of"
+    },
+    {
+      "source": "sched",
+      "target": "process lock",
+      "relation": "depends_on"
+    },
+    {
+      "source": "sched",
+      "target": "swtch",
+      "relation": "calls"
+    },
+    {
+      "source": "swtch",
+      "target": "context",
+      "relation": "saves"
+    },
+    {
+      "source": "Process 1",
+      "target": "p->lock",
+      "relation": "acquires"
+    },
+    {
+      "source": "Process 1",
+      "target": "RUNNABLE",
+      "relation": "sets_state_to"
+    },
+    {
+      "source": "swtch",
+      "target": "scheduler thread",
+      "relation": "part_of"
+    },
+    {
+      "source": "swtch",
+      "target": "p->lock",
+      "relation": "depends_on"
+    },
+    {
+      "source": "scheduler",
+      "target": "process table",
+      "relation": "part_of"
+    },
+    {
+      "source": "scheduler",
+      "target": "runnable process",
+      "relation": "depends_on"
+    },
+    {
+      "source": "scheduler",
+      "target": "swtch",
+      "relation": "causes"
+    },
+    {
+      "source": "p->lock",
+      "target": "swtch",
+      "relation": "depends_on"
+    },
+    {
+      "source": "p->state",
+      "target": "p->context",
+      "relation": "related_to"
+    },
+    {
+      "source": "yield",
+      "target": "RUNNABLE",
+      "relation": "causes"
+    },
+    {
+      "source": "scheduler",
+      "target": "stack",
+      "relation": "part_of"
+    },
+    {
+      "source": "scheduler",
+      "target": "c->proc",
+      "relation": "depends_on"
+    },
+    {
+      "source": "RUNNABLE",
+      "target": "RUNNING",
+      "relation": "causes"
+    },
+    {
+      "source": "kernel thread",
+      "target": "RUNNING",
+      "relation": "part_of"
+    },
+    {
+      "source": "allocproc",
+      "target": "forkret",
+      "relation": "causes"
+    },
+    {
+      "source": "forkret",
+      "target": "p->lock",
+      "relation": "depends_on"
+    },
+    {
+      "source": "forkret",
+      "target": "user space",
+      "relation": "causes"
+    },
+    {
+      "source": "Xv6",
+      "target": "proc structure",
+      "relation": "depends_on"
+    },
+    {
+      "source": "CPU",
+      "target": "hartid",
+      "relation": "part_of"
+    },
+    {
+      "source": "CPU",
+      "target": "tp register",
+      "relation": "part_of"
+    },
+    {
+      "source": "RISC-V",
+      "target": "hartid",
+      "relation": "part_of"
+    },
+    {
+      "source": "mycpu",
+      "target": "cpu structure",
+      "relation": "depends_on"
+    },
+    {
+      "source": "cpu structure",
+      "target": "proc structure",
+      "relation": "part_of"
+    },
+    {
+      "source": "start",
+      "target": "machine mode",
+      "relation": "part_of"
+    },
+    {
+      "source": "prepare_return",
+      "target": "tp",
+      "relation": "saves"
+    },
+    {
+      "source": "uservec",
+      "target": "tp",
+      "relation": "restores"
+    },
+    {
+      "source": "xv6",
+      "target": "RISC-V hardware",
+      "relation": "depends_on"
+    },
+    {
+      "source": "cpuid",
+      "target": "mycpu",
+      "relation": "related_to"
+    },
+    {
+      "source": "myproc",
+      "target": "interrupts",
+      "relation": "disables"
+    },
+    {
+      "source": "myproc",
+      "target": "mycpu",
+      "relation": "invokes"
+    },
+    {
+      "source": "myproc",
+      "target": "struct proc",
+      "relation": "returns"
+    },
+    {
+      "source": "xv6 scheduler",
+      "target": "round robin",
+      "relation": "implements"
+    },
+    {
+      "source": "scheduling policy",
+      "target": "priorities",
+      "relation": "includes"
+    },
+    {
+      "source": "scheduling policy",
+      "target": "fairness",
+      "relation": "includes"
+    },
+    {
+      "source": "scheduling policy",
+      "target": "high throughput",
+      "relation": "includes"
+    },
+    {
+      "source": "context switch",
+      "target": "scheduler thread",
+      "relation": "avoids"
+    },
+    {
+      "source": "context switch",
+      "target": "swtch",
+      "relation": "uses"
+    },
+    {
+      "source": "context switch",
+      "target": "deadlocks",
+      "relation": "avoids"
+    }
+  ],
+  "examples": [
+    "read or wait",
+    "if p->lock were released before invoking swtch, a different CPU c might decide to run the process because its state is RUNNABLE.",
+    "after the swtch, for example in yield",
+    "for example, allow processes to have priorities"
+  ]
+}
