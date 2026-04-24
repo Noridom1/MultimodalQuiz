@@ -1,0 +1,1594 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "book-riscv-rev5-chap8::concept::0::operating_system",
+      "label": "operating system",
+      "normalized_label": "operating system",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_"
+      ],
+      "section_paths": [
+        [
+          "Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::1::processes",
+      "label": "processes",
+      "normalized_label": "processes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_"
+      ],
+      "section_paths": [
+        [
+          "Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::2::cpus",
+      "label": "CPUs",
+      "normalized_label": "cpus",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_"
+      ],
+      "section_paths": [
+        [
+          "Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::3::time_share",
+      "label": "time-share",
+      "normalized_label": "time-share",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_"
+      ],
+      "section_paths": [
+        [
+          "Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::4::virtual_cpu",
+      "label": "virtual CPU",
+      "normalized_label": "virtual cpu",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_"
+      ],
+      "section_paths": [
+        [
+          "Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::5::multiplexing",
+      "label": "multiplexing",
+      "normalized_label": "multiplexing",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "The process of time-sharing CPUs among processes to provide the illusion of a virtual CPU for each process."
+      ],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_"
+      ],
+      "section_paths": [
+        [
+          "Scheduling"
+        ],
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::6::xv6",
+      "label": "xv6",
+      "normalized_label": "xv6",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_"
+      ],
+      "section_paths": [
+        [
+          "Scheduling"
+        ],
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::7::cpu",
+      "label": "CPU",
+      "normalized_label": "cpu",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc"
+      ],
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ],
+        [
+          "8.3 Code: Context switching"
+        ],
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.6 Real world"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::8::process",
+      "label": "process",
+      "normalized_label": "process",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0"
+      ],
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ],
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::9::system_call",
+      "label": "struct context",
+      "normalized_label": "system call",
+      "aliases": [
+        "system call"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "A structure defined in kernel/proc.h that includes fields such as s0, ra, and sp."
+      ],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_"
+      ],
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ],
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::10::voluntary_switches",
+      "label": "voluntary switches",
+      "normalized_label": "voluntary switches",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "Switches that occur when a process makes a system call that blocks, such as read or wait."
+      ],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_"
+      ],
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::11::involuntary_switches",
+      "label": "involuntary switches",
+      "normalized_label": "involuntary switches",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "Switches that are forced periodically to cope with processes that compute for long periods without blocking."
+      ],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_"
+      ],
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::12::context_switches",
+      "label": "context switches",
+      "normalized_label": "context switches",
+      "aliases": [
+        "context switch"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ],
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::13::hardware_timer",
+      "label": "hardware timer",
+      "normalized_label": "hardware timer",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_"
+      ],
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::14::locking_plan",
+      "label": "locking plan",
+      "normalized_label": "locking plan",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_"
+      ],
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::15::sd",
+      "label": "sd",
+      "normalized_label": "sd",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::16::ld",
+      "label": "ld",
+      "normalized_label": "ld",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::17::ra",
+      "label": "ra",
+      "normalized_label": "ra",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ],
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::18::sp",
+      "label": "sp",
+      "normalized_label": "sp",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::19::s0",
+      "label": "s0",
+      "normalized_label": "s0",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::20::s11",
+      "label": "s11",
+      "normalized_label": "s11",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::21::ret",
+      "label": "ret",
+      "normalized_label": "ret",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::22::a0",
+      "label": "a0",
+      "normalized_label": "a0",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::23::a1",
+      "label": "a1",
+      "normalized_label": "a1",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::24::swtch",
+      "label": "swtch",
+      "normalized_label": "swtch",
+      "aliases": [],
+      "mention_count": 6,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ],
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ],
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::25::risc_v_calling_convention",
+      "label": "RISC-V calling convention",
+      "normalized_label": "risc-v calling convention",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0"
+      ],
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ],
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::26::callee_saved_registers",
+      "label": "callee-saved registers",
+      "normalized_label": "callee-saved registers",
+      "aliases": [
+        "caller-saved registers"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::27::scheduler",
+      "label": "scheduler",
+      "normalized_label": "scheduler",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ],
+        [
+          "8.6 Real world"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::28::p_lock",
+      "label": "p->lock",
+      "normalized_label": "p- lock",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::29::p_state",
+      "label": "p->state",
+      "normalized_label": "p- state",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::30::p_context",
+      "label": "p->context",
+      "normalized_label": "p- context",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::31::sched",
+      "label": "sched",
+      "normalized_label": "sched",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::32::yield",
+      "label": "yield",
+      "normalized_label": "yield",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::33::sleep",
+      "label": "sleep",
+      "normalized_label": "sleep",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::34::kexit",
+      "label": "kexit",
+      "normalized_label": "kexit",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::35::runnable",
+      "label": "RUNNABLE",
+      "normalized_label": "runnable",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::36::running",
+      "label": "RUNNING",
+      "normalized_label": "running",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::37::forkret",
+      "label": "forkret",
+      "normalized_label": "forkret",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::38::allocproc",
+      "label": "allocproc",
+      "normalized_label": "allocproc",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::39::c_proc",
+      "label": "c->proc",
+      "normalized_label": "c- proc",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::40::hartid",
+      "label": "hartid",
+      "normalized_label": "hartid",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::41::tp",
+      "label": "tp",
+      "normalized_label": "tp",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::42::mycpu",
+      "label": "mycpu",
+      "normalized_label": "mycpu",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::43::cpuid",
+      "label": "cpuid",
+      "normalized_label": "cpuid",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::44::myproc",
+      "label": "myproc",
+      "normalized_label": "myproc",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc"
+      ],
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.5 Code: mycpu and myproc"
+        ],
+        [
+          "8.6 Real world"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::45::trampoline_page",
+      "label": "trampoline page",
+      "normalized_label": "trampoline page",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::46::uservec",
+      "label": "uservec",
+      "normalized_label": "uservec",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::47::prepare_return",
+      "label": "prepare_return",
+      "normalized_label": "prepare return",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::48::start",
+      "label": "start",
+      "normalized_label": "start",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "section_paths": [
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::49::struct_proc",
+      "label": "scheduling policy",
+      "normalized_label": "struct proc",
+      "aliases": [
+        "struct proc"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "section_paths": [
+        [
+          "8.6 Real world"
+        ],
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::50::round_robin",
+      "label": "round robin",
+      "normalized_label": "round robin",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "A simple scheduling policy that runs each process in turn."
+      ],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "section_paths": [
+        [
+          "8.6 Real world"
+        ],
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::51::xv6_scheduler",
+      "label": "xv6 scheduler",
+      "normalized_label": "xv6 scheduler",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "section_paths": [
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::52::kernel_thread",
+      "label": "kernel thread",
+      "normalized_label": "kernel thread",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "section_paths": [
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::53::scheduler_thread",
+      "label": "scheduler thread",
+      "normalized_label": "scheduler thread",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "section_paths": [
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::54::deadlocks",
+      "label": "deadlocks",
+      "normalized_label": "deadlocks",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "section_paths": [
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::4::virtual_cpu",
+        "book-riscv-rev5-chap8::concept::7::cpu"
+      ],
+      "labels": [
+        "virtual CPU",
+        "CPU"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::6::xv6",
+        "book-riscv-rev5-chap8::concept::51::xv6_scheduler"
+      ],
+      "labels": [
+        "xv6",
+        "xv6 scheduler"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::53::scheduler_thread"
+      ],
+      "labels": [
+        "scheduler",
+        "scheduler thread"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 101,
+    "canonical_concept_count": 55,
+    "candidate_merge_count": 3
+  }
+}

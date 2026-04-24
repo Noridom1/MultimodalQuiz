@@ -1,0 +1,16 @@
+{
+  "passed": false,
+  "errors": [
+    "topic book-riscv-rev5-chap8::topic::7::xv6 has non-human-readable label: Xv6"
+  ],
+  "warnings": [],
+  "stats": {
+    "document_nodes": 1,
+    "section_nodes": 9,
+    "chunk_nodes": 17,
+    "concept_nodes": 55,
+    "topic_nodes": 13,
+    "artifact_nodes": 6,
+    "edge_count": 442
+  }
+}
