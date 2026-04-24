@@ -111,6 +111,7 @@ class QuizPlanner:
                     print("[QuizPlanner] Original raw output repr:", repr(raw_output))
                     raise
                 plans = self._parse_plans(payload, num_questions)
+                self._repair_concept_coverage(plans)
                 self._validate_concept_coverage(plans, num_questions)
                 self._validate_difficulty_balance(plans, num_questions, difficulty_distribution)
                 return plans
@@ -236,6 +237,66 @@ class QuizPlanner:
         concepts = [plan.target_concept.casefold() for plan in plans]
         if len(set(concepts)) != num_questions:
             raise RuntimeError("Concept coverage violated: duplicate target concepts found.")
+
+    def _repair_concept_coverage(self, plans: list[QuestionPlan]) -> None:
+        """Best-effort repair for duplicate/empty target concepts.
+
+        Strategy:
+        1) Replace duplicates with unused concept labels from the KG.
+        2) If KG candidates are exhausted, suffix the original label to keep IDs unique.
+        """
+        seen: set[str] = set()
+        duplicate_indexes: list[int] = []
+
+        for idx, plan in enumerate(plans):
+            key = self._normalized_text(plan.target_concept).casefold()
+            if not key or key in seen:
+                duplicate_indexes.append(idx)
+            else:
+                seen.add(key)
+
+        if not duplicate_indexes:
+            return
+
+        candidate_labels: list[str] = []
+        candidate_seen: set[str] = set()
+        for node in self._knowledge_graph.nodes:
+            if node.kind != NodeKind.concept:
+                continue
+            label = self._normalized_text(node.label)
+            key = label.casefold()
+            if not label or key in seen or key in candidate_seen:
+                continue
+            candidate_labels.append(label)
+            candidate_seen.add(key)
+
+        for idx in duplicate_indexes:
+            plan = plans[idx]
+            previous = self._normalized_text(plan.target_concept)
+
+            if candidate_labels:
+                replacement = candidate_labels.pop(0)
+            else:
+                replacement = self._make_unique_label(previous or "concept", seen)
+
+            plan.target_concept = replacement
+            prev_desc = self._normalized_text(plan.image_description)
+            if not prev_desc or prev_desc.casefold() == previous.casefold():
+                plan.image_description = replacement
+
+            seen.add(replacement.casefold())
+
+    def _make_unique_label(self, base: str, seen: set[str]) -> str:
+        root = self._normalized_text(base) or "concept"
+        if root.casefold() not in seen:
+            return root
+
+        suffix = 2
+        while True:
+            candidate = f"{root}_{suffix}"
+            if candidate.casefold() not in seen:
+                return candidate
+            suffix += 1
 
     def _validate_difficulty_distribution(self, distribution: dict[str, float]) -> None:
         if not distribution:

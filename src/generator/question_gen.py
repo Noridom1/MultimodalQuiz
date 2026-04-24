@@ -135,7 +135,7 @@ class LLMQuestionGenerator:
             target_concept="unspecified",
             question_type="multiple-choice",
             difficulty="medium",
-            reasoning_type="factual",
+            reasoning_type="factoid",
             image_role="illustrative",
             image_description="unspecified",
             metadata={},

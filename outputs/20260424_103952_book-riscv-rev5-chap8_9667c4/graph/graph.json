@@ -1,0 +1,4459 @@
+{
+  "document_id": "book-riscv-rev5-chap8",
+  "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+  "nodes": [
+    {
+      "id": "book-riscv-rev5-chap8::section::0::chapter_8",
+      "label": "Chapter 8",
+      "kind": "section",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 0,
+        "level": 1,
+        "block_kind": "heading"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::1::scheduling",
+      "label": "Scheduling",
+      "kind": "section",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 1,
+        "level": 1,
+        "block_kind": "heading"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::2::any_operating_system_is_likely_to_run_with_more_",
+      "label": "Any operating system is likely to run with more processes than the computer has CPUs, so a plan is needed to time-share…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "Scheduling"
+      ],
+      "text": "Any operating system is likely to run with more processes than the computer has CPUs, so a plan is needed to time-share the CPUs among the processes. Ideally the sharing would be transparent to user processes. A common approach is to provide each process with the illusion that it has its own virtual CPU by multiplexing the processes onto the hardware CPUs. This chapter explains how xv6 achieves this multiplexing.",
+      "image_path": null,
+      "metadata": {
+        "order": 2,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::3::before_proceeding_with_this_chapter_please_read_",
+      "label": "Before proceeding with this chapter, please read kernel/proc.h, kernel/swtch.S, and yield(), sched(), and schedule() in…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "Scheduling"
+      ],
+      "text": "Before proceeding with this chapter, please read kernel/proc.h, kernel/swtch.S, and yield(), sched(), and schedule() in kernel/proc.c.",
+      "image_path": null,
+      "metadata": {
+        "order": 3,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::4::8_1_multiplexing",
+      "label": "8.1 Multiplexing",
+      "kind": "section",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 4,
+        "level": 1,
+        "block_kind": "heading"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::5::xv6_multiplexes_by_switching_each_cpu_from_one_p",
+      "label": "Xv6 multiplexes by switching each CPU from one process to another in two situations. First, xv6 switches when a process…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.1 Multiplexing"
+      ],
+      "text": "Xv6 multiplexes by switching each CPU from one process to another in two situations. First, xv6 switches when a process makes a system call that blocks (has to wait), for example read or wait. Second, xv6 periodically forces a switch to cope with processes that compute for long periods without blocking. The former are called voluntary switches, the latter involuntary.",
+      "image_path": null,
+      "metadata": {
+        "order": 5,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::6::implementing_multiplexing_poses_a_few_challenges",
+      "label": "Implementing multiplexing poses a few challenges. First, how to switch from one process to another? The basic idea is t…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.1 Multiplexing"
+      ],
+      "text": "Implementing multiplexing poses a few challenges. First, how to switch from one process to another? The basic idea is to save and restore CPU registers, though the fact that this cannot be expressed in C makes it tricky. Second, how to force switches in a way that is transparent to user processes? Xv6 uses the standard technique in which a hardware timer’s interrupts drive context switches. Third, all of the CPUs switch among the same set of processes, so a locking plan is necessary to avoid mistakes such as two CPUs deciding to run the same process at the same time. Fourth, a process’s memory and other resources must be freed when the process exits, but it cannot finish all of this itself. Fifth, each CPU of a multi-core machine must remember which process it is executing so that system calls affect the correct process’s kernel state.",
+      "image_path": null,
+      "metadata": {
+        "order": 6,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::7::8_2_context_switch_overview",
+      "label": "8.2 Context switch overview",
+      "kind": "section",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 7,
+        "level": 1,
+        "block_kind": "heading"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::8::the_term_context_switch_refers_to_the_steps_invo",
+      "label": "The term “context switch” refers to the steps involved in a CPU leaving off execution of one kernel thread (usually for…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "text": "The term “context switch” refers to the steps involved in a CPU leaving off execution of one kernel thread (usually for later resumption), and resuming execution of a different kernel thread; this switching is the heart of multiplexing. Xv6 does not directly context switch from one process’s kernel thread to another process’s kernel thread; instead, a kernel thread gives up the CPU by context-switching to that CPU’s “scheduler thread,” and the scheduler thread picks a different process’s kernel thread to run, and context-switches to that thread.",
+      "image_path": null,
+      "metadata": {
+        "order": 8,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::image::9::images_e44c1bc110689c9f6cbead21d36537eb5309a7b22",
+      "label": "![](images/e44c1bc110689c9f6cbead21d36537eb5309a7b22b2cfcc7470c1b534e9eff89.jpg)",
+      "kind": "image",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "text": "![](images/e44c1bc110689c9f6cbead21d36537eb5309a7b22b2cfcc7470c1b534e9eff89.jpg)",
+      "image_path": "images/e44c1bc110689c9f6cbead21d36537eb5309a7b22b2cfcc7470c1b534e9eff89.jpg",
+      "metadata": {
+        "order": 9,
+        "block_kind": "image",
+        "chunk_id": "book-riscv-rev5-chap8::image::9::images_e44c1bc110689c9f6cbead21d36537eb5309a7b22::chunk::3::images_e44c1bc110689c9f6cbead21d36537eb5309a7b22",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::10::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"user space\"] --> B[\"shell\"] B --> C[\"save kernel space\"]…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"user space\"] --> B[\"shell\"]\n    B --> C[\"save kernel space\"]\n    C --> D[\"kstack shell\"]\n    D --> E[\"switch\"]\n    E --> F[\"kstack scheduler\"]\n    F --> G[\"switch\"]\n    G --> H[\"kstack cat\"]\n    H --> I[\"restore kernel space\"]\n    I --> J[\"cat\"]\n```\n</details>",
+      "image_path": null,
+      "metadata": {
+        "order": 10,
+        "block_kind": "details",
+        "chunk_id": "book-riscv-rev5-chap8::details::10::details_summary_flowchart_summary_mermaid_graph_::chunk::4::details_summary_flowchart_summary_mermaid_graph_",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::11::figure_8_1_switching_from_one_user_process_to_an",
+      "label": "Figure 8.1: Switching from one user process to another. In this example, xv6 runs with one CPU (and thus one scheduler…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "text": "Figure 8.1: Switching from one user process to another. In this example, xv6 runs with one CPU (and thus one scheduler thread).",
+      "image_path": null,
+      "metadata": {
+        "order": 11,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::12::at_a_broader_scope_the_steps_involved_in_switchi",
+      "label": "At a broader scope, the steps involved in switching from one user process to another are illustrated in Figure 8.1: a t…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "text": "At a broader scope, the steps involved in switching from one user process to another are illustrated in Figure 8.1: a trap (system call or interrupt) from the old process’s user space to its kernel thread, a context switch to the current CPU’s scheduler thread, a context switch to a new process’s kernel thread, and a trap return to the user-level process.",
+      "image_path": null,
+      "metadata": {
+        "order": 12,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "label": "8.3 Code: Context switching",
+      "kind": "section",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 13,
+        "level": 1,
+        "block_kind": "heading"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::14::the_function_swtch_in_kernel_swtch_s_contains_th",
+      "label": "The function swtch() in kernel/swtch.S contains the heart of thread context switching: it saves the switched-from threa…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "The function swtch() in kernel/swtch.S contains the heart of thread context switching: it saves the switched-from thread’s CPU registers, and restores the previously-saved registers of the switched-to thread. The basic reason this is sufficient is that a thread’s state consist of data in memory (e.g. its stack) plus its CPU registers; thread memory need not saved and restored because different threads keep their data in different areas of RAM; but the CPU has only one set of registers so they must be switched (saved and restored) between threads.",
+      "image_path": null,
+      "metadata": {
+        "order": 14,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::15::each_thread_s_struct_proc_includes_a_struct_cont",
+      "label": "Each thread’s struct proc includes a struct context that holds the thread’s saved registers when it is not running. A C…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "Each thread’s struct proc includes a struct context that holds the thread’s saved registers when it is not running. A CPU’s scheduler thread’s struct context is in that CPU’s struct cpu. When thread X wishes to switch to thread Y, thread X calls swtch(&X’s context, &Y’s context). swtch() saves the current CPU registers in X’s context, then loads the content of Y’s context into the CPU registers, then returns.",
+      "image_path": null,
+      "metadata": {
+        "order": 15,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::16::here_s_an_abbreviated_copy_of_swtch",
+      "label": "Here’s an abbreviated copy of swtch:",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "Here’s an abbreviated copy of swtch:",
+      "image_path": null,
+      "metadata": {
+        "order": 16,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::17::swtch",
+      "label": "swtch:",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "swtch:",
+      "image_path": null,
+      "metadata": {
+        "order": 17,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::18::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0",
+      "label": "```txt sd ra, 0 (a0) sd sp, 8 (a0) sd s0, 16 (a0) ... ```",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "```txt\nsd ra, 0 (a0)\nsd sp, 8 (a0)\nsd s0, 16 (a0)\n... \n```",
+      "image_path": null,
+      "metadata": {
+        "order": 18,
+        "block_kind": "code",
+        "chunk_id": "book-riscv-rev5-chap8::code::18::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0::chunk::7::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0",
+        "language": "txt"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+      "label": "```asm sd s11, 104(a0) ld ra, 0(a1) ld sp, 8(a1) ld s0, 16(a1) ... ld s11, 104(a1) ret ```",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "```asm\nsd s11, 104(a0)\nld ra, 0(a1)\nld sp, 8(a1)\nld s0, 16(a1)\n...\nld s11, 104(a1)\nret \n```",
+      "image_path": null,
+      "metadata": {
+        "order": 19,
+        "block_kind": "code",
+        "chunk_id": "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+        "language": "asm"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::20::a0_holds_the_first_function_argument_and_a1_the_",
+      "label": "a0 holds the first function argument, and a1 the second; in this case, the two struct context pointers. 16(a0) refers t…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "a0 holds the first function argument, and a1 the second; in this case, the two struct context pointers. 16(a0) refers to an offset 16 bytes into the memory pointed to by a0; referring to the definition of struct context in kernel/proc.h (1951), this is the structure field called s0.",
+      "image_path": null,
+      "metadata": {
+        "order": 20,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::21::where_does_swtch_s_ret_return_to_it_returns_to_t",
+      "label": "Where does swtch’s ret return to? It returns to the instruction that the ra register points to. In the example in which…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "Where does swtch’s ret return to? It returns to the instruction that the ra register points to. In the example in which thread X calls swtch() to switch to Y, when ret executes, ra has just been loaded from Y’s struct context. And the ra in Y’s struct context was originally saved by Y’s call to swtch when Y gave up the CPU in the past. So the ret returns to the instruction after the point at which Y called swtch(); that is, X’s call to swtch() returns as if returning from Y’s original call to swtch(). And sp will be Y’s stack pointer, since swtch loaded sp from Y’s struct context; thus on return, Y will execute on its own stack. swtch() need not directly save or restore the program counter; it’s enough to save and restore ra.",
+      "image_path": null,
+      "metadata": {
+        "order": 21,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::21::where_does_swtch_s_ret_return_to_it_returns_to_t::chunk::10::where_does_swtch_s_ret_return_to_it_returns_to_t",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+      "label": "swtch (2902) saves callee-saved registers (ra,sp,s0..s11) but not caller-saved registers. The RISC-V calling convention…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "swtch (2902) saves callee-saved registers (ra,sp,s0..s11) but not caller-saved registers. The RISC-V calling convention requires that if code needs to preserve the value in a caller-saved register across a function call, the compiler must generate instructions that save the register to the stack before the function call, and restore from the stack when the function returns. So swtch can rely on the function that called it having already saved the caller-saved registers (either that, or the calling function didn’t need the values in the registers).",
+      "image_path": null,
+      "metadata": {
+        "order": 22,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::11::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "label": "8.4 Code: Scheduling",
+      "kind": "section",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 23,
+        "level": 1,
+        "block_kind": "heading"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::24::the_last_section_looked_at_the_internals_of_swtc",
+      "label": "The last section looked at the internals of swtch; now let’s take swtch as a given and examine switching from one proce…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "The last section looked at the internals of swtch; now let’s take swtch as a given and examine switching from one process’s kernel thread through the scheduler to another process. The scheduler exists in the form of a special thread per CPU, each running the scheduler function. This function is in charge of choosing which process to run next. Each CPU has its own scheduler thread because more than one CPU may be looking for something to run at any given time. Process switching always goes through the scheduler thread, rather than direct from one process to another, to avoid some situations in which there would be no stack on which to execute the scheduler (e.g. if the old process has exited, or there is no other process that currently wants to run).",
+      "image_path": null,
+      "metadata": {
+        "order": 24,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::25::a_process_that_wants_to_give_up_the_cpu_must_acq",
+      "label": "A process that wants to give up the CPU must acquire its own process lock p->lock, release any other locks it is holdin…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "A process that wants to give up the CPU must acquire its own process lock p->lock, release any other locks it is holding, update its own state (p->state), and then call sched. You can see this sequence in yield (2629), sleep and kexit. sched calls swtch to save the current context in p->context and switch to the scheduler context in cpu->context. swtch returns on the scheduler’s stack as though scheduler’s swtch had returned (2582).",
+      "image_path": null,
+      "metadata": {
+        "order": 25,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::image::26::images_beedb7345045080a4a25965466805e3357535b86e",
+      "label": "![](images/beedb7345045080a4a25965466805e3357535b86ec85995631ca603dd06af753.jpg)",
+      "kind": "image",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "![](images/beedb7345045080a4a25965466805e3357535b86ec85995631ca603dd06af753.jpg)",
+      "image_path": "images/beedb7345045080a4a25965466805e3357535b86ec85995631ca603dd06af753.jpg",
+      "metadata": {
+        "order": 26,
+        "block_kind": "image",
+        "chunk_id": "book-riscv-rev5-chap8::image::26::images_beedb7345045080a4a25965466805e3357535b86e::chunk::13::images_beedb7345045080a4a25965466805e3357535b86e",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::27::details_summary_text_image_summary_process_1_acq",
+      "label": "<details> <summary>text_image</summary> Process 1 acquire(&p->lock); ... p->state = RUNNABLE; swtch(&p->context, ...);…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nProcess 1\nacquire(&p->lock);\n...\np->state = RUNNABLE;\nswtch(&p->context, ...);\n\n    swtch(...); // return\n    release(&p->lock);\n\n        // find a RUNNABLE p\n\n    acquire(&p->lock);\n    p->state = RUNNING;\n    swtch(...,&p->context);\n\n            swtch(&p->context,...); // return\n    release(&p->lock);\n</details>",
+      "image_path": null,
+      "metadata": {
+        "order": 27,
+        "block_kind": "details",
+        "chunk_id": "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::14::details_summary_text_image_summary_process_1_acq",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::28::figure_8_2_swtch_always_has_the_scheduler_thread",
+      "label": "Figure 8.2: swtch() always has the scheduler thread as either source or destination, and the relevant p->lock is always…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "Figure 8.2: swtch() always has the scheduler thread as either source or destination, and the relevant p->lock is always held.",
+      "image_path": null,
+      "metadata": {
+        "order": 28,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::29::scheduler_2558_runs_a_loop_find_a_process_to_run",
+      "label": "scheduler (2558) runs a loop: find a process to run, swtch() to it, eventually it will swtch() back to the scheduler, w…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "scheduler (2558) runs a loop: find a process to run, swtch() to it, eventually it will swtch() back to the scheduler, which continues its loop. The scheduler loops over the process table looking for a runnable process, one that has $\\mathrm { p { - } { > } s t a t e ~ } = \\mathrm { - } \\mathrm { \\sf ~ R U N N A B L E }$ . Once it finds a process, it sets the per-CPU current process variable c->proc, marks the process as RUNNING, and then calls swtch to start running it (2577-2582). At some point in the past, the target process must have called swtch(); the scheduler’s call to swtch() effectively returns from that earlier call. Figure 8.2 illustrates this pattern.",
+      "image_path": null,
+      "metadata": {
+        "order": 29,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+      "label": "xv6 holds p->lock across calls to swtch: the caller of swtch acquires the lock, but it’s released in the target after s…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "xv6 holds p->lock across calls to swtch: the caller of swtch acquires the lock, but it’s released in the target after swtch returns. This arrangement is unusual: it’s more common for the thread that acquires a lock to also release it. Xv6’s context switching breaks this convention because p->state and p->context must be updated together atomically. For example, if p->lock were released before invoking swtch, a different CPU c might decide to run the process because its state is RUNNABLE. CPU c will invoke swtch which will restore from p->context while the original CPU is still saving into p->context. The result would be that the process would be restored with partially-saved registers on CPU c and that both CPUs will be using the same stack, which would cause chaos. Once yield has started to modify a running process’s state to make it RUNNABLE, p->lock must remain held until the process has saved all its registers and the scheduler is running on its stack. The earliest correct release point is after scheduler (running on its own stack) clears c->proc. Similarly, once scheduler starts to convert a RUNNABLE process to",
+      "image_path": null,
+      "metadata": {
+        "order": 30,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::31::running_the_lock_cannot_be_released_until_the_pr",
+      "label": "RUNNING, the lock cannot be released until the process’s kernel thread is completely running (after the swtch, for exam…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "RUNNING, the lock cannot be released until the process’s kernel thread is completely running (after the swtch, for example in yield).",
+      "image_path": null,
+      "metadata": {
+        "order": 31,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::32::there_is_one_case_when_the_scheduler_s_call_to_s",
+      "label": "There is one case when the scheduler’s call to swtch does not end up in sched. allocproc sets the context ra register o…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "There is one case when the scheduler’s call to swtch does not end up in sched. allocproc sets the context ra register of a new process to forkret (2653), so that its first swtch “returns” to the start of that function. forkret exists to release the p->lock and set up some control registers and trapframe fields that are required in order to return to user space. At the end, forkret simulates the normal return path from a system call back to user space.",
+      "image_path": null,
+      "metadata": {
+        "order": 32,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::33::8_5_code_mycpu_and_myproc",
+      "label": "8.5 Code: mycpu and myproc",
+      "kind": "section",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 33,
+        "level": 1,
+        "block_kind": "heading"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::34::xv6_often_needs_a_pointer_to_the_current_process",
+      "label": "Xv6 often needs a pointer to the current process’s proc structure. On a uniprocessor one could have a global variable p…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "text": "Xv6 often needs a pointer to the current process’s proc structure. On a uniprocessor one could have a global variable pointing to the current proc. This doesn’t work on a multi-core machine, since each CPU executes a different process. The way to solve this problem is to exploit the fact that each CPU has its own set of registers.",
+      "image_path": null,
+      "metadata": {
+        "order": 34,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::35::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+      "label": "While a given CPU is executing in the kernel, xv6 ensures that the CPU’s tp register always holds the CPU’s hartid. RIS…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "text": "While a given CPU is executing in the kernel, xv6 ensures that the CPU’s tp register always holds the CPU’s hartid. RISC-V numbers its CPUs, giving each a unique hartid. mycpu (2178) uses tp to index an array of cpu structures and return the one for the current CPU. A struct cpu (1971) holds a pointer to the proc structure of the process currently running on that CPU (if any), saved registers for the CPU’s scheduler thread, and the count of nested spinlocks needed to manage interrupt disabling.",
+      "image_path": null,
+      "metadata": {
+        "order": 35,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::36::ensuring_that_a_cpu_s_tp_holds_the_cpu_s_hartid_",
+      "label": "Ensuring that a CPU’s tp holds the CPU’s hartid is a little involved, since user code is free to modify tp. start sets…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "text": "Ensuring that a CPU’s tp holds the CPU’s hartid is a little involved, since user code is free to modify tp. start sets the tp register early in the CPU’s boot sequence, while still in machine mode (1094). While preparing to return to user space, prepare\\_return saves tp in the trampoline page, in case user code modifies it. Finally, uservec restores that saved tp when entering the kernel from user space (3127). The compiler guarantees never to modify tp in kernel code. It would be more convenient if xv6 could ask the RISC-V hardware for the current hartid whenever needed, but RISC-V allows that only in machine mode, not in supervisor mode.",
+      "image_path": null,
+      "metadata": {
+        "order": 36,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::37::the_return_values_of_cpuid_and_mycpu_are_fragile",
+      "label": "The return values of cpuid and mycpu are fragile: if the timer were to interrupt and cause the thread to yield and late…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "text": "The return values of cpuid and mycpu are fragile: if the timer were to interrupt and cause the thread to yield and later resume execution on a different CPU, a previously returned value would no longer be correct. To avoid this problem, xv6 requires code to disable interrupts before calling cpuid() or mycpu(), and only enable interrupts when done using the returned value.",
+      "image_path": null,
+      "metadata": {
+        "order": 37,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::37::the_return_values_of_cpuid_and_mycpu_are_fragile::chunk::21::the_return_values_of_cpuid_and_mycpu_are_fragile",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::38::the_function_myproc_2187_returns_the_struct_proc",
+      "label": "The function myproc (2187) returns the struct proc pointer for the process that is running on the current CPU. myproc d…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "text": "The function myproc (2187) returns the struct proc pointer for the process that is running on the current CPU. myproc disables interrupts, invokes mycpu, fetches the current process pointer (c->proc) out of the struct cpu, and then enables interrupts. The return value of myproc is safe to use even if interrupts are enabled: if a timer interrupt moves the calling process to a different CPU, its struct proc pointer will stay the same.",
+      "image_path": null,
+      "metadata": {
+        "order": 38,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::22::the_function_myproc_2187_returns_the_struct_proc",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::39::8_6_real_world",
+      "label": "8.6 Real world",
+      "kind": "section",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 39,
+        "level": 1,
+        "block_kind": "heading"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::40::the_xv6_scheduler_implements_a_simple_scheduling",
+      "label": "The xv6 scheduler implements a simple scheduling policy that runs each process in turn. This policy is called round rob…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.6 Real world"
+      ],
+      "text": "The xv6 scheduler implements a simple scheduling policy that runs each process in turn. This policy is called round robin. Real operating systems implement more sophisticated policies that, for example, allow processes to have priorities. The idea is that a runnable high-priority process will be preferred by the scheduler over a runnable low-priority process. These policies can become complex because there are often competing goals: for example, the operating system might also want to guarantee fairness and high throughput.",
+      "image_path": null,
+      "metadata": {
+        "order": 40,
+        "block_kind": "paragraph",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "has_inline_image": false
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::41::8_7_exercises",
+      "label": "8.7 Exercises",
+      "kind": "section",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 41,
+        "level": 1,
+        "block_kind": "heading"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::block::42::modify_xv6_to_use_only_one_context_switch_when_s",
+      "label": "Modify xv6 to use only one context switch when switching from one process’s kernel thread to another, rather than switc…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [
+        "8.7 Exercises"
+      ],
+      "text": "Modify xv6 to use only one context switch when switching from one process’s kernel thread to another, rather than switching through the scheduler thread. The yielding thread will need to select the next thread itself and call swtch. The challenges will be to prevent multiple CPUs from executing the same thread accidentally; to get the locking right; and to avoid deadlocks.",
+      "image_path": null,
+      "metadata": {
+        "order": 42,
+        "block_kind": "list_item",
+        "chunk_id": "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "marker": "1."
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::0::operating_system",
+      "label": "operating system",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 0,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::1::processes",
+      "label": "processes",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 1,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::2::cpus",
+      "label": "cpus",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 2,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::3::time_share",
+      "label": "time-share",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 3,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::4::virtual_cpu",
+      "label": "virtual cpu",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 4,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::5::multiplexing",
+      "label": "multiplexing",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 5,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::6::xv6",
+      "label": "xv6",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 6,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::7::system_call",
+      "label": "system call",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 7,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::8::blocking",
+      "label": "blocking",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 8,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::9::read",
+      "label": "read",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 9,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::10::wait",
+      "label": "wait",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 10,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::11::yield",
+      "label": "yield()",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 11,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::12::sched",
+      "label": "sched()",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 12,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::13::schedule",
+      "label": "schedule()",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 13,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::14::voluntary_switches",
+      "label": "voluntary switches",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 14,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::15::involuntary_switches",
+      "label": "involuntary switches",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 15,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::16::cpu_registers",
+      "label": "cpu registers",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 16,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::17::context_switches",
+      "label": "context switches",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 17,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::18::hardware_timer",
+      "label": "hardware timer",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 18,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::19::interrupts",
+      "label": "interrupts",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 19,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::20::locking_plan",
+      "label": "locking plan",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 20,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::21::multi_core_machine",
+      "label": "multi-core machine",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 21,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::22::context_switch",
+      "label": "context switch",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 22,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::23::cpu",
+      "label": "cpu",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 23,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::24::kernel_thread",
+      "label": "kernel thread",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 24,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::25::scheduler_thread",
+      "label": "scheduler thread",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 25,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::26::user_space",
+      "label": "user space",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 26,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::27::shell",
+      "label": "shell",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 27,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::28::kernel_space",
+      "label": "kernel space",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 28,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::29::kstack_shell",
+      "label": "kstack shell",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 29,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::30::kstack_scheduler",
+      "label": "kstack scheduler",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 30,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::31::kstack_cat",
+      "label": "kstack cat",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 31,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::32::restore_kernel_space",
+      "label": "restore kernel space",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 32,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::33::cat",
+      "label": "cat",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 33,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::34::user_process",
+      "label": "user process",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 34,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::35::trap",
+      "label": "trap",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 35,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::36::interrupt",
+      "label": "interrupt",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 36,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::37::thread",
+      "label": "thread",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 37,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::38::struct_proc",
+      "label": "struct proc",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 38,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::39::struct_context",
+      "label": "struct context",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 39,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::40::ram",
+      "label": "ram",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 40,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::41::struct_cpu",
+      "label": "struct cpu",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 41,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::42::swtch",
+      "label": "swtch()",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 42,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::43::context",
+      "label": "context",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 43,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::44::sd",
+      "label": "sd",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 44,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::45::ra",
+      "label": "ra",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 45,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::46::sp",
+      "label": "sp",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 46,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::47::s0",
+      "label": "s0",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 47,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::48::a0",
+      "label": "a0",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 48,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::49::ld",
+      "label": "ld",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 49,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::50::s11",
+      "label": "s11",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 50,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::51::a1",
+      "label": "a1",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 51,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::52::swtch",
+      "label": "swtch",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 52,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::53::ret",
+      "label": "ret",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 53,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::54::risc_v_calling_convention",
+      "label": "risc-v calling convention",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 54,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::55::callee_saved_registers",
+      "label": "callee-saved registers",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 55,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::56::caller_saved_registers",
+      "label": "caller-saved registers",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 56,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::57::scheduler",
+      "label": "scheduler",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 57,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::58::process_lock",
+      "label": "process lock",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 58,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::59::sched",
+      "label": "sched",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 59,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::60::yield",
+      "label": "yield",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 60,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::61::sleep",
+      "label": "sleep",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 61,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::62::kexit",
+      "label": "kexit",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 62,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::63::scheduler_context",
+      "label": "scheduler context",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 63,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::64::process_1",
+      "label": "process 1",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 64,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::65::acquire",
+      "label": "acquire",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 65,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::66::p_lock",
+      "label": "p->lock",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 66,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::67::runnable",
+      "label": "runnable",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 67,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::68::release",
+      "label": "release",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 68,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::69::running",
+      "label": "running",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 69,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::70::process_table",
+      "label": "process table",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 70,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::71::runnable_process",
+      "label": "runnable process",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 71,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::72::current_process_variable",
+      "label": "current process variable",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 72,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::73::per_cpu",
+      "label": "per-cpu",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 73,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::74::p_state",
+      "label": "p->state",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 74,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::75::p_context",
+      "label": "p->context",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 75,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::76::registers",
+      "label": "registers",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 76,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::77::stack",
+      "label": "stack",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 77,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::78::c_proc",
+      "label": "c->proc",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 78,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::79::allocproc",
+      "label": "allocproc",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 79,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::80::forkret",
+      "label": "forkret",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 80,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::81::current_process",
+      "label": "current process",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 81,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::82::proc_structure",
+      "label": "proc structure",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 82,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::83::uniprocessor",
+      "label": "uniprocessor",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 83,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::84::hartid",
+      "label": "hartid",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 84,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::85::tp_register",
+      "label": "tp register",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 85,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::86::risc_v",
+      "label": "risc-v",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 86,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::87::mycpu",
+      "label": "mycpu",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 87,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::88::cpu_structure",
+      "label": "cpu structure",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 88,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::89::saved_registers",
+      "label": "saved registers",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 89,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::90::spinlocks",
+      "label": "spinlocks",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 90,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::91::start",
+      "label": "start",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 91,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::92::machine_mode",
+      "label": "machine mode",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 92,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::93::prepare_return",
+      "label": "prepare_return",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 93,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::94::tp",
+      "label": "tp",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 94,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::95::trampoline_page",
+      "label": "trampoline page",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 95,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::96::uservec",
+      "label": "uservec",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 96,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::97::risc_v_hardware",
+      "label": "risc-v hardware",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 97,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::98::supervisor_mode",
+      "label": "supervisor mode",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 98,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::99::cpuid",
+      "label": "cpuid",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 99,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::100::myproc",
+      "label": "myproc",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 100,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::101::xv6_scheduler",
+      "label": "xv6 scheduler",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 101,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::102::round_robin",
+      "label": "round robin",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 102,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::103::scheduling_policy",
+      "label": "scheduling policy",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 103,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::104::priorities",
+      "label": "priorities",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 104,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::105::fairness",
+      "label": "fairness",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 105,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::106::high_throughput",
+      "label": "high throughput",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 106,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::concept::107::deadlocks",
+      "label": "deadlocks",
+      "kind": "concept",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": null,
+      "image_path": null,
+      "metadata": {
+        "order": 107,
+        "concept_type": "extracted"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::operating system::a_system_that_manages_computer_hardware_and_soft",
+      "label": "A system that manages computer hardware and software resources and provides common services for computer programs.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A system that manages computer hardware and software resources and provides common services for computer programs.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::processes::instances_of_computer_programs_that_are_being_ex",
+      "label": "Instances of computer programs that are being executed.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "Instances of computer programs that are being executed.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::time-share::a_method_of_sharing_computer_resources_among_mul",
+      "label": "A method of sharing computer resources among multiple users or processes by allocating time slots to each.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A method of sharing computer resources among multiple users or processes by allocating time slots to each.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::multiplexing::the_process_of_switching_a_cpu_from_one_process_",
+      "label": "The process of switching a CPU from one process to another.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "The process of switching a CPU from one process to another.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::xv6::an_operating_system_used_in_the_example",
+      "label": "An operating system used in the example.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "An operating system used in the example.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::system call::a_request_made_by_a_process_to_the_operating_sys",
+      "label": "A request made by a process to the operating system to perform a specific task.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A request made by a process to the operating system to perform a specific task.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::blocking::a_state_where_a_process_is_waiting_for_an_event_",
+      "label": "A state where a process is waiting for an event or resource to become available.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A state where a process is waiting for an event or resource to become available.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::voluntary switches::process_switches_that_occur_when_a_process_makes",
+      "label": "Process switches that occur when a process makes a blocking system call.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "Process switches that occur when a process makes a blocking system call.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::involuntary switches::process_switches_that_occur_periodically_to_cope",
+      "label": "Process switches that occur periodically to cope with long-running processes.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "Process switches that occur periodically to cope with long-running processes.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::context switches::the_process_of_switching_from_one_process_to_ano",
+      "label": "The process of switching from one process to another.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "The process of switching from one process to another.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::hardware timer::a_component_that_generates_periodic_interrupts_t",
+      "label": "A component that generates periodic interrupts to drive context switches.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A component that generates periodic interrupts to drive context switches.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::interrupts::signals_sent_to_the_cpu_to_indicate_an_event_tha",
+      "label": "Signals sent to the CPU to indicate an event that needs immediate attention.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "Signals sent to the CPU to indicate an event that needs immediate attention.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::locking plan::a_strategy_to_prevent_multiple_cpus_from_accessi",
+      "label": "A strategy to prevent multiple CPUs from accessing shared resources simultaneously.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A strategy to prevent multiple CPUs from accessing shared resources simultaneously.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::multi-core machine::a_computer_system_with_multiple_cpus_or_cores",
+      "label": "A computer system with multiple CPUs or cores.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A computer system with multiple CPUs or cores.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::context switch::the_process_of_switching_from_one_user_process_t",
+      "label": "The process of switching from one user process to another, involving traps, scheduler threads, and kernel threads.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "The process of switching from one user process to another, involving traps, scheduler threads, and kernel threads.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::thread::a_sequence_of_execution_that_consists_of_data_in",
+      "label": "A sequence of execution that consists of data in memory and CPU registers.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A sequence of execution that consists of data in memory and CPU registers.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::struct context::a_structure_defined_in_kernel_proc_h_1951_that_i",
+      "label": "A structure defined in kernel/proc.h (1951) that includes fields such as s0.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A structure defined in kernel/proc.h (1951) that includes fields such as s0.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::swtch()::a_function_that_saves_the_current_cpu_registers_",
+      "label": "A function that saves the current CPU registers and loads the content of another thread’s context into the CPU register…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A function that saves the current CPU registers and loads the content of another thread’s context into the CPU registers.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::scheduler::a_special_thread_per_cpu_responsible_for_choosin",
+      "label": "a special thread per CPU responsible for choosing which process to run next.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "a special thread per CPU responsible for choosing which process to run next.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::scheduler thread::a_special_thread_per_cpu_that_manages_process_sw",
+      "label": "a special thread per CPU that manages process switching.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "a special thread per CPU that manages process switching.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::runnable process::a_process_that_has_p_state_runnable",
+      "label": "a process that has p->state = RUNNABLE.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "a process that has p->state = RUNNABLE.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::prepare_return::saves_tp_in_the_trampoline_page_before_returning",
+      "label": "Saves tp in the trampoline page before returning to user space.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "Saves tp in the trampoline page before returning to user space.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::uservec::restores_the_saved_tp_when_entering_the_kernel_f",
+      "label": "Restores the saved tp when entering the kernel from user space.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "Restores the saved tp when entering the kernel from user space.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::myproc::returns_the_struct_proc_pointer_for_the_process_",
+      "label": "Returns the struct proc pointer for the process running on the current CPU.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "Returns the struct proc pointer for the process running on the current CPU.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::definition::round robin::a_scheduling_policy_that_runs_each_process_in_tu",
+      "label": "A scheduling policy that runs each process in turn.",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "A scheduling policy that runs each process in turn.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "definition"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::example::0::read_or_wait",
+      "label": "read or wait",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "read or wait",
+      "image_path": null,
+      "metadata": {
+        "block_type": "example"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::example::1::if_p_lock_were_released_before_invoking_swtch_a_",
+      "label": "if p->lock were released before invoking swtch, a different CPU c might decide to run the process because its state is…",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "if p->lock were released before invoking swtch, a different CPU c might decide to run the process because its state is RUNNABLE.",
+      "image_path": null,
+      "metadata": {
+        "block_type": "example"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::example::2::after_the_swtch_for_example_in_yield",
+      "label": "after the swtch, for example in yield",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "after the swtch, for example in yield",
+      "image_path": null,
+      "metadata": {
+        "block_type": "example"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::example::3::for_example_allow_processes_to_have_priorities",
+      "label": "for example, allow processes to have priorities",
+      "kind": "block",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "page_idx": null,
+      "section_path": [],
+      "text": "for example, allow processes to have priorities",
+      "image_path": null,
+      "metadata": {
+        "block_type": "example"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "book-riscv-rev5-chap8::section::1::scheduling",
+      "target": "book-riscv-rev5-chap8::block::2::any_operating_system_is_likely_to_run_with_more_",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::1::scheduling",
+      "target": "book-riscv-rev5-chap8::block::3::before_proceeding_with_this_chapter_please_read_",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::2::any_operating_system_is_likely_to_run_with_more_",
+      "target": "book-riscv-rev5-chap8::block::3::before_proceeding_with_this_chapter_please_read_",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::4::8_1_multiplexing",
+      "target": "book-riscv-rev5-chap8::block::5::xv6_multiplexes_by_switching_each_cpu_from_one_p",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::4::8_1_multiplexing",
+      "target": "book-riscv-rev5-chap8::block::6::implementing_multiplexing_poses_a_few_challenges",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::5::xv6_multiplexes_by_switching_each_cpu_from_one_p",
+      "target": "book-riscv-rev5-chap8::block::6::implementing_multiplexing_poses_a_few_challenges",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::7::8_2_context_switch_overview",
+      "target": "book-riscv-rev5-chap8::block::8::the_term_context_switch_refers_to_the_steps_invo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::7::8_2_context_switch_overview",
+      "target": "book-riscv-rev5-chap8::image::9::images_e44c1bc110689c9f6cbead21d36537eb5309a7b22",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::8::the_term_context_switch_refers_to_the_steps_invo",
+      "target": "book-riscv-rev5-chap8::image::9::images_e44c1bc110689c9f6cbead21d36537eb5309a7b22",
+      "relation": "illustrates",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {
+        "reason": "image_near_text"
+      }
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::7::8_2_context_switch_overview",
+      "target": "book-riscv-rev5-chap8::block::10::details_summary_flowchart_summary_mermaid_graph_",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::7::8_2_context_switch_overview",
+      "target": "book-riscv-rev5-chap8::block::11::figure_8_1_switching_from_one_user_process_to_an",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::10::details_summary_flowchart_summary_mermaid_graph_",
+      "target": "book-riscv-rev5-chap8::block::11::figure_8_1_switching_from_one_user_process_to_an",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::7::8_2_context_switch_overview",
+      "target": "book-riscv-rev5-chap8::block::12::at_a_broader_scope_the_steps_involved_in_switchi",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::11::figure_8_1_switching_from_one_user_process_to_an",
+      "target": "book-riscv-rev5-chap8::block::12::at_a_broader_scope_the_steps_involved_in_switchi",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "target": "book-riscv-rev5-chap8::block::14::the_function_swtch_in_kernel_swtch_s_contains_th",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "target": "book-riscv-rev5-chap8::block::15::each_thread_s_struct_proc_includes_a_struct_cont",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::14::the_function_swtch_in_kernel_swtch_s_contains_th",
+      "target": "book-riscv-rev5-chap8::block::15::each_thread_s_struct_proc_includes_a_struct_cont",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "target": "book-riscv-rev5-chap8::block::16::here_s_an_abbreviated_copy_of_swtch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::15::each_thread_s_struct_proc_includes_a_struct_cont",
+      "target": "book-riscv-rev5-chap8::block::16::here_s_an_abbreviated_copy_of_swtch",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "target": "book-riscv-rev5-chap8::block::17::swtch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::16::here_s_an_abbreviated_copy_of_swtch",
+      "target": "book-riscv-rev5-chap8::block::17::swtch",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "target": "book-riscv-rev5-chap8::block::18::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "target": "book-riscv-rev5-chap8::block::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "target": "book-riscv-rev5-chap8::block::20::a0_holds_the_first_function_argument_and_a1_the_",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+      "target": "book-riscv-rev5-chap8::block::20::a0_holds_the_first_function_argument_and_a1_the_",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "target": "book-riscv-rev5-chap8::block::21::where_does_swtch_s_ret_return_to_it_returns_to_t",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::20::a0_holds_the_first_function_argument_and_a1_the_",
+      "target": "book-riscv-rev5-chap8::block::21::where_does_swtch_s_ret_return_to_it_returns_to_t",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "target": "book-riscv-rev5-chap8::block::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::21::where_does_swtch_s_ret_return_to_it_returns_to_t",
+      "target": "book-riscv-rev5-chap8::block::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "target": "book-riscv-rev5-chap8::block::24::the_last_section_looked_at_the_internals_of_swtc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "target": "book-riscv-rev5-chap8::block::25::a_process_that_wants_to_give_up_the_cpu_must_acq",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::24::the_last_section_looked_at_the_internals_of_swtc",
+      "target": "book-riscv-rev5-chap8::block::25::a_process_that_wants_to_give_up_the_cpu_must_acq",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "target": "book-riscv-rev5-chap8::image::26::images_beedb7345045080a4a25965466805e3357535b86e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::25::a_process_that_wants_to_give_up_the_cpu_must_acq",
+      "target": "book-riscv-rev5-chap8::image::26::images_beedb7345045080a4a25965466805e3357535b86e",
+      "relation": "illustrates",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {
+        "reason": "image_near_text"
+      }
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "target": "book-riscv-rev5-chap8::block::27::details_summary_text_image_summary_process_1_acq",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "target": "book-riscv-rev5-chap8::block::28::figure_8_2_swtch_always_has_the_scheduler_thread",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::27::details_summary_text_image_summary_process_1_acq",
+      "target": "book-riscv-rev5-chap8::block::28::figure_8_2_swtch_always_has_the_scheduler_thread",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "target": "book-riscv-rev5-chap8::block::29::scheduler_2558_runs_a_loop_find_a_process_to_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::28::figure_8_2_swtch_always_has_the_scheduler_thread",
+      "target": "book-riscv-rev5-chap8::block::29::scheduler_2558_runs_a_loop_find_a_process_to_run",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "target": "book-riscv-rev5-chap8::block::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::29::scheduler_2558_runs_a_loop_find_a_process_to_run",
+      "target": "book-riscv-rev5-chap8::block::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "target": "book-riscv-rev5-chap8::block::31::running_the_lock_cannot_be_released_until_the_pr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+      "target": "book-riscv-rev5-chap8::block::31::running_the_lock_cannot_be_released_until_the_pr",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "target": "book-riscv-rev5-chap8::block::32::there_is_one_case_when_the_scheduler_s_call_to_s",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::31::running_the_lock_cannot_be_released_until_the_pr",
+      "target": "book-riscv-rev5-chap8::block::32::there_is_one_case_when_the_scheduler_s_call_to_s",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::33::8_5_code_mycpu_and_myproc",
+      "target": "book-riscv-rev5-chap8::block::34::xv6_often_needs_a_pointer_to_the_current_process",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::33::8_5_code_mycpu_and_myproc",
+      "target": "book-riscv-rev5-chap8::block::35::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::34::xv6_often_needs_a_pointer_to_the_current_process",
+      "target": "book-riscv-rev5-chap8::block::35::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::33::8_5_code_mycpu_and_myproc",
+      "target": "book-riscv-rev5-chap8::block::36::ensuring_that_a_cpu_s_tp_holds_the_cpu_s_hartid_",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::35::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+      "target": "book-riscv-rev5-chap8::block::36::ensuring_that_a_cpu_s_tp_holds_the_cpu_s_hartid_",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::33::8_5_code_mycpu_and_myproc",
+      "target": "book-riscv-rev5-chap8::block::37::the_return_values_of_cpuid_and_mycpu_are_fragile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::36::ensuring_that_a_cpu_s_tp_holds_the_cpu_s_hartid_",
+      "target": "book-riscv-rev5-chap8::block::37::the_return_values_of_cpuid_and_mycpu_are_fragile",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::33::8_5_code_mycpu_and_myproc",
+      "target": "book-riscv-rev5-chap8::block::38::the_function_myproc_2187_returns_the_struct_proc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::block::37::the_return_values_of_cpuid_and_mycpu_are_fragile",
+      "target": "book-riscv-rev5-chap8::block::38::the_function_myproc_2187_returns_the_struct_proc",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::39::8_6_real_world",
+      "target": "book-riscv-rev5-chap8::block::40::the_xv6_scheduler_implements_a_simple_scheduling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::section::41::8_7_exercises",
+      "target": "book-riscv-rev5-chap8::block::42::modify_xv6_to_use_only_one_context_switch_when_s",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::operating system::a_system_that_manages_computer_hardware_and_soft",
+      "target": "book-riscv-rev5-chap8::concept::0::operating_system",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::processes::instances_of_computer_programs_that_are_being_ex",
+      "target": "book-riscv-rev5-chap8::concept::1::processes",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::time-share::a_method_of_sharing_computer_resources_among_mul",
+      "target": "book-riscv-rev5-chap8::concept::3::time_share",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::multiplexing::the_process_of_switching_a_cpu_from_one_process_",
+      "target": "book-riscv-rev5-chap8::concept::5::multiplexing",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::xv6::an_operating_system_used_in_the_example",
+      "target": "book-riscv-rev5-chap8::concept::6::xv6",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::system call::a_request_made_by_a_process_to_the_operating_sys",
+      "target": "book-riscv-rev5-chap8::concept::7::system_call",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::blocking::a_state_where_a_process_is_waiting_for_an_event_",
+      "target": "book-riscv-rev5-chap8::concept::8::blocking",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::voluntary switches::process_switches_that_occur_when_a_process_makes",
+      "target": "book-riscv-rev5-chap8::concept::14::voluntary_switches",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::involuntary switches::process_switches_that_occur_periodically_to_cope",
+      "target": "book-riscv-rev5-chap8::concept::15::involuntary_switches",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::context switches::the_process_of_switching_from_one_process_to_ano",
+      "target": "book-riscv-rev5-chap8::concept::17::context_switches",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::hardware timer::a_component_that_generates_periodic_interrupts_t",
+      "target": "book-riscv-rev5-chap8::concept::18::hardware_timer",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::interrupts::signals_sent_to_the_cpu_to_indicate_an_event_tha",
+      "target": "book-riscv-rev5-chap8::concept::19::interrupts",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::locking plan::a_strategy_to_prevent_multiple_cpus_from_accessi",
+      "target": "book-riscv-rev5-chap8::concept::20::locking_plan",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::multi-core machine::a_computer_system_with_multiple_cpus_or_cores",
+      "target": "book-riscv-rev5-chap8::concept::21::multi_core_machine",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::context switch::the_process_of_switching_from_one_user_process_t",
+      "target": "book-riscv-rev5-chap8::concept::22::context_switch",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::thread::a_sequence_of_execution_that_consists_of_data_in",
+      "target": "book-riscv-rev5-chap8::concept::37::thread",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::struct context::a_structure_defined_in_kernel_proc_h_1951_that_i",
+      "target": "book-riscv-rev5-chap8::concept::39::struct_context",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::swtch()::a_function_that_saves_the_current_cpu_registers_",
+      "target": "book-riscv-rev5-chap8::concept::42::swtch",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::scheduler::a_special_thread_per_cpu_responsible_for_choosin",
+      "target": "book-riscv-rev5-chap8::concept::57::scheduler",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::scheduler thread::a_special_thread_per_cpu_that_manages_process_sw",
+      "target": "book-riscv-rev5-chap8::concept::25::scheduler_thread",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::runnable process::a_process_that_has_p_state_runnable",
+      "target": "book-riscv-rev5-chap8::concept::71::runnable_process",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::prepare_return::saves_tp_in_the_trampoline_page_before_returning",
+      "target": "book-riscv-rev5-chap8::concept::93::prepare_return",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::uservec::restores_the_saved_tp_when_entering_the_kernel_f",
+      "target": "book-riscv-rev5-chap8::concept::96::uservec",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::myproc::returns_the_struct_proc_pointer_for_the_process_",
+      "target": "book-riscv-rev5-chap8::concept::100::myproc",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::definition::round robin::a_scheduling_policy_that_runs_each_process_in_tu",
+      "target": "book-riscv-rev5-chap8::concept::102::round_robin",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::0::operating_system",
+      "target": "book-riscv-rev5-chap8::concept::1::processes",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::5::multiplexing",
+      "target": "book-riscv-rev5-chap8::concept::1::processes",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::4::virtual_cpu",
+      "target": "book-riscv-rev5-chap8::concept::5::multiplexing",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::6::xv6",
+      "target": "book-riscv-rev5-chap8::concept::5::multiplexing",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::7::system_call",
+      "target": "book-riscv-rev5-chap8::concept::8::blocking",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::9::read",
+      "target": "book-riscv-rev5-chap8::concept::7::system_call",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::10::wait",
+      "target": "book-riscv-rev5-chap8::concept::7::system_call",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::17::context_switches",
+      "target": "book-riscv-rev5-chap8::concept::16::cpu_registers",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::18::hardware_timer",
+      "target": "book-riscv-rev5-chap8::concept::19::interrupts",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::19::interrupts",
+      "target": "book-riscv-rev5-chap8::concept::17::context_switches",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::20::locking_plan",
+      "target": "book-riscv-rev5-chap8::concept::21::multi_core_machine",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::22::context_switch",
+      "target": "book-riscv-rev5-chap8::concept::5::multiplexing",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::22::context_switch",
+      "target": "book-riscv-rev5-chap8::concept::24::kernel_thread",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::25::scheduler_thread",
+      "target": "book-riscv-rev5-chap8::concept::24::kernel_thread",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::27::shell",
+      "target": "book-riscv-rev5-chap8::concept::26::user_space",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::27::shell",
+      "target": "book-riscv-rev5-chap8::concept::28::kernel_space",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::29::kstack_shell",
+      "target": "book-riscv-rev5-chap8::concept::30::kstack_scheduler",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::30::kstack_scheduler",
+      "target": "book-riscv-rev5-chap8::concept::31::kstack_cat",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::32::restore_kernel_space",
+      "target": "book-riscv-rev5-chap8::concept::33::cat",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::6::xv6",
+      "target": "book-riscv-rev5-chap8::concept::23::cpu",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::22::context_switch",
+      "target": "book-riscv-rev5-chap8::concept::25::scheduler_thread",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::35::trap",
+      "target": "book-riscv-rev5-chap8::concept::26::user_space",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::37::thread",
+      "target": "book-riscv-rev5-chap8::concept::16::cpu_registers",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::39::struct_context",
+      "target": "book-riscv-rev5-chap8::concept::38::struct_proc",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::25::scheduler_thread",
+      "target": "book-riscv-rev5-chap8::concept::41::struct_cpu",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::42::swtch",
+      "target": "book-riscv-rev5-chap8::concept::16::cpu_registers",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::42::swtch",
+      "target": "book-riscv-rev5-chap8::concept::43::context",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::48::a0",
+      "target": "book-riscv-rev5-chap8::concept::39::struct_context",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::51::a1",
+      "target": "book-riscv-rev5-chap8::concept::39::struct_context",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::47::s0",
+      "target": "book-riscv-rev5-chap8::concept::39::struct_context",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::53::ret",
+      "target": "book-riscv-rev5-chap8::concept::45::ra",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::52::swtch",
+      "target": "book-riscv-rev5-chap8::concept::45::ra",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::45::ra",
+      "target": "book-riscv-rev5-chap8::concept::39::struct_context",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::52::swtch",
+      "target": "book-riscv-rev5-chap8::concept::46::sp",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::54::risc_v_calling_convention",
+      "target": "book-riscv-rev5-chap8::concept::56::caller_saved_registers",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::54::risc_v_calling_convention",
+      "target": "book-riscv-rev5-chap8::concept::55::callee_saved_registers",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::52::swtch",
+      "target": "book-riscv-rev5-chap8::concept::56::caller_saved_registers",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::57::scheduler",
+      "target": "book-riscv-rev5-chap8::concept::24::kernel_thread",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::25::scheduler_thread",
+      "target": "book-riscv-rev5-chap8::concept::23::cpu",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::59::sched",
+      "target": "book-riscv-rev5-chap8::concept::58::process_lock",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::59::sched",
+      "target": "book-riscv-rev5-chap8::concept::52::swtch",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::52::swtch",
+      "target": "book-riscv-rev5-chap8::concept::43::context",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::64::process_1",
+      "target": "book-riscv-rev5-chap8::concept::66::p_lock",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::64::process_1",
+      "target": "book-riscv-rev5-chap8::concept::67::runnable",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::52::swtch",
+      "target": "book-riscv-rev5-chap8::concept::25::scheduler_thread",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::52::swtch",
+      "target": "book-riscv-rev5-chap8::concept::66::p_lock",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::57::scheduler",
+      "target": "book-riscv-rev5-chap8::concept::70::process_table",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::57::scheduler",
+      "target": "book-riscv-rev5-chap8::concept::71::runnable_process",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::57::scheduler",
+      "target": "book-riscv-rev5-chap8::concept::52::swtch",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::66::p_lock",
+      "target": "book-riscv-rev5-chap8::concept::52::swtch",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::74::p_state",
+      "target": "book-riscv-rev5-chap8::concept::75::p_context",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::60::yield",
+      "target": "book-riscv-rev5-chap8::concept::67::runnable",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::57::scheduler",
+      "target": "book-riscv-rev5-chap8::concept::77::stack",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::57::scheduler",
+      "target": "book-riscv-rev5-chap8::concept::78::c_proc",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::67::runnable",
+      "target": "book-riscv-rev5-chap8::concept::69::running",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::24::kernel_thread",
+      "target": "book-riscv-rev5-chap8::concept::69::running",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::79::allocproc",
+      "target": "book-riscv-rev5-chap8::concept::80::forkret",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::80::forkret",
+      "target": "book-riscv-rev5-chap8::concept::66::p_lock",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::80::forkret",
+      "target": "book-riscv-rev5-chap8::concept::26::user_space",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::6::xv6",
+      "target": "book-riscv-rev5-chap8::concept::82::proc_structure",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::23::cpu",
+      "target": "book-riscv-rev5-chap8::concept::84::hartid",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::23::cpu",
+      "target": "book-riscv-rev5-chap8::concept::85::tp_register",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::86::risc_v",
+      "target": "book-riscv-rev5-chap8::concept::84::hartid",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::87::mycpu",
+      "target": "book-riscv-rev5-chap8::concept::88::cpu_structure",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::88::cpu_structure",
+      "target": "book-riscv-rev5-chap8::concept::82::proc_structure",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::91::start",
+      "target": "book-riscv-rev5-chap8::concept::92::machine_mode",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::93::prepare_return",
+      "target": "book-riscv-rev5-chap8::concept::94::tp",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::96::uservec",
+      "target": "book-riscv-rev5-chap8::concept::94::tp",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::6::xv6",
+      "target": "book-riscv-rev5-chap8::concept::97::risc_v_hardware",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::99::cpuid",
+      "target": "book-riscv-rev5-chap8::concept::87::mycpu",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::100::myproc",
+      "target": "book-riscv-rev5-chap8::concept::19::interrupts",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::100::myproc",
+      "target": "book-riscv-rev5-chap8::concept::87::mycpu",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::100::myproc",
+      "target": "book-riscv-rev5-chap8::concept::38::struct_proc",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::101::xv6_scheduler",
+      "target": "book-riscv-rev5-chap8::concept::102::round_robin",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::103::scheduling_policy",
+      "target": "book-riscv-rev5-chap8::concept::104::priorities",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::103::scheduling_policy",
+      "target": "book-riscv-rev5-chap8::concept::105::fairness",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::103::scheduling_policy",
+      "target": "book-riscv-rev5-chap8::concept::106::high_throughput",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::22::context_switch",
+      "target": "book-riscv-rev5-chap8::concept::52::swtch",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::concept::22::context_switch",
+      "target": "book-riscv-rev5-chap8::concept::107::deadlocks",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::example::0::read_or_wait",
+      "target": "book-riscv-rev5-chap8::concept::9::read",
+      "relation": "explains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::example::1::if_p_lock_were_released_before_invoking_swtch_a_",
+      "target": "book-riscv-rev5-chap8::concept::23::cpu",
+      "relation": "explains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::example::2::after_the_swtch_for_example_in_yield",
+      "target": "book-riscv-rev5-chap8::concept::49::ld",
+      "relation": "explains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    },
+    {
+      "source": "book-riscv-rev5-chap8::example::3::for_example_allow_processes_to_have_priorities",
+      "target": "book-riscv-rev5-chap8::concept::1::processes",
+      "relation": "explains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "weight": 1.0,
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "sections": 9,
+    "paragraphs": 38,
+    "figures": 2,
+    "concepts": 108,
+    "chunks": 24
+  }
+}

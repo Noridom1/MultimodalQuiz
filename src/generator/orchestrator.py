@@ -10,6 +10,7 @@ from src.generator.image_gen import ImageGenerator
 from src.generator.prompt_builder import PromptBuilder
 from src.generator.question_gen import LLMQuestionGenerator
 from src.planner.planner import QuestionPlan, load_plan
+from src.utils.io import relative_path, write_json
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
@@ -32,12 +33,16 @@ class GenerationOrchestrator:
         return f"qset_{timestamp}_{uuid4().hex[:6]}"
 
     @staticmethod
-    def _default_output_path(run_id: str) -> Path:
-        return PROJECT_ROOT / "data" / "questions" / f"{run_id}.json"
+    def _default_output_dir(run_id: str) -> Path:
+        return PROJECT_ROOT / "data" / "questions" / run_id
 
     @staticmethod
     def _image_output_dir(run_id: str) -> Path:
         return PROJECT_ROOT / "data" / "images" / run_id
+
+    @staticmethod
+    def _safe_text(value: object | None) -> str:
+        return "" if value is None else str(value).strip()
 
     @staticmethod
     def load_prompts_from_dir(prompts_dir: Path) -> list[dict[str, Any]]:
@@ -97,13 +102,16 @@ class GenerationOrchestrator:
         return records
 
     @staticmethod
-    def _serialize_image_ref(image_value: str | None) -> str | None:
+    def _serialize_image_ref(image_value: str | None, *, artifact_root: Path | None = None) -> str | None:
         if not image_value:
             return image_value
 
         lowered = image_value.lower()
         if lowered.startswith(("http://", "https://", "data:", "mock://")):
             return image_value
+
+        if artifact_root is not None:
+            return relative_path(Path(image_value), artifact_root)
 
         return Path(image_value).name
 
@@ -113,13 +121,24 @@ class GenerationOrchestrator:
         *,
         prompts: list[dict[str, Any]] | None = None,
         output_path: Path | None = None,
+        output_dir: Path | None = None,
+        artifact_root: Path | None = None,
         run_id: str | None = None,
         image_paths: list[str] | None = None,
         mock_image: bool = False,
         mock_question: bool = False,
     ) -> dict[str, Any]:
         effective_run_id = run_id or self._generate_run_id()
-        image_output_dir = self._image_output_dir(effective_run_id)
+        effective_output_dir = Path(output_dir) if output_dir is not None else None
+        if effective_output_dir is None and output_path is not None:
+            effective_output_dir = Path(output_path).parent
+        if effective_output_dir is None:
+            effective_output_dir = self._default_output_dir(effective_run_id)
+        effective_output_dir.mkdir(parents=True, exist_ok=True)
+
+        effective_artifact_root = Path(artifact_root) if artifact_root is not None else effective_output_dir
+        image_output_dir = effective_output_dir / "images"
+        image_output_dir.mkdir(parents=True, exist_ok=True)
 
         plan_records = self.build_prompts_from_plan(plan_json)
         effective_prompts = prompts or plan_records
@@ -137,7 +156,9 @@ class GenerationOrchestrator:
             for record in plan_records
         }
 
-        results = []
+        question_records: list[dict[str, Any]] = []
+        image_artifacts: list[dict[str, Any]] = []
+        questions: list[dict[str, Any]] = []
         for rec in effective_prompts:
             idx = rec.get("index")
             q_prompt = rec.get("question_prompt", "")
@@ -169,9 +190,11 @@ class GenerationOrchestrator:
                     img_prompt = None
 
             image_url = None
+            image_status = "skipped"
             if img_prompt:
                 if mock_image:
                     image_url = f"mock://image/{effective_run_id}/{idx}.png"
+                    image_status = "generated"
                 else:
                     image_url = self._image_generator.generate(
                         img_prompt,
@@ -181,13 +204,29 @@ class GenerationOrchestrator:
                     )
                     if not image_url:
                         image_url = None
+                    else:
+                        image_status = "generated"
             else:
                 raise RuntimeError(f"No image prompt available for index {idx}; images are required.")
 
             if image_url is None:
                 raise RuntimeError(f"Image generation failed for index {idx}; cannot continue without an image.")
 
-            serialized_image_ref = self._serialize_image_ref(image_url)
+            serialized_image_ref = self._serialize_image_ref(image_url, artifact_root=effective_artifact_root)
+            image_local_path = None
+            if serialized_image_ref and not serialized_image_ref.startswith(("http://", "https://", "data:", "mock://")):
+                image_local_path = relative_path(Path(image_url), effective_artifact_root)
+
+            image_artifacts.append(
+                {
+                    "index": idx,
+                    "status": image_status,
+                    "image_prompt": img_prompt,
+                    "source_url": image_url,
+                    "local_path": image_local_path,
+                    "image_ref": serialized_image_ref,
+                }
+            )
 
             if mock_question:
                 image_grounded = bool(plan and (plan.image_role or "").strip().lower() == "reasoning")
@@ -207,7 +246,16 @@ class GenerationOrchestrator:
                         "run_id": effective_run_id,
                     },
                 }
-                results.append({"index": idx, "question": q_obj, "image_url": serialized_image_ref})
+                question_records.append(
+                    {
+                        "index": idx,
+                        "question": q_obj,
+                        "image_url": serialized_image_ref,
+                        "question_prompt": q_prompt,
+                        "image_prompt": img_prompt,
+                    }
+                )
+                questions.append(q_obj)
                 continue
 
             if not q_prompt:
@@ -225,17 +273,49 @@ class GenerationOrchestrator:
                 metadata = {}
             metadata["run_id"] = effective_run_id
             question_dict["metadata"] = metadata
-            results.append({"index": idx, "question": question_dict, "image_url": serialized_image_ref})
+            question_records.append(
+                {
+                    "index": idx,
+                    "question": question_dict,
+                    "image_url": serialized_image_ref,
+                    "question_prompt": q_prompt,
+                    "image_prompt": img_prompt,
+                }
+            )
+            questions.append(question_dict)
 
         payload = {
             "run_id": effective_run_id,
-            "image_dir": str(Path("data") / "images" / effective_run_id),
-            "results": results,
+            "image_dir": relative_path(image_output_dir, effective_artifact_root),
+            "results": question_records,
         }
 
-        effective_output_path = output_path or self._default_output_path(effective_run_id)
-        effective_output_path.parent.mkdir(parents=True, exist_ok=True)
-        with effective_output_path.open("w", encoding="utf-8") as fh:
-            json.dump(payload, fh, ensure_ascii=False, indent=2)
+        questions_path = effective_output_dir / "questions.json"
+        quiz_package_path = effective_output_dir / "quiz_package.json"
+        image_artifacts_path = effective_output_dir / "image_artifacts.json"
 
-        return payload
+        write_json(questions_path, questions)
+        write_json(quiz_package_path, payload)
+        write_json(image_artifacts_path, image_artifacts)
+
+        if output_path is not None:
+            legacy_output_path = Path(output_path)
+            if legacy_output_path.suffix:
+                write_json(legacy_output_path, payload)
+            else:
+                legacy_output_path.mkdir(parents=True, exist_ok=True)
+                write_json(legacy_output_path / "quiz_package.json", payload)
+
+        return {
+            "run_id": effective_run_id,
+            "questions": questions,
+            "question_records": question_records,
+            "image_artifacts": image_artifacts,
+            "artifacts": {
+                "questions": questions_path,
+                "quiz_package": quiz_package_path,
+                "image_artifacts": image_artifacts_path,
+                "image_dir": image_output_dir,
+            },
+            "payload": payload,
+        }

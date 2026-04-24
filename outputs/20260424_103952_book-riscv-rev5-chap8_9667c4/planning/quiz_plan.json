@@ -1,0 +1,52 @@
+[
+  {
+    "target_concept": "book-riscv-rev5-chap8::concept::5::multiplexing",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing multiple processes sharing a single CPU over time.",
+    "learning_objective": "Understand the basic concept of multiplexing in operating systems.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "book-riscv-rev5-chap8::concept::22::context_switch",
+    "question_type": "short_answer",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A flowchart illustrating the steps involved in a context switch between two processes.",
+    "learning_objective": "Explain the steps and purpose of a context switch in an operating system.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "book-riscv-rev5-chap8::concept::57::scheduler",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "multi-hop",
+    "image_role": "illustrative",
+    "image_description": "A diagram of a scheduler managing multiple runnable processes in a queue.",
+    "learning_objective": "Describe the role of the scheduler in managing processes and ensuring fairness.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "book-riscv-rev5-chap8::concept::19::interrupts",
+    "question_type": "true_false",
+    "difficulty": "hard",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A timeline showing how hardware timer interrupts trigger context switches.",
+    "learning_objective": "Analyze the relationship between hardware timer interrupts and context switches.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "book-riscv-rev5-chap8::concept::102::round_robin",
+    "question_type": "short_answer",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A circular diagram representing the round-robin scheduling policy with time slices.",
+    "learning_objective": "Identify the key characteristics of the round-robin scheduling policy.",
+    "metadata": {}
+  }
+]

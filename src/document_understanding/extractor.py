@@ -74,7 +74,7 @@ class DocumentExtractor:
         self,
         *,
         backend: ExtractorBackend = "rule",
-        provider: LLMProvider = "openai",
+        provider: LLMProvider = "mistralai",
         granularity: ExtractionGranularity = "balanced",
         model: str | None = None,
         batch_size: int = 4,
@@ -319,7 +319,7 @@ def _default_model_for_provider(provider: LLMProvider) -> str:
     if env_model:
         return env_model
     if provider == "mistral":
-        return "mistral-small-latest"
+        return "devstral-medium-latest"
     return "gpt-4o-mini"
 
 

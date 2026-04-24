@@ -5,6 +5,9 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+from envs.database_env.Lib import logging
+from langchain_mistralai import ChatMistralAI
+from langchain_core.messages import SystemMessage, HumanMessage
 
 import requests
 import yaml
@@ -157,6 +160,35 @@ class GeminiProvider(LLMProvider):
 
         raise RuntimeError("Could not extract text from Gemini response")
 
+# =========================================================
+# MistralAI PROVIDER
+# =========================================================
+
+class MistralAIProvider(LLMProvider):
+    def __init__(self, config: LLMConfig):
+        self.config = config
+
+    def complete(self, prompt: str, system_prompt: str | None = None) -> str:
+        api_key = self.config.api_key or os.getenv(self.config.api_key_env)
+        if not api_key:
+            raise RuntimeError("Missing MistralAI API key")
+
+        # Initialize the MistralAI client
+        client = ChatMistralAI(
+            model=self.config.model,
+            mistral_api_key=api_key,
+            temperature=0.2
+        )
+
+        # Prepare the messages
+        messages = []
+        if system_prompt:
+            messages.append(SystemMessage(content=system_prompt))
+        messages.append(HumanMessage(content=prompt))
+
+        # Get the response
+        response = client.invoke(messages)
+        return response.content
 
 # =========================================================
 # FACTORY
@@ -170,6 +202,9 @@ def build_provider(config: LLMConfig) -> LLMProvider:
 
     if provider in {"google", "gemini"}:
         return GeminiProvider(config)
+    
+    if provider in {"mistral", "mistralai"}:
+        return MistralAIProvider(config)
 
     raise ValueError(f"Unsupported provider: {config.provider}")
 
@@ -181,6 +216,7 @@ def build_provider(config: LLMConfig) -> LLMProvider:
 class LLMClient:
     def __init__(self, config_path: str | Path | None = None):
         config = load_config(config_path)
+        logging.info(f"[planning] LLMClient initialized with provider: {config.provider}, model: {config.model}")
         self.provider = build_provider(config)
 
     def complete(self, prompt: str, *, system_prompt: str | None = None) -> str:

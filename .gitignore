@@ -5,3 +5,6 @@ __pycache__/
 *.pyc
 auth.sh
 .env
+__documents__
+__plans__
+outputs/

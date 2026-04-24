@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a clear educational illustrative about 'book-riscv-rev5-chap8::concept::5::multiplexing'. It should depict: A diagram showing multiple processes sharing a single CPU over time.. The image must help learners Understand the basic concept of multiplexing in operating systems.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "D:\\projects\\MultimodalQuiz\\outputs\\20260424_103952_book-riscv-rev5-chap8_9667c4\\generation\\images\\1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "Create a clear educational reasoning about 'book-riscv-rev5-chap8::concept::22::context_switch'. It should depict: A flowchart illustrating the steps involved in a context switch between two processes.. The image must help learners Explain the steps and purpose of a context switch in an operating system.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "D:\\projects\\MultimodalQuiz\\outputs\\20260424_103952_book-riscv-rev5-chap8_9667c4\\generation\\images\\2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "Create a clear educational illustrative about 'book-riscv-rev5-chap8::concept::57::scheduler'. It should depict: A diagram of a scheduler managing multiple runnable processes in a queue.. The image must help learners Describe the role of the scheduler in managing processes and ensuring fairness.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "D:\\projects\\MultimodalQuiz\\outputs\\20260424_103952_book-riscv-rev5-chap8_9667c4\\generation\\images\\3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a clear educational reasoning about 'book-riscv-rev5-chap8::concept::19::interrupts'. It should depict: A timeline showing how hardware timer interrupts trigger context switches.. The image must help learners Analyze the relationship between hardware timer interrupts and context switches.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "D:\\projects\\MultimodalQuiz\\outputs\\20260424_103952_book-riscv-rev5-chap8_9667c4\\generation\\images\\4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "Create a clear educational illustrative about 'book-riscv-rev5-chap8::concept::102::round_robin'. It should depict: A circular diagram representing the round-robin scheduling policy with time slices.. The image must help learners Identify the key characteristics of the round-robin scheduling policy.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "D:\\projects\\MultimodalQuiz\\outputs\\20260424_103952_book-riscv-rev5-chap8_9667c4\\generation\\images\\5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]
