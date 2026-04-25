@@ -60,6 +60,13 @@ def main() -> None:
         help="Use mock question outputs instead of calling the question LLM",
     )
     parser.add_argument(
+        "--generation-mode",
+        type=str,
+        default="topic_agentic",
+        choices=("topic_agentic", "legacy"),
+        help="Generation mode: 'topic_agentic' (default, new) or 'legacy' (old QuizPlanner)",
+    )
+    parser.add_argument(
         "--log-level",
         type=str,
         default="INFO",
@@ -82,6 +89,7 @@ def main() -> None:
         },
         mock_image=args.mock_image,
         mock_question=args.mock_question,
+        generation_mode=args.generation_mode,
     )
 
 

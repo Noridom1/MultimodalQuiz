@@ -99,11 +99,19 @@ def resolve_image_uri(image_ref: Any, json_path: Path, image_dir: Path) -> tuple
 
     image_path = Path(image_text)
     if not image_path.is_absolute():
-        candidate_paths = [
-            (json_path.parent / image_path).resolve(),
-            (image_dir / image_path.name).resolve(),
-        ]
-        image_path = next((candidate for candidate in candidate_paths if candidate.exists()), candidate_paths[0])
+      # Avoid duplicating path segments when image_text already contains
+      # a parent folder that's the same as json_path.parent (e.g.:
+      # json at .../generation and image_ref 'generation/images/1.png'
+      # which would otherwise produce .../generation/generation/...)
+      rel_parts = image_path.parts
+      parent = json_path.parent
+      if rel_parts and parent.name == rel_parts[0]:
+        candidate1 = (parent / Path(*rel_parts[1:])).resolve()
+      else:
+        candidate1 = (parent / image_path).resolve()
+
+      candidate2 = (image_dir / image_path.name).resolve()
+      image_path = next((candidate for candidate in (candidate1, candidate2) if candidate.exists()), candidate1)
 
     if not image_path.exists():
         return None, f"Missing file: {image_path}"
