@@ -1,0 +1,142 @@
+{
+  "markdown_path": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+  "extracted": {
+    "concepts": [
+      "operating system",
+      "time-sharing",
+      "virtual cpu",
+      "system call",
+      "voluntary switches",
+      "involuntary switches",
+      "cpu registers",
+      "context switches",
+      "hardware timer",
+      "locking plan",
+      "multi-core machine",
+      "context switch",
+      "kernel thread",
+      "scheduler thread",
+      "user process",
+      "struct proc",
+      "struct context",
+      "struct cpu",
+      "ra register",
+      "sp register",
+      "ret instruction",
+      "risc-v calling convention",
+      "caller-saved registers",
+      "callee-saved registers",
+      "process lock",
+      "scheduler context",
+      "process 1",
+      "process restoration",
+      "partially-saved registers",
+      "user space",
+      "current process",
+      "proc structure",
+      "global variable",
+      "tp register",
+      "risc-v",
+      "cpu structure",
+      "saved registers",
+      "machine mode",
+      "trampoline page",
+      "user code",
+      "supervisor mode",
+      "timer interrupt",
+      "xv6 scheduler",
+      "round robin",
+      "scheduling policy",
+      "high throughput",
+      "yielding thread"
+    ],
+    "definitions": {
+      "context switch": "The process of switching from one user process to another, involving a trap from user space to kernel thread, a context switch to the scheduler thread, and then to a new process's kernel thread.",
+      "struct context": "A structure that holds a thread's saved registers when it is not running.",
+      "scheduler thread": "A special thread per CPU that manages process switching and scheduling.",
+      "cpu structure": "A structure that holds a pointer to the proc structure of the process currently running on a CPU, saved registers for the CPU’s scheduler thread, and the count of nested spinlocks.",
+      "round robin": "A scheduling policy that runs each process in turn."
+    },
+    "relations": [
+      {
+        "source": "CPU registers",
+        "target": "Context switch",
+        "relation": "part_of"
+      },
+      {
+        "source": "Context switches",
+        "target": "Hardware timer",
+        "relation": "driven_by"
+      },
+      {
+        "source": "Locking plan",
+        "target": "Multi-core machine",
+        "relation": "necessary_for"
+      },
+      {
+        "source": "Context switch",
+        "target": "Kernel thread",
+        "relation": "involves"
+      },
+      {
+        "source": "Scheduler thread",
+        "target": "Kernel thread",
+        "relation": "manages"
+      },
+      {
+        "source": "context switch",
+        "target": "scheduler thread",
+        "relation": "part_of"
+      },
+      {
+        "source": "struct context",
+        "target": "CPU registers",
+        "relation": "stores"
+      },
+      {
+        "source": "scheduler thread",
+        "target": "struct cpu",
+        "relation": "part_of"
+      },
+      {
+        "source": "struct context",
+        "target": "ra register",
+        "relation": "contains"
+      },
+      {
+        "source": "struct context",
+        "target": "sp register",
+        "relation": "contains"
+      },
+      {
+        "source": "ret instruction",
+        "target": "ra register",
+        "relation": "depends_on"
+      },
+      {
+        "source": "RISC-V calling convention",
+        "target": "caller-saved registers",
+        "relation": "governs"
+      },
+      {
+        "source": "RISC-V calling convention",
+        "target": "callee-saved registers",
+        "relation": "governs"
+      },
+      {
+        "source": "xv6 scheduler",
+        "target": "round robin",
+        "relation": "implements"
+      },
+      {
+        "source": "scheduling policy",
+        "target": "high throughput",
+        "relation": "includes"
+      }
+    ],
+    "examples": [
+      "read or wait",
+      "if p->lock were released before invoking swtch, a different CPU c might decide to run the process because its state is RUNNABLE."
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "section_count": 9,
+  "sections": [
+    {
+      "id": "book-riscv-rev5-chap8::section::0::chapter_8",
+      "label": "Chapter 8",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Chapter 8"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::1::scheduling",
+      "label": "Scheduling",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Scheduling"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 1,
+        "level": 1
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::4::8_1_multiplexing",
+      "label": "8.1 Multiplexing",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "8.1 Multiplexing"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 4,
+        "level": 1
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::7::8_2_context_switch_overview",
+      "label": "8.2 Context switch overview",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 7,
+        "level": 1
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+      "label": "8.3 Code: Context switching",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 13,
+        "level": 1
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+      "label": "8.4 Code: Scheduling",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 23,
+        "level": 1
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::33::8_5_code_mycpu_and_myproc",
+      "label": "8.5 Code: mycpu and myproc",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 33,
+        "level": 1
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::39::8_6_real_world",
+      "label": "8.6 Real world",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "8.6 Real world"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 39,
+        "level": 1
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::section::41::8_7_exercises",
+      "label": "8.7 Exercises",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "8.7 Exercises"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 41,
+        "level": 1
+      }
+    }
+  ]
+}

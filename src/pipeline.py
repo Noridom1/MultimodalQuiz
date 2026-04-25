@@ -12,9 +12,10 @@ except Exception:  # pragma: no cover - optional dependency at runtime
     load_dotenv = None  # type: ignore[assignment]
 
 from src.document_understanding.extractor import DocumentExtractor
+from src.document_understanding.chunking import build_semantic_chunks, parse_markdown_blocks
 from src.document_understanding.parser import parse_document
 from src.generator.orchestrator import GenerationOrchestrator
-from src.knowledge.kg_builder import build_knowledge_graph, export_graph_bundle
+from src.knowledge.kg_builder import build_knowledge_graph_workflow, export_graph_bundle
 from src.planner.planner import QuizPlanner
 from src.utils.io import append_jsonl, relative_path, write_json
 
@@ -153,6 +154,8 @@ class QuizGenerationPipeline:
         extractor_provider = os.getenv("QUIZGEN_LLM_PROVIDER", "openai")
         extractor_granularity = os.getenv("QUIZGEN_EXTRACTION_GRANULARITY", "balanced")
         extractor_model = os.getenv("QUIZGEN_LLM_MODEL")
+        kg_chunk_max_tokens = int(os.getenv("QUIZGEN_KG_MAX_TOKENS", "280"))
+        kg_overlap_blocks = int(os.getenv("QUIZGEN_KG_OVERLAP_BLOCKS", "1"))
 
         _log_event(
             context,
@@ -187,13 +190,27 @@ class QuizGenerationPipeline:
 
             active_stage = "extract"
             _log_event(context, active_stage, "started", "Extracting semantic knowledge")
+            chunk_blocks = parse_markdown_blocks(parsed_document.markdown, source_file=document_path)
+            semantic_chunks = build_semantic_chunks(
+                chunk_blocks,
+                max_tokens=kg_chunk_max_tokens,
+                overlap_blocks=kg_overlap_blocks,
+            )
             extractor = DocumentExtractor(
                 backend=extractor_backend,
                 provider=extractor_provider,
                 granularity=extractor_granularity,
                 model=extractor_model,
             )
-            extracted = extractor.extract(parsed_document.markdown) if parsed_document.markdown.strip() else _empty_extracted_payload()
+            extracted = (
+                extractor.extract_chunks(semantic_chunks, source_file=str(document_path))
+                if parsed_document.markdown.strip()
+                else {
+                    **_empty_extracted_payload(),
+                    "chunk_extractions": [],
+                    "summary": {"chunk_count": 0, "concept_count": 0, "relation_count": 0},
+                }
+            )
             extracted_path = context.extraction_dir / "extracted.json"
             write_json(extracted_path, extracted)
             artifacts["extracted"] = relative_path(extracted_path, PROJECT_ROOT)
@@ -203,6 +220,7 @@ class QuizGenerationPipeline:
                 active_stage,
                 "completed",
                 "Semantic extraction finished",
+                chunks=len(extracted.get("chunk_extractions", [])),
                 concepts=len(extracted.get("concepts", [])),
                 definitions=len(extracted.get("definitions", {})),
                 relations=len(extracted.get("relations", [])),
@@ -211,7 +229,7 @@ class QuizGenerationPipeline:
 
             active_stage = "graph"
             _log_event(context, active_stage, "started", "Building knowledge graph")
-            document_graph = build_knowledge_graph(
+            graph_result = build_knowledge_graph_workflow(
                 {
                     "markdown": parsed_document.markdown,
                     "sections": parsed_document.sections,
@@ -221,8 +239,16 @@ class QuizGenerationPipeline:
                 },
                 extracted,
                 source_file=document_path,
+                max_tokens=kg_chunk_max_tokens,
+                overlap_blocks=kg_overlap_blocks,
             )
-            graph_export = export_graph_bundle(document_graph, output_dir=context.graph_dir, html=self.html_graph)
+            document_graph = graph_result.graph
+            graph_export = export_graph_bundle(
+                document_graph,
+                output_dir=context.graph_dir,
+                html=self.html_graph,
+                checkpoints=graph_result.checkpoints,
+            )
             graph_json_path = _rename_artifact(graph_export["graph_json"], context.graph_dir / "graph.json")
             networkx_json_path = _rename_artifact(graph_export["networkx_json"], context.graph_dir / "graph_networkx.json")
             html_path = None
@@ -233,6 +259,22 @@ class QuizGenerationPipeline:
             artifacts["graph_networkx"] = relative_path(networkx_json_path, PROJECT_ROOT)
             if html_path is not None:
                 artifacts["graph_html"] = relative_path(html_path, PROJECT_ROOT)
+            for key in (
+                "hierarchy",
+                "chunks",
+                "artifact_links",
+                "extraction_raw",
+                "canonicalization",
+                "merge_review",
+                "merge_application",
+                "graph_consolidated",
+                "topic_candidates",
+                "topic_consolidation",
+                "topics",
+                "graph_validation",
+            ):
+                if key in graph_export:
+                    artifacts[key] = relative_path(graph_export[key], PROJECT_ROOT)
             stage_status[active_stage] = "completed"
             graph_summary = document_graph.summary()
             _log_event(
@@ -242,7 +284,10 @@ class QuizGenerationPipeline:
                 "Knowledge graph built",
                 node_count=graph_summary["node_count"],
                 edge_count=graph_summary["edge_count"],
+                validation_passed=graph_result.validation.passed,
             )
+            if not graph_result.validation.passed:
+                raise RuntimeError("Knowledge graph validation failed: " + "; ".join(graph_result.validation.errors))
 
             active_stage = "plan"
             _log_event(context, active_stage, "started", "Generating quiz plan")
@@ -310,6 +355,8 @@ class QuizGenerationPipeline:
                     "extractor_provider": extractor_provider,
                     "extractor_granularity": extractor_granularity,
                     "extractor_model": extractor_model,
+                    "kg_chunk_max_tokens": kg_chunk_max_tokens,
+                    "kg_overlap_blocks": kg_overlap_blocks,
                     "num_questions": num_questions,
                     "difficulty_distribution": effective_distribution,
                     "html_graph": self.html_graph,

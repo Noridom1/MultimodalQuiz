@@ -1,0 +1,93 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::11::artillery",
+        "200401-marxist-Dien-Bien-Phu::concept::27::artillery_fire"
+      ],
+      "labels": [
+        "artillery",
+        "artillery fire"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::24::muong_thanh",
+        "200401-marxist-Dien-Bien-Phu::concept::32::muong_thanh_plain"
+      ],
+      "labels": [
+        "Muong Thanh",
+        "Muong Thanh plain"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::28::main_airfield",
+        "200401-marxist-Dien-Bien-Phu::concept::48::airfield"
+      ],
+      "labels": [
+        "main airfield",
+        "airfield"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::11::artillery",
+        "200401-marxist-Dien-Bien-Phu::concept::58::artillery_bases"
+      ],
+      "labels": [
+        "artillery",
+        "artillery bases"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::0::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::64::dien_bien_phu_base"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu base"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::0::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::67::dien_bien_phu_garrison"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu garrison"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::0::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::68::dien_bien_phu_entrenched_camp"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu entrenched camp"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

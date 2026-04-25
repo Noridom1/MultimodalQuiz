@@ -1,0 +1,131 @@
+{
+  "artifact_count": 6,
+  "artifacts": [
+    {
+      "id": "book-riscv-rev5-chap8::artifact::9::images_e44c1bc110689c9f6cbead21d36537eb5309a7b22",
+      "label": "![](images/e44c1bc110689c9f6cbead21d36537eb5309a7b22b2cfcc7470c1b534e9eff89.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": "book-riscv-rev5-chap8::image::9::images_e44c1bc110689c9f6cbead21d36537eb5309a7b22::chunk::3::images_e44c1bc110689c9f6cbead21d36537eb5309a7b22",
+      "page_idx": null,
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "text": "![](images/e44c1bc110689c9f6cbead21d36537eb5309a7b22b2cfcc7470c1b534e9eff89.jpg)",
+      "image_path": "images/e44c1bc110689c9f6cbead21d36537eb5309a7b22b2cfcc7470c1b534e9eff89.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "book-riscv-rev5-chap8::image::9::images_e44c1bc110689c9f6cbead21d36537eb5309a7b22",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::artifact::10::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"user space\"] --> B[\"shell\"] B --> C[\"save kernel space\"...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": "book-riscv-rev5-chap8::details::10::details_summary_flowchart_summary_mermaid_graph_::chunk::4::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"user space\"] --> B[\"shell\"]\n    B --> C[\"save kernel space\"]\n    C --> D[\"kstack shell\"]\n    D --> E[\"switch\"]\n    E --> F[\"kstack scheduler\"]\n    F --> G[\"switch\"]\n    G --> H[\"kstack cat\"]\n    H --> I[\"restore kernel space\"]\n    I --> J[\"cat\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "book-riscv-rev5-chap8::details::10::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::artifact::18::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0",
+      "label": "```txt sd ra, 0 (a0) sd sp, 8 (a0) sd s0, 16 (a0) ... ```",
+      "kind": "artifact",
+      "content_type": "code",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": "book-riscv-rev5-chap8::code::18::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0::chunk::7::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "```txt\nsd ra, 0 (a0)\nsd sp, 8 (a0)\nsd s0, 16 (a0)\n... \n```",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "book-riscv-rev5-chap8::code::18::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0",
+        "block_kind": "code",
+        "language": "txt"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::artifact::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+      "label": "```asm sd s11, 104(a0) ld ra, 0(a1) ld sp, 8(a1) ld s0, 16(a1) ... ld s11, 104(a1) ret ```",
+      "kind": "artifact",
+      "content_type": "code",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+      "page_idx": null,
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "text": "```asm\nsd s11, 104(a0)\nld ra, 0(a1)\nld sp, 8(a1)\nld s0, 16(a1)\n...\nld s11, 104(a1)\nret \n```",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+        "block_kind": "code",
+        "language": "asm"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::artifact::26::images_beedb7345045080a4a25965466805e3357535b86e",
+      "label": "![](images/beedb7345045080a4a25965466805e3357535b86ec85995631ca603dd06af753.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": "book-riscv-rev5-chap8::image::26::images_beedb7345045080a4a25965466805e3357535b86e::chunk::11::images_beedb7345045080a4a25965466805e3357535b86e",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "![](images/beedb7345045080a4a25965466805e3357535b86ec85995631ca603dd06af753.jpg)",
+      "image_path": "images/beedb7345045080a4a25965466805e3357535b86ec85995631ca603dd06af753.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "book-riscv-rev5-chap8::image::26::images_beedb7345045080a4a25965466805e3357535b86e",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq",
+      "label": "<details> <summary>text_image</summary> Process 1 acquire(&p->lock); ... p->state = RUNNABLE; swtch(&p->context, ...)...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "source_location": null,
+      "source_chunk_id": "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+      "page_idx": null,
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nProcess 1\nacquire(&p->lock);\n...\np->state = RUNNABLE;\nswtch(&p->context, ...);\n\n    swtch(...); // return\n    release(&p->lock);\n\n        // find a RUNNABLE p\n\n    acquire(&p->lock);\n    p->state = RUNNING;\n    swtch(...,&p->context);\n\n            swtch(&p->context,...); // return\n    release(&p->lock);\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    }
+  ]
+}

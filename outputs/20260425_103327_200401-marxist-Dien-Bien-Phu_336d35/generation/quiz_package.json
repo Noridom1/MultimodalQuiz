@@ -1,0 +1,129 @@
+{
+  "run_id": "20260425_103327_200401-marxist-Dien-Bien-Phu_336d35",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_1520752d23",
+        "question_text": "Where is Dien Bien Phu located?",
+        "options": [
+          "A. In northern Vietnam, near the border with Laos",
+          "B. In southern Vietnam, near the Mekong Delta",
+          "C. In central Vietnam, along the coast",
+          "D. In Cambodia, near the Vietnamese border"
+        ],
+        "correct_answer": "A",
+        "explanation": "Dien Bien Phu is situated in northern Vietnam, close to the Vietnam-Laos frontier.",
+        "target_concept": "200401-marxist-Dien-Bien-Phu::concept::0::dien_bien_phu",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "run_id": "20260425_103327_200401-marxist-Dien-Bien-Phu_336d35"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: 200401-marxist-Dien-Bien-Phu::concept::0::dien_bien_phu\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the geographical location of Dien Bien Phu.\nImage context: A map showing the location of Dien Bien Phu in Vietnam, near the Vietnam-Laos frontier.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clear educational illustrative about '200401-marxist-Dien-Bien-Phu::concept::0::dien_bien_phu'. It should depict: A map showing the location of Dien Bien Phu in Vietnam, near the Vietnam-Laos frontier.. The image must help learners Identify the geographical location of Dien Bien Phu.. Use clean composition, legible labels, and avoid decorative clutter."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_012bad40e4",
+        "question_text": "Examine the portrait of Vo Nguyen Giap. Based on his depicted attire and demeanor, what specific leadership role did he fulfill during the Battle of Dien Bien Phu, and how did this role influence the battle's outcome?",
+        "options": [],
+        "correct_answer": "Vo Nguyen Giap served as the commander of the Vietnam People's Army, directing military strategy and logistics.",
+        "explanation": "The portrait shows Vo Nguyen Giap in military uniform, signifying his command role. His leadership involved coordinating troops and resources, which was crucial for the Viet Minh's victory at Dien Bien Phu.",
+        "target_concept": "200401-marxist-Dien-Bien-Phu::concept::87::vo_nguyen_giap",
+        "difficulty": "medium",
+        "question_type": "short_answer",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": true,
+        "metadata": {
+          "reasoning_type": "causal",
+          "run_id": "20260425_103327_200401-marxist-Dien-Bien-Phu_336d35"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: 200401-marxist-Dien-Bien-Phu::concept::87::vo_nguyen_giap\nQuestion type: short_answer\nDifficulty: medium\nReasoning type: causal\nImage role: reasoning\nLearning objective: Explain the role of Vo Nguyen Giap in the Battle of Dien Bien Phu.\nImage context: A portrait of Vo Nguyen Giap, the commander of the Vietnam People's Army during the Battle of Dien Bien Phu.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.",
+      "image_prompt": "Create a clear educational reasoning about '200401-marxist-Dien-Bien-Phu::concept::87::vo_nguyen_giap'. It should depict: A portrait of Vo Nguyen Giap, the commander of the Vietnam People's Army during the Battle of Dien Bien Phu.. The image must help learners Explain the role of Vo Nguyen Giap in the Battle of Dien Bien Phu.. Use clean composition, legible labels, and avoid decorative clutter."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_4c5cdc5ae7",
+        "question_text": "The Navarre Plan aimed to lure Viet Minh forces into a decisive battle at Dien Bien Phu by establishing a fortified base in a valley surrounded by hills, as depicted in the diagram.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_answer": "True",
+        "explanation": "The diagram shows Dien Bien Phu positioned in a valley with surrounding high ground, reflecting Navarre's strategy to provoke a large-scale Viet Minh assault. The annotations highlight troop placements and supply routes, confirming the plan's defensive intent.",
+        "target_concept": "200401-marxist-Dien-Bien-Phu::concept::21::navarre_plan",
+        "difficulty": "hard",
+        "question_type": "true_false",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": true,
+        "metadata": {
+          "reasoning_type": "multi-hop",
+          "run_id": "20260425_103327_200401-marxist-Dien-Bien-Phu_336d35"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: 200401-marxist-Dien-Bien-Phu::concept::21::navarre_plan\nQuestion type: true_false\nDifficulty: hard\nReasoning type: multi-hop\nImage role: reasoning\nLearning objective: Analyze the strategic objectives and outcomes of the Navarre Plan.\nImage context: A diagram illustrating the strategic layout of the Navarre Plan, including key locations and troop movements.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.",
+      "image_prompt": "Create a clear educational reasoning about '200401-marxist-Dien-Bien-Phu::concept::21::navarre_plan'. It should depict: A diagram illustrating the strategic layout of the Navarre Plan, including key locations and troop movements.. The image must help learners Analyze the strategic objectives and outcomes of the Navarre Plan.. Use clean composition, legible labels, and avoid decorative clutter."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_3a9baf28d8",
+        "question_text": "Which of the following types of artillery was primarily used by the Viet Minh forces during the Battle of Dien Bien Phu?",
+        "options": [
+          "A. Howitzers",
+          "B. Mortars",
+          "C. Anti-aircraft guns",
+          "D. Heavy field guns"
+        ],
+        "correct_answer": "A",
+        "explanation": "The Viet Minh primarily used howitzers, which were effective in the rugged terrain and played a crucial role in their victory at Dien Bien Phu.",
+        "target_concept": "200401-marxist-Dien-Bien-Phu::concept::11::artillery",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "run_id": "20260425_103327_200401-marxist-Dien-Bien-Phu_336d35"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: 200401-marxist-Dien-Bien-Phu::concept::11::artillery\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the types of artillery used in the Battle of Dien Bien Phu.\nImage context: A photograph of artillery pieces used during the Battle of Dien Bien Phu.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clear educational illustrative about '200401-marxist-Dien-Bien-Phu::concept::11::artillery'. It should depict: A photograph of artillery pieces used during the Battle of Dien Bien Phu.. The image must help learners Identify the types of artillery used in the Battle of Dien Bien Phu.. Use clean composition, legible labels, and avoid decorative clutter."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_fccf27bf71",
+        "question_text": "Examine the tactical map of Dien Bien Phu. How does the arrangement of Vietnam People's Army positions, as indicated by the red arrows and labeled units, demonstrate the strategy of encirclement?",
+        "options": [],
+        "correct_answer": "The red arrows and labeled units show the Vietnam People's Army forming multiple concentric rings around French strongholds, cutting off supply routes and isolating enemy positions.",
+        "explanation": "The map visually depicts encirclement through red arrows pointing inward toward French positions and labeled units positioned in layered formations, blocking all major access points.",
+        "target_concept": "200401-marxist-Dien-Bien-Phu::concept::47::encirclement",
+        "difficulty": "medium",
+        "question_type": "short_answer",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": true,
+        "metadata": {
+          "reasoning_type": "causal",
+          "run_id": "20260425_103327_200401-marxist-Dien-Bien-Phu_336d35"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: 200401-marxist-Dien-Bien-Phu::concept::47::encirclement\nQuestion type: short_answer\nDifficulty: medium\nReasoning type: causal\nImage role: reasoning\nLearning objective: Describe the strategy of encirclement used by the Vietnam People's Army.\nImage context: A tactical map showing the encirclement of French forces by the Vietnam People's Army at Dien Bien Phu.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.",
+      "image_prompt": "Create a clear educational reasoning about '200401-marxist-Dien-Bien-Phu::concept::47::encirclement'. It should depict: A tactical map showing the encirclement of French forces by the Vietnam People's Army at Dien Bien Phu.. The image must help learners Describe the strategy of encirclement used by the Vietnam People's Army.. Use clean composition, legible labels, and avoid decorative clutter."
+    }
+  ]
+}
