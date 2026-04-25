@@ -137,3 +137,33 @@ class Question(BaseModel):
 
         if self.associated_image is None or not str(self.associated_image).strip():
             raise ValueError("associated_image must be a non-empty URL/path for multimodal questions")
+
+
+class TextChunk(BaseModel):
+    """Represents a text chunk extracted from a block or section node."""
+    id: str
+    text: str
+    source_block_id: str
+    section_path: list[str] = Field(default_factory=list)
+    confidence: Literal["EXTRACTED", "INFERRED", "AMBIGUOUS"] = "EXTRACTED"
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
+
+class ConceptNode(BaseModel):
+    """Represents a concept node from the graph with metadata."""
+    id: str
+    label: str
+    text: Optional[str] = None
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
+
+class TopicContext(BaseModel):
+    """Rich context for a topic node, including associated concepts and artifacts."""
+    topic_id: str
+    topic_label: str
+    associated_concepts: list[ConceptNode] = Field(default_factory=list)
+    concept_chunks: dict[str, list[TextChunk]] = Field(default_factory=dict)  # concept_id -> chunks
+    concept_images: dict[str, list[str]] = Field(default_factory=dict)  # concept_id -> image ids
+    total_chunk_count: int = 0
+    total_image_count: int = 0
+    estimated_questions: int = 0  # Computed from context density
