@@ -43,6 +43,7 @@ class GenerationOrchestrator:
         output_dir: Path | None = None,
         run_id: str | None = None,
         mock_image: bool = False,
+        use_threadpool: bool = False,
         mock_question: bool = False,
         difficulty_distribution: dict[str, float] | None = None,
     ) -> dict[str, Any]:
@@ -104,6 +105,7 @@ class GenerationOrchestrator:
                 output_dir=output_dir,
                 run_id=effective_run_id,
                 mock_image=mock_image,
+                use_threadpool=use_threadpool,
                 mock_question=mock_question,
             )
             return result
@@ -235,6 +237,7 @@ class GenerationOrchestrator:
         run_id: str | None = None,
         image_paths: list[str] | None = None,
         mock_image: bool = False,
+        use_threadpool: bool = True,
         mock_question: bool = False,
     ) -> dict[str, Any]:
         effective_run_id = run_id or self._generate_run_id()
@@ -292,50 +295,60 @@ class GenerationOrchestrator:
         questions: list[dict[str, Any]] = []
         total_records = len(effective_prompts)
 
-        # Parallel image generation: submit image tasks concurrently to reduce total runtime.
-        image_futures: dict[concurrent.futures.Future, dict[str, Any]] = {}
+        # Image generation: either parallel (threadpool) or sequential
         image_results_by_index: dict[int, dict[str, Any]] = {}
-        # Determine worker count (bounded to reasonable limits)
-        default_workers = min(8, (len(effective_prompts) or 1))
-        image_workers = default_workers
-        with concurrent.futures.ThreadPoolExecutor(max_workers=image_workers) as executor:
+        def _generate_image_for(idx_local: int, prompt_local: str):
+            try:
+                if mock_image:
+                    image_url = f"mock://image/{effective_run_id}/{idx_local}.png"
+                    return {"index": idx_local, "status": "generated", "image_url": image_url}
+                else:
+                    image_url = self._image_generator.generate(
+                        prompt_local,
+                        image_paths=image_paths,
+                        output_dir=image_output_dir,
+                        file_stem=str(idx_local),
+                    )
+                    if not image_url:
+                        return {"index": idx_local, "status": "failed", "image_url": None}
+                    return {"index": idx_local, "status": "generated", "image_url": image_url}
+            except Exception as e:
+                LOGGER.exception("Image generation exception index=%s: %s", idx_local, e)
+                return {"index": idx_local, "status": "failed", "image_url": None}
+
+        if use_threadpool:
+            image_futures: dict[concurrent.futures.Future, dict[str, Any]] = {}
+            # Determine worker count (bounded to reasonable limits)
+            default_workers = min(8, (len(effective_prompts) or 1))
+            image_workers = default_workers
+            with concurrent.futures.ThreadPoolExecutor(max_workers=image_workers) as executor:
+                for rec in effective_prompts:
+                    idx = rec.get("index")
+                    img_prompt = rec.get("image_prompt")
+                    # Skip submission if no image prompt
+                    if not img_prompt:
+                        continue
+
+                    fut = executor.submit(_generate_image_for, idx, img_prompt)
+                    image_futures[fut] = rec
+
+                # Collect image results as they complete
+                for fut in concurrent.futures.as_completed(list(image_futures.keys())):
+                    rec = image_futures.get(fut)
+                    try:
+                        res = fut.result()
+                    except Exception as exc:
+                        LOGGER.exception("Unexpected image future failure for record %s: %s", rec.get("index"), exc)
+                        res = {"index": rec.get("index"), "status": "failed", "image_url": None}
+                    image_results_by_index[int(res.get("index"))] = res
+        else:
+            # Sequential generation
             for rec in effective_prompts:
                 idx = rec.get("index")
                 img_prompt = rec.get("image_prompt")
-                # Skip submission if no image prompt
                 if not img_prompt:
                     continue
-
-                def _submit_image(idx_local: int, prompt_local: str):
-                    try:
-                        if mock_image:
-                            image_url = f"mock://image/{effective_run_id}/{idx_local}.png"
-                            return {"index": idx_local, "status": "generated", "image_url": image_url}
-                        else:
-                            image_url = self._image_generator.generate(
-                                prompt_local,
-                                image_paths=image_paths,
-                                output_dir=image_output_dir,
-                                file_stem=str(idx_local),
-                            )
-                            if not image_url:
-                                return {"index": idx_local, "status": "failed", "image_url": None}
-                            return {"index": idx_local, "status": "generated", "image_url": image_url}
-                    except Exception as e:
-                        LOGGER.exception("Image generation exception index=%s: %s", idx_local, e)
-                        return {"index": idx_local, "status": "failed", "image_url": None}
-
-                fut = executor.submit(_submit_image, idx, img_prompt)
-                image_futures[fut] = rec
-
-            # Collect image results as they complete
-            for fut in concurrent.futures.as_completed(list(image_futures.keys())):
-                rec = image_futures.get(fut)
-                try:
-                    res = fut.result()
-                except Exception as exc:
-                    LOGGER.exception("Unexpected image future failure for record %s: %s", rec.get("index"), exc)
-                    res = {"index": rec.get("index"), "status": "failed", "image_url": None}
+                res = _generate_image_for(idx, img_prompt)
                 image_results_by_index[int(res.get("index"))] = res
 
         # After all image tasks finished, proceed record-by-record to generate questions
