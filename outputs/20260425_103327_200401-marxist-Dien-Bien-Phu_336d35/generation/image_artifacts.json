@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a clear educational illustrative about '200401-marxist-Dien-Bien-Phu::concept::0::dien_bien_phu'. It should depict: A map showing the location of Dien Bien Phu in Vietnam, near the Vietnam-Laos frontier.. The image must help learners Identify the geographical location of Dien Bien Phu.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_103327_200401-marxist-Dien-Bien-Phu_336d35/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "Create a clear educational reasoning about '200401-marxist-Dien-Bien-Phu::concept::87::vo_nguyen_giap'. It should depict: A portrait of Vo Nguyen Giap, the commander of the Vietnam People's Army during the Battle of Dien Bien Phu.. The image must help learners Explain the role of Vo Nguyen Giap in the Battle of Dien Bien Phu.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_103327_200401-marxist-Dien-Bien-Phu_336d35/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "Create a clear educational reasoning about '200401-marxist-Dien-Bien-Phu::concept::21::navarre_plan'. It should depict: A diagram illustrating the strategic layout of the Navarre Plan, including key locations and troop movements.. The image must help learners Analyze the strategic objectives and outcomes of the Navarre Plan.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_103327_200401-marxist-Dien-Bien-Phu_336d35/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a clear educational illustrative about '200401-marxist-Dien-Bien-Phu::concept::11::artillery'. It should depict: A photograph of artillery pieces used during the Battle of Dien Bien Phu.. The image must help learners Identify the types of artillery used in the Battle of Dien Bien Phu.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_103327_200401-marxist-Dien-Bien-Phu_336d35/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "Create a clear educational reasoning about '200401-marxist-Dien-Bien-Phu::concept::47::encirclement'. It should depict: A tactical map showing the encirclement of French forces by the Vietnam People's Army at Dien Bien Phu.. The image must help learners Describe the strategy of encirclement used by the Vietnam People's Army.. Use clean composition, legible labels, and avoid decorative clutter.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_103327_200401-marxist-Dien-Bien-Phu_336d35/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

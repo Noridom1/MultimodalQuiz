@@ -1,0 +1,664 @@
+{
+  "chunk_count": 21,
+  "chunks": [
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "label": "Vo Nguyen Giap Dien Bien Phu is a large plain 18 kilometers long and six to eight kilometers wide in the mountainous...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "page_idx": null,
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "text": "Vo Nguyen Giap\n\nDien Bien Phu is a large plain 18 kilometers long and six to eight kilometers wide in the mountainous zone of the North-West. It is the biggest and richest of the four plains in this hilly region close to the Vietnam-Laos frontier. It is situated at the junction of important roads, running to the north-east towards Lai Chau, to the east and south-east towards Tuan Giao, Son La, Na San, to the west towards Luang Prabang and to the south towards Sam Neua. In the theatre of operations of Bac Bo and Upper Laos, Dien Bien Phu was a strategic position of the first importance, capable of becoming an infantry and air base of extreme effectiveness.\n\nAt the beginning there were at Dien Bien Phu only ten enemy battalions but they were gradually reinforced to cope with our offensive. When we launched the attack, the enemy forces totalled 17 battalions and 10 companies, comprising chiefly Europeans and Africans and crack units of paratroops. Moreover the camp had three battalions of artillery, one battalion of sappers, one armoured company, a transport unit of 200 trucks and a permanent squadron of 12 aircraft. In all, 16,200 men.\n\nThose forces were distributed into three sub-sectors which had to support one another and comprised 49 strong-points. Each was a defence centre, while several were grouped into \"complex defence centres\" equipped with mobile forces and artillery, and surrounded by trenches and barbed wire hundreds of metres thick. Each subsector comprised many strong-fortified defence centres.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap",
+          "200401-marxist-Dien-Bien-Phu::paragraph::3::dien_bien_phu_is_a_large_plain_18_kilometers_lon",
+          "200401-marxist-Dien-Bien-Phu::paragraph::4::at_the_beginning_there_were_at_dien_bien_phu_onl",
+          "200401-marxist-Dien-Bien-Phu::paragraph::5::those_forces_were_distributed_into_three_sub_sec"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 260,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::5::those_forces_were_distributed_into_three_sub_sec::chunk::1::those_forces_were_distributed_into_three_sub_sec",
+      "label": "Those forces were distributed into three sub-sectors which had to support one another and comprised 49 strong-points....",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::5::those_forces_were_distributed_into_three_sub_sec::chunk::1::those_forces_were_distributed_into_three_sub_sec",
+      "page_idx": null,
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "text": "Those forces were distributed into three sub-sectors which had to support one another and comprised 49 strong-points. Each was a defence centre, while several were grouped into \"complex defence centres\" equipped with mobile forces and artillery, and surrounded by trenches and barbed wire hundreds of metres thick. Each subsector comprised many strong-fortified defence centres.\n\nThe most important was the central sub-sector situated in Muong Thanh village, the centre of the Dien Bien Phu district. Two-thirds of the garrison were concentrated here. It had several connected defence centres protecting the command post, the artillery and commissariat bases, as well as the airfield. To the east, wellsituated hills formed the most important defence system of the subsector. Dien Bien Phu was considered by the enemy to be an unassailable and impregnable fortress. In fact, the central subsector did have rather strong forces, and the heights in the east could not be attacked easily. Besides the artillery and armoured forces could break every attempted assault through the plain, a system of barbed wire and trenches would permit the enemy to decimate and repel any assault, and the mobile forces formed by the battalions of paratroops, whose action was combined with that of the defence centres, could counter-attack and break any offensive.\n\nThe northern sub-sector comprised the defence centres of Him Lam, Doc Lap and Ban Keo. The very strong positions of Him Lam and Doc Lap were to check all attacks of our troops coming from Tuan Giao and Lai Chau.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::5::those_forces_were_distributed_into_three_sub_sec",
+          "200401-marxist-Dien-Bien-Phu::paragraph::6::the_most_important_was_the_central_sub_sector_si",
+          "200401-marxist-Dien-Bien-Phu::paragraph::7::the_northern_sub_sector_comprised_the_defence_ce"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 255,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::7::the_northern_sub_sector_comprised_the_defence_ce::chunk::2::the_northern_sub_sector_comprised_the_defence_ce",
+      "label": "The northern sub-sector comprised the defence centres of Him Lam, Doc Lap and Ban Keo. The very strong positions of H...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::7::the_northern_sub_sector_comprised_the_defence_ce::chunk::2::the_northern_sub_sector_comprised_the_defence_ce",
+      "page_idx": null,
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "text": "The northern sub-sector comprised the defence centres of Him Lam, Doc Lap and Ban Keo. The very strong positions of Him Lam and Doc Lap were to check all attacks of our troops coming from Tuan Giao and Lai Chau.\n\nAs for the southern sub-sector, also known as Hong Cum sub-sector, it was to break any offensive coming from the south and to protect the communications with Upper Laos.\n\nThe enemy artillery was divided into two bases: one at Muong Thanh, the other at Hong Cum, arranged in such a way as to support each other and to support all the surrounding strong-points.\n\nDien Bien Phu had two airfields: besides the main field at Muong Thanh, there was a reserve airstrip at Hong Cum; they linked the camp with Hanoi and Haiphong through an airlift which ensured 60 to 80 planeloads of supply daily.\n\nThe reconnaissance and fighter planes of the permanent squadron constantly flew over the entire region. The planes from the Gia Lam and Cat Bi airbases had the task of strafing and bombing our army.\n\nGeneral Navarre asserted that with such powerful forces and so strong a defence system, Dien Bien Phu was \"an impregnable fortress….\". The American general O'Daniel who paid a visit to the base shared this opinion. From this subjective point of view, the enemy came to the conclusion that our troops had little chance of success in an attack on Dien Bien Phu. They even considered that such an attack would be a good opportunity for them to inflict a severe defeat on us.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::7::the_northern_sub_sector_comprised_the_defence_ce",
+          "200401-marxist-Dien-Bien-Phu::paragraph::8::as_for_the_southern_sub_sector_also_known_as_hon",
+          "200401-marxist-Dien-Bien-Phu::paragraph::9::the_enemy_artillery_was_divided_into_two_bases_o",
+          "200401-marxist-Dien-Bien-Phu::paragraph::10::dien_bien_phu_had_two_airfields_besides_the_main",
+          "200401-marxist-Dien-Bien-Phu::paragraph::11::the_reconnaissance_and_fighter_planes_of_the_per",
+          "200401-marxist-Dien-Bien-Phu::paragraph::12::general_navarre_asserted_that_with_such_powerful"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 266,
+        "contains_atomic_block": false,
+        "block_count": 6
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::12::general_navarre_asserted_that_with_such_powerful::chunk::3::general_navarre_asserted_that_with_such_powerful",
+      "label": "General Navarre asserted that with such powerful forces and so strong a defence system, Dien Bien Phu was \"an impregn...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::12::general_navarre_asserted_that_with_such_powerful::chunk::3::general_navarre_asserted_that_with_such_powerful",
+      "page_idx": null,
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "text": "General Navarre asserted that with such powerful forces and so strong a defence system, Dien Bien Phu was \"an impregnable fortress….\". The American general O'Daniel who paid a visit to the base shared this opinion. From this subjective point of view, the enemy came to the conclusion that our troops had little chance of success in an attack on Dien Bien Phu. They even considered that such an attack would be a good opportunity for them to inflict a severe defeat on us.\n\nOn our side, after the liberation of Lai Chau, an attack upon Dien Bien Phu was on the agenda. We considered that the base, well entrenched as it was, had vulnerable points. In attacking it, we would face enormous difficulties in strategy, tactics and supply, but these difficulties could be overcome. After having analysed the situation and weighed the pros and cons, we decided to attack Dien Bien Phu according to the watchword: relentless attack, steady advance. Our tactics would be to attack the enemy defence centres, the various parts of the entrenched camp one by one, thus creating conditions for the launching of a general offensive to annihilate the whole camp.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::12::general_navarre_asserted_that_with_such_powerful",
+          "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 196,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+      "label": "On our side, after the liberation of Lai Chau, an attack upon Dien Bien Phu was on the agenda. We considered that the...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+      "page_idx": null,
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "text": "On our side, after the liberation of Lai Chau, an attack upon Dien Bien Phu was on the agenda. We considered that the base, well entrenched as it was, had vulnerable points. In attacking it, we would face enormous difficulties in strategy, tactics and supply, but these difficulties could be overcome. After having analysed the situation and weighed the pros and cons, we decided to attack Dien Bien Phu according to the watchword: relentless attack, steady advance. Our tactics would be to attack the enemy defence centres, the various parts of the entrenched camp one by one, thus creating conditions for the launching of a general offensive to annihilate the whole camp.\n\nThree months had passed from the occupation of Dien Bien Phu by enemy paratroops to the launching of our campaign. During that time, the enemy did their utmost to consolidate their defence system, bring in reinforcements, dig new trenches, and strengthen their entrenchments. On our side, the army and people actively prepared the offensive. Carrying out the orders of the Party's Central Committee and the Government, they mustered all their strength to guarantee the success of the Winter-Spring campaign, of which Dien Bien Phu was the keystone. Our troops succeeded in liberating the surrounding regions, isolating Dien Bien Phu, forcing the enemy to scatter forces and thus reduce their possibilities of sending reinforcements to the battlefield. We made motor roads, cleared tracks to haul up artillery pieces, built casemates for the artillery, prepared the ground for the offensive and encirclement; in short, we transformed the battlefield terrain with a view to solving our tactical problems. Very great difficulties were overcome. We called upon our local compatriots to supply food, to set up supply lines hundreds of kilometers long from Thanh Hoa or Phu Tho to the North-West, through rugged terrain paths and very high passes. We used every means to carry food and ammunition to the front. Our troops and voluntary workers ceaselessly went to the front and actively participated in the preparations under the attacks of enemy aircraft.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_",
+          "200401-marxist-Dien-Bien-Phu::paragraph::14::three_months_had_passed_from_the_occupation_of_d"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 344,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+      "label": "Three months had passed from the occupation of Dien Bien Phu by enemy paratroops to the launching of our campaign. Du...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+      "page_idx": null,
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "text": "Three months had passed from the occupation of Dien Bien Phu by enemy paratroops to the launching of our campaign. During that time, the enemy did their utmost to consolidate their defence system, bring in reinforcements, dig new trenches, and strengthen their entrenchments. On our side, the army and people actively prepared the offensive. Carrying out the orders of the Party's Central Committee and the Government, they mustered all their strength to guarantee the success of the Winter-Spring campaign, of which Dien Bien Phu was the keystone. Our troops succeeded in liberating the surrounding regions, isolating Dien Bien Phu, forcing the enemy to scatter forces and thus reduce their possibilities of sending reinforcements to the battlefield. We made motor roads, cleared tracks to haul up artillery pieces, built casemates for the artillery, prepared the ground for the offensive and encirclement; in short, we transformed the battlefield terrain with a view to solving our tactical problems. Very great difficulties were overcome. We called upon our local compatriots to supply food, to set up supply lines hundreds of kilometers long from Thanh Hoa or Phu Tho to the North-West, through rugged terrain paths and very high passes. We used every means to carry food and ammunition to the front. Our troops and voluntary workers ceaselessly went to the front and actively participated in the preparations under the attacks of enemy aircraft.\n\nIn the first week of March, the preparations were completed; the artillery had solid casemates, the operational bases were established, food and ammunitiftp://cpimorg@cpim.org/public\\_htmlon were available in sufficient quantity. After having studied the aim and significance of the campaign, all officers and soldiers were filled with a very high determination to annihilate the enemy, as they were persuaded that only the destruction of the Dien Bien Phu entrenched camp would bring the \"Navarre plan\" to complete failure.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::14::three_months_had_passed_from_the_occupation_of_d",
+          "200401-marxist-Dien-Bien-Phu::paragraph::15::in_the_first_week_of_march_the_preparations_were"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 313,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::15::in_the_first_week_of_march_the_preparations_were::chunk::6::in_the_first_week_of_march_the_preparations_were",
+      "label": "In the first week of March, the preparations were completed; the artillery had solid casemates, the operational bases...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::15::in_the_first_week_of_march_the_preparations_were::chunk::6::in_the_first_week_of_march_the_preparations_were",
+      "page_idx": null,
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "text": "In the first week of March, the preparations were completed; the artillery had solid casemates, the operational bases were established, food and ammunitiftp://cpimorg@cpim.org/public\\_htmlon were available in sufficient quantity. After having studied the aim and significance of the campaign, all officers and soldiers were filled with a very high determination to annihilate the enemy, as they were persuaded that only the destruction of the Dien Bien Phu entrenched camp would bring the \"Navarre plan\" to complete failure.\n\nOn March 13, 1954, our troops received the order to launch an offensive against Dien Bien Phu.\n\nThe campaign proceeded in three phases: in the first phase we destroyed the northern sub-sector; in the second, the longest and bitterest one, we took the heights in the east of the central subsector and tightened our encirclement; in the third, we launched the general offensive and annihilated the enemy.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::15::in_the_first_week_of_march_the_preparations_were",
+          "200401-marxist-Dien-Bien-Phu::paragraph::16::on_march_13_1954_our_troops_received_the_order_t",
+          "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 149,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+      "label": "The campaign proceeded in three phases: in the first phase we destroyed the northern sub-sector; in the second, the l...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+      "page_idx": null,
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "text": "The campaign proceeded in three phases: in the first phase we destroyed the northern sub-sector; in the second, the longest and bitterest one, we took the heights in the east of the central subsector and tightened our encirclement; in the third, we launched the general offensive and annihilated the enemy.\n\nThis phase began on March 13th and ended on March 17th. On the night of March 13th, we annihilated the very strong defence centre of Him Lam which overlooked the road from Tuan Giao to Dien Bien\n\nPhu. The battle was very fierce, the enemy artillery concentrated its fire, and poured scores of thousands of shells on our assaulting waves. Our troops carried the position in the night. This first victory had very deep repercussions on the development of the whole campaign.\n\nOn the night of the 14th, we concentrated our forces to attack the defence centre of Doc Lap, the second strong point of the northern sub-sector which overlooked the road from Lai Chau to Dien Bien Phu. The battle went on till dawn. The enemy used every means to repel our forces, fired scores of thousands of shells and sent their mobile forces protected by tanks from Muong Thanh to support their position. Our troops fought heroically, took the strong-point and repelled the enemy reinforcements.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi",
+          "200401-marxist-Dien-Bien-Phu::paragraph::19::this_phase_began_on_march_13th_and_ended_on_marc",
+          "200401-marxist-Dien-Bien-Phu::paragraph::20::phu_the_battle_was_very_fierce_the_enemy_artille",
+          "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 220,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+      "label": "On the night of the 14th, we concentrated our forces to attack the defence centre of Doc Lap, the second strong point...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+      "page_idx": null,
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "text": "On the night of the 14th, we concentrated our forces to attack the defence centre of Doc Lap, the second strong point of the northern sub-sector which overlooked the road from Lai Chau to Dien Bien Phu. The battle went on till dawn. The enemy used every means to repel our forces, fired scores of thousands of shells and sent their mobile forces protected by tanks from Muong Thanh to support their position. Our troops fought heroically, took the strong-point and repelled the enemy reinforcements.\n\nThe third and last defence centre of the northern sub-sector, the Ban Keo post, became isolated and was threatened by us. This was a less strong position, manned by a garrison chiefly made up of puppet soldiers. On March 17th, the whole garrison left its position and surrendered. After the loss of the northern sub-sector, the central sub-sector, now exposed on its eastern and northern flanks, was threatened.\n\nIn the phase of the fighting, the correctness of our tactical decisions, the good organisation of our anti-aircraft defence reduced the effectiveness of the enemy artillery and air force. Besides, our artillery fire, which was very accurate, inflicted heavy losses on the enemy. The main airfield was threatened. Our anti-aircraft batteries which were going went into action for the first time, brought down many enemy planes. But above all, it was by their heroic spirit, their high spirit of sacrifice and their determination to win, that our troops distinguished themselves during those battles.\n\nThe great and resounding victory which ended the first phase of operations stirred our army and people and gave each and every one faith in final victory.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for",
+          "200401-marxist-Dien-Bien-Phu::paragraph::22::the_third_and_last_defence_centre_of_the_norther",
+          "200401-marxist-Dien-Bien-Phu::paragraph::23::in_the_phase_of_the_fighting_the_correctness_of_",
+          "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 280,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+      "label": "The great and resounding victory which ended the first phase of operations stirred our army and people and gave each...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+      "page_idx": null,
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "text": "The great and resounding victory which ended the first phase of operations stirred our army and people and gave each and every one faith in final victory.\n\nAs for the enemy, despite their heavy losses, they still had confidence in the power of resistance of the central sub-sector, in the strength of their artillery and air force. They even expected that we would suffer heavy losses and would be obliged to give up the offensive; and especially, that if the campaign was protracted our supply lines would be cut and that the great logistic difficulties thus created would force us to withdraw.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the",
+          "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 103,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+      "label": "As for the enemy, despite their heavy losses, they still had confidence in the power of resistance of the central sub...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+      "page_idx": null,
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "text": "As for the enemy, despite their heavy losses, they still had confidence in the power of resistance of the central sub-sector, in the strength of their artillery and air force. They even expected that we would suffer heavy losses and would be obliged to give up the offensive; and especially, that if the campaign was protracted our supply lines would be cut and that the great logistic difficulties thus created would force us to withdraw.\n\nThe second phase was the most important of the campaign. We had to deal with the central sub-sector, in the middle of the Muong Thanh plain, and new difficulties arose in the conduct of the operations. Our troops had to work actively to complete the preparations; they had to dig a vast network of trenches, from the neighbouring hills to the plain, to encircle the central sub-sector and cut it off from the southern sector. This advance of our lines which encircled the enemy positions was made at the cost of fierce fighting. By every means the enemy tried to upset our preparations by the action of their air force and artillery. However, our troops drew ever closer to their positions through uninterrupted fighting.\n\nDuring the night of March 30th, the second phase began. We launched a large scale attack to capture the heights in the east and a certain number of strong-points in the west in order to tighten our encirclement, and to hamper and cut off supplies to the garrison.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they",
+          "200401-marxist-Dien-Bien-Phu::paragraph::27::the_second_phase_was_the_most_important_of_the_c",
+          "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 251,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "label": "During the night of March 30th, the second phase began. We launched a large scale attack to capture the heights in th...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "page_idx": null,
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "text": "During the night of March 30th, the second phase began. We launched a large scale attack to capture the heights in the east and a certain number of strong-points in the west in order to tighten our encirclement, and to hamper and cut off supplies to the garrison.\n\nOn the night of March 30th, we concentrated important forces to attack simultaneously the five fortified heights in the east. On that same night, we succeeded in capturing hills E-1, D-1 and C-1, but could not take hill A-1, the most important of all. The defence line constituted by these heights was the key to the defensive system of the central sub-sector: its loss would lead to the fall of Dien Bien Phu. Consequently, the fight here was the fiercest. Particularly on hill A-1, the last height which protected the command post, the battle lasted until April 4th. Every inch of ground was hotly disputed. Finally, we occupied half of the position while the enemy, entrenched in casemates and trenches, continued to resist in the other half. While this fighting was going on, the garrison received paratroop reinforcements. On April 9th, the enemy launched a counter-attack to re-occupy hill C-1. The battle went on for four days and nights, and the position was occupied half by the enemy and half by us.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_",
+          "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 230,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "label": "On the night of March 30th, we concentrated important forces to attack simultaneously the five fortified heights in t...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "page_idx": null,
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "text": "On the night of March 30th, we concentrated important forces to attack simultaneously the five fortified heights in the east. On that same night, we succeeded in capturing hills E-1, D-1 and C-1, but could not take hill A-1, the most important of all. The defence line constituted by these heights was the key to the defensive system of the central sub-sector: its loss would lead to the fall of Dien Bien Phu. Consequently, the fight here was the fiercest. Particularly on hill A-1, the last height which protected the command post, the battle lasted until April 4th. Every inch of ground was hotly disputed. Finally, we occupied half of the position while the enemy, entrenched in casemates and trenches, continued to resist in the other half. While this fighting was going on, the garrison received paratroop reinforcements. On April 9th, the enemy launched a counter-attack to re-occupy hill C-1. The battle went on for four days and nights, and the position was occupied half by the enemy and half by us.\n\nWhile the situation in the east was static, in the north and in the west our encirclement grew tighter and tighter. The lines of both sides drew nearer and nearer to each other, in some points they were only 10 to 15 metres apart. From our newly-occupied positions to our frontlines northward and westward, the fire of our artillery and mortars pounded the enemy without let-up. Day and night the fighting went on. We exhausted the enemy by harassing them, firing constantly at their lines, and at the same time tried to take their strong-points one by one by combining nibbling operations and full-scale attack.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor",
+          "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 290,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+      "label": "While the situation in the east was static, in the north and in the west our encirclement grew tighter and tighter. T...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+      "page_idx": null,
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "text": "While the situation in the east was static, in the north and in the west our encirclement grew tighter and tighter. The lines of both sides drew nearer and nearer to each other, in some points they were only 10 to 15 metres apart. From our newly-occupied positions to our frontlines northward and westward, the fire of our artillery and mortars pounded the enemy without let-up. Day and night the fighting went on. We exhausted the enemy by harassing them, firing constantly at their lines, and at the same time tried to take their strong-points one by one by combining nibbling operations and full-scale attack.\n\nIn mid-April, after the destruction of several enemy positions in the north and the west, our lines reached the airfield, then cut it from west to east. As our encirclement grew still tighter, the fighting became fiercer. The enemy launched several violent counterattacks supported by tanks and aircraft aimed at taking ground from us and forcing us to loosen our encirclement. On April 24th, the most violent counter-attack was launched with the aim of driving us from the airfield: after inflicting heavy losses on the enemy, we remained the master, and the airfield stayed under our control.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th",
+          "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 208,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+      "label": "In mid-April, after the destruction of several enemy positions in the north and the west, our lines reached the airfi...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+      "page_idx": null,
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "text": "In mid-April, after the destruction of several enemy positions in the north and the west, our lines reached the airfield, then cut it from west to east. As our encirclement grew still tighter, the fighting became fiercer. The enemy launched several violent counterattacks supported by tanks and aircraft aimed at taking ground from us and forcing us to loosen our encirclement. On April 24th, the most violent counter-attack was launched with the aim of driving us from the airfield: after inflicting heavy losses on the enemy, we remained the master, and the airfield stayed under our control.\n\nThe territory occupied by the enemy shrank in size day by day to become only two kilometers square and was under continuous heavy fire. The enemy's supply problem became more and more critical. The airfield having been out of action for a long time, all supplied were dropped by parachute. But as the enemy zone was too narrow, and their pilots feared our anti-aircraft fire and dared not fly low, only a part of the parachutes carrying food and ammunition fell into the enemy positions, while the bulk of them fell on our ground; thus we poured shells parachuted by the enemy on the entrenched camp.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en",
+          "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 207,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "label": "The territory occupied by the enemy shrank in size day by day to become only two kilometers square and was under cont...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "page_idx": null,
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "text": "The territory occupied by the enemy shrank in size day by day to become only two kilometers square and was under continuous heavy fire. The enemy's supply problem became more and more critical. The airfield having been out of action for a long time, all supplied were dropped by parachute. But as the enemy zone was too narrow, and their pilots feared our anti-aircraft fire and dared not fly low, only a part of the parachutes carrying food and ammunition fell into the enemy positions, while the bulk of them fell on our ground; thus we poured shells parachuted by the enemy on the entrenched camp.\n\nThroughout the second phase, the situation was extremely tense. The American interventionists sent more bombers and transport planes to support the Dien Bien Phu base. The enemy bombers were very active; they ceaselessly bombed our positions, dropped napalm bombs to burn down the vegetation on the heights surrounding Dien Bien Phu, and bombed points that they thought were our artillery bases. Day and night they shelled our supply lines, dropped block-busters on the roads, showered them with delayed-action and \"butterfly\" anti-personnel bombs, in an endeavour to cut our supply lines. These desperate efforts did not achieve the desired results. They could not check the flow of tens of thousands of voluntary carriers, pack-horses and trucks bringing food and ammunition to the front. They could not stop us from carrying out our plan of encirclement, which was to hasten their doom.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si",
+          "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 252,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+      "label": "Throughout the second phase, the situation was extremely tense. The American interventionists sent more bombers and t...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+      "page_idx": null,
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "text": "Throughout the second phase, the situation was extremely tense. The American interventionists sent more bombers and transport planes to support the Dien Bien Phu base. The enemy bombers were very active; they ceaselessly bombed our positions, dropped napalm bombs to burn down the vegetation on the heights surrounding Dien Bien Phu, and bombed points that they thought were our artillery bases. Day and night they shelled our supply lines, dropped block-busters on the roads, showered them with delayed-action and \"butterfly\" anti-personnel bombs, in an endeavour to cut our supply lines. These desperate efforts did not achieve the desired results. They could not check the flow of tens of thousands of voluntary carriers, pack-horses and trucks bringing food and ammunition to the front. They could not stop us from carrying out our plan of encirclement, which was to hasten their doom.\n\nThe French and American generals then realised the danger of the destruction of the Dien Bien Phu entrenched camp. At one moment, the High Command of the French Expeditionary Corps thought of gathering its remaining forces for an attack on our rear and in the direction of Viet Bac, to cut our supply lines and force us to withdraw for lack of food and ammunition. But it could not carry out this plan. Moreover, it feared that a still more severe defeat could be the result of so foolhardy an action. At another time it intended to regroup the Dien Bien Phu garrison in several columns which would try to break through our encirclement and open at all costs a way towards Upper Laos. Finally, it had to give up this plan, too, and continue to defend its positions.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex",
+          "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 283,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+      "label": "The French and American generals then realised the danger of the destruction of the Dien Bien Phu entrenched camp. At...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+      "page_idx": null,
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "text": "The French and American generals then realised the danger of the destruction of the Dien Bien Phu entrenched camp. At one moment, the High Command of the French Expeditionary Corps thought of gathering its remaining forces for an attack on our rear and in the direction of Viet Bac, to cut our supply lines and force us to withdraw for lack of food and ammunition. But it could not carry out this plan. Moreover, it feared that a still more severe defeat could be the result of so foolhardy an action. At another time it intended to regroup the Dien Bien Phu garrison in several columns which would try to break through our encirclement and open at all costs a way towards Upper Laos. Finally, it had to give up this plan, too, and continue to defend its positions.\n\nOn May 1st, began the third phase. From May 1st to May 6th, following several successive attacks, we occupied hill C-1, hill A-1 which was the key of the last defensive system of the central sub-sector, and several other strong-points from the foot of the hills in the east to the Nam Rom river, and finally some positions in the west. The enemy were driven into a square kilometer, entirely exposed to our fire. There was no fortified height to protect them. The problem of supply became extremely grave. The situation was critical: the last hour of the entrenched camp had struck.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t",
+          "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 245,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+      "label": "On May 1st, began the third phase. From May 1st to May 6th, following several successive attacks, we occupied hill C-...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+      "page_idx": null,
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "text": "On May 1st, began the third phase. From May 1st to May 6th, following several successive attacks, we occupied hill C-1, hill A-1 which was the key of the last defensive system of the central sub-sector, and several other strong-points from the foot of the hills in the east to the Nam Rom river, and finally some positions in the west. The enemy were driven into a square kilometer, entirely exposed to our fire. There was no fortified height to protect them. The problem of supply became extremely grave. The situation was critical: the last hour of the entrenched camp had struck.\n\nOn the afternoon of May 7th, from the east and the west, we launched a massive combined attack upon the headquarters at Muong Thanh. On several posts, the enemy hoisted the white flag and surrendered. At 5.30 p.m., we seized the headquarters: General de Castries and his staff were captured. Then the remaining forces at Dien Bien Phu surrendered. The prisoners of war were well treated by our troops.\n\nThe \"Determined to Fight and Win\" banner of our army fluttered high in the valley of Dien Bien Phu. That very night, we attacked the southern sub-sector. The whole garrison of more than 2,000 men was captured.\n\nThe historic Dien Bien Phu campaign ended in our complete victory. Our troops had fought with unprecedented heroism for 55 days and 55 nights.\n\nDuring that time, our troops were very active in all theatres of operations in coordination with the main front.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to",
+          "200401-marxist-Dien-Bien-Phu::paragraph::37::on_the_afternoon_of_may_7th_from_the_east_and_th",
+          "200401-marxist-Dien-Bien-Phu::paragraph::38::the_determined_to_fight_and_win_banner_of_our_ar",
+          "200401-marxist-Dien-Bien-Phu::paragraph::39::the_historic_dien_bien_phu_campaign_ended_in_our",
+          "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 259,
+        "contains_atomic_block": false,
+        "block_count": 5
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "label": "During that time, our troops were very active in all theatres of operations in coordination with the main front. In t...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "page_idx": null,
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "text": "During that time, our troops were very active in all theatres of operations in coordination with the main front.\n\nIn the enemy's rear in the Red River delta, they destroyed, one after another, a large number of positions and seriously threatened Road No. 5.\n\nIn the Fifth Zone, they attacked Road No. 19, annihilated the mobile regiment No. 100, liberated An Khe, penetrated deep into the region of Cheo Reo, and threatened Pleiku and Banmethuot.\n\nOur troops were also very active in Binh-Tri-Thien and in Nam Bo.\n\nIn Middle Laos, the Vietnamese and Pathet Lao units increased their activities on Road No. 9 and advanced southward.\n\nOur troops won victories on all fronts.\n\nThat is a broad outline of the military situation in winter 1953 and sprint 1954.\n\nOn all fronts, we put out of action 112,000 enemy troops and brought down or destroyed on the ground 177 planes.\n\nAt Dien Bien Phu, we put out of action 16,200 enemy troops, including the whole command of the entrenched camp, one general, 16 colonels, 1,749 officers and non-commissioned officers, brought down or destroyed on the ground 62 planes of all types, seized all the enemy's armaments, ammunition equipment, and more than 30,000 parachutes.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_",
+          "200401-marxist-Dien-Bien-Phu::paragraph::41::in_the_enemy_s_rear_in_the_red_river_delta_they_",
+          "200401-marxist-Dien-Bien-Phu::paragraph::42::in_the_fifth_zone_they_attacked_road_no_19_annih",
+          "200401-marxist-Dien-Bien-Phu::paragraph::43::our_troops_were_also_very_active_in_binh_tri_thi",
+          "200401-marxist-Dien-Bien-Phu::paragraph::44::in_middle_laos_the_vietnamese_and_pathet_lao_uni",
+          "200401-marxist-Dien-Bien-Phu::paragraph::45::our_troops_won_victories_on_all_fronts",
+          "200401-marxist-Dien-Bien-Phu::paragraph::46::that_is_a_broad_outline_of_the_military_situatio",
+          "200401-marxist-Dien-Bien-Phu::paragraph::47::on_all_fronts_we_put_out_of_action_112_000_enemy",
+          "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 211,
+        "contains_atomic_block": false,
+        "block_count": 9
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+      "label": "At Dien Bien Phu, we put out of action 16,200 enemy troops, including the whole command of the entrenched camp, one g...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+      "page_idx": null,
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "text": "At Dien Bien Phu, we put out of action 16,200 enemy troops, including the whole command of the entrenched camp, one general, 16 colonels, 1,749 officers and non-commissioned officers, brought down or destroyed on the ground 62 planes of all types, seized all the enemy's armaments, ammunition equipment, and more than 30,000 parachutes.\n\nThose great victories of the Vietnam People's Army and people at Dien Bien Phu and on the other fronts smashed to pieces the \"Navarre plan\", and foiled the attempts of the Franco-American imperialists to prolong and extend the war. Those great victories liberated the North of Vietnam, contributed to the success of the Geneva Conference and the restoration of peace in Indochina on the basis of respect for the sovereignty, independence, unity and territorial integrity of Vietnam and of the two friendly countries, Cambodia and Laos.\n\nThose are glorious pages in the history of our People's army and our people. They illustrate the striking success of our party in leading the movement for national liberation against the French imperialists and the American interventionists.\n\nVo Nguyen Giap was the Commander-in-chief of the Vietnam People's Army. He was a member of the Polit Bureau of the Communist Party of Vietnam. He later became the Defence Minister of Socialist Republic of Vietnam.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+          "200401-marxist-Dien-Bien-Phu::paragraph::49::those_great_victories_of_the_vietnam_people_s_ar",
+          "200401-marxist-Dien-Bien-Phu::paragraph::50::those_are_glorious_pages_in_the_history_of_our_p",
+          "200401-marxist-Dien-Bien-Phu::paragraph::51::vo_nguyen_giap_was_the_commander_in_chief_of_the"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 223,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    }
+  ]
+}
