@@ -24,6 +24,7 @@ class QuestionPlan:
     image_role: str | None = None
     image_description: str | None = None
     learning_objective: str | None = None
+    tested_fact_block_id: str | None = None  # (New) Block ID for tested_fact grounding
     metadata: dict[str, object] = field(default_factory=dict)
 
 
@@ -548,6 +549,7 @@ def load_plan(plan_path: str | Path) -> list[QuestionPlan]:
                 image_role=image_role,
                 image_description=image_description,
                 learning_objective=learning_objective,
+                tested_fact_block_id=item.get("tested_fact_block_id"),
                 metadata=metadata,
             )
         )
