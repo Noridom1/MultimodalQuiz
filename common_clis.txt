@@ -1,1 +1,6 @@
 python .\src\knowledge\kg_builder.py .\data\processed\book-riscv-rev5-chap8\hybrid_auto\book-riscv-rev5-chap8.md --html --output-dir .\data\outputs\ --backend langchain --provider mistral --granularity balanced --max-tokens 500 
+
+cd ../../raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/
+conda activate mmquiz
+export CUDA_VISIBLE_DEVICES=5
+python3 scripts/run_pipeline.py data/raw/200401-marxist-Dien-Bien-Phu.pdf 

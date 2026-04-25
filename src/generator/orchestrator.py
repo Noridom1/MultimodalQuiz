@@ -182,13 +182,6 @@ class GenerationOrchestrator:
             idx = rec.get("index")
             q_prompt = rec.get("question_prompt", "")
             img_prompt = rec.get("image_prompt")
-            LOGGER.info(
-                "Processing record %d/%d (index=%s, target_concept=%s)",
-                position,
-                total_records,
-                idx,
-                rec.get("target_concept"),
-            )
 
             plan = plans_by_index.get(idx)
             if plan is None:
