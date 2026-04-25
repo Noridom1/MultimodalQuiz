@@ -285,7 +285,23 @@ To see all CLI options:
 python scripts/run_pipeline.py --help
 ```
 
-### 5.2 Understand the `outputs/` Folder
+### 5.2 Visualize Questions from `questions.json`
+
+After a successful run, you can render a browser-based viewer from the generated questions file:
+
+```bash
+python scripts/visualize_questions.py outputs/<run_id>/generation/questions.json --open
+```
+
+This command creates an HTML file next to `questions.json` (named `questions_viewer.html`) and opens it in your default browser.
+
+If your image references are stored with custom paths, you can also provide an explicit image directory:
+
+```bash
+python scripts/visualize_questions.py outputs/<run_id>/generation/questions.json --image-dir outputs/<run_id>/generation/images --open
+```
+
+### 5.3 Understand the `outputs/` Folder
 
 Each execution produces one run directory:
 
@@ -340,7 +356,8 @@ outputs/
 1. Open `outputs/<run_id>/manifest.json`.
 2. Check stage completion and artifact paths.
 3. Review `generation/questions.json` for final quiz outputs.
-4. If something failed, inspect `logs/pipeline.log` and corresponding stage artifacts.
+4. Run `python scripts/visualize_questions.py outputs/<run_id>/generation/questions.json --open` for visual QA.
+5. If something failed, inspect `logs/pipeline.log` and corresponding stage artifacts.
 
 ---
 
