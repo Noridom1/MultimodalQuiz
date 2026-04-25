@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "Dien Bien Phu",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A map showing the strategic location of Dien Bien Phu in northern Vietnam.",
+    "learning_objective": "Understand the strategic significance of Dien Bien Phu in the First Indochina War.",
+    "tested_fact_block_id": "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Navarre plan",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A map showing the strategic positions of French forces in Dien Bien Phu as part of the Navarre plan.",
+    "learning_objective": "Understand the strategic objectives and outcomes of the Navarre plan during the Battle of Dien Bien Phu.",
+    "tested_fact_block_id": "200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan",
+    "metadata": {}
+  },
+  {
+    "target_concept": "delayed-action bombs",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the internal mechanism of a delayed-action bomb.",
+    "learning_objective": "Understand the purpose and mechanism of delayed-action bombs in disrupting supply lines.",
+    "tested_fact_block_id": "200401-marxist-Dien-Bien-Phu::concept::62::delayed_action_bombs",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Dien Bien Phu district",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A map showing the location of Dien Bien Phu district in Vietnam.",
+    "learning_objective": "Identify the geographical location of Dien Bien Phu district.",
+    "tested_fact_block_id": "200401-marxist-Dien-Bien-Phu::concept::11::dien_bien_phu_district",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Winter-Spring campaign",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A map showing the strategic locations involved in the Winter-Spring campaign.",
+    "learning_objective": "Understand the strategic significance of the Winter-Spring campaign in the context of the Battle of Dien Bien Phu.",
+    "tested_fact_block_id": "200401-marxist-Dien-Bien-Phu::concept::22::winter_spring_campaign",
+    "metadata": {}
+  }
+]

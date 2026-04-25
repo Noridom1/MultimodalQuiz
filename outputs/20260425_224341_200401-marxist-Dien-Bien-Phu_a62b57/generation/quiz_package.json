@@ -1,0 +1,146 @@
+{
+  "run_id": "20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_b9d4c72708",
+        "question_text": "What was the primary strategic reason for the French establishing a military base at Dien Bien Phu in 1953?",
+        "options": [
+          "A. To serve as a launching point for an invasion of China",
+          "B. To block Viet Minh supply routes into Laos and disrupt their operations",
+          "C. To establish a permanent French colonial settlement in northern Vietnam",
+          "D. To provide a safe haven for French civilians fleeing Viet Minh advances"
+        ],
+        "correct_answer": "B",
+        "explanation": "The French aimed to cut off Viet Minh supply lines into Laos and create a defensible stronghold to weaken their operations. This strategy ultimately backfired, leading to the decisive Battle of Dien Bien Phu in 1954. (Source: 200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu)",
+        "target_concept": "Dien Bien Phu",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+          "run_id": "20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Dien Bien Phu\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the strategic significance of Dien Bien Phu in the First Indochina War.\nImage context: A map showing the strategic location of Dien Bien Phu in northern Vietnam.\nTested fact block ID: 200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simplified, high-contrast map of northern Vietnam with clear terrain features (mountains, rivers) and labeled borders. Mark 'Site 1' (Dien Bien Phu) prominently with a distinct icon, and show key supply routes or surrounding strategic locations using arrows or dashed lines. Use muted earth tones for the base map with bold, legible labels in a neutral color like black or dark blue.\n\nAlt: A strategic map of northern Vietnam highlighting a key battlefield location and its surrounding terrain."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_7367c386ca",
+        "question_text": "What was the primary strategic objective of the Navarre plan during the Battle of Dien Bien Phu?",
+        "options": [
+          "A) To establish a permanent French military base in Vietnam",
+          "B) To lure Viet Minh forces into a decisive battle where superior French firepower could destroy them",
+          "C) To negotiate a peaceful withdrawal of French forces from Indochina",
+          "D) To secure direct control over Hanoi and other major Vietnamese cities"
+        ],
+        "correct_answer": "B",
+        "explanation": "The Navarre plan aimed to draw the Viet Minh into a conventional battle at Dien Bien Phu, where French artillery and air superiority could be leveraged to achieve a decisive victory. This strategy ultimately failed, leading to a critical French defeat. (Source: 200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan)",
+        "target_concept": "Navarre plan",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan",
+          "run_id": "20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Navarre plan\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the strategic objectives and outcomes of the Navarre plan during the Battle of Dien Bien Phu.\nImage context: A map showing the strategic positions of French forces in Dien Bien Phu as part of the Navarre plan.\nTested fact block ID: 200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a high-contrast, top-down map of a fortified valley with labeled French strongholds (e.g., \"Stronghold A,\" \"Artillery Position B\") arranged in a defensive ring, surrounded by rugged terrain and marked supply routes. Use muted earth tones for terrain, bold red/blue for opposing forces, and clear symbols for key features like airstrips or command posts. Avoid direct names—use generic labels like \"Leader A’s HQ\" or \"Site 1.\"\n\nAlt: A tactical map illustrating French defensive positions in a valley during a historical battle, with labeled strongholds and terrain features."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_468a9398a2",
+        "question_text": "How do delayed-action bombs primarily disrupt enemy supply lines?",
+        "options": [
+          "By detonating immediately upon impact, destroying nearby infrastructure",
+          "By exploding after a set delay, causing uncertainty and hindering repair efforts",
+          "By releasing chemical agents that contaminate supplies",
+          "By emitting electromagnetic pulses that disable electronic equipment"
+        ],
+        "correct_answer": "B",
+        "explanation": "Delayed-action bombs are designed to explode after a set delay, creating psychological uncertainty and complicating repair efforts, thereby disrupting supply lines. (Source: 200401-marxist-Dien-Bien-Phu::concept::62::delayed_action_bombs)",
+        "target_concept": "delayed-action bombs",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "200401-marxist-Dien-Bien-Phu::concept::62::delayed_action_bombs",
+          "run_id": "20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: delayed-action bombs\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the purpose and mechanism of delayed-action bombs in disrupting supply lines.\nImage context: A diagram showing the internal mechanism of a delayed-action bomb.\nTested fact block ID: 200401-marxist-Dien-Bien-Phu::concept::62::delayed_action_bombs\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a cross-section diagram of a delayed-action bomb, clearly labeling key components (e.g., fuse, timer, explosive core, casing) in high-contrast colors (e.g., red for explosive, blue for timer). Use simple arrows to show the sequence of activation, from impact to detonation delay. Avoid realistic branding or military insignia.\n\n**Alt:** A labeled cross-section diagram of a delayed-action bomb, showing internal components and activation sequence."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_b39513f363",
+        "question_text": "In which country is Dien Bien Phu district located?",
+        "options": [
+          "A) Laos",
+          "B) Vietnam",
+          "C) Cambodia",
+          "D) Thailand"
+        ],
+        "correct_answer": "B",
+        "explanation": "Dien Bien Phu district is located in Vietnam, as confirmed by historical and geographical records. Source: 200401-marxist-Dien-Bien-Phu::concept::11::dien_bien_phu_district.",
+        "target_concept": "Dien Bien Phu district",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "200401-marxist-Dien-Bien-Phu::concept::11::dien_bien_phu_district",
+          "run_id": "20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Dien Bien Phu district\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the geographical location of Dien Bien Phu district.\nImage context: A map showing the location of Dien Bien Phu district in Vietnam.\nTested fact block ID: 200401-marxist-Dien-Bien-Phu::concept::11::dien_bien_phu_district\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simplified, high-contrast map of Vietnam with a highlighted district in the northwest region, labeled as \"Site 1.\" Use muted earth tones for the country with a bold, contrasting color (e.g., red or blue) for the highlighted area, and include a compass rose for orientation. Avoid political borders or sensitive details.\n\nAlt: A map of Vietnam with a highlighted district in the northwest labeled as Site 1."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_6489e4be8b",
+        "question_text": "What was the primary strategic significance of the Winter-Spring campaign in the lead-up to the Battle of Dien Bien Phu?",
+        "options": [
+          "A) It allowed the French to secure key supply routes.",
+          "B) It forced the Viet Minh to retreat into defensive positions.",
+          "C) It enabled the Viet Minh to cut off French supply lines and isolate Dien Bien Phu.",
+          "D) It resulted in a temporary ceasefire between the two sides."
+        ],
+        "correct_answer": "C",
+        "explanation": "The Winter-Spring campaign was strategically significant because it allowed the Viet Minh to disrupt French supply lines, thereby isolating Dien Bien Phu and setting the stage for their eventual victory. (Source: 200401-marxist-Dien-Bien-Phu::concept::22::winter_spring_campaign)",
+        "target_concept": "Winter-Spring campaign",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "200401-marxist-Dien-Bien-Phu::concept::22::winter_spring_campaign",
+          "run_id": "20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Winter-Spring campaign\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the strategic significance of the Winter-Spring campaign in the context of the Battle of Dien Bien Phu.\nImage context: A map showing the strategic locations involved in the Winter-Spring campaign.\nTested fact block ID: 200401-marxist-Dien-Bien-Phu::concept::22::winter_spring_campaign\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a high-contrast, illustrative map showing key strategic locations (labeled as 'Site 1', 'Site 2', etc.) involved in the Winter-Spring campaign, with clear terrain features and movement arrows in muted winter tones transitioning to soft spring greens. Include a simple legend for symbols like supply routes and troop positions, ensuring all text is placeholder-based. Alt: A labeled map illustrating strategic locations and movements during the Winter-Spring campaign."
+    }
+  ]
+}

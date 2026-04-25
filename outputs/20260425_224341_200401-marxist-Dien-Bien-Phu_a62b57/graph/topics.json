@@ -1,0 +1,525 @@
+{
+  "count": 10,
+  "topics": [
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::7::counter_attack",
+      "label": "Counter-attack",
+      "description": "Concept-anchored topic centered on counter-attack",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::36::hill_c_1",
+        "200401-marxist-Dien-Bien-Phu::concept::39::defensive_system",
+        "200401-marxist-Dien-Bien-Phu::concept::44::counter_attack",
+        "200401-marxist-Dien-Bien-Phu::concept::45::encirclement",
+        "200401-marxist-Dien-Bien-Phu::concept::49::airfield",
+        "200401-marxist-Dien-Bien-Phu::concept::50::tanks",
+        "200401-marxist-Dien-Bien-Phu::concept::51::aircraft",
+        "200401-marxist-Dien-Bien-Phu::concept::56::transport_planes"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+        "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::44::counter_attack"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.875,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.896
+      },
+      "metadata": {
+        "anchor_concept_id": "200401-marxist-Dien-Bien-Phu::concept::44::counter_attack"
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::11::defensive_system",
+      "label": "Defensive system",
+      "description": "Concept-anchored topic centered on defensive system",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector",
+        "200401-marxist-Dien-Bien-Phu::concept::35::hill_a_1",
+        "200401-marxist-Dien-Bien-Phu::concept::36::hill_c_1",
+        "200401-marxist-Dien-Bien-Phu::concept::37::hill_d_1",
+        "200401-marxist-Dien-Bien-Phu::concept::38::hill_e_1",
+        "200401-marxist-Dien-Bien-Phu::concept::39::defensive_system",
+        "200401-marxist-Dien-Bien-Phu::concept::43::fortified_heights",
+        "200401-marxist-Dien-Bien-Phu::concept::44::counter_attack",
+        "200401-marxist-Dien-Bien-Phu::concept::56::transport_planes"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+        "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+        "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::39::defensive_system"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.889,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.871
+      },
+      "metadata": {
+        "anchor_concept_id": "200401-marxist-Dien-Bien-Phu::concept::39::defensive_system"
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::0::dien_bien_phu",
+      "label": "Dien Bien Phu",
+      "description": "Concept-anchored topic centered on Dien Bien Phu",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::10::muong_thanh",
+        "200401-marxist-Dien-Bien-Phu::concept::12::him_lam",
+        "200401-marxist-Dien-Bien-Phu::concept::13::doc_lap",
+        "200401-marxist-Dien-Bien-Phu::concept::16::hanoi",
+        "200401-marxist-Dien-Bien-Phu::concept::17::haiphong",
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::22::winter_spring_campaign",
+        "200401-marxist-Dien-Bien-Phu::concept::23::party_s_central_committee",
+        "200401-marxist-Dien-Bien-Phu::concept::24::government",
+        "200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan",
+        "200401-marxist-Dien-Bien-Phu::concept::2::lai_chau",
+        "200401-marxist-Dien-Bien-Phu::concept::3::tuan_giao",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la",
+        "200401-marxist-Dien-Bien-Phu::concept::8::bac_bo",
+        "200401-marxist-Dien-Bien-Phu::concept::9::upper_laos"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "200401-marxist-Dien-Bien-Phu::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+        "200401-marxist-Dien-Bien-Phu::paragraph::5::those_forces_were_distributed_into_three_sub_sec::chunk::1::those_forces_were_distributed_into_three_sub_sec",
+        "200401-marxist-Dien-Bien-Phu::paragraph::7::the_northern_sub_sector_comprised_the_defence_ce::chunk::2::the_northern_sub_sector_comprised_the_defence_ce"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::10::muong_thanh",
+        "200401-marxist-Dien-Bien-Phu::concept::13::doc_lap",
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::2::lai_chau",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la"
+      ],
+      "scores": {
+        "coherence_score": 0.7,
+        "grounding_score": 0.6,
+        "breadth_score": 0.1,
+        "distinctness_score": 0.64,
+        "pedagogical_usefulness": 0.485
+      },
+      "metadata": {
+        "anchor_concept_id": "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "merged_candidate_ids": [
+          "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::1::supply_lines",
+          "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::2::muong_thanh",
+          "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::4::lai_chau",
+          "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::9::doc_lap",
+          "200401-marxist-Dien-Bien-Phu::topic_candidate::section::1::the_historic_dien_bien_phu_campaign"
+        ]
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::3::encirclement",
+      "label": "Encirclement",
+      "description": "Concept-anchored topic centered on encirclement",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector",
+        "200401-marxist-Dien-Bien-Phu::concept::34::trenches",
+        "200401-marxist-Dien-Bien-Phu::concept::35::hill_a_1",
+        "200401-marxist-Dien-Bien-Phu::concept::44::counter_attack",
+        "200401-marxist-Dien-Bien-Phu::concept::45::encirclement",
+        "200401-marxist-Dien-Bien-Phu::concept::49::airfield",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la",
+        "200401-marxist-Dien-Bien-Phu::concept::60::voluntary_carriers",
+        "200401-marxist-Dien-Bien-Phu::concept::67::dien_bien_phu_garrison",
+        "200401-marxist-Dien-Bien-Phu::concept::9::upper_laos"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+        "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+        "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::45::encirclement"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "200401-marxist-Dien-Bien-Phu::concept::45::encirclement"
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::5::central_sub_sector",
+      "label": "Central sub-sector",
+      "description": "Concept-anchored topic centered on central sub-sector",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "First phase: destruction of the northern sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::27::artillery_fire",
+        "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector",
+        "200401-marxist-Dien-Bien-Phu::concept::31::artillery",
+        "200401-marxist-Dien-Bien-Phu::concept::34::trenches",
+        "200401-marxist-Dien-Bien-Phu::concept::35::hill_a_1",
+        "200401-marxist-Dien-Bien-Phu::concept::39::defensive_system",
+        "200401-marxist-Dien-Bien-Phu::concept::45::encirclement",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la",
+        "200401-marxist-Dien-Bien-Phu::concept::60::voluntary_carriers",
+        "200401-marxist-Dien-Bien-Phu::concept::67::dien_bien_phu_garrison"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+        "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector"
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::6::navarre_plan",
+      "label": "Navarre plan",
+      "description": "Concept-anchored topic centered on Navarre plan",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::10::muong_thanh",
+        "200401-marxist-Dien-Bien-Phu::concept::13::doc_lap",
+        "200401-marxist-Dien-Bien-Phu::concept::15::hong_cum",
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::22::winter_spring_campaign",
+        "200401-marxist-Dien-Bien-Phu::concept::23::party_s_central_committee",
+        "200401-marxist-Dien-Bien-Phu::concept::24::government",
+        "200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan",
+        "200401-marxist-Dien-Bien-Phu::concept::2::lai_chau",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la",
+        "200401-marxist-Dien-Bien-Phu::concept::67::dien_bien_phu_garrison",
+        "200401-marxist-Dien-Bien-Phu::concept::9::upper_laos"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "200401-marxist-Dien-Bien-Phu::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+        "200401-marxist-Dien-Bien-Phu::paragraph::5::those_forces_were_distributed_into_three_sub_sec::chunk::1::those_forces_were_distributed_into_three_sub_sec",
+        "200401-marxist-Dien-Bien-Phu::paragraph::7::the_northern_sub_sector_comprised_the_defence_ce::chunk::2::the_northern_sub_sector_comprised_the_defence_ce"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan",
+        "200401-marxist-Dien-Bien-Phu::concept::9::upper_laos"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "anchor_concept_id": "200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan",
+        "merged_candidate_ids": [
+          "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::8::upper_laos"
+        ]
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::anchor::10::hill_a_1",
+      "label": "Hill A-1",
+      "description": "Concept-anchored topic centered on hill A-1",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector",
+        "200401-marxist-Dien-Bien-Phu::concept::34::trenches",
+        "200401-marxist-Dien-Bien-Phu::concept::35::hill_a_1",
+        "200401-marxist-Dien-Bien-Phu::concept::36::hill_c_1",
+        "200401-marxist-Dien-Bien-Phu::concept::38::hill_e_1",
+        "200401-marxist-Dien-Bien-Phu::concept::39::defensive_system",
+        "200401-marxist-Dien-Bien-Phu::concept::43::fortified_heights",
+        "200401-marxist-Dien-Bien-Phu::concept::45::encirclement",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la",
+        "200401-marxist-Dien-Bien-Phu::concept::56::transport_planes"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+        "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+        "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::35::hill_a_1"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "200401-marxist-Dien-Bien-Phu::concept::35::hill_a_1"
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::section::2::first_phase_destruction_of_the_northern_sub_sector",
+      "label": "First phase: destruction of the northern sub-sector",
+      "description": "Section-seeded topic for First phase: destruction of the northern sub-sector",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "First phase: destruction of the northern sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::10::muong_thanh",
+        "200401-marxist-Dien-Bien-Phu::concept::12::him_lam",
+        "200401-marxist-Dien-Bien-Phu::concept::13::doc_lap",
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan",
+        "200401-marxist-Dien-Bien-Phu::concept::27::artillery_fire",
+        "200401-marxist-Dien-Bien-Phu::concept::2::lai_chau",
+        "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector",
+        "200401-marxist-Dien-Bien-Phu::concept::31::artillery",
+        "200401-marxist-Dien-Bien-Phu::concept::32::logistic_difficulties",
+        "200401-marxist-Dien-Bien-Phu::concept::3::tuan_giao",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+        "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "200401-marxist-Dien-Bien-Phu::paragraph::5::those_forces_were_distributed_into_three_sub_sec::chunk::1::those_forces_were_distributed_into_three_sub_sec"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::10::muong_thanh",
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "200401-marxist-Dien-Bien-Phu::section::18::first_phase_destruction_of_the_northern_sub_sect",
+        "source_section_label": "First phase: destruction of the northern sub-sector"
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::section::3::second_phase_occupation_of_the_hills_in_the_east_and_encirclement_of_the_central_sub_sector",
+      "label": "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector",
+      "description": "Section-seeded topic for Second phase: Occupation of the hills in the east and encirclement of the central sub-sector",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::27::artillery_fire",
+        "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector",
+        "200401-marxist-Dien-Bien-Phu::concept::31::artillery",
+        "200401-marxist-Dien-Bien-Phu::concept::35::hill_a_1",
+        "200401-marxist-Dien-Bien-Phu::concept::36::hill_c_1",
+        "200401-marxist-Dien-Bien-Phu::concept::39::defensive_system",
+        "200401-marxist-Dien-Bien-Phu::concept::44::counter_attack",
+        "200401-marxist-Dien-Bien-Phu::concept::45::encirclement",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la",
+        "200401-marxist-Dien-Bien-Phu::concept::67::dien_bien_phu_garrison",
+        "200401-marxist-Dien-Bien-Phu::concept::9::upper_laos"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+        "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::45::encirclement",
+        "200401-marxist-Dien-Bien-Phu::concept::4::son_la"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "200401-marxist-Dien-Bien-Phu::section::26::second_phase_occupation_of_the_hills_in_the_east",
+        "source_section_label": "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::topic_candidate::section::4::third_phase_annihilation_of_the_enemy",
+      "label": "Third phase: Annihilation of the enemy",
+      "description": "Section-seeded topic for Third phase: Annihilation of the enemy",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::0::vo_nguyen_giap",
+        "200401-marxist-Dien-Bien-Phu::concept::10::muong_thanh",
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan",
+        "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector",
+        "200401-marxist-Dien-Bien-Phu::concept::66::viet_bac",
+        "200401-marxist-Dien-Bien-Phu::concept::67::dien_bien_phu_garrison",
+        "200401-marxist-Dien-Bien-Phu::concept::68::french_and_american_generals",
+        "200401-marxist-Dien-Bien-Phu::concept::69::dien_bien_phu_entrenched_camp",
+        "200401-marxist-Dien-Bien-Phu::concept::70::high_command_of_the_french_expeditionary_corps",
+        "200401-marxist-Dien-Bien-Phu::concept::76::fifth_zone",
+        "200401-marxist-Dien-Bien-Phu::concept::9::upper_laos"
+      ],
+      "chunk_ids": [
+        "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+        "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::10::muong_thanh",
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::30::central_sub_sector"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "200401-marxist-Dien-Bien-Phu::section::35::third_phase_annihilation_of_the_enemy",
+        "source_section_label": "Third phase: Annihilation of the enemy"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_count": 16,
+    "consolidated_count": 10,
+    "accepted_count": 10
+  }
+}

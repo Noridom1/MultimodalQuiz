@@ -1,0 +1,105 @@
+{
+  "section_count": 5,
+  "sections": [
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::section::0::on_the_50th_anniversary_of_the_battle_of_dien_bi",
+      "label": "On the 50th anniversary of the battle of Dien Bien Phu:",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "On the 50th anniversary of the battle of Dien Bien Phu:"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::section::1::the_historic_dien_bien_phu_campaign",
+      "label": "The Historic Dien Bien Phu Campaign",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 1,
+        "level": 1
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::section::18::first_phase_destruction_of_the_northern_sub_sect",
+      "label": "First phase: destruction of the northern sub-sector",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 18,
+        "level": 1
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::section::26::second_phase_occupation_of_the_hills_in_the_east",
+      "label": "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 26,
+        "level": 1
+      }
+    },
+    {
+      "id": "200401-marxist-Dien-Bien-Phu::section::35::third_phase_annihilation_of_the_enemy",
+      "label": "Third phase: Annihilation of the enemy",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 35,
+        "level": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::11::dien_bien_phu_district"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu district"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::27::artillery_fire",
+        "200401-marxist-Dien-Bien-Phu::concept::31::artillery"
+      ],
+      "labels": [
+        "artillery fire",
+        "artillery"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::10::muong_thanh",
+        "200401-marxist-Dien-Bien-Phu::concept::33::muong_thanh_plain"
+      ],
+      "labels": [
+        "Muong Thanh",
+        "Muong Thanh plain"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::28::main_airfield",
+        "200401-marxist-Dien-Bien-Phu::concept::49::airfield"
+      ],
+      "labels": [
+        "main airfield",
+        "airfield"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::31::artillery",
+        "200401-marxist-Dien-Bien-Phu::concept::58::artillery_bases"
+      ],
+      "labels": [
+        "artillery",
+        "artillery bases"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::61::dien_bien_phu_base"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu base"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::59::anti_personnel_bombs",
+        "200401-marxist-Dien-Bien-Phu::concept::63::butterfly_anti_personnel_bombs"
+      ],
+      "labels": [
+        "anti-personnel bombs",
+        "butterfly anti-personnel bombs"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::67::dien_bien_phu_garrison"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu garrison"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::69::dien_bien_phu_entrenched_camp"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu entrenched camp"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::65::french_expeditionary_corps",
+        "200401-marxist-Dien-Bien-Phu::concept::70::high_command_of_the_french_expeditionary_corps"
+      ],
+      "labels": [
+        "French Expeditionary Corps",
+        "High Command of the French Expeditionary Corps"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "200401-marxist-Dien-Bien-Phu::concept::1::dien_bien_phu",
+        "200401-marxist-Dien-Bien-Phu::concept::73::dien_bien_phu_campaign"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu campaign"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

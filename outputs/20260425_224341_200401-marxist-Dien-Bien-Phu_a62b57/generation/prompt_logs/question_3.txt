@@ -1,0 +1,40 @@
+Index: 3
+Target concept: delayed-action bombs
+Tested fact block id: 200401-marxist-Dien-Bien-Phu::concept::62::delayed_action_bombs
+Image description: A diagram showing the internal mechanism of a delayed-action bomb.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: delayed-action bombs
+Question type: multiple_choice
+Difficulty: medium
+Reasoning type: causal
+Image role: illustrative
+Learning objective: Understand the purpose and mechanism of delayed-action bombs in disrupting supply lines.
+Image context: A diagram showing the internal mechanism of a delayed-action bomb.
+Tested fact block ID: 200401-marxist-Dien-Bien-Phu::concept::62::delayed_action_bombs
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+**Prompt:**
+Create a cross-section diagram of a delayed-action bomb, clearly labeling key components (e.g., fuse, timer, explosive core, casing) in high-contrast colors (e.g., red for explosive, blue for timer). Use simple arrows to show the sequence of activation, from impact to detonation delay. Avoid realistic branding or military insignia.
+
+**Alt:** A labeled cross-section diagram of a delayed-action bomb, showing internal components and activation sequence.
+
+--- Raw LLM image-prompt response ---
+**Prompt:**
+Create a cross-section diagram of a delayed-action bomb, clearly labeling key components (e.g., fuse, timer, explosive core, casing) in high-contrast colors (e.g., red for explosive, blue for timer). Use simple arrows to show the sequence of activation, from impact to detonation delay. Avoid realistic branding or military insignia.
+
+**Alt:** A labeled cross-section diagram of a delayed-action bomb, showing internal components and activation sequence.

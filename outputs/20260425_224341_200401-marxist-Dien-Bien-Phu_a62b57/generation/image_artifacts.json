@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a simplified, high-contrast map of northern Vietnam with clear terrain features (mountains, rivers) and labeled borders. Mark 'Site 1' (Dien Bien Phu) prominently with a distinct icon, and show key supply routes or surrounding strategic locations using arrows or dashed lines. Use muted earth tones for the base map with bold, legible labels in a neutral color like black or dark blue.\n\nAlt: A strategic map of northern Vietnam highlighting a key battlefield location and its surrounding terrain.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "Create a high-contrast, top-down map of a fortified valley with labeled French strongholds (e.g., \"Stronghold A,\" \"Artillery Position B\") arranged in a defensive ring, surrounded by rugged terrain and marked supply routes. Use muted earth tones for terrain, bold red/blue for opposing forces, and clear symbols for key features like airstrips or command posts. Avoid direct names—use generic labels like \"Leader A’s HQ\" or \"Site 1.\"\n\nAlt: A tactical map illustrating French defensive positions in a valley during a historical battle, with labeled strongholds and terrain features.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a cross-section diagram of a delayed-action bomb, clearly labeling key components (e.g., fuse, timer, explosive core, casing) in high-contrast colors (e.g., red for explosive, blue for timer). Use simple arrows to show the sequence of activation, from impact to detonation delay. Avoid realistic branding or military insignia.\n\n**Alt:** A labeled cross-section diagram of a delayed-action bomb, showing internal components and activation sequence.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a simplified, high-contrast map of Vietnam with a highlighted district in the northwest region, labeled as \"Site 1.\" Use muted earth tones for the country with a bold, contrasting color (e.g., red or blue) for the highlighted area, and include a compass rose for orientation. Avoid political borders or sensitive details.\n\nAlt: A map of Vietnam with a highlighted district in the northwest labeled as Site 1.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "Create a high-contrast, illustrative map showing key strategic locations (labeled as 'Site 1', 'Site 2', etc.) involved in the Winter-Spring campaign, with clear terrain features and movement arrows in muted winter tones transitioning to soft spring greens. Include a simple legend for symbols like supply routes and troop positions, ensuring all text is placeholder-based. Alt: A labeled map illustrating strategic locations and movements during the Winter-Spring campaign.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260425_224341_200401-marxist-Dien-Bien-Phu_a62b57/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

@@ -1,0 +1,38 @@
+Index: 2
+Target concept: Navarre plan
+Tested fact block id: 200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan
+Image description: A map showing the strategic positions of French forces in Dien Bien Phu as part of the Navarre plan.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: Navarre plan
+Question type: multiple_choice
+Difficulty: medium
+Reasoning type: causal
+Image role: illustrative
+Learning objective: Understand the strategic objectives and outcomes of the Navarre plan during the Battle of Dien Bien Phu.
+Image context: A map showing the strategic positions of French forces in Dien Bien Phu as part of the Navarre plan.
+Tested fact block ID: 200401-marxist-Dien-Bien-Phu::concept::25::navarre_plan
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+Create a high-contrast, top-down map of a fortified valley with labeled French strongholds (e.g., "Stronghold A," "Artillery Position B") arranged in a defensive ring, surrounded by rugged terrain and marked supply routes. Use muted earth tones for terrain, bold red/blue for opposing forces, and clear symbols for key features like airstrips or command posts. Avoid direct names—use generic labels like "Leader A’s HQ" or "Site 1."
+
+Alt: A tactical map illustrating French defensive positions in a valley during a historical battle, with labeled strongholds and terrain features.
+
+--- Raw LLM image-prompt response ---
+Create a high-contrast, top-down map of a fortified valley with labeled French strongholds (e.g., "Stronghold A," "Artillery Position B") arranged in a defensive ring, surrounded by rugged terrain and marked supply routes. Use muted earth tones for terrain, bold red/blue for opposing forces, and clear symbols for key features like airstrips or command posts. Avoid direct names—use generic labels like "Leader A’s HQ" or "Site 1."
+
+Alt: A tactical map illustrating French defensive positions in a valley during a historical battle, with labeled strongholds and terrain features.
