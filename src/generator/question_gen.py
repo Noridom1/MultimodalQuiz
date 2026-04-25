@@ -128,7 +128,11 @@ class LLMQuestionGenerator:
             question_type=question_plan.question_type,
             associated_image=image_path,
             image_grounded=LLMQuestionGenerator._requires_image_grounding(question_plan),
-            metadata={"reasoning_type": question_plan.reasoning_type, **question_plan.metadata},
+            metadata={
+                "reasoning_type": question_plan.reasoning_type,
+                "tested_fact_source": question_plan.tested_fact_block_id,
+                **question_plan.metadata
+            },
         )
         question.validate()
         return question

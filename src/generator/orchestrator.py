@@ -30,6 +30,85 @@ class GenerationOrchestrator:
         self._question_generator = question_generator or LLMQuestionGenerator()
         self._prompt_builder = prompt_builder or PromptBuilder()
 
+    def run_with_topic_planner(
+        self,
+        graph,
+        *,
+        total_questions: int,
+        output_dir: Path | None = None,
+        run_id: str | None = None,
+        mock_image: bool = False,
+        mock_question: bool = False,
+        difficulty_distribution: dict[str, float] | None = None,
+    ) -> dict[str, Any]:
+        """Generate quiz questions using the topic-agentic planner.
+        
+        Args:
+            graph: MultimodalDocumentGraph to generate from.
+            total_questions: Total number of questions to generate.
+            output_dir: Optional output directory; defaults to {PROJECT_ROOT}/data/questions/{run_id}.
+            run_id: Optional run ID; auto-generated if not provided.
+            mock_image: If True, skip image generation (use mocked paths).
+            mock_question: If True, skip question generation (use placeholder questions).
+            difficulty_distribution: Optional dict mapping difficulty to proportion.
+            
+        Returns:
+            Generation result dict with questions, metadata, paths, etc.
+        """
+        # Import here to avoid circular imports
+        from src.planner.topic_planner import TopicAgenticPlanner
+        from src.knowledge.schema import MultimodalDocumentGraph
+        import tempfile
+        
+        # Validate graph
+        if not isinstance(graph, MultimodalDocumentGraph):
+            raise TypeError("graph must be a MultimodalDocumentGraph instance")
+        
+        # Create planner and generate plan
+        planner = TopicAgenticPlanner(knowledge_graph=graph)
+        plans = planner.plan(
+            total_questions=total_questions,
+            difficulty_distribution=difficulty_distribution,
+        )
+        
+        # Save plan to temporary file
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+            plan_data = {"questions": []}
+            for idx, plan in enumerate(plans):
+                plan_dict = {
+                    "index": idx,
+                    "target_concept": plan.target_concept,
+                    "question_type": plan.question_type,
+                    "difficulty": plan.difficulty,
+                    "reasoning_type": plan.reasoning_type,
+                    "image_role": plan.image_role,
+                    "image_description": plan.image_description,
+                    "learning_objective": plan.learning_objective,
+                    "tested_fact_block_id": plan.tested_fact_block_id,
+                    "metadata": plan.metadata,
+                }
+                plan_data["questions"].append(plan_dict)
+            json.dump(plan_data, f)
+            plan_path = Path(f.name)
+        
+        try:
+            # Run generation with the plan
+            effective_run_id = run_id or self._generate_run_id()
+            result = self.run(
+                plan_path,
+                output_dir=output_dir,
+                run_id=effective_run_id,
+                mock_image=mock_image,
+                mock_question=mock_question,
+            )
+            return result
+        finally:
+            # Clean up temporary plan file
+            try:
+                plan_path.unlink()
+            except:
+                pass
+
     @staticmethod
     def _generate_run_id() -> str:
         timestamp = dt.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -107,6 +186,7 @@ class GenerationOrchestrator:
                     "image_role": plan.image_role,
                     "image_description": plan.image_description,
                     "learning_objective": plan.learning_objective,
+                    "tested_fact_block_id": plan.tested_fact_block_id,
                     "metadata": plan.metadata,
                     "image_prompt": self._prompt_builder.build_image_prompt(plan),
                 }
@@ -182,6 +262,7 @@ class GenerationOrchestrator:
                 image_role=record.get("image_role"),
                 image_description=record.get("image_description"),
                 learning_objective=record.get("learning_objective"),
+                tested_fact_block_id=record.get("tested_fact_block_id"),
                 metadata=record.get("metadata", {}),
             )
             for record in plan_records

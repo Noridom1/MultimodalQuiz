@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from typing import Callable, Optional, Dict, Any
 
 from src.planner.planner import QuestionPlan
 
@@ -56,6 +57,9 @@ class PromptBuilder:
             prompt_lines.append(f"Learning objective: {question_plan.learning_objective}")
         if question_plan.image_description:
             prompt_lines.append(f"Image context: {question_plan.image_description}")
+        if question_plan.tested_fact_block_id:
+            prompt_lines.append(f"Tested fact block ID: {question_plan.tested_fact_block_id}")
+            prompt_lines.append("Cite this fact source in your explanation.")
         if context.strip():
             prompt_lines.append(f"Knowledge context: {context.strip()}")
 
@@ -73,6 +77,7 @@ class PromptBuilder:
     @staticmethod
     def build_image_prompt(question_plan: QuestionPlan) -> str:
         """Build the prompt used to generate an image for a question."""
+        # Backwards-compatible wrapper: produce a concise instruction string
         role = question_plan.image_role or "illustration"
         description = question_plan.image_description or question_plan.target_concept
         objective = question_plan.learning_objective or "support quiz question answering"
@@ -83,4 +88,71 @@ class PromptBuilder:
             f"The image must help learners {objective}. "
             "Use clean composition, legible labels, and avoid decorative clutter."
         )
+
+    @staticmethod
+    def build_image_prompt_via_llm(
+        question_plan: QuestionPlan,
+        llm: Optional[Callable[[str], str]] = None,
+    ) -> str:
+        """Construct a detailed, structured prompt for an LLM to produce image-generation instructions.
+
+        If `llm` is provided it will be called with the composed prompt and its output returned.
+        Otherwise the composed LLM prompt string is returned for an external caller to send to an LLM.
+        The prompt asks the LLM to return a concise JSON object describing the image and artist
+        guidance including `description`, `composition`, `labels`, `color_palette`, `camera`,
+        `annotations`, `alt_text`, and `notes_for_illustrator`.
+        """
+        role = (question_plan.image_role or "illustration").strip()
+        description = question_plan.image_description or question_plan.target_concept
+        objective = question_plan.learning_objective or "support quiz question answering"
+
+        schema: Dict[str, Any] = {
+            "description": "string (short, 1-2 sentences)",
+            "composition": "string (what is shown, focal point, perspective)",
+            "labels": ["string"],
+            "color_palette": "string (2-4 main colors / tones)",
+            "camera": "string (perspective/zoom, e.g. top-down, close-up)",
+            "annotations": ["string"],
+            "alt_text": "string (one-line accessibility description)",
+            "notes_for_illustrator": "string (any extra constraints)",
+        }
+
+        constraints = [
+            "Return ONLY valid JSON that matches the required schema.",
+            "Keep `description` short (1-2 sentences) and `notes_for_illustrator` actionable.",
+            "Avoid copyrighted characters, real brand logos, or trademarked designs.",
+            "Prefer legible fonts, clear labels, and high contrast for educational clarity.",
+            "Include an `alt_text` field suitable for screen readers (1 sentence).",
+        ]
+
+        prompt_lines = [
+            "SYSTEM: You are an expert image-generation prompt engineer. Produce a compact JSON\ndescription that an illustrator or image model can follow to produce a clear educational image.",
+            "USER:",
+            f"Target concept: {question_plan.target_concept}",
+            f"Image role: {role}",
+            f"Objective: {objective}",
+            f"Image context / content to depict: {description}",
+        ]
+
+        if question_plan.learning_objective:
+            prompt_lines.append(f"Learning objective: {question_plan.learning_objective}")
+        if question_plan.image_description:
+            prompt_lines.append(f"Additional image context: {question_plan.image_description}")
+
+        prompt_lines.extend(
+            [
+                "Required output JSON schema:",
+                json.dumps(schema, ensure_ascii=False),
+                "Constraints:",
+                *[f"- {c}" for c in constraints],
+                "If any visual element might introduce ambiguity, add a short `notes_for_illustrator`.",
+            ]
+        )
+
+        llm_prompt = "\n".join(prompt_lines)
+
+        if llm:
+            return llm(llm_prompt)
+
+        return llm_prompt
     
