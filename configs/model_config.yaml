@@ -6,8 +6,8 @@ llm:
 
 image_generation:
   provider: freepik
-  endpoint: https://api.freepik.com/v1/ai/gemini-2-5-flash-image-preview
-  model: gemini-2-5-flash-image-preview
+  endpoint: https://api.freepik.com/v1/ai/text-to-image/nano-banana-pro
+  model: nano-banana-pro
   output_format: png
   api_key_env: FREEPIK_API_KEY
   timeout_seconds: 120

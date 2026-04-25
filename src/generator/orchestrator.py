@@ -7,6 +7,8 @@ import time
 from pathlib import Path
 from typing import Any
 from uuid import uuid4
+import concurrent.futures
+import math
 
 from src.generator.image_gen import ImageGenerator
 from src.generator.prompt_builder import PromptBuilder
@@ -286,6 +288,54 @@ class GenerationOrchestrator:
         image_artifacts: list[dict[str, Any]] = []
         questions: list[dict[str, Any]] = []
         total_records = len(effective_prompts)
+
+        # Parallel image generation: submit image tasks concurrently to reduce total runtime.
+        image_futures: dict[concurrent.futures.Future, dict[str, Any]] = {}
+        image_results_by_index: dict[int, dict[str, Any]] = {}
+        # Determine worker count (bounded to reasonable limits)
+        default_workers = min(8, (len(effective_prompts) or 1))
+        image_workers = default_workers
+        with concurrent.futures.ThreadPoolExecutor(max_workers=image_workers) as executor:
+            for rec in effective_prompts:
+                idx = rec.get("index")
+                img_prompt = rec.get("image_prompt")
+                # Skip submission if no image prompt
+                if not img_prompt:
+                    continue
+
+                def _submit_image(idx_local: int, prompt_local: str):
+                    try:
+                        if mock_image:
+                            image_url = f"mock://image/{effective_run_id}/{idx_local}.png"
+                            return {"index": idx_local, "status": "generated", "image_url": image_url}
+                        else:
+                            image_url = self._image_generator.generate(
+                                prompt_local,
+                                image_paths=image_paths,
+                                output_dir=image_output_dir,
+                                file_stem=str(idx_local),
+                            )
+                            if not image_url:
+                                return {"index": idx_local, "status": "failed", "image_url": None}
+                            return {"index": idx_local, "status": "generated", "image_url": image_url}
+                    except Exception as e:
+                        LOGGER.exception("Image generation exception index=%s: %s", idx_local, e)
+                        return {"index": idx_local, "status": "failed", "image_url": None}
+
+                fut = executor.submit(_submit_image, idx, img_prompt)
+                image_futures[fut] = rec
+
+            # Collect image results as they complete
+            for fut in concurrent.futures.as_completed(list(image_futures.keys())):
+                rec = image_futures.get(fut)
+                try:
+                    res = fut.result()
+                except Exception as exc:
+                    LOGGER.exception("Unexpected image future failure for record %s: %s", rec.get("index"), exc)
+                    res = {"index": rec.get("index"), "status": "failed", "image_url": None}
+                image_results_by_index[int(res.get("index"))] = res
+
+        # After all image tasks finished, proceed record-by-record to generate questions
         for position, rec in enumerate(effective_prompts, start=1):
             idx = rec.get("index")
             q_prompt = rec.get("question_prompt", "")
@@ -341,23 +391,12 @@ class GenerationOrchestrator:
                 image_url = None
                 image_status = "skipped"
                 if img_prompt:
-                    LOGGER.info("Starting image generation for index=%s mode=%s", idx, "mock" if mock_image else "provider")
-                    if mock_image:
-                        image_url = f"mock://image/{effective_run_id}/{idx}.png"
-                        image_status = "generated"
-                    else:
-                        image_url = self._image_generator.generate(
-                            img_prompt,
-                            image_paths=image_paths,
-                            output_dir=image_output_dir,
-                            file_stem=str(idx),
-                        )
-                        if not image_url:
-                            image_url = None
-                        else:
-                            image_status = "generated"
+                    # Retrieve parallel image generation result
+                    img_res = image_results_by_index.get(int(idx), {})
+                    image_url = img_res.get("image_url")
+                    image_status = img_res.get("status", "failed")
                     LOGGER.info(
-                        "Completed image generation for index=%s status=%s image_ref=%s",
+                        "Image generation result for index=%s status=%s image_ref=%s",
                         idx,
                         image_status,
                         image_url,

@@ -33,6 +33,9 @@ class ImageGenerationConfig:
     api_key: str | None = None
     timeout_seconds: int = 120
     poll_interval_seconds: int = 2
+    submit_max_retries: int = 3
+    submit_backoff_seconds: int = 1
+    poll_failure_threshold: int = 3
 
 
 class ImageGenerator:
@@ -77,6 +80,9 @@ class ImageGenerator:
             poll_interval_seconds=max(
                 1, int(image_cfg.get("poll_interval_seconds", ImageGenerationConfig.poll_interval_seconds))
             ),
+            submit_max_retries=int(image_cfg.get("submit_max_retries", ImageGenerationConfig.submit_max_retries)),
+            submit_backoff_seconds=float(image_cfg.get("submit_backoff_seconds", ImageGenerationConfig.submit_backoff_seconds)),
+            poll_failure_threshold=int(image_cfg.get("poll_failure_threshold", ImageGenerationConfig.poll_failure_threshold)),
         )
 
     def _resolve_api_key(self) -> str | None:
@@ -229,8 +235,30 @@ class ImageGenerator:
 
         try:
             LOGGER.info("Submitting image generation task to provider=%s", self._config.provider)
-            create_payload = self._submit_task(prompt=cleaned_prompt, reference_images=reference_images, api_key=api_key)
-            task_data = self._extract_task_data(create_payload)
+            # Attempt submission with retries/backoff for transient errors
+            create_payload = None
+            last_exc = None
+            for attempt in range(1, max(1, self._config.submit_max_retries) + 1):
+                try:
+                    create_payload = self._submit_task(prompt=cleaned_prompt, reference_images=reference_images, api_key=api_key)
+                    task_data = self._extract_task_data(create_payload)
+                    last_exc = None
+                    break
+                except Exception as exc:
+                    last_exc = exc
+                    LOGGER.warning(
+                        "Image generation submission attempt %d/%d failed: %s",
+                        attempt,
+                        self._config.submit_max_retries,
+                        exc,
+                    )
+                    if attempt < self._config.submit_max_retries:
+                        backoff = self._config.submit_backoff_seconds * (2 ** (attempt - 1))
+                        time.sleep(backoff)
+            if last_exc is not None and create_payload is None:
+                # Log the last error with response text if present and abort submission
+                LOGGER.exception("Image generation task submission failed provider=%s", self._config.provider)
+                return ""
         except Exception:
             LOGGER.exception("Image generation task submission failed provider=%s", self._config.provider)
             return ""
@@ -246,14 +274,22 @@ class ImageGenerator:
         LOGGER.info("Submitted image generation task task_id=%s initial_status=%s", task_id, status or "UNKNOWN")
 
         deadline = time.monotonic() + self._config.timeout_seconds
+        poll_failures = 0
         while status in {"", "CREATED", "IN_PROGRESS"} and time.monotonic() < deadline:
             time.sleep(self._config.poll_interval_seconds)
             try:
                 poll_payload = self._get_task(task_id, api_key)
                 task_data = self._extract_task_data(poll_payload)
+                # reset failure counter on success
+                poll_failures = 0
             except Exception:
-                LOGGER.exception("Image generation task polling failed task_id=%s", task_id)
-                return ""
+                poll_failures += 1
+                LOGGER.exception("Image generation task polling failed task_id=%s (failure %d)", task_id, poll_failures)
+                if poll_failures >= max(1, self._config.poll_failure_threshold):
+                    LOGGER.error("Exceeded poll failure threshold for task_id=%s; aborting", task_id)
+                    return ""
+                # continue polling until deadline
+                continue
 
             status = str(task_data.get("status", "")).strip().upper()
             generated = task_data.get("generated") if isinstance(task_data.get("generated"), list) else []
