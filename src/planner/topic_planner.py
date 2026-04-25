@@ -110,14 +110,12 @@ class TopicAgenticPlanner:
 
         logger.info(f"Found {len(topic_ids)} topic nodes. Planning {effective_total} questions.")
 
-        # Calculate total resources for proportional allocation
-        total_resources = 0
+        # Calculate total resources for proportional allocation, but prioritize uncovered concepts
         topic_contexts = {}
         for topic_id in topic_ids:
             try:
                 context = self._retriever.retrieve_context(topic_id)
                 topic_contexts[topic_id] = context
-                total_resources += context.total_chunk_count + len(context.associated_concepts)
             except ValueError as e:
                 logger.warning(f"Failed to retrieve context for topic {topic_id}: {e}")
                 continue
@@ -125,46 +123,63 @@ class TopicAgenticPlanner:
         if not topic_contexts:
             raise RuntimeError("Could not retrieve context for any topics.")
 
-        # Generate plans iteratively
+        # Greedy allocation to maximize unique concept coverage across topics
         all_plans = []
         remaining_budget = effective_total
+        used_concepts: set[str] = set()
 
+        # Precompute uncovered counts per topic (by concept labels)
+        def topic_uncovered_concepts(ctx):
+            return [c for c in ctx.associated_concepts if c.label.lower() not in used_concepts]
+
+        # Loop through topics and allocate proportionally by uncovered concept counts
         for topic_id in topic_ids:
             if topic_id not in topic_contexts:
                 continue
 
             context = topic_contexts[topic_id]
-
-            # Calculate budget for this topic
-            allocated = calculate_topic_budget(
-                context,
-                remaining_budget,
-                len(topic_contexts),
-                total_resources,
-                max_per_topic=max_per_topic,
-            )
-
-            if allocated == 0:
-                logger.debug(f"Skipping topic {topic_id} (no allocated budget)")
+            uncovered = topic_uncovered_concepts(context)
+            # Skip topics with no uncovered concepts
+            if not uncovered:
+                logger.debug(f"Skipping topic {topic_id} ({context.topic_label}) - no uncovered concepts")
                 continue
 
-            logger.info(f"Generating {allocated} questions for topic {context.topic_label}")
+            # Compute total uncovered across remaining topics
+            total_uncovered = sum(len(topic_uncovered_concepts(topic_contexts[t])) for t in topic_ids if t in topic_contexts)
+            if total_uncovered <= 0:
+                break
 
-            # Generate plans for this topic
+            # Allocate proportionally to uncovered concept counts
+            allocated = int(round(remaining_budget * len(uncovered) / total_uncovered))
+            allocated = max(1, min(allocated, remaining_budget, max_per_topic))
+
+            if allocated == 0:
+                logger.debug(f"Skipping topic {topic_id} (0 allocated)")
+                continue
+
+            logger.info(f"Generating {allocated} questions for topic {context.topic_label} (uncovered concepts: {len(uncovered)})")
+
+            # Generate plans for this topic, restricting to uncovered concept labels
             try:
+                only_concept_labels = [c.label for c in uncovered]
                 topic_plans = self._generate_topic_plans(
                     context,
                     allocated,
                     difficulty_distribution,
+                    only_concepts=only_concept_labels,
                 )
-                all_plans.extend(topic_plans)
-                remaining_budget -= len(topic_plans)
 
+                all_plans.extend(topic_plans)
+                # Mark produced target concepts as used
+                for p in topic_plans:
+                    if p.target_concept:
+                        used_concepts.add(p.target_concept.lower())
+
+                remaining_budget -= len(topic_plans)
                 if remaining_budget <= 0:
                     break
             except RuntimeError as e:
                 logger.error(f"Failed to generate plans for topic {context.topic_label}: {e}")
-                # Continue to next topic on failure
                 continue
 
         if not all_plans:
@@ -179,6 +194,8 @@ class TopicAgenticPlanner:
         context,
         num_questions: int,
         difficulty_distribution: dict[str, float],
+        *,
+        only_concepts: list[str] | None = None,
     ) -> list[QuestionPlan]:
         """Generate question plans for a specific topic.
         
@@ -197,6 +214,7 @@ class TopicAgenticPlanner:
             context,
             num_questions,
             difficulty_distribution,
+            only_concepts=only_concepts,
         )
 
         last_error: Exception | None = None
@@ -404,33 +422,94 @@ class TopicAgenticPlanner:
         if not plans:
             return
 
-        # Build a lookup of block_id -> chunk text
-        block_to_text: dict[str, str] = {}
+        # Build lookups: chunk id and source_block_id -> chunk object
+        chunk_by_id: dict[str, object] = {}
+        chunk_by_block: dict[str, object] = {}
         try:
             for concept_id, chunks in getattr(context, "concept_chunks", {}).items():
                 for chunk in chunks:
                     # chunk may be a dataclass or dict-like
                     chunk_id = getattr(chunk, "id", None) or (chunk.get("id") if isinstance(chunk, dict) else None)
                     source_block = getattr(chunk, "source_block_id", None) or (chunk.get("source_block_id") if isinstance(chunk, dict) else None)
-                    text = getattr(chunk, "text", None) or (chunk.get("text") if isinstance(chunk, dict) else None)
-                    if source_block and text:
-                        block_to_text[str(source_block)] = str(text)
-                    if chunk_id and text:
-                        block_to_text[str(chunk_id)] = str(text)
+                    if chunk_id:
+                        chunk_by_id[str(chunk_id)] = chunk
+                    if source_block:
+                        chunk_by_block[str(source_block)] = chunk
         except Exception:
-            logger.exception("Error building block->text lookup from context; skipping knowledge_context attachment")
+            logger.exception("Error building chunk lookups from context; skipping knowledge_context attachment")
+
+        # Helper to pick top-N chunks for a given concept id
+        def pick_top_chunks_for_concept(concept_id: str, n: int) -> list[object]:
+            try:
+                chunks = getattr(context, "concept_chunks", {}).get(concept_id, [])
+                # Assume chunks already ordered by relevance; fallback to first-n
+                return chunks[:n]
+            except Exception:
+                return []
 
         for plan in plans:
             tfid = getattr(plan, "tested_fact_block_id", None)
             if not tfid:
                 continue
-            context_text = block_to_text.get(str(tfid))
-            if context_text:
+
+            # Find the chunk that matches tfid (either chunk id or source_block_id)
+            matched_chunk = chunk_by_id.get(str(tfid)) or chunk_by_block.get(str(tfid))
+
+            # Determine number of chunks to attach by reasoning type
+            reasoning = getattr(plan, "reasoning_type", "factoid") or "factoid"
+            reasoning = reasoning.lower()
+            if reasoning == "factoid":
+                top_n = 1
+            elif reasoning == "causal":
+                top_n = 3
+            elif reasoning == "multi-hop":
+                top_n = 5
+            else:
+                top_n = 3
+
+            attached_chunks: list[dict] = []
+
+            # If we found the matched chunk, try to find its concept and pick siblings
+            if matched_chunk:
+                # Find concept id that contains this chunk
+                found_concept_id = None
+                for concept_id, chunks in getattr(context, "concept_chunks", {}).items():
+                    for c in chunks:
+                        cid = getattr(c, "id", None) or (c.get("id") if isinstance(c, dict) else None)
+                        sb = getattr(c, "source_block_id", None) or (c.get("source_block_id") if isinstance(c, dict) else None)
+                        if str(cid) == str(tfid) or str(sb) == str(tfid):
+                            found_concept_id = concept_id
+                            break
+                    if found_concept_id:
+                        break
+
+                if found_concept_id:
+                    top_chunks = pick_top_chunks_for_concept(found_concept_id, top_n)
+                    for c in top_chunks:
+                        cid = getattr(c, "id", None) or (c.get("id") if isinstance(c, dict) else None)
+                        sb = getattr(c, "source_block_id", None) or (c.get("source_block_id") if isinstance(c, dict) else None)
+                        text = getattr(c, "text", None) or (c.get("text") if isinstance(c, dict) else None)
+                        conf = getattr(c, "confidence", None) or (c.get("confidence") if isinstance(c, dict) else None)
+                        attached_chunks.append({"id": cid, "source_block_id": sb, "confidence": conf, "text": text})
+
+            # Fallback: if no matched chunk found, try direct lookup by tfid
+            if not attached_chunks:
+                direct = chunk_by_id.get(str(tfid)) or chunk_by_block.get(str(tfid))
+                if direct:
+                    c = direct
+                    cid = getattr(c, "id", None) or (c.get("id") if isinstance(c, dict) else None)
+                    sb = getattr(c, "source_block_id", None) or (c.get("source_block_id") if isinstance(c, dict) else None)
+                    text = getattr(c, "text", None) or (c.get("text") if isinstance(c, dict) else None)
+                    conf = getattr(c, "confidence", None) or (c.get("confidence") if isinstance(c, dict) else None)
+                    attached_chunks.append({"id": cid, "source_block_id": sb, "confidence": conf, "text": text})
+
+            # As a last resort, attach nothing
+            if attached_chunks:
                 if not isinstance(plan.metadata, dict):
                     plan.metadata = {}
-                # Keep existing knowledge_context if already set
+                # Only set if not already present
                 if not plan.metadata.get("knowledge_context"):
-                    plan.metadata["knowledge_context"] = context_text
+                    plan.metadata["knowledge_context"] = attached_chunks
 
     def save_plan(
         self,

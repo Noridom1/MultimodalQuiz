@@ -161,37 +161,49 @@ class TopicContextRetriever:
         chunks = []
         visited_blocks = set()
 
-        # Find blocks/sections connected to the concept
+        # Find blocks/sections/chunks connected to the concept
         edge_types = {EdgeRelation.mentions, EdgeRelation.references, EdgeRelation.supports}
-        
-        outgoing = self._edges_by_source.get(concept_id, [])
-        for edge in outgoing:
+
+        # Consider both outgoing edges from the concept and incoming edges that target the concept.
+        # Some builder runs emit chunk -> concept edges (source=chunk, target=concept),
+        # so inspecting edges by target ensures we find those groundings.
+        candidate_edges = []
+        candidate_edges.extend(self._edges_by_source.get(concept_id, []))
+        candidate_edges.extend(self._edges_by_target.get(concept_id, []))
+
+        for edge in candidate_edges:
             if edge.confidence != "EXTRACTED":
                 continue
             if edge.relation not in edge_types:
                 continue
 
-            block_node = self._nodes_by_id.get(edge.target)
+            # Determine the node that represents the block/chunk depending on edge direction
+            # If edge.source == concept_id, block is edge.target; otherwise block is edge.source
+            block_node_id = edge.target if edge.source == concept_id else edge.source
+            block_node = self._nodes_by_id.get(block_node_id)
             if not block_node:
                 continue
-            if block_node.kind not in {NodeKind.block, NodeKind.section}:
+
+            # Accept chunk nodes as well as legacy block/section kinds
+            if block_node.kind not in {NodeKind.block, NodeKind.section, NodeKind.chunk}:
                 continue
             if block_node.id in visited_blocks:
                 continue
 
             visited_blocks.add(block_node.id)
-            
-            # Create a text chunk from this block
+
+            # Create a text chunk from this block or reuse existing chunk id if present
             if block_node.text:
+                chunk_id = block_node.id if block_node.kind == NodeKind.chunk else f"{concept_id}_chunk_{len(chunks)}"
                 chunk = TextChunk(
-                    id=f"{concept_id}_chunk_{len(chunks)}",
+                    id=chunk_id,
                     text=block_node.text,
                     source_block_id=block_node.id,
-                    section_path=block_node.section_path,
+                    section_path=getattr(block_node, "section_path", []),
                     confidence="EXTRACTED",
                     metadata={
-                        "source_label": block_node.label,
-                        "source_file": block_node.source_file,
+                        "source_label": getattr(block_node, "label", None),
+                        "source_file": getattr(block_node, "source_file", None),
                     }
                 )
                 chunks.append(chunk)

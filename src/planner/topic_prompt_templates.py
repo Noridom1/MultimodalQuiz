@@ -85,6 +85,7 @@ def render_topic_plan_prompt(
 	topic_context: TopicContext,
 	num_questions: int,
 	difficulty_distribution: Optional[dict[str, float]] = None,
+	only_concepts: list[str] | None = None,
 ) -> str:
 	"""Render a prompt for topic-driven question planning.
 	
@@ -99,9 +100,13 @@ def render_topic_plan_prompt(
 	if difficulty_distribution is None:
 		difficulty_distribution = {"easy": 0.4, "medium": 0.4, "hard": 0.2}
 
-	# Build concept list
+	# Build concept list (optionally filtered to only_concepts)
 	concept_list = ""
-	for i, concept in enumerate(topic_context.associated_concepts, 1):
+	assoc = topic_context.associated_concepts
+	if only_concepts is not None:
+		assoc = [c for c in assoc if c.id in only_concepts or c.label in only_concepts]
+
+	for i, concept in enumerate(assoc, 1):
 		concept_text = f"- [{i}] {concept.label} (ID: {concept.id})"
 		if concept.text:
 			# Include first 100 chars of concept text if available
@@ -111,17 +116,26 @@ def render_topic_plan_prompt(
 
 	# Build chunks list with block IDs for citation
 	chunks_list = ""
-	for concept_id, chunks in topic_context.concept_chunks.items():
+	# Filter chunks to only include those for concepts we're showing
+	concept_chunks_items = topic_context.concept_chunks.items()
+	if only_concepts is not None:
+		concept_chunks_items = ((cid, chs) for cid, chs in topic_context.concept_chunks.items() if cid in only_concepts or cid in [c for c in only_concepts])
+
+	for concept_id, chunks in concept_chunks_items:
 		concept_label = next((c.label for c in topic_context.associated_concepts if c.id == concept_id), concept_id)
 		chunks_list += f"\n[Concept: {concept_label}]\n"
-		for chunk in chunks[:3]:  # Limit to top 3 chunks per concept
+		for chunk in chunks[:5]:  # Limit to top 5 chunks per concept
 			# Truncate long text to 200 chars
 			truncated_text = chunk.text[:200] + ("..." if len(chunk.text) > 200 else "")
 			chunks_list += f"  - Block ID: {chunk.source_block_id}\n    Text: {truncated_text}\n"
 
 	# Build images list
 	images_list = ""
-	for concept_id, image_ids in topic_context.concept_images.items():
+	image_items = topic_context.concept_images.items()
+	if only_concepts is not None:
+		image_items = ((cid, imgs) for cid, imgs in topic_context.concept_images.items() if cid in only_concepts or cid in [c for c in only_concepts])
+
+	for concept_id, image_ids in image_items:
 		if image_ids:
 			concept_label = next((c.label for c in topic_context.associated_concepts if c.id == concept_id), concept_id)
 			images_list += f"\n[Concept: {concept_label}]\n"
