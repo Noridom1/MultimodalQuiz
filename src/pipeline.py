@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import datetime as dt
 import os
+import logging
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from uuid import uuid4
@@ -16,7 +17,10 @@ from src.document_understanding.parser import parse_document
 from src.generator.orchestrator import GenerationOrchestrator
 from src.knowledge.kg_builder import build_knowledge_graph, export_graph_bundle
 from src.planner.planner import QuizPlanner
+from src.planner.topic_planner import TopicAgenticPlanner
 from src.utils.io import append_jsonl, relative_path, write_json
+
+logger = logging.getLogger(__name__)
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -137,7 +141,33 @@ class QuizGenerationPipeline:
         image_paths: list[str] | None = None,
         mock_image: bool = False,
         mock_question: bool = False,
+        generation_mode: str = "topic_agentic",
     ) -> dict[str, object]:
+        """Run the quiz generation pipeline end-to-end.
+        
+        Args:
+            document_path: Path to the document to process.
+            output_root: Root directory for outputs; defaults to PROJECT_ROOT/outputs.
+            run_id: Optional run ID; auto-generated if not provided.
+            num_questions: Number of questions to generate.
+            difficulty_distribution: Optional dict mapping difficulty to proportion.
+            image_paths: Optional list of image paths to use instead of generating.
+            mock_image: If True, skip image generation.
+            mock_question: If True, skip question generation.
+            generation_mode: "topic_agentic" (default, new system) or "legacy" (old QuizPlanner).
+            
+        Returns:
+            Pipeline result dict with artifacts and metadata.
+        """
+        if generation_mode not in ("topic_agentic", "legacy"):
+            raise ValueError(f"Invalid generation_mode: {generation_mode}. Must be 'topic_agentic' or 'legacy'.")
+        
+        if generation_mode == "legacy":
+            logger.warning(
+                "Using legacy generation mode 'legacy'. This mode is deprecated and will be removed in a future version. "
+                "Please use generation_mode='topic_agentic' (default)."
+            )
+        
         document_path = Path(document_path)
         if not document_path.exists():
             raise FileNotFoundError(f"Document not found: {document_path}")
@@ -246,7 +276,15 @@ class QuizGenerationPipeline:
 
             active_stage = "plan"
             _log_event(context, active_stage, "started", "Generating quiz plan")
-            planner = QuizPlanner(knowledge_graph=document_graph)
+            
+            # Choose planner based on generation mode
+            if generation_mode == "topic_agentic":
+                planner = TopicAgenticPlanner(knowledge_graph=document_graph)
+                logger.info("Using TopicAgenticPlanner (topic-driven generation)")
+            else:
+                planner = QuizPlanner(knowledge_graph=document_graph)
+                logger.info("Using QuizPlanner (legacy deterministic generation)")
+            
             plans = planner.plan(num_questions=num_questions, difficulty_distribution=effective_distribution)
             plan_path = context.planning_dir / "quiz_plan.json"
             planner.save_plan(plans, plan_path)
@@ -258,6 +296,7 @@ class QuizGenerationPipeline:
                 "completed",
                 "Quiz plan generated",
                 question_count=len(plans),
+                generation_mode=generation_mode,
             )
 
             active_stage = "generate"
