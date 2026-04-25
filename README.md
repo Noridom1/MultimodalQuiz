@@ -231,7 +231,120 @@ quizgen/
 └── README.md
 ```
 
-## 5. Key Contributions
+## 5. Running Guide
+
+### 5.1 Run the Full Pipeline
+
+The full pipeline is executed through `scripts/run_pipeline.py`.
+
+#### Prerequisites
+
+* Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+* Configure your environment variables (for LLM/image providers) in `.env` if needed.
+* Prepare an input document path (PDF, Markdown, or text-like source supported by the parser).
+
+#### Basic command
+
+```bash
+python scripts/run_pipeline.py <document_path>
+```
+
+Example:
+
+```bash
+python scripts/run_pipeline.py data/raw/book-riscv-rev5-chap8.pdf
+```
+
+By default this creates one run folder under `outputs/`.
+
+#### Useful options
+
+```bash
+python scripts/run_pipeline.py <document_path> --num-questions 8 --easy 0.25 --medium 0.5 --hard 0.25 --generation-mode topic_agentic --log-level INFO
+```
+
+Main arguments:
+
+* `--output-root`: root directory for run outputs (default: `outputs/`)
+* `--run-id`: custom run folder name (otherwise auto-generated)
+* `--num-questions`: number of quiz items to generate
+* `--easy --medium --hard`: difficulty ratios used by planning
+* `--generation-mode`: `topic_agentic` (default) or `legacy`
+* `--mock-image`: skip real image generation and use mock image refs
+* `--mock-question`: skip real question LLM generation and use mock questions
+* `--log-level`: `DEBUG|INFO|WARNING|ERROR|CRITICAL`
+
+To see all CLI options:
+
+```bash
+python scripts/run_pipeline.py --help
+```
+
+### 5.2 Understand the `outputs/` Folder
+
+Each execution produces one run directory:
+
+```text
+outputs/
+  <run_id>/
+    manifest.json
+    document/
+    extraction/
+    graph/
+    planning/
+    generation/
+    logs/
+```
+
+`<run_id>` is either your explicit `--run-id` or an auto-generated ID like:
+`YYYYMMDD_HHMMSS_<document_stem>_<short_hash>`.
+
+#### What each subfolder contains
+
+* `manifest.json`
+  * Run metadata: source document, stage status, artifact paths, and runtime config.
+  * Start here to inspect or debug a run.
+
+* `document/`
+  * `parsed_document.json`: structured parsing output (sections, paragraphs, figures, markdown).
+
+* `extraction/`
+  * `extracted.json`: semantic extraction results (concepts, definitions, relations, examples).
+
+* `graph/`
+  * `graph.json`: consolidated knowledge graph.
+  * `graph_networkx.json`: NetworkX-friendly graph serialization.
+  * `graph.html`: interactive graph visualization (when HTML export is enabled).
+  * Additional intermediate/debug artifacts may appear (topic candidates, merge review, validation, etc.).
+
+* `planning/`
+  * `quiz_plan.json`: planned questions (target concepts, difficulty, image role, objectives).
+
+* `generation/`
+  * `questions.json`: final generated question objects.
+  * `quiz_package.json`: packaged run payload (includes run_id, image dir, indexed results).
+  * `image_artifacts.json`: image generation metadata and references.
+  * `images/`: generated image files for the run.
+  * `prompt_logs/`: saved prompt/context logs per question.
+
+* `logs/`
+  * `pipeline.log`: JSONL stage/event log for tracing and troubleshooting.
+
+#### Quick inspection flow
+
+1. Open `outputs/<run_id>/manifest.json`.
+2. Check stage completion and artifact paths.
+3. Review `generation/questions.json` for final quiz outputs.
+4. If something failed, inspect `logs/pipeline.log` and corresponding stage artifacts.
+
+---
+
+## 6. Key Contributions
 
 * Planning-based quiz generation (not direct generation)
 * Integration of AI-generated images
@@ -240,7 +353,7 @@ quizgen/
 
 ---
 
-## 6. Future Extensions
+## 7. Future Extensions
 
 * Adaptive quizzes based on learner level
 * Reinforcement learning for planning optimization
@@ -249,7 +362,7 @@ quizgen/
 
 ---
 
-## 7. Notes
+## 8. Notes
 
 * Focus on **planner + image role modeling** as core novelty
 * Avoid building a simple pipeline without structure
