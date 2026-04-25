@@ -185,6 +185,8 @@ class GenerationOrchestrator:
                 plan, llm=self._llm_client.complete
             )
             final_image_prompt = str(raw_llm_response).strip() if raw_llm_response is not None else ""
+            # Also construct a detailed prompt via the local prompt builder for logging/verification
+            detailed_local_prompt = self._prompt_builder.build_image_prompt(plan)
             if not final_image_prompt:
                 raise RuntimeError(f"LLM returned empty image prompt for plan index {idx}")
             records.append(
@@ -201,6 +203,7 @@ class GenerationOrchestrator:
                     "tested_fact_block_id": plan.tested_fact_block_id,
                     "metadata": plan.metadata,
                     "image_prompt": final_image_prompt,
+                    "image_prompt_detailed": detailed_local_prompt,
                     "raw_image_llm_response": raw_llm_response,
                 }
             )
