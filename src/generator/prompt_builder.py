@@ -12,8 +12,20 @@ class PromptBuilder:
     def build_question_prompt(question_plan: QuestionPlan) -> str:
         """Build the prompt used to generate a question from a plan."""
         context = question_plan.metadata.get("knowledge_context", "")
-        if not isinstance(context, str):
-            context = ""
+        # knowledge_context may be a string or a list of chunk dicts
+        if isinstance(context, list):
+            # Format multiple chunks into a readable block
+            parts = []
+            for i, chunk in enumerate(context, 1):
+                cid = chunk.get("id") if isinstance(chunk, dict) else None
+                sb = chunk.get("source_block_id") if isinstance(chunk, dict) else None
+                conf = chunk.get("confidence") if isinstance(chunk, dict) else None
+                text = chunk.get("text") if isinstance(chunk, dict) else str(chunk)
+                header = f"[Chunk {i}] Block ID: {sb or cid} | Confidence: {conf or 'N/A'}"
+                parts.append(f"{header}\n{text}\n")
+            context_str = "\n---\n".join(parts)
+        else:
+            context_str = str(context or "")
 
         schema = {
             "question_text": "string",
@@ -60,8 +72,11 @@ class PromptBuilder:
         if question_plan.tested_fact_block_id:
             prompt_lines.append(f"Tested fact block ID: {question_plan.tested_fact_block_id}")
             prompt_lines.append("Cite this fact source in your explanation.")
-        if context.strip():
-            prompt_lines.append(f"Knowledge context: {context.strip()}")
+        if context_str.strip():
+            prompt_lines.append("Knowledge context:")
+            # Indent the context for readability
+            for line in context_str.splitlines():
+                prompt_lines.append(f"  {line}")
 
         prompt_lines.extend(
             [
@@ -94,39 +109,22 @@ class PromptBuilder:
         question_plan: QuestionPlan,
         llm: Optional[Callable[[str], str]] = None,
     ) -> str:
-        """Construct a detailed, structured prompt for an LLM to produce image-generation instructions.
+        """Ask an LLM to produce a concise, human-readable image-generation instruction.
 
-        If `llm` is provided it will be called with the composed prompt and its output returned.
-        Otherwise the composed LLM prompt string is returned for an external caller to send to an LLM.
-        The prompt asks the LLM to return a concise JSON object describing the image and artist
-        guidance including `description`, `composition`, `labels`, `color_palette`, `camera`,
-        `annotations`, `alt_text`, and `notes_for_illustrator`.
+        The LLM is asked to return a short natural-language prompt (1-3 sentences) suitable
+        for an image generation model or an illustrator. Do NOT return JSON or code fences.
+
+        If `llm` is provided it will be called with the composed prompt and its raw text
+        response will be returned. Otherwise the composed LLM prompt string is returned
+        for an external caller to send to an LLM.
         """
         role = (question_plan.image_role or "illustration").strip()
         description = question_plan.image_description or question_plan.target_concept
         objective = question_plan.learning_objective or "support quiz question answering"
-
-        schema: Dict[str, Any] = {
-            "description": "string (short, 1-2 sentences)",
-            "composition": "string (what is shown, focal point, perspective)",
-            "labels": ["string"],
-            "color_palette": "string (2-4 main colors / tones)",
-            "camera": "string (perspective/zoom, e.g. top-down, close-up)",
-            "annotations": ["string"],
-            "alt_text": "string (one-line accessibility description)",
-            "notes_for_illustrator": "string (any extra constraints)",
-        }
-
-        constraints = [
-            "Return ONLY valid JSON that matches the required schema.",
-            "Keep `description` short (1-2 sentences) and `notes_for_illustrator` actionable.",
-            "Avoid copyrighted characters, real brand logos, or trademarked designs.",
-            "Prefer legible fonts, clear labels, and high contrast for educational clarity.",
-            "Include an `alt_text` field suitable for screen readers (1 sentence).",
-        ]
-
         prompt_lines = [
-            "SYSTEM: You are an expert image-generation prompt engineer. Produce a compact JSON\ndescription that an illustrator or image model can follow to produce a clear educational image.",
+            "SYSTEM: You are an expert image-generation prompt engineer. Produce a short, natural-language instruction",
+            "that an image model or human illustrator can follow. Do NOT return JSON or code fences.",
+            "Return 1-3 concise sentences describing composition, labels to include, color guidance, and any accessibility alt text.",
             "USER:",
             f"Target concept: {question_plan.target_concept}",
             f"Image role: {role}",
@@ -139,14 +137,8 @@ class PromptBuilder:
         if question_plan.image_description:
             prompt_lines.append(f"Additional image context: {question_plan.image_description}")
 
-        prompt_lines.extend(
-            [
-                "Required output JSON schema:",
-                json.dumps(schema, ensure_ascii=False),
-                "Constraints:",
-                *[f"- {c}" for c in constraints],
-                "If any visual element might introduce ambiguity, add a short `notes_for_illustrator`.",
-            ]
+        prompt_lines.append(
+            "Constraints: Keep it concise (1-3 sentences). Use clear labels, high contrast, and avoid copyrighted or trademarked elements. Include a one-line alt text sentence at the end prefixed with 'Alt:'."
         )
 
         llm_prompt = "\n".join(prompt_lines)

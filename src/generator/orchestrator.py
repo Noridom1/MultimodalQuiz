@@ -13,6 +13,7 @@ from src.generator.prompt_builder import PromptBuilder
 from src.generator.question_gen import LLMQuestionGenerator
 from src.planner.planner import QuestionPlan, load_plan
 from src.utils.io import relative_path, write_json
+from src.utils.llm import LLMClient
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 LOGGER = logging.getLogger(__name__)
@@ -29,6 +30,8 @@ class GenerationOrchestrator:
         self._image_generator = image_generator or ImageGenerator()
         self._question_generator = question_generator or LLMQuestionGenerator()
         self._prompt_builder = prompt_builder or PromptBuilder()
+        # LLM client: required for image prompt construction (always used)
+        self._llm_client = LLMClient()
 
     def run_with_topic_planner(
         self,
@@ -175,6 +178,13 @@ class GenerationOrchestrator:
         LOGGER.info("Loaded %d question plans", len(plans))
         records: list[dict[str, Any]] = []
         for idx, plan in enumerate(plans, start=1):
+            # Always use the LLM to generate a plain-language image prompt (no JSON)
+            raw_llm_response = self._prompt_builder.build_image_prompt_via_llm(
+                plan, llm=self._llm_client.complete
+            )
+            final_image_prompt = str(raw_llm_response).strip() if raw_llm_response is not None else ""
+            if not final_image_prompt:
+                raise RuntimeError(f"LLM returned empty image prompt for plan index {idx}")
             records.append(
                 {
                     "index": idx,
@@ -188,7 +198,8 @@ class GenerationOrchestrator:
                     "learning_objective": plan.learning_objective,
                     "tested_fact_block_id": plan.tested_fact_block_id,
                     "metadata": plan.metadata,
-                    "image_prompt": self._prompt_builder.build_image_prompt(plan),
+                    "image_prompt": final_image_prompt,
+                    "raw_image_llm_response": raw_llm_response,
                 }
             )
         LOGGER.info("Built %d prompt records from plan %s", len(records), plan_json)
@@ -232,6 +243,9 @@ class GenerationOrchestrator:
         effective_artifact_root = Path(artifact_root) if artifact_root is not None else effective_output_dir
         image_output_dir = effective_output_dir / "images"
         image_output_dir.mkdir(parents=True, exist_ok=True)
+        # Directory to store question prompt logs (prompt text + attached knowledge_context)
+        prompt_logs_dir = effective_output_dir / "prompt_logs"
+        prompt_logs_dir.mkdir(parents=True, exist_ok=True)
         run_started_at = time.perf_counter()
 
         plan_records = self.build_prompts_from_plan(plan_json)
@@ -413,6 +427,38 @@ class GenerationOrchestrator:
                     raise RuntimeError(f"No question prompt available for index {idx}; cannot generate question.")
 
                 LOGGER.info("Starting question generation for index=%s", idx)
+                # Persist the prompt and attached knowledge context for offline inspection
+                try:
+                    # plan may be None if fallback was used earlier
+                    plan_for_log = plan
+                    knowledge_context = None
+                    tested_fact = None
+                    image_description = None
+                    if plan_for_log is not None:
+                        tested_fact = getattr(plan_for_log, "tested_fact_block_id", None)
+                        image_description = getattr(plan_for_log, "image_description", None)
+                        metadata = getattr(plan_for_log, "metadata", {}) or {}
+                        knowledge_context = metadata.get("knowledge_context") if isinstance(metadata, dict) else None
+
+                    log_path = prompt_logs_dir / f"question_{idx}.txt"
+                    with open(log_path, "w", encoding="utf-8") as lf:
+                        lf.write(f"Index: {idx}\n")
+                        lf.write(f"Target concept: {plan_for_log.target_concept if plan_for_log else rec.get('target_concept')}\n")
+                        lf.write(f"Tested fact block id: {tested_fact}\n")
+                        lf.write(f"Image description: {image_description}\n\n")
+                        lf.write("--- Attached knowledge_context (if any) ---\n")
+                        lf.write((knowledge_context or "(none)") + "\n\n")
+                        lf.write("--- Question prompt sent to LLM ---\n")
+                        lf.write(q_prompt + "\n\n")
+                        lf.write("--- Image prompt ---\n")
+                        lf.write((img_prompt or "(none)") + "\n\n")
+                        # If we have a raw LLM response for the image prompt, log it as well
+                        raw_llm = rec.get("raw_image_llm_response")
+                        if raw_llm:
+                            lf.write("--- Raw LLM image-prompt response ---\n")
+                            lf.write(str(raw_llm) + "\n")
+                except Exception:
+                    LOGGER.exception("Failed to write prompt log for index=%s", idx)
                 question = self._question_generator.inference(
                     q_prompt,
                     question_plan=plan,
