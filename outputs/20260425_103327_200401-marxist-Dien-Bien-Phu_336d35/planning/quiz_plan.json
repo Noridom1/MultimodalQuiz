@@ -1,0 +1,52 @@
+[
+  {
+    "target_concept": "200401-marxist-Dien-Bien-Phu::concept::0::dien_bien_phu",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A map showing the location of Dien Bien Phu in Vietnam, near the Vietnam-Laos frontier.",
+    "learning_objective": "Identify the geographical location of Dien Bien Phu.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "200401-marxist-Dien-Bien-Phu::concept::87::vo_nguyen_giap",
+    "question_type": "short_answer",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A portrait of Vo Nguyen Giap, the commander of the Vietnam People's Army during the Battle of Dien Bien Phu.",
+    "learning_objective": "Explain the role of Vo Nguyen Giap in the Battle of Dien Bien Phu.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "200401-marxist-Dien-Bien-Phu::concept::21::navarre_plan",
+    "question_type": "true_false",
+    "difficulty": "hard",
+    "reasoning_type": "multi-hop",
+    "image_role": "reasoning",
+    "image_description": "A diagram illustrating the strategic layout of the Navarre Plan, including key locations and troop movements.",
+    "learning_objective": "Analyze the strategic objectives and outcomes of the Navarre Plan.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "200401-marxist-Dien-Bien-Phu::concept::11::artillery",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A photograph of artillery pieces used during the Battle of Dien Bien Phu.",
+    "learning_objective": "Identify the types of artillery used in the Battle of Dien Bien Phu.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "200401-marxist-Dien-Bien-Phu::concept::47::encirclement",
+    "question_type": "short_answer",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A tactical map showing the encirclement of French forces by the Vietnam People's Army at Dien Bien Phu.",
+    "learning_objective": "Describe the strategy of encirclement used by the Vietnam People's Army.",
+    "metadata": {}
+  }
+]

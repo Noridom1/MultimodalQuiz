@@ -1,0 +1,1917 @@
+{
+  "concepts": [
+    "dien bien phu",
+    "vietnam-laos frontier",
+    "lai chau",
+    "tuan giao",
+    "son la",
+    "na san",
+    "luang prabang",
+    "sam neua",
+    "bac bo",
+    "upper laos",
+    "paratroops",
+    "artillery",
+    "sappers",
+    "armoured company",
+    "strong-points",
+    "complex defence centres",
+    "trenches",
+    "barbed wire",
+    "winter-spring campaign",
+    "party's central committee",
+    "government",
+    "navarre plan",
+    "him lam",
+    "doc lap",
+    "muong thanh",
+    "ban keo",
+    "anti-aircraft defence",
+    "artillery fire",
+    "main airfield",
+    "anti-aircraft batteries",
+    "central sub-sector",
+    "air force",
+    "supply lines",
+    "logistic difficulties",
+    "muong thanh plain",
+    "garrison",
+    "hill a-1",
+    "hill c-1",
+    "hill d-1",
+    "hill e-1",
+    "command post",
+    "defensive system",
+    "casemates",
+    "fortified heights",
+    "paratroop reinforcements",
+    "counter-attack",
+    "mortars",
+    "nibbling operations",
+    "full-scale attack",
+    "encirclement",
+    "airfield",
+    "counterattacks",
+    "tanks",
+    "aircraft",
+    "anti-aircraft fire",
+    "parachute",
+    "american interventionists",
+    "bombers",
+    "transport planes",
+    "napalm bombs",
+    "artillery bases",
+    "block-busters",
+    "delayed-action bombs",
+    "butterfly anti-personnel bombs",
+    "voluntary carriers",
+    "pack-horses",
+    "trucks",
+    "dien bien phu base",
+    "french expeditionary corps",
+    "viet bac",
+    "dien bien phu garrison",
+    "dien bien phu entrenched camp",
+    "third phase",
+    "nam rom river",
+    "general de castries",
+    "determined to fight and win",
+    "red river delta",
+    "road no. 5",
+    "fifth zone",
+    "road no. 19",
+    "an khe",
+    "cheo reo",
+    "pleiku",
+    "banmethuot",
+    "binh-tri-thien",
+    "nam bo",
+    "middle laos",
+    "road no. 9",
+    "pathet lao",
+    "vietnam people's army",
+    "franco-american imperialists",
+    "geneva conference",
+    "vo nguyen giap",
+    "communist party of vietnam",
+    "socialist republic of vietnam"
+  ],
+  "definitions": {},
+  "relations": [
+    {
+      "source": "Dien Bien Phu",
+      "target": "Vietnam-Laos frontier",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Lai Chau",
+      "relation": "connected_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Tuan Giao",
+      "relation": "connected_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Son La",
+      "relation": "connected_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Na San",
+      "relation": "connected_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Luang Prabang",
+      "relation": "connected_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Sam Neua",
+      "relation": "connected_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Bac Bo",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Upper Laos",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "paratroops",
+      "target": "artillery",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "strong-points",
+      "target": "complex defence centres",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "complex defence centres",
+      "target": "trenches",
+      "relation": "surrounded_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "complex defence centres",
+      "target": "barbed wire",
+      "relation": "surrounded_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Winter-Spring campaign",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Navarre plan",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Winter-Spring campaign",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Navarre plan",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Navarre plan",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::15::in_the_first_week_of_march_the_preparations_were::chunk::6::in_the_first_week_of_march_the_preparations_were",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Him Lam",
+      "target": "Dien Bien Phu",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Doc Lap",
+      "target": "Dien Bien Phu",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Muong Thanh",
+      "target": "Dien Bien Phu",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Doc Lap",
+      "target": "northern sub-sector",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Ban Keo",
+      "target": "northern sub-sector",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "anti-aircraft defence",
+      "target": "enemy artillery",
+      "relation": "reduces_effectiveness_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "artillery fire",
+      "target": "enemy",
+      "relation": "causes_heavy_losses_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "anti-aircraft batteries",
+      "target": "enemy planes",
+      "relation": "brings_down",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "enemy",
+      "target": "central sub-sector",
+      "relation": "has_confidence_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "enemy",
+      "target": "artillery",
+      "relation": "has_confidence_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "enemy",
+      "target": "air force",
+      "relation": "has_confidence_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "logistic difficulties",
+      "target": "withdrawal",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "central sub-sector",
+      "target": "Muong Thanh plain",
+      "relation": "located_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "trenches",
+      "target": "central sub-sector",
+      "relation": "encircles",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "trenches",
+      "target": "southern sector",
+      "relation": "cuts_off_from",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply lines",
+      "target": "garrison",
+      "relation": "supplies",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "hill A-1",
+      "target": "defensive system",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "hill C-1",
+      "target": "defensive system",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "hill D-1",
+      "target": "defensive system",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "hill E-1",
+      "target": "defensive system",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "command post",
+      "target": "hill A-1",
+      "relation": "protected_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "casemates",
+      "target": "enemy",
+      "relation": "used_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "trenches",
+      "target": "enemy",
+      "relation": "used_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "fortified heights",
+      "target": "defensive system",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "hill A-1",
+      "target": "defensive system",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "casemates",
+      "target": "trenches",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "counter-attack",
+      "target": "hill C-1",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "artillery",
+      "target": "mortars",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "nibbling operations",
+      "target": "full-scale attack",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "encirclement",
+      "target": "airfield",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "counterattacks",
+      "target": "tanks",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "counterattacks",
+      "target": "aircraft",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "counterattacks",
+      "target": "tanks",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "counterattacks",
+      "target": "aircraft",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "parachute",
+      "target": "anti-aircraft fire",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "American interventionists",
+      "target": "bombers",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "American interventionists",
+      "target": "transport planes",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "napalm bombs",
+      "target": "artillery bases",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply lines",
+      "target": "block-busters",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply lines",
+      "target": "delayed-action bombs",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply lines",
+      "target": "butterfly anti-personnel bombs",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "American interventionists",
+      "target": "Dien Bien Phu base",
+      "relation": "supports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "napalm bombs",
+      "target": "vegetation",
+      "relation": "burns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply lines",
+      "target": "food and ammunition",
+      "relation": "transports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "French Expeditionary Corps",
+      "target": "Viet Bac",
+      "relation": "planned_attack_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu garrison",
+      "target": "Upper Laos",
+      "relation": "intended_to_reach",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "French Expeditionary Corps",
+      "target": "Dien Bien Phu entrenched camp",
+      "relation": "defends",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "French Expeditionary Corps",
+      "target": "Viet Bac",
+      "relation": "planned_attack_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu garrison",
+      "target": "Upper Laos",
+      "relation": "intended_to_reach",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "hill A-1",
+      "target": "central sub-sector",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Muong Thanh",
+      "target": "General de Castries",
+      "relation": "location_of_capture",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Red River delta",
+      "target": "Road No. 5",
+      "relation": "threatens",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Fifth Zone",
+      "target": "Road No. 19",
+      "relation": "attacks",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Fifth Zone",
+      "target": "An Khe",
+      "relation": "liberates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Fifth Zone",
+      "target": "Cheo Reo",
+      "relation": "penetrates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Fifth Zone",
+      "target": "Pleiku",
+      "relation": "threatens",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Fifth Zone",
+      "target": "Banmethuot",
+      "relation": "threatens",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Middle Laos",
+      "target": "Road No. 9",
+      "relation": "advances_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Vietnam People's Army",
+      "target": "Dien Bien Phu",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Navarre plan",
+      "relation": "smashed",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Dien Bien Phu",
+      "target": "Geneva Conference",
+      "relation": "contributed_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Vo Nguyen Giap",
+      "target": "Vietnam People's Army",
+      "relation": "Commander-in-chief",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Vo Nguyen Giap",
+      "target": "Communist Party of Vietnam",
+      "relation": "member_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "extraction_method": "langchain"
+    }
+  ],
+  "examples": [],
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Vietnam-Laos frontier",
+        "Lai Chau",
+        "Tuan Giao",
+        "Son La",
+        "Na San",
+        "Luang Prabang",
+        "Sam Neua",
+        "Bac Bo",
+        "Upper Laos",
+        "paratroops",
+        "artillery",
+        "sappers",
+        "armoured company",
+        "strong-points",
+        "complex defence centres",
+        "trenches",
+        "barbed wire"
+      ],
+      "definitions": [
+        {
+          "concept": "Dien Bien Phu",
+          "definition": "A large plain 18 kilometers long and six to eight kilometers wide in the mountainous zone of the North-West, close to the Vietnam-Laos frontier."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Dien Bien Phu",
+          "target": "Vietnam-Laos frontier",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Lai Chau",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Tuan Giao",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Son La",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Na San",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Luang Prabang",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Sam Neua",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Bac Bo",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Upper Laos",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "paratroops",
+          "target": "artillery",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "strong-points",
+          "target": "complex defence centres",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "complex defence centres",
+          "target": "trenches",
+          "relation": "surrounded_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "complex defence centres",
+          "target": "barbed wire",
+          "relation": "surrounded_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Lai Chau",
+        "Winter-Spring campaign",
+        "Party's Central Committee",
+        "Government",
+        "Navarre plan"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Dien Bien Phu",
+          "target": "Winter-Spring campaign",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Navarre plan",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Winter-Spring campaign",
+        "Party's Central Committee",
+        "Government",
+        "Navarre plan"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Dien Bien Phu",
+          "target": "Winter-Spring campaign",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Navarre plan",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::15::in_the_first_week_of_march_the_preparations_were::chunk::6::in_the_first_week_of_march_the_preparations_were",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Navarre plan"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Dien Bien Phu",
+          "target": "Navarre plan",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Him Lam",
+        "Doc Lap",
+        "Muong Thanh"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Him Lam",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Doc Lap",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Muong Thanh",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "concepts": [
+        "Doc Lap",
+        "Lai Chau",
+        "Dien Bien Phu",
+        "Muong Thanh",
+        "Ban Keo",
+        "anti-aircraft defence",
+        "artillery fire",
+        "main airfield",
+        "anti-aircraft batteries"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Doc Lap",
+          "target": "northern sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Ban Keo",
+          "target": "northern sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "anti-aircraft defence",
+          "target": "enemy artillery",
+          "relation": "reduces_effectiveness_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "artillery fire",
+          "target": "enemy",
+          "relation": "causes_heavy_losses_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "anti-aircraft batteries",
+          "target": "enemy planes",
+          "relation": "brings_down",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "concepts": [
+        "central sub-sector",
+        "artillery",
+        "air force",
+        "supply lines",
+        "logistic difficulties"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "enemy",
+          "target": "central sub-sector",
+          "relation": "has_confidence_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "enemy",
+          "target": "artillery",
+          "relation": "has_confidence_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "enemy",
+          "target": "air force",
+          "relation": "has_confidence_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "logistic difficulties",
+          "target": "withdrawal",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "central sub-sector",
+        "Muong Thanh plain",
+        "trenches",
+        "supply lines",
+        "garrison"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "central sub-sector",
+          "target": "Muong Thanh plain",
+          "relation": "located_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "trenches",
+          "target": "central sub-sector",
+          "relation": "encircles",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "trenches",
+          "target": "southern sector",
+          "relation": "cuts_off_from",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply lines",
+          "target": "garrison",
+          "relation": "supplies",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "hill A-1",
+        "hill C-1",
+        "hill D-1",
+        "hill E-1",
+        "command post",
+        "defensive system",
+        "casemates",
+        "trenches"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "hill A-1",
+          "target": "defensive system",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hill C-1",
+          "target": "defensive system",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hill D-1",
+          "target": "defensive system",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hill E-1",
+          "target": "defensive system",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "command post",
+          "target": "hill A-1",
+          "relation": "protected_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "casemates",
+          "target": "enemy",
+          "relation": "used_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "trenches",
+          "target": "enemy",
+          "relation": "used_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "fortified heights",
+        "hill A-1",
+        "defensive system",
+        "central sub-sector",
+        "command post",
+        "casemates",
+        "trenches",
+        "paratroop reinforcements",
+        "counter-attack",
+        "artillery",
+        "mortars",
+        "nibbling operations",
+        "full-scale attack"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "fortified heights",
+          "target": "defensive system",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hill A-1",
+          "target": "defensive system",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "casemates",
+          "target": "trenches",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "counter-attack",
+          "target": "hill C-1",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "artillery",
+          "target": "mortars",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "nibbling operations",
+          "target": "full-scale attack",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "encirclement",
+        "artillery",
+        "mortars",
+        "nibbling operations",
+        "full-scale attack",
+        "airfield",
+        "counterattacks",
+        "tanks",
+        "aircraft"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "encirclement",
+          "target": "airfield",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "counterattacks",
+          "target": "tanks",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "counterattacks",
+          "target": "aircraft",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "airfield",
+        "counterattacks",
+        "tanks",
+        "aircraft",
+        "anti-aircraft fire",
+        "parachute"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "counterattacks",
+          "target": "tanks",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "counterattacks",
+          "target": "aircraft",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "parachute",
+          "target": "anti-aircraft fire",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "American interventionists",
+        "bombers",
+        "transport planes",
+        "napalm bombs",
+        "artillery bases",
+        "supply lines",
+        "block-busters",
+        "delayed-action bombs",
+        "butterfly anti-personnel bombs",
+        "voluntary carriers",
+        "pack-horses",
+        "trucks"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "American interventionists",
+          "target": "bombers",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "American interventionists",
+          "target": "transport planes",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "napalm bombs",
+          "target": "artillery bases",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply lines",
+          "target": "block-busters",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply lines",
+          "target": "delayed-action bombs",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply lines",
+          "target": "butterfly anti-personnel bombs",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "American interventionists",
+        "Dien Bien Phu base",
+        "napalm bombs",
+        "artillery bases",
+        "supply lines",
+        "voluntary carriers",
+        "pack-horses",
+        "encirclement",
+        "French Expeditionary Corps",
+        "Viet Bac",
+        "Dien Bien Phu garrison",
+        "Upper Laos"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "American interventionists",
+          "target": "Dien Bien Phu base",
+          "relation": "supports",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "napalm bombs",
+          "target": "vegetation",
+          "relation": "burns",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply lines",
+          "target": "food and ammunition",
+          "relation": "transports",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "French Expeditionary Corps",
+          "target": "Viet Bac",
+          "relation": "planned_attack_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu garrison",
+          "target": "Upper Laos",
+          "relation": "intended_to_reach",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 17,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "concepts": [
+        "Dien Bien Phu entrenched camp",
+        "French Expeditionary Corps",
+        "Viet Bac",
+        "encirclement",
+        "Upper Laos"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "French Expeditionary Corps",
+          "target": "Dien Bien Phu entrenched camp",
+          "relation": "defends",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "French Expeditionary Corps",
+          "target": "Viet Bac",
+          "relation": "planned_attack_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu garrison",
+          "target": "Upper Laos",
+          "relation": "intended_to_reach",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 18,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "concepts": [
+        "third phase",
+        "hill C-1",
+        "hill A-1",
+        "central sub-sector",
+        "Nam Rom river",
+        "Muong Thanh",
+        "General de Castries",
+        "Dien Bien Phu",
+        "Determined to Fight and Win"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "hill A-1",
+          "target": "central sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Muong Thanh",
+          "target": "General de Castries",
+          "relation": "location_of_capture",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 19,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "concepts": [
+        "Red River delta",
+        "Road No. 5",
+        "Fifth Zone",
+        "Road No. 19",
+        "An Khe",
+        "Cheo Reo",
+        "Pleiku",
+        "Banmethuot",
+        "Binh-Tri-Thien",
+        "Nam Bo",
+        "Middle Laos",
+        "Road No. 9",
+        "Pathet Lao"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Red River delta",
+          "target": "Road No. 5",
+          "relation": "threatens",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "Road No. 19",
+          "relation": "attacks",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "An Khe",
+          "relation": "liberates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "Cheo Reo",
+          "relation": "penetrates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "Pleiku",
+          "relation": "threatens",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "Banmethuot",
+          "relation": "threatens",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Middle Laos",
+          "target": "Road No. 9",
+          "relation": "advances_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 20,
+      "chunk_id": "200401-marxist-Dien-Bien-Phu::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+      "source_file": "data/raw/200401-marxist-Dien-Bien-Phu.pdf",
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Vietnam People's Army",
+        "Navarre plan",
+        "Franco-American imperialists",
+        "Geneva Conference",
+        "Vo Nguyen Giap",
+        "Communist Party of Vietnam",
+        "Socialist Republic of Vietnam"
+      ],
+      "definitions": [
+        {
+          "concept": "Navarre plan",
+          "definition": "A plan by the Franco-American imperialists to prolong and extend the war in Vietnam."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Vietnam People's Army",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Navarre plan",
+          "relation": "smashed",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Geneva Conference",
+          "relation": "contributed_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Vo Nguyen Giap",
+          "target": "Vietnam People's Army",
+          "relation": "Commander-in-chief",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Vo Nguyen Giap",
+          "target": "Communist Party of Vietnam",
+          "relation": "member_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 18,
+    "concept_count": 95,
+    "relation_count": 81
+  }
+}
