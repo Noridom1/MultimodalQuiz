@@ -7,7 +7,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field, field_validator
 
-from src.document_understanding.chunking import semantic_chunk
+from src.document_understanding.chunking import SemanticChunk, semantic_chunk
 from src.document_understanding.normalizer import normalize_concepts
 
 
@@ -28,14 +28,20 @@ class RelationItem(BaseModel):
     source: str
     target: str
     relation: str
+    confidence: str = "EXTRACTED"
+    confidence_score: float = 1.0
 
 
 class ChunkExtraction(BaseModel):
     chunk_index: int
+    chunk_id: str | None = None
+    source_file: str | None = None
+    section_path: list[str] = Field(default_factory=list)
     concepts: list[str] = Field(default_factory=list)
     definitions: list[DefinitionItem] = Field(default_factory=list)
     relations: list[RelationItem] = Field(default_factory=list)
     examples: list[str] = Field(default_factory=list)
+    extraction_method: str = "rule"
 
     @field_validator("examples", mode="before")
     @classmethod
@@ -55,10 +61,6 @@ class ChunkExtraction(BaseModel):
                 if text:
                     normalized.append(text)
             return normalized
-        if isinstance(value, dict):
-            raw = value.get("example") or value.get("text") or value.get("value")
-            text = str(raw).strip() if raw is not None else ""
-            return [text] if text else []
         text = str(value).strip()
         return [text] if text else []
 
@@ -68,13 +70,13 @@ class BatchExtraction(BaseModel):
 
 
 class DocumentExtractor:
-    """Extract concepts, definitions, relations, and examples from text."""
+    """Extract concepts, definitions, relations, and examples from text or chunks."""
 
     def __init__(
         self,
         *,
         backend: ExtractorBackend = "rule",
-        provider: LLMProvider = "mistralai",
+        provider: LLMProvider = "mistral",
         granularity: ExtractionGranularity = "balanced",
         model: str | None = None,
         batch_size: int = 4,
@@ -87,74 +89,118 @@ class DocumentExtractor:
         self.batch_size = max(1, batch_size)
         self.max_calls = max(1, max_calls)
 
-        logger.info(
-            "Initialized DocumentExtractor with backend=%s, provider=%s, granularity=%s, model=%s, batch_size=%d, max_calls=%d",
-            self.backend,
-            self.provider,
-            self.granularity,
-            self.model,
-            self.batch_size,
-            self.max_calls,
-        )
-
     def extract(self, text: str) -> dict[str, object]:
         sentences = _split_sentences(text)
         chunks = semantic_chunk(sentences)
-
         if self.backend == "langchain":
             try:
                 return self._extract_with_langchain(chunks)
             except Exception as exc:
                 logger.warning("LangChain extraction failed, falling back to rule-based extraction: %s", exc)
-
         return self._extract_with_rules(chunks)
+
+    def extract_chunks(self, chunks: list[SemanticChunk], *, source_file: str | None = None) -> dict[str, object]:
+        if self.backend == "langchain":
+            try:
+                chunk_extractions = self._extract_chunk_objects_with_langchain(chunks, source_file=source_file)
+            except Exception as exc:
+                logger.warning("LangChain chunk extraction failed, falling back to rule-based extraction: %s", exc)
+                chunk_extractions = self._extract_chunk_objects_with_rules(chunks, source_file=source_file)
+        else:
+            chunk_extractions = self._extract_chunk_objects_with_rules(chunks, source_file=source_file)
+
+        return self._finalize_chunk_extractions(chunk_extractions)
 
     def _extract_with_rules(self, chunks: list[list[str]]) -> dict[str, object]:
         concepts: list[str] = []
         definitions: dict[str, str] = {}
-        relations: list[dict[str, str]] = []
+        relations: list[dict[str, object]] = []
         examples: list[str] = []
 
         for chunk in chunks:
             chunk_text = " ".join(chunk)
             concepts.extend(_extract_candidate_concepts(chunk_text))
             examples.extend(_extract_examples(chunk_text))
-            definition_pairs = _extract_definitions(chunk_text)
-            for concept, definition in definition_pairs:
+            for concept, definition in _extract_definitions(chunk_text):
                 definitions[concept] = definition
             relations.extend(_extract_relations(chunk_text))
 
         normalized_concepts = normalize_concepts(concepts)
-        definitions = {
-            key: value
-            for key, value in definitions.items()
-            if key in normalized_concepts
-        }
-
+        definitions = {key: value for key, value in definitions.items() if key in normalized_concepts}
         return self._apply_granularity(
             {
-            "concepts": normalized_concepts,
-            "definitions": definitions,
-            "relations": relations,
-            "examples": list(dict.fromkeys(example.strip() for example in examples if example.strip())),
+                "concepts": normalized_concepts,
+                "definitions": definitions,
+                "relations": relations,
+                "examples": list(dict.fromkeys(example.strip() for example in examples if example.strip())),
             }
         )
 
+    def _extract_chunk_objects_with_rules(
+        self,
+        chunks: list[SemanticChunk],
+        *,
+        source_file: str | None = None,
+    ) -> list[ChunkExtraction]:
+        chunk_extractions: list[ChunkExtraction] = []
+        for index, chunk in enumerate(chunks):
+            concepts = _extract_candidate_concepts(chunk.text)
+            definitions = [DefinitionItem(concept=concept, definition=definition) for concept, definition in _extract_definitions(chunk.text)]
+            relations = [RelationItem(**relation) for relation in _extract_relations(chunk.text)]
+            examples = _extract_examples(chunk.text)
+            chunk_extractions.append(
+                ChunkExtraction(
+                    chunk_index=index,
+                    chunk_id=chunk.id,
+                    source_file=source_file,
+                    section_path=list(chunk.section_path),
+                    concepts=concepts,
+                    definitions=definitions,
+                    relations=relations,
+                    examples=examples,
+                    extraction_method="rule",
+                )
+            )
+        return chunk_extractions
+
     def _extract_with_langchain(self, chunks: list[list[str]]) -> dict[str, object]:
         if not chunks:
-            return {
-                "concepts": [],
-                "definitions": {},
-                "relations": [],
-                "examples": [],
+            return {"concepts": [], "definitions": {}, "relations": [], "examples": []}
+
+        chunk_extractions = self._invoke_langchain_batches(
+            [{"chunk_index": index, "text": " ".join(chunk)} for index, chunk in enumerate(chunks)]
+        )
+        return self._finalize_chunk_extractions(chunk_extractions)
+
+    def _extract_chunk_objects_with_langchain(
+        self,
+        chunks: list[SemanticChunk],
+        *,
+        source_file: str | None = None,
+    ) -> list[ChunkExtraction]:
+        payloads = [
+            {
+                "chunk_index": index,
+                "chunk_id": chunk.id,
+                "text": chunk.text,
+                "section_path": chunk.section_path,
+                "source_file": source_file,
             }
+            for index, chunk in enumerate(chunks)
+        ]
+        chunk_extractions = self._invoke_langchain_batches(payloads)
+        for item in chunk_extractions:
+            item.source_file = source_file
+        return chunk_extractions
+
+    def _invoke_langchain_batches(self, payloads: list[dict[str, object]]) -> list[ChunkExtraction]:
+        if not payloads:
+            return []
 
         try:
             from langchain_core.prompts import ChatPromptTemplate  # type: ignore[import-not-found]
         except ImportError as exc:
-            raise RuntimeError(
-                "LangChain dependencies are missing. Install 'langchain' and 'langchain-core'."
-            ) from exc
+            raise RuntimeError("LangChain dependencies are missing. Install 'langchain' and 'langchain-core'.") from exc
 
         llm = _build_langchain_chat_model(provider=self.provider, model=self.model)
         structured_llm = llm.with_structured_output(BatchExtraction)
@@ -163,7 +209,7 @@ class DocumentExtractor:
             [
                 (
                     "system",
-                    "You extract semantic knowledge for a quiz generation pipeline. "
+                    "You extract semantic knowledge for a graph-building pipeline. "
                     "Return concise, high-precision outputs only. " + granularity_instructions,
                 ),
                 (
@@ -175,73 +221,72 @@ class DocumentExtractor:
                     "- Relations: use normalized relation names such as causes, depends_on, part_of, related_to.\n"
                     "- Examples: short spans introduced by 'for example', 'for instance', or equivalent.\n"
                     "- Be conservative; skip uncertain items.\n"
-                    "\n"
-                    "Chunk payload:\n{chunk_payload}",
+                    "\nChunk payload:\n{chunk_payload}",
                 ),
             ]
         )
 
-        concepts: list[str] = []
-        definitions: dict[str, str] = {}
-        relations: list[dict[str, str]] = []
-        examples: list[str] = []
-
-        llm_batches = _batch_chunks(chunks, self.batch_size)
-        for batch_index, batch in enumerate(llm_batches):
+        extracted_rows: list[ChunkExtraction] = []
+        for batch_index, batch in enumerate(_batch_payloads(payloads, self.batch_size)):
             if batch_index >= self.max_calls:
                 break
-
-            payload = [
-                {"chunk_index": item[0], "text": item[1]}
-                for item in batch
-            ]
             chain = prompt | structured_llm
-            response = chain.invoke({"chunk_payload": payload})
+            response = chain.invoke({"chunk_payload": batch})
+            for item in response.chunks:
+                source = _find_payload(batch, item.chunk_index)
+                item.chunk_id = str(source.get("chunk_id")) if source.get("chunk_id") else item.chunk_id
+                item.section_path = list(source.get("section_path", []))
+                item.source_file = str(source.get("source_file")) if source.get("source_file") else item.source_file
+                item.extraction_method = "langchain"
+                extracted_rows.append(item)
+        return extracted_rows
 
-            for extracted in response.chunks:
-                chunk_text = _find_chunk_text(batch, extracted.chunk_index)
-                if chunk_text is None:
-                    continue
+    def _finalize_chunk_extractions(self, chunk_extractions: list[ChunkExtraction]) -> dict[str, object]:
+        concepts: list[str] = []
+        definitions: dict[str, str] = {}
+        relations: list[dict[str, object]] = []
+        examples: list[str] = []
 
-                concepts.extend(extracted.concepts)
-                examples.extend(extracted.examples)
-                for definition in extracted.definitions:
-                    concept_name = definition.concept.strip()
-                    definition_text = definition.definition.strip()
-                    if concept_name and definition_text:
-                        definitions[concept_name] = definition_text
-                for relation in extracted.relations:
-                    source_name = relation.source.strip()
-                    target_name = relation.target.strip()
-                    relation_name = relation.relation.strip() or "related_to"
-                    if not source_name or not target_name:
-                        continue
+        normalized_rows: list[dict[str, object]] = []
+        for row in chunk_extractions:
+            concepts.extend(row.concepts)
+            examples.extend(row.examples)
+            for definition in row.definitions:
+                if definition.concept.strip() and definition.definition.strip():
+                    definitions[definition.concept.strip()] = definition.definition.strip()
+            for relation in row.relations:
+                if relation.source.strip() and relation.target.strip():
                     relations.append(
                         {
-                            "source": source_name,
-                            "target": target_name,
-                            "relation": relation_name,
+                            "source": relation.source.strip(),
+                            "target": relation.target.strip(),
+                            "relation": relation.relation.strip() or "related_to",
+                            "confidence": relation.confidence,
+                            "confidence_score": relation.confidence_score,
+                            "source_chunk_id": row.chunk_id,
+                            "source_file": row.source_file,
+                            "extraction_method": row.extraction_method,
                         }
                     )
-
-        if not concepts and not definitions and not relations and not examples:
-            return self._extract_with_rules(chunks)
+            normalized_rows.append(row.model_dump(mode="json"))
 
         normalized_concepts = normalize_concepts(concepts)
-        definitions = {
-            key: value
-            for key, value in definitions.items()
-            if key in normalized_concepts
-        }
-
-        return self._apply_granularity(
+        definitions = {key: value for key, value in definitions.items() if key in normalized_concepts}
+        payload = self._apply_granularity(
             {
-            "concepts": normalized_concepts,
-            "definitions": definitions,
-            "relations": relations,
-            "examples": list(dict.fromkeys(example.strip() for example in examples if example.strip())),
+                "concepts": normalized_concepts,
+                "definitions": definitions,
+                "relations": relations,
+                "examples": list(dict.fromkeys(example.strip() for example in examples if example.strip())),
             }
         )
+        payload["chunk_extractions"] = normalized_rows
+        payload["summary"] = {
+            "chunk_count": len(chunk_extractions),
+            "concept_count": len(payload["concepts"]),
+            "relation_count": len(payload["relations"]),
+        }
+        return payload
 
     def _apply_granularity(self, extracted: dict[str, object]) -> dict[str, object]:
         concepts = [str(concept).strip() for concept in extracted.get("concepts", []) if str(concept).strip()]
@@ -263,27 +308,25 @@ class DocumentExtractor:
 
         if self.granularity == "coarse":
             concepts = [concept for concept in concepts if _is_coarse_concept(concept)]
-            allowed = {concept.lower() for concept in concepts}
-            definitions = {key: value for key, value in definitions.items() if key.lower() in allowed}
+            allowed = {concept.casefold() for concept in concepts}
+            definitions = {key: value for key, value in definitions.items() if key.casefold() in allowed}
             relations = [
                 relation
                 for relation in relations
-                if str(relation.get("source", "")).strip().lower() in allowed
-                and str(relation.get("target", "")).strip().lower() in allowed
+                if str(relation.get("source", "")).strip().casefold() in allowed
+                and str(relation.get("target", "")).strip().casefold() in allowed
             ]
 
-        concepts = list(dict.fromkeys(concepts))
         return {
-            "concepts": concepts,
+            "concepts": list(dict.fromkeys(concepts)),
             "definitions": definitions,
             "relations": relations,
             "examples": list(dict.fromkeys(examples)),
         }
 
 
-def _batch_chunks(chunks: list[list[str]], batch_size: int) -> list[list[tuple[int, str]]]:
-    indexed = [(index, " ".join(chunk)) for index, chunk in enumerate(chunks)]
-    return [indexed[i : i + batch_size] for i in range(0, len(indexed), batch_size)]
+def _batch_payloads(payloads: list[dict[str, object]], batch_size: int) -> list[list[dict[str, object]]]:
+    return [payloads[i : i + batch_size] for i in range(0, len(payloads), batch_size)]
 
 
 def _normalize_granularity(granularity: str) -> ExtractionGranularity:
@@ -295,17 +338,15 @@ def _normalize_granularity(granularity: str) -> ExtractionGranularity:
 
 def _granularity_instructions(granularity: ExtractionGranularity) -> str:
     if granularity == "coarse":
-        return "Prefer chapter-level concepts. Avoid code symbols, register names, field names, and function internals unless they are central to understanding the document."
+        return "Prefer chapter-level concepts. Avoid code symbols, register names, field names, and function internals unless they are central."
     if granularity == "fine":
-        return "Include implementation-level concepts, code symbols, registers, state fields, and operational details when they help explain the text."
+        return "Include implementation-level concepts, code symbols, registers, state fields, and operational details when helpful."
     return "Balance high-level concepts with key implementation terms, but avoid noisy symbols and redundant low-value details."
 
 
 def _is_coarse_concept(concept: str) -> bool:
     text = concept.strip()
-    if not text:
-        return False
-    if len(text) <= 2:
+    if not text or len(text) <= 2:
         return False
     if any(symbol in text for symbol in ("->", "()", "::", "[", "]", "{", "}", "/")):
         return False
@@ -328,25 +369,21 @@ def _build_langchain_chat_model(*, provider: LLMProvider, model: str):
         try:
             from langchain_mistralai import ChatMistralAI  # type: ignore[import-not-found]
         except ImportError as exc:
-            raise RuntimeError(
-                "Mistral provider selected but dependency is missing. Install 'langchain-mistralai'."
-            ) from exc
+            raise RuntimeError("Mistral provider selected but dependency is missing. Install 'langchain-mistralai'.") from exc
         return ChatMistralAI(model=model, temperature=0)
 
     try:
         from langchain_openai import ChatOpenAI  # type: ignore[import-not-found]
     except ImportError as exc:
-        raise RuntimeError(
-            "OpenAI provider selected but dependency is missing. Install 'langchain-openai'."
-        ) from exc
+        raise RuntimeError("OpenAI provider selected but dependency is missing. Install 'langchain-openai'.") from exc
     return ChatOpenAI(model=model, temperature=0)
 
 
-def _find_chunk_text(batch: list[tuple[int, str]], chunk_index: int) -> str | None:
-    for index, text in batch:
-        if index == chunk_index:
-            return text
-    return None
+def _find_payload(batch: list[dict[str, object]], chunk_index: int) -> dict[str, object]:
+    for item in batch:
+        if int(item.get("chunk_index", -1)) == chunk_index:
+            return item
+    return {}
 
 
 def _split_sentences(text: str) -> list[str]:
@@ -381,8 +418,8 @@ def _extract_definitions(text: str) -> list[tuple[str, str]]:
     return pairs
 
 
-def _extract_relations(text: str) -> list[dict[str, str]]:
-    relations: list[dict[str, str]] = []
+def _extract_relations(text: str) -> list[dict[str, object]]:
+    relations: list[dict[str, object]] = []
     relation_patterns = [
         ("causes", re.compile(r"(?P<src>[A-Z][A-Za-z0-9_\- ]{2,40})\s+causes\s+(?P<tgt>[A-Z][A-Za-z0-9_\- ]{2,40})", re.IGNORECASE)),
         ("depends_on", re.compile(r"(?P<src>[A-Z][A-Za-z0-9_\- ]{2,40})\s+depends on\s+(?P<tgt>[A-Z][A-Za-z0-9_\- ]{2,40})", re.IGNORECASE)),
@@ -395,6 +432,8 @@ def _extract_relations(text: str) -> list[dict[str, str]]:
                     "source": match.group("src").strip(),
                     "target": match.group("tgt").strip(),
                     "relation": relation_name,
+                    "confidence": "EXTRACTED",
+                    "confidence_score": 1.0,
                 }
             )
     return relations

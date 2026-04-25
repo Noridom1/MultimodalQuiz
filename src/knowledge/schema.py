@@ -9,15 +9,37 @@ from pydantic import BaseModel, Field
 
 
 class NodeKind(str, Enum):
-    block = "block"
-    concept = "concept"
-    image = "image"
+    document = "document"
     section = "section"
+    chunk = "chunk"
+    concept = "concept"
+    topic = "topic"
+    artifact = "artifact"
+    # Deprecated compatibility values kept so older consumers do not crash.
+    block = "block"
+    image = "image"
+
+
+class ContentType(str, Enum):
+    text = "text"
+    table = "table"
+    image = "image"
+    code = "code"
+    formula = "formula"
+    list = "list"
+    mixed = "mixed"
+    raw_html = "raw_html"
+    details = "details"
 
 
 class EdgeRelation(str, Enum):
     contains = "contains"
     follows = "follows"
+    groups = "groups"
+    grounded_by = "grounded_by"
+    illustrated_by = "illustrated_by"
+    covers = "covers"
+    prerequisite_of = "prerequisite_of"
     mentions = "mentions"
     references = "references"
     explains = "explains"
@@ -25,6 +47,9 @@ class EdgeRelation(str, Enum):
     supports = "supports"
     defines = "defines"
     related_to = "related_to"
+    depends_on = "depends_on"
+    part_of = "part_of"
+    causes = "causes"
     semantically_similar_to = "semantically_similar_to"
 
 
@@ -32,11 +57,15 @@ class GraphNode(BaseModel):
     id: str
     label: str
     kind: NodeKind
+    content_type: Optional[ContentType] = None
     source_file: Optional[str] = None
+    source_location: Optional[str] = None
+    source_chunk_id: Optional[str] = None
     page_idx: Optional[int] = None
     section_path: list[str] = Field(default_factory=list)
     text: Optional[str] = None
     image_path: Optional[str] = None
+    aliases: list[str] = Field(default_factory=list)
     metadata: dict[str, Any] = Field(default_factory=dict)
 
 
@@ -48,7 +77,9 @@ class GraphEdge(BaseModel):
     confidence_score: float = 1.0
     weight: float = 1.0
     source_file: Optional[str] = None
+    source_chunk_id: Optional[str] = None
     source_location: Optional[str] = None
+    extraction_method: Optional[str] = None
     metadata: dict[str, Any] = Field(default_factory=dict)
 
 
@@ -62,14 +93,14 @@ class MultimodalDocumentGraph(BaseModel):
     def to_networkx(self) -> nx.MultiDiGraph:
         graph = nx.MultiDiGraph()
         for node in self.nodes:
-            graph.add_node(node.id, **node.model_dump())
+            graph.add_node(node.id, **node.model_dump(mode="json"))
 
         for edge in self.edges:
             graph.add_edge(
                 edge.source,
                 edge.target,
                 key=f"{edge.relation.value}:{edge.source}->{edge.target}",
-                **edge.model_dump(),
+                **edge.model_dump(mode="json"),
             )
 
         graph.graph.update(self.metadata)
@@ -84,11 +115,14 @@ class MultimodalDocumentGraph(BaseModel):
             "node_count": len(self.nodes),
             "edge_count": len(self.edges),
             "node_kinds": _count_enum_values(node.kind for node in self.nodes),
+            "content_types": _count_enum_values(
+                node.content_type for node in self.nodes if node.content_type is not None
+            ),
             "edge_relations": _count_enum_values(edge.relation for edge in self.edges),
         }
 
 
-def _count_enum_values(values: list[Enum] | tuple[Enum, ...] | Any) -> dict[str, int]:
+def _count_enum_values(values: Any) -> dict[str, int]:
     counts: dict[str, int] = {}
     for value in values:
         key = value.value if isinstance(value, Enum) else str(value)
@@ -114,21 +148,16 @@ class Question(BaseModel):
     metadata: dict[str, Any] = Field(default_factory=dict)
 
     def validate(self) -> None:
-        """Basic validation for question payloads used by generators.
-
-        Raises ValueError on invalid content.
-        """
         if not self.question_text or not self.question_text.strip():
             raise ValueError("question_text must be non-empty")
 
-        if self.question_type == "multiple-choice" or self.question_type == "multiple_choice":
+        if self.question_type in {"multiple-choice", "multiple_choice"}:
             if not isinstance(self.options, list) or len(self.options) != 4:
                 raise ValueError("multiple-choice questions must include 4 options")
             opts = [str(o).strip() for o in self.options]
             if not all(opts):
                 raise ValueError("options must be non-empty strings")
             ca = str(self.correct_answer).strip()
-            # allow correct_answer as option text or label A/B/C/D
             if ca not in opts and ca.upper() not in {"A", "B", "C", "D"}:
                 raise ValueError("correct_answer must match one of the options or A/B/C/D")
 

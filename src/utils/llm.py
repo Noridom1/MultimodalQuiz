@@ -5,8 +5,6 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
-from langchain_mistralai import ChatMistralAI
-from langchain_core.messages import SystemMessage, HumanMessage
 
 import requests
 import yaml
@@ -168,6 +166,14 @@ class MistralAIProvider(LLMProvider):
         self.config = config
 
     def complete(self, prompt: str, system_prompt: str | None = None) -> str:
+        try:
+            from langchain_core.messages import HumanMessage, SystemMessage
+            from langchain_mistralai import ChatMistralAI
+        except Exception as exc:  # pragma: no cover - optional runtime dependency
+            raise RuntimeError(
+                "Mistral support requires 'langchain-core' and 'langchain-mistralai'."
+            ) from exc
+
         api_key = self.config.api_key or os.getenv(self.config.api_key_env)
         if not api_key:
             raise RuntimeError("Missing MistralAI API key")

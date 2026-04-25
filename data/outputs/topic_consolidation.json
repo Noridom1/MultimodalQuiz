@@ -1,0 +1,642 @@
+{
+  "count": 13,
+  "topics": [
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::anchor::2::myproc",
+      "label": "Myproc",
+      "description": "Concept-anchored topic centered on myproc",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ],
+        [
+          "8.6 Real world"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::40::hartid",
+        "book-riscv-rev5-chap8::concept::42::mycpu",
+        "book-riscv-rev5-chap8::concept::44::myproc",
+        "book-riscv-rev5-chap8::concept::49::struct_proc",
+        "book-riscv-rev5-chap8::concept::50::round_robin",
+        "book-riscv-rev5-chap8::concept::51::xv6_scheduler"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::42::mycpu",
+        "book-riscv-rev5-chap8::concept::44::myproc",
+        "book-riscv-rev5-chap8::concept::49::struct_proc"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.97
+      },
+      "metadata": {
+        "anchor_concept_id": "book-riscv-rev5-chap8::concept::44::myproc",
+        "merged_candidate_ids": [
+          "book-riscv-rev5-chap8::topic_candidate::anchor::6::mycpu",
+          "book-riscv-rev5-chap8::topic_candidate::anchor::7::scheduling_policy"
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::section::4::context_switching_implementation",
+      "label": "Context switching implementation",
+      "description": "Section-seeded topic for 8.3 Code: Context switching",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::25::risc_v_calling_convention",
+        "book-riscv-rev5-chap8::concept::26::callee_saved_registers",
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::31::sched",
+        "book-riscv-rev5-chap8::concept::35::runnable",
+        "book-riscv-rev5-chap8::concept::36::running",
+        "book-riscv-rev5-chap8::concept::9::system_call"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::25::risc_v_calling_convention",
+        "book-riscv-rev5-chap8::concept::9::system_call"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.94
+      },
+      "metadata": {
+        "section_id": "book-riscv-rev5-chap8::section::13::8_3_code_context_switching",
+        "source_section_label": "8.3 Code: Context switching"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::anchor::4::process",
+      "label": "Process",
+      "description": "Concept-anchored topic centered on process",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ],
+        [
+          "8.6 Real world"
+        ],
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::26::callee_saved_registers",
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::31::sched",
+        "book-riscv-rev5-chap8::concept::35::runnable",
+        "book-riscv-rev5-chap8::concept::36::running",
+        "book-riscv-rev5-chap8::concept::42::mycpu",
+        "book-riscv-rev5-chap8::concept::44::myproc",
+        "book-riscv-rev5-chap8::concept::49::struct_proc",
+        "book-riscv-rev5-chap8::concept::50::round_robin",
+        "book-riscv-rev5-chap8::concept::51::xv6_scheduler",
+        "book-riscv-rev5-chap8::concept::8::process"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::44::myproc",
+        "book-riscv-rev5-chap8::concept::50::round_robin",
+        "book-riscv-rev5-chap8::concept::8::process"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "anchor_concept_id": "book-riscv-rev5-chap8::concept::8::process",
+        "merged_candidate_ids": [
+          "book-riscv-rev5-chap8::topic_candidate::anchor::3::round_robin",
+          "book-riscv-rev5-chap8::topic_candidate::section::7::real_world",
+          "book-riscv-rev5-chap8::topic_candidate::anchor::1::scheduler"
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::anchor::9::risc_v_calling_convention",
+      "label": "RISC-V calling convention",
+      "description": "Concept-anchored topic centered on RISC-V calling convention",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::25::risc_v_calling_convention",
+        "book-riscv-rev5-chap8::concept::26::callee_saved_registers",
+        "book-riscv-rev5-chap8::concept::9::system_call"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::25::risc_v_calling_convention"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.94
+      },
+      "metadata": {
+        "anchor_concept_id": "book-riscv-rev5-chap8::concept::25::risc_v_calling_convention"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::anchor::10::forkret",
+      "label": "Forkret",
+      "description": "Concept-anchored topic centered on forkret",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::37::forkret",
+        "book-riscv-rev5-chap8::concept::38::allocproc"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::37::forkret",
+        "book-riscv-rev5-chap8::concept::38::allocproc"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "book-riscv-rev5-chap8::concept::37::forkret",
+        "merged_candidate_ids": [
+          "book-riscv-rev5-chap8::topic_candidate::anchor::11::allocproc"
+        ]
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::anchor::0::swtch",
+      "label": "Swtch",
+      "description": "Concept-anchored topic centered on swtch",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::25::risc_v_calling_convention",
+        "book-riscv-rev5-chap8::concept::26::callee_saved_registers",
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::31::sched",
+        "book-riscv-rev5-chap8::concept::35::runnable",
+        "book-riscv-rev5-chap8::concept::44::myproc",
+        "book-riscv-rev5-chap8::concept::49::struct_proc",
+        "book-riscv-rev5-chap8::concept::50::round_robin",
+        "book-riscv-rev5-chap8::concept::8::process"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "book-riscv-rev5-chap8::concept::24::swtch"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::anchor::5::context_switches",
+      "label": "Context switches",
+      "description": "Concept-anchored topic centered on context switches",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::12::context_switches",
+        "book-riscv-rev5-chap8::concept::13::hardware_timer",
+        "book-riscv-rev5-chap8::concept::52::kernel_thread",
+        "book-riscv-rev5-chap8::concept::54::deadlocks"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::12::context_switches"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.765
+      },
+      "metadata": {
+        "anchor_concept_id": "book-riscv-rev5-chap8::concept::12::context_switches"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::anchor::8::xv6",
+      "label": "Xv6",
+      "description": "Concept-anchored topic centered on xv6",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::1::processes",
+        "book-riscv-rev5-chap8::concept::2::cpus",
+        "book-riscv-rev5-chap8::concept::5::multiplexing",
+        "book-riscv-rev5-chap8::concept::6::xv6"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::6::xv6"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.765
+      },
+      "metadata": {
+        "anchor_concept_id": "book-riscv-rev5-chap8::concept::6::xv6"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::section::2::multiplexing",
+      "label": "Multiplexing",
+      "description": "Section-seeded topic for 8.1 Multiplexing",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::10::voluntary_switches",
+        "book-riscv-rev5-chap8::concept::11::involuntary_switches",
+        "book-riscv-rev5-chap8::concept::12::context_switches",
+        "book-riscv-rev5-chap8::concept::13::hardware_timer",
+        "book-riscv-rev5-chap8::concept::14::locking_plan",
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::2::cpus",
+        "book-riscv-rev5-chap8::concept::5::multiplexing",
+        "book-riscv-rev5-chap8::concept::6::xv6",
+        "book-riscv-rev5-chap8::concept::8::process",
+        "book-riscv-rev5-chap8::concept::9::system_call"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::12::context_switches",
+        "book-riscv-rev5-chap8::concept::5::multiplexing",
+        "book-riscv-rev5-chap8::concept::8::process"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "book-riscv-rev5-chap8::section::4::8_1_multiplexing",
+        "source_section_label": "8.1 Multiplexing"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::section::5::scheduling_implementation",
+      "label": "Scheduling implementation",
+      "description": "Section-seeded topic for 8.4 Code: Scheduling",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::25::risc_v_calling_convention",
+        "book-riscv-rev5-chap8::concept::26::callee_saved_registers",
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::35::runnable",
+        "book-riscv-rev5-chap8::concept::36::running",
+        "book-riscv-rev5-chap8::concept::37::forkret",
+        "book-riscv-rev5-chap8::concept::38::allocproc",
+        "book-riscv-rev5-chap8::concept::40::hartid",
+        "book-riscv-rev5-chap8::concept::42::mycpu",
+        "book-riscv-rev5-chap8::concept::44::myproc",
+        "book-riscv-rev5-chap8::concept::8::process"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::44::myproc"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "book-riscv-rev5-chap8::section::23::8_4_code_scheduling",
+        "source_section_label": "8.4 Code: Scheduling"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::section::6::mycpu_and_myproc_implementation",
+      "label": "Mycpu and myproc implementation",
+      "description": "Section-seeded topic for 8.5 Code: mycpu and myproc",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::37::forkret",
+        "book-riscv-rev5-chap8::concept::38::allocproc",
+        "book-riscv-rev5-chap8::concept::40::hartid",
+        "book-riscv-rev5-chap8::concept::42::mycpu",
+        "book-riscv-rev5-chap8::concept::44::myproc",
+        "book-riscv-rev5-chap8::concept::47::prepare_return",
+        "book-riscv-rev5-chap8::concept::48::start",
+        "book-riscv-rev5-chap8::concept::49::struct_proc",
+        "book-riscv-rev5-chap8::concept::50::round_robin",
+        "book-riscv-rev5-chap8::concept::8::process"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::44::myproc"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "book-riscv-rev5-chap8::section::33::8_5_code_mycpu_and_myproc",
+        "source_section_label": "8.5 Code: mycpu and myproc"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::section::8::exercises",
+      "label": "Exercises",
+      "description": "Section-seeded topic for 8.7 Exercises",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::12::context_switches",
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::26::callee_saved_registers",
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::35::runnable",
+        "book-riscv-rev5-chap8::concept::44::myproc",
+        "book-riscv-rev5-chap8::concept::49::struct_proc",
+        "book-riscv-rev5-chap8::concept::50::round_robin",
+        "book-riscv-rev5-chap8::concept::51::xv6_scheduler",
+        "book-riscv-rev5-chap8::concept::52::kernel_thread",
+        "book-riscv-rev5-chap8::concept::53::scheduler_thread",
+        "book-riscv-rev5-chap8::concept::54::deadlocks"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+        "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+        "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "book-riscv-rev5-chap8::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::12::context_switches",
+        "book-riscv-rev5-chap8::concept::24::swtch",
+        "book-riscv-rev5-chap8::concept::50::round_robin"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "book-riscv-rev5-chap8::section::41::8_7_exercises",
+        "source_section_label": "8.7 Exercises"
+      }
+    },
+    {
+      "id": "book-riscv-rev5-chap8::topic_candidate::section::1::scheduling",
+      "label": "Scheduling",
+      "description": "Section-seeded topic for Scheduling",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::0::operating_system",
+        "book-riscv-rev5-chap8::concept::14::locking_plan",
+        "book-riscv-rev5-chap8::concept::1::processes",
+        "book-riscv-rev5-chap8::concept::2::cpus",
+        "book-riscv-rev5-chap8::concept::3::time_share",
+        "book-riscv-rev5-chap8::concept::4::virtual_cpu",
+        "book-riscv-rev5-chap8::concept::5::multiplexing",
+        "book-riscv-rev5-chap8::concept::6::xv6"
+      ],
+      "chunk_ids": [
+        "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+        "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "book-riscv-rev5-chap8::concept::2::cpus",
+        "book-riscv-rev5-chap8::concept::5::multiplexing",
+        "book-riscv-rev5-chap8::concept::6::xv6"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.25,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.677
+      },
+      "metadata": {
+        "section_id": "book-riscv-rev5-chap8::section::1::scheduling",
+        "source_section_label": "Scheduling"
+      }
+    }
+  ]
+}

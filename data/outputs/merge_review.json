@@ -1,0 +1,45 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::4::virtual_cpu",
+        "book-riscv-rev5-chap8::concept::7::cpu"
+      ],
+      "labels": [
+        "virtual CPU",
+        "CPU"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::6::xv6",
+        "book-riscv-rev5-chap8::concept::51::xv6_scheduler"
+      ],
+      "labels": [
+        "xv6",
+        "xv6 scheduler"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "book-riscv-rev5-chap8::concept::27::scheduler",
+        "book-riscv-rev5-chap8::concept::53::scheduler_thread"
+      ],
+      "labels": [
+        "scheduler",
+        "scheduler thread"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

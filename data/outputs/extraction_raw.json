@@ -1,0 +1,519 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "book-riscv-rev5-chap8::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "Scheduling"
+      ],
+      "concepts": [
+        "operating system",
+        "processes",
+        "CPUs",
+        "time-share",
+        "virtual CPU",
+        "multiplexing",
+        "xv6"
+      ],
+      "definitions": [
+        {
+          "concept": "multiplexing",
+          "definition": "The process of time-sharing CPUs among processes to provide the illusion of a virtual CPU for each process."
+        }
+      ],
+      "relations": [
+        {
+          "source": "multiplexing",
+          "target": "processes",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "multiplexing",
+          "target": "CPUs",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "xv6",
+          "target": "multiplexing",
+          "relation": "achieves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "book-riscv-rev5-chap8::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.1 Multiplexing"
+      ],
+      "concepts": [
+        "xv6",
+        "multiplexing",
+        "CPU",
+        "process",
+        "system call",
+        "voluntary switches",
+        "involuntary switches",
+        "context switches",
+        "hardware timer",
+        "locking plan"
+      ],
+      "definitions": [
+        {
+          "concept": "voluntary switches",
+          "definition": "Switches that occur when a process makes a system call that blocks, such as read or wait."
+        },
+        {
+          "concept": "involuntary switches",
+          "definition": "Switches that are forced periodically to cope with processes that compute for long periods without blocking."
+        }
+      ],
+      "relations": [
+        {
+          "source": "xv6",
+          "target": "multiplexing",
+          "relation": "achieves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "context switches",
+          "target": "hardware timer",
+          "relation": "driven_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "locking plan",
+          "target": "CPUs",
+          "relation": "necessary_for",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "read or wait"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "book-riscv-rev5-chap8::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "concepts": [
+        "sd",
+        "ld",
+        "ra",
+        "sp",
+        "s0",
+        "s11",
+        "ret"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "book-riscv-rev5-chap8::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "concepts": [
+        "a0",
+        "a1",
+        "struct context",
+        "ra",
+        "sp",
+        "s0",
+        "swtch",
+        "CPU",
+        "RISC-V calling convention"
+      ],
+      "definitions": [
+        {
+          "concept": "struct context",
+          "definition": "A structure defined in kernel/proc.h that includes fields such as s0, ra, and sp."
+        }
+      ],
+      "relations": [
+        {
+          "source": "swtch",
+          "target": "ra",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "swtch",
+          "target": "sp",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "RISC-V calling convention",
+          "target": "caller-saved registers",
+          "relation": "requires",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "book-riscv-rev5-chap8::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::10::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "swtch",
+        "callee-saved registers",
+        "caller-saved registers",
+        "RISC-V calling convention",
+        "scheduler",
+        "CPU",
+        "process",
+        "p->lock",
+        "p->state",
+        "p->context",
+        "sched",
+        "yield",
+        "sleep",
+        "kexit"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "swtch",
+          "target": "callee-saved registers",
+          "relation": "saves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "RISC-V calling convention",
+          "target": "caller-saved registers",
+          "relation": "requires",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "process",
+          "relation": "manages",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "process",
+          "target": "p->lock",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "process",
+          "target": "p->state",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "sched",
+          "target": "swtch",
+          "relation": "calls",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "book-riscv-rev5-chap8::image::26::images_beedb7345045080a4a25965466805e3357535b86e::chunk::11::images_beedb7345045080a4a25965466805e3357535b86e",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "book-riscv-rev5-chap8::details::27::details_summary_text_image_summary_process_1_acq::chunk::12::details_summary_text_image_summary_process_1_acq",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "p->lock",
+        "p->state",
+        "RUNNABLE",
+        "RUNNING",
+        "swtch",
+        "scheduler"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "process",
+          "target": "p->lock",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "process",
+          "target": "p->state",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "swtch",
+          "relation": "calls",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "book-riscv-rev5-chap8::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::13::figure_8_2_swtch_always_has_the_scheduler_thread",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "swtch",
+        "scheduler",
+        "p->lock",
+        "p->state",
+        "RUNNABLE",
+        "RUNNING",
+        "forkret",
+        "allocproc",
+        "ra",
+        "c->proc",
+        "hartid",
+        "tp",
+        "mycpu",
+        "cpuid",
+        "myproc"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "scheduler",
+          "target": "swtch",
+          "relation": "calls",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "allocproc",
+          "target": "forkret",
+          "relation": "sets",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "myproc",
+          "target": "mycpu",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "mycpu",
+          "target": "hartid",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "book-riscv-rev5-chap8::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::14::there_is_one_case_when_the_scheduler_s_call_to_s",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "concepts": [
+        "scheduler",
+        "swtch",
+        "forkret",
+        "allocproc",
+        "ra",
+        "p->lock",
+        "tp",
+        "hartid",
+        "mycpu",
+        "cpuid",
+        "myproc",
+        "trampoline page",
+        "uservec",
+        "prepare_return",
+        "start"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "allocproc",
+          "target": "forkret",
+          "relation": "sets",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "myproc",
+          "target": "mycpu",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "mycpu",
+          "target": "hartid",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "uservec",
+          "target": "tp",
+          "relation": "restores",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "book-riscv-rev5-chap8::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::15::the_function_myproc_2187_returns_the_struct_proc",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.6 Real world"
+      ],
+      "concepts": [
+        "myproc",
+        "struct proc",
+        "CPU",
+        "round robin",
+        "scheduler"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "myproc",
+          "target": "struct proc",
+          "relation": "returns",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "round robin",
+          "relation": "implements",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "book-riscv-rev5-chap8::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::16::the_xv6_scheduler_implements_a_simple_scheduling",
+      "source_file": "data\\processed\\book-riscv-rev5-chap8\\hybrid_auto\\book-riscv-rev5-chap8.md",
+      "section_path": [
+        "8.7 Exercises"
+      ],
+      "concepts": [
+        "xv6 scheduler",
+        "round robin",
+        "scheduling policy",
+        "context switch",
+        "kernel thread",
+        "scheduler thread",
+        "swtch",
+        "deadlocks"
+      ],
+      "definitions": [
+        {
+          "concept": "round robin",
+          "definition": "A simple scheduling policy that runs each process in turn."
+        }
+      ],
+      "relations": [
+        {
+          "source": "xv6 scheduler",
+          "target": "round robin",
+          "relation": "implements",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduling policy",
+          "target": "round robin",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "context switch",
+          "target": "kernel thread",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "deadlocks",
+          "target": "context switch",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "Real operating systems implement more sophisticated policies that, for example, allow processes to have priorities."
+      ],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 11,
+    "concept_count": 59,
+    "relation_count": 32
+  }
+}
