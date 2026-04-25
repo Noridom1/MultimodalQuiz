@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import logging
 import sys
 from pathlib import Path
 
@@ -9,6 +10,33 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.pipeline import QuizGenerationPipeline
+
+
+class FriendlyNameFilter(logging.Filter):
+    FRIENDLY_NAMES = {
+        "src.generator.image_gen": "image gen",
+        "src.generator.question_gen": "question gen",
+        "src.generator.orchestrator": "orchestrator",
+        "src.pipeline": "pipeline",
+    }
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        record.friendly_name = self.FRIENDLY_NAMES.get(record.name, record.name)
+        return True
+
+
+def _configure_logging(level_name: str) -> None:
+    level = getattr(logging, level_name.upper(), logging.INFO)
+    handler = logging.StreamHandler()
+    handler.addFilter(FriendlyNameFilter())
+    handler.setFormatter(
+        logging.Formatter("%(asctime)s %(levelname)s [%(friendly_name)s] %(message)s")
+    )
+
+    root_logger = logging.getLogger()
+    root_logger.handlers.clear()
+    root_logger.setLevel(level)
+    root_logger.addHandler(handler)
 
 
 def main() -> None:
@@ -31,7 +59,22 @@ def main() -> None:
         action="store_true",
         help="Use mock question outputs instead of calling the question LLM",
     )
+    parser.add_argument(
+        "--generation-mode",
+        type=str,
+        default="topic_agentic",
+        choices=("topic_agentic", "legacy"),
+        help="Generation mode: 'topic_agentic' (default, new) or 'legacy' (old QuizPlanner)",
+    )
+    parser.add_argument(
+        "--log-level",
+        type=str,
+        default="INFO",
+        choices=("DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"),
+        help="Standard logging level for console output.",
+    )
     args = parser.parse_args()
+    _configure_logging(args.log_level)
 
     pipeline = QuizGenerationPipeline()
     pipeline.run(
@@ -46,6 +89,7 @@ def main() -> None:
         },
         mock_image=args.mock_image,
         mock_question=args.mock_question,
+        generation_mode=args.generation_mode,
     )
 
 

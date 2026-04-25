@@ -1,12 +1,16 @@
 from __future__ import annotations
 
 import json
+import logging
+import time
 from dataclasses import asdict, is_dataclass
 from uuid import uuid4
 
 from src.knowledge.schema import Question
 from src.planner.planner import QuestionPlan
 from src.utils.llm import LLMClient
+
+LOGGER = logging.getLogger(__name__)
 
 
 class LLMQuestionGenerator:
@@ -124,7 +128,11 @@ class LLMQuestionGenerator:
             question_type=question_plan.question_type,
             associated_image=image_path,
             image_grounded=LLMQuestionGenerator._requires_image_grounding(question_plan),
-            metadata={"reasoning_type": question_plan.reasoning_type, **question_plan.metadata},
+            metadata={
+                "reasoning_type": question_plan.reasoning_type,
+                "tested_fact_source": question_plan.tested_fact_block_id,
+                **question_plan.metadata
+            },
         )
         question.validate()
         return question
@@ -154,10 +162,20 @@ class LLMQuestionGenerator:
             raise ValueError("Question prompt cannot be empty.")
 
         # Ensure the effective plan exists; images are mandatory
-        effective_plan = question_plan or self._default_plan()
+        effective_plan = question_plan
         if not image_path:
             raise ValueError("Image is required by plan but no image_path provided to generator.")
         require_image_grounding = self._requires_image_grounding(effective_plan)
+        generation_started_at = time.perf_counter()
+        LOGGER.info(
+            "Starting question generation target_concept=%s difficulty=%s question_type=%s require_image_grounding=%s has_image=%s max_retries=%d",
+            effective_plan.target_concept,
+            effective_plan.difficulty,
+            effective_plan.question_type,
+            require_image_grounding,
+            bool(image_path),
+            self._max_retries,
+        )
 
         last_error: Exception | None = None
         previous_output: str | None = None
@@ -179,6 +197,13 @@ class LLMQuestionGenerator:
                 )
 
             try:
+                LOGGER.info(
+                    "Question generation attempt %d/%d target_concept=%s prompt_len=%d",
+                    attempt + 1,
+                    self._max_retries + 1,
+                    effective_plan.target_concept,
+                    len(attempt_prompt),
+                )
                 llm_output = self._llm_client.complete(attempt_prompt, system_prompt=self._system_prompt())
                 previous_output = llm_output
                 payload = self._extract_json_payload(llm_output)
@@ -191,10 +216,30 @@ class LLMQuestionGenerator:
                 if require_image_grounding and not self._is_image_grounded(question):
                     raise ValueError("Generated question is not image-grounded.")
 
+                LOGGER.info(
+                    "Completed question generation target_concept=%s question_id=%s attempt=%d elapsed=%.2fs",
+                    effective_plan.target_concept,
+                    question.id,
+                    attempt + 1,
+                    time.perf_counter() - generation_started_at,
+                )
                 return question
             except Exception as exc:
                 last_error = exc
+                LOGGER.warning(
+                    "Question generation attempt %d/%d failed target_concept=%s error=%s",
+                    attempt + 1,
+                    self._max_retries + 1,
+                    effective_plan.target_concept,
+                    exc,
+                )
 
+        LOGGER.error(
+            "Question generation failed after %d attempts target_concept=%s elapsed=%.2fs",
+            self._max_retries + 1,
+            effective_plan.target_concept,
+            time.perf_counter() - generation_started_at,
+        )
         raise RuntimeError("Failed to generate a valid question after retries.") from last_error
 
     @staticmethod
