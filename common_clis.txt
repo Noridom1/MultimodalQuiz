@@ -1,1 +1,3 @@
 python .\src\knowledge\kg_builder.py .\data\processed\book-riscv-rev5-chap8\hybrid_auto\book-riscv-rev5-chap8.md --html --output-dir .\data\outputs\ --backend langchain --provider mistral --granularity balanced --max-tokens 500 
+
+python scripts/visualize_questions.py outputs/20260426_000329_eco_12bf04/generation/questions.json --open
