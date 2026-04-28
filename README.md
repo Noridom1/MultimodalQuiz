@@ -178,16 +178,18 @@ Ensure quality and consistency
 ## 4. Codebase Structure
 
 ```
-quizgen/
+MultimodalQuiz/
 │
 ├── configs/
 │   ├── default.yaml
 │   └── model_config.yaml
 │
 ├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── outputs/
+│   ├── raw/                        # input PDFs
+│   ├── processed/                  # MinerU parsing outputs (per-document)
+│   └── outputs/                    # legacy output location
+│
+├── outputs/                        # pipeline run outputs (see §5.3)
 │
 ├── src/
 │   ├── document_understanding/
@@ -198,16 +200,27 @@ quizgen/
 │   │
 │   ├── knowledge/
 │   │   ├── kg_builder.py
-│   │   └── schema.py
+│   │   ├── schema.py
+│   │   ├── schema_consolidator.py
+│   │   ├── concept_normalizer.py
+│   │   ├── topic_inducer.py
+│   │   ├── merge_resolver.py
+│   │   ├── graph_reviewer.py
+│   │   ├── validator.py
+│   │   └── retriever.py
 │   │
 │   ├── planner/
 │   │   ├── planner.py
-│   │   └── prompt_templates.py
+│   │   ├── prompt_templates.py
+│   │   ├── topic_planner.py
+│   │   └── topic_prompt_templates.py
 │   │
 │   ├── generator/
 │   │   ├── question_gen.py
 │   │   ├── image_gen.py
-│   │   └── prompt_builder.py
+│   │   ├── prompt_builder.py
+│   │   ├── prompt_checks.py
+│   │   └── orchestrator.py
 │   │
 │   ├── verifier/
 │   │   ├── critic.py
@@ -224,8 +237,13 @@ quizgen/
 │   └── experiments.ipynb
 │
 ├── scripts/
-│   ├── run_pipeline.py
-│   └── evaluate.py
+│   ├── run_pipeline.py             # full pipeline entry point
+│   ├── orchestrate_generation.py  # generation-only orchestration
+│   ├── evaluate.py                # evaluation utilities
+│   ├── visualize_questions.py     # interactive quiz HTML generator
+│   └── test_extractor.py
+│
+├── lib/                            # vendored JS libs for graph viewer
 │
 ├── requirements.txt
 └── README.md
@@ -287,18 +305,30 @@ python scripts/run_pipeline.py --help
 
 ### 5.2 Visualize Questions from `questions.json`
 
-After a successful run, you can render a browser-based viewer from the generated questions file:
+After a successful run, you can generate an interactive quiz from the generated questions file:
 
 ```bash
-python scripts/visualize_questions.py outputs/<run_id>/generation/questions.json --open
+python scripts/visualize_questions.py --json_path outputs/<run_id>/generation/questions.json --open
 ```
 
-This command creates an HTML file next to `questions.json` (named `questions_viewer.html`) and opens it in your default browser.
+This creates `index.html` next to `questions.json` and opens it in your default browser. The quiz displays one question at a time, tracks time per question, and lets participants download a `user_study_results.json` file at the end.
 
-If your image references are stored with custom paths, you can also provide an explicit image directory:
+Key options:
+
+| Flag | Default | Description |
+|---|---|---|
+| `--json_path` | *(required)* | Path to `questions.json` |
+| `--image_dir` | `data/images/` | Fallback directory when image ref is a bare filename |
+| `--output` | `index.html` next to JSON | Custom output HTML path |
+| `--open` | off | Open the HTML in the default browser after writing |
+
+If your images live in a custom directory:
 
 ```bash
-python scripts/visualize_questions.py outputs/<run_id>/generation/questions.json --image-dir outputs/<run_id>/generation/images --open
+python scripts/visualize_questions.py \
+  --json_path outputs/<run_id>/generation/questions.json \
+  --image_dir outputs/<run_id>/generation/images \
+  --open
 ```
 
 ### 5.3 Understand the `outputs/` Folder
@@ -356,7 +386,7 @@ outputs/
 1. Open `outputs/<run_id>/manifest.json`.
 2. Check stage completion and artifact paths.
 3. Review `generation/questions.json` for final quiz outputs.
-4. Run `python scripts/visualize_questions.py outputs/<run_id>/generation/questions.json --open` for visual QA.
+4. Run `python scripts/visualize_questions.py --json_path outputs/<run_id>/generation/questions.json --open` for visual QA.
 5. If something failed, inspect `logs/pipeline.log` and corresponding stage artifacts.
 
 ---
