@@ -8,3 +8,4 @@ auth.sh
 __documents__
 __plans__
 outputs/
+.DS_Store
