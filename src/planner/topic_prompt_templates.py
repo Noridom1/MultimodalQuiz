@@ -42,7 +42,7 @@ Each question object must include:
 
 Example question item:
 
-{
+{{
 	"target_concept": "{example_concept}",
 	"question_type": "multiple_choice",
 	"options": ["Option A", "Option B", "Option C", "Option D"],
@@ -53,8 +53,8 @@ Example question item:
 	"image_description": "A diagram illustrating the concept.",
 	"learning_objective": "Understand the fundamental aspect of the concept.",
 	"tested_fact_block_id": "block_xyz",
-	"metadata": {}
-}
+	"metadata": {{}}
+}}
 
 Full output (root object):
 {{
