@@ -1,0 +1,819 @@
+{
+  "count": 17,
+  "topics": [
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::section::1::learning_objectives",
+      "label": "LEARNING OBJECTIVES",
+      "description": "Section-seeded topic for LEARNING OBJECTIVES",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::11::nutrients",
+        "Behavioral_Neuroscience::concept::12::synaptic_vesicles",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::21::reuptake",
+        "Behavioral_Neuroscience::concept::2::receptors",
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::4::vesicle",
+        "Behavioral_Neuroscience::concept::5::intracellular_signals",
+        "Behavioral_Neuroscience::concept::66::oxidation",
+        "Behavioral_Neuroscience::concept::7::astrocytes"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::3::enzymes"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "Behavioral_Neuroscience::section::1::learning_objectives",
+        "source_section_label": "LEARNING OBJECTIVES"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::section::2::how_do_neurons_produce_neurotransmitters",
+      "label": "How do neurons produce neurotransmitters?",
+      "description": "Section-seeded topic for How do neurons produce neurotransmitters?",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::11::nutrients",
+        "Behavioral_Neuroscience::concept::12::synaptic_vesicles",
+        "Behavioral_Neuroscience::concept::14::ca_influx",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::24::synthesizing_enzymes",
+        "Behavioral_Neuroscience::concept::25::metal_ions",
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::48::neurotransmitter",
+        "Behavioral_Neuroscience::concept::4::vesicle",
+        "Behavioral_Neuroscience::concept::5::intracellular_signals"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::3::enzymes"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "Behavioral_Neuroscience::section::5::how_do_neurons_produce_neurotransmitters",
+        "source_section_label": "How do neurons produce neurotransmitters?"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::section::3::how_are_neurotransmitters_stored_and_released",
+      "label": "How are neurotransmitters stored and released?",
+      "description": "Section-seeded topic for How are neurotransmitters stored and released?",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::12::synaptic_vesicles",
+        "Behavioral_Neuroscience::concept::13::action_potential",
+        "Behavioral_Neuroscience::concept::14::ca_influx",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::41::prostaglandins",
+        "Behavioral_Neuroscience::concept::44::energy_efficiency",
+        "Behavioral_Neuroscience::concept::45::presynaptic_terminal",
+        "Behavioral_Neuroscience::concept::46::voltage_dependent_calcium_channels",
+        "Behavioral_Neuroscience::concept::48::neurotransmitter"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+        "Behavioral_Neuroscience::concept::3::enzymes"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "Behavioral_Neuroscience::section::16::how_are_neurotransmitters_stored_and_released",
+        "source_section_label": "How are neurotransmitters stored and released?"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::section::4::post_synaptic_actions_of_neurotransmitters",
+      "label": "Post-synaptic actions of neurotransmitters",
+      "description": "Section-seeded topic for Post-synaptic actions of neurotransmitters",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::16::synaptic_cleft",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::48::neurotransmitter",
+        "Behavioral_Neuroscience::concept::50::ionotropic_receptors",
+        "Behavioral_Neuroscience::concept::52::ligand",
+        "Behavioral_Neuroscience::concept::55::g_protein",
+        "Behavioral_Neuroscience::concept::56::g_protein_coupled_receptors",
+        "Behavioral_Neuroscience::concept::57::ligand_gated_ion_channels",
+        "Behavioral_Neuroscience::concept::58::ion_channel",
+        "Behavioral_Neuroscience::concept::59::intracellular_messengers",
+        "Behavioral_Neuroscience::concept::60::neural_systems",
+        "Behavioral_Neuroscience::concept::61::redundancy"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [
+        "Behavioral_Neuroscience::artifact::26::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::16::synaptic_cleft",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::50::ionotropic_receptors"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "Behavioral_Neuroscience::section::22::post_synaptic_actions_of_neurotransmitters",
+        "source_section_label": "Post-synaptic actions of neurotransmitters"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::section::5::ending_neurotransmitter_action",
+      "label": "Ending neurotransmitter action",
+      "description": "Section-seeded topic for Ending neurotransmitter action",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::16::synaptic_cleft",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::21::reuptake",
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::5::intracellular_signals",
+        "Behavioral_Neuroscience::concept::60::neural_systems",
+        "Behavioral_Neuroscience::concept::61::redundancy",
+        "Behavioral_Neuroscience::concept::65::vesicles",
+        "Behavioral_Neuroscience::concept::66::oxidation",
+        "Behavioral_Neuroscience::concept::67::autoreceptor",
+        "Behavioral_Neuroscience::concept::68::feedback"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::16::synaptic_cleft",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::60::neural_systems"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "Behavioral_Neuroscience::section::29::ending_neurotransmitter_action",
+        "source_section_label": "Ending neurotransmitter action"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::0::enzymes",
+      "label": "Enzymes",
+      "description": "Concept-anchored topic centered on enzymes",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::21::reuptake",
+        "Behavioral_Neuroscience::concept::2::receptors",
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::4::vesicle",
+        "Behavioral_Neuroscience::concept::5::intracellular_signals",
+        "Behavioral_Neuroscience::concept::63::enzymatic_inactivation",
+        "Behavioral_Neuroscience::concept::66::oxidation"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::3::enzymes"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.889,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.871
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::3::enzymes"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::1::neurotransmitters",
+      "label": "Neurotransmitters",
+      "description": "Concept-anchored topic centered on neurotransmitters",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::12::synaptic_vesicles",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::21::reuptake",
+        "Behavioral_Neuroscience::concept::2::receptors",
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::4::vesicle",
+        "Behavioral_Neuroscience::concept::5::intracellular_signals",
+        "Behavioral_Neuroscience::concept::66::oxidation"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::1::neurotransmitters"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::1::neurotransmitters"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::2::neurons",
+      "label": "Neurons",
+      "description": "Concept-anchored topic centered on neurons",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::11::nutrients",
+        "Behavioral_Neuroscience::concept::12::synaptic_vesicles",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::2::receptors",
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::4::vesicle",
+        "Behavioral_Neuroscience::concept::5::intracellular_signals",
+        "Behavioral_Neuroscience::concept::7::astrocytes"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::0::neurons"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::3::neurotransmitter_metabolism",
+      "label": "Neurotransmitter metabolism",
+      "description": "Concept-anchored topic centered on Neurotransmitter metabolism",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::11::nutrients",
+        "Behavioral_Neuroscience::concept::12::synaptic_vesicles",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::24::synthesizing_enzymes",
+        "Behavioral_Neuroscience::concept::25::metal_ions",
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::45::presynaptic_terminal",
+        "Behavioral_Neuroscience::concept::7::astrocytes"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::4::synaptic_vesicles",
+      "label": "Synaptic vesicles",
+      "description": "Concept-anchored topic centered on Synaptic vesicles",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::0::neurons",
+        "Behavioral_Neuroscience::concept::11::nutrients",
+        "Behavioral_Neuroscience::concept::12::synaptic_vesicles",
+        "Behavioral_Neuroscience::concept::1::neurotransmitters",
+        "Behavioral_Neuroscience::concept::25::metal_ions",
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::45::presynaptic_terminal",
+        "Behavioral_Neuroscience::concept::5::intracellular_signals",
+        "Behavioral_Neuroscience::concept::7::astrocytes"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::12::synaptic_vesicles"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::12::synaptic_vesicles"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::5::ionotropic_receptors",
+      "label": "Ionotropic receptors",
+      "description": "Concept-anchored topic centered on ionotropic receptors",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::50::ionotropic_receptors",
+        "Behavioral_Neuroscience::concept::52::ligand",
+        "Behavioral_Neuroscience::concept::53::ligand_gated_transmembrane_ion_channels"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::50::ionotropic_receptors"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.91
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::50::ionotropic_receptors"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::6::secondary_messenger",
+      "label": "Secondary messenger",
+      "description": "Concept-anchored topic centered on secondary messenger",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::10::sugar_molecules",
+        "Behavioral_Neuroscience::concept::24::synthesizing_enzymes",
+        "Behavioral_Neuroscience::concept::25::metal_ions",
+        "Behavioral_Neuroscience::concept::55::g_protein",
+        "Behavioral_Neuroscience::concept::56::g_protein_coupled_receptors",
+        "Behavioral_Neuroscience::concept::57::ligand_gated_ion_channels",
+        "Behavioral_Neuroscience::concept::58::ion_channel",
+        "Behavioral_Neuroscience::concept::59::intracellular_messengers",
+        "Behavioral_Neuroscience::concept::8::amino_acids",
+        "Behavioral_Neuroscience::concept::9::fatty_acids"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [
+        "Behavioral_Neuroscience::artifact::26::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::10::sugar_molecules"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.6,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.74
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::10::sugar_molecules"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::7::neuropeptides",
+      "label": "Neuropeptides",
+      "description": "Concept-anchored topic centered on Neuropeptides",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::33::gaba",
+        "Behavioral_Neuroscience::concept::34::glutamate",
+        "Behavioral_Neuroscience::concept::35::dopamine",
+        "Behavioral_Neuroscience::concept::36::norepinephrine",
+        "Behavioral_Neuroscience::concept::37::epinephrine",
+        "Behavioral_Neuroscience::concept::38::serotonin",
+        "Behavioral_Neuroscience::concept::39::neuropeptides",
+        "Behavioral_Neuroscience::concept::40::endocannabinoids",
+        "Behavioral_Neuroscience::concept::41::prostaglandins",
+        "Behavioral_Neuroscience::concept::48::neurotransmitter"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::39::neuropeptides"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::39::neuropeptides"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::8::endocannabinoids",
+      "label": "Endocannabinoids",
+      "description": "Concept-anchored topic centered on Endocannabinoids",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::33::gaba",
+        "Behavioral_Neuroscience::concept::34::glutamate",
+        "Behavioral_Neuroscience::concept::35::dopamine",
+        "Behavioral_Neuroscience::concept::36::norepinephrine",
+        "Behavioral_Neuroscience::concept::37::epinephrine",
+        "Behavioral_Neuroscience::concept::38::serotonin",
+        "Behavioral_Neuroscience::concept::39::neuropeptides",
+        "Behavioral_Neuroscience::concept::40::endocannabinoids",
+        "Behavioral_Neuroscience::concept::41::prostaglandins",
+        "Behavioral_Neuroscience::concept::48::neurotransmitter"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::40::endocannabinoids"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::40::endocannabinoids"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::9::prostaglandins",
+      "label": "Prostaglandins",
+      "description": "Concept-anchored topic centered on Prostaglandins",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::33::gaba",
+        "Behavioral_Neuroscience::concept::34::glutamate",
+        "Behavioral_Neuroscience::concept::35::dopamine",
+        "Behavioral_Neuroscience::concept::36::norepinephrine",
+        "Behavioral_Neuroscience::concept::37::epinephrine",
+        "Behavioral_Neuroscience::concept::38::serotonin",
+        "Behavioral_Neuroscience::concept::39::neuropeptides",
+        "Behavioral_Neuroscience::concept::40::endocannabinoids",
+        "Behavioral_Neuroscience::concept::41::prostaglandins",
+        "Behavioral_Neuroscience::concept::48::neurotransmitter"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::41::prostaglandins"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::41::prostaglandins"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::10::gaba",
+      "label": "GABA",
+      "description": "Concept-anchored topic centered on GABA",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::33::gaba",
+        "Behavioral_Neuroscience::concept::34::glutamate",
+        "Behavioral_Neuroscience::concept::35::dopamine",
+        "Behavioral_Neuroscience::concept::36::norepinephrine",
+        "Behavioral_Neuroscience::concept::37::epinephrine",
+        "Behavioral_Neuroscience::concept::38::serotonin",
+        "Behavioral_Neuroscience::concept::39::neuropeptides",
+        "Behavioral_Neuroscience::concept::40::endocannabinoids",
+        "Behavioral_Neuroscience::concept::41::prostaglandins",
+        "Behavioral_Neuroscience::concept::48::neurotransmitter"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::33::gaba"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::33::gaba"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::topic_candidate::anchor::11::glutamate",
+      "label": "Glutamate",
+      "description": "Concept-anchored topic centered on Glutamate",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::33::gaba",
+        "Behavioral_Neuroscience::concept::34::glutamate",
+        "Behavioral_Neuroscience::concept::35::dopamine",
+        "Behavioral_Neuroscience::concept::36::norepinephrine",
+        "Behavioral_Neuroscience::concept::37::epinephrine",
+        "Behavioral_Neuroscience::concept::38::serotonin",
+        "Behavioral_Neuroscience::concept::39::neuropeptides",
+        "Behavioral_Neuroscience::concept::40::endocannabinoids",
+        "Behavioral_Neuroscience::concept::41::prostaglandins",
+        "Behavioral_Neuroscience::concept::48::neurotransmitter"
+      ],
+      "chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "Behavioral_Neuroscience::concept::34::glutamate"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "Behavioral_Neuroscience::concept::34::glutamate"
+      }
+    }
+  ]
+}

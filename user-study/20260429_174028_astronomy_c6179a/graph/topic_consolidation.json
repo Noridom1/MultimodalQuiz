@@ -1,0 +1,453 @@
+{
+  "count": 8,
+  "topics": [
+    {
+      "id": "astronomy::topic_candidate::anchor::6::lunar_eclipses",
+      "label": "Lunar eclipses",
+      "description": "Concept-anchored topic centered on lunar eclipses",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Lunar Phases"
+        ]
+      ],
+      "concept_ids": [
+        "astronomy::concept::13::full_moon",
+        "astronomy::concept::18::third_quarter",
+        "astronomy::concept::19::lunar_eclipse",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::20::earth_s_shadow",
+        "astronomy::concept::21::earth_diameters"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "astronomy::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "astronomy::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+        "astronomy::paragraph::24::the_moon_is_actually_30_earth_diameters_away_fro::chunk::16::the_moon_is_actually_30_earth_diameters_away_fro",
+        "astronomy::paragraph::42::b_figure_4_15_the_moon_without_and_with_rotation::chunk::28::b_figure_4_15_the_moon_without_and_with_rotation",
+        "astronomy::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "astronomy::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "astronomy::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::19::lunar_eclipse"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 1.0,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 1.0
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::19::lunar_eclipse"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::8::illuminated_side",
+      "label": "Illuminated side",
+      "description": "Concept-anchored topic centered on Illuminated side",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Lunar Phases"
+        ],
+        [
+          "Astronomy and the Days of the Week"
+        ]
+      ],
+      "concept_ids": [
+        "astronomy::concept::10::crescent_moon",
+        "astronomy::concept::11::first_quarter_moon",
+        "astronomy::concept::12::waxing_gibbous",
+        "astronomy::concept::13::full_moon",
+        "astronomy::concept::17::lunacy",
+        "astronomy::concept::22::week",
+        "astronomy::concept::6::phases_of_the_moon",
+        "astronomy::concept::7::new_moon",
+        "astronomy::concept::8::illuminated_side",
+        "astronomy::concept::9::dark_side"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::14::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::8::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::15::the_moon_is_said_to_be_new_when_it_is_in_the_sam::chunk::9::the_moon_is_said_to_be_new_when_it_is_in_the_sam",
+        "astronomy::paragraph::16::but_the_moon_does_not_remain_in_this_phase_long_::chunk::10::but_the_moon_does_not_remain_in_this_phase_long_",
+        "astronomy::paragraph::17::after_about_one_week_the_moon_is_one_quarter_of_::chunk::11::after_about_one_week_the_moon_is_one_quarter_of_",
+        "astronomy::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "astronomy::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "astronomy::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+        "astronomy::paragraph::28::the_week_seems_independent_of_celestial_motions_::chunk::18::the_week_seems_independent_of_celestial_motions_",
+        "astronomy::paragraph::30::there_is_no_reason_that_the_week_has_to_have_sev::chunk::19::there_is_no_reason_that_the_week_has_to_have_sev"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::10::crescent_moon",
+        "astronomy::concept::11::first_quarter_moon",
+        "astronomy::concept::22::week",
+        "astronomy::concept::7::new_moon",
+        "astronomy::concept::8::illuminated_side",
+        "astronomy::concept::9::dark_side"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::8::illuminated_side",
+        "merged_candidate_ids": [
+          "astronomy::topic_candidate::anchor::9::dark_side",
+          "astronomy::topic_candidate::anchor::10::week",
+          "astronomy::topic_candidate::anchor::4::new_moon",
+          "astronomy::topic_candidate::anchor::5::first_quarter_moon",
+          "astronomy::topic_candidate::anchor::3::celestial_motions"
+        ]
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::0::moon",
+      "label": "Moon",
+      "description": "Concept-anchored topic centered on Moon",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Learning Objectives"
+        ],
+        [
+          "LINK TO LEARNING"
+        ]
+      ],
+      "concept_ids": [
+        "astronomy::concept::0::lunar_phases",
+        "astronomy::concept::10::crescent_moon",
+        "astronomy::concept::13::full_moon",
+        "astronomy::concept::19::lunar_eclipse",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::22::week",
+        "astronomy::concept::28::simulation",
+        "astronomy::concept::31::synchronous_rotation",
+        "astronomy::concept::32::the_moon_s_revolution_and_rotation",
+        "astronomy::concept::33::rotation",
+        "astronomy::concept::34::orbit",
+        "astronomy::concept::36::dark_side_of_the_moon",
+        "astronomy::concept::3::earth",
+        "astronomy::concept::4::lunar_cycle",
+        "astronomy::concept::5::eclipse"
+      ],
+      "chunk_ids": [
+        "astronomy::details::38::details_summary_text_image_summary_earth_details::chunk::24::details_summary_text_image_summary_earth_details",
+        "astronomy::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "astronomy::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "astronomy::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+        "astronomy::paragraph::24::the_moon_is_actually_30_earth_diameters_away_fro::chunk::16::the_moon_is_actually_30_earth_diameters_away_fro",
+        "astronomy::paragraph::28::the_week_seems_independent_of_celestial_motions_::chunk::18::the_week_seems_independent_of_celestial_motions_",
+        "astronomy::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "astronomy::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::22::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "astronomy::paragraph::42::b_figure_4_15_the_moon_without_and_with_rotation::chunk::28::b_figure_4_15_the_moon_without_and_with_rotation",
+        "astronomy::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "astronomy::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "astronomy::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [
+        "astronomy::artifact::38::details_summary_text_image_summary_earth_details",
+        "astronomy::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "astronomy::concept::0::lunar_phases",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::22::week",
+        "astronomy::concept::3::earth"
+      ],
+      "scores": {
+        "coherence_score": 0.7,
+        "grounding_score": 1.0,
+        "breadth_score": 0.1,
+        "distinctness_score": 0.64,
+        "pedagogical_usefulness": 0.625
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::1::moon",
+        "merged_candidate_ids": [
+          "astronomy::topic_candidate::anchor::1::earth",
+          "astronomy::topic_candidate::section::1::learning_objectives",
+          "astronomy::topic_candidate::section::5::link_to_learning"
+        ]
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::2::full_moon",
+      "label": "Full Moon",
+      "description": "Concept-anchored topic centered on Full Moon",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Lunar Phases"
+        ]
+      ],
+      "concept_ids": [
+        "astronomy::concept::0::lunar_phases",
+        "astronomy::concept::10::crescent_moon",
+        "astronomy::concept::11::first_quarter_moon",
+        "astronomy::concept::12::waxing_gibbous",
+        "astronomy::concept::13::full_moon",
+        "astronomy::concept::16::dracula",
+        "astronomy::concept::17::lunacy",
+        "astronomy::concept::18::third_quarter",
+        "astronomy::concept::19::lunar_eclipse",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::3::earth",
+        "astronomy::concept::7::new_moon",
+        "astronomy::concept::8::illuminated_side",
+        "astronomy::concept::9::dark_side"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::14::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::8::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::15::the_moon_is_said_to_be_new_when_it_is_in_the_sam::chunk::9::the_moon_is_said_to_be_new_when_it_is_in_the_sam",
+        "astronomy::paragraph::17::after_about_one_week_the_moon_is_one_quarter_of_::chunk::11::after_about_one_week_the_moon_is_one_quarter_of_",
+        "astronomy::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "astronomy::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "astronomy::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+        "astronomy::paragraph::24::the_moon_is_actually_30_earth_diameters_away_fro::chunk::16::the_moon_is_actually_30_earth_diameters_away_fro",
+        "astronomy::paragraph::28::the_week_seems_independent_of_celestial_motions_::chunk::18::the_week_seems_independent_of_celestial_motions_",
+        "astronomy::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "astronomy::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early"
+      ],
+      "artifact_ids": [
+        "astronomy::artifact::38::details_summary_text_image_summary_earth_details",
+        "astronomy::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "astronomy::concept::13::full_moon",
+        "astronomy::concept::18::third_quarter",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::3::earth"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.929,
+        "breadth_score": 0.2,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.735
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::13::full_moon",
+        "merged_candidate_ids": [
+          "astronomy::topic_candidate::anchor::7::third_quarter",
+          "astronomy::topic_candidate::section::2::lunar_phases"
+        ]
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::section::3::making_connections",
+      "label": "MAKING CONNECTIONS",
+      "description": "Section-seeded topic for MAKING CONNECTIONS",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "MAKING CONNECTIONS"
+        ]
+      ],
+      "concept_ids": [
+        "astronomy::concept::0::lunar_phases",
+        "astronomy::concept::13::full_moon",
+        "astronomy::concept::18::third_quarter",
+        "astronomy::concept::19::lunar_eclipse",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::20::earth_s_shadow",
+        "astronomy::concept::21::earth_diameters",
+        "astronomy::concept::31::synchronous_rotation",
+        "astronomy::concept::33::rotation",
+        "astronomy::concept::34::orbit",
+        "astronomy::concept::3::earth",
+        "astronomy::concept::4::lunar_cycle"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "astronomy::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+        "astronomy::paragraph::24::the_moon_is_actually_30_earth_diameters_away_fro::chunk::16::the_moon_is_actually_30_earth_diameters_away_fro",
+        "astronomy::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "astronomy::paragraph::42::b_figure_4_15_the_moon_without_and_with_rotation::chunk::28::b_figure_4_15_the_moon_without_and_with_rotation",
+        "astronomy::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "astronomy::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "astronomy::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [
+        "astronomy::artifact::38::details_summary_text_image_summary_earth_details",
+        "astronomy::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "astronomy::concept::19::lunar_eclipse",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::21::earth_diameters"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "astronomy::section::25::making_connections",
+        "source_section_label": "MAKING CONNECTIONS"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::section::4::astronomy_and_the_days_of_the_week",
+      "label": "Astronomy and the Days of the Week",
+      "description": "Section-seeded topic for Astronomy and the Days of the Week",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Astronomy and the Days of the Week"
+        ]
+      ],
+      "concept_ids": [
+        "astronomy::concept::0::lunar_phases",
+        "astronomy::concept::10::crescent_moon",
+        "astronomy::concept::11::first_quarter_moon",
+        "astronomy::concept::13::full_moon",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::22::week",
+        "astronomy::concept::24::venus",
+        "astronomy::concept::25::mars",
+        "astronomy::concept::26::jupiter",
+        "astronomy::concept::27::saturn",
+        "astronomy::concept::3::earth",
+        "astronomy::concept::7::new_moon"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "astronomy::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "astronomy::paragraph::28::the_week_seems_independent_of_celestial_motions_::chunk::18::the_week_seems_independent_of_celestial_motions_",
+        "astronomy::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "astronomy::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "astronomy::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "astronomy::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [
+        "astronomy::artifact::38::details_summary_text_image_summary_earth_details",
+        "astronomy::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "astronomy::concept::10::crescent_moon",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::22::week"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "astronomy::section::27::astronomy_and_the_days_of_the_week",
+        "source_section_label": "Astronomy and the Days of the Week"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::section::6::the_moon_s_revolution_and_rotation",
+      "label": "The Moon’s Revolution and Rotation",
+      "description": "Section-seeded topic for The Moon’s Revolution and Rotation",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Moon’s Revolution and Rotation"
+        ]
+      ],
+      "concept_ids": [
+        "astronomy::concept::0::lunar_phases",
+        "astronomy::concept::13::full_moon",
+        "astronomy::concept::1::moon",
+        "astronomy::concept::29::sidereal_period",
+        "astronomy::concept::30::sidereal_month",
+        "astronomy::concept::31::synchronous_rotation",
+        "astronomy::concept::32::the_moon_s_revolution_and_rotation",
+        "astronomy::concept::33::rotation",
+        "astronomy::concept::34::orbit",
+        "astronomy::concept::35::illumination",
+        "astronomy::concept::36::dark_side_of_the_moon",
+        "astronomy::concept::3::earth"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "astronomy::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "astronomy::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "astronomy::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::22::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "astronomy::paragraph::42::b_figure_4_15_the_moon_without_and_with_rotation::chunk::28::b_figure_4_15_the_moon_without_and_with_rotation",
+        "astronomy::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "astronomy::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "astronomy::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [
+        "astronomy::artifact::38::details_summary_text_image_summary_earth_details",
+        "astronomy::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "astronomy::concept::1::moon",
+        "astronomy::concept::34::orbit",
+        "astronomy::concept::3::earth"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "astronomy::section::34::the_moon_s_revolution_and_rotation",
+        "source_section_label": "The Moon’s Revolution and Rotation"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::11::sidereal_month",
+      "label": "Sidereal month",
+      "description": "Concept-anchored topic centered on sidereal month",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Moon’s Revolution and Rotation"
+        ]
+      ],
+      "concept_ids": [
+        "astronomy::concept::29::sidereal_period",
+        "astronomy::concept::30::sidereal_month",
+        "astronomy::concept::31::synchronous_rotation"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::22::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::30::sidereal_month"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.333,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.677
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::30::sidereal_month"
+      }
+    }
+  ]
+}

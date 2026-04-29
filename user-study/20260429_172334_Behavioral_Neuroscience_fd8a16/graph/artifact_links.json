@@ -1,0 +1,173 @@
+{
+  "artifact_count": 8,
+  "artifacts": [
+    {
+      "id": "Behavioral_Neuroscience::artifact::7::images_f2bc8821a146348afd02a12584d03be110a48c87e",
+      "label": "![](images/f2bc8821a146348afd02a12584d03be110a48c87e57e581e3ce2dcfd52ef80cb.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::image::7::images_f2bc8821a146348afd02a12584d03be110a48c87e::chunk::2::images_f2bc8821a146348afd02a12584d03be110a48c87e",
+      "page_idx": null,
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "text": "![](images/f2bc8821a146348afd02a12584d03be110a48c87e57e581e3ce2dcfd52ef80cb.jpg)",
+      "image_path": "images/f2bc8821a146348afd02a12584d03be110a48c87e57e581e3ce2dcfd52ef80cb.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "Behavioral_Neuroscience::image::7::images_f2bc8821a146348afd02a12584d03be110a48c87e",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::artifact::8::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Preursor: Precursor amino acid, sugar, fat or peptide\"]...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::3::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Preursor: Precursor amino acid, sugar, fat or peptide\"] --> B[\"Transporters\"]\n    B --> C[\"Neurotransmitter synthesizing enzyme\"]\n    C --> D[\"Autoreceptor\"]\n    D --> E[\"Reuptake Transporters\"]\n    E --> F[\"Astrocyte\"]\n    F --> G[\"Degrading enzyme\"]\n    G --> H[\"Ions\"]\n    H --> I[\"Transporters\"]\n    I --> J[\"Transporters\"]\n    style A fill:#f9f,stroke:#333\n    style B fill:#ccf,stroke:#333\n    style C fill:#cfc,stroke:#333\n    style D fill:#fcc,stroke:#333\n    style E fill:#cff,stroke:#333\n    style F fill:#ffc,stroke:#333\n    style G fill:#cfc,stroke:#333\n    style H fill:#fcc,stroke:#333\n    style I fill:#cfc,stroke:#333\n    style J fill:#fcc,stroke:#333\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "Behavioral_Neuroscience::details::8::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::artifact::19::images_075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2",
+      "label": "![](images/075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2e892843c1cd5562cc275b64.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::image::19::images_075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2::chunk::9::images_075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2",
+      "page_idx": null,
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "text": "![](images/075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2e892843c1cd5562cc275b64.jpg)",
+      "image_path": "images/075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2e892843c1cd5562cc275b64.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "Behavioral_Neuroscience::image::19::images_075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::artifact::20::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Neurotransmitter\"] --> B[\"Vesicle\"] B --> C[\"Docking pr...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::details::20::details_summary_flowchart_summary_mermaid_graph_::chunk::10::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Neurotransmitter\"] --> B[\"Vesicle\"]\n    B --> C[\"Docking proteins\"]\n    C --> D[\"Cytosol\"]\n    D --> E[\"Synaptic cleft\"]\n    \n    subgraph Stage 1\n        F[\"Proteins on the vesicle and the presynaptic cell membrane bind to each other, docking the vesicle.\"]\n    end\n    \n    subgraph Stage 2\n        G[\"When Ca²⁺ enters, it binds to docking proteins and activates vesicle fusion.\"]\n    end\n    \n    subgraph Stage 3\n        H[\"Neurotransmitters from the vesicle flow into the synaptic cleft.\"]\n    end\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "Behavioral_Neuroscience::details::20::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::artifact::25::images_522b532ebdfd84047e878b87f73f73a32606d1f9d",
+      "label": "![](images/522b532ebdfd84047e878b87f73f73a32606d1f9dfd420c89960b30cf184f63b.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::image::25::images_522b532ebdfd84047e878b87f73f73a32606d1f9d::chunk::14::images_522b532ebdfd84047e878b87f73f73a32606d1f9d",
+      "page_idx": null,
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "text": "![](images/522b532ebdfd84047e878b87f73f73a32606d1f9dfd420c89960b30cf184f63b.jpg)",
+      "image_path": "images/522b532ebdfd84047e878b87f73f73a32606d1f9dfd420c89960b30cf184f63b.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "Behavioral_Neuroscience::image::25::images_522b532ebdfd84047e878b87f73f73a32606d1f9d",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::artifact::26::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Ligand-gated ion channels (ionotropic)\"] --> B[\"Ion cha...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Ligand-gated ion channels (ionotropic)\"] --> B[\"Ion channel\"]\n    B --> C[\"Neurotransmitter binds to channel.\"]\n    B --> D[\"Channel opens. Ions flow in or out.\"]\n    E[\"G-protein-coupled receptors (metabotropic)\"] --> F[\"Effector protein\"]\n    F --> G[\"G-protein subunits or intracellular messengers modulate channels.\"]\n    G --> H[\"Ion channel open. Ions flow in or out.\"]\n    style A fill:#f9f,stroke:#333\n    style E fill:#bbf,stroke:#333\n    style F fill:#bfb,stroke:#333\n    style G fill:#ffb,stroke:#333\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::artifact::33::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33",
+      "label": "![](images/049c91dd66e7771b6b47d9fd7739a66b555d8db333cb254964c4401574fbcb7e.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::image::33::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33::chunk::18::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33",
+      "page_idx": null,
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "text": "![](images/049c91dd66e7771b6b47d9fd7739a66b555d8db333cb254964c4401574fbcb7e.jpg)",
+      "image_path": "images/049c91dd66e7771b6b47d9fd7739a66b555d8db333cb254964c4401574fbcb7e.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "Behavioral_Neuroscience::image::33::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::artifact::34::details_summary_natural_image_summary_pure_geome",
+      "label": "<details> <summary>natural_image</summary> Pure geometric lines forming an X shape on a black background (no text or...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::details::34::details_summary_natural_image_summary_pure_geome::chunk::19::details_summary_natural_image_summary_pure_geome",
+      "page_idx": null,
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nPure geometric lines forming an X shape on a black background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "Behavioral_Neuroscience::details::34::details_summary_natural_image_summary_pure_geome",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    }
+  ]
+}

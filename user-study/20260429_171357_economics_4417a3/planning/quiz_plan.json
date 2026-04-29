@@ -1,0 +1,112 @@
+[
+  {
+    "target_concept": "law of demand",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A graph showing an inverse relationship between price and quantity demanded.",
+    "learning_objective": "Understand the causal relationship described by the law of demand.",
+    "tested_fact_block_id": "economics::concept::2::law_of_demand",
+    "metadata": {}
+  },
+  {
+    "target_concept": "equilibrium level",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A graph showing the intersection of demand and supply curves at the equilibrium point.",
+    "learning_objective": "Understand the definition and graphical representation of equilibrium level in economics.",
+    "tested_fact_block_id": "equilibrium_level_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "law of supply",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A graph showing an upward-sloping supply curve, illustrating the positive relationship between price and quantity supplied.",
+    "learning_objective": "Understand the causal relationship between price and quantity supplied as described by the law of supply.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "supply curves",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A graph showing an upward-sloping supply curve with price on the y-axis and quantity supplied on the x-axis.",
+    "learning_objective": "Understand the graphical representation of the law of supply.",
+    "tested_fact_block_id": "supply_curve_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "demand schedule",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A table with two columns labeled 'Price' and 'Quantity Demanded' with multiple rows of data.",
+    "learning_objective": "Understand the definition and purpose of a demand schedule.",
+    "tested_fact_block_id": "demand_schedule_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "quantity supplied",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A graph showing a supply curve with price on the y-axis and quantity supplied on the x-axis.",
+    "learning_objective": "Understand the definition and determinants of quantity supplied.",
+    "tested_fact_block_id": "economics::concept::4::quantity_supplied",
+    "metadata": {}
+  },
+  {
+    "target_concept": "demand curve",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A graph showing a downward-sloping demand curve with price on the y-axis and quantity demanded on the x-axis.",
+    "learning_objective": "Understand the definition and graphical representation of the demand curve.",
+    "tested_fact_block_id": "demand_curve_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "equilibrium quantity",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A graph showing the intersection of supply and demand curves at the equilibrium point.",
+    "learning_objective": "Understand the definition and graphical representation of equilibrium quantity.",
+    "tested_fact_block_id": "block_10",
+    "metadata": {}
+  },
+  {
+    "target_concept": "quantity demanded",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A graph showing the relationship between price and quantity demanded on a demand curve.",
+    "learning_objective": "Understand the definition and role of quantity demanded in economic analysis.",
+    "tested_fact_block_id": "economics::concept::1::quantity_demanded",
+    "metadata": {}
+  },
+  {
+    "target_concept": "price",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A graph showing the relationship between price and quantity supplied.",
+    "learning_objective": "Understand the role of price in determining the supply of a good or service.",
+    "tested_fact_block_id": "economics::concept::11::price",
+    "metadata": {}
+  }
+]

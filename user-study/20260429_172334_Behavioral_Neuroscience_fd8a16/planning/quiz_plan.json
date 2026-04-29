@@ -1,0 +1,112 @@
+[
+  {
+    "target_concept": "Blood-brain barrier (BBB)",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the structure of the blood-brain barrier, highlighting its selective permeability.",
+    "learning_objective": "Understand the role and function of the blood-brain barrier in protecting the central nervous system.",
+    "tested_fact_block_id": "INFERRED: The blood-brain barrier (BBB) is a semipermeable barrier that protects the central nervous system from potentially harmful substances.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "enzymatic inactivation",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing acetylcholinesterase breaking down acetylcholine in the synaptic cleft.",
+    "learning_objective": "Understand the specific enzyme responsible for the inactivation of acetylcholine and its location of action.",
+    "tested_fact_block_id": "block_10",
+    "metadata": {}
+  },
+  {
+    "target_concept": "oxidation",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A diagram showing the electron transfer process during oxidation, highlighting the disruption of cellular components.",
+    "learning_objective": "Understand the role of oxidation in cellular damage and its implications in behavioral neuroscience.",
+    "tested_fact_block_id": "block_10",
+    "metadata": {}
+  },
+  {
+    "target_concept": "receptors",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing a neurotransmitter binding to a receptor on the postsynaptic membrane.",
+    "learning_objective": "Understand the role of receptors in neurotransmission.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Neurotransmitter metabolism",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the glutamate-glutamine cycle between astrocytes and neurons.",
+    "learning_objective": "Understand the role of astrocytes in neurotransmitter metabolism and recycling.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Synthesizing enzymes",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the enzymatic synthesis of GABA from glutamate.",
+    "learning_objective": "Identify the enzyme responsible for synthesizing GABA from glutamate.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Presynaptic terminal",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A diagram showing the presynaptic terminal with calcium channels and synaptic vesicles.",
+    "learning_objective": "Understand the role of calcium ions in triggering neurotransmitter release at the presynaptic terminal.",
+    "tested_fact_block_id": "block_123",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Metal ions",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A diagram showing the role of calcium ions in synaptic vesicle fusion with the presynaptic membrane.",
+    "learning_objective": "Understand the specific role of calcium ions in neurotransmitter release.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Synaptic vesicles",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing synaptic vesicles releasing neurotransmitters into the synaptic cleft.",
+    "learning_objective": "Understand the role and function of synaptic vesicles in neurotransmission.",
+    "tested_fact_block_id": "Synaptic vesicles are small, membrane-bound structures that store and release neurotransmitters.",
+    "metadata": {}
+  },
+  {
+    "target_concept": "voltage-dependent calcium channels",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A diagram showing the opening of voltage-dependent calcium channels in response to membrane depolarization.",
+    "learning_objective": "Understand the role of voltage-dependent calcium channels in initiating neurotransmitter release.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  }
+]

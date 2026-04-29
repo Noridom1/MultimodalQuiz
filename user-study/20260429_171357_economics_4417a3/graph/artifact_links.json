@@ -1,0 +1,215 @@
+{
+  "artifact_count": 10,
+  "artifacts": [
+    {
+      "id": "economics::artifact::13::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173",
+      "label": "![](images/1a730c7ca1c61aceec91f159411f843c4ca8ee1730e89ac60ab88b0b25ea718a.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::13::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173::chunk::4::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "![](images/1a730c7ca1c61aceec91f159411f843c4ca8ee1730e89ac60ab88b0b25ea718a.jpg)",
+      "image_path": "images/1a730c7ca1c61aceec91f159411f843c4ca8ee1730e89ac60ab88b0b25ea718a.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::image::13::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "economics::artifact::14::details_summary_line_summary_quantity_of_gasolin",
+      "label": "<details> <summary>line</summary> | Quantity of Gasoline (millions of gallons) | Price ($ per gallon) | |---|---| | 4...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::details::14::details_summary_line_summary_quantity_of_gasolin::chunk::5::details_summary_line_summary_quantity_of_gasolin",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "<details>\n<summary>line</summary>\n\n| Quantity of Gasoline (millions of gallons) | Price ($ per gallon) |\n|---|---|\n| 420 | 2.20 |\n| 460 | 2.00 |\n| 500 | 1.80 |\n| 550 | 1.60 |\n| 600 | 1.40 |\n| 700 | 1.20 |\n| 800 | 1.00 |\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::details::14::details_summary_line_summary_quantity_of_gasolin",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "economics::artifact::18::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6",
+      "label": "![](images/0867621a74ad709d801039f69fa5d2b702fb0f0b62c31ebacdc0ce9418158a03.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::18::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6::chunk::7::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "![](images/0867621a74ad709d801039f69fa5d2b702fb0f0b62c31ebacdc0ce9418158a03.jpg)",
+      "image_path": "images/0867621a74ad709d801039f69fa5d2b702fb0f0b62c31ebacdc0ce9418158a03.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::image::18::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "economics::artifact::25::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004",
+      "label": "![](images/ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004eb4c14ef8b92dd73a9c7126.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::25::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004::chunk::12::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004",
+      "page_idx": null,
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "text": "![](images/ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004eb4c14ef8b92dd73a9c7126.jpg)",
+      "image_path": "images/ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004eb4c14ef8b92dd73a9c7126.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::image::25::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "economics::artifact::30::images_5c7ab5885771eaab96e63c5223a5287570e51a671",
+      "label": "![](images/5c7ab5885771eaab96e63c5223a5287570e51a671211ef76e22bcf4be48b0183.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::30::images_5c7ab5885771eaab96e63c5223a5287570e51a671::chunk::14::images_5c7ab5885771eaab96e63c5223a5287570e51a671",
+      "page_idx": null,
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "text": "![](images/5c7ab5885771eaab96e63c5223a5287570e51a671211ef76e22bcf4be48b0183.jpg)",
+      "image_path": "images/5c7ab5885771eaab96e63c5223a5287570e51a671211ef76e22bcf4be48b0183.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::image::30::images_5c7ab5885771eaab96e63c5223a5287570e51a671",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "economics::artifact::31::details_summary_line_summary_quantity_of_gasolin",
+      "label": "<details> <summary>line</summary> | Quantity of Gasoline (millions of gallons) | Price ($ per gallon) | |---|---| | 5...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::details::31::details_summary_line_summary_quantity_of_gasolin::chunk::15::details_summary_line_summary_quantity_of_gasolin",
+      "page_idx": null,
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "text": "<details>\n<summary>line</summary>\n\n| Quantity of Gasoline (millions of gallons) | Price ($ per gallon) |\n|---|---|\n| 500 | 1.00 |\n| 550 | 1.20 |\n| 600 | 1.40 |\n| 640 | 1.60 |\n| 680 | 1.80 |\n| 700 | 2.00 |\n| 720 | 2.20 |\nThe chart displays a single data point labeled 'S' at approximately 720 million gallons on the x-axis. The y-axis is labeled 'Price ($ per gallon)'. The x-axis ranges from 300 to 900 million gallons.\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::details::31::details_summary_line_summary_quantity_of_gasolin",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "economics::artifact::41::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe",
+      "label": "![](images/01de24c962aa4ffb5caec59be30230e50f6dfbafef05ac18f66c7d9431db9512.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::41::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe::chunk::18::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "![](images/01de24c962aa4ffb5caec59be30230e50f6dfbafef05ac18f66c7d9431db9512.jpg)",
+      "image_path": "images/01de24c962aa4ffb5caec59be30230e50f6dfbafef05ac18f66c7d9431db9512.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::image::41::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "economics::artifact::42::details_summary_line_summary_point_quantity_of_g",
+      "label": "<details> <summary>line</summary> | Point | Quantity of Gasoline (millions of gallons) | Price ($ per gallon) | |---|...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "<details>\n<summary>line</summary>\n\n| Point | Quantity of Gasoline (millions of gallons) | Price ($ per gallon) |\n|---|---|---|\n| S | 700 | 2.20 |\n| E | 600 | 1.40 |\n| D | 800 | 1.00 |\n| An above-equilibrium price | 650 | 1.80 |\n| Excess supply or surplus | 500 | 1.80 |\n| Excess demand or shortage | 550 | 1.20 |\n| Equilibrium price | 600 | 1.40 |\n| A below-equilibrium price | 650 | 1.60 |\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::details::42::details_summary_line_summary_point_quantity_of_g",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "economics::artifact::56::images_eff820436aa74f16cfe02c2fa91fd45408cced668",
+      "label": "![](images/eff820436aa74f16cfe02c2fa91fd45408cced668d6987d11acf4ab8a317a7e3.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::56::images_eff820436aa74f16cfe02c2fa91fd45408cced668::chunk::26::images_eff820436aa74f16cfe02c2fa91fd45408cced668",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "![](images/eff820436aa74f16cfe02c2fa91fd45408cced668d6987d11acf4ab8a317a7e3.jpg)",
+      "image_path": "images/eff820436aa74f16cfe02c2fa91fd45408cced668d6987d11acf4ab8a317a7e3.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::image::56::images_eff820436aa74f16cfe02c2fa91fd45408cced668",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "economics::artifact::57::details_summary_natural_image_summary_pure_geome",
+      "label": "<details> <summary>natural_image</summary> Pure geometric lines forming an X shape on a black background (no text or...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::details::57::details_summary_natural_image_summary_pure_geome::chunk::27::details_summary_natural_image_summary_pure_geome",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nPure geometric lines forming an X shape on a black background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "economics::details::57::details_summary_natural_image_summary_pure_geome",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    }
+  ]
+}

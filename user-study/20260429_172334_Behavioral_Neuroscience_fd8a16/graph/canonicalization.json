@@ -1,0 +1,2239 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "Behavioral_Neuroscience::concept::0::neurons",
+      "label": "neurons",
+      "normalized_label": "neurons",
+      "aliases": [
+        "Neurons"
+      ],
+      "mention_count": 5,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::1::neurotransmitters",
+      "label": "neurotransmitters",
+      "normalized_label": "neurotransmitters",
+      "aliases": [
+        "Neurotransmitters"
+      ],
+      "mention_count": 6,
+      "definitions": [
+        "Chemical substances produced by neurons that underlie behavior."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::2::receptors",
+      "label": "receptors",
+      "normalized_label": "receptors",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::3::enzymes",
+      "label": "enzymes",
+      "normalized_label": "enzymes",
+      "aliases": [
+        "Enzymes"
+      ],
+      "mention_count": 7,
+      "definitions": [
+        "Proteins that help build, breakdown or otherwise modify substances in our cells."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::4::vesicle",
+      "label": "vesicle",
+      "normalized_label": "vesicle",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::5::intracellular_signals",
+      "label": "intracellular signals",
+      "normalized_label": "intracellular signals",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::6::blood_brain_barrier",
+      "label": "Blood-brain barrier (BBB)",
+      "normalized_label": "blood-brain barrier",
+      "aliases": [
+        "blood-brain barrier"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "A firewall-like structure that regulates the passage of nutrients into the brain."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::7::astrocytes",
+      "label": "astrocytes",
+      "normalized_label": "astrocytes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::8::amino_acids",
+      "label": "amino acids",
+      "normalized_label": "amino acids",
+      "aliases": [
+        "Amino acid"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::9::fatty_acids",
+      "label": "fatty acids",
+      "normalized_label": "fatty acids",
+      "aliases": [
+        "Fatty acid"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::10::sugar_molecules",
+      "label": "secondary messenger",
+      "normalized_label": "sugar molecules",
+      "aliases": [
+        "Sugar molecule",
+        "sugar molecules"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::11::nutrients",
+      "label": "Nutrients",
+      "normalized_label": "nutrients",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::12::synaptic_vesicles",
+      "label": "Synaptic vesicles",
+      "normalized_label": "synaptic vesicles",
+      "aliases": [
+        "synaptic vesicles"
+      ],
+      "mention_count": 4,
+      "definitions": [
+        "very tiny spheres clustered at the presynaptic terminal with hollow centers into which approximately 10,000 molecules of a typical neurotransmitter can be stored for later release from a neuron."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::13::action_potential",
+      "label": "Action potential",
+      "normalized_label": "action potential",
+      "aliases": [
+        "action potential"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::14::ca_influx",
+      "label": "calcium ions",
+      "normalized_label": "ca + influx",
+      "aliases": [
+        "Ca²+ influx"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::15::vesicle_fusion",
+      "label": "Vesicle fusion",
+      "normalized_label": "vesicle fusion",
+      "aliases": [
+        "vesicle fusion"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::16::synaptic_cleft",
+      "label": "synaptic communication",
+      "normalized_label": "synaptic cleft",
+      "aliases": [
+        "Synaptic cleft",
+        "synaptic cleft"
+      ],
+      "mention_count": 5,
+      "definitions": [
+        "the small space between neurons."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ],
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::17::postsynaptic_receptors",
+      "label": "Postsynaptic receptors",
+      "normalized_label": "postsynaptic receptors",
+      "aliases": [
+        "Presynaptic receptors"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::18::epsps",
+      "label": "EPSPs",
+      "normalized_label": "epsps",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::19::ips",
+      "label": "IPs",
+      "normalized_label": "ips",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::20::secondary_biochemical_processes",
+      "label": "Secondary biochemical processes",
+      "normalized_label": "secondary biochemical processes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::21::reuptake",
+      "label": "Reuptake",
+      "normalized_label": "reuptake",
+      "aliases": [
+        "reuptake"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "The reabsorption of a neurotransmitter via a protein transporter located on the (pre-synaptic) membrane of the axon terminal."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::22::transporters",
+      "label": "Transporters",
+      "normalized_label": "transporters",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::23::degradation",
+      "label": "Degradation",
+      "normalized_label": "degradation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::24::synthesizing_enzymes",
+      "label": "Synthesizing enzymes",
+      "normalized_label": "synthesizing enzymes",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::25::metal_ions",
+      "label": "Metal ions",
+      "normalized_label": "metal ions",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::26::cofactors",
+      "label": "Cofactors",
+      "normalized_label": "cofactors",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::27::substantia_nigra",
+      "label": "Substantia nigra",
+      "normalized_label": "substantia nigra",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::28::hippocampus",
+      "label": "Hippocampus",
+      "normalized_label": "hippocampus",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::29::locus_coeruleus",
+      "label": "Locus coeruleus",
+      "normalized_label": "locus coeruleus",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::30::red_nucleus",
+      "label": "Red nucleus",
+      "normalized_label": "red nucleus",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+      "label": "Neurotransmitter metabolism",
+      "normalized_label": "neurotransmitter metabolism",
+      "aliases": [
+        "Neurotransmitter molecules",
+        "neurotransmitter molecules"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::32::neuron",
+      "label": "Neuron",
+      "normalized_label": "neuron",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::33::gaba",
+      "label": "GABA",
+      "normalized_label": "gaba",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::34::glutamate",
+      "label": "Glutamate",
+      "normalized_label": "glutamate",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::35::dopamine",
+      "label": "Dopamine",
+      "normalized_label": "dopamine",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::36::norepinephrine",
+      "label": "Norepinephrine",
+      "normalized_label": "norepinephrine",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::37::epinephrine",
+      "label": "Epinephrine",
+      "normalized_label": "epinephrine",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::38::serotonin",
+      "label": "Serotonin",
+      "normalized_label": "serotonin",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::39::neuropeptides",
+      "label": "Neuropeptides",
+      "normalized_label": "neuropeptides",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::40::endocannabinoids",
+      "label": "Endocannabinoids",
+      "normalized_label": "endocannabinoids",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::41::prostaglandins",
+      "label": "Prostaglandins",
+      "normalized_label": "prostaglandins",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::42::dna",
+      "label": "DNA",
+      "normalized_label": "dna",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::43::precursors",
+      "label": "Precursors",
+      "normalized_label": "precursors",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::44::energy_efficiency",
+      "label": "Energy efficiency",
+      "normalized_label": "energy efficiency",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_"
+      ],
+      "section_paths": [
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::45::presynaptic_terminal",
+      "label": "Presynaptic terminal",
+      "normalized_label": "presynaptic terminal",
+      "aliases": [
+        "presynaptic terminal"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::46::voltage_dependent_calcium_channels",
+      "label": "voltage-dependent calcium channels",
+      "normalized_label": "voltage-dependent calcium channels",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::47::synapse",
+      "label": "synapse",
+      "normalized_label": "synapse",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The junction at which two neurons communicate via the release of a neurotransmitter molecule."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::48::neurotransmitter",
+      "label": "neurotransmitter",
+      "normalized_label": "neurotransmitter",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::49::receptor",
+      "label": "receptor",
+      "normalized_label": "receptor",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::50::ionotropic_receptors",
+      "label": "ionotropic receptors",
+      "normalized_label": "ionotropic receptors",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [
+        "transmembrane molecules that can 'open' or 'close' a channel that would allow smaller particles to travel in and out of the cell.",
+        "Not explicitly defined in this chunk."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::51::metabotropic_receptors",
+      "label": "metabotropic receptors",
+      "normalized_label": "metabotropic receptors",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [
+        "receptors linked to a G-protein that activate secondary messengers upon ligand binding.",
+        "Not explicitly defined in this chunk."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::52::ligand",
+      "label": "ligand",
+      "normalized_label": "ligand",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::53::ligand_gated_transmembrane_ion_channels",
+      "label": "ligand-gated transmembrane ion channels",
+      "normalized_label": "ligand-gated transmembrane ion channels",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "ionotropic receptors that open or close in response to ligand binding, allowing ions to travel through."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::54::post_synaptic_neuron",
+      "label": "post-synaptic neuron",
+      "normalized_label": "post-synaptic neuron",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::55::g_protein",
+      "label": "G-protein",
+      "normalized_label": "g-protein",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::56::g_protein_coupled_receptors",
+      "label": "G-protein coupled receptors",
+      "normalized_label": "g-protein coupled receptors",
+      "aliases": [
+        "G-protein-coupled receptors"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "a large group of evolutionarily related proteins that activate G-proteins and secondary messengers."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::57::ligand_gated_ion_channels",
+      "label": "Ligand-gated ion channels",
+      "normalized_label": "ligand-gated ion channels",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::58::ion_channel",
+      "label": "ion channel",
+      "normalized_label": "ion channel",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::59::intracellular_messengers",
+      "label": "intracellular messengers",
+      "normalized_label": "intracellular messengers",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::60::neural_systems",
+      "label": "neural systems",
+      "normalized_label": "neural systems",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::61::redundancy",
+      "label": "redundancy",
+      "normalized_label": "redundancy",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::62::axon_terminal",
+      "label": "axon terminal",
+      "normalized_label": "axon terminal",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::63::enzymatic_inactivation",
+      "label": "enzymatic inactivation",
+      "normalized_label": "enzymatic inactivation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::64::dietary_supplements",
+      "label": "dietary supplements",
+      "normalized_label": "dietary supplements",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::65::vesicles",
+      "label": "vesicles",
+      "normalized_label": "vesicles",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::66::oxidation",
+      "label": "oxidation",
+      "normalized_label": "oxidation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::67::autoreceptor",
+      "label": "autoreceptor",
+      "normalized_label": "autoreceptor",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "A special type of protein receptor located on the membranes of nerve cells that is sensitive to the neurotransmitters released by the neuron on which it sits."
+      ],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::concept::68::feedback",
+      "label": "feedback",
+      "normalized_label": "feedback",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::4::vesicle",
+        "Behavioral_Neuroscience::concept::15::vesicle_fusion"
+      ],
+      "labels": [
+        "vesicle",
+        "Vesicle fusion"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::2::receptors",
+        "Behavioral_Neuroscience::concept::17::postsynaptic_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "Postsynaptic receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::3::enzymes",
+        "Behavioral_Neuroscience::concept::24::synthesizing_enzymes"
+      ],
+      "labels": [
+        "enzymes",
+        "Synthesizing enzymes"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::31::neurotransmitter_metabolism",
+        "Behavioral_Neuroscience::concept::48::neurotransmitter"
+      ],
+      "labels": [
+        "Neurotransmitter metabolism",
+        "neurotransmitter"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::2::receptors",
+        "Behavioral_Neuroscience::concept::50::ionotropic_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "ionotropic receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::2::receptors",
+        "Behavioral_Neuroscience::concept::51::metabotropic_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "metabotropic receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::32::neuron",
+        "Behavioral_Neuroscience::concept::54::post_synaptic_neuron"
+      ],
+      "labels": [
+        "Neuron",
+        "post-synaptic neuron"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::2::receptors",
+        "Behavioral_Neuroscience::concept::56::g_protein_coupled_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "G-protein coupled receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::53::ligand_gated_transmembrane_ion_channels",
+        "Behavioral_Neuroscience::concept::57::ligand_gated_ion_channels"
+      ],
+      "labels": [
+        "ligand-gated transmembrane ion channels",
+        "Ligand-gated ion channels"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "Behavioral_Neuroscience::concept::12::synaptic_vesicles",
+        "Behavioral_Neuroscience::concept::65::vesicles"
+      ],
+      "labels": [
+        "Synaptic vesicles",
+        "vesicles"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 159,
+    "canonical_concept_count": 69,
+    "candidate_merge_count": 10
+  }
+}

@@ -1,0 +1,38 @@
+Index: 7
+Target concept: demand curve
+Tested fact block id: demand_curve_1
+Image description: A graph showing a downward-sloping demand curve with price on the y-axis and quantity demanded on the x-axis.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: demand curve
+Question type: multiple_choice
+Difficulty: hard
+Reasoning type: factoid
+Image role: illustrative
+Learning objective: Understand the definition and graphical representation of the demand curve.
+Image context: A graph showing a downward-sloping demand curve with price on the y-axis and quantity demanded on the x-axis.
+Tested fact block ID: demand_curve_1
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+**Prompt:** Create a clean, high-contrast line graph with a downward-sloping demand curve. Label the y-axis as "Price" and the x-axis as "Quantity Demanded," using bold, legible text. Use a solid blue line for the curve, a light gray grid for reference, and ensure the axes are clearly marked with generic numerical placeholders (e.g., $10, $5, 20 units, 40 units). Avoid real-world branding or specific product names.
+
+**Alt:** A graph with a downward-sloping blue line representing a demand curve, showing the inverse relationship between price and quantity demanded.
+
+--- Raw LLM image-prompt response ---
+**Prompt:** Create a clean, high-contrast line graph with a downward-sloping demand curve. Label the y-axis as "Price" and the x-axis as "Quantity Demanded," using bold, legible text. Use a solid blue line for the curve, a light gray grid for reference, and ensure the axes are clearly marked with generic numerical placeholders (e.g., $10, $5, 20 units, 40 units). Avoid real-world branding or specific product names.
+
+**Alt:** A graph with a downward-sloping blue line representing a demand curve, showing the inverse relationship between price and quantity demanded.

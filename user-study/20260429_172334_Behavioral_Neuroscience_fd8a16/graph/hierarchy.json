@@ -1,0 +1,125 @@
+{
+  "section_count": 6,
+  "sections": [
+    {
+      "id": "Behavioral_Neuroscience::section::0::3_1_general_neurochemistry_principles",
+      "label": "3.1 General Neurochemistry Principles",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "3.1 General Neurochemistry Principles"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::section::1::learning_objectives",
+      "label": "LEARNING OBJECTIVES",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "LEARNING OBJECTIVES"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 1,
+        "level": 1
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::section::5::how_do_neurons_produce_neurotransmitters",
+      "label": "How do neurons produce neurotransmitters?",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 5,
+        "level": 1
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::section::16::how_are_neurotransmitters_stored_and_released",
+      "label": "How are neurotransmitters stored and released?",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 16,
+        "level": 1
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::section::22::post_synaptic_actions_of_neurotransmitters",
+      "label": "Post-synaptic actions of neurotransmitters",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 22,
+        "level": 1
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::section::29::ending_neurotransmitter_action",
+      "label": "Ending neurotransmitter action",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 29,
+        "level": 1
+      }
+    }
+  ]
+}

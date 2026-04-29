@@ -1,0 +1,82 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a simple line graph with a downward-sloping curve, where the vertical axis is labeled \"Price\" and the horizontal axis is labeled \"Quantity Demanded.\" Use high-contrast colors (e.g., black axes, blue curve) and ensure the inverse relationship is visually clear. Avoid any text that explains the law directly.\n\nAlt: A graph with a downward-sloping line showing the relationship between price and quantity demanded.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast line graph with a downward-sloping demand curve (labeled \"Demand\") and an upward-sloping supply curve (labeled \"Supply\") intersecting at a clearly marked point labeled \"Equilibrium.\" Use bold, distinct colors for each curve (e.g., blue for demand, red for supply) and a neutral background. Add minimal axis labels for price (vertical) and quantity (horizontal) without numerical values.\n\nAlt: A graph showing demand and supply curves intersecting at the equilibrium point.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast line graph with a bold upward-sloping supply curve (P on the vertical axis, Q on the horizontal axis). Label axes as \"Price\" and \"Quantity Supplied,\" and mark two distinct points on the curve with placeholder labels like \"Point X\" and \"Point Y\" to show movement along the curve. Use a neutral color palette (e.g., blue curve on white background) with clear, legible labels in dark text. Avoid decorative elements.\n\n**Alt:** A line graph with an upward-sloping curve showing the positive relationship between price and quantity supplied.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast line graph with a bold upward-sloping supply curve, labeled axes (Price on Y, Quantity Supplied on X), and a simple grid for clarity. Use a vibrant color for the curve (e.g., blue) against a neutral background, with clear axis labels and tick marks. Avoid any extraneous text or branding.\n\nAlt: A graph with an upward-sloping supply curve, showing price on the vertical axis and quantity supplied on the horizontal axis.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast table with two columns labeled \"Price ($)\" and \"Quantity Demanded (Units)\" filled with 5-7 rows of placeholder numerical data (e.g., $10, 50; $8, 75). Use a simple, modern design with bold headers, muted background, and a subtle grid to emphasize readability. Avoid real-world references—use generic labels like \"Product X.\"\n\n**Alt:** A two-column table showing the relationship between price and quantity demanded for a generic product.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  },
+  {
+    "index": 6,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast line graph with a rising supply curve (left to right) on a white background. Label the y-axis as \"Price (per unit)\" and the x-axis as \"Quantity Supplied,\" using bold, legible text. Use a solid blue line for the curve, with subtle grid lines for clarity, and avoid any extraneous elements.\n\nAlt: A line graph showing an upward-sloping supply curve with labeled axes for price and quantity supplied.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/6.png",
+    "local_path": "generation/images/6.png",
+    "image_ref": "generation/images/6.png"
+  },
+  {
+    "index": 7,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Create a clean, high-contrast line graph with a downward-sloping demand curve. Label the y-axis as \"Price\" and the x-axis as \"Quantity Demanded,\" using bold, legible text. Use a solid blue line for the curve, a light gray grid for reference, and ensure the axes are clearly marked with generic numerical placeholders (e.g., $10, $5, 20 units, 40 units). Avoid real-world branding or specific product names.\n\n**Alt:** A graph with a downward-sloping blue line representing a demand curve, showing the inverse relationship between price and quantity demanded.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/7.png",
+    "local_path": "generation/images/7.png",
+    "image_ref": "generation/images/7.png"
+  },
+  {
+    "index": 8,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast line graph with labeled x-axis (Quantity) and y-axis (Price). Draw an upward-sloping supply curve and a downward-sloping demand curve intersecting at a clearly marked equilibrium point labeled \"E.\" Use bold colors (e.g., blue for demand, red for supply) and ensure all labels are legible. Avoid text that reveals specific values or answers.\n\n**Alt:** A graph showing supply and demand curves intersecting at equilibrium point E.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/8.png",
+    "local_path": "generation/images/8.png",
+    "image_ref": "generation/images/8.png"
+  },
+  {
+    "index": 9,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast line graph with a downward-sloping demand curve, where the vertical axis is labeled \"Price (P)\" and the horizontal axis is labeled \"Quantity Demanded (Q).\" Use bold, legible labels and a simple color scheme (e.g., black axes, blue curve) to emphasize the inverse relationship between price and quantity. Avoid clutter and ensure the curve is smooth and clearly visible.\n\nAlt: A graph with a downward-sloping line showing the relationship between price and quantity demanded.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/9.png",
+    "local_path": "generation/images/9.png",
+    "image_ref": "generation/images/9.png"
+  },
+  {
+    "index": 10,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast line graph with a rising curve (supply curve) labeled \"Quantity Supplied\" (x-axis) and \"Price\" (y-axis). Use bold, legible labels and a neutral color palette (e.g., blue for the curve, gray axes). Avoid real-world examples—use generic terms like \"Good X.\" Ensure the curve slopes upward to illustrate direct relationship.\n\n**Alt:** A line graph showing an upward-sloping supply curve with labeled axes for price and quantity supplied.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_171357_economics_4417a3/generation/images/10.png",
+    "local_path": "generation/images/10.png",
+    "image_ref": "generation/images/10.png"
+  }
+]

@@ -1,0 +1,1539 @@
+{
+  "concepts": [
+    "demand",
+    "quantity demanded",
+    "law of demand",
+    "supply",
+    "quantity supplied",
+    "law of supply",
+    "demand curve",
+    "supply curve",
+    "equilibrium",
+    "equilibrium price",
+    "equilibrium quantity",
+    "price",
+    "demand schedule",
+    "quantity of gasoline",
+    "supply schedule",
+    "supply curves",
+    "quantity",
+    "excess supply",
+    "excess demand",
+    "surplus",
+    "shortage",
+    "equilibrium point",
+    "price reductions",
+    "gasoline",
+    "equilibrium level"
+  ],
+  "definitions": {
+    "demand": "the relationship between a range of prices and the quantities demanded at those prices, as illustrated by a demand curve or a demand schedule.",
+    "quantity demanded": "a certain point on the demand curve, or one quantity on the demand schedule.",
+    "law of demand": "The inverse relationship between price and quantity demanded, assuming other variables are held constant.",
+    "supply": "the relationship between a range of prices and the quantities supplied at those prices, illustrated with a supply curve or a supply schedule.",
+    "quantity supplied": "a certain point on the supply curve, or one quantity on the supply schedule.",
+    "law of supply": "a higher price leads to a higher quantity supplied, and vice versa.",
+    "demand curve": "A graphical representation of the relationship between price and quantity demanded.",
+    "supply curve": "created by graphing the points from the supply schedule and then connecting them.",
+    "equilibrium": "The point where the supply curve and the demand curve cross, where the amount of the product consumers want to buy is equal to the amount producers want to sell.",
+    "equilibrium price": "The only price where quantity demanded is equal to quantity supplied.",
+    "equilibrium quantity": "The common quantity where the plans of consumers and producers agree.",
+    "price": "what the producer receives for selling one unit of a good or service.",
+    "demand schedule": "A table that shows the quantity demanded at each price.",
+    "supply schedule": "the table that shows quantity supplied of gasoline at each price.",
+    "surplus": "A situation where the quantity of a good or service exceeds the quantity demanded at a given price.",
+    "equilibrium level": "The price at which the quantity demanded equals the quantity supplied."
+  },
+  "relations": [
+    {
+      "source": "price",
+      "target": "quantity demanded",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price",
+      "target": "quantity demanded",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Demand Curve",
+      "target": "Law of Demand",
+      "relation": "embodies",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::15::figure_3_2_a_demand_curve_for_gasoline_the_deman::chunk::6::figure_3_2_a_demand_curve_for_gasoline_the_deman",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "demand",
+      "target": "demand curve",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "demand",
+      "target": "demand schedule",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "quantity demanded",
+      "target": "demand curve",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "quantity demanded",
+      "target": "demand schedule",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "demand",
+      "target": "demand curve",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "demand",
+      "target": "demand schedule",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "quantity demanded",
+      "target": "demand curve",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "quantity demanded",
+      "target": "demand schedule",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "demand",
+      "target": "demand curve",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "demand",
+      "target": "demand schedule",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "quantity demanded",
+      "target": "demand curve",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "quantity demanded",
+      "target": "demand schedule",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price",
+      "target": "quantity supplied",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "law of supply",
+      "target": "price",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "law of supply",
+      "target": "quantity supplied",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price",
+      "target": "quantity supplied",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "law of supply",
+      "target": "price",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "law of supply",
+      "target": "quantity supplied",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply",
+      "target": "supply curve",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply",
+      "target": "supply schedule",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply curve",
+      "target": "price",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply curve",
+      "target": "quantity supplied",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply schedule",
+      "target": "price",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply schedule",
+      "target": "quantity supplied",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price",
+      "target": "quantity supplied",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "supply curve",
+      "target": "law of supply",
+      "relation": "illustrates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price",
+      "target": "quantity supplied",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "demand curve",
+      "target": "supply curve",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "excess supply",
+      "target": "surplus",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "excess demand",
+      "target": "shortage",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "demand curve",
+      "target": "supply curve",
+      "relation": "intersects",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "equilibrium price",
+      "target": "quantity demanded",
+      "relation": "equals",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "equilibrium price",
+      "target": "quantity supplied",
+      "relation": "equals",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price above equilibrium",
+      "target": "excess supply",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price below equilibrium",
+      "target": "excess demand",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "equilibrium",
+      "target": "demand curve",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "equilibrium",
+      "target": "supply curve",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "equilibrium price",
+      "target": "equilibrium quantity",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price above equilibrium",
+      "target": "excess supply",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "excess supply",
+      "target": "surplus",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "excess supply",
+      "target": "price reductions",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price reductions",
+      "target": "quantity demanded",
+      "relation": "increases",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "surplus",
+      "target": "gasoline",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price reductions",
+      "target": "quantity demanded",
+      "relation": "stimulates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "price",
+      "target": "equilibrium level",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati",
+      "source_file": "data/raw/economics.pdf",
+      "extraction_method": "langchain"
+    }
+  ],
+  "examples": [
+    "When the price of a gallon of gasoline increases, people look for ways to reduce their consumption by combining several errands, commuting by carpool or mass transit, or taking weekend or vacation trips closer to home.",
+    "Table 3.1 shows the demand schedule for gasoline, measuring price in dollars per gallon and quantity demanded in millions of gallons over a time period and geographic area.",
+    "Table 3.1 shows the demand schedule for gasoline, measuring price in dollars per gallon and quantity demanded in millions of gallons over a time period (for example, per day or per year) and over some geographic area (like a state or a country).",
+    "When the price of gasoline rises, it encourages profit-seeking firms to take several actions: expand exploration for oil reserves; drill for more oil; invest in more pipelines and oil tankers to bring the oil to plants for refining into gasoline; build new oil refineries; purchase additional pipelines and trucks to ship the gasoline to gas stations; and open more gas stations or keep existing gas stations open longer hours.",
+    "the market for gasoline",
+    "the price of a gallon of gasoline was above the equilibrium price—that is, instead of $1.40 per gallon, the price is $1.80 per gallon.",
+    "drivers take longer trips",
+    "spend more minutes warming up the car in the driveway in wintertime",
+    "stop sharing rides to work",
+    "buy larger cars that get fewer miles to the gallon"
+  ],
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "LEARNING OBJECTIVES"
+      ],
+      "concepts": [
+        "demand",
+        "quantity demanded",
+        "law of demand",
+        "supply",
+        "quantity supplied",
+        "law of supply",
+        "demand curve",
+        "supply curve",
+        "equilibrium",
+        "equilibrium price",
+        "equilibrium quantity"
+      ],
+      "definitions": [
+        {
+          "concept": "demand",
+          "definition": "The amount of some good or service consumers are willing and able to purchase at each price."
+        },
+        {
+          "concept": "quantity demanded",
+          "definition": "The total number of units that consumers would purchase at a given price."
+        },
+        {
+          "concept": "law of demand",
+          "definition": "The inverse relationship between price and quantity demanded, assuming other variables are held constant."
+        },
+        {
+          "concept": "supply",
+          "definition": "The amount of some good or service producers are willing and able to sell at each price."
+        },
+        {
+          "concept": "quantity supplied",
+          "definition": "The total number of units that producers would sell at a given price."
+        },
+        {
+          "concept": "law of supply",
+          "definition": "The direct relationship between price and quantity supplied, assuming other variables are held constant."
+        },
+        {
+          "concept": "demand curve",
+          "definition": "A graphical representation of the relationship between price and quantity demanded."
+        },
+        {
+          "concept": "supply curve",
+          "definition": "A graphical representation of the relationship between price and quantity supplied."
+        },
+        {
+          "concept": "equilibrium",
+          "definition": "The point where demand and supply curves intersect, indicating a balance between quantity demanded and quantity supplied."
+        },
+        {
+          "concept": "equilibrium price",
+          "definition": "The price at which the quantity demanded equals the quantity supplied."
+        },
+        {
+          "concept": "equilibrium quantity",
+          "definition": "The quantity at which the quantity demanded equals the quantity supplied."
+        }
+      ],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "concepts": [
+        "demand",
+        "price",
+        "quantity demanded",
+        "law of demand"
+      ],
+      "definitions": [
+        {
+          "concept": "demand",
+          "definition": "The amount of some good or service consumers are willing and able to purchase at each price."
+        },
+        {
+          "concept": "price",
+          "definition": "What a buyer pays for a unit of a specific good or service."
+        },
+        {
+          "concept": "quantity demanded",
+          "definition": "The total number of units that consumers would purchase at a given price."
+        },
+        {
+          "concept": "law of demand",
+          "definition": "The inverse relationship between price and quantity demanded, assuming other variables are held constant."
+        }
+      ],
+      "relations": [
+        {
+          "source": "price",
+          "target": "quantity demanded",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "When the price of a gallon of gasoline increases, people look for ways to reduce their consumption by combining several errands, commuting by carpool or mass transit, or taking weekend or vacation trips closer to home."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "concepts": [
+        "price",
+        "quantity demanded",
+        "law of demand",
+        "demand schedule",
+        "demand curve"
+      ],
+      "definitions": [
+        {
+          "concept": "price",
+          "definition": "What a buyer pays for a unit of a specific good or service."
+        },
+        {
+          "concept": "quantity demanded",
+          "definition": "The total number of units that consumers would purchase at a given price."
+        },
+        {
+          "concept": "law of demand",
+          "definition": "The inverse relationship between price and quantity demanded, assuming other variables are held constant."
+        },
+        {
+          "concept": "demand schedule",
+          "definition": "A table that shows the quantity demanded at each price."
+        },
+        {
+          "concept": "demand curve",
+          "definition": "A graphical representation of the relationship between price and quantity demanded."
+        }
+      ],
+      "relations": [
+        {
+          "source": "price",
+          "target": "quantity demanded",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "Table 3.1 shows the demand schedule for gasoline, measuring price in dollars per gallon and quantity demanded in millions of gallons over a time period and geographic area."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 3,
+      "chunk_id": "economics::paragraph::9::we_can_show_an_example_from_the_market_for_gasol::chunk::3::we_can_show_an_example_from_the_market_for_gasol",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "concepts": [
+        "demand schedule",
+        "demand curve"
+      ],
+      "definitions": [
+        {
+          "concept": "demand schedule",
+          "definition": "A table that shows the quantity demanded at each price."
+        },
+        {
+          "concept": "demand curve",
+          "definition": "A graphical representation of the relationship between price and quantity demanded."
+        }
+      ],
+      "relations": [],
+      "examples": [
+        "Table 3.1 shows the demand schedule for gasoline, measuring price in dollars per gallon and quantity demanded in millions of gallons over a time period (for example, per day or per year) and over some geographic area (like a state or a country)."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "economics::image::13::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173::chunk::4::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "economics::details::14::details_summary_line_summary_quantity_of_gasolin::chunk::5::details_summary_line_summary_quantity_of_gasolin",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "concepts": [
+        "Quantity of Gasoline",
+        "Price"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "economics::paragraph::15::figure_3_2_a_demand_curve_for_gasoline_the_deman::chunk::6::figure_3_2_a_demand_curve_for_gasoline_the_deman",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "concepts": [
+        "Demand Curve",
+        "Law of Demand"
+      ],
+      "definitions": [
+        {
+          "concept": "Law of Demand",
+          "definition": "The inverse relationship between prices and quantity demanded."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Demand Curve",
+          "target": "Law of Demand",
+          "relation": "embodies",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "economics::image::18::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6::chunk::7::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "concepts": [
+        "demand",
+        "quantity demanded",
+        "demand curve",
+        "demand schedule"
+      ],
+      "definitions": [
+        {
+          "concept": "demand",
+          "definition": "the relationship between a range of prices and the quantities demanded at those prices, as illustrated by a demand curve or a demand schedule."
+        },
+        {
+          "concept": "quantity demanded",
+          "definition": "a certain point on the demand curve, or one quantity on the demand schedule."
+        }
+      ],
+      "relations": [
+        {
+          "source": "demand",
+          "target": "demand curve",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "demand",
+          "target": "demand schedule",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "quantity demanded",
+          "target": "demand curve",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "quantity demanded",
+          "target": "demand schedule",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "concepts": [
+        "demand",
+        "quantity demanded",
+        "demand curve",
+        "demand schedule"
+      ],
+      "definitions": [
+        {
+          "concept": "demand",
+          "definition": "the relationship between a range of prices and the quantities demanded at those prices, as illustrated by a demand curve or a demand schedule."
+        },
+        {
+          "concept": "quantity demanded",
+          "definition": "a certain point on the demand curve, or one quantity on the demand schedule."
+        }
+      ],
+      "relations": [
+        {
+          "source": "demand",
+          "target": "demand curve",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "demand",
+          "target": "demand schedule",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "quantity demanded",
+          "target": "demand curve",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "quantity demanded",
+          "target": "demand schedule",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "concepts": [
+        "demand",
+        "quantity demanded",
+        "demand curve",
+        "demand schedule",
+        "supply",
+        "price",
+        "quantity supplied",
+        "law of supply"
+      ],
+      "definitions": [
+        {
+          "concept": "demand",
+          "definition": "the relationship between a range of prices and the quantities demanded at those prices, as illustrated by a demand curve or a demand schedule."
+        },
+        {
+          "concept": "quantity demanded",
+          "definition": "a certain point on the demand curve, or one quantity on the demand schedule."
+        },
+        {
+          "concept": "supply",
+          "definition": "the amount of some good or service a producer is willing to produce and/or bring to market at each price."
+        },
+        {
+          "concept": "price",
+          "definition": "what the producer receives for selling one unit of a good or service."
+        },
+        {
+          "concept": "law of supply",
+          "definition": "the positive relationship between price and quantity supplied—that a higher price leads to a higher quantity supplied and a lower price leads to a lower quantity supplied."
+        }
+      ],
+      "relations": [
+        {
+          "source": "demand",
+          "target": "demand curve",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "demand",
+          "target": "demand schedule",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "quantity demanded",
+          "target": "demand curve",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "quantity demanded",
+          "target": "demand schedule",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "price",
+          "target": "quantity supplied",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "law of supply",
+          "target": "price",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "law of supply",
+          "target": "quantity supplied",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "When the price of gasoline rises, it encourages profit-seeking firms to take several actions: expand exploration for oil reserves; drill for more oil; invest in more pipelines and oil tankers to bring the oil to plants for refining into gasoline; build new oil refineries; purchase additional pipelines and trucks to ship the gasoline to gas stations; and open more gas stations or keep existing gas stations open longer hours."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "concepts": [
+        "supply",
+        "price",
+        "quantity supplied",
+        "law of supply"
+      ],
+      "definitions": [
+        {
+          "concept": "supply",
+          "definition": "the amount of some good or service a producer is willing to produce and/or bring to market at each price."
+        },
+        {
+          "concept": "price",
+          "definition": "what the producer receives for selling one unit of a good or service."
+        },
+        {
+          "concept": "law of supply",
+          "definition": "the positive relationship between price and quantity supplied—that a higher price leads to a higher quantity supplied and a lower price leads to a lower quantity supplied."
+        }
+      ],
+      "relations": [
+        {
+          "source": "price",
+          "target": "quantity supplied",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "law of supply",
+          "target": "price",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "law of supply",
+          "target": "quantity supplied",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "When the price of gasoline rises, it encourages profit-seeking firms to take several actions: expand exploration for oil reserves; drill for more oil; invest in more pipelines and oil tankers to bring the oil to plants for refining into gasoline; build new oil refineries; purchase additional pipelines and trucks to ship the gasoline to gas stations; and open more gas stations or keep existing gas stations open longer hours."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "economics::image::25::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004::chunk::12::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "concepts": [
+        "supply",
+        "quantity supplied",
+        "supply curve",
+        "supply schedule",
+        "law of supply"
+      ],
+      "definitions": [
+        {
+          "concept": "supply",
+          "definition": "the relationship between a range of prices and the quantities supplied at those prices, illustrated with a supply curve or a supply schedule."
+        },
+        {
+          "concept": "quantity supplied",
+          "definition": "a certain point on the supply curve, or one quantity on the supply schedule."
+        },
+        {
+          "concept": "supply curve",
+          "definition": "a graphic illustration of the relationship between price and quantity supplied."
+        },
+        {
+          "concept": "supply schedule",
+          "definition": "a table that shows the quantity supplied at a range of different prices."
+        }
+      ],
+      "relations": [
+        {
+          "source": "supply",
+          "target": "supply curve",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply",
+          "target": "supply schedule",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply curve",
+          "target": "price",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply curve",
+          "target": "quantity supplied",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply schedule",
+          "target": "price",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply schedule",
+          "target": "quantity supplied",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "the market for gasoline"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "concepts": [
+        "supply schedule",
+        "supply curve",
+        "law of supply",
+        "quantity supplied",
+        "price"
+      ],
+      "definitions": [
+        {
+          "concept": "supply schedule",
+          "definition": "the table that shows quantity supplied of gasoline at each price."
+        },
+        {
+          "concept": "supply curve",
+          "definition": "created by graphing the points from the supply schedule and then connecting them."
+        },
+        {
+          "concept": "law of supply",
+          "definition": "a higher price leads to a higher quantity supplied, and vice versa."
+        }
+      ],
+      "relations": [
+        {
+          "source": "price",
+          "target": "quantity supplied",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply curve",
+          "target": "law of supply",
+          "relation": "illustrates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 17,
+      "chunk_id": "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "concepts": [
+        "supply curves",
+        "demand curve",
+        "supply curve",
+        "price",
+        "quantity"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "price",
+          "target": "quantity supplied",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "demand curve",
+          "target": "supply curve",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 18,
+      "chunk_id": "economics::image::41::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe::chunk::18::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 19,
+      "chunk_id": "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "concepts": [
+        "equilibrium price",
+        "excess supply",
+        "excess demand",
+        "surplus",
+        "shortage"
+      ],
+      "definitions": [
+        {
+          "concept": "equilibrium price",
+          "definition": "The price at which the quantity of gasoline demanded equals the quantity supplied."
+        }
+      ],
+      "relations": [
+        {
+          "source": "excess supply",
+          "target": "surplus",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "excess demand",
+          "target": "shortage",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 20,
+      "chunk_id": "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "concepts": [
+        "demand curve",
+        "supply curve",
+        "equilibrium point",
+        "equilibrium price",
+        "quantity demanded",
+        "quantity supplied",
+        "excess supply",
+        "excess demand"
+      ],
+      "definitions": [
+        {
+          "concept": "equilibrium price",
+          "definition": "The only price where quantity demanded is equal to quantity supplied."
+        }
+      ],
+      "relations": [
+        {
+          "source": "demand curve",
+          "target": "supply curve",
+          "relation": "intersects",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "equilibrium price",
+          "target": "quantity demanded",
+          "relation": "equals",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "equilibrium price",
+          "target": "quantity supplied",
+          "relation": "equals",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "price above equilibrium",
+          "target": "excess supply",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "price below equilibrium",
+          "target": "excess demand",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 21,
+      "chunk_id": "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "concepts": [
+        "equilibrium",
+        "equilibrium price",
+        "equilibrium quantity",
+        "demand curve",
+        "supply curve"
+      ],
+      "definitions": [
+        {
+          "concept": "equilibrium",
+          "definition": "The point where the supply curve and the demand curve cross, where the amount of the product consumers want to buy is equal to the amount producers want to sell."
+        },
+        {
+          "concept": "equilibrium quantity",
+          "definition": "The common quantity where the plans of consumers and producers agree."
+        }
+      ],
+      "relations": [
+        {
+          "source": "equilibrium",
+          "target": "demand curve",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "equilibrium",
+          "target": "supply curve",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "equilibrium price",
+          "target": "equilibrium quantity",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 22,
+      "chunk_id": "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "concepts": [
+        "equilibrium",
+        "equilibrium price",
+        "equilibrium quantity",
+        "excess supply",
+        "surplus"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "price above equilibrium",
+          "target": "excess supply",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "excess supply",
+          "target": "surplus",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "the price of a gallon of gasoline was above the equilibrium price—that is, instead of $1.40 per gallon, the price is $1.80 per gallon."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 23,
+      "chunk_id": "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "concepts": [
+        "excess supply",
+        "surplus",
+        "price reductions",
+        "quantity demanded"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "excess supply",
+          "target": "price reductions",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "price reductions",
+          "target": "quantity demanded",
+          "relation": "increases",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 24,
+      "chunk_id": "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati",
+      "source_file": "data/raw/economics.pdf",
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "concepts": [
+        "surplus",
+        "gasoline",
+        "equilibrium level",
+        "demand",
+        "supply",
+        "price reductions",
+        "quantity demanded"
+      ],
+      "definitions": [
+        {
+          "concept": "surplus",
+          "definition": "A situation where the quantity of a good or service exceeds the quantity demanded at a given price."
+        },
+        {
+          "concept": "equilibrium level",
+          "definition": "The price at which the quantity demanded equals the quantity supplied."
+        }
+      ],
+      "relations": [
+        {
+          "source": "surplus",
+          "target": "gasoline",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "price reductions",
+          "target": "quantity demanded",
+          "relation": "stimulates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "price",
+          "target": "equilibrium level",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "drivers take longer trips",
+        "spend more minutes warming up the car in the driveway in wintertime",
+        "stop sharing rides to work",
+        "buy larger cars that get fewer miles to the gallon"
+      ],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 23,
+    "concept_count": 25,
+    "relation_count": 48
+  }
+}

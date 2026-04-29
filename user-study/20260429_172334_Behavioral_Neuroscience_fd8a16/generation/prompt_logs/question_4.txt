@@ -1,0 +1,40 @@
+Index: 4
+Target concept: receptors
+Tested fact block id: block_1
+Image description: A diagram showing a neurotransmitter binding to a receptor on the postsynaptic membrane.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: receptors
+Question type: multiple_choice
+Difficulty: hard
+Reasoning type: factoid
+Image role: illustrative
+Learning objective: Understand the role of receptors in neurotransmission.
+Image context: A diagram showing a neurotransmitter binding to a receptor on the postsynaptic membrane.
+Tested fact block ID: block_1
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+**Prompt:**
+Create a simplified, high-contrast diagram of a synaptic cleft, showing a round neurotransmitter molecule (e.g., a stylized blue hexagon) binding to a matching receptor (labeled "Receptor") on the postsynaptic membrane. Use warm colors (orange/red) for the postsynaptic neuron and cool colors (blue/green) for the neurotransmitter and presynaptic side. Include clear arrows to indicate binding direction, and label key parts: "Neurotransmitter," "Receptor," and "Postsynaptic Membrane." Avoid realistic protein structures—opt for iconic, accessible shapes.
+
+**Alt:** A diagram of a neurotransmitter binding to a receptor on a neuron's surface, illustrating synaptic signaling.
+
+--- Raw LLM image-prompt response ---
+**Prompt:**
+Create a simplified, high-contrast diagram of a synaptic cleft, showing a round neurotransmitter molecule (e.g., a stylized blue hexagon) binding to a matching receptor (labeled "Receptor") on the postsynaptic membrane. Use warm colors (orange/red) for the postsynaptic neuron and cool colors (blue/green) for the neurotransmitter and presynaptic side. Include clear arrows to indicate binding direction, and label key parts: "Neurotransmitter," "Receptor," and "Postsynaptic Membrane." Avoid realistic protein structures—opt for iconic, accessible shapes.
+
+**Alt:** A diagram of a neurotransmitter binding to a receptor on a neuron's surface, illustrating synaptic signaling.
