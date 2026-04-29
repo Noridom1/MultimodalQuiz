@@ -27,7 +27,7 @@ Output format:
 
 Each question object must include:
 	- "target_concept": string (one of the associated concepts; prefer diversity)
-	- "question_type": string (e.g. "multiple_choice", "short_answer", "true_false")
+	- "question_type": string (MUST be "multiple_choice")
 	- "difficulty": string (one of "easy", "medium", "hard")
 	- "reasoning_type": string (one of "factoid", "causal", "multi-hop")
 	- "image_role": string ("illustrative" or "reasoning")
