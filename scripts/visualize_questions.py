@@ -1,10 +1,3 @@
-"""Generate a standalone interactive quiz HTML from a questions.json file.
-
-Usage
------
-python scripts/visualize_questions.py --json_path outputs/.../generation/questions.json
-python scripts/visualize_questions.py --json_path questions.json --image_dir /path/to/images --output quiz.html --open
-"""
 from __future__ import annotations
 
 import argparse
@@ -24,6 +17,8 @@ if str(PROJECT_ROOT) not in sys.path:
 # ---------------------------------------------------------------------------
 # Data helpers
 # ---------------------------------------------------------------------------
+
+QUIZ_UPLOAD_URL="https://script.google.com/macros/s/AKfycbzfO0Ndr9C1t5YDpda7_wSOkVKprgZvMtZUoEACSOcBiWskbIqwQHFrSUuvMt_G0Pw/exec"
 
 def read_json(path: Path) -> Any:
     with path.open("r", encoding="utf-8") as fh:
@@ -153,12 +148,20 @@ def resolve_image_uri(image_ref: str, json_path: Path, image_dir: Path) -> str |
 # HTML generation
 # ---------------------------------------------------------------------------
 
-def build_html(records: list[dict[str, Any]], json_path: Path, image_dir: Path) -> str:
+def build_html(
+  records: list[dict[str, Any]],
+  json_path: Path,
+  image_dir: Path,
+  show_score: bool = True,
+  upload_url: str | None = None,
+) -> str:
     # Attach resolved image data-URIs
     for rec in records:
         rec["image_uri"] = resolve_image_uri(rec.pop("image_ref"), json_path, image_dir) or ""
 
     questions_json = json.dumps(records, ensure_ascii=False)
+    show_score_js = 'true' if show_score else 'false'
+    upload_url_js = 'null' if not upload_url else json.dumps(str(upload_url))
     total = len(records)
     source_label = json_path.name
 
@@ -184,7 +187,7 @@ def build_html(records: list[dict[str, Any]], json_path: Path, image_dir: Path) 
       
       <div class="flex flex-wrap gap-4">
         <label class="flex items-center gap-2 cursor-pointer select-none">
-          <input id="show-validation" type="checkbox" checked class="accent-indigo-600 w-4 h-4" />
+          <input id="show-validation" type="checkbox" class="accent-indigo-600 w-4 h-4" />
           <span>Show correct/wrong marks</span>
         </label>
 
@@ -242,6 +245,10 @@ def build_html(records: list[dict[str, Any]], json_path: Path, image_dir: Path) 
           <tbody id="results-table"></tbody>
         </table>
       </div>
+      <div id="username-panel" class="hidden mb-4 text-left">
+        <label for="username-input" class="block text-sm font-medium text-slate-700 mb-2">Your name</label>
+        <input id="username-input" type="text" autocomplete="name" placeholder="Enter your name" class="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-800 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" />
+      </div>
       <button id="download-btn" class="px-8 py-3 rounded-xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700 active:scale-95 transition text-base">
         ⬇ Download Results (JSON)
       </button>
@@ -250,6 +257,8 @@ def build_html(records: list[dict[str, Any]], json_path: Path, image_dir: Path) 
 
   <script>
   const QUESTIONS = {questions_json};
+  const SHOW_SCORE = {show_score_js};
+  const UPLOAD_URL = {upload_url_js};
   let current = 0, selected = null, submitted = false, qStartMs = Date.now();
   const results = [];
 
@@ -267,6 +276,8 @@ def build_html(records: list[dict[str, Any]], json_path: Path, image_dir: Path) 
         resultsScreen = document.getElementById('results-screen'),
         showExpCb = document.getElementById('show-explanation'),
         showValCb = document.getElementById('show-validation'),
+        usernamePanel = document.getElementById('username-panel'),
+        usernameInput = document.getElementById('username-input'),
         downloadBtn = document.getElementById('download-btn');
 
   function renderQuestion(idx) {{
@@ -360,7 +371,58 @@ def build_html(records: list[dict[str, Any]], json_path: Path, image_dir: Path) 
     questionCard.classList.add('hidden');
     resultsScreen.classList.remove('hidden');
     const score = results.filter(r => r.is_correct).length;
-    document.getElementById('score-text').textContent = `Score: ${{score}} / ${{results.length}}`;
+    document.getElementById('score-text').textContent = SHOW_SCORE ? `Score: ${{score}} / ${{results.length}}` : '';
+    if (UPLOAD_URL) {{
+      usernamePanel.classList.remove('hidden');
+      usernameInput.focus();
+    }}
+  }}
+
+  function downloadResults() {{
+    const blob = new Blob([JSON.stringify(results, null, 2)], {{type: 'application/json'}});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'quiz_results.json';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  }}
+
+  function uploadResults() {{
+    if (!UPLOAD_URL) return Promise.reject(new Error('No upload URL configured'));
+    const username = usernameInput.value.trim() || 'Anonymous';
+    // Use no-cors mode for Google Apps Script endpoints that expect simple POSTs
+    return fetch(UPLOAD_URL, {{
+      method: 'POST',
+      mode: 'no-cors',
+      cache: 'no-cache',
+      headers: {{ 'Content-Type': 'text/plain' }},
+      body: JSON.stringify({{
+        username: username,
+        results: results,
+      }})
+    }});
+  }}
+
+  // Wire the download/upload button depending on configuration
+  if (UPLOAD_URL) {{
+    downloadBtn.textContent = '⬆ Upload Results (Google Sheets)';
+    downloadBtn.onclick = () => {{
+      if (!usernameInput.value.trim()) {{
+        usernameInput.focus();
+        usernameInput.placeholder = 'Please enter your name first';
+        return;
+      }}
+      downloadBtn.disabled = true;
+      downloadBtn.textContent = 'Uploading...';
+      uploadResults()
+        .then(() => {{ downloadBtn.textContent = 'Uploaded ✓'; }})
+        .catch(err => {{ console.error('Upload error:', err); downloadBtn.textContent = 'Upload Failed'; }})
+        .finally(() => {{ setTimeout(() => {{ downloadBtn.disabled = false; downloadBtn.textContent = '⬆ Upload Results (Google Sheets)'; }}, 2000); }});
+    }};
+  }} else {{
+    downloadBtn.onclick = downloadResults;
   }}
 
   function escHtml(str) {{ return String(str).replace(/[&<>"']/g, m => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}})[m]); }}
@@ -400,6 +462,17 @@ def main() -> None:
         help="Output HTML path. Defaults to index.html next to the JSON file.",
     )
     parser.add_argument(
+      "--no_score",
+      action="store_true",
+      help="Do not display final score on the results screen.",
+    )
+    parser.add_argument(
+        "--upload_url",
+        type=str,
+        default=QUIZ_UPLOAD_URL,
+        help="Optional URL (e.g. Google Apps Script) to POST results to instead of downloading.",
+    )
+    parser.add_argument(
         "--open",
         action="store_true",
         help="Open the generated HTML in the default browser.",
@@ -413,7 +486,13 @@ def main() -> None:
 
     payload  = read_json(json_path)
     records  = normalize_records(payload)
-    html     = build_html(records, json_path, args.image_dir.resolve())
+    html     = build_html(
+      records,
+      json_path,
+      args.image_dir.resolve(),
+      show_score=not args.no_score,
+      upload_url=args.upload_url,
+    )
 
     out: Path = args.output.resolve() if args.output else json_path.parent / "index.html"
     out.write_text(html, encoding="utf-8")
