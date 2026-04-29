@@ -1,0 +1,122 @@
+[
+  {
+    "question_text": "Where do neurons primarily obtain the precursors needed to produce neurotransmitters?",
+    "options": [
+      "A) From the synaptic cleft after degradation",
+      "B) From the diet via the bloodstream",
+      "C) From the DNA in the nucleus exclusively",
+      "D) From the surrounding cerebrospinal fluid"
+    ],
+    "correct_answer": "B",
+    "explanation": "The sources state that neurons access nutrients from the **diet**, which float around in the blood after each meal, to produce neurotransmitters,.",
+    "target_concept": "source of neurotransmitter precursors"
+  },
+  {
+    "question_text": "Once a nutrient crosses the blood-brain barrier, which cell type usually assists in transporting it to the neurons?",
+    "options": [
+      "A) Microglia",
+      "B) Oligodendrocytes",
+      "C) Astrocytes",
+      "D) Ependymal cells"
+    ],
+    "correct_answer": "C",
+    "explanation": "According to the text, once a nutrient crosses the blood-brain barrier it is usually transported to neurons with the assistance of **astrocytes**.",
+    "target_concept": "nutrient transport within the brain"
+  },
+  {
+    "question_text": "Which metal ion is specifically mentioned as being contained in neurons within the hippocampus to assist in neurotransmitter metabolism?",
+    "options": [
+      "A) Iron",
+      "B) Copper",
+      "C) Cobalt",
+      "D) Zinc"
+    ],
+    "correct_answer": "D",
+    "explanation": "The text notes that for neurotransmitter conversion, neurons in the **hippocampus contain zinc**.",
+    "target_concept": "metal co-factors in neurotransmitter metabolism"
+  },
+  {
+    "question_text": "Which neurotransmitter molecules is a neuron most likely to release first to ensure successful communication?",
+    "options": [
+      "A) The oldest molecules stored deep in the vesicle",
+      "B) The most recently produced molecules",
+      "C) Molecules that have been recycled via reuptake",
+      "D) Neuropeptides, regardless of production time"
+    ],
+    "correct_answer": "B",
+    "explanation": "The sources explain that neurons 'prefer to **release the most recently produced neurotransmitter molecules first**' to guarantee successful communication,.",
+    "target_concept": "neurotransmitter release priority"
+  },
+  {
+    "question_text": "What specific event occurs at the presynaptic terminal to initiate the fusion of synaptic vesicles with the cell membrane?",
+    "options": [
+      "A) Influx of sodium ions (Na+)",
+      "B) Efflux of potassium ions (K+)",
+      "C) Influx of calcium ions (Ca2+)",
+      "D) Binding of a ligand to an autoreceptor"
+    ],
+    "correct_answer": "C",
+    "explanation": "The arrival of an action potential opens voltage-dependent calcium channels; the resulting **influx of calcium ions** initiates vesicle fusion and neurotransmitter release,.",
+    "target_concept": "mechanism of neurotransmitter release"
+  },
+  {
+    "question_text": "Why are glutamate and GABA the most abundant neurotransmitters in the human brain compared to neuropeptides?",
+    "options": [
+      "A) They are fat-derived and easier to store",
+      "B) They require only single-step enzymatic modification and less energy",
+      "C) They do not require receptors to function",
+      "D) They are the only neurotransmitters that can cross the blood-brain barrier"
+    ],
+    "correct_answer": "B",
+    "explanation": "Glutamate and GABA are simple amino acids requiring only **single-step enzymatic modification**, making them more energy-efficient than complex neuropeptides.",
+    "target_concept": "neurotransmitter energy efficiency"
+  },
+  {
+    "question_text": "What is the primary characteristic of an ionotropic receptor?",
+    "options": [
+      "A) It activates a G-protein to send a secondary messenger",
+      "B) It is a ligand-gated transmembrane ion channel that changes shape to allow ions through",
+      "C) It is located exclusively on the presynaptic membrane",
+      "D) It is used only for neuropeptide signaling"
+    ],
+    "correct_answer": "B",
+    "explanation": "Ionotropic receptors are **'ligand-gated transmembrane ion channels'** that change conformation when a ligand binds, creating an opening for ions.",
+    "target_concept": "ionotropic receptor function"
+  },
+  {
+    "question_text": "How do metabotropic receptors typically influence a post-synaptic neuron?",
+    "options": [
+      "A) By directly opening an integral ion channel upon ligand binding",
+      "B) By activating a G-protein which then triggers a secondary messenger",
+      "C) By transporting the neurotransmitter into the cell nucleus",
+      "D) By physically merging with the presynaptic membrane"
+    ],
+    "correct_answer": "B",
+    "explanation": "Metabotropic receptors do not have a channel; instead, they are **linked to G-proteins** that, once activated, trigger secondary messengers to activate other particles.",
+    "target_concept": "metabotropic receptor function"
+  },
+  {
+    "question_text": "What is the typical result of activating an autoreceptor on a neuron?",
+    "options": [
+      "A) An increase in the rate of neurotransmitter release",
+      "B) The immediate degradation of the receptor itself",
+      "C) A reduction in the rate of neurotransmitter release",
+      "D) The conversion of the neuron into a glial cell"
+    ],
+    "correct_answer": "C",
+    "explanation": "Autoreceptors provide feedback to the neuron; their activation **'usually leads to a reduction in the rate of release'** of the cell's neurotransmitter.",
+    "target_concept": "autoreceptor function"
+  },
+  {
+    "question_text": "What is the primary mechanism for inactivating most neurotransmitters after they have been released into the synaptic cleft?",
+    "options": [
+      "A) Diffusion into the bloodstream",
+      "B) Reuptake via protein transporters on the presynaptic membrane",
+      "C) Absorption by the postsynaptic DNA",
+      "D) Oxidation by the blood-brain barrier"
+    ],
+    "correct_answer": "B",
+    "explanation": "The sources state that the **primary mechanism for inactivation is reuptake**, which is the reabsorption of a neurotransmitter via a protein transporter on the presynaptic membrane.",
+    "target_concept": "termination of neurotransmitter action"
+  }
+]

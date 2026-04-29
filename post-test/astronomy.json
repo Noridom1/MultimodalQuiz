@@ -1,0 +1,122 @@
+[
+  {
+    "question_text": "What is the primary source of the light we see coming from the Moon?",
+    "options": [
+      "A) The Moon generates its own light through internal heat",
+      "B) The Moon reflects sunlight",
+      "C) The Moon reflects light from Earth's atmosphere",
+      "D) The Moon is powered by cosmic radiation"
+    ],
+    "correct_answer": "B",
+    "explanation": "The sources state that the Moon does not shine under its own power but merely glows with reflected sunlight. (Source:)",
+    "target_concept": "source of lunar light"
+  },
+  {
+    "question_text": "According to the text, what is the actual cause of the Moon's phases?",
+    "options": [
+      "A) The shadow of the Earth falling on the Moon",
+      "B) Changes in the Moon's distance from the Sun",
+      "C) The motion of the Moon relative to the Sun as seen from Earth",
+      "D) The Moon's rotation speed changing throughout the month"
+    ],
+    "correct_answer": "C",
+    "explanation": "The phases are explained by the motion of the Moon relative to the Sun; how much of the illuminated face we see depends on the angle the Sun makes with the Moon from our vantage point. (Source:)",
+    "target_concept": "cause of lunar phases"
+  },
+  {
+    "question_text": "At any given position in its orbit, how much of the Moon's total surface is illuminated by the Sun?",
+    "options": [
+      "A) The entire Moon",
+      "B) Exactly half of the Moon",
+      "C) Only the portion visible from Earth",
+      "D) A percentage that varies from 0% to 100% depending on the phase"
+    ],
+    "correct_answer": "B",
+    "explanation": "In every position of its orbit, the Moon is half illuminated and half dark, just as a ball in sunlight should be. (Source:)",
+    "target_concept": "lunar illumination"
+  },
+  {
+    "question_text": "When is the Moon in its 'New' phase?",
+    "options": [
+      "A) When it is opposite the Sun in the sky",
+      "B) When it is at a 90-degree angle to the Sun",
+      "C) When it is in the same general direction as the Sun",
+      "D) When it is visible only at midnight"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Moon is new when it is in the same general direction in the sky as the Sun, meaning its illuminated side is turned away from Earth. (Source:)",
+    "target_concept": "new moon phase"
+  },
+  {
+    "question_text": "Approximately how many degrees does the Moon move eastward in the sky each day?",
+    "options": [
+      "A) 1 degree",
+      "B) 5 degrees",
+      "C) 12 degrees",
+      "D) 30 degrees"
+    ],
+    "correct_answer": "C",
+    "explanation": "Because it takes about 30 days to orbit Earth's 360-degree circle, the Moon moves approximately 12 degrees in the sky each day. (Source:)",
+    "target_concept": "daily lunar motion"
+  },
+  {
+    "question_text": "Which phase describes the Moon when it rises at sunset and sets at sunrise?",
+    "options": [
+      "A) New Moon",
+      "B) First Quarter",
+      "C) Full Moon",
+      "D) Third Quarter"
+    ],
+    "correct_answer": "C",
+    "explanation": "When the Moon is full, it is opposite the Sun in the sky, rising at sunset and setting at sunrise. (Source:)",
+    "target_concept": "full moon timing"
+  },
+  {
+    "question_text": "What have statistical tests revealed regarding the 'lunacy' hypothesis and human behavior?",
+    "options": [
+      "A) Homicides increase by 20% during full moons",
+      "B) Hospital emergencies are more frequent during the new moon",
+      "C) There is no correlation between human behavior and the phases of the Moon",
+      "D) Human behavior is only affected by the Moon in cultures without electric lights"
+    ],
+    "correct_answer": "C",
+    "explanation": "Statistical tests of thousands of records from hospitals and police files do not reveal any correlation of human behavior with the phases of the Moon. (Source:)",
+    "target_concept": "lunar effect myth"
+  },
+  {
+    "question_text": "What is the length of the 'solar month,' the time interval in which the lunar phases repeat?",
+    "options": [
+      "A) 24.0 days",
+      "B) 27.3 days",
+      "C) 29.5 days",
+      "D) 30.0 days"
+    ],
+    "correct_answer": "C",
+    "explanation": "The solar month, or the time interval in which the phases repeat (e.g., full to full), is 29.5306 days. (Source:)",
+    "target_concept": "solar month"
+  },
+  {
+    "question_text": "Why does the Moon always keep the same face turned toward Earth?",
+    "options": [
+      "A) It does not rotate on its axis at all",
+      "B) It rotates on its axis in the same amount of time it takes to revolve around Earth",
+      "C) Earth's shadow locks the Moon's rotation",
+      "D) The Moon is too far away for us to see it rotate"
+    ],
+    "correct_answer": "B",
+    "explanation": "This is due to synchronous rotation: the Moon rotates on its axis in exactly the same time that it takes to revolve about Earth. (Source:)",
+    "target_concept": "synchronous rotation"
+  },
+  {
+    "question_text": "Which statement best describes the 'dark side' of the Moon?",
+    "options": [
+      "A) It is the side that never receives any sunlight",
+      "B) It is a specific side that is always dark because the Moon does not rotate",
+      "C) It is a misunderstanding; the Sun rises and sets on all sides of the Moon",
+      "D) It is only dark during the full moon phase"
+    ],
+    "correct_answer": "C",
+    "explanation": "The term 'dark side' is a misunderstanding; because the Moon rotates, the Sun rises and sets on all sides, and the back side is dark no more frequently than the front side. (Source:)",
+    "target_concept": "dark side misconception"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question_text": "How do economists define 'demand' for a good or service?",
+    "options": [
+      "A) Only the specific need or want a consumer has for a product",
+      "B) The amount of a good or service consumers are willing and able to purchase at each price",
+      "C) The total quantity of products currently available in the market",
+      "D) The maximum price a producer can charge for a service"
+    ],
+    "correct_answer": "B",
+    "explanation": "Economists use the term demand to refer to the amount of some good or service consumers are willing and able to purchase at each price.",
+    "target_concept": "definition of demand"
+  },
+  {
+    "question_text": "What does the 'law of demand' describe regarding the relationship between price and quantity demanded?",
+    "options": [
+      "A) A positive relationship where higher prices lead to higher quantity demanded",
+      "B) A constant relationship where price has no effect on consumer behavior",
+      "C) An inverse relationship where a rise in price almost always decreases the quantity demanded",
+      "D) A situation where consumers only buy goods when they are at their most expensive"
+    ],
+    "correct_answer": "C",
+    "explanation": "Economists call the inverse relationship between price and quantity demanded the law of demand, where a rise in price decreases quantity demanded and a fall in price increases it.",
+    "target_concept": "law of demand"
+  },
+  {
+    "question_text": "What is the difference between 'demand' and 'quantity demanded' in economic terminology?",
+    "options": [
+      "A) They are identical terms used interchangeably by economists",
+      "B) Demand refers to the curve (the relationship across a range of prices), while quantity demanded refers to a specific point on that curve",
+      "C) Quantity demanded refers to the whole curve, while demand refers to a specific point",
+      "D) Demand is determined by producers, while quantity demanded is determined by the government"
+    ],
+    "correct_answer": "B",
+    "explanation": "Demand refers to the relationship between a range of prices and the quantities demanded at those prices, as shown by a curve, while quantity demanded refers to only a certain point on that curve.",
+    "target_concept": "demand vs. quantity demanded"
+  },
+  {
+    "question_text": "According to the 'law of supply,' how do producers typically react to a rise in the price of a good?",
+    "options": [
+      "A) They decrease the quantity supplied to keep the product rare",
+      "B) They increase the quantity supplied to take advantage of higher profits",
+      "C) They stop production until the price stabilizes",
+      "D) They keep the quantity supplied exactly the same"
+    ],
+    "correct_answer": "B",
+    "explanation": "The law of supply states that a rise in price almost always leads to an increase in the quantity supplied of that good or service.",
+    "target_concept": "law of supply"
+  },
+  {
+    "push_text": "Which of the following describes the typical slope of a supply curve on a graph where price is on the vertical axis?",
+    "options": [
+      "A) It slopes downward from left to right",
+      "B) It is a perfectly horizontal line",
+      "C) It slopes upward from left to right",
+      "D) It is a perfectly vertical line"
+    ],
+    "correct_answer": "C",
+    "explanation": "Nearly all supply curves slope up from left to right, illustrating the law of supply that a higher price leads to a higher quantity supplied.",
+    "target_concept": "supply curve slope"
+  },
+  {
+    "question_text": "What is the economic term for a table that shows the quantity supplied at a range of different prices?",
+    "options": [
+      "A) Demand schedule",
+      "B) Supply curve",
+      "C) Equilibrium chart",
+      "D) Supply schedule"
+    ],
+    "correct_answer": "D",
+    "explanation": "A supply schedule is a table that shows the quantity supplied at a range of different prices.",
+    "target_concept": "supply schedule"
+  },
+  {
+    "question_text": "In a market graph, what occurs at the point where the supply curve and the demand curve intersect?",
+    "options": [
+      "A) A market shortage is created",
+      "B) Equilibrium is reached, where quantity demanded equals quantity supplied",
+      "C) A market surplus is created",
+      "D) The price is set at its absolute maximum"
+    ],
+    "correct_answer": "B",
+    "explanation": "The point where the supply curve (S) and the demand curve (D) cross is called the equilibrium, which is the only price where quantity demanded is equal to quantity supplied.",
+    "target_concept": "market equilibrium"
+  },
+  {
+    "question_text": "If the market price for gasoline is set at $1.80 per gallon when the equilibrium price is $1.40, what will happen in the market?",
+    "options": [
+      "A) There will be a shortage because consumers will buy more",
+      "B) There will be a surplus (excess supply) because quantity supplied exceeds quantity demanded",
+      "C) The market will remain in balance indefinitely",
+      "D) Producers will immediately stop drilling for more oil"
+    ],
+    "correct_answer": "B",
+    "explanation": "At any above-equilibrium price, the quantity supplied exceeds the quantity demanded, which is called an excess supply or a surplus.",
+    "target_concept": "surplus"
+  },
+  {
+    "question_text": "When a market experiences 'excess demand' or a 'shortage,' what typically happens to the price?",
+    "options": [
+      "A) The price falls to help producers sell their excess stock",
+      "B) The price rises toward the equilibrium level",
+      "C) The price remains frozen by law",
+      "D) The price fluctuates randomly without direction"
+    ],
+    "correct_answer": "B",
+    "explanation": "When there is excess demand or a shortage, eager buyers and profit-seeking firms create pressure for the price to rise toward the equilibrium level.",
+    "target_concept": "shortage and price adjustment"
+  },
+  {
+    "question_text": "Why would an individual who wants a car but cannot afford to pay for it have 'no effective demand' according to economists?",
+    "options": [
+      "A) Because economists do not care about human needs",
+      "B) Because demand is based on both the want and the ability to pay",
+      "C) Because the individual hasn't looked at enough car models yet",
+      "D) Because there are too many cars currently in the market"
+    ],
+    "correct_answer": "B",
+    "explanation": "Demand is based on the ability to pay; if a consumer cannot pay for a good, they have no effective demand for it.",
+    "target_concept": "effective demand"
+  }
+]
