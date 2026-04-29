@@ -19,15 +19,19 @@ Hard constraints:
 - reasoning_type must be one of: factoid, causal, multi-hop.
 - Follow the target difficulty distribution: {difficulty_distribution}.
 - Every planned question must include an associated image: provide `image_role` and a concrete `image_description`.
+- Every planned question MUST be multiple-choice with exactly {num_options} options.
 
 Output format:
 - Return JSON only.
 - Root object must contain key "questions".
 - "questions" must be a list with exactly {num_questions} items.
 
+
 Each question object must include:
 	- "target_concept": string (one of the associated concepts; prefer diversity)
 	- "question_type": string (MUST be "multiple_choice")
+	- "options": list of strings (exactly {num_options} choices)
+	- "correct_option_index": integer (0-based index into the `options` list)
 	- "difficulty": string (one of "easy", "medium", "hard")
 	- "reasoning_type": string (one of "factoid", "causal", "multi-hop")
 	- "image_role": string ("illustrative" or "reasoning")
@@ -38,17 +42,19 @@ Each question object must include:
 
 Example question item:
 
-{{
+{
 	"target_concept": "{example_concept}",
 	"question_type": "multiple_choice",
+	"options": ["Option A", "Option B", "Option C", "Option D"],
+	"correct_option_index": 0,
 	"difficulty": "easy",
 	"reasoning_type": "factoid",
 	"image_role": "illustrative",
 	"image_description": "A diagram illustrating the concept.",
 	"learning_objective": "Understand the fundamental aspect of the concept.",
 	"tested_fact_block_id": "block_xyz",
-	"metadata": {{}}
-}}
+	"metadata": {}
+}
 
 Full output (root object):
 {{
@@ -78,6 +84,17 @@ Instructions:
 3. Every question MUST reference a tested_fact_block_id from the chunks above (copy the exact block ID).
 4. Prefer higher-confidence chunks (EXTRACTED > INFERRED).
 5. Return ONLY valid JSON with no markdown or commentary.
+6. For each multiple-choice question, ensure exactly one option is correct and set `correct_option_index` accordingly.
+7. Distractor quality rules (important):
+	- Definition: In this template, "distractors" refers to the non-correct options in the `options` list (i.e., any option whose index does NOT equal `correct_option_index`).
+	- Distractors must be plausible: they should be credible answers that a learner might confuse with the correct one.
+	- Avoid distractors that are trivially eliminated (e.g., different grammatical number, wildly different length/format, or obviously out-of-domain).
+	- Prefer distractors drawn from other high-confidence chunks, common misconceptions, or close alternatives rather than random terms.
+	- Keep surface form similar: similar part-of-speech, similar specificity (e.g., both are verbs or both are named entities), and similar lexical complexity.
+	- Do NOT copy the correct answer verbatim into a distractor; avoid exact duplicates across `options`.
+	- If numeric values are used, make distractors close to the correct numeric value when appropriate (avoid orders-of-magnitude differences).
+8. When possible, ensure each distractor can be traced to a chunk or to a plausible misconception; include nothing in options that contradicts the grounding chunks.
+9. Return only the JSON object described above; do not include explanations or reasoning in the output.
 """
 
 
@@ -86,6 +103,7 @@ def render_topic_plan_prompt(
 	num_questions: int,
 	difficulty_distribution: Optional[dict[str, float]] = None,
 	only_concepts: list[str] | None = None,
+	num_options: int = 4,
 ) -> str:
 	"""Render a prompt for topic-driven question planning.
 	
@@ -166,5 +184,6 @@ def render_topic_plan_prompt(
 		chunks_list=chunks_list,
 		images_list=images_list,
 		questions_per_concept=questions_per_concept,
+		num_options=num_options,
 		example_concept=example_concept,
 	)
