@@ -19,12 +19,12 @@
       
       <div class="flex flex-wrap gap-4">
         <label class="flex items-center gap-2 cursor-pointer select-none">
-          <input id="show-validation" type="checkbox" checked class="accent-indigo-600 w-4 h-4" />
+          <input id="show-validation" type="checkbox" class="accent-indigo-600 w-4 h-4" />
           <span>Show correct/wrong marks</span>
         </label>
 
         <label class="flex items-center gap-2 cursor-pointer select-none">
-          <input id="show-explanation" type="checkbox"  class="accent-indigo-600 w-4 h-4" />
+          <input id="show-explanation" type="checkbox" class="accent-indigo-600 w-4 h-4" />
           <span>Show explanation</span>
         </label>
       </div>
@@ -62,7 +62,7 @@
     <div class="bg-white rounded-3xl shadow-xl p-8 text-center">
       <div class="text-6xl mb-4">🎉</div>
       <h2 class="text-2xl font-bold text-slate-800 mb-2">Quiz Complete</h2>
-      <p id="score-text" class="text-slate-500 mb-8 text-lg hidden"></p>
+      <p id="score-text" class="text-slate-500 mb-8 text-lg"></p>
       <div class="overflow-x-auto mb-8">
         <table class="w-full text-sm text-left border-collapse">
           <thead>
@@ -70,12 +70,16 @@
               <th class="py-2 pr-4">#</th>
               <th class="py-2 pr-4">Question</th>
               <th class="py-2 pr-4">Selected</th>
-              <th class="py-2 pr-4 hidden">Result</th>
+              <th class="py-2 pr-4">Result</th>
               <th class="py-2">Time (s)</th>
             </tr>
           </thead>
           <tbody id="results-table"></tbody>
         </table>
+      </div>
+      <div id="username-panel" class="hidden mb-4 text-left">
+        <label for="username-input" class="block text-sm font-medium text-slate-700 mb-2">Your name</label>
+        <input id="username-input" type="text" autocomplete="name" placeholder="Enter your name" class="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-800 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" />
       </div>
       <button id="download-btn" class="px-8 py-3 rounded-xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700 active:scale-95 transition text-base">
         ⬇ Download Results (JSON)
@@ -85,7 +89,8 @@
 
   <script>
   const QUESTIONS = [{"index": 1, "id": "q_1", "question_text": "How do economists define 'demand' for a good or service?", "options": ["A) Only the specific need or want a consumer has for a product", "B) The amount of a good or service consumers are willing and able to purchase at each price", "C) The total quantity of products currently available in the market", "D) The maximum price a producer can charge for a service"], "correct_answer_raw": "B", "correct_index": 1, "explanation": "Economists use the term demand to refer to the amount of some good or service consumers are willing and able to purchase at each price.", "question_type": "multiple_choice", "target_concept": "definition of demand", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}, {"index": 2, "id": "q_2", "question_text": "What does the 'law of demand' describe regarding the relationship between price and quantity demanded?", "options": ["A) A positive relationship where higher prices lead to higher quantity demanded", "B) A constant relationship where price has no effect on consumer behavior", "C) An inverse relationship where a rise in price almost always decreases the quantity demanded", "D) A situation where consumers only buy goods when they are at their most expensive"], "correct_answer_raw": "C", "correct_index": 2, "explanation": "Economists call the inverse relationship between price and quantity demanded the law of demand, where a rise in price decreases quantity demanded and a fall in price increases it.", "question_type": "multiple_choice", "target_concept": "law of demand", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}, {"index": 3, "id": "q_3", "question_text": "What is the difference between 'demand' and 'quantity demanded' in economic terminology?", "options": ["A) They are identical terms used interchangeably by economists", "B) Demand refers to the curve (the relationship across a range of prices), while quantity demanded refers to a specific point on that curve", "C) Quantity demanded refers to the whole curve, while demand refers to a specific point", "D) Demand is determined by producers, while quantity demanded is determined by the government"], "correct_answer_raw": "B", "correct_index": 1, "explanation": "Demand refers to the relationship between a range of prices and the quantities demanded at those prices, as shown by a curve, while quantity demanded refers to only a certain point on that curve.", "question_type": "multiple_choice", "target_concept": "demand vs. quantity demanded", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}, {"index": 4, "id": "q_4", "question_text": "According to the 'law of supply,' how do producers typically react to a rise in the price of a good?", "options": ["A) They decrease the quantity supplied to keep the product rare", "B) They increase the quantity supplied to take advantage of higher profits", "C) They stop production until the price stabilizes", "D) They keep the quantity supplied exactly the same"], "correct_answer_raw": "B", "correct_index": 1, "explanation": "The law of supply states that a rise in price almost always leads to an increase in the quantity supplied of that good or service.", "question_type": "multiple_choice", "target_concept": "law of supply", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}, {"index": 5, "id": "q_5", "question_text": "", "options": ["A) It slopes downward from left to right", "B) It is a perfectly horizontal line", "C) It slopes upward from left to right", "D) It is a perfectly vertical line"], "correct_answer_raw": "C", "correct_index": 2, "explanation": "Nearly all supply curves slope up from left to right, illustrating the law of supply that a higher price leads to a higher quantity supplied.", "question_type": "multiple_choice", "target_concept": "supply curve slope", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}, {"index": 6, "id": "q_6", "question_text": "What is the economic term for a table that shows the quantity supplied at a range of different prices?", "options": ["A) Demand schedule", "B) Supply curve", "C) Equilibrium chart", "D) Supply schedule"], "correct_answer_raw": "D", "correct_index": 3, "explanation": "A supply schedule is a table that shows the quantity supplied at a range of different prices.", "question_type": "multiple_choice", "target_concept": "supply schedule", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}, {"index": 7, "id": "q_7", "question_text": "In a market graph, what occurs at the point where the supply curve and the demand curve intersect?", "options": ["A) A market shortage is created", "B) Equilibrium is reached, where quantity demanded equals quantity supplied", "C) A market surplus is created", "D) The price is set at its absolute maximum"], "correct_answer_raw": "B", "correct_index": 1, "explanation": "The point where the supply curve (S) and the demand curve (D) cross is called the equilibrium, which is the only price where quantity demanded is equal to quantity supplied.", "question_type": "multiple_choice", "target_concept": "market equilibrium", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}, {"index": 8, "id": "q_8", "question_text": "If the market price for gasoline is set at $1.80 per gallon when the equilibrium price is $1.40, what will happen in the market?", "options": ["A) There will be a shortage because consumers will buy more", "B) There will be a surplus (excess supply) because quantity supplied exceeds quantity demanded", "C) The market will remain in balance indefinitely", "D) Producers will immediately stop drilling for more oil"], "correct_answer_raw": "B", "correct_index": 1, "explanation": "At any above-equilibrium price, the quantity supplied exceeds the quantity demanded, which is called an excess supply or a surplus.", "question_type": "multiple_choice", "target_concept": "surplus", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}, {"index": 9, "id": "q_9", "question_text": "When a market experiences 'excess demand' or a 'shortage,' what typically happens to the price?", "options": ["A) The price falls to help producers sell their excess stock", "B) The price rises toward the equilibrium level", "C) The price remains frozen by law", "D) The price fluctuates randomly without direction"], "correct_answer_raw": "B", "correct_index": 1, "explanation": "When there is excess demand or a shortage, eager buyers and profit-seeking firms create pressure for the price to rise toward the equilibrium level.", "question_type": "multiple_choice", "target_concept": "shortage and price adjustment", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}, {"index": 10, "id": "q_10", "question_text": "Why would an individual who wants a car but cannot afford to pay for it have 'no effective demand' according to economists?", "options": ["A) Because economists do not care about human needs", "B) Because demand is based on both the want and the ability to pay", "C) Because the individual hasn't looked at enough car models yet", "D) Because there are too many cars currently in the market"], "correct_answer_raw": "B", "correct_index": 1, "explanation": "Demand is based on the ability to pay; if a consumer cannot pay for a good, they have no effective demand for it.", "question_type": "multiple_choice", "target_concept": "effective demand", "difficulty": "", "image_grounded": false, "reasoning_type": "", "image_uri": ""}];
-  const HIDE_SCORE = true;
+  const SHOW_SCORE = false;
+  const UPLOAD_URL = "https://script.google.com/macros/s/AKfycbzfO0Ndr9C1t5YDpda7_wSOkVKprgZvMtZUoEACSOcBiWskbIqwQHFrSUuvMt_G0Pw/exec";
   let current = 0, selected = null, submitted = false, qStartMs = Date.now();
   const results = [];
 
@@ -103,6 +108,8 @@
         resultsScreen = document.getElementById('results-screen'),
         showExpCb = document.getElementById('show-explanation'),
         showValCb = document.getElementById('show-validation'),
+        usernamePanel = document.getElementById('username-panel'),
+        usernameInput = document.getElementById('username-input'),
         downloadBtn = document.getElementById('download-btn');
 
   function renderQuestion(idx) {
@@ -163,6 +170,7 @@
       time_spent_s: parseFloat(((Date.now() - qStartMs) / 1000).toFixed(2))
     });
 
+    // Only highlight if the "Show validation" toggle is checked
     if (showValCb.checked) {
       Array.from(optionsList.children).forEach((btn, i) => {
         btn.style.outline = '';
@@ -195,23 +203,58 @@
     questionCard.classList.add('hidden');
     resultsScreen.classList.remove('hidden');
     const score = results.filter(r => r.is_correct).length;
-    document.getElementById('score-text').textContent = `Score: ${score} / ${results.length}`;
+    document.getElementById('score-text').textContent = SHOW_SCORE ? `Score: ${score} / ${results.length}` : '';
+    if (UPLOAD_URL) {
+      usernamePanel.classList.remove('hidden');
+      usernameInput.focus();
+    }
+  }
 
-    const tbody = document.getElementById('results-table');
-    results.forEach((r, i) => {
-      const tr = document.createElement('tr');
-      tr.className = 'border-b border-slate-100';
-      tr.innerHTML = `
-        <td class="py-2 pr-4 text-slate-400">${i + 1}</td>
-        <td class="py-2 pr-4 text-slate-700">${escHtml(QUESTIONS[i].question_text.slice(0,50))}...</td>
-        <td class="py-2 pr-4 text-slate-600">${escHtml(QUESTIONS[i].options[r.selected_index])}</td>
-        <td class="py-2 pr-4 font-semibold ${HIDE_SCORE ? 'hidden' : ''} ${r.is_correct ? 'text-emerald-600' : 'text-red-500'}">
-          ${r.is_correct ? '✓' : '✗'}
-        </td>
-        <td class="py-2 text-slate-500">${r.time_spent_s}</td>
-      `;
-      tbody.appendChild(tr);
+  function downloadResults() {
+    const blob = new Blob([JSON.stringify(results, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'quiz_results.json';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  function uploadResults() {
+    if (!UPLOAD_URL) return Promise.reject(new Error('No upload URL configured'));
+    const username = usernameInput.value.trim() || 'Anonymous';
+    // Use no-cors mode for Google Apps Script endpoints that expect simple POSTs
+    return fetch(UPLOAD_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      cache: 'no-cache',
+      headers: { 'Content-Type': 'text/plain' },
+      body: JSON.stringify({
+        username: username,
+        results: results,
+      })
     });
+  }
+
+  // Wire the download/upload button depending on configuration
+  if (UPLOAD_URL) {
+    downloadBtn.textContent = '⬆ Upload Results (Google Sheets)';
+    downloadBtn.onclick = () => {
+      if (!usernameInput.value.trim()) {
+        usernameInput.focus();
+        usernameInput.placeholder = 'Please enter your name first';
+        return;
+      }
+      downloadBtn.disabled = true;
+      downloadBtn.textContent = 'Uploading...';
+      uploadResults()
+        .then(() => { downloadBtn.textContent = 'Uploaded ✓'; })
+        .catch(err => { console.error('Upload error:', err); downloadBtn.textContent = 'Upload Failed'; })
+        .finally(() => { setTimeout(() => { downloadBtn.disabled = false; downloadBtn.textContent = '⬆ Upload Results (Google Sheets)'; }, 2000); });
+    };
+  } else {
+    downloadBtn.onclick = downloadResults;
   }
 
   function escHtml(str) { return String(str).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m]); }

@@ -415,4 +415,36 @@ outputs/
 * Avoid building a simple pipeline without structure
 * Ensure reproducibility with clear prompts and intermediate outputs
 
+## 9. User Study Guide
+
+### Pre-test
+
+Use one of the following topic files:
+
+* `eco.json`
+* `astronomy.json`
+* `neuroscience.json`
+
+```bash
+python scripts/visualize_questions.py --no_score --json_path post-test/{topic}.json --share
+```
+
+Example:
+
+```bash
+python scripts/visualize_questions.py --no_score --json_path post-test/eco.json --share
+```
+
+### Review-test
+
+```bash
+python scripts/visualize_questions.py --json_path outputs/20260426_000329_eco_12bf04/generation/questions.json --share
+```
+
+### Post-test
+
+```bash
+python scripts/visualize_questions.py --json_path post-test/{topic}.json --share
+```
+
 ---

@@ -10,3 +10,4 @@ __plans__
 outputs/
 .DS_Store
 post-test/index.html
+*.html

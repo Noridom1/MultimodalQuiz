@@ -1,24 +1,72 @@
 from __future__ import annotations
 
+import os
 import argparse
 import base64
 import json
 import mimetypes
 import sys
 import webbrowser
+import http.server
+import socketserver
+import threading
 from pathlib import Path
 from typing import Any
+import time
+from pyngrok import ngrok
+from dotenv import load_dotenv
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
+    
+# ---------------------------------------------------------------------------
+# Serving and Tunneling
+# ---------------------------------------------------------------------------
+
+def serve_and_tunnel(file_to_serve: Path, port: int = 8000):
+    """Starts a local server and an ngrok tunnel."""
+    if not ngrok:
+        print("\n❌ Error: 'pyngrok' not installed. Run 'pip install pyngrok'.")
+        return
+
+    # 1. Start Local HTTP Server in a background thread
+    # Note: SimpleHTTPRequestHandler serves the current directory
+    directory = file_to_serve.parent
+    
+    class QuizHandler(http.server.SimpleHTTPRequestHandler):
+        def __init__(self, *args, **kwargs):
+            super().__init__(*args, directory=str(directory), **kwargs)
+
+    httpd = socketserver.TCPServer(("", port), QuizHandler)
+    server_thread = threading.Thread(target=httpd.serve_forever, daemon=True)
+    server_thread.start()
+
+    try:
+        # 2. Open ngrok tunnel
+        public_url = ngrok.connect(port).public_url
+        print("\n" + "="*50)
+        print(f"🚀 QUIZ IS LIVE!")
+        print(f"Local URL:  http://localhost:{port}/{file_to_serve.name}")
+        print(f"Public URL: {public_url}/{file_to_serve.name}")
+        print("="*50)
+        print("\nShare the Public URL with your study participants.")
+        print("Press Ctrl+C to stop the server and close the tunnel.")
+        
+        webbrowser.open(f"{public_url}/{file_to_serve.name}")
+
+        # Keep the main thread alive
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("\n🛑 Shutting down server...")
+        ngrok.kill()
+        httpd.shutdown()
 
 
 # ---------------------------------------------------------------------------
 # Data helpers
 # ---------------------------------------------------------------------------
-
-QUIZ_UPLOAD_URL="https://script.google.com/macros/s/AKfycbzfO0Ndr9C1t5YDpda7_wSOkVKprgZvMtZUoEACSOcBiWskbIqwQHFrSUuvMt_G0Pw/exec"
 
 def read_json(path: Path) -> Any:
     with path.open("r", encoding="utf-8") as fh:
@@ -439,6 +487,7 @@ def build_html(
 # ---------------------------------------------------------------------------
 
 def main() -> None:
+    load_dotenv() 
     parser = argparse.ArgumentParser(
         description="Generate a standalone interactive quiz HTML from a questions.json file.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
@@ -469,7 +518,7 @@ def main() -> None:
     parser.add_argument(
         "--upload_url",
         type=str,
-        default=QUIZ_UPLOAD_URL,
+        default=os.getenv("GG_SHEET_URL"),
         help="Optional URL (e.g. Google Apps Script) to POST results to instead of downloading.",
     )
     parser.add_argument(
@@ -477,7 +526,16 @@ def main() -> None:
         action="store_true",
         help="Open the generated HTML in the default browser.",
     )
+    parser.add_argument(
+        "--share", action="store_true", help="Start an ngrok tunnel for a live user study.",
+    )
+    parser.add_argument(
+        "--port", type=int, default=8000, help="Port for the local server.",
+    )
     args = parser.parse_args()
+
+    if args.share:
+        ngrok.set_auth_token(os.getenv("NGROK_API_KEY"))
 
     json_path: Path = args.json_path.resolve()
     if not json_path.exists():
@@ -498,7 +556,9 @@ def main() -> None:
     out.write_text(html, encoding="utf-8")
 
     print(f"✓ Wrote interactive quiz ({len(records)} questions) → {out}")
-    if args.open:
+    if args.share:
+        serve_and_tunnel(out, args.port)
+    elif args.open:
         webbrowser.open(out.as_uri())
 
 
