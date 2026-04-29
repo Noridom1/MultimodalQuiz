@@ -2,6 +2,8 @@ python .\src\knowledge\kg_builder.py .\data\processed\book-riscv-rev5-chap8\hybr
 
 python scripts/visualize_questions.py --json_path outputs/20260426_000329_eco_12bf04/generation/questions.json --open
 
-python scripts/visualize_questions.py --json_path post-test/eco.json --open
-python scripts/visualize_questions.py --json_path post-test/eco.json --no_score --open
 python scripts/visualize_questions.py --no_score --json_path post-test/eco.json --share
+
+python scripts/run_pipeline.py data/raw/astronomy.pdf
+python scripts/run_pipeline.py data/raw/economics.pdf
+python scripts/run_pipeline.py data/raw/Behavioral_Neuroscience.pdf

@@ -1,4 +1,11 @@
-data/
+data/*
+!data/raw/
+
+# 2. Ignore mọi thứ trong raw nhưng chừa lại các file PDF cụ thể
+data/raw/*
+!data/raw/economics.pdf
+!data/raw/astronomy.pdf
+!data/raw/Behavioral_Neuroscience.pdf
 venv/
 env/
 __pycache__/
