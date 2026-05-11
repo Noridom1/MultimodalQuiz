@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "";
+export const API_BASE = import.meta.env.VITE_API_BASE_URL || "";
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE}${path}`, options);
@@ -7,6 +7,43 @@ async function request(path, options = {}) {
     throw new Error(error.detail || "Request failed");
   }
   return response.json();
+}
+
+async function requestBlob(path, options = {}) {
+  const response = await fetch(`${API_BASE}${path}`, options);
+  if (!response.ok) {
+    const error = await response.json().catch(() => ({ detail: "Request failed" }));
+    throw new Error(error.detail || "Request failed");
+  }
+  return {
+    blob: await response.blob(),
+    filename: getFilenameFromDisposition(response.headers.get("content-disposition")),
+  };
+}
+
+function getFilenameFromDisposition(disposition) {
+  const value = String(disposition || "");
+  const utf8Match = value.match(/filename\*=UTF-8''([^;]+)/i);
+  if (utf8Match?.[1]) {
+    return decodeURIComponent(utf8Match[1]);
+  }
+  const quotedMatch = value.match(/filename="([^"]+)"/i);
+  if (quotedMatch?.[1]) {
+    return quotedMatch[1];
+  }
+  const plainMatch = value.match(/filename=([^;]+)/i);
+  return plainMatch?.[1]?.trim() || "";
+}
+
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename || "quiz-export.zip";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
 }
 
 export const api = {
@@ -19,6 +56,26 @@ export const api = {
       body: JSON.stringify(payload),
     }),
   getNotebook: (notebookId) => request(`/api/notebooks/${notebookId}`),
+  patchNotebook: (notebookId, payload) =>
+    request(`/api/notebooks/${notebookId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    }),
+  patchRun: (notebookId, runId, payload) =>
+    request(`/api/notebooks/${notebookId}/runs/${runId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    }),
+  deleteRun: (notebookId, runId) =>
+    request(`/api/notebooks/${notebookId}/runs/${runId}`, {
+      method: "DELETE",
+    }),
+  exportRun: async (notebookId, runId) => {
+    const { blob, filename } = await requestBlob(`/api/notebooks/${notebookId}/runs/${runId}/export`);
+    downloadBlob(blob, filename);
+  },
   uploadSource: (notebookId, { file, title }) => {
     const formData = new FormData();
     formData.append("file", file);

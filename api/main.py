@@ -4,7 +4,7 @@ from pathlib import Path
 
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -20,6 +20,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["Content-Disposition"],
 )
 
 repo = NotebookRepository(settings)
@@ -42,6 +43,14 @@ class GenerateQuizRequest(BaseModel):
     mock_question: bool = False
 
 
+class NotebookPatchRequest(BaseModel):
+    title: str | None = Field(default=None, min_length=1, max_length=120)
+
+
+class RunPatchRequest(BaseModel):
+    title: str = Field(min_length=1, max_length=200)
+
+
 @app.get("/api/health")
 def healthcheck() -> dict[str, object]:
     return {"ok": True, "supabase_enabled": settings.supabase_enabled}
@@ -60,6 +69,11 @@ def create_notebook(payload: NotebookCreateRequest) -> dict[str, object]:
 @app.get("/api/notebooks/{notebook_id}")
 def get_notebook(notebook_id: str) -> dict[str, object]:
     return service.get_workspace(notebook_id)
+
+
+@app.patch("/api/notebooks/{notebook_id}")
+def patch_notebook(notebook_id: str, payload: NotebookPatchRequest) -> dict[str, object]:
+    return service.patch_notebook(notebook_id, title=payload.title)
 
 
 @app.post("/api/notebooks/{notebook_id}/sources")
@@ -84,6 +98,27 @@ def generate_quiz(notebook_id: str, payload: GenerateQuizRequest) -> dict[str, o
         num_questions=payload.num_questions,
         mock_image=payload.mock_image,
         mock_question=payload.mock_question,
+    )
+
+
+@app.patch("/api/notebooks/{notebook_id}/runs/{run_id}")
+def patch_run(notebook_id: str, run_id: str, payload: RunPatchRequest) -> dict[str, object]:
+    return service.rename_run(notebook_id, run_id, payload.title)
+
+
+@app.delete("/api/notebooks/{notebook_id}/runs/{run_id}")
+def delete_run(notebook_id: str, run_id: str) -> dict[str, bool]:
+    service.delete_notebook_run(notebook_id, run_id)
+    return {"ok": True}
+
+
+@app.get("/api/notebooks/{notebook_id}/runs/{run_id}/export")
+def export_run(notebook_id: str, run_id: str) -> Response:
+    payload, filename = service.export_run_zip(notebook_id, run_id)
+    return Response(
+        content=payload,
+        media_type="application/zip",
+        headers={"Content-Disposition": f'attachment; filename="{filename}"'},
     )
 
 

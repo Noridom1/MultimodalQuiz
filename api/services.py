@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import io
 import json
 import mimetypes
 import re
+import zipfile
 from pathlib import Path
 from typing import Any
+from urllib.parse import unquote, urlparse
 
 from fastapi import HTTPException, UploadFile
 
@@ -206,6 +209,109 @@ class NotebookService:
             )
             raise HTTPException(status_code=500, detail=str(exc)) from exc
 
+    def patch_notebook(self, notebook_id: str, *, title: str | None) -> dict[str, Any]:
+        notebook = self.repo.get_notebook(notebook_id)
+        if not notebook:
+            raise HTTPException(status_code=404, detail="Notebook not found")
+        patch: dict[str, Any] = {}
+        if title is not None:
+            cleaned = title.strip()
+            if not cleaned:
+                raise HTTPException(status_code=400, detail="Title cannot be empty")
+            patch["title"] = cleaned
+        if not patch:
+            raise HTTPException(status_code=400, detail="No updates provided")
+        updated = self.repo.update_notebook(notebook_id, patch)
+        if not updated:
+            raise HTTPException(status_code=404, detail="Notebook not found")
+        return updated
+
+    def rename_run(self, notebook_id: str, run_id: str, title: str) -> dict[str, Any]:
+        run = self.repo.get_run_by_run_id(run_id)
+        if not run or run.get("notebook_id") != notebook_id:
+            raise HTTPException(status_code=404, detail="Run not found")
+        cleaned = title.strip()
+        if not cleaned:
+            raise HTTPException(status_code=400, detail="Title cannot be empty")
+        summary = run.get("summary") or {}
+        if isinstance(summary, str):
+            try:
+                summary = json.loads(summary)
+            except json.JSONDecodeError:
+                summary = {}
+        if not isinstance(summary, dict):
+            summary = {}
+        summary = {**summary, "title": cleaned}
+        updated = self.repo.update_run(run_id, {"title": cleaned, "summary": summary})
+        if not updated:
+            raise HTTPException(status_code=404, detail="Run not found")
+        hydrated = self._hydrate_run(updated)
+        if not hydrated:
+            raise HTTPException(status_code=404, detail="Run not found")
+        return hydrated
+
+    def delete_notebook_run(self, notebook_id: str, run_id: str) -> None:
+        run = self.repo.get_run_by_run_id(run_id)
+        if not run or run.get("notebook_id") != notebook_id:
+            raise HTTPException(status_code=404, detail="Run not found")
+        self.repo.delete_run(run_id)
+
+    def export_run_zip(self, notebook_id: str, run_id: str) -> tuple[bytes, str]:
+        run = self._hydrate_run(self.repo.get_run_by_run_id(run_id))
+        if not run or run.get("notebook_id") != notebook_id:
+            raise HTTPException(status_code=404, detail="Run not found")
+        if run.get("status") != "completed":
+            raise HTTPException(status_code=400, detail="Only completed quizzes can be exported")
+
+        summary = run.get("summary") or {}
+        results = summary.get("results") or []
+        if not isinstance(results, list) or not results:
+            raise HTTPException(status_code=400, detail="Run has no quiz questions to export")
+
+        run_root = self._run_root_from_manifest(run.get("manifest") or {}, run_id)
+        questions: list[dict[str, Any]] = []
+        zip_buffer = io.BytesIO()
+        used_image_names: set[str] = set()
+
+        with zipfile.ZipFile(zip_buffer, mode="w", compression=zipfile.ZIP_DEFLATED) as archive:
+            for ordinal, item in enumerate(results, start=1):
+                if not isinstance(item, dict):
+                    continue
+                image_entry = ""
+                image_path = self._resolve_export_image_path(item.get("image_url", ""), run_root)
+                if image_path:
+                    image_entry = self._export_image_name(ordinal, image_path.name, used_image_names)
+                    archive.write(image_path, f"quiz-export/{image_entry}")
+
+                questions.append(
+                    {
+                        "index": item.get("index", ordinal),
+                        "question_text": item.get("question_text", ""),
+                        "options": item.get("options", []) if isinstance(item.get("options"), list) else [],
+                        "correct_answer": item.get("correct_answer", ""),
+                        "explanation": item.get("explanation", ""),
+                        "difficulty": item.get("difficulty", ""),
+                        "target_concept": item.get("target_concept", ""),
+                        "image": image_entry,
+                    }
+                )
+
+            payload = {
+                "schema_version": 1,
+                "run_id": run.get("run_id", run_id),
+                "title": summary.get("title") or run.get("title") or "Untitled quiz",
+                "question_count": len(questions),
+                "concepts": summary.get("concepts", []) if isinstance(summary.get("concepts"), list) else [],
+                "questions": questions,
+            }
+            archive.writestr(
+                "quiz-export/quiz.json",
+                json.dumps(payload, indent=2, ensure_ascii=False),
+            )
+
+        filename = f"{self._slugify(str(payload['title'])) or self._slugify(run_id)}.zip"
+        return zip_buffer.getvalue(), filename
+
     def _build_run_summary(self, notebook_id: str, result: dict[str, Any]) -> dict[str, Any]:
         run_root = Path(result["run_root"])
         quiz_package_path = run_root / "generation" / "quiz_package.json"
@@ -347,6 +453,70 @@ class NotebookService:
     def _artifact_url(self, path: Path) -> str:
         relative = path.resolve().relative_to(self.settings.project_root.resolve()).as_posix()
         return f"/api/artifacts/{relative}"
+
+    def _run_root_from_manifest(self, manifest: dict[str, Any], run_id: str) -> Path:
+        raw_output_root = manifest.get("output_root") if isinstance(manifest, dict) else ""
+        if isinstance(raw_output_root, str) and raw_output_root:
+            candidate = self._safe_project_path(raw_output_root)
+            if candidate and candidate.exists():
+                return candidate
+        return self.settings.output_root / run_id
+
+    def _resolve_export_image_path(self, image_url: Any, run_root: Path) -> Path | None:
+        raw = str(image_url or "").strip()
+        if not raw:
+            return None
+
+        candidates: list[Path] = []
+        parsed = urlparse(raw)
+        if raw.startswith("/api/artifacts/"):
+            artifact_path = unquote(raw.removeprefix("/api/artifacts/"))
+            artifact_candidate = self._safe_project_path(artifact_path)
+            if artifact_candidate:
+                candidates.append(artifact_candidate)
+        elif parsed.scheme in {"http", "https"}:
+            filename = Path(unquote(parsed.path)).name
+            if filename:
+                candidates.append(run_root / "generation" / "images" / filename)
+        else:
+            normalized = unquote(raw).replace("\\", "/").lstrip("/")
+            candidates.append(run_root / normalized)
+            if Path(normalized).name:
+                candidates.append(run_root / "generation" / "images" / Path(normalized).name)
+
+        project_root = self.settings.project_root.resolve()
+        for candidate in candidates:
+            try:
+                resolved = candidate.resolve()
+            except OSError:
+                continue
+            if project_root not in resolved.parents and resolved != project_root:
+                continue
+            if resolved.is_file():
+                return resolved
+        return None
+
+    def _safe_project_path(self, value: str) -> Path | None:
+        try:
+            candidate = (self.settings.project_root / value).resolve()
+            project_root = self.settings.project_root.resolve()
+        except OSError:
+            return None
+        if project_root not in candidate.parents and candidate != project_root:
+            return None
+        return candidate
+
+    def _export_image_name(self, ordinal: int, filename: str, used_names: set[str]) -> str:
+        source_name = self._slugify(Path(filename).stem or f"image-{ordinal}")
+        suffix = Path(filename).suffix.lower() or ".png"
+        base_name = f"q{ordinal}_{source_name}{suffix}"
+        name = f"images/{base_name}"
+        counter = 2
+        while name in used_names:
+            name = f"images/q{ordinal}_{source_name}_{counter}{suffix}"
+            counter += 1
+        used_names.add(name)
+        return name
 
     def _slugify(self, value: str) -> str:
         cleaned = re.sub(r"[^a-zA-Z0-9._-]+", "-", value).strip("-").lower()

@@ -93,6 +93,17 @@ npm install
 npm run dev
 ```
 
+### Frontend environment (Supabase Auth)
+
+The login and sign-up pages (`/login`, `/signup`) use the Supabase JavaScript client. Create `frontend/.env` (or `.env.local`) with:
+
+```env
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_public_key
+```
+
+Use the **anon** key from the Supabase dashboard (not the service role). Enable the Google, Apple, and Facebook providers under Authentication if you use those buttons.
+
 Open:
 
 ```text

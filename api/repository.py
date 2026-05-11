@@ -114,6 +114,9 @@ class NotebookRepository:
         rows = self._update("notebook_runs", filters={"run_id": run_id}, payload=patch)
         return rows[0] if rows else None
 
+    def delete_run(self, run_id: str) -> None:
+        self._delete("notebook_runs", filters={"run_id": run_id})
+
     def upload_blob(self, storage_path: str, payload: bytes, content_type: str) -> str:
         if self.is_remote:
             url = f"{self.settings.supabase_url}/storage/v1/object/{self.settings.supabase_bucket}/{storage_path}"
@@ -215,6 +218,22 @@ class NotebookRepository:
                 updated.append(items[index])
         self._write_local(table, items)
         return updated
+
+    def _delete(self, table: str, *, filters: dict[str, Any]) -> None:
+        if self.is_remote:
+            params = {key: f"eq.{value}" for key, value in filters.items()}
+            response = requests.delete(
+                f"{self.settings.supabase_url}/rest/v1/{table}",
+                headers=self._rest_headers(),
+                params=params,
+                timeout=30,
+            )
+            response.raise_for_status()
+            return
+
+        items = self._read_local(table)
+        remaining = [item for item in items if not all(item.get(key) == value for key, value in filters.items())]
+        self._write_local(table, remaining)
 
     def _read_local(self, table: str) -> list[dict[str, Any]]:
         path = self._local_files[self._normalize_local_table(table)]
