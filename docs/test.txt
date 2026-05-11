@@ -1,0 +1,23 @@
+\subsection{Quiz Planning}
+The planning phase strategically determines the conceptual focus of the assessment prior to content generation. This decoupling prevents pedagogical redundancy and ensures systematic, comprehensive coverage of the source material's taxonomy.
+
+\subsubsection{Topic Identification and Context Retrieval}
+The initial phase utilizes a \textit{Topic-Driven Agentic Planner} to systematically traverse high-level concept nodes (topics) within the Multimodal Document Graph. For each identified topic, a dedicated \textit{Context Retriever} executes a targeted graph traversal to aggregate three key elements: associated sub-concepts grouped under the topic, textual evidence chunks that supply foundational facts, and linked visual assets necessary for multimodal assessment.
+
+\subsubsection{Resource Allocation and Budgeting}
+To optimally manage the distribution of questions across diverse topics, the planner computes a proportional allocation budget. By employing a greedy allocation strategy, the system prioritizes topics exhibiting the highest density of unique, unexplored concepts. This mechanism ensures maximal breadth of coverage across the document's knowledge base while strictly adhering to user-defined constraints regarding total question volume and difficulty distribution (e.g., maintaining a ratio of 40\% easy, 40\% medium, and 20\% hard items).
+
+\subsubsection{Question Schema Planning}
+For each allocated question slot, the planner queries a Large Language Model (LLM) agent to generate a structured \textit{Question Plan}. This plan serves as a metadata-rich specification detailing the target concept, the required reasoning modality (e.g., factoid, causal, or multi-hop), and the functional role of any associated imagery (differentiating between strictly illustrative visuals and those mandatory for reasoning). Crucially, the plan maps the proposed question to a specific \texttt{tested\_fact\_block\_id}, establishing rigorous traceability back to the source document.
+
+\subsection{Grounded Content Generation}
+The generation phase translates the abstract schema plans into concrete, validated assessment items. This process is managed by a \textit{Generation Orchestrator}, which synchronizes the parallel synthesis of textual and visual components.
+
+\subsubsection{Multimodal Prompt Engineering}
+Initially, a \textit{Prompt Builder} synthesizes the Question Plan and the retrieved graph context into explicit generation instructions. For visual components, it formulates an image prompt derived from the plan's specifications or selects an optimal pre-existing asset. Concurrently, the textual prompt encapsulates the extracted knowledge context and enforces strict formatting constraints, mandating explicit citation of the \texttt{tested\_fact\_block\_id} within the generated explanation.
+
+\subsubsection{Grounded LLM Generation}
+The \textit{LLM Question Generator} processes these synthesized prompts to output JSON-formatted assessment items. A critical feature of this stage is the \textit{Image Grounding Constraint}: when a question plan dictates image-based reasoning, the generation model is explicitly instructed to reference concrete visual cues (e.g., specific labels, spatial relationships, or directional indicators), ensuring robust multimodal alignment and preventing the generation of pseudo-multimodal questions that could be answered via text alone.
+
+\subsubsection{Verification and Self-Correction}
+To guarantee high-fidelity outputs, the generation pipeline integrates a closed-loop verification mechanism. Should the initial generated output fail schema validation or exhibit insufficient contextual grounding, the system triggers an autonomous self-correction cycle. An automated repair prompt---detailing the specific validation errors alongside the prior invalid attempt---is fed back to the LLM agent. This allows the system to iteratively refine the question until all structural and pedagogical criteria are completely satisfied.

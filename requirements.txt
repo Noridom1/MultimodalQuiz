@@ -13,3 +13,6 @@ langchain-openai
 langchain-mistralai
 python-dotenv
 google-genai
+fastapi
+uvicorn
+python-multipart

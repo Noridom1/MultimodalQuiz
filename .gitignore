@@ -18,3 +18,10 @@ outputs/
 .DS_Store
 post-test/index.html
 *.html
+node_modules/
+apps/
+backend/
+web/
+frontend/dist/
+.localdata/
+data/uploads/
