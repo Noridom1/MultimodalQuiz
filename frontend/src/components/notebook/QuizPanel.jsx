@@ -119,10 +119,19 @@ function formatQuizTitle(run) {
     .trim();
 }
 
+function findFirstReviewQuestionIndex(quizResults, selectedAnswers) {
+  for (let i = 0; i < quizResults.length; i++) {
+    const item = quizResults[i];
+    if (!isAnswerProvided(item, selectedAnswers[i])) return i;
+    if (!isAnswerCorrect(item, selectedAnswers[i])) return i;
+  }
+  return 0;
+}
+
 function QuizScoreRing({ correct, total }) {
   const gradId = `quizRingGrad-${useId().replace(/:/g, "")}`;
-  const r = 46;
-  const stroke = 8;
+  const r = 58;
+  const stroke = 10;
   const c = 2 * Math.PI * r;
   const fraction = total > 0 ? correct / total : 0;
   const dash = c * fraction;
@@ -132,13 +141,15 @@ function QuizScoreRing({ correct, total }) {
   return (
     <div className="quiz-score-ring" aria-hidden>
       <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} className="quiz-score-ring-svg">
+        <defs>
+          <linearGradient id={gradId} x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#c4b5fd" />
+            <stop offset="45%" stopColor="#8b5cf6" />
+            <stop offset="100%" stopColor="#5b21b6" />
+          </linearGradient>
+        </defs>
         <g transform={`translate(${size / 2} ${size / 2}) rotate(-90)`}>
-          <circle
-            r={r}
-            fill="none"
-            stroke="rgba(255,255,255,0.08)"
-            strokeWidth={stroke}
-          />
+          <circle className="quiz-score-ring-track" r={r} fill="none" strokeWidth={stroke} />
           <circle
             r={r}
             fill="none"
@@ -148,12 +159,6 @@ function QuizScoreRing({ correct, total }) {
             strokeDasharray={`${dash} ${c}`}
           />
         </g>
-        <defs>
-          <linearGradient id={gradId} x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#8b93ff" />
-            <stop offset="100%" stopColor="#5fb38a" />
-          </linearGradient>
-        </defs>
       </svg>
       <div className="quiz-score-ring-label">
         <strong>{correct}/{total}</strong>
@@ -484,26 +489,40 @@ function QuizPanel({
             {resultsOpen ? (
               <div className="quiz-player-scroll">
                 <div className="quiz-results-card quiz-results-card--summary">
-                  <h2 className="quiz-results-hero">You did it! Quiz complete.</h2>
-                  <div className="quiz-results-layout">
+                  <header className="quiz-results-celebrate">
+                    <span className="quiz-results-badge">Quiz complete</span>
+                    <h2 className="quiz-results-hero">You did it!</h2>
+                  </header>
+
+                  <div className="quiz-results-ring-wrap">
                     <QuizScoreRing correct={resultStats.correct} total={resultStats.total} />
-                    <dl className="quiz-results-breakdown">
-                      <div className="quiz-results-breakdown-row">
-                        <dt>Correct</dt>
-                        <dd className="quiz-results-breakdown-value correct">{resultStats.correct}</dd>
-                      </div>
-                      <div className="quiz-results-breakdown-row">
-                        <dt>Wrong</dt>
-                        <dd className="quiz-results-breakdown-value">{resultStats.wrong}</dd>
-                      </div>
-                      <div className="quiz-results-breakdown-row">
-                        <dt>Unanswered</dt>
-                        <dd className="quiz-results-breakdown-value muted">{resultStats.unanswered}</dd>
-                      </div>
-                    </dl>
                   </div>
-                  <p className="quiz-results-sub">Tap a question number to review.</p>
-                  <div className="quiz-question-nav compact-nav">
+
+                  <div className="quiz-results-stats" role="list">
+                    <div className="quiz-results-stat-card quiz-results-stat-card--correct" role="listitem">
+                      <span className="quiz-results-stat-label">Correct</span>
+                      <span className="quiz-results-stat-value" aria-label={`${resultStats.correct} correct`}>
+                        {resultStats.correct}
+                      </span>
+                    </div>
+                    <div className="quiz-results-stat-card quiz-results-stat-card--wrong" role="listitem">
+                      <span className="quiz-results-stat-label">Wrong</span>
+                      <span className="quiz-results-stat-value" aria-label={`${resultStats.wrong} wrong`}>
+                        {resultStats.wrong}
+                      </span>
+                    </div>
+                    <div className="quiz-results-stat-card quiz-results-stat-card--unanswered" role="listitem">
+                      <span className="quiz-results-stat-label">Unanswered</span>
+                      <span className="quiz-results-stat-value" aria-label={`${resultStats.unanswered} unanswered`}>
+                        {resultStats.unanswered}
+                      </span>
+                    </div>
+                  </div>
+
+                  <p className="quiz-results-sub">
+                    Tap a question number to review, or use the actions below.
+                  </p>
+                  <div className="quiz-question-nav compact-nav quiz-results-question-nav">
                     {quizResults.map((item, index) => {
                       let dotClass = "question-nav-dot";
                       if (!isAnswerProvided(item, selectedAnswers[index])) {
@@ -531,14 +550,25 @@ function QuizPanel({
                   <div className="quiz-results-actions">
                     <button
                       type="button"
-                      className="ghost-pill"
+                      className="quiz-results-btn-outline"
+                      onClick={() => {
+                        const idx = findFirstReviewQuestionIndex(quizResults, selectedAnswers);
+                        setResultsOpen(false);
+                        setActiveQuestionIndex(idx);
+                      }}
+                    >
+                      Review answers
+                    </button>
+                    <button type="button" className="primary-pill" onClick={() => onRedoQuiz()}>
+                      Retry quiz
+                    </button>
+                    <button
+                      type="button"
+                      className="ghost-pill quiz-results-btn-ghost"
                       onClick={() => onRequestExport(selectedRun.run_id)}
                     >
                       <Download size={16} />
                       Export…
-                    </button>
-                    <button type="button" className="primary-pill" onClick={() => onRedoQuiz()}>
-                      Redo quiz
                     </button>
                   </div>
                 </div>
