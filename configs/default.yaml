@@ -7,3 +7,6 @@ pipeline:
     easy: 0.3
     medium: 0.5
     hard: 0.2
+  # Optional: weights over multiple_choice | true_false | fill_in_blank | matching (sums to 1.0)
+  question_format_distribution:
+    multiple_choice: 1.0

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import json
 import os
 import logging
 from dataclasses import asdict, dataclass
@@ -18,6 +19,11 @@ from src.document_understanding.parser import parse_document
 from src.generator.orchestrator import GenerationOrchestrator
 from src.knowledge.kg_builder import build_knowledge_graph_workflow, export_graph_bundle
 from src.planner.planner import QuizPlanner
+from src.question_formats import (
+    QuestionFormatProfile,
+    coerce_format_profile,
+    load_format_profile_from_pipeline_config,
+)
 from src.planner.topic_planner import TopicAgenticPlanner
 from src.utils.io import append_jsonl, relative_path, write_json
 
@@ -34,6 +40,28 @@ DEFAULT_DIFFICULTY_DISTRIBUTION = {
     "medium": 0.4,
     "hard": 0.2,
 }
+
+
+def _resolve_question_format_profile(
+    explicit: QuestionFormatProfile | dict[str, float] | str | None,
+    project_root: Path,
+) -> QuestionFormatProfile:
+    if explicit is not None:
+        return coerce_format_profile(explicit)
+    cfg_path = project_root / "configs" / "default.yaml"
+    if cfg_path.exists():
+        try:
+            import yaml
+
+            with open(cfg_path, encoding="utf-8") as f:
+                data = yaml.safe_load(f) or {}
+            pipe = data.get("pipeline") or {}
+            loaded = load_format_profile_from_pipeline_config(pipe)
+            if loaded is not None:
+                return loaded
+        except Exception:
+            logger.exception("Failed to load question_format_distribution from default.yaml")
+    return coerce_format_profile(None)
 
 
 def _empty_extracted_payload() -> dict[str, object]:
@@ -143,6 +171,7 @@ class QuizGenerationPipeline:
         mock_image: bool = False,
         mock_question: bool = False,
         generation_mode: str = "topic_agentic",
+        question_format_profile: QuestionFormatProfile | dict[str, float] | str | None = None,
     ) -> dict[str, object]:
         """Run the quiz generation pipeline end-to-end.
         
@@ -156,6 +185,7 @@ class QuizGenerationPipeline:
             mock_image: If True, skip image generation.
             mock_question: If True, skip question generation.
             generation_mode: "topic_agentic" (default, new system) or "legacy" (old QuizPlanner).
+            question_format_profile: Distribution over question types; default MCQ-only or from configs/default.yaml.
             
         Returns:
             Pipeline result dict with artifacts and metadata.
@@ -179,6 +209,24 @@ class QuizGenerationPipeline:
             run_id=run_id,
         )
         effective_distribution = difficulty_distribution or DEFAULT_DIFFICULTY_DISTRIBUTION
+        resolved_format_profile = _resolve_question_format_profile(question_format_profile, PROJECT_ROOT)
+        # region agent log
+        with open("debug-c02dfd.log", "a", encoding="utf-8") as _f:
+            _f.write(json.dumps({
+                "sessionId": "c02dfd",
+                "runId": context.run_id,
+                "hypothesisId": "H3",
+                "location": "src/pipeline.py:212",
+                "message": "pipeline resolved format profile",
+                "data": {
+                    "requested_profile": question_format_profile,
+                    "resolved_distribution": dict(resolved_format_profile.distribution),
+                    "num_questions": num_questions,
+                    "generation_mode": generation_mode,
+                },
+                "timestamp": int(dt.datetime.utcnow().timestamp() * 1000),
+            }, ensure_ascii=False) + "\n")
+        # endregion
 
         extractor_backend = os.getenv("QUIZGEN_EXTRACTOR_BACKEND", "langchain")
         extractor_provider = os.getenv("QUIZGEN_LLM_PROVIDER", "openai")
@@ -194,6 +242,7 @@ class QuizGenerationPipeline:
             "Pipeline started",
             document_path=str(document_path),
             output_root=str(context.output_root),
+            question_format_distribution=dict(resolved_format_profile.distribution),
         )
 
         stage_status: dict[str, str] = {}
@@ -330,7 +379,30 @@ class QuizGenerationPipeline:
                 planner = QuizPlanner(knowledge_graph=document_graph)
                 logger.info("Using QuizPlanner (legacy deterministic generation)")
             
-            plans = planner.plan(num_questions=num_questions, difficulty_distribution=effective_distribution)
+            plans = planner.plan(
+                num_questions=num_questions,
+                difficulty_distribution=effective_distribution,
+                format_profile=resolved_format_profile,
+            )
+            # region agent log
+            _type_counts: dict[str, int] = {}
+            for _p in plans:
+                _qt = str(getattr(_p, "question_type", "") or "")
+                _type_counts[_qt] = _type_counts.get(_qt, 0) + 1
+            with open("debug-c02dfd.log", "a", encoding="utf-8") as _f:
+                _f.write(json.dumps({
+                    "sessionId": "c02dfd",
+                    "runId": context.run_id,
+                    "hypothesisId": "H4",
+                    "location": "src/pipeline.py:370",
+                    "message": "planner produced question type counts",
+                    "data": {
+                        "plan_count": len(plans),
+                        "type_counts": _type_counts,
+                    },
+                    "timestamp": int(dt.datetime.utcnow().timestamp() * 1000),
+                }, ensure_ascii=False) + "\n")
+            # endregion
             plan_path = context.planning_dir / "quiz_plan.json"
             planner.save_plan(plans, plan_path)
             artifacts["plan"] = relative_path(plan_path, PROJECT_ROOT)
@@ -342,6 +414,7 @@ class QuizGenerationPipeline:
                 "Quiz plan generated",
                 question_count=len(plans),
                 generation_mode=generation_mode,
+                question_format_distribution=dict(resolved_format_profile.distribution),
             )
 
             active_stage = "generate"
@@ -401,6 +474,7 @@ class QuizGenerationPipeline:
                     "html_graph": self.html_graph,
                     "mock_image": mock_image,
                     "mock_question": mock_question,
+                    "question_format_distribution": dict(resolved_format_profile.distribution),
                 },
             }
             write_json(context.manifest_path, manifest)

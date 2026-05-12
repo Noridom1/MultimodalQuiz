@@ -4,9 +4,97 @@ import json
 from typing import Callable, Optional, Dict, Any
 
 from src.planner.planner import QuestionPlan
+from src.question_formats import normalize_question_type
 
 class PromptBuilder:
     """Build image and question prompts from a question plan."""
+
+    @staticmethod
+    def _schema_and_constraints(
+        question_type: str,
+        *,
+        image_rule: str,
+    ) -> tuple[dict[str, object], list[str]]:
+        qt = normalize_question_type(question_type)
+        base_constraints = [
+            "Return ONLY valid JSON with no markdown fences.",
+            "Keep explanation concise and instructional (1-3 sentences).",
+            image_rule,
+        ]
+
+        if qt == "multiple_choice":
+            schema: dict[str, object] = {
+                "question_text": "string",
+                "options": ["string", "string", "string", "string"],
+                "correct_answer": "string",
+                "explanation": "string",
+            }
+            constraints = base_constraints + [
+                "Include exactly the keys shown in the schema.",
+                "Provide exactly 4 non-empty options.",
+                'Set correct_answer to the full correct option text or A/B/C/D.',
+            ]
+            return schema, constraints
+
+        if qt == "true_false":
+            schema = {
+                "question_text": "string",
+                "options": ["True", "False"],
+                "correct_answer": "string",
+                "explanation": "string",
+            }
+            constraints = base_constraints + [
+                "Include exactly the keys shown in the schema.",
+                "options must be exactly [\"True\", \"False\"] in that order.",
+                'correct_answer must be \"True\" or \"False\" (or match the option text).',
+                "Phrase question_text as a clear declarative statement to evaluate.",
+            ]
+            return schema, constraints
+
+        if qt == "fill_in_blank":
+            schema = {
+                "question_text": "string",
+                "options": [],
+                "correct_answer": "string",
+                "explanation": "string",
+            }
+            constraints = base_constraints + [
+                "Include exactly the keys shown in the schema.",
+                "question_text must contain ____ or {blank} where the learner fills in.",
+                "options must be an empty JSON array [].",
+                "correct_answer is the short text that belongs in the blank (one phrase).",
+            ]
+            return schema, constraints
+
+        if qt == "matching":
+            schema = {
+                "question_text": "string",
+                "options": [],
+                "correct_answer": "string",
+                "explanation": "string",
+                "matching_left": ["string"],
+                "matching_right": ["string"],
+                "matching_solution": [[0, 0]],
+            }
+            constraints = base_constraints + [
+                "Include exactly the keys shown in the schema.",
+                "matching_left and matching_right must be the same length (>= 2), same order as displayed.",
+                "matching_solution is a list of [left_index, right_index] pairs forming a perfect one-to-one match.",
+                "options must be an empty JSON array [].",
+                "correct_answer must briefly summarize the correct pairings in plain language.",
+            ]
+            return schema, constraints
+
+        schema = {
+            "question_text": "string",
+            "options": ["string"],
+            "correct_answer": "string",
+            "explanation": "string",
+        }
+        constraints = base_constraints + [
+            "Include the keys in the schema; adapt options length to the question style.",
+        ]
+        return schema, constraints
 
     @staticmethod
     def build_question_prompt(question_plan: QuestionPlan) -> str:
@@ -27,13 +115,6 @@ class PromptBuilder:
         else:
             context_str = str(context or "")
 
-        schema = {
-            "question_text": "string",
-            "options": ["string"],
-            "correct_answer": "string",
-            "explanation": "string",
-        }
-
         image_role = (question_plan.image_role or "illustrative").strip().lower()
         if image_role == "reasoning":
             image_rule = (
@@ -47,14 +128,10 @@ class PromptBuilder:
                 "The question should remain answerable without inspecting the image."
             )
 
-        constraints = [
-            "Return ONLY valid JSON with no markdown fences.",
-            "Do not include any keys beyond the required schema.",
-            "If question_type is multiple-choice, include 4 options.",
-            "Ensure correct_answer matches either the exact option text or option label (A/B/C/D).",
-            "Keep explanation concise and instructional (1-3 sentences).",
-            image_rule,
-        ]
+        schema, constraints = PromptBuilder._schema_and_constraints(
+            question_plan.question_type,
+            image_rule=image_rule,
+        )
 
         prompt_lines = [
             "You are generating one high-quality quiz question.",
@@ -72,6 +149,10 @@ class PromptBuilder:
         if question_plan.tested_fact_block_id:
             prompt_lines.append(f"Tested fact block ID: {question_plan.tested_fact_block_id}")
             prompt_lines.append("Cite this fact source in your explanation.")
+        mp = (question_plan.metadata or {}).get("matching_pairs")
+        if normalize_question_type(question_plan.question_type) == "matching" and isinstance(mp, list) and mp:
+            prompt_lines.append(f"Planner draft pairs (refine, do not contradict): {json.dumps(mp, ensure_ascii=True)}")
+
         if context_str.strip():
             prompt_lines.append("Knowledge context:")
             # Indent the context for readability

@@ -2,19 +2,50 @@
 
 from __future__ import annotations
 
+import datetime as dt
 import json
 import logging
+from collections import Counter
 from dataclasses import asdict
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any, Mapping, Optional
 
 from src.knowledge.retriever import TopicContextRetriever, calculate_topic_budget
 from src.knowledge.schema import MultimodalDocumentGraph, NodeKind
 from src.planner.planner import QuestionPlan
+from src.question_formats import (
+    QuestionFormatProfile,
+    coerce_format_profile,
+    normalize_question_type,
+)
 from src.planner.topic_prompt_templates import render_topic_plan_prompt
 from src.utils.llm import LLMClient
 
 logger = logging.getLogger(__name__)
+
+
+def _debug_log(*, run_id: str, hypothesis_id: str, location: str, message: str, data: dict[str, object]) -> None:
+    # region agent log
+    try:
+        with open("debug-c02dfd.log", "a", encoding="utf-8") as _f:
+            _f.write(
+                json.dumps(
+                    {
+                        "sessionId": "c02dfd",
+                        "runId": run_id,
+                        "hypothesisId": hypothesis_id,
+                        "location": location,
+                        "message": message,
+                        "data": data,
+                        "timestamp": int(dt.datetime.utcnow().timestamp() * 1000),
+                    },
+                    ensure_ascii=False,
+                )
+                + "\n"
+            )
+    except OSError:
+        pass
+    # endregion
 
 
 class TopicAgenticPlanner:
@@ -31,6 +62,7 @@ class TopicAgenticPlanner:
     _VALID_DIFFICULTIES = {"easy", "medium", "hard"}
     _VALID_REASONING = {"factoid", "causal", "multi-hop"}
     _VALID_IMAGE_ROLES = {"illustrative", "reasoning", "distractor"}
+    _TYPE_ORDER = ("multiple_choice", "true_false", "fill_in_blank", "matching")
 
     def __init__(
         self,
@@ -74,6 +106,7 @@ class TopicAgenticPlanner:
         num_questions: int | None = None,
         difficulty_distribution: Optional[dict[str, float]] = None,
         max_per_topic: int = 10,
+        format_profile: QuestionFormatProfile | Mapping[str, float] | str | None = None,
     ) -> list[QuestionPlan]:
         """Generate a quiz plan by iterating through topics.
         
@@ -98,6 +131,9 @@ class TopicAgenticPlanner:
             difficulty_distribution = {"easy": 0.4, "medium": 0.4, "hard": 0.2}
 
         self._validate_difficulty_distribution(difficulty_distribution)
+        profile = coerce_format_profile(format_profile)
+        target_type_counts = profile.expected_counts(effective_total)
+        produced_type_counts: Counter[str] = Counter()
 
         # Extract all topic nodes from graph
         # Note: Topics are typically nodes with kind == "concept" that have special metadata
@@ -158,18 +194,43 @@ class TopicAgenticPlanner:
                 continue
 
             logger.info(f"Generating {allocated} questions for topic {context.topic_label} (uncovered concepts: {len(uncovered)})")
+            _debug_log(
+                run_id="planner-loop",
+                hypothesis_id="H5",
+                location="src/planner/topic_planner.py:169",
+                message="topic allocation before generation",
+                data={
+                    "topic_id": topic_id,
+                    "topic_label": context.topic_label,
+                    "allocated": allocated,
+                    "remaining_budget": remaining_budget,
+                    "allowed_types": sorted(profile.allowed_types),
+                    "distribution": dict(profile.distribution),
+                    "target_type_counts": dict(target_type_counts),
+                    "produced_type_counts": dict(produced_type_counts),
+                },
+            )
 
             # Generate plans for this topic, restricting to uncovered concept labels
             try:
                 only_concept_labels = [c.label for c in uncovered]
+                required_types = self._build_required_types_for_batch(
+                    profile=profile,
+                    target_counts=target_type_counts,
+                    produced_counts=produced_type_counts,
+                    batch_size=allocated,
+                )
                 topic_plans = self._generate_topic_plans(
                     context,
                     allocated,
                     difficulty_distribution,
                     only_concepts=only_concept_labels,
+                    format_profile=profile,
+                    required_types=required_types,
                 )
 
                 all_plans.extend(topic_plans)
+                produced_type_counts.update(p.question_type for p in topic_plans)
                 # Mark produced target concepts as used
                 for p in topic_plans:
                     if p.target_concept:
@@ -186,6 +247,23 @@ class TopicAgenticPlanner:
             raise RuntimeError("No question plans were generated.")
 
         logger.info(f"Generated {len(all_plans)} question plans (requested {effective_total})")
+        all_plans = self._finalize_global_type_distribution(
+            plans=all_plans,
+            profile=profile,
+            requested_total=effective_total,
+        )
+        _all_counts = Counter(p.question_type for p in all_plans)
+        _debug_log(
+            run_id="planner-final",
+            hypothesis_id="H6",
+            location="src/planner/topic_planner.py:199",
+            message="final topic planner question type counts",
+            data={
+                "requested_total": effective_total,
+                "produced_total": len(all_plans),
+                "counts": dict(_all_counts),
+            },
+        )
 
         return all_plans
 
@@ -196,6 +274,8 @@ class TopicAgenticPlanner:
         difficulty_distribution: dict[str, float],
         *,
         only_concepts: list[str] | None = None,
+        format_profile: QuestionFormatProfile | None = None,
+        required_types: list[str] | None = None,
     ) -> list[QuestionPlan]:
         """Generate question plans for a specific topic.
         
@@ -210,11 +290,14 @@ class TopicAgenticPlanner:
         Raises:
             RuntimeError: If generation fails after max_retries.
         """
+        profile = format_profile or coerce_format_profile(None)
         prompt = render_topic_plan_prompt(
             context,
             num_questions,
             difficulty_distribution,
             only_concepts=only_concepts,
+            format_profile=profile,
+            required_types=required_types,
         )
 
         last_error: Exception | None = None
@@ -232,7 +315,9 @@ class TopicAgenticPlanner:
                     raise RuntimeError("LLM returned no JSON content")
 
                 payload = json.loads(cleaned)
-                plans = self._parse_topic_plans(payload, num_questions, context.topic_id)
+                plans = self._parse_topic_plans(
+                    payload, num_questions, context.topic_id, profile, required_types=required_types
+                )
 
                 # Attach the grounding text for the tested_fact_block_id into each plan's metadata
                 # so the generator sees the actual fact text (knowledge_context) when building prompts.
@@ -253,8 +338,8 @@ class TopicAgenticPlanner:
             except RuntimeError as exc:
                 logger.debug(f"[Topic {context.topic_id}] Attempt {attempt + 1}: {exc}")
                 last_error = exc
-                if "tested_fact" in str(exc).lower():
-                    # If it's a tested_fact issue, retry with stronger prompt
+                lowered = str(exc).lower()
+                if "tested_fact" in lowered or "question format" in lowered:
                     continue
                 break
 
@@ -267,6 +352,8 @@ class TopicAgenticPlanner:
         payload: Any,
         expected_count: int,
         topic_id: str,
+        format_profile: QuestionFormatProfile,
+        required_types: list[str] | None = None,
     ) -> list[QuestionPlan]:
         """Parse LLM output into QuestionPlan objects.
         
@@ -290,6 +377,10 @@ class TopicAgenticPlanner:
 
         if len(rows) != expected_count:
             raise RuntimeError(f"Expected {expected_count} questions, got {len(rows)}")
+        if required_types is not None and len(required_types) != expected_count:
+            raise RuntimeError(
+                f"Topic {topic_id}: required_types must have {expected_count} entries, got {len(required_types)}"
+            )
 
         plans: list[QuestionPlan] = []
 
@@ -298,7 +389,8 @@ class TopicAgenticPlanner:
                 raise RuntimeError(f"Question {idx} must be a JSON object")
 
             target_concept = self._normalized_text(row.get("target_concept"))
-            question_type = self._normalized_text(row.get("question_type"))
+            question_type_raw = self._normalized_text(row.get("question_type"))
+            question_type = normalize_question_type(question_type_raw)
             difficulty = self._normalized_text(row.get("difficulty")).lower()
             reasoning_type = self._normalized_text(row.get("reasoning_type")).lower()
             image_role_raw = row.get("image_role", "illustrative")
@@ -311,6 +403,16 @@ class TopicAgenticPlanner:
                 raise RuntimeError(f"Question {idx}: target_concept is required")
             if not question_type:
                 raise RuntimeError(f"Question {idx}: question_type is required")
+            if question_type not in format_profile.allowed_types:
+                raise RuntimeError(
+                    f"Question {idx}: question_type {question_type_raw!r} (normalized {question_type!r}) "
+                    f"not allowed by format profile {sorted(format_profile.allowed_types)}. question format retry."
+                )
+            if required_types is not None and question_type != required_types[idx]:
+                raise RuntimeError(
+                    f"Question {idx}: expected question_type {required_types[idx]!r}, got {question_type!r}. "
+                    "question format retry."
+                )
             if difficulty not in self._VALID_DIFFICULTIES:
                 raise RuntimeError(f"Question {idx}: invalid difficulty '{difficulty}'")
             if reasoning_type not in self._VALID_REASONING:
@@ -322,6 +424,13 @@ class TopicAgenticPlanner:
 
             image_role = self._normalize_image_role(image_role_raw)
 
+            row_meta = row.get("metadata")
+            plan_meta: dict[str, object] = dict(row_meta) if isinstance(row_meta, dict) else {}
+            if question_type == "matching":
+                mp = row.get("matching_pairs")
+                if isinstance(mp, list) and "matching_pairs" not in plan_meta:
+                    plan_meta["matching_pairs"] = mp
+
             plans.append(
                 QuestionPlan(
                     target_concept=target_concept,
@@ -332,10 +441,122 @@ class TopicAgenticPlanner:
                     image_description=image_description,
                     learning_objective=learning_objective,
                     tested_fact_block_id=tested_fact_block_id,
+                    metadata=plan_meta,
                 )
             )
 
+        _check_applies = (
+            required_types is None
+            and (not format_profile.is_mcq_only())
+            and (len(format_profile.allowed_types) > 1)
+        )
+        _debug_log(
+            run_id=f"topic-{topic_id}",
+            hypothesis_id="H7",
+            location="src/planner/topic_planner.py:367",
+            message="distribution check gate",
+            data={
+                "expected_count": expected_count,
+                "allowed_types_count": len(format_profile.allowed_types),
+                "is_mcq_only": format_profile.is_mcq_only(),
+                "required_types": required_types or [],
+                "check_applies": _check_applies,
+                "counts": dict(Counter(p.question_type for p in plans)),
+                "expected_counts": format_profile.expected_counts(expected_count),
+            },
+        )
+
+        if _check_applies:
+            tallies = Counter(p.question_type for p in plans)
+            count_map = {t: int(tallies.get(t, 0)) for t in format_profile.allowed_types}
+            if not format_profile.distribution_within_tolerance(count_map, expected_count):
+                raise RuntimeError(
+                    f"Topic {topic_id}: question format distribution off-target "
+                    f"(counts={count_map}, expected≈{format_profile.expected_counts(expected_count)}). "
+                    "question format retry."
+                )
+
         return plans
+
+    def _build_required_types_for_batch(
+        self,
+        *,
+        profile: QuestionFormatProfile,
+        target_counts: Mapping[str, int],
+        produced_counts: Mapping[str, int],
+        batch_size: int,
+    ) -> list[str]:
+        """Build deterministic required type sequence for the next batch."""
+        if batch_size <= 0:
+            return []
+
+        remaining = {
+            t: max(0, int(target_counts.get(t, 0)) - int(produced_counts.get(t, 0)))
+            for t in profile.allowed_types
+        }
+        required: list[str] = []
+        type_order = [t for t in self._TYPE_ORDER if t in profile.allowed_types]
+        fallback_type = type_order[0] if type_order else "multiple_choice"
+
+        for _ in range(batch_size):
+            positive = [t for t in type_order if remaining.get(t, 0) > 0]
+            if positive:
+                choice = max(
+                    positive,
+                    key=lambda t: (remaining[t], profile.distribution.get(t, 0.0), -type_order.index(t)),
+                )
+                remaining[choice] -= 1
+                required.append(choice)
+            else:
+                required.append(fallback_type)
+        return required
+
+    def _finalize_global_type_distribution(
+        self,
+        *,
+        plans: list[QuestionPlan],
+        profile: QuestionFormatProfile,
+        requested_total: int,
+    ) -> list[QuestionPlan]:
+        """Ensure final plan list matches global type targets as closely as possible."""
+        if requested_total <= 0:
+            return plans
+        trimmed = plans[:requested_total]
+        target_counts = profile.expected_counts(len(trimmed))
+        current_counts = Counter(p.question_type for p in trimmed)
+        deficits = {
+            t: max(0, int(target_counts.get(t, 0)) - int(current_counts.get(t, 0)))
+            for t in profile.allowed_types
+        }
+        surpluses = {
+            t: max(0, int(current_counts.get(t, 0)) - int(target_counts.get(t, 0)))
+            for t in profile.allowed_types
+        }
+        if not any(deficits.values()):
+            return trimmed
+
+        donor_indices: dict[str, list[int]] = {t: [] for t in profile.allowed_types}
+        for idx, plan in enumerate(trimmed):
+            t = plan.question_type
+            if surpluses.get(t, 0) > 0:
+                donor_indices[t].append(idx)
+                surpluses[t] -= 1
+
+        type_order = [t for t in self._TYPE_ORDER if t in profile.allowed_types]
+        for needed in type_order:
+            while deficits.get(needed, 0) > 0:
+                donor = next((t for t in type_order if donor_indices.get(t)), None)
+                if donor is None:
+                    raise RuntimeError(
+                        "Unable to repair global question-type distribution after planning. "
+                        f"Current={dict(Counter(p.question_type for p in trimmed))}, "
+                        f"target={target_counts}."
+                    )
+                idx = donor_indices[donor].pop()
+                trimmed[idx].question_type = needed
+                deficits[needed] -= 1
+
+        return trimmed
 
     def _validate_tested_facts(self, plans: list[QuestionPlan], topic_id: str) -> None:
         """Validate that all plans have tested_fact_block_id set.

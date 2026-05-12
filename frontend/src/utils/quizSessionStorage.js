@@ -14,7 +14,7 @@ function clampIndex(value, maxIndex) {
  * @param {string} notebookId
  * @param {string} runId
  * @param {number} questionCount
- * @returns {{ selectedAnswers: Record<number, string>, resultsOpen: boolean, activeQuestionIndex: number } | null}
+ * @returns {{ selectedAnswers: Record<number, string|object>, resultsOpen: boolean, activeQuestionIndex: number } | null}
  */
 export function loadQuizSession(notebookId, runId, questionCount) {
   if (!notebookId || !runId || questionCount <= 0) return null;
@@ -28,7 +28,11 @@ export function loadQuizSession(notebookId, runId, questionCount) {
     for (const [key, val] of Object.entries(rawAnswers)) {
       const idx = Number.parseInt(key, 10);
       if (Number.isNaN(idx) || idx < 0 || idx >= questionCount) continue;
-      if (typeof val === "string" && val.length > 0) selectedAnswers[idx] = val;
+      if (typeof val === "string") {
+        if (val.length > 0) selectedAnswers[idx] = val;
+      } else if (typeof val === "object" && val !== null && val.t === "matching" && Array.isArray(val.p)) {
+        selectedAnswers[idx] = val;
+      }
     }
     return {
       selectedAnswers,
@@ -43,7 +47,7 @@ export function loadQuizSession(notebookId, runId, questionCount) {
 /**
  * @param {string} notebookId
  * @param {string} runId
- * @param {{ selectedAnswers: Record<number, string>, resultsOpen: boolean, activeQuestionIndex: number, questionCount: number }} payload
+ * @param {{ selectedAnswers: Record<number, unknown>, resultsOpen: boolean, activeQuestionIndex: number, questionCount: number }} payload
  */
 export function saveQuizSession(notebookId, runId, payload) {
   if (!notebookId || !runId || !payload.questionCount) return;

@@ -10,6 +10,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.pipeline import QuizGenerationPipeline
+from src.question_formats import parse_question_formats_cli_arg
 
 
 class FriendlyNameFilter(logging.Filter):
@@ -67,6 +68,12 @@ def main() -> None:
         help="Generation mode: 'topic_agentic' (default, new) or 'legacy' (old QuizPlanner)",
     )
     parser.add_argument(
+        "--question-formats",
+        type=str,
+        default=None,
+        help='Question format mix: JSON object e.g. \'{"multiple_choice":0.7,"true_false":0.3}\' or a single type name.',
+    )
+    parser.add_argument(
         "--log-level",
         type=str,
         default="INFO",
@@ -75,6 +82,8 @@ def main() -> None:
     )
     args = parser.parse_args()
     _configure_logging(args.log_level)
+
+    fmt_profile = parse_question_formats_cli_arg(args.question_formats) if args.question_formats else None
 
     pipeline = QuizGenerationPipeline()
     pipeline.run(
@@ -90,6 +99,7 @@ def main() -> None:
         mock_image=args.mock_image,
         mock_question=args.mock_question,
         generation_mode=args.generation_mode,
+        question_format_profile=fmt_profile,
     )
 
 

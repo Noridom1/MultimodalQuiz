@@ -48,16 +48,31 @@ class NotebookRepository:
             "sources": self.settings.local_store_root / "sources.json",
             "messages": self.settings.local_store_root / "messages.json",
             "runs": self.settings.local_store_root / "runs.json",
+            "quiz_lists": self.settings.local_store_root / "quiz_lists.json",
+            "quiz_list_items": self.settings.local_store_root / "quiz_list_items.json",
         }
 
     @property
     def is_remote(self) -> bool:
         return self.settings.supabase_enabled
 
-    def list_notebooks(self, *, owner_id: str | None = None) -> list[dict[str, Any]]:
+    def list_notebooks(
+        self,
+        *,
+        owner_id: str | None = None,
+        query: str | None = None,
+    ) -> list[dict[str, Any]]:
         notebooks = self._select("notebooks", order="last_opened_at.desc")
         if owner_id is not None:
             notebooks = [item for item in notebooks if item.get("owner_id") == owner_id]
+        search = (query or "").strip().lower()
+        if search:
+            notebooks = [
+                item
+                for item in notebooks
+                if search in str(item.get("title") or "").lower()
+                or search in str(item.get("description") or "").lower()
+            ]
         return sorted(notebooks, key=lambda item: item.get("last_opened_at", ""), reverse=True)
 
     def get_notebook(self, notebook_id: str) -> dict[str, Any] | None:
@@ -151,6 +166,64 @@ class NotebookRepository:
 
     def delete_run(self, run_id: str) -> None:
         self._delete("notebook_runs", filters={"run_id": run_id})
+
+    def list_quiz_lists(self, *, owner_id: str | None = None) -> list[dict[str, Any]]:
+        rows = self._select("quiz_lists", order="updated_at.desc")
+        if owner_id is not None:
+            rows = [item for item in rows if item.get("owner_id") == owner_id]
+        return sorted(rows, key=lambda item: item.get("updated_at", ""), reverse=True)
+
+    def get_quiz_list(self, list_id: str) -> dict[str, Any] | None:
+        rows = self._select("quiz_lists", filters={"id": list_id})
+        return rows[0] if rows else None
+
+    def create_quiz_list(
+        self,
+        title: str,
+        folder_color: str,
+        *,
+        owner_id: str | None = None,
+    ) -> dict[str, Any]:
+        now = utcnow_iso()
+        payload: dict[str, Any] = {
+            "id": str(uuid4()),
+            "title": title,
+            "folder_color": folder_color,
+        }
+        if owner_id:
+            payload["owner_id"] = owner_id
+        if not self.is_remote:
+            payload["created_at"] = now
+            payload["updated_at"] = now
+        return self._insert_one("quiz_lists", payload)
+
+    def update_quiz_list(self, list_id: str, patch: dict[str, Any]) -> dict[str, Any] | None:
+        patch = {**patch, "updated_at": utcnow_iso()}
+        rows = self._update("quiz_lists", filters={"id": list_id}, payload=patch)
+        return rows[0] if rows else None
+
+    def list_quiz_list_items(self, list_id: str) -> list[dict[str, Any]]:
+        return self._select("quiz_list_items", filters={"list_id": list_id}, order="sort_order.asc")
+
+    def get_quiz_list_item(self, item_id: str) -> dict[str, Any] | None:
+        rows = self._select("quiz_list_items", filters={"id": item_id})
+        return rows[0] if rows else None
+
+    def find_quiz_list_item(self, list_id: str, run_id: str) -> dict[str, Any] | None:
+        rows = self._select("quiz_list_items", filters={"list_id": list_id, "run_id": run_id})
+        return rows[0] if rows else None
+
+    def create_quiz_list_item(self, payload: dict[str, Any]) -> dict[str, Any]:
+        now = utcnow_iso()
+        row = {
+            "id": str(uuid4()),
+            "created_at": now,
+            **payload,
+        }
+        return self._insert_one("quiz_list_items", row)
+
+    def delete_quiz_list_item(self, item_id: str) -> None:
+        self._delete("quiz_list_items", filters={"id": item_id})
 
     def upload_blob(self, storage_path: str, payload: bytes, content_type: str) -> str:
         if self.is_remote:
@@ -291,6 +364,8 @@ class NotebookRepository:
             "notebook_sources": "sources",
             "notebook_messages": "messages",
             "notebook_runs": "runs",
+            "quiz_lists": "quiz_lists",
+            "quiz_list_items": "quiz_list_items",
         }
         return mapping[table]
 

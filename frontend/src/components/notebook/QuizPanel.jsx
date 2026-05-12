@@ -11,6 +11,12 @@ import {
 } from "lucide-react";
 import { useEffect, useId, useState } from "react";
 import { API_BASE } from "../../api";
+import {
+  expectedMatchingMap,
+  isAnswerCorrect,
+  isAnswerProvided,
+  normalizeQuestionType,
+} from "../../utils/quizScoring";
 
 function joinUrl(base, path) {
   const safeBase = (base || "").replace(/\/+$/, "");
@@ -160,9 +166,10 @@ function RunListRow({
   isMenuOpen,
   onToggleMenu,
   onSelectCompleted,
-  onExport,
+  onRequestExport,
   onRename,
   onDelete,
+  onSaveToList,
 }) {
   const completed = run.status === "completed";
 
@@ -207,17 +214,30 @@ function RunListRow({
         </button>
         {isMenuOpen ? (
           <div className="run-list-menu" role="menu">
+            {completed && onSaveToList ? (
+              <button
+                type="button"
+                className="run-list-menu-item"
+                role="menuitem"
+                onClick={() => {
+                  onSaveToList(run.run_id);
+                  onToggleMenu(null);
+                }}
+              >
+                Save to list…
+              </button>
+            ) : null}
             {completed ? (
               <button
                 type="button"
                 className="run-list-menu-item"
                 role="menuitem"
                 onClick={() => {
-                  onExport(run.run_id);
+                  onRequestExport(run.run_id);
                   onToggleMenu(null);
                 }}
               >
-                Export ZIP
+                Export…
               </button>
             ) : null}
             <button
@@ -257,6 +277,7 @@ function RunListRow({
 function QuizPanel({
   activeQuestionIndex,
   canGenerate,
+  notebookId,
   pendingRun,
   resultStats,
   resultsOpen,
@@ -269,20 +290,83 @@ function QuizPanel({
   setSelectedAnswers,
   setSelectedRunId,
   onDeleteRun,
-  onExportRun,
+  onRequestExport,
   onExitQuiz,
   onOpenQuizBuilder,
   onRedoQuiz,
   onRenameRun,
+  onRequestSaveToList,
 }) {
   const [openMenuRunId, setOpenMenuRunId] = useState(null);
+  /** Draft inputs before Submit for fill-in-blank / matching (per question index). */
+  const [fibDraftByIndex, setFibDraftByIndex] = useState({});
+  const [matchingDraftByIndex, setMatchingDraftByIndex] = useState({});
   const quizResults = selectedRun?.summary?.results || [];
   const currentQuestion = quizResults[activeQuestionIndex] || null;
   const imageCandidates = buildQuestionImageCandidates(currentQuestion?.image_url, selectedRun);
   const hasCompletedRuns = workspaceRuns.some((run) => run.status === "completed");
   const currentChoice = selectedAnswers[activeQuestionIndex];
-  const hasAnswer = Object.prototype.hasOwnProperty.call(selectedAnswers, activeQuestionIndex);
+  const currentType = normalizeQuestionType(currentQuestion || {});
+  const fibSubmitted =
+    currentType === "fill_in_blank" && isAnswerProvided(currentQuestion, currentChoice);
+  const matchingSubmitted =
+    currentType === "matching" && isAnswerProvided(currentQuestion, currentChoice);
+  const hasAnswer =
+    currentType === "fill_in_blank"
+      ? fibSubmitted
+      : currentType === "matching"
+        ? matchingSubmitted
+        : isAnswerProvided(currentQuestion, currentChoice);
   const choiceLocked = hasAnswer;
+
+  const mdMatching =
+    currentQuestion?.metadata && typeof currentQuestion.metadata === "object"
+      ? currentQuestion.metadata
+      : {};
+  const matchingLeft = Array.isArray(mdMatching.matching_left) ? mdMatching.matching_left : [];
+  const matchingRight = Array.isArray(mdMatching.matching_right) ? mdMatching.matching_right : [];
+
+  useEffect(() => {
+    if (currentType !== "matching" || matchingSubmitted || matchingLeft.length === 0) return;
+    setMatchingDraftByIndex((prev) => {
+      const existing = prev[activeQuestionIndex];
+      if (existing?.p?.length === matchingLeft.length) return prev;
+      return {
+        ...prev,
+        [activeQuestionIndex]: { t: "matching", p: Array(matchingLeft.length).fill(-1) },
+      };
+    });
+  }, [activeQuestionIndex, currentType, matchingLeft.length, matchingSubmitted]);
+
+  function submitFib() {
+    const raw = fibDraftByIndex[activeQuestionIndex] ?? "";
+    const trimmed = raw.trim();
+    if (!trimmed) return;
+    setSelectedAnswers((prev) => ({ ...prev, [activeQuestionIndex]: trimmed }));
+  }
+
+  function submitMatching() {
+    const draft = matchingDraftByIndex[activeQuestionIndex];
+    const picks = draft?.p;
+    const payload = picks ? { t: "matching", p: picks } : null;
+    if (!payload || !isAnswerProvided(currentQuestion, payload)) return;
+    setSelectedAnswers((prev) => ({ ...prev, [activeQuestionIndex]: payload }));
+  }
+
+  const fibInputValue = fibSubmitted
+    ? String(currentChoice ?? "").trim()
+    : fibDraftByIndex[activeQuestionIndex] ?? "";
+  const fibCanSubmit = fibInputValue.trim().length > 0;
+
+  const matchingPicks =
+    matchingSubmitted && currentChoice?.t === "matching" && Array.isArray(currentChoice.p)
+      ? currentChoice.p
+      : matchingDraftByIndex[activeQuestionIndex]?.p ??
+        Array.from({ length: matchingLeft.length }, () => -1);
+  const matchingDraftPayload =
+    matchingPicks.length === matchingLeft.length ? { t: "matching", p: matchingPicks } : null;
+  const matchingCanSubmit =
+    Boolean(matchingDraftPayload) && isAnswerProvided(currentQuestion, matchingDraftPayload);
 
   return (
     <section className="panel studio-panel">
@@ -312,11 +396,7 @@ function QuizPanel({
                   isMenuOpen={openMenuRunId === run.run_id}
                   onToggleMenu={setOpenMenuRunId}
                   onSelectCompleted={(runId) => setSelectedRunId(runId)}
-                  onExport={(runId) => {
-                    void onExportRun(runId).catch((err) =>
-                      alert(err instanceof Error ? err.message : "Export failed"),
-                    );
-                  }}
+                  onRequestExport={(runId) => onRequestExport(runId)}
                   onRename={(runId, title) => {
                     void onRenameRun(runId, title).catch((err) =>
                       alert(err instanceof Error ? err.message : "Rename failed"),
@@ -327,6 +407,7 @@ function QuizPanel({
                       alert(err instanceof Error ? err.message : "Delete failed"),
                     );
                   }}
+                  onSaveToList={onRequestSaveToList}
                 />
               ))}
               {workspaceRuns.length === 0 ? (
@@ -349,6 +430,15 @@ function QuizPanel({
                 Back to quizzes
               </button>
               <h3>{formatQuizTitle(selectedRun)}</h3>
+              {onRequestSaveToList && notebookId ? (
+                <button
+                  type="button"
+                  className="ghost-pill compact"
+                  onClick={() => onRequestSaveToList(selectedRun.run_id)}
+                >
+                  Save to list…
+                </button>
+              ) : null}
             </div>
 
             {resultsOpen ? (
@@ -376,9 +466,9 @@ function QuizPanel({
                   <div className="quiz-question-nav compact-nav">
                     {quizResults.map((item, index) => {
                       let dotClass = "question-nav-dot";
-                      if (!Object.prototype.hasOwnProperty.call(selectedAnswers, index)) {
+                      if (!isAnswerProvided(item, selectedAnswers[index])) {
                         dotClass += " skipped";
-                      } else if (selectedAnswers[index] === item.correct_answer) {
+                      } else if (isAnswerCorrect(item, selectedAnswers[index])) {
                         dotClass += " correct";
                       } else {
                         dotClass += " incorrect";
@@ -402,14 +492,10 @@ function QuizPanel({
                     <button
                       type="button"
                       className="ghost-pill"
-                      onClick={() => {
-                        void onExportRun(selectedRun.run_id).catch((err) =>
-                          alert(err instanceof Error ? err.message : "Export failed"),
-                        );
-                      }}
+                      onClick={() => onRequestExport(selectedRun.run_id)}
                     >
                       <Download size={16} />
-                      Export ZIP
+                      Export…
                     </button>
                     <button type="button" className="primary-pill" onClick={() => onRedoQuiz()}>
                       Redo quiz
@@ -449,6 +535,128 @@ function QuizPanel({
                       {currentQuestion.difficulty} - {currentQuestion.target_concept}
                     </span>
                     <h4>{currentQuestion.question_text}</h4>
+                    {currentType === "fill_in_blank" ? (
+                      <div className="quiz-options quiz-options--with-submit">
+                        <input
+                          type="text"
+                          className="quiz-fib-input"
+                          placeholder="Type your answer"
+                          value={fibInputValue}
+                          disabled={fibSubmitted}
+                          onChange={(event) => {
+                            if (fibSubmitted) return;
+                            setFibDraftByIndex((prev) => ({
+                              ...prev,
+                              [activeQuestionIndex]: event.target.value,
+                            }));
+                          }}
+                        />
+                        {!fibSubmitted ? (
+                          <button
+                            type="button"
+                            className="primary-pill quiz-submit-answer"
+                            disabled={!fibCanSubmit}
+                            onClick={submitFib}
+                          >
+                            Submit answer
+                          </button>
+                        ) : null}
+                        {fibSubmitted ? (
+                          <div className="quiz-option-feedback">
+                            <div
+                              className={`quiz-option-verdict ${isAnswerCorrect(currentQuestion, currentChoice) ? "correct" : "incorrect"}`}
+                            >
+                              {isAnswerCorrect(currentQuestion, currentChoice) ? "Correct!" : "Not quite right!"}
+                            </div>
+                            <p className="quiz-option-explanation">
+                              Correct answer: {String(currentQuestion.correct_answer || "(none)")}
+                            </p>
+                            {currentQuestion.explanation ? (
+                              <p className="quiz-option-explanation">{currentQuestion.explanation}</p>
+                            ) : null}
+                          </div>
+                        ) : null}
+                      </div>
+                    ) : currentType === "matching" ? (
+                      <div className="quiz-options quiz-options--with-submit">
+                        {matchingLeft.map((leftItem, li) => (
+                          <label key={`${li}-${String(leftItem)}`} className="quiz-matching-row">
+                            <span className="quiz-matching-left">{String(leftItem)}</span>
+                            <select
+                              className="quiz-matching-select"
+                              disabled={matchingSubmitted}
+                              value={
+                                Number.isFinite(matchingPicks[li]) && matchingPicks[li] >= 0
+                                  ? String(matchingPicks[li])
+                                  : ""
+                              }
+                              onChange={(event) => {
+                                if (matchingSubmitted) return;
+                                const ri = Number.parseInt(event.target.value, 10);
+                                setMatchingDraftByIndex((prev) => {
+                                  const raw = prev[activeQuestionIndex];
+                                  const baseP =
+                                    raw?.p?.length === matchingLeft.length
+                                      ? [...raw.p]
+                                      : Array.from({ length: matchingLeft.length }, () => -1);
+                                  baseP[li] = Number.isFinite(ri) ? ri : -1;
+                                  return {
+                                    ...prev,
+                                    [activeQuestionIndex]: { t: "matching", p: baseP },
+                                  };
+                                });
+                              }}
+                            >
+                              <option value="">Select match</option>
+                              {matchingRight.map((rightItem, ri) => (
+                                <option key={`${ri}-${String(rightItem)}`} value={ri}>
+                                  {String(rightItem)}
+                                </option>
+                              ))}
+                            </select>
+                          </label>
+                        ))}
+                        {!matchingSubmitted ? (
+                          <button
+                            type="button"
+                            className="primary-pill quiz-submit-answer"
+                            disabled={!matchingCanSubmit}
+                            onClick={submitMatching}
+                          >
+                            Submit matches
+                          </button>
+                        ) : null}
+                        {matchingSubmitted ? (
+                          <div className="quiz-option-feedback">
+                            <div
+                              className={`quiz-option-verdict ${isAnswerCorrect(currentQuestion, currentChoice) ? "correct" : "incorrect"}`}
+                            >
+                              {isAnswerCorrect(currentQuestion, currentChoice) ? "Correct!" : "Not quite right!"}
+                            </div>
+                            {!isAnswerCorrect(currentQuestion, currentChoice) ? (
+                              <p className="quiz-option-explanation">
+                                Correct mapping:{" "}
+                                {(() => {
+                                  const expected = expectedMatchingMap(mdMatching) || {};
+                                  return matchingLeft
+                                    .map((item, leftIdx) => {
+                                      const rightIdx = expected[leftIdx];
+                                      const rightLabel = Number.isInteger(rightIdx)
+                                        ? matchingRight[rightIdx]
+                                        : null;
+                                      return `${String(item)} -> ${String(rightLabel ?? "?")}`;
+                                    })
+                                    .join("; ");
+                                })()}
+                              </p>
+                            ) : null}
+                            {currentQuestion.explanation ? (
+                              <p className="quiz-option-explanation">{currentQuestion.explanation}</p>
+                            ) : null}
+                          </div>
+                        ) : null}
+                      </div>
+                    ) : (
                     <div className="quiz-options">
                       {currentQuestion.options.map((option) => {
                         const isSelected = currentChoice === option;
@@ -458,9 +666,8 @@ function QuizPanel({
                           <button
                             type="button"
                             key={option}
-                            className={`quiz-option ${isSelected ? "selected" : ""} ${
-                              showFeedback && isCorrectChoice ? "quiz-option--correct" : ""
-                            } ${showFeedback && !isCorrectChoice ? "quiz-option--incorrect" : ""}`}
+                            className={`quiz-option ${isSelected ? "selected" : ""} ${showFeedback && isCorrectChoice ? "quiz-option--correct" : ""
+                              } ${showFeedback && !isCorrectChoice ? "quiz-option--incorrect" : ""}`}
                             disabled={choiceLocked}
                             onClick={() =>
                               setSelectedAnswers((current) => {
@@ -505,6 +712,7 @@ function QuizPanel({
                         );
                       })}
                     </div>
+                    )}
                   </div>
 
                   <div className="quiz-player-footer quiz-player-footer--links-only">
@@ -512,14 +720,10 @@ function QuizPanel({
                       <button
                         type="button"
                         className="ghost-inline compact"
-                        onClick={() => {
-                          void onExportRun(selectedRun.run_id).catch((err) =>
-                            alert(err instanceof Error ? err.message : "Export failed"),
-                          );
-                        }}
+                        onClick={() => onRequestExport(selectedRun.run_id)}
                       >
                         <Download size={16} />
-                        Export ZIP
+                        Export…
                       </button>
                       <a href={selectedRun.summary.artifact_paths.quiz_package} target="_blank" rel="noreferrer">
                         Quiz package

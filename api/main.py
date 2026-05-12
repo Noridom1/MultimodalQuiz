@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from fastapi import Depends, FastAPI, File, Form, HTTPException, UploadFile
+from fastapi import Depends, FastAPI, File, Form, HTTPException, Query, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
@@ -42,6 +42,10 @@ class GenerateQuizRequest(BaseModel):
     num_questions: int = Field(default=5, ge=1, le=20)
     mock_image: bool = False
     mock_question: bool = False
+    question_format_distribution: dict[str, float] | None = Field(
+        default=None,
+        description="Optional weights over multiple_choice, true_false, fill_in_blank, matching (sum 1.0).",
+    )
 
 
 class NotebookPatchRequest(BaseModel):
@@ -50,6 +54,16 @@ class NotebookPatchRequest(BaseModel):
 
 class RunPatchRequest(BaseModel):
     title: str = Field(min_length=1, max_length=200)
+
+
+class QuizListCreateRequest(BaseModel):
+    title: str = Field(min_length=1, max_length=120)
+    folder_color: str | None = Field(default=None, max_length=32)
+
+
+class QuizListItemCreateRequest(BaseModel):
+    notebook_id: str = Field(min_length=1)
+    run_id: str = Field(min_length=1)
 
 
 @app.get("/api/health")
@@ -62,8 +76,11 @@ def healthcheck() -> dict[str, object]:
 
 
 @app.get("/api/notebooks")
-def list_notebooks(user: AuthUser | None = Depends(get_auth_user)) -> list[dict[str, object]]:
-    return service.list_notebook_cards(auth=user)
+def list_notebooks(
+    user: AuthUser | None = Depends(get_auth_user),
+    q: str | None = Query(default=None, max_length=120),
+) -> list[dict[str, object]]:
+    return service.list_notebook_cards(auth=user, query=q)
 
 
 @app.post("/api/notebooks")
@@ -123,6 +140,7 @@ def generate_quiz(
         num_questions=payload.num_questions,
         mock_image=payload.mock_image,
         mock_question=payload.mock_question,
+        question_format_distribution=payload.question_format_distribution,
         auth=user,
     )
 
@@ -151,12 +169,20 @@ def delete_run(
 def export_run(
     notebook_id: str,
     run_id: str,
+    export_format: str = Query("zip", alias="format", pattern="^(zip|pdf)$"),
+    data_format: str = Query("json", pattern="^(json|csv)$"),
     user: AuthUser | None = Depends(get_auth_user),
 ) -> Response:
-    payload, filename = service.export_run_zip(notebook_id, run_id, auth=user)
+    payload, filename, media_type = service.export_run(
+        notebook_id,
+        run_id,
+        auth=user,
+        export_format=export_format,
+        data_format=data_format,
+    )
     return Response(
         content=payload,
-        media_type="application/zip",
+        media_type=media_type,
         headers={"Content-Disposition": f'attachment; filename="{filename}"'},
     )
 
@@ -164,6 +190,43 @@ def export_run(
 @app.get("/api/runs/{run_id}")
 def get_run(run_id: str, user: AuthUser | None = Depends(get_auth_user)) -> dict[str, object]:
     return service.get_run_for_request(run_id, auth=user)
+
+
+@app.get("/api/quiz-lists")
+def list_quiz_lists(user: AuthUser | None = Depends(get_auth_user)) -> list[dict[str, object]]:
+    return service.list_quiz_list_cards(auth=user)
+
+
+@app.post("/api/quiz-lists")
+def create_quiz_list(
+    payload: QuizListCreateRequest,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, object]:
+    return service.create_quiz_list(payload.title, payload.folder_color, auth=user)
+
+
+@app.get("/api/quiz-lists/{list_id}")
+def get_quiz_list(list_id: str, user: AuthUser | None = Depends(get_auth_user)) -> dict[str, object]:
+    return service.get_quiz_list_detail(list_id, auth=user)
+
+
+@app.post("/api/quiz-lists/{list_id}/items")
+def add_quiz_list_item(
+    list_id: str,
+    payload: QuizListItemCreateRequest,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, object]:
+    return service.add_quiz_list_item(list_id, payload.notebook_id, payload.run_id, auth=user)
+
+
+@app.delete("/api/quiz-lists/{list_id}/items/{item_id}")
+def remove_quiz_list_item(
+    list_id: str,
+    item_id: str,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, bool]:
+    service.remove_quiz_list_item(list_id, item_id, auth=user)
+    return {"ok": True}
 
 
 @app.get("/api/artifacts/{artifact_path:path}")
