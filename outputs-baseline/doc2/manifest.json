@@ -1,0 +1,27 @@
+{
+  "run_id": "20260511_223221_doc2_06017b",
+  "created_at": "2026-05-11T15:32:26.220862Z",
+  "source_document": "data\\raw\\doc2.pdf",
+  "output_root": "outputs-baseline/20260511_223221_doc2_06017b",
+  "stages": {
+    "baseline": "completed"
+  },
+  "artifacts": {
+    "document_text": "outputs-baseline/20260511_223221_doc2_06017b/document/document_text.txt",
+    "questions": "outputs-baseline/20260511_223221_doc2_06017b/generation/questions.json",
+    "quiz_package": "outputs-baseline/20260511_223221_doc2_06017b/generation/quiz_package.json",
+    "image_artifacts": "outputs-baseline/20260511_223221_doc2_06017b/generation/image_artifacts.json",
+    "pipeline_log": "outputs-baseline/20260511_223221_doc2_06017b/logs/pipeline.log"
+  },
+  "config": {
+    "method": "baseline_direct_llm",
+    "provider": "groq",
+    "model": null,
+    "num_questions": 5,
+    "difficulty_distribution": {
+      "easy": 0.4,
+      "medium": 0.4,
+      "hard": 0.2
+    }
+  }
+}

@@ -1,51 +1,26 @@
 from __future__ import annotations
 
 import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from abc import ABC, abstractmethod
-from dataclasses import dataclass
-from pathlib import Path
-from typing import Any
 
 import requests
-import yaml
+from pathlib import Path
+import importlib.util
+import re
 
-
-# =========================================================
-# CONFIG
-# =========================================================
-
-@dataclass(frozen=True)
-class LLMConfig:
-    provider: str = "openai"
-    model: str = "gpt-5.4-mini"
-    api_key_env: str = "OPENAI_API_KEY"
-    api_key: str | None = None
-    endpoint: str | None = None
-    timeout_seconds: int = 60
-
-
-def load_config(config_path: str | Path | None = None) -> LLMConfig:
-    path = Path(config_path) if config_path else Path(__file__).resolve().parents[2] / "configs" / "model_config.yaml"
-
-    data: dict[str, Any] = {}
-    if path.exists():
-        with path.open("r", encoding="utf-8") as f:
-            loaded = yaml.safe_load(f) or {}
-            if isinstance(loaded, dict):
-                data = loaded
-
-    cfg = data.get("llm", {}) if isinstance(data, dict) else {}
-    if not isinstance(cfg, dict):
-        cfg = {}
-
-    return LLMConfig(
-        provider=str(cfg.get("provider", LLMConfig.provider)),
-        model=str(cfg.get("model", LLMConfig.model)),
-        api_key_env=str(cfg.get("api_key_env", LLMConfig.api_key_env)),
-        api_key=cfg.get("api_key") or None,
-        endpoint=cfg.get("endpoint"),
-        timeout_seconds=int(cfg.get("timeout_seconds", LLMConfig.timeout_seconds)),
-    )
+# Prefer package import when running inside the project, but allow running
+# this file directly by falling back to loading the local settings.py file.
+try:
+    from src.utils import settings
+except Exception:
+    settings_path = Path(__file__).resolve().parent / "settings.py"
+    spec = importlib.util.spec_from_file_location("settings", str(settings_path))
+    settings = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(settings)
 
 
 # =========================================================
@@ -63,12 +38,13 @@ class LLMProvider(ABC):
 # =========================================================
 
 class OpenAIProvider(LLMProvider):
-    def __init__(self, config: LLMConfig):
-        self.config = config
-        self.endpoint = config.endpoint or "https://api.openai.com/v1/chat/completions"
+    def __init__(self):
+        self.model = settings.OPENAI.get("MODEL")
+        self.endpoint = settings.OPENAI.get("ENDPOINT")
+        self.timeout_seconds = settings.TIMEOUT_SECONDS
 
     def complete(self, prompt: str, system_prompt: str | None = None) -> str:
-        api_key = self.config.api_key or os.getenv(self.config.api_key_env)
+        api_key = settings.OPENAI.get("API_KEY")
         if not api_key:
             raise RuntimeError("Missing OpenAI API key")
 
@@ -78,7 +54,7 @@ class OpenAIProvider(LLMProvider):
         messages.append({"role": "user", "content": prompt})
 
         payload = {
-            "model": self.config.model,
+            "model": self.model,
             "messages": messages,
             "temperature": 0.2,
         }
@@ -90,7 +66,7 @@ class OpenAIProvider(LLMProvider):
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
             },
-            timeout=self.config.timeout_seconds,
+            timeout=self.timeout_seconds,
         )
 
         response.raise_for_status()
@@ -109,11 +85,11 @@ class GeminiProvider(LLMProvider):
     Docs: https://ai.google.dev
     """
 
-    def __init__(self, config: LLMConfig):
-        self.config = config
+    def __init__(self):
+        self.model = settings.GEMINI.get("MODEL")
 
     def complete(self, prompt: str, system_prompt: str | None = None) -> str:
-        api_key = self.config.api_key or os.getenv(self.config.api_key_env)
+        api_key = settings.GEMINI.get("API_KEY")
         if not api_key:
             raise RuntimeError("Missing Google Gemini API key")
 
@@ -124,13 +100,11 @@ class GeminiProvider(LLMProvider):
             raise RuntimeError("The `genai` package is required for GeminiProvider. "
                                "Install it with `pip install genai`.") from exc
 
-        model = self.config.model or "gemini-1.5-flash"
-
         # Gemini SDK doesn't use a separate system role; prepend if provided
         contents = f"SYSTEM: {system_prompt}\n\n{prompt}" if system_prompt else prompt
 
         client = genai.Client(api_key=api_key)
-        response = client.models.generate_content(model=model, contents=contents)
+        response = client.models.generate_content(model=self.model, contents=contents)
 
         # SDK response shapes vary by version; try common attributes
         text = getattr(response, "text", None)
@@ -162,8 +136,8 @@ class GeminiProvider(LLMProvider):
 # =========================================================
 
 class MistralAIProvider(LLMProvider):
-    def __init__(self, config: LLMConfig):
-        self.config = config
+    def __init__(self):
+        self.model = settings.MISTRAL.get("MODEL")
 
     def complete(self, prompt: str, system_prompt: str | None = None) -> str:
         try:
@@ -174,13 +148,13 @@ class MistralAIProvider(LLMProvider):
                 "Mistral support requires 'langchain-core' and 'langchain-mistralai'."
             ) from exc
 
-        api_key = self.config.api_key or os.getenv(self.config.api_key_env)
+        api_key = settings.MISTRAL.get("API_KEY")
         if not api_key:
             raise RuntimeError("Missing MistralAI API key")
 
         # Initialize the MistralAI client
         client = ChatMistralAI(
-            model=self.config.model,
+            model=self.model,
             mistral_api_key=api_key,
             temperature=0.2
         )
@@ -196,22 +170,122 @@ class MistralAIProvider(LLMProvider):
         return response.content
 
 # =========================================================
+# GROQAI PROVIDER (PLACEHOLDER)
+# =========================================================
+
+class GroqAIProvider(LLMProvider):
+    def __init__(self):
+        self.model = settings.GROQ.get("MODEL")
+
+        from groq import Groq
+
+        api_key = settings.GROQ.get("API_KEY")
+        if not api_key:
+            raise RuntimeError("Missing Groq API key")
+
+        self.client = Groq(api_key=api_key)
+
+    def extract_answer(self, response: dict) -> str:
+        # Normalize and extract the final answer; ignore any <think> analysis.
+        try:
+            text = None
+
+            # dict-like responses
+            if isinstance(response, dict):
+                try:
+                    text = response["choices"][0]["message"]["content"]
+                except Exception:
+                    pass
+                if not text:
+                    try:
+                        text = response["choices"][0]["text"]
+                    except Exception:
+                        pass
+                if not text:
+                    text = response.get("text") or response.get("content")
+
+            # object-like responses
+            else:
+                text = getattr(response, "text", None)
+                if not text:
+                    try:
+                        text = response.choices[0].message.content
+                    except Exception:
+                        try:
+                            text = response.choices[0].text
+                        except Exception:
+                            text = None
+
+            if text is None:
+                raise RuntimeError("Could not extract text from Groq response")
+
+            text = str(text).strip()
+
+            # Remove <think>...</think> blocks which contain chain-of-thought
+            text = re.sub(r"<think>.*?</think>", "", text, flags=re.IGNORECASE | re.DOTALL).strip()
+
+            # Prefer explicit <answer> tags
+            m = re.search(r"<answer>(.*?)</answer>", text, re.IGNORECASE | re.DOTALL)
+            if m:
+                return m.group(1).strip()
+
+            # Prefer bolded markdown like **Paris**
+            m = re.search(r"\*\*(.*?)\*\*", text)
+            if m:
+                return m.group(1).strip()
+
+            # Fallback: pattern like '... is X.' or 'Answer: X'
+            m = re.search(r"\b(?:is|are)\s+([A-Z][^\.\n!?]{0,80})[\.\n!?]", text)
+            if m:
+                return m.group(1).strip()
+
+            m = re.search(r"Answer[:\-]\s*(.+)$", text, re.IGNORECASE)
+            if m:
+                return m.group(1).strip()
+
+            # Last resort: return cleaned text
+            return text
+        except Exception as exc:
+            raise RuntimeError("Unexpected Groq response format") from exc
+        
+    def complete(self, prompt: str, system_prompt: str | None = None) -> str:
+        chat_completion = self.client.chat.completions.create(
+            messages=[
+                {
+                    "role": "system",
+                    "content": system_prompt,
+                },
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ],
+            model=self.model,
+        )
+
+        return self.extract_answer(chat_completion)
+  
+# =========================================================
 # FACTORY
 # =========================================================
 
-def build_provider(config: LLMConfig) -> LLMProvider:
-    provider = config.provider.lower()
+def build_provider() -> LLMProvider:
+    provider = settings.PROVIDER
+    print(f"Using LLM provider: {provider}")
 
     if provider == "openai":
-        return OpenAIProvider(config)
+        return OpenAIProvider()
 
     if provider in {"google", "gemini"}:
-        return GeminiProvider(config)
+        return GeminiProvider()
     
     if provider in {"mistral", "mistralai"}:
-        return MistralAIProvider(config)
+        return MistralAIProvider()
 
-    raise ValueError(f"Unsupported provider: {config.provider}")
+    if provider in {"groq", "groqai"}:
+        return GroqAIProvider()
+    
+    raise ValueError(f"Unsupported provider: {provider}")
 
 
 # =========================================================
@@ -219,11 +293,16 @@ def build_provider(config: LLMConfig) -> LLMProvider:
 # =========================================================
 
 class LLMClient:
-    def __init__(self, config_path: str | Path | None = None):
-        config = load_config(config_path)
-        self.provider = build_provider(config)
+    def __init__(self):
+        self.provider = build_provider()
 
     def complete(self, prompt: str, *, system_prompt: str | None = None) -> str:
         if not prompt.strip():
             raise ValueError("Prompt cannot be empty")
         return self.provider.complete(prompt, system_prompt)
+
+if __name__ == "__main__":
+    # Simple test to verify provider works
+    client = LLMClient()
+    response = client.complete("Hi", system_prompt="You are a helpful assistant.")
+    print("LLM Response:", response)

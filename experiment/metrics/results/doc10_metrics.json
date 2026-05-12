@@ -1,0 +1,598 @@
+{
+  "doc_id": "doc10",
+  "created_at": "2026-05-11T17:38:08.239444Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc10\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.188515,
+      "thresholded_coverage": 0.045455,
+      "threshold": 0.75,
+      "matched_doc_count": 4,
+      "total_doc_count": 88,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "virtualization software",
+          "matched_quiz_concept": "virtualization",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "hypervisor/vmm",
+          "matched_quiz_concept": "vmm control",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "virtual hardware",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "guest os",
+          "matched_quiz_concept": "os kernel sharing",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "virtual machine (vm)",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "resource allocation",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vm isolation",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cloud computing",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "server consolidation",
+          "matched_quiz_concept": "web server",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "containerization",
+          "matched_quiz_concept": "containerization",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "docker",
+          "matched_quiz_concept": "docker run",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "library dependency",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "os kernel sharing",
+          "matched_quiz_concept": "os kernel sharing",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "isolation",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "layering",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "execution environment",
+          "matched_quiz_concept": "efficient execution",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "control",
+          "matched_quiz_concept": "vmm control",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "overlay networks",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "software-defined networking",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ibm mainframes",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "goldberg survey",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "serverless computing",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "reproducible deployment",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vm monitor",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "execution environment (java, dotnet)",
+          "matched_quiz_concept": "efficient execution",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "restricted resources",
+          "matched_quiz_concept": "shared resources",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "virtual machine monitor",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "resource isolation",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "fault isolation",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "security isolation",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "hypervisor privileges",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "kernel mode",
+          "matched_quiz_concept": "os kernel sharing",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "root mode",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cpu rings",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "host environment",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "privilege escalation",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "side channel attacks",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "kernel namespaces",
+          "matched_quiz_concept": "os kernel sharing",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "control groups",
+          "matched_quiz_concept": "vmm control",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "copy-on-write",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "dockerfile",
+          "matched_quiz_concept": "dockerfile build steps",
+          "similarity": 0.57735
+        },
+        {
+          "document_concept": "image",
+          "matched_quiz_concept": "image creation",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "container",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "kubernetes",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "pod",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cluster manager",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "replicated pod",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "load balancer",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "port binding",
+          "matched_quiz_concept": "port mapping",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "volume mounting",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "snapshot",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "configuration independence",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "java vm",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "community edition",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "docker toolbox",
+          "matched_quiz_concept": "docker run",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "command line",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "-v option",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "binds",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "windows",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "powershell",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "bash",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "wsl",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "virtual machine",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "os kernel",
+          "matched_quiz_concept": "os kernel sharing",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "containers",
+          "matched_quiz_concept": "run containers",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "images",
+          "matched_quiz_concept": "delete images",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "devops",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "git",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "version control",
+          "matched_quiz_concept": "vmm control",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "gitops",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ci/cd",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "infrastructure as code",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "continuous integration",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "continuous deployment",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "self-service it",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "pull requests (prs)",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "infrastructure as code (iac)",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "creative commons",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cc by 4.0",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "nginx",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "file system",
+          "matched_quiz_concept": "operating system interface",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "shell environments",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vm ip address",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "shared os kernel",
+          "matched_quiz_concept": "os kernel sharing",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "container deployment",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vms vs containers",
+          "matched_quiz_concept": "run containers",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "layering approaches",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "environment isolation",
+          "matched_quiz_concept": "virtual hardware interface",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 2.507455,
+      "breadth_normalized_entropy": 0.904373,
+      "matched_document_concepts": 16,
+      "total_document_concepts": 88
+    },
+    "duplication": {
+      "duplication": 0.333333,
+      "unique_matched_document_concepts": 16,
+      "total_quiz_concepts": 24,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "virtual hardware interface",
+          "matched_document_concept": "virtual hardware",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "physical hardware interface",
+          "matched_document_concept": "virtual hardware",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "operating system interface",
+          "matched_document_concept": "file system",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "network interface",
+          "matched_document_concept": "virtualization software",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "containerization",
+          "matched_document_concept": "containerization",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "virtualization",
+          "matched_document_concept": "virtualization software",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "os kernel sharing",
+          "matched_document_concept": "os kernel sharing",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "hardware emulation",
+          "matched_document_concept": "virtual hardware",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "os per instance",
+          "matched_document_concept": "guest os",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "hardware duplication",
+          "matched_document_concept": "virtual hardware",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "dockerfile build steps",
+          "matched_document_concept": "dockerfile",
+          "similarity": 0.57735
+        },
+        {
+          "quiz_concept": "image creation",
+          "matched_document_concept": "image",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "run containers",
+          "matched_document_concept": "containers",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "network configurations",
+          "matched_document_concept": "virtualization software",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "delete images",
+          "matched_document_concept": "images",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "docker run",
+          "matched_document_concept": "docker",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "port mapping",
+          "matched_document_concept": "port binding",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "web server",
+          "matched_document_concept": "server consolidation",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "efficient execution",
+          "matched_document_concept": "execution environment",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "vmm control",
+          "matched_document_concept": "control",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "full hardware duplication",
+          "matched_document_concept": "virtual hardware",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "shared resources",
+          "matched_document_concept": "restricted resources",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "exclusive physical access",
+          "matched_document_concept": "virtualization software",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "1974 virtualization conditions",
+          "matched_document_concept": "virtualization software",
+          "similarity": 0.408248
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 88,
+      "quiz_concepts": 24
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc10\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc10\\question_concepts.json"
+  }
+}

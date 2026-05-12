@@ -1,0 +1,95 @@
+{
+  "doc_id": "doc3",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:37:27.222817Z",
+  "all_concepts": [
+    "august revolution",
+    "vietnam",
+    "religion",
+    "national issues",
+    "indochinese communist party",
+    "1945 proclamation",
+    "uprising program",
+    "freedom of religion",
+    "democratic liberty",
+    "military conscription",
+    "religious diversity",
+    "freedom from taxation",
+    "role of catholic personalities",
+    "august revolution impact",
+    "government roles exclusion",
+    "political participation restrictions",
+    "marxism-leninism conversion",
+    "national assembly roles",
+    "early vietnamese political structure",
+    "religious policy",
+    "hồ chí minh",
+    "1945 government",
+    "freedom of belief",
+    "atheism proposal",
+    "erroneous tendency",
+    "trường chinh",
+    "1946",
+    "overthrow"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "What was a key achievement of the August Revolution regarding religion in Vietnam, according to the author?",
+      "concepts": [
+        "august revolution",
+        "vietnam",
+        "religion",
+        "national issues"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "According to the proclamation of the Indochinese Communist Party (1945), which right was explicitly included in the uprising program?",
+      "concepts": [
+        "indochinese communist party",
+        "1945 proclamation",
+        "uprising program",
+        "freedom of religion",
+        "democratic liberty",
+        "military conscription",
+        "religious diversity",
+        "freedom from taxation"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "What role did Catholic personalities hold in the early Vietnamese political system after the August Revolution?",
+      "concepts": [
+        "role of catholic personalities",
+        "august revolution impact",
+        "government roles exclusion",
+        "political participation restrictions",
+        "marxism-leninism conversion",
+        "national assembly roles",
+        "early vietnamese political structure"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "What did Hồ Chí Minh propose regarding religion in the first session of the Temporary Government (September 1945)?",
+      "concepts": [
+        "religious policy",
+        "hồ chí minh",
+        "1945 government",
+        "freedom of belief",
+        "atheism proposal"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "What criticism did Trường Chinh address in his article 'To overthrow an erroneous tendency' (1946)?",
+      "concepts": [
+        "erroneous tendency",
+        "trường chinh",
+        "1946",
+        "overthrow"
+      ]
+    }
+  ]
+}

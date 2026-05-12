@@ -1,0 +1,91 @@
+{
+  "doc_id": "doc9",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:27:47.530585Z",
+  "all_concepts": [
+    "who guidelines",
+    "correct term",
+    "affected individuals",
+    "terminology for people",
+    "covid-19 patients",
+    "continuous news",
+    "frequent sharing",
+    "unreliable sources",
+    "scheduled updates",
+    "trusted sources",
+    "stress coping strategies",
+    "social contact avoidance",
+    "caffeine energy boost",
+    "sufficient rest",
+    "physical activity engagement",
+    "collegial communication limits",
+    "emotional processing",
+    "creative expression",
+    "pandemic stress",
+    "family support",
+    "stress management",
+    "simple facts",
+    "consistent repetition",
+    "older adults",
+    "cognitive decline",
+    "written instructions"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "According to WHO guidelines, what is the correct term to use when referring to people affected by COVID-19?",
+      "concepts": [
+        "who guidelines",
+        "correct term",
+        "affected individuals",
+        "terminology for people",
+        "covid-19 patients"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "What does the document recommend regarding news consumption during the pandemic?",
+      "concepts": [
+        "continuous news",
+        "frequent sharing",
+        "unreliable sources",
+        "scheduled updates",
+        "trusted sources"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "What mental health strategy is recommended for healthcare workers to cope with stress during the pandemic?",
+      "concepts": [
+        "stress coping strategies",
+        "social contact avoidance",
+        "caffeine energy boost",
+        "sufficient rest",
+        "physical activity engagement",
+        "collegial communication limits"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "What is the recommended approach to help children process emotions during the pandemic?",
+      "concepts": [
+        "emotional processing",
+        "creative expression",
+        "pandemic stress",
+        "family support",
+        "stress management"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "How should information about疫情防控措施 be communicated to older adults with cognitive decline?",
+      "concepts": [
+        "simple facts",
+        "consistent repetition",
+        "older adults",
+        "cognitive decline",
+        "written instructions"
+      ]
+    }
+  ]
+}

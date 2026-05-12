@@ -1,0 +1,200 @@
+Chapter 8
+Scheduling
+Any operating system is likely to run with more processes than the computer has CPUs, so a plan
+is needed to time-share the CPUs among the processes. Ideally the sharing would be transparent to
+user processes. A common approach is to provide each process with the illusion that it has its own
+virtual CPU bymultiplexingthe processes onto the hardware CPUs. This chapter explains how xv6
+achieves this multiplexing.
+Before proceeding with this chapter, please readkernel/proc.h,kernel/swtch.S, and
+yield(),sched(), andschedule()inkernel/proc.c.
+8.1 Multiplexing
+Xv6 multiplexes by switching each CPU from one process to another in two situations. First, xv6
+switches when a process makes a system call that blocks (has to wait), for examplereadorwait.
+Second, xv6 periodically forces a switch to cope with processes that compute for long periods
+without blocking. The former are called voluntary switches, the latter involuntary.
+Implementing multiplexing poses a few challenges. First, how to switch from one process to
+another? The basic idea is to save and restore CPU registers, though the fact that this cannot be
+expressed in C makes it tricky. Second, how to force switches in a way that is transparent to user
+processes? Xv6 uses the standard technique in which a hardware timer’s interrupts drive context
+switches. Third, all of the CPUs switch among the same set of processes, so a locking plan is
+necessary to avoid mistakes such as two CPUs deciding to run the same process at the same time.
+Fourth, a process’s memory and other resources must be freed when the process exits, but it cannot
+finish all of this itself. Fifth, each CPU of a multi-core machine must remember which process it
+is executing so that system calls affect the correct process’s kernel state.
+8.2 Context switch overview
+The term “context switch” refers to the steps involved in a CPU leaving off execution of one kernel
+thread (usually for later resumption), and resuming execution of a different kernel thread; this
+75
+
+Kernel
+shell cat
+user
+space
+kernel
+space kstack 
+shell
+kstack 
+cat
+ 
+kstack
+scheduler
+save
+restoreswtch swtch
+Figure 8.1: Switching from one user process to another. In this example, xv6 runs with one CPU
+(and thus one scheduler thread).
+switching is the heart of multiplexing. Xv6 does not directly context switch from one process’s
+kernel thread to another process’s kernel thread; instead, a kernel thread gives up the CPU by
+context-switching to that CPU’s “scheduler thread,” and the scheduler thread picks a different
+process’s kernel thread to run, and context-switches to that thread.
+At a broader scope, the steps involved in switching from one user process to another are illus-
+trated in Figure 8.1: a trap (system call or interrupt) from the old process’s user space to its kernel
+thread, a context switch to the current CPU’s scheduler thread, a context switch to a new process’s
+kernel thread, and a trap return to the user-level process.
+8.3 Code: Context switching
+The functionswtch()inkernel/swtch.Scontains the heart of thread context switching:
+it saves the switched-from thread’s CPU registers, and restores the previously-saved registers of
+the switched-to thread. The basic reason this is sufficient is that a thread’s state consist of data in
+memory (e.g. its stack) plus its CPU registers; thread memory need not saved and restored because
+different threads keep their data in different areas of RAM; but the CPU has only one set of registers
+so they must be switched (saved and restored) between threads.
+Each thread’sstruct procincludes astruct contextthat holds the thread’s saved
+registers when it is not running. A CPU’s scheduler thread’sstruct contextis in that CPU’s
+struct cpu. When thread X wishes to switch to thread Y , thread X callsswtch(&X’s context,
+&Y’s context).swtch()saves the current CPU registers in X’s context, then loads the con-
+tent of Y’s context into the CPU registers, then returns.
+Here’s an abbreviated copy ofswtch:
+swtch:
+sd ra, 0(a0)
+sd sp, 8(a0)
+sd s0, 16(a0)
+...
+76
+
+sd s11, 104(a0)
+ld ra, 0(a1)
+ld sp, 8(a1)
+ld s0, 16(a1)
+...
+ld s11, 104(a1)
+ret
+a0holds the first function argument, anda1the second; in this case, the twostruct context
+pointers.16(a0)refers to an offset 16 bytes into the memory pointed to bya0; referring to the
+definition ofstruct contextinkernel/proc.h(1951), this is the structure field called
+s0.
+Where doesswtch’sretreturn to? It returns to the instruction that theraregister points
+to. In the example in which thread X callsswtch()to switch to Y , whenretexecutes,ra
+has just been loaded from Y’sstruct context. And therain Y’sstruct contextwas
+originally saved by Y’s call toswtchwhen Y gave up the CPU in the past. So theretreturns
+to the instruction after the point at which Y calledswtch(); that is, X’s call toswtch()re-
+turns as if returning from Y’s original call toswtch(). Andspwill be Y’s stack pointer, since
+swtchloadedspfrom Y’sstruct context; thus on return, Y will execute on its own stack.
+swtch()need not directly save or restore the program counter; it’s enough to save and restore
+ra.
+swtch(2902)saves callee-saved registers (ra,sp,s0..s11) but not caller-saved registers.
+The RISC-V calling convention requires that if code needs to preserve the value in a caller-saved
+register across a function call, the compiler must generate instructions that save the register to the
+stack before the function call, and restore from the stack when the function returns. Soswtchcan
+rely on the function that called it having already saved the caller-saved registers (either that, or the
+calling function didn’t need the values in the registers).
+8.4 Code: Scheduling
+The last section looked at the internals ofswtch; now let’s takeswtchas a given and examine
+switching from one process’s kernel thread through the scheduler to another process. The scheduler
+exists in the form of a special thread per CPU, each running theschedulerfunction. This function
+is in charge of choosing which process to run next. Each CPU has its own scheduler thread because
+more than one CPU may be looking for something to run at any given time. Process switching
+always goes through the scheduler thread, rather than direct from one process to another, to avoid
+some situations in which there would be no stack on which to execute the scheduler (e.g. if the old
+process has exited, or there is no other process that currently wants to run).
+A process that wants to give up the CPU must acquire its own process lockp->lock, release
+any other locks it is holding, update its own state (p->state), and then callsched. You can see
+77
+
+Process 1 Scheduler Process 2
+acquire(&p->lock);
+...
+p->state = RUNNABLE;
+swtch(&p->context, ...);
+swtch(...); // return
+release(&p->lock);
+// find a RUNNABLE p
+acquire(&p->lock);
+p->state = RUNNING;
+swtch(...,&p->context);
+swtch(&p->context,...); // return
+release(&p->lock);
+Figure 8.2:swtch()always has the scheduler thread as either source or destination, and the
+relevantp->lockis always held.
+this sequence inyield(2629),sleepandkexit.schedcallsswtchto save the current context
+inp->contextand switch to the scheduler context incpu->context.swtchreturns on the
+scheduler’s stack as thoughscheduler’sswtchhad returned(2582).
+scheduler(2558)runs a loop: find a process to run,swtch()to it, eventually it willswtch()
+back to the scheduler, which continues its loop. The scheduler loops over the process table look-
+ing for a runnable process, one that hasp->state == RUNNABLE. Once it finds a process, it
+sets the per-CPU current process variablec->proc, marks the process asRUNNING, and then calls
+swtchto start running it(2577-2582). At some point in the past, the target process must have called
+swtch(); the scheduler’s call toswtch()effectively returns from that earlier call. Figure 8.2
+illustrates this pattern.
+xv6 holdsp->lockacross calls toswtch: the caller ofswtchacquires the lock, but it’s re-
+leased in the target afterswtchreturns. This arrangement is unusual: it’s more common for the
+thread that acquires a lock to also release it. Xv6’s context switching breaks this convention be-
+causep->stateandp->contextmust be updated together atomically. For example, ifp->lock
+were released before invokingswtch, a different CPUcmight decide to run the process because
+its state isRUNNABLE. CPUcwill invokeswtchwhich will restore fromp->contextwhile the
+original CPU is still saving intop->context. The result would be that the process would be re-
+stored with partially-saved registers on CPUcand that both CPUs will be using the same stack,
+which would cause chaos. Onceyieldhas started to modify a running process’s state to make it
+RUNNABLE,p->lockmust remain held until the process has saved all its registers and the sched-
+uler is running on its stack. The earliest correct release point is afterscheduler(running on its
+own stack) clearsc->proc. Similarly, onceschedulerstarts to convert aRUNNABLEprocess to
+78
+
+RUNNING, the lock cannot be released until the process’s kernel thread is completely running (after
+theswtch, for example inyield).
+There is one case when the scheduler’s call toswtchdoes not end up insched.allocproc
+sets the contextraregister of a new process toforkret(2653), so that its firstswtch“returns”
+to the start of that function.forkretexists to release thep->lockand set up some control reg-
+isters and trapframe fields that are required in order to return to user space. At the end,forkret
+simulates the normal return path from a system call back to user space.
+8.5 Code: mycpu and myproc
+Xv6 often needs a pointer to the current process’sprocstructure. On a uniprocessor one could
+have a global variable pointing to the currentproc. This doesn’t work on a multi-core machine,
+since each CPU executes a different process. The way to solve this problem is to exploit the fact
+that each CPU has its own set of registers.
+While a given CPU is executing in the kernel, xv6 ensures that the CPU’stpregister always
+holds the CPU’s hartid. RISC-V numbers its CPUs, giving each a uniquehartid.mycpu(2178)uses
+tpto index an array ofcpustructures and return the one for the current CPU. Astruct cpu
+(1971)holds a pointer to theprocstructure of the process currently running on that CPU (if any),
+saved registers for the CPU’s scheduler thread, and the count of nested spinlocks needed to manage
+interrupt disabling.
+Ensuring that a CPU’stpholds the CPU’s hartid is a little involved, since user code is free to
+modifytp.startsets thetpregister early in the CPU’s boot sequence, while still in machine
+mode(1094). While preparing to return to user space,prepare_returnsavestpin the trampoline
+page, in case user code modifies it. Finally,uservecrestores that savedtpwhen entering the
+kernel from user space(3127). The compiler guarantees never to modifytpin kernel code. It
+would be more convenient if xv6 could ask the RISC-V hardware for the current hartid whenever
+needed, but RISC-V allows that only in machine mode, not in supervisor mode.
+The return values ofcpuidandmycpuare fragile: if the timer were to interrupt and cause the
+thread to yield and later resume execution on a different CPU, a previously returned value would
+no longer be correct. To avoid this problem, xv6 requires code to disable interrupts before calling
+cpuid()ormycpu(), and only enable interrupts when done using the returned value.
+The functionmyproc(2187)returns thestruct procpointer for the process that is running
+on the current CPU.myprocdisables interrupts, invokesmycpu, fetches the current process pointer
+(c->proc) out of thestruct cpu, and then enables interrupts. The return value ofmyprocis
+safe to use even if interrupts are enabled: if a timer interrupt moves the calling process to a different
+CPU, itsstruct procpointer will stay the same.
+8.6 Real world
+The xv6 scheduler implements a simple scheduling policy that runs each process in turn. This
+policy is calledround robin. Real operating systems implement more sophisticated policies that,
+79
+
+for example, allow processes to have priorities. The idea is that a runnable high-priority process
+will be preferred by the scheduler over a runnable low-priority process. These policies can become
+complex because there are often competing goals: for example, the operating system might also
+want to guarantee fairness and high throughput.
+8.7 Exercises
+1. Modify xv6 to use only one context switch when switching from one process’s kernel thread
+to another, rather than switching through the scheduler thread. The yielding thread will need
+to select the next thread itself and callswtch. The challenges will be to prevent multiple
+CPUs from executing the same thread accidentally; to get the locking right; and to avoid
+deadlocks.
+80

@@ -1,6 +1,7 @@
 data/*
 !data/raw/
 
+
 # 2. Ignore mọi thứ trong raw nhưng chừa lại các file PDF cụ thể
 data/raw/*
 !data/raw/economics.pdf
@@ -14,6 +15,7 @@ auth.sh
 .env
 __documents__
 __plans__
+__brainstorms__
 outputs/
 .DS_Store
 post-test/index.html

@@ -1,0 +1,393 @@
+{
+  "doc_id": "doc3",
+  "created_at": "2026-05-11T17:38:09.312249Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc3\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.300368,
+      "thresholded_coverage": 0.139535,
+      "threshold": 0.75,
+      "matched_doc_count": 6,
+      "total_doc_count": 43,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "august revolution",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "marxist-leninism",
+          "matched_quiz_concept": "marxism-leninism conversion",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "hồ chí minh",
+          "matched_quiz_concept": "hồ chí minh",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "religious policies",
+          "matched_quiz_concept": "religious diversity",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "national assembly",
+          "matched_quiz_concept": "national assembly roles",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "catholic participation",
+          "matched_quiz_concept": "political participation restrictions",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "freedom of religion",
+          "matched_quiz_concept": "freedom of religion",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "communist party",
+          "matched_quiz_concept": "indochinese communist party",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "national liberation",
+          "matched_quiz_concept": "national issues",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "cultural identity",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "democratic republic",
+          "matched_quiz_concept": "democratic liberty",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "religious integration",
+          "matched_quiz_concept": "religious diversity",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "anti-french resistance",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "war base",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "political parties",
+          "matched_quiz_concept": "political participation restrictions",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "ethnic groups",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "historical context",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "socialism era",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "national independence",
+          "matched_quiz_concept": "national issues",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "freedom of belief",
+          "matched_quiz_concept": "freedom of belief",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "unity of catholics",
+          "matched_quiz_concept": "freedom of religion",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "revolutionary history",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "public policies",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "religious beliefs",
+          "matched_quiz_concept": "religious diversity",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "national unity",
+          "matched_quiz_concept": "national issues",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "political speeches",
+          "matched_quiz_concept": "political participation restrictions",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "anti-communism",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vatican stance",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "popes pius",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "marxist socialism",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "leftist ideology",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "revolution context",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "eastern communism",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cultural reform",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "religious repression",
+          "matched_quiz_concept": "religious diversity",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "votive papers ban",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ancestor rites",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "spirit relocation",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "leftist infantilism",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "excessive zeal",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "political education",
+          "matched_quiz_concept": "political participation restrictions",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "belief tolerance",
+          "matched_quiz_concept": "freedom of belief",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "unified front",
+          "matched_quiz_concept": "august revolution",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 1.875095,
+      "breadth_normalized_entropy": 0.781975,
+      "matched_document_concepts": 11,
+      "total_document_concepts": 43
+    },
+    "duplication": {
+      "duplication": 0.607143,
+      "unique_matched_document_concepts": 11,
+      "total_quiz_concepts": 28,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "august revolution",
+          "matched_document_concept": "august revolution",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "vietnam",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "religion",
+          "matched_document_concept": "freedom of religion",
+          "similarity": 0.57735
+        },
+        {
+          "quiz_concept": "national issues",
+          "matched_document_concept": "national assembly",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "indochinese communist party",
+          "matched_document_concept": "communist party",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "1945 proclamation",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "uprising program",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "freedom of religion",
+          "matched_document_concept": "freedom of religion",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "democratic liberty",
+          "matched_document_concept": "democratic republic",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "military conscription",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "religious diversity",
+          "matched_document_concept": "religious policies",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "freedom from taxation",
+          "matched_document_concept": "freedom of religion",
+          "similarity": 0.333333
+        },
+        {
+          "quiz_concept": "role of catholic personalities",
+          "matched_document_concept": "catholic participation",
+          "similarity": 0.353553
+        },
+        {
+          "quiz_concept": "august revolution impact",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "government roles exclusion",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "political participation restrictions",
+          "matched_document_concept": "catholic participation",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "marxism-leninism conversion",
+          "matched_document_concept": "marxist-leninism",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "national assembly roles",
+          "matched_document_concept": "national assembly",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "early vietnamese political structure",
+          "matched_document_concept": "political parties",
+          "similarity": 0.353553
+        },
+        {
+          "quiz_concept": "religious policy",
+          "matched_document_concept": "religious policies",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "hồ chí minh",
+          "matched_document_concept": "hồ chí minh",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "1945 government",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "freedom of belief",
+          "matched_document_concept": "freedom of belief",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "atheism proposal",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "erroneous tendency",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "trường chinh",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "1946",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "overthrow",
+          "matched_document_concept": "august revolution",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 43,
+      "quiz_concepts": 28
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc3\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc3\\question_concepts.json"
+  }
+}

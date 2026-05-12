@@ -1,0 +1,383 @@
+{
+  "doc_id": "doc8",
+  "created_at": "2026-05-11T17:38:09.806121Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc8\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.35734,
+      "thresholded_coverage": 0.153846,
+      "threshold": 0.75,
+      "matched_doc_count": 8,
+      "total_doc_count": 52,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "quantum router",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "entangled web",
+          "matched_quiz_concept": "entangled web",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "quantum routing",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "manual configuration",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "automated control",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "quantum repeater",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "static route",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "digital forwarding",
+          "matched_quiz_concept": "classical digital communication",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "quantum forwarding",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "bell state measurement",
+          "matched_quiz_concept": "bell state measurement",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "entangled pair",
+          "matched_quiz_concept": "entangled pair creation",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "routing table",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "forwarding table",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "quantum teleportation",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "state recovery",
+          "matched_quiz_concept": "state recovery",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "qubit transfer",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "source node",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "destination node",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "next hop",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "link metric",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "epr management",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "digital path",
+          "matched_quiz_concept": "classical digital communication",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "quantum path",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "digital quantum interface",
+          "matched_quiz_concept": "quantum network interface",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "entangled pair management",
+          "matched_quiz_concept": "entangled pair creation",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "qubit recovery",
+          "matched_quiz_concept": "state recovery",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "qubit selection",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "teleport command",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "qubit forwarding",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "entangled pair creation",
+          "matched_quiz_concept": "entangled pair creation",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "epr pair identifier",
+          "matched_quiz_concept": "entangled pair creation",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "quantum entanglement",
+          "matched_quiz_concept": "quantum entanglement",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "entangled pair distribution",
+          "matched_quiz_concept": "entangled pair creation",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "qubit teleportation",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "digital network interface",
+          "matched_quiz_concept": "quantum network interface",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "quantum network interface",
+          "matched_quiz_concept": "quantum network interface",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "quantum state transfer",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "unbounded distance transfer",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "quantum internet",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "entanglement distribution",
+          "matched_quiz_concept": "distribution",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "qubit storage",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "teleportation protocol",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "quantum simulator",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "physical teleportation nodes",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "quantum cryptography",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "secure transactions",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "quantum computation",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "quantum information",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "all-photonic teleportation",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "on-demand emitters",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "metropolitan fiber network",
+          "matched_quiz_concept": "fiber optic communication",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "photonic emitters",
+          "matched_quiz_concept": "quantum router",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 2.115209,
+      "breadth_normalized_entropy": 0.918624,
+      "matched_document_concepts": 10,
+      "total_document_concepts": 52
+    },
+    "duplication": {
+      "duplication": 0.411765,
+      "unique_matched_document_concepts": 10,
+      "total_quiz_concepts": 17,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "quantum router",
+          "matched_document_concept": "quantum router",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "entangled web",
+          "matched_document_concept": "entangled web",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "heisenberg uncertainty principle",
+          "matched_document_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "quantum no-cloning theorem",
+          "matched_document_concept": "quantum router",
+          "similarity": 0.353553
+        },
+        {
+          "quiz_concept": "entanglement degradation rate",
+          "matched_document_concept": "quantum entanglement",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "bell state limitations",
+          "matched_document_concept": "bell state measurement",
+          "similarity": 0.666667
+        },
+        {
+          "quiz_concept": "entangled pairs",
+          "matched_document_concept": "entangled web",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "bell state measurement",
+          "matched_document_concept": "bell state measurement",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "classical communication",
+          "matched_document_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "state recovery",
+          "matched_document_concept": "state recovery",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "satellite communication",
+          "matched_document_concept": "quantum router",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "fiber optic communication",
+          "matched_document_concept": "metropolitan fiber network",
+          "similarity": 0.333333
+        },
+        {
+          "quiz_concept": "classical digital communication",
+          "matched_document_concept": "digital forwarding",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "quantum entanglement",
+          "matched_document_concept": "quantum entanglement",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "entangled pair creation",
+          "matched_document_concept": "entangled pair creation",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "distribution",
+          "matched_document_concept": "entanglement distribution",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "quantum network interface",
+          "matched_document_concept": "quantum network interface",
+          "similarity": 1.0
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 52,
+      "quiz_concepts": 17
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc8\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc8\\question_concepts.json"
+  }
+}

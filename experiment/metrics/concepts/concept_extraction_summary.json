@@ -1,0 +1,155 @@
+{
+  "created_at": "2026-05-11T17:37:27.224899Z",
+  "outputs_baseline_root": "outputs-baseline",
+  "raw_documents_root": "data\\raw",
+  "concept_root": "experiment\\metrics\\concepts",
+  "resume": true,
+  "retry": {
+    "max_retries": 5,
+    "initial_backoff_seconds": 1.0,
+    "max_backoff_seconds": 20.0
+  },
+  "documents_total": 15,
+  "documents_completed": 1,
+  "documents_already_completed": 14,
+  "documents_failed": 0,
+  "documents_skipped": 0,
+  "records": [
+    {
+      "doc_id": "doc1",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc1\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc1\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc10",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc10\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc10\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc11",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc11\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc11\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc12",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc12\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc12\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc13",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc13\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc13\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc14",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc14\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc14\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc15",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc15\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc15\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc2",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc2\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc2\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc3",
+      "status": "completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc3\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc3\\question_concepts.json"
+      },
+      "document_concepts": 43,
+      "question_concepts": 28
+    },
+    {
+      "doc_id": "doc4",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc4\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc4\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc5",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc5\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc5\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc6",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc6\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc6\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc7",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc7\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc7\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc8",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc8\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc8\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    },
+    {
+      "doc_id": "doc9",
+      "status": "already_completed",
+      "artifacts": {
+        "document_concepts_path": "experiment\\metrics\\concepts\\doc9\\document_concepts.json",
+        "question_concepts_path": "experiment\\metrics\\concepts\\doc9\\question_concepts.json"
+      },
+      "reason": "Skipped because concept artifacts already exist"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "doc_id": "doc12",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:08:25.840781Z",
+  "all_concepts": [
+    "job demands",
+    "worker capabilities",
+    "physical responses",
+    "emotional responses",
+    "demand capability mismatch",
+    "niosh",
+    "worker stress",
+    "job stress",
+    "work stress contributor",
+    "career advancement",
+    "effective communication",
+    "poor management style",
+    "supportive work environment",
+    "stress cardiovascular disease effect",
+    "positive stress performance",
+    "stress substance abuse consequence",
+    "stress job dissatisfaction impact",
+    "healthy organization",
+    "work-life balance",
+    "career development",
+    "employee feedback",
+    "safety behavior",
+    "low-stress environment"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "Which of the following is defined as the harmful physical and emotional responses caused by job demands not matching worker capabilities?",
+      "concepts": [
+        "job demands",
+        "worker capabilities",
+        "physical responses",
+        "emotional responses",
+        "demand capability mismatch"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "According to the National Institute for Occupational Safety and Health (NIOSH), what percentage of workers report their job as 'very or extremely stressful'?",
+      "concepts": [
+        "niosh",
+        "worker stress",
+        "job stress"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Which factor is listed as a contributor to work stress in the document?",
+      "concepts": [
+        "work stress contributor",
+        "career advancement",
+        "effective communication",
+        "poor management style",
+        "supportive work environment"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "What is a positive effect of stress mentioned in the document?",
+      "concepts": [
+        "stress cardiovascular disease effect",
+        "positive stress performance",
+        "stress substance abuse consequence",
+        "stress job dissatisfaction impact"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Which characteristic is described as part of a healthy, low-stress organization?",
+      "concepts": [
+        "healthy organization",
+        "work-life balance",
+        "career development",
+        "employee feedback",
+        "safety behavior",
+        "low-stress environment"
+      ]
+    }
+  ]
+}

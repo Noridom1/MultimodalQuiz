@@ -1,0 +1,348 @@
+{
+  "doc_id": "doc4",
+  "created_at": "2026-05-11T17:38:09.414936Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc4\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.254843,
+      "thresholded_coverage": 0.1,
+      "threshold": 0.75,
+      "matched_doc_count": 4,
+      "total_doc_count": 40,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "environmental determinism",
+          "matched_quiz_concept": "environmental determinism",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "naturalised humans",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "nature worship",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "low technological development",
+          "matched_quiz_concept": "technological adaptation",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "forest spirit",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "shifting cultivation",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cultural landscape",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "human-nature harmony",
+          "matched_quiz_concept": "human adaptation",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "tribal fair",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "forest herbs (gajjhara/kuchla)",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "spiritual connection",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "resource dependence",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "possibilism",
+          "matched_quiz_concept": "possibilism",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "neodeterminism",
+          "matched_quiz_concept": "neodeterminism",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "stop-and-go determinism",
+          "matched_quiz_concept": "environmental determinism",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "winter adaptation",
+          "matched_quiz_concept": "human adaptation",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "technological survival",
+          "matched_quiz_concept": "technological adaptation",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "artificial environment",
+          "matched_quiz_concept": "human-environment interaction",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "cultural imprint",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "greenhouse effect",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "urban sprawl",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "satellite technology",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "resource barter",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "human adaptation",
+          "matched_quiz_concept": "human adaptation",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "environmental constraints",
+          "matched_quiz_concept": "environmental determinism",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "greenhouse gas impact",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "['environmental impact', 'ozone depletion', 'global warming']",
+          "matched_quiz_concept": "environmental determinism",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "['receding glaciers', 'lands degradation', 'neo-determinism']",
+          "matched_quiz_concept": "environmental determinism",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "['imperial interests', 'trade exploration', 'regional analysis']",
+          "matched_quiz_concept": "spatial analysis",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "['colonial period', 'human geography', 'spatial organisation']",
+          "matched_quiz_concept": "human adaptation",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "['areal differentiation', 'quantitative revolution', 'welfare school']",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "['radical school', 'behavioural school', 'marxist theory']",
+          "matched_quiz_concept": "humanization theory",
+          "similarity": 0.25
+        },
+        {
+          "document_concept": "['social inequality', 'poverty causes', 'capitalism']",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "['spatial patterns', 'human-environment interrelationship', 'local context']",
+          "matched_quiz_concept": "human-environment interaction",
+          "similarity": 0.436436
+        },
+        {
+          "document_concept": "['universal theories', 'postmodernism', 'interdisciplinary interface']",
+          "matched_quiz_concept": "{'concept': 'dynamic relationships'}",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "['economic geography', 'cultural geography', 'urban geography']",
+          "matched_quiz_concept": "economic disparities",
+          "similarity": 0.204124
+        },
+        {
+          "document_concept": "['political geography', 'gender geography', 'medical geography']",
+          "matched_quiz_concept": "political boundaries",
+          "similarity": 0.204124
+        },
+        {
+          "document_concept": "['settlement geography', 'technological development', 'exploration techniques']",
+          "matched_quiz_concept": "technological adaptation",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "['geographical mapping', 'statistical analysis', 'sociopolitical factors']",
+          "matched_quiz_concept": "spatial analysis",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "['environmental protection', 'demographic studies', 'resource distribution']",
+          "matched_quiz_concept": "environmental determinism",
+          "similarity": 0.288675
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 1.672625,
+      "breadth_normalized_entropy": 0.726412,
+      "matched_document_concepts": 10,
+      "total_document_concepts": 40
+    },
+    "duplication": {
+      "duplication": 0.545455,
+      "unique_matched_document_concepts": 10,
+      "total_quiz_concepts": 22,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "{'concept': 'dynamic relationships'}",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "{'concept': 'human-environment interaction'}",
+          "matched_document_concept": "['spatial patterns', 'human-environment interrelationship', 'local context']",
+          "similarity": 0.377964
+        },
+        {
+          "quiz_concept": "{'concept': 'synthetic study'}",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "{'concept': 'physical earth laws'}",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "{'concept': 'restless dynamics'}",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "environmental determinism",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "possibilism",
+          "matched_document_concept": "possibilism",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "neodeterminism",
+          "matched_document_concept": "neodeterminism",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "humanization theory",
+          "matched_document_concept": "['radical school', 'behavioural school', 'marxist theory']",
+          "similarity": 0.25
+        },
+        {
+          "quiz_concept": "human adaptation",
+          "matched_document_concept": "human adaptation",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "environmental practices",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "technological adaptation",
+          "matched_document_concept": "winter adaptation",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "spatial analysis",
+          "matched_document_concept": "['imperial interests', 'trade exploration', 'regional analysis']",
+          "similarity": 0.288675
+        },
+        {
+          "quiz_concept": "human-environment interaction",
+          "matched_document_concept": "['spatial patterns', 'human-environment interrelationship', 'local context']",
+          "similarity": 0.436436
+        },
+        {
+          "quiz_concept": "economic disparities",
+          "matched_document_concept": "['economic geography', 'cultural geography', 'urban geography']",
+          "similarity": 0.204124
+        },
+        {
+          "quiz_concept": "political boundaries",
+          "matched_document_concept": "['political geography', 'gender geography', 'medical geography']",
+          "similarity": 0.204124
+        },
+        {
+          "quiz_concept": "physical environments",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "hunger games",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "suzanne collins",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "panem",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "district 12",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "mockingjay",
+          "matched_document_concept": "environmental determinism",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 40,
+      "quiz_concepts": 22
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc4\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc4\\question_concepts.json"
+  }
+}

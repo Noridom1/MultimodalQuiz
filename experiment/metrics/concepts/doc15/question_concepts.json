@@ -1,0 +1,78 @@
+{
+  "doc_id": "doc15",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:13:58.599284Z",
+  "all_concepts": [
+    "psychology of concepts",
+    "gestalt theory",
+    "freudian psychoanalysis",
+    "american cognitive psychology",
+    "british empirical tradition",
+    "materialist monism",
+    "cartesian dualism",
+    "existentialism",
+    "nihilism",
+    "concept nature",
+    "social constructs",
+    "mental representations",
+    "linguistic nature",
+    "physiological phenomena",
+    "genetic factors",
+    "emotion in cognition",
+    "social context",
+    "mathematical modeling",
+    "{'concept': 'hierarchical definition critique'}"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "What is the most dominant trend in the psychology of concepts in the Anglophone world, as described in the text?",
+      "concepts": [
+        "psychology of concepts",
+        "gestalt theory",
+        "freudian psychoanalysis",
+        "american cognitive psychology",
+        "british empirical tradition"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "What fundamental philosophical assumption underlies the Psychology of Concepts according to the text?",
+      "concepts": [
+        "materialist monism",
+        "cartesian dualism",
+        "existentialism",
+        "nihilism"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "What is one of the key assumptions of the Psychology of Concepts regarding the nature of concepts?",
+      "concepts": [
+        "psychology of concepts",
+        "concept nature",
+        "social constructs",
+        "mental representations",
+        "linguistic nature",
+        "physiological phenomena"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "What limitation of psychological research methods is pointed out regarding the study of concepts?",
+      "concepts": [
+        "genetic factors",
+        "emotion in cognition",
+        "social context",
+        "mathematical modeling"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "What critique is made of the Classical Theory of Concepts in the text?",
+      "concepts": [
+        "{'concept': 'hierarchical definition critique'}"
+      ]
+    }
+  ]
+}

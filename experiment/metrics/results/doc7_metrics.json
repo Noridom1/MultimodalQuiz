@@ -1,0 +1,248 @@
+{
+  "doc_id": "doc7",
+  "created_at": "2026-05-11T17:38:09.709795Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc7\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.453356,
+      "thresholded_coverage": 0.208333,
+      "threshold": 0.75,
+      "matched_doc_count": 5,
+      "total_doc_count": 24,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "supply",
+          "matched_quiz_concept": "{'concept': 'supply'}",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "quantity supplied",
+          "matched_quiz_concept": "quantity supplied increase",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "supply curve",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "demand curve",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "equilibrium",
+          "matched_quiz_concept": "equilibrium price",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "equilibrium price",
+          "matched_quiz_concept": "equilibrium price",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "equilibrium quantity",
+          "matched_quiz_concept": "quantity demanded",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "excess supply",
+          "matched_quiz_concept": "{'concept': 'supply'}",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "excess demand",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "law of supply",
+          "matched_quiz_concept": "law of supply",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "supply schedule",
+          "matched_quiz_concept": "{'concept': 'supply'}",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "demand schedule",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "horizontal axis",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vertical axis",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "intersection",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "point e",
+          "matched_quiz_concept": "specific demand point",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "market equilibrium",
+          "matched_quiz_concept": "equilibrium price",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "economic pressure",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "price per gallon",
+          "matched_quiz_concept": "price increase",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "millions of gallons",
+          "matched_quiz_concept": "law of demand",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "upward slope",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "steeper slope",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "flatter slope",
+          "matched_quiz_concept": "demand curve",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "quantity demanded",
+          "matched_quiz_concept": "quantity demanded",
+          "similarity": 1.0
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 1.846053,
+      "breadth_normalized_entropy": 0.948683,
+      "matched_document_concepts": 7,
+      "total_document_concepts": 24
+    },
+    "duplication": {
+      "duplication": 0.611111,
+      "unique_matched_document_concepts": 7,
+      "total_quiz_concepts": 18,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "demand curve",
+          "matched_document_concept": "demand curve",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "price-quantity relationship",
+          "matched_document_concept": "quantity supplied",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "specific demand point",
+          "matched_document_concept": "demand curve",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "demand vs quantity demanded",
+          "matched_document_concept": "quantity demanded",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "law of demand",
+          "matched_document_concept": "law of supply",
+          "similarity": 0.666667
+        },
+        {
+          "quiz_concept": "price increase",
+          "matched_document_concept": "equilibrium price",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "quantity demanded",
+          "matched_document_concept": "quantity demanded",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "consumer behavior",
+          "matched_document_concept": "supply",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "substitute goods",
+          "matched_document_concept": "supply",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "equilibrium price",
+          "matched_document_concept": "equilibrium price",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "gasoline market",
+          "matched_document_concept": "market equilibrium",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "{'concept': 'equilibrium price'}",
+          "matched_document_concept": "equilibrium price",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "{'concept': 'surplus'}",
+          "matched_document_concept": "supply",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "{'concept': 'supply'}",
+          "matched_document_concept": "supply",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "{'concept': 'demand'}",
+          "matched_document_concept": "demand curve",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "law of supply",
+          "matched_document_concept": "law of supply",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "quantity supplied increase",
+          "matched_document_concept": "quantity supplied",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "higher profits",
+          "matched_document_concept": "supply",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 24,
+      "quiz_concepts": 18
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc7\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc7\\question_concepts.json"
+  }
+}

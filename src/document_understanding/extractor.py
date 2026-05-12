@@ -78,7 +78,7 @@ class DocumentExtractor:
         backend: ExtractorBackend = "rule",
         provider: LLMProvider = "mistral",
         granularity: ExtractionGranularity = "balanced",
-        model: str | None = None,
+        model: str | None = "devstral-medium-latest",
         batch_size: int = 4,
         max_calls: int = 24,
     ) -> None:
@@ -88,6 +88,15 @@ class DocumentExtractor:
         self.model = model or _default_model_for_provider(provider)
         self.batch_size = max(1, batch_size)
         self.max_calls = max(1, max_calls)
+
+        logger.info("Initialized DocumentExtractor with backend=%s, provider=%s, granularity=%s, model=%s, batch_size=%d, max_calls=%d",
+            self.backend,
+            self.provider,
+            self.granularity,
+            self.model,
+            self.batch_size,
+            self.max_calls,
+        )
 
     def extract(self, text: str) -> dict[str, object]:
         sentences = _split_sentences(text)

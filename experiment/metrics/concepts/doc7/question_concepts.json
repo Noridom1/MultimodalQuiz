@@ -1,0 +1,76 @@
+{
+  "doc_id": "doc7",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:23:32.240503Z",
+  "all_concepts": [
+    "demand curve",
+    "price-quantity relationship",
+    "specific demand point",
+    "demand vs quantity demanded",
+    "law of demand",
+    "price increase",
+    "quantity demanded",
+    "consumer behavior",
+    "substitute goods",
+    "equilibrium price",
+    "gasoline market",
+    "{'concept': 'equilibrium price'}",
+    "{'concept': 'surplus'}",
+    "{'concept': 'supply'}",
+    "{'concept': 'demand'}",
+    "law of supply",
+    "quantity supplied increase",
+    "higher profits"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "What is the difference between demand and quantity demanded?",
+      "concepts": [
+        "demand curve",
+        "price-quantity relationship",
+        "specific demand point",
+        "demand vs quantity demanded"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "According to the law of demand, what happens to the quantity demanded when the price of a good increases?",
+      "concepts": [
+        "law of demand",
+        "price increase",
+        "quantity demanded",
+        "consumer behavior",
+        "substitute goods"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "What is the equilibrium price in the gasoline market as described in Table 3.3?",
+      "concepts": [
+        "equilibrium price",
+        "gasoline market"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "What occurs when the price of a good is set above the equilibrium price?",
+      "concepts": [
+        "{'concept': 'equilibrium price'}",
+        "{'concept': 'surplus'}",
+        "{'concept': 'supply'}",
+        "{'concept': 'demand'}"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Which of the following best describes the law of supply?",
+      "concepts": [
+        "law of supply",
+        "price increase",
+        "quantity supplied increase",
+        "higher profits"
+      ]
+    }
+  ]
+}

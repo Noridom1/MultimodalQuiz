@@ -1,0 +1,77 @@
+{
+  "doc_id": "doc5",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:19:29.898921Z",
+  "all_concepts": [
+    "earth's shadow",
+    "moonlight emission",
+    "sunlight reflection angle",
+    "moon's stellar position",
+    "lunar sidereal period",
+    "synodic period difference",
+    "earth-moon orbital dynamics",
+    "full moon",
+    "highest in sky",
+    "time of day",
+    "moon opposite sun",
+    "moon rotation",
+    "earth orbit",
+    "tidal locking",
+    "moon's orbital tilt",
+    "celestial alignment",
+    "lunar eclipse frequency",
+    "full moon phase",
+    "eclipse occurrence"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "What causes the lunar phases?",
+      "concepts": [
+        "earth's shadow",
+        "moonlight emission",
+        "sunlight reflection angle",
+        "moon's stellar position"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "What is the length of the Moon's sidereal period?",
+      "concepts": [
+        "lunar sidereal period",
+        "synodic period difference",
+        "earth-moon orbital dynamics"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "When is the full moon highest in the sky?",
+      "concepts": [
+        "full moon",
+        "highest in sky",
+        "time of day",
+        "moon opposite sun"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Why do we always see the same side of the Moon?",
+      "concepts": [
+        "moon rotation",
+        "earth orbit",
+        "tidal locking"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Why don't lunar eclipses occur every month?",
+      "concepts": [
+        "moon's orbital tilt",
+        "celestial alignment",
+        "lunar eclipse frequency",
+        "full moon phase",
+        "eclipse occurrence"
+      ]
+    }
+  ]
+}

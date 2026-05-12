@@ -1,0 +1,328 @@
+{
+  "doc_id": "doc6",
+  "created_at": "2026-05-11T17:38:09.637218Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc6\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.221821,
+      "thresholded_coverage": 0.119048,
+      "threshold": 0.75,
+      "matched_doc_count": 5,
+      "total_doc_count": 42,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "neurotransmitters",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "synaptic vesicles",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "blood-brain barrier",
+          "matched_quiz_concept": "blood-brain barrier",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "enzyme action",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "nutrient uptake",
+          "matched_quiz_concept": "nutrient transport",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "action potential",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "calcium release",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vesicle fusion",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "synaptic cleft",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ionotropic receptors",
+          "matched_quiz_concept": "ionotropic receptors",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "metabotropic receptors",
+          "matched_quiz_concept": "metabotropic receptors",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "neurotransmitter synthesis",
+          "matched_quiz_concept": "neurotransmitter precursor",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "amine neurotransmitters",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "neuropeptides",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "energy efficiency",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "astrocyte transport",
+          "matched_quiz_concept": "nutrient transport",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "metal co-factors",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "synapse structure",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "presynaptic terminal",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "reuptake process",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "neuronal communication",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "transmembrane channels",
+          "matched_quiz_concept": "ion channels",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "ligand binding",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ion transport",
+          "matched_quiz_concept": "ion channels",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "conformational change",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "postsynaptic effects",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "g-proteins",
+          "matched_quiz_concept": "g-proteins",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "secondary messengers",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "receptor activation",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "protein coupling",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "membrane ion channels",
+          "matched_quiz_concept": "ion channels",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "neurotransmitter inactivation",
+          "matched_quiz_concept": "neurotransmitter precursor",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "reuptake mechanism",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "transporter proteins",
+          "matched_quiz_concept": "g-proteins",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "axon terminal recycling",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "autoreceptors",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "feedback regulation",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vesicle failure",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "neurotransmitter oxidation",
+          "matched_quiz_concept": "neurotransmitter precursor",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "synaptic redundancy",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "dietary components",
+          "matched_quiz_concept": "dietary source",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "neurochemical feedback",
+          "matched_quiz_concept": "neuron",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 1.927392,
+      "breadth_normalized_entropy": 0.877194,
+      "matched_document_concepts": 9,
+      "total_document_concepts": 42
+    },
+    "duplication": {
+      "duplication": 0.4375,
+      "unique_matched_document_concepts": 9,
+      "total_quiz_concepts": 16,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "neuron",
+          "matched_document_concept": "neurotransmitters",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "neurotransmitter precursor",
+          "matched_document_concept": "neurotransmitter synthesis",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "synthesis source",
+          "matched_document_concept": "neurotransmitter synthesis",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "dietary source",
+          "matched_document_concept": "dietary components",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "membrane source",
+          "matched_document_concept": "membrane ion channels",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "ionotropic receptors",
+          "matched_document_concept": "ionotropic receptors",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "metabotropic receptors",
+          "matched_document_concept": "metabotropic receptors",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "g-proteins",
+          "matched_document_concept": "g-proteins",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "ion channels",
+          "matched_document_concept": "membrane ion channels",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "signal transduction",
+          "matched_document_concept": "neurotransmitters",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "blood-brain barrier",
+          "matched_document_concept": "blood-brain barrier",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "nutrient transport",
+          "matched_document_concept": "nutrient uptake",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "astrocytes",
+          "matched_document_concept": "neurotransmitters",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "neurolemmocytes",
+          "matched_document_concept": "neurotransmitters",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "microglia",
+          "matched_document_concept": "neurotransmitters",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "oligodendrocytes",
+          "matched_document_concept": "neurotransmitters",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 42,
+      "quiz_concepts": 16
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc6\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc6\\question_concepts.json"
+  }
+}

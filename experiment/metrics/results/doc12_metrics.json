@@ -1,0 +1,393 @@
+{
+  "doc_id": "doc12",
+  "created_at": "2026-05-11T17:38:08.515598Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc12\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.375774,
+      "thresholded_coverage": 0.145833,
+      "threshold": 0.75,
+      "matched_doc_count": 7,
+      "total_doc_count": 48,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "stress management",
+          "matched_quiz_concept": "worker stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "job stress",
+          "matched_quiz_concept": "job stress",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "construction industry",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mental demands",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "physical demands",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "acute stress",
+          "matched_quiz_concept": "worker stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "chronic stress",
+          "matched_quiz_concept": "worker stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "work-related stress",
+          "matched_quiz_concept": "work stress contributor",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "harmful responses",
+          "matched_quiz_concept": "physical responses",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "stress benefits",
+          "matched_quiz_concept": "worker stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "health complaints",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mental health risks",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cardiovascular disease",
+          "matched_quiz_concept": "stress cardiovascular disease effect",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "substance abuse",
+          "matched_quiz_concept": "stress substance abuse consequence",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "work environment",
+          "matched_quiz_concept": "supportive work environment",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "task design",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "management style",
+          "matched_quiz_concept": "poor management style",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "co-worker relationships",
+          "matched_quiz_concept": "worker capabilities",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "career concerns",
+          "matched_quiz_concept": "career advancement",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "workplace injury",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "headache symptom",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sleep disturbances",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "job dissatisfaction",
+          "matched_quiz_concept": "stress job dissatisfaction impact",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "stress symptoms",
+          "matched_quiz_concept": "worker stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "social connections",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "work breaks",
+          "matched_quiz_concept": "work stress contributor",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "exercise for stress",
+          "matched_quiz_concept": "worker stress",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "relaxation activities",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "employee recognition",
+          "matched_quiz_concept": "employee feedback",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "career development",
+          "matched_quiz_concept": "career development",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "work culture",
+          "matched_quiz_concept": "work stress contributor",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "organizational values",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "self-awareness",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "workplace resources",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "workplace stress",
+          "matched_quiz_concept": "worker stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "work stress",
+          "matched_quiz_concept": "work stress contributor",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "mental health",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "niosh",
+          "matched_quiz_concept": "niosh",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "nimh",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "health policies",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "safety protocols",
+          "matched_quiz_concept": "safety behavior",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "work-life balance",
+          "matched_quiz_concept": "work-life balance",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "occupational health",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "workplace well-being",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "work stress trends",
+          "matched_quiz_concept": "work stress contributor",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "health magazines",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "center research",
+          "matched_quiz_concept": "job demands",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "stress causes",
+          "matched_quiz_concept": "worker stress",
+          "similarity": 0.5
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 2.524781,
+      "breadth_normalized_entropy": 0.910622,
+      "matched_document_concepts": 16,
+      "total_document_concepts": 48
+    },
+    "duplication": {
+      "duplication": 0.304348,
+      "unique_matched_document_concepts": 16,
+      "total_quiz_concepts": 23,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "job demands",
+          "matched_document_concept": "job stress",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "worker capabilities",
+          "matched_document_concept": "co-worker relationships",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "physical responses",
+          "matched_document_concept": "physical demands",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "emotional responses",
+          "matched_document_concept": "harmful responses",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "demand capability mismatch",
+          "matched_document_concept": "stress management",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "niosh",
+          "matched_document_concept": "niosh",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "worker stress",
+          "matched_document_concept": "stress management",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "job stress",
+          "matched_document_concept": "job stress",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "work stress contributor",
+          "matched_document_concept": "work stress",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "career advancement",
+          "matched_document_concept": "career concerns",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "effective communication",
+          "matched_document_concept": "stress management",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "poor management style",
+          "matched_document_concept": "management style",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "supportive work environment",
+          "matched_document_concept": "work environment",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "stress cardiovascular disease effect",
+          "matched_document_concept": "cardiovascular disease",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "positive stress performance",
+          "matched_document_concept": "stress management",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "stress substance abuse consequence",
+          "matched_document_concept": "substance abuse",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "stress job dissatisfaction impact",
+          "matched_document_concept": "job stress",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "healthy organization",
+          "matched_document_concept": "stress management",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "work-life balance",
+          "matched_document_concept": "work-life balance",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "career development",
+          "matched_document_concept": "career development",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "employee feedback",
+          "matched_document_concept": "employee recognition",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "safety behavior",
+          "matched_document_concept": "safety protocols",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "low-stress environment",
+          "matched_document_concept": "stress management",
+          "similarity": 0.408248
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 48,
+      "quiz_concepts": 23
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc12\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc12\\question_concepts.json"
+  }
+}

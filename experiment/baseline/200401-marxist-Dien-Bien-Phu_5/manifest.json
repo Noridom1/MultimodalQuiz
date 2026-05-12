@@ -1,0 +1,27 @@
+{
+  "run_id": "200401-marxist-Dien-Bien-Phu_5",
+  "created_at": "2026-04-27T07:56:11.827144Z",
+  "source_document": "data\\raw\\200401-marxist-Dien-Bien-Phu.pdf",
+  "output_root": "experiment/baseline/200401-marxist-Dien-Bien-Phu_5",
+  "stages": {
+    "baseline": "completed"
+  },
+  "artifacts": {
+    "document_text": "experiment/baseline/200401-marxist-Dien-Bien-Phu_5/document/document_text.txt",
+    "questions": "experiment/baseline/200401-marxist-Dien-Bien-Phu_5/generation/questions.json",
+    "quiz_package": "experiment/baseline/200401-marxist-Dien-Bien-Phu_5/generation/quiz_package.json",
+    "image_artifacts": "experiment/baseline/200401-marxist-Dien-Bien-Phu_5/generation/image_artifacts.json",
+    "pipeline_log": "experiment/baseline/200401-marxist-Dien-Bien-Phu_5/logs/pipeline.log"
+  },
+  "config": {
+    "method": "baseline_direct_llm",
+    "provider": "mistral",
+    "model": "devstral-medium-latest",
+    "num_questions": 5,
+    "difficulty_distribution": {
+      "easy": 0.4,
+      "medium": 0.4,
+      "hard": 0.2
+    }
+  }
+}

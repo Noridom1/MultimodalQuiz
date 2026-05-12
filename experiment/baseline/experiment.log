@@ -1,0 +1,14 @@
+2026-04-27 14:52:55,905 INFO event=experiment_started method=baseline document=- run_id=- status=started elapsed_sec=- message=input_dir=data\raw files=2 dry_run=True
+2026-04-27 14:52:55,908 INFO event=document_started method=baseline document=data\raw\200401-marxist-Dien-Bien-Phu.pdf run_id=200401-marxist-Dien-Bien-Phu_3 status=started elapsed_sec=- message=queued_index=1 of 2
+2026-04-27 14:52:55,909 INFO event=document_dry_run method=baseline document=data\raw\200401-marxist-Dien-Bien-Phu.pdf run_id=200401-marxist-Dien-Bien-Phu_3 status=dry_run elapsed_sec=0.001 message=Skipped execution due to --dry-run
+2026-04-27 14:52:55,910 INFO event=document_started method=baseline document=data\raw\AugustRevolution.pdf run_id=AugustRevolution_3 status=started elapsed_sec=- message=queued_index=2 of 2
+2026-04-27 14:52:55,913 INFO event=document_dry_run method=baseline document=data\raw\AugustRevolution.pdf run_id=AugustRevolution_3 status=dry_run elapsed_sec=0.002 message=Skipped execution due to --dry-run
+2026-04-27 14:52:55,916 INFO event=experiment_finished method=baseline document=- run_id=- status=completed elapsed_sec=0.008 message=succeeded=0 failed=0 summary=experiment/baseline/experiment_summary.json
+2026-04-27 14:54:21,381 INFO event=experiment_started method=baseline document=- run_id=- status=started elapsed_sec=- message=input_dir=data\raw files=1 dry_run=True
+2026-04-27 14:54:21,398 INFO event=document_started method=baseline document=data\raw\200401-marxist-Dien-Bien-Phu.pdf run_id=200401-marxist-Dien-Bien-Phu_3 status=started elapsed_sec=- message=queued_index=1 of 1
+2026-04-27 14:54:21,398 INFO event=document_dry_run method=baseline document=data\raw\200401-marxist-Dien-Bien-Phu.pdf run_id=200401-marxist-Dien-Bien-Phu_3 status=dry_run elapsed_sec=0.002 message=Skipped execution due to --dry-run
+2026-04-27 14:54:21,398 INFO event=experiment_finished method=baseline document=- run_id=- status=completed elapsed_sec=0.005 message=succeeded=0 failed=0 summary=experiment/baseline/experiment_summary.json
+2026-04-27 14:55:51,149 INFO event=experiment_started method=baseline document=- run_id=- status=started elapsed_sec=- message=input_dir=data\raw files=1 dry_run=False
+2026-04-27 14:55:51,149 INFO event=document_started method=baseline document=data\raw\200401-marxist-Dien-Bien-Phu.pdf run_id=200401-marxist-Dien-Bien-Phu_5 status=started elapsed_sec=- message=queued_index=1 of 1
+2026-04-27 14:56:11,831 INFO event=document_completed method=baseline document=data\raw\200401-marxist-Dien-Bien-Phu.pdf run_id=200401-marxist-Dien-Bien-Phu_5 status=success elapsed_sec=20.676 message=run_root=experiment/baseline/200401-marxist-Dien-Bien-Phu_5
+2026-04-27 14:56:11,834 INFO event=experiment_finished method=baseline document=- run_id=- status=completed elapsed_sec=20.679 message=succeeded=1 failed=0 summary=experiment/baseline/experiment_summary.json

@@ -1,0 +1,74 @@
+{
+  "doc_id": "doc8",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:26:00.763982Z",
+  "all_concepts": [
+    "quantum router",
+    "entangled web",
+    "heisenberg uncertainty principle",
+    "quantum no-cloning theorem",
+    "entanglement degradation rate",
+    "bell state limitations",
+    "entangled pairs",
+    "bell state measurement",
+    "classical communication",
+    "state recovery",
+    "satellite communication",
+    "fiber optic communication",
+    "classical digital communication",
+    "quantum entanglement",
+    "entangled pair creation",
+    "distribution",
+    "quantum network interface"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "What is the primary purpose of a quantum router in the Entangled Web?",
+      "concepts": [
+        "quantum router",
+        "entangled web"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "What fundamental restriction prevents amplification of qubits for long-distance transmission?",
+      "concepts": [
+        "heisenberg uncertainty principle",
+        "quantum no-cloning theorem",
+        "entanglement degradation rate",
+        "bell state limitations"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Which of these describes the core quantum teleportation protocol steps?",
+      "concepts": [
+        "entangled pairs",
+        "bell state measurement",
+        "classical communication",
+        "state recovery"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "What are the two types of communication paths used by a Quantum Router?",
+      "concepts": [
+        "quantum router",
+        "satellite communication",
+        "fiber optic communication",
+        "classical digital communication",
+        "quantum entanglement"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Which component is responsible for managing entangled pair creation and distribution?",
+      "concepts": [
+        "entangled pair creation",
+        "distribution",
+        "quantum network interface"
+      ]
+    }
+  ]
+}

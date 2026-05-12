@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q_c920fc5468",
+    "question_text": "What does virtualization software primarily provide?",
+    "options": [
+      "A Virtual hardware interface",
+      "A Physical hardware interface",
+      "An Operating System interface",
+      "A Network-only interface"
+    ],
+    "correct_answer": "A Virtual hardware interface",
+    "explanation": "The document states that virtualization software provides a virtual hardware interface, which is implemented by a hypervisor/VMM to create virtual machines.",
+    "target_concept": "Virtualization basics",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_225950_doc10_28a2e4/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 1,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_225950_doc10_28a2e4",
+      "source_label": "doc10",
+      "question_index": 1
+    }
+  },
+  {
+    "id": "q_7e470643f0",
+    "question_text": "How does containerization differ from traditional virtualization?",
+    "options": [
+      "Containers share the host OS kernel",
+      "Containers emulate physical hardware",
+      "Containers require a separate OS per instance",
+      "Containers provide full hardware duplication"
+    ],
+    "correct_answer": "Containers share the host OS kernel",
+    "explanation": "The document notes that containerization (e.g., Docker) uses the host OS kernel directly without virtual hardware, unlike virtualization which emulates hardware for full OS installations.",
+    "target_concept": "Containerization vs Virtualization",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_225950_doc10_28a2e4/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 2,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_225950_doc10_28a2e4",
+      "source_label": "doc10",
+      "question_index": 2
+    }
+  },
+  {
+    "id": "q_cf535b9434",
+    "question_text": "What is the primary purpose of a Dockerfile?",
+    "options": [
+      "To define the build steps for creating a Docker image",
+      "To run Docker containers interactively",
+      "To manage network configurations between containers",
+      "To delete orphaned Docker images"
+    ],
+    "correct_answer": "To define the build steps for creating a Docker image",
+    "explanation": "The document specifies that Dockerfiles are 'build recipes' in text format for reproducible image creation, including software and dependencies.",
+    "target_concept": "Dockerfile usage",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_225950_doc10_28a2e4/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 3,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_225950_doc10_28a2e4",
+      "source_label": "doc10",
+      "question_index": 3
+    }
+  },
+  {
+    "id": "q_0b7c405ef2",
+    "question_text": "Which Docker command is used to run a web server exposing port 8080 on the host?",
+    "options": [
+      "docker run -p 8080:80 nginx",
+      "docker start -p 8080:80",
+      "docker deploy -i 8080:80",
+      "docker service -p 8080:80"
+    ],
+    "correct_answer": "docker run -p 8080:80 nginx",
+    "explanation": "The document provides an example where 'docker run -p 8080:80 nginx' maps the container's port 80 to the host's port 8080.",
+    "target_concept": "Docker commands",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_225950_doc10_28a2e4/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 4,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_225950_doc10_28a2e4",
+      "source_label": "doc10",
+      "question_index": 4
+    }
+  },
+  {
+    "id": "q_93a98e5305",
+    "question_text": "Which 1974 definition of virtualization does Docker satisfy?",
+    "options": [
+      "Efficient execution with minor speed decrease and VMM control",
+      "Full hardware duplication without shared resources",
+      "Exclusive physical hardware access per virtual machine",
+      "Docker satisfies no 1974 virtualization conditions"
+    ],
+    "correct_answer": "Efficient execution with minor speed decrease and VMM control",
+    "explanation": "The document references the 1974 definition where a VMM 'provides essentially identical execution with minor speed decreases.' Docker shares the host kernel (efficient) but doesn't meet all 1974 conditions like virtual hardware abstraction.",
+    "target_concept": "Virtualization definitions",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_225950_doc10_28a2e4/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 5,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_225950_doc10_28a2e4",
+      "source_label": "doc10",
+      "question_index": 5
+    }
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q_b5c48ec6bb",
+    "question_text": "Who was the primary leader of the Viet Minh during the August Revolution of 1945?",
+    "options": [
+      "Bao Dai",
+      "Tran Trong Kim",
+      "Ho Chi Minh",
+      "Nguyen Van Thanh"
+    ],
+    "correct_answer": "Ho Chi Minh",
+    "explanation": "The document states that Ho Chi Minh, originally named Nguyen Sinh Cung, led the Viet Minh as part of the Communist Party, uniting nationalist and anti-colonial efforts.",
+    "target_concept": "Leadership of the Viet Minh",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003258_doc3_64fdef/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 1,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003258_doc3_64fdef",
+      "source_label": "doc3",
+      "question_index": 1
+    }
+  },
+  {
+    "id": "q_6e1e1ed091",
+    "question_text": "Which event in March 1945 directly created a power vacuum that the Viet Minh exploited?",
+    "options": [
+      "The Yen Bai Uprising",
+      "The Japanese coup d'état against French officials",
+      "The OSS Deer Team formation",
+      "The Great Famine of 1945"
+    ],
+    "correct_answer": "The Japanese coup d'état against French officials",
+    "explanation": "The Japanese coup d’état in March 1945 ousted French administrators, creating a vacuum the Viet Minh leveraged to seize control.",
+    "target_concept": "Power vacuum and Japanese occupation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003258_doc3_64fdef/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 2,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003258_doc3_64fdef",
+      "source_label": "doc3",
+      "question_index": 2
+    }
+  },
+  {
+    "id": "q_fe98b8f818",
+    "question_text": "What key international support did the Viet Minh receive that facilitated their success in dismantling Japanese forces?",
+    "options": [
+      "Military support from the Soviet Union",
+      "Support from the Chinese government",
+      "Training and supplies from the US Office of Strategic Services (OSS)",
+      "Funding from anti-colonial French sympathizers"
+    ],
+    "correct_answer": "Training and supplies from the US Office of Strategic Services (OSS)",
+    "explanation": "The document highlights the role of the OSS Deer Team, which provided weapons, training, and intelligence to the Viet Minh.",
+    "target_concept": "International alliances and military support",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003258_doc3_64fdef/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 3,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003258_doc3_64fdef",
+      "source_label": "doc3",
+      "question_index": 3
+    }
+  },
+  {
+    "id": "q_d07b2160d1",
+    "question_text": "What was the long-term planning milestone for the August Revolution established in 1941?",
+    "options": [
+      "The formation of the Viet Minh Front",
+      "The establishment of the Provisional Committee of the Liberated Zone",
+      "The signing of a treaty with the Vichy French government",
+      "The creation of the National Salvation Forces"
+    ],
+    "correct_answer": "The formation of the Viet Minh Front",
+    "explanation": "The document notes that the Viet Minh Front was established in 1941 as a foundational step in organizing resistance against French and Japanese rule.",
+    "target_concept": "Strategic planning and organization",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003258_doc3_64fdef/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 4,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003258_doc3_64fdef",
+      "source_label": "doc3",
+      "question_index": 4
+    }
+  },
+  {
+    "id": "q_979534f71c",
+    "question_text": "How did the Viet Minh mobilize rural populations after Japan’s 1945 coup?",
+    "options": [
+      "By organizing large-scale industrial strikes",
+      "By redistributing land seized from Japanese granaries",
+      "By breaking into French and Japanese-controlled rice stores to alleviate famine",
+      "By securing direct aid from the French colonial administration"
+    ],
+    "correct_answer": "By breaking into French and Japanese-controlled rice stores to alleviate famine",
+    "explanation": "The Viet Minh mobilized rural support by exploiting the 1945 famine to distribute food stored by the Japanese and French, framing it as resistance to colonial exploitation.",
+    "target_concept": "Population mobilization and propaganda",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003258_doc3_64fdef/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 5,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003258_doc3_64fdef",
+      "source_label": "doc3",
+      "question_index": 5
+    }
+  }
+]

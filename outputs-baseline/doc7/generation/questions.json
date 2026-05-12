@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q_33937ca68a",
+    "question_text": "What is the difference between demand and quantity demanded?",
+    "options": [
+      "Demand is the desire to own a good, while quantity demanded is the actual purchase.",
+      "Demand is the relationship between price and quantity, while quantity demanded is a specific point on the demand curve.",
+      "Demand represents all possible quantities at different prices, while quantity demanded is the total demand in the market.",
+      "Demand is the price a consumer is willing to pay, while quantity demanded is the price set by producers."
+    ],
+    "correct_answer": "Demand is the relationship between price and quantity, while quantity demanded is a specific point on the demand curve.",
+    "explanation": "The document explains that demand refers to the entire curve or relationship between price and quantity, while quantity demanded refers to a specific point on the curve for a given price.",
+    "target_concept": "Demand vs. Quantity Demanded",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_224555_doc7_dd73ac/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 1,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_224555_doc7_dd73ac",
+      "source_label": "doc7",
+      "question_index": 1
+    }
+  },
+  {
+    "id": "q_078cccbc83",
+    "question_text": "According to the law of demand, what happens to the quantity demanded when the price of a good increases?",
+    "options": [
+      "The quantity demanded increases directly with price.",
+      "The quantity demanded decreases indirectly due to inflation.",
+      "The quantity demanded decreases as consumers seek alternatives.",
+      "The quantity demanded remains unchanged but shifts to a different good."
+    ],
+    "correct_answer": "The quantity demanded decreases as consumers seek alternatives.",
+    "explanation": "The law of demand states an inverse relationship between price and quantity demanded. The document uses gasoline as an example, where higher prices lead consumers to reduce consumption by carpooling or driving less.",
+    "target_concept": "Law of Demand",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_224555_doc7_dd73ac/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 2,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_224555_doc7_dd73ac",
+      "source_label": "doc7",
+      "question_index": 2
+    }
+  },
+  {
+    "id": "q_bc6602a53d",
+    "question_text": "What is the equilibrium price in the gasoline market as described in Table 3.3?",
+    "options": [
+      "$1.00",
+      "$1.40",
+      "$1.80",
+      "$2.20"
+    ],
+    "correct_answer": "$1.40",
+    "explanation": "Table 3.3 shows that at $1.40, the quantity demanded (600) equals the quantity supplied (600), which is the equilibrium price.",
+    "target_concept": "Market Equilibrium",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_224555_doc7_dd73ac/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 3,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_224555_doc7_dd73ac",
+      "source_label": "doc7",
+      "question_index": 3
+    }
+  },
+  {
+    "id": "q_c047137d26",
+    "question_text": "What occurs when the price of a good is set above the equilibrium price?",
+    "options": [
+      "Consumers demand more of the product.",
+      "Producers supply less of the product.",
+      "A surplus of the product is created.",
+      "A shortage of the product is created."
+    ],
+    "correct_answer": "A surplus of the product is created.",
+    "explanation": "The document explains that prices above equilibrium lead to excess supply (surplus) because quantity supplied exceeds quantity demanded.",
+    "target_concept": "Surplus and Shortage",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_224555_doc7_dd73ac/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 4,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_224555_doc7_dd73ac",
+      "source_label": "doc7",
+      "question_index": 4
+    }
+  },
+  {
+    "id": "q_87a4e4c747",
+    "question_text": "Which of the following best describes the law of supply?",
+    "options": [
+      "As price increases, quantity supplied decreases due to higher production costs.",
+      "As price increases, quantity supplied increases because producers can earn higher profits.",
+      "As price decreases, quantity supplied increases to meet consumer needs.",
+      "As price decreases, quantity supplied remains constant to avoid losses."
+    ],
+    "correct_answer": "As price increases, quantity supplied increases because producers can earn higher profits.",
+    "explanation": "The law of supply is summarized as a positive relationship between price and quantity supplied. The document notes that higher prices incentivize producers to increase gasoline production and supply.",
+    "target_concept": "Law of Supply",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_224555_doc7_dd73ac/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 5,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_224555_doc7_dd73ac",
+      "source_label": "doc7",
+      "question_index": 5
+    }
+  }
+]

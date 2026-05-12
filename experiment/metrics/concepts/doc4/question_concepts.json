@@ -1,0 +1,83 @@
+{
+  "doc_id": "doc4",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:17:34.390993Z",
+  "all_concepts": [
+    "{'concept': 'dynamic relationships'}",
+    "{'concept': 'human-environment interaction'}",
+    "{'concept': 'synthetic study'}",
+    "{'concept': 'physical earth laws'}",
+    "{'concept': 'restless dynamics'}",
+    "environmental determinism",
+    "possibilism",
+    "neodeterminism",
+    "humanization theory",
+    "human adaptation",
+    "environmental practices",
+    "technological adaptation",
+    "spatial analysis",
+    "human-environment interaction",
+    "economic disparities",
+    "political boundaries",
+    "physical environments",
+    "hunger games",
+    "suzanne collins",
+    "panem",
+    "district 12",
+    "mockingjay"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "Which definition of human geography emphasizes 'dynamic relationships'?",
+      "concepts": [
+        "{'concept': 'dynamic relationships'}",
+        "{'concept': 'human-environment interaction'}",
+        "{'concept': 'synthetic study'}",
+        "{'concept': 'physical earth laws'}",
+        "{'concept': 'restless dynamics'}"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "What concept describes the shift from nature dictating human behavior to humans using technology to modify their environment?",
+      "concepts": [
+        "environmental determinism",
+        "possibilism",
+        "neodeterminism",
+        "humanization theory"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Which example from the text illustrates 'naturalisation of humans'?",
+      "concepts": [
+        "human adaptation",
+        "environmental practices",
+        "technological adaptation",
+        "spatial analysis"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "What does the document identify as the core focus of human geography?",
+      "concepts": [
+        "human-environment interaction",
+        "economic disparities",
+        "political boundaries",
+        "physical environments"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Which school of thought in human geography is described as applying Marxian theory to explain social inequality?",
+      "concepts": [
+        "hunger games",
+        "suzanne collins",
+        "panem",
+        "district 12",
+        "mockingjay"
+      ]
+    }
+  ]
+}

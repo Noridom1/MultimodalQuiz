@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "mock",
+    "image_prompt": null,
+    "source_url": "mock://baseline/20260511_223221_doc2_06017b/1.png",
+    "local_path": null,
+    "image_ref": "mock://baseline/20260511_223221_doc2_06017b/1.png"
+  },
+  {
+    "index": 2,
+    "status": "mock",
+    "image_prompt": null,
+    "source_url": "mock://baseline/20260511_223221_doc2_06017b/2.png",
+    "local_path": null,
+    "image_ref": "mock://baseline/20260511_223221_doc2_06017b/2.png"
+  },
+  {
+    "index": 3,
+    "status": "mock",
+    "image_prompt": null,
+    "source_url": "mock://baseline/20260511_223221_doc2_06017b/3.png",
+    "local_path": null,
+    "image_ref": "mock://baseline/20260511_223221_doc2_06017b/3.png"
+  },
+  {
+    "index": 4,
+    "status": "mock",
+    "image_prompt": null,
+    "source_url": "mock://baseline/20260511_223221_doc2_06017b/4.png",
+    "local_path": null,
+    "image_ref": "mock://baseline/20260511_223221_doc2_06017b/4.png"
+  },
+  {
+    "index": 5,
+    "status": "mock",
+    "image_prompt": null,
+    "source_url": "mock://baseline/20260511_223221_doc2_06017b/5.png",
+    "local_path": null,
+    "image_ref": "mock://baseline/20260511_223221_doc2_06017b/5.png"
+  }
+]

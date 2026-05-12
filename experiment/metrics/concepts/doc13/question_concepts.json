@@ -1,0 +1,65 @@
+{
+  "doc_id": "doc13",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:10:37.970016Z",
+  "all_concepts": [
+    "badminton introduction",
+    "olympic debut city",
+    "first introduction",
+    "{'concept': 'badminton net height'}",
+    "singles service",
+    "service court",
+    "odd score",
+    "badminton rules",
+    "winning margin",
+    "doubles matches",
+    "attacking strategy",
+    "front-back position",
+    "side-by-side position"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "Which city first introduced badminton as an Olympic sport?",
+      "concepts": [
+        "badminton introduction",
+        "olympic debut city",
+        "first introduction"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "What is the height of a badminton net?",
+      "concepts": [
+        "{'concept': 'badminton net height'}"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "In singles badminton, where must a player serve from if their score is odd?",
+      "concepts": [
+        "singles service",
+        "service court",
+        "odd score"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "What is the minimum margin required to win a game in badminton?",
+      "concepts": [
+        "badminton rules",
+        "winning margin"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "In doubles matches, which formation is an attacking strategy?",
+      "concepts": [
+        "doubles matches",
+        "attacking strategy",
+        "front-back position",
+        "side-by-side position"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "doc_id": "doc1",
+  "created_at": "2026-05-11T17:38:08.109663Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc1\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.144743,
+      "thresholded_coverage": 0.062937,
+      "threshold": 0.75,
+      "matched_doc_count": 9,
+      "total_doc_count": 143,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "dien bien phu",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.866025
+        },
+        {
+          "document_concept": "mountainous north-west",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "hilly region plains",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vietnam-laos frontier",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "strategic roads network",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "enemy battalions",
+          "matched_quiz_concept": "enemy battalions",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "paratroop units",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "artillery battalions",
+          "matched_quiz_concept": "enemy battalions",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "strong-point defense",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sub-sector systems",
+          "matched_quiz_concept": "northern sub-sector",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "barbed wire enclosures",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "central sub-sector",
+          "matched_quiz_concept": "central sub-sector",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "eastern hill defense",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "artillery bases",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "airfield logistics",
+          "matched_quiz_concept": "airfield control",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "airlift supply",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "reconnaissance planes",
+          "matched_quiz_concept": "enemy planes",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "strafing bombers",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "impregnable fortress",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "general navarre",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "american general",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "relentless attack",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "steady advance",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "defence centre attacks",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "three-month consolidation",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "winter-spring campaign",
+          "matched_quiz_concept": "campaign",
+          "similarity": 0.57735
+        },
+        {
+          "document_concept": "surrounding region liberation",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "force isolation",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "motor road construction",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "artillery casemates",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "party central committee",
+          "matched_quiz_concept": "central sector",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "government orders",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "liberation of lai chau",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "entrenched defense",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mobile forces",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "trench systems",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "combined defense centers",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mutual artillery support",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "airbase coordination",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "hidden vulnerabilities",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "general offensive",
+          "matched_quiz_concept": "{'concepts': 'offensive date'}",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "battlefield terrain transformation",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "logistical supply lines",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "rugged terrain paths",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "enemy aircraft attacks",
+          "matched_quiz_concept": "enemy battalions",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "artillery deployment",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "operational base establishment",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ammunition supply networks",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "dien bien phu encirclement",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.75
+        },
+        {
+          "document_concept": "tactical decision correctness",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "anti-aircraft defense",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "enemy artillery fire",
+          "matched_quiz_concept": "enemy battalions",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "phased campaign strategy",
+          "matched_quiz_concept": "campaign",
+          "similarity": 0.57735
+        },
+        {
+          "document_concept": "northern sub-sector destruction",
+          "matched_quiz_concept": "northern sub-sector",
+          "similarity": 0.866025
+        },
+        {
+          "document_concept": "central sub-sector encirclement",
+          "matched_quiz_concept": "central sub-sector",
+          "similarity": 0.866025
+        },
+        {
+          "document_concept": "trench network construction",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "him lam defense center annihilation",
+          "matched_quiz_concept": "sub-sector annihilation",
+          "similarity": 0.258199
+        },
+        {
+          "document_concept": "doc lap strong-point attack",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "puppet solider garrison",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ban keo post surrender",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "fierce artillery concentration",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "enemy mobile forces",
+          "matched_quiz_concept": "enemy battalions",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "anti-aircraft battery action",
+          "matched_quiz_concept": "vietnamese military action",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "heroic troop spirit",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "logistic threats",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "protracted campaign risks",
+          "matched_quiz_concept": "campaign",
+          "similarity": 0.57735
+        },
+        {
+          "document_concept": "hill a-1 strategic value",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "enemy overconfidence",
+          "matched_quiz_concept": "enemy battalions",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "central sub-sector vulnerability",
+          "matched_quiz_concept": "central sub-sector",
+          "similarity": 0.866025
+        },
+        {
+          "document_concept": "enemy supply line disruption",
+          "matched_quiz_concept": "enemy battalions",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "frontline food supply",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ammunition stockpile",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "airfield threat neutralization",
+          "matched_quiz_concept": "airfield control",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "morale boosting victories",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "tactical encirclement phases",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "command post",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "battle duration",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "ground dispute",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "position occupation",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "casemate trench",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "paratroop reinforcements",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "counter-attack hill c-1",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "four-day battle",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "frontline proximity",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "artillery/mortar fire",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "harassment tactics",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "strongpoint capture",
+          "matched_quiz_concept": "sub-sector capture",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "nibbling attack",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "airfield capture",
+          "matched_quiz_concept": "airfield control",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "tightening encirclement",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "tanks/aircraft counter-attack",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "heavy losses",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "supply problem",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "parachuted supplies",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "anti-aircraft fire",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "american bombers",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "napalm bomb",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "supply line bombing",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "butterfly bomb",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "voluntary carriers",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "pack-horse supply",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "encirclement plan",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "french generals",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "american interventionists",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "french high command",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "rear attack plan",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "upper laos breakout",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "plan abandonment",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "third phase",
+          "matched_quiz_concept": "first phase outcome",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "hill capture",
+          "matched_quiz_concept": "sub-sector capture",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "enemy encirclement",
+          "matched_quiz_concept": "enemy battalions",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "critical supply",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "white flag surrender",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "surrender capture",
+          "matched_quiz_concept": "sub-sector capture",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "pow treatment",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "victory banner",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "dien bien phu victory",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.75
+        },
+        {
+          "document_concept": "55-day campaign",
+          "matched_quiz_concept": "campaign",
+          "similarity": 0.57735
+        },
+        {
+          "document_concept": "coordinated operations",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "position destruction",
+          "matched_quiz_concept": "sub-sector destruction",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "road no. 5 threat",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "fifth zone operations",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "military action",
+          "matched_quiz_concept": "vietnamese military action",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "mobile regiment",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "road number",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "liberated region",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "penetrated region",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "threatened cities",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "enemy troops",
+          "matched_quiz_concept": "enemy battalions",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "aerial defeat",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "military victory",
+          "matched_quiz_concept": "vietnamese military action",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "front operations",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "laos front",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "south vietnam",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "north vietnam",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "navarre plan",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "imperialist intervention",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "national liberation",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "army command",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "polit bureau",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "defence role",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "geneva conference",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "peace restoration",
+          "matched_quiz_concept": "dien bien phu battle",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 2.070493,
+      "breadth_normalized_entropy": 0.899204,
+      "matched_document_concepts": 10,
+      "total_document_concepts": 143
+    },
+    "duplication": {
+      "duplication": 0.52381,
+      "unique_matched_document_concepts": 10,
+      "total_quiz_concepts": 21,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "dien bien phu battle",
+          "matched_document_concept": "dien bien phu",
+          "similarity": 0.866025
+        },
+        {
+          "quiz_concept": "enemy battalions",
+          "matched_document_concept": "enemy battalions",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "vietnamese military action",
+          "matched_document_concept": "military action",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "battalion count estimation",
+          "matched_document_concept": "dien bien phu",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "{'concepts': 'offensive date'}",
+          "matched_document_concept": "general offensive",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "central sector",
+          "matched_document_concept": "central sub-sector",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "northern sub-sector",
+          "matched_document_concept": "northern sub-sector destruction",
+          "similarity": 0.866025
+        },
+        {
+          "quiz_concept": "central sub-sector",
+          "matched_document_concept": "central sub-sector",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "southern sub-sector",
+          "matched_document_concept": "sub-sector systems",
+          "similarity": 0.666667
+        },
+        {
+          "quiz_concept": "hong cum sub-sector",
+          "matched_document_concept": "sub-sector systems",
+          "similarity": 0.57735
+        },
+        {
+          "quiz_concept": "dien bien phu campaign",
+          "matched_document_concept": "dien bien phu",
+          "similarity": 0.866025
+        },
+        {
+          "quiz_concept": "first phase outcome",
+          "matched_document_concept": "third phase",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "sub-sector capture",
+          "matched_document_concept": "sub-sector systems",
+          "similarity": 0.666667
+        },
+        {
+          "quiz_concept": "sub-sector destruction",
+          "matched_document_concept": "northern sub-sector destruction",
+          "similarity": 0.866025
+        },
+        {
+          "quiz_concept": "sub-sector annihilation",
+          "matched_document_concept": "sub-sector systems",
+          "similarity": 0.666667
+        },
+        {
+          "quiz_concept": "airfield control",
+          "matched_document_concept": "airfield logistics",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "primary outcome",
+          "matched_document_concept": "dien bien phu",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "enemy planes",
+          "matched_document_concept": "enemy battalions",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "destroyed",
+          "matched_document_concept": "dien bien phu",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "brought down",
+          "matched_document_concept": "dien bien phu",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "campaign",
+          "matched_document_concept": "winter-spring campaign",
+          "similarity": 0.57735
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 143,
+      "quiz_concepts": 21
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc1\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc1\\question_concepts.json"
+  }
+}

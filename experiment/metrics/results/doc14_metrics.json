@@ -1,0 +1,228 @@
+{
+  "doc_id": "doc14",
+  "created_at": "2026-05-11T17:38:08.694057Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc14\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.304854,
+      "thresholded_coverage": 0.166667,
+      "threshold": 0.75,
+      "matched_doc_count": 4,
+      "total_doc_count": 24,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "external fertilization",
+          "matched_quiz_concept": "external fertilization",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "gamete fusion",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "aquatic animals",
+          "matched_quiz_concept": "egg-laying animals",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "sperm movement",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "zygote formation",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "embryo development",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "uterus embedding",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "organ development",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "egg production",
+          "matched_quiz_concept": "egg-laying animals",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "sperm production",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "environmental factors",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "viviparous animals",
+          "matched_quiz_concept": "viviparous reproduction",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "oviparous animals",
+          "matched_quiz_concept": "oviparous classification",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "eggshell layers",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "chick development",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "hatching process",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "metamorphosis",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "life cycle stages",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "asexual reproduction",
+          "matched_quiz_concept": "asexual reproduction",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "internal fertilization",
+          "matched_quiz_concept": "internal fertilization",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "external development",
+          "matched_quiz_concept": "external fertilization",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "internal development",
+          "matched_quiz_concept": "internal fertilization",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "foetus development",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "organ formation",
+          "matched_quiz_concept": "zygote formation",
+          "similarity": 0.5
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 1.635743,
+      "breadth_normalized_entropy": 0.840606,
+      "matched_document_concepts": 7,
+      "total_document_concepts": 24
+    },
+    "duplication": {
+      "duplication": 0.5,
+      "unique_matched_document_concepts": 7,
+      "total_quiz_concepts": 14,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "zygote formation",
+          "matched_document_concept": "zygote formation",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "fertilization",
+          "matched_document_concept": "external fertilization",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "external fertilization",
+          "matched_document_concept": "external fertilization",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "animal reproduction",
+          "matched_document_concept": "asexual reproduction",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "male gametes",
+          "matched_document_concept": "external fertilization",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "spermatogenesis",
+          "matched_document_concept": "external fertilization",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "gametes",
+          "matched_document_concept": "external fertilization",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "sexual reproduction",
+          "matched_document_concept": "asexual reproduction",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "asexual reproduction",
+          "matched_document_concept": "asexual reproduction",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "internal fertilization",
+          "matched_document_concept": "internal fertilization",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "egg-laying animals",
+          "matched_document_concept": "aquatic animals",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "viviparous reproduction",
+          "matched_document_concept": "viviparous animals",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "oviparous classification",
+          "matched_document_concept": "oviparous animals",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "amniotic eggs",
+          "matched_document_concept": "external fertilization",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 24,
+      "quiz_concepts": 14
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc14\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc14\\question_concepts.json"
+  }
+}

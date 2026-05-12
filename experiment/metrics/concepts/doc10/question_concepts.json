@@ -1,0 +1,87 @@
+{
+  "doc_id": "doc10",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:04:37.512019Z",
+  "all_concepts": [
+    "virtual hardware interface",
+    "physical hardware interface",
+    "operating system interface",
+    "network interface",
+    "containerization",
+    "virtualization",
+    "os kernel sharing",
+    "hardware emulation",
+    "os per instance",
+    "hardware duplication",
+    "dockerfile build steps",
+    "image creation",
+    "run containers",
+    "network configurations",
+    "delete images",
+    "docker run",
+    "port mapping",
+    "web server",
+    "efficient execution",
+    "vmm control",
+    "full hardware duplication",
+    "shared resources",
+    "exclusive physical access",
+    "1974 virtualization conditions"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "What does virtualization software primarily provide?",
+      "concepts": [
+        "virtual hardware interface",
+        "physical hardware interface",
+        "operating system interface",
+        "network interface"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "How does containerization differ from traditional virtualization?",
+      "concepts": [
+        "containerization",
+        "virtualization",
+        "os kernel sharing",
+        "hardware emulation",
+        "os per instance",
+        "hardware duplication"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "What is the primary purpose of a Dockerfile?",
+      "concepts": [
+        "dockerfile build steps",
+        "image creation",
+        "run containers",
+        "network configurations",
+        "delete images"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Which Docker command is used to run a web server exposing port 8080 on the host?",
+      "concepts": [
+        "docker run",
+        "port mapping",
+        "web server"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Which 1974 definition of virtualization does Docker satisfy?",
+      "concepts": [
+        "efficient execution",
+        "vmm control",
+        "full hardware duplication",
+        "shared resources",
+        "exclusive physical access",
+        "1974 virtualization conditions"
+      ]
+    }
+  ]
+}

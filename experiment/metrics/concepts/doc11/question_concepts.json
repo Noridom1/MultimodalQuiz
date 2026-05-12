@@ -1,0 +1,78 @@
+{
+  "doc_id": "doc11",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:07:26.006742Z",
+  "all_concepts": [
+    "fight or flight",
+    "heart rate",
+    "perspiration",
+    "chronic stress",
+    "heart disease",
+    "skin rashes",
+    "joint inflammation",
+    "vision loss",
+    "uk workplace",
+    "mental health",
+    "workplace illness",
+    "stress hormones",
+    "deep breathing",
+    "organizing",
+    "writing poetry",
+    "window shopping",
+    "substance use",
+    "stress effects",
+    "negative consequences"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "What is the primary physical response triggered by the 'fight or flight' reaction?",
+      "concepts": [
+        "fight or flight",
+        "heart rate",
+        "perspiration"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Which long-term health risk is most strongly associated with chronic stress according to the document?",
+      "concepts": [
+        "chronic stress",
+        "heart disease",
+        "skin rashes",
+        "joint inflammation",
+        "vision loss"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "What percentage of UK workplace illness cases are attributed to mental health issues?",
+      "concepts": [
+        "uk workplace",
+        "mental health",
+        "workplace illness"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Which recommended stress management technique is most directly linked to reducing stress hormones?",
+      "concepts": [
+        "stress hormones",
+        "deep breathing",
+        "organizing",
+        "writing poetry",
+        "window shopping"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "What is the document's primary warning regarding substance use during stress?",
+      "concepts": [
+        "substance use",
+        "mental health",
+        "stress effects",
+        "negative consequences"
+      ]
+    }
+  ]
+}

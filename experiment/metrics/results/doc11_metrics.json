@@ -1,0 +1,733 @@
+{
+  "doc_id": "doc11",
+  "created_at": "2026-05-11T17:38:08.388330Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc11\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.119508,
+      "thresholded_coverage": 0.058333,
+      "threshold": 0.75,
+      "matched_doc_count": 7,
+      "total_doc_count": 120,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "stress definition",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "pressure sources",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "physical symptoms",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "hormone release",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "positive stress",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "acute stress",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "chronic stress",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "mental health",
+          "matched_quiz_concept": "mental health",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "fight/flight response",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "emotional effects",
+          "matched_quiz_concept": "stress effects",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "behavioral changes",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "symptoms checklist",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "work stressors",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "financial stress",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "relationship stress",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "life changes",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "minor irritations",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "major life events",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "relationship support",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "disagreements",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "crises impact",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cortisol",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "adrenaline",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "noradrenaline",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "heart palpitations",
+          "matched_quiz_concept": "heart rate",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "muscle tension",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "gastrointestinal issues",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sleep disturbances",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "appetite changes",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "anxiety",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "depression",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "emotional withdrawal",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "decision impairment",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mood swings",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "irritability",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "verbal aggression",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "chronic fatigue",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "work burnout",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mental health impact",
+          "matched_quiz_concept": "mental health",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "work absences",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "heart disease",
+          "matched_quiz_concept": "heart disease",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "stroke risk",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "blood pressure",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "skin blood flow",
+          "matched_quiz_concept": "skin rashes",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "long-term risks",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "stress management",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "treatment options",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "support services",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "medical consultation",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "professional help",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "gp referral",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cbt therapy",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mindfulness",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cognitive therapy",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sleep issues",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "anxiety uk",
+          "matched_quiz_concept": "uk workplace",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "citizens advice",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "stepchange debt",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "samaritans support",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cmht services",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "community mental health",
+          "matched_quiz_concept": "mental health",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "stress coping",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "self-care activities",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "relaxation techniques",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "emotional support",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "voluntary organizations",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mental health resources",
+          "matched_quiz_concept": "mental health",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "online courses",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "local courses",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "stress resource",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "therapy treatments",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "counselling support",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "community centres",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "debt problems",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "crisis intervention",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "anxiety support",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sleep hygiene",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "perspective shift",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "time management",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "creative activities",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "social interaction",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "physical activity",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "nature exposure",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mindful reflection",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "emotional expression",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "self-compassion",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "positive social",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "healthy eating",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "isolation prevention",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cbt practice",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "wars past",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "bake cake",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "tea time",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "swim relax",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "tidy room",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "board games",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "breath focus",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "knit model",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "happy memories",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "life satisfaction",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "stretcher pose",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sanctuary scent",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "tai chi",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "film watch",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "bike ride",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "nature sounds",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "gratitude count",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "family fun",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "music sung",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "clean space",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "write letter",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "play sudoku",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "gossip read",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "salsa dance",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "charity work",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "stress relief",
+          "matched_quiz_concept": "chronic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "mental health foundation",
+          "matched_quiz_concept": "mental health",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "donate charity",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "community service",
+          "matched_quiz_concept": "fight or flight",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "creative writing",
+          "matched_quiz_concept": "writing poetry",
+          "similarity": 0.5
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 1.556184,
+      "breadth_normalized_entropy": 0.70825,
+      "matched_document_concepts": 9,
+      "total_document_concepts": 120
+    },
+    "duplication": {
+      "duplication": 0.526316,
+      "unique_matched_document_concepts": 9,
+      "total_quiz_concepts": 19,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "fight or flight",
+          "matched_document_concept": "fight/flight response",
+          "similarity": 0.666667
+        },
+        {
+          "quiz_concept": "heart rate",
+          "matched_document_concept": "heart palpitations",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "perspiration",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "chronic stress",
+          "matched_document_concept": "chronic stress",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "heart disease",
+          "matched_document_concept": "heart disease",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "skin rashes",
+          "matched_document_concept": "skin blood flow",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "joint inflammation",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "vision loss",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "uk workplace",
+          "matched_document_concept": "anxiety uk",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "mental health",
+          "matched_document_concept": "mental health",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "workplace illness",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "stress hormones",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "deep breathing",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "organizing",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "writing poetry",
+          "matched_document_concept": "creative writing",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "window shopping",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "substance use",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "stress effects",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "negative consequences",
+          "matched_document_concept": "stress definition",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 120,
+      "quiz_concepts": 19
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc11\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc11\\question_concepts.json"
+  }
+}

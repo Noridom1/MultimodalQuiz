@@ -1,0 +1,488 @@
+{
+  "doc_id": "doc5",
+  "created_at": "2026-05-11T17:38:09.541968Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc5\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.340729,
+      "thresholded_coverage": 0.084507,
+      "threshold": 0.75,
+      "matched_doc_count": 6,
+      "total_doc_count": 71,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "phases of the moon",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "lunar phases",
+          "matched_quiz_concept": "lunar sidereal period",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "moon phases",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "sunlight reflection",
+          "matched_quiz_concept": "sunlight reflection angle",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "illuminated hemisphere",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "earth's perspective",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "solar-earth-moon angles",
+          "matched_quiz_concept": "earth-moon orbital dynamics",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "new moon",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "first quarter",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "full moon",
+          "matched_quiz_concept": "full moon",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "crescent phase",
+          "matched_quiz_concept": "full moon phase",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "gibbous phase",
+          "matched_quiz_concept": "full moon phase",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "waxing phase",
+          "matched_quiz_concept": "full moon phase",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "waning phase",
+          "matched_quiz_concept": "full moon phase",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "moon cycle",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "monthly cycle",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "moon position",
+          "matched_quiz_concept": "moon's stellar position",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "earth's vantage point",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.57735
+        },
+        {
+          "document_concept": "fixed sun direction",
+          "matched_quiz_concept": "moon opposite sun",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "moon orbit",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "earth rotation",
+          "matched_quiz_concept": "moon rotation",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "moon revolution",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "12° daily movement",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cultural legends",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "earth shadow misconception",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "sun opposition",
+          "matched_quiz_concept": "moon opposite sun",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "orbital period",
+          "matched_quiz_concept": "lunar sidereal period",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "30 earth-days",
+          "matched_quiz_concept": "earth orbit",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "moon distance scale",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "experiment with ball",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "illumination angle",
+          "matched_quiz_concept": "sunlight reflection angle",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "sun position",
+          "matched_quiz_concept": "moon opposite sun",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "moon visibility",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "eclipse avoidance",
+          "matched_quiz_concept": "eclipse occurrence",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "daily rise/set timing",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "midnight peak",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "third quarter",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "lunar eclipse",
+          "matched_quiz_concept": "lunar eclipse frequency",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "earth's shadow",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "orbital tilt",
+          "matched_quiz_concept": "moon's orbital tilt",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "30 earth-diameters",
+          "matched_quiz_concept": "earth orbit",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "eastward motion",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "moonrise delay",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "same face",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sidereal period",
+          "matched_quiz_concept": "lunar sidereal period",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "solar month",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "synch",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "vampire folklore",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "dracula behavior",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "lunacy hypothesis",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "behavioral correlation studies",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "seven-day week",
+          "matched_quiz_concept": "time of day",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "celestial associations",
+          "matched_quiz_concept": "celestial alignment",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "planetary names",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "norse gods",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "roman gods",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "moon orbit simulation",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "29.5-day cycle",
+          "matched_quiz_concept": "time of day",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "synchronous rotation",
+          "matched_quiz_concept": "moon rotation",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "earth-moon system",
+          "matched_quiz_concept": "earth-moon orbital dynamics",
+          "similarity": 0.57735
+        },
+        {
+          "document_concept": "fixed point on moon",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "visible side of moon",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "illumination by sun",
+          "matched_quiz_concept": "moon opposite sun",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "phases of moon",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "back side of moon",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "misconception about dark side",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sunrise on moon",
+          "matched_quiz_concept": "full moon",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "lunar illumination",
+          "matched_quiz_concept": "lunar sidereal period",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "even light distribution",
+          "matched_quiz_concept": "earth's shadow",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "moon's rotation",
+          "matched_quiz_concept": "moon rotation",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "light changes over time",
+          "matched_quiz_concept": "time of day",
+          "similarity": 0.288675
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 2.698011,
+      "breadth_normalized_entropy": 0.973102,
+      "matched_document_concepts": 16,
+      "total_document_concepts": 71
+    },
+    "duplication": {
+      "duplication": 0.157895,
+      "unique_matched_document_concepts": 16,
+      "total_quiz_concepts": 19,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "earth's shadow",
+          "matched_document_concept": "earth's shadow",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "moonlight emission",
+          "matched_document_concept": "phases of the moon",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "sunlight reflection angle",
+          "matched_document_concept": "sunlight reflection",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "moon's stellar position",
+          "matched_document_concept": "moon position",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "lunar sidereal period",
+          "matched_document_concept": "sidereal period",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "synodic period difference",
+          "matched_document_concept": "orbital period",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "earth-moon orbital dynamics",
+          "matched_document_concept": "earth-moon system",
+          "similarity": 0.57735
+        },
+        {
+          "quiz_concept": "full moon",
+          "matched_document_concept": "full moon",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "highest in sky",
+          "matched_document_concept": "phases of the moon",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "time of day",
+          "matched_document_concept": "seven-day week",
+          "similarity": 0.333333
+        },
+        {
+          "quiz_concept": "moon opposite sun",
+          "matched_document_concept": "moon phases",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "moon rotation",
+          "matched_document_concept": "moon's rotation",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "earth orbit",
+          "matched_document_concept": "moon orbit",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "tidal locking",
+          "matched_document_concept": "phases of the moon",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "moon's orbital tilt",
+          "matched_document_concept": "orbital tilt",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "celestial alignment",
+          "matched_document_concept": "celestial associations",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "lunar eclipse frequency",
+          "matched_document_concept": "lunar eclipse",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "full moon phase",
+          "matched_document_concept": "full moon",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "eclipse occurrence",
+          "matched_document_concept": "eclipse avoidance",
+          "similarity": 0.5
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 71,
+      "quiz_concepts": 19
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc5\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc5\\question_concepts.json"
+  }
+}

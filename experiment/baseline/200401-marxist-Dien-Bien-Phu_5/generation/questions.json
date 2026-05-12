@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q_658e403a06",
+    "question_text": "What was the primary strategic importance of Dien Bien Phu according to the document?",
+    "options": [
+      "It was a key agricultural hub for Vietnam.",
+      "It was a strategic position at the junction of important roads and a potential infantry and air base.",
+      "It was the capital of Vietnam during the war.",
+      "It was a major port city for French supplies."
+    ],
+    "correct_answer": "It was a strategic position at the junction of important roads and a potential infantry and air base.",
+    "explanation": "The document states that Dien Bien Phu was situated at the junction of important roads and was capable of becoming an infantry and air base of extreme effectiveness.",
+    "target_concept": "Strategic importance of Dien Bien Phu",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/200401-marxist-Dien-Bien-Phu_5/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 1,
+      "provider": "mistral",
+      "model": "devstral-medium-latest",
+      "run_id": "200401-marxist-Dien-Bien-Phu_5",
+      "source_label": "200401-marxist-Dien-Bien-Phu",
+      "question_index": 1
+    }
+  },
+  {
+    "id": "q_c05abb74ab",
+    "question_text": "How many enemy battalions were initially present at Dien Bien Phu before reinforcements arrived?",
+    "options": [
+      "5 battalions",
+      "10 battalions",
+      "17 battalions",
+      "20 battalions"
+    ],
+    "correct_answer": "10 battalions",
+    "explanation": "The document mentions that there were initially ten enemy battalions at Dien Bien Phu before they were reinforced.",
+    "target_concept": "Initial enemy forces at Dien Bien Phu",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/200401-marxist-Dien-Bien-Phu_5/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 2,
+      "provider": "mistral",
+      "model": "devstral-medium-latest",
+      "run_id": "200401-marxist-Dien-Bien-Phu_5",
+      "source_label": "200401-marxist-Dien-Bien-Phu",
+      "question_index": 2
+    }
+  },
+  {
+    "id": "q_9e56c64c8a",
+    "question_text": "What was the primary tactic used by the Vietnamese forces during the Dien Bien Phu campaign?",
+    "options": [
+      "A full-scale frontal assault on the entire camp simultaneously.",
+      "Attacking the enemy defense centers one by one to create conditions for a general offensive.",
+      "Relying solely on aerial bombardment.",
+      "Using guerrilla warfare tactics exclusively."
+    ],
+    "correct_answer": "Attacking the enemy defense centers one by one to create conditions for a general offensive.",
+    "explanation": "The document states that the tactics involved attacking the enemy defense centers individually to create conditions for a general offensive.",
+    "target_concept": "Tactics used in the Dien Bien Phu campaign",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/200401-marxist-Dien-Bien-Phu_5/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 3,
+      "provider": "mistral",
+      "model": "devstral-medium-latest",
+      "run_id": "200401-marxist-Dien-Bien-Phu_5",
+      "source_label": "200401-marxist-Dien-Bien-Phu",
+      "question_index": 3
+    }
+  },
+  {
+    "id": "q_97bddb9c84",
+    "question_text": "Which of the following was a significant challenge faced by the Vietnamese forces during the campaign?",
+    "options": [
+      "Lack of support from local populations.",
+      "Inability to transport supplies due to rugged terrain.",
+      "Overwhelming enemy naval forces.",
+      "The enemy's use of chemical weapons."
+    ],
+    "correct_answer": "Inability to transport supplies due to rugged terrain.",
+    "explanation": "The document highlights the difficulties in transporting supplies through rugged terrain and high passes as a major challenge.",
+    "target_concept": "Challenges faced during the campaign",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/200401-marxist-Dien-Bien-Phu_5/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 4,
+      "provider": "mistral",
+      "model": "devstral-medium-latest",
+      "run_id": "200401-marxist-Dien-Bien-Phu_5",
+      "source_label": "200401-marxist-Dien-Bien-Phu",
+      "question_index": 4
+    }
+  },
+  {
+    "id": "q_b1ce98557b",
+    "question_text": "What was the outcome of the third phase of the Dien Bien Phu campaign?",
+    "options": [
+      "The Vietnamese forces were repelled and had to retreat.",
+      "The enemy forces were completely annihilated, and General de Castries was captured.",
+      "A stalemate was reached, leading to peace negotiations.",
+      "The French forces managed to break through the encirclement and escape."
+    ],
+    "correct_answer": "The enemy forces were completely annihilated, and General de Castries was captured.",
+    "explanation": "The document describes the third phase as resulting in the complete annihilation of the enemy forces and the capture of General de Castries.",
+    "target_concept": "Outcome of the third phase",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/200401-marxist-Dien-Bien-Phu_5/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 5,
+      "provider": "mistral",
+      "model": "devstral-medium-latest",
+      "run_id": "200401-marxist-Dien-Bien-Phu_5",
+      "source_label": "200401-marxist-Dien-Bien-Phu",
+      "question_index": 5
+    }
+  }
+]

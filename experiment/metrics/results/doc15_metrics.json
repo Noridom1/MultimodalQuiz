@@ -1,0 +1,508 @@
+{
+  "doc_id": "doc15",
+  "created_at": "2026-05-11T17:38:08.807091Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc15\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.181089,
+      "thresholded_coverage": 0.04,
+      "threshold": 0.75,
+      "matched_doc_count": 3,
+      "total_doc_count": 75,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "psychology of concepts",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "cognitive revolution",
+          "matched_quiz_concept": "american cognitive psychology",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "cartesian dualism",
+          "matched_quiz_concept": "cartesian dualism",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "mental representations",
+          "matched_quiz_concept": "mental representations",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "object categories",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "experimental methods",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "laboratory conditions",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "social experience",
+          "matched_quiz_concept": "social constructs",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "artificial isolation",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "feature-based concepts",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "essence transcendence",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "social interaction",
+          "matched_quiz_concept": "social constructs",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "concept formation",
+          "matched_quiz_concept": "concept nature",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "object categorization",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "artificial objects",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "category theory",
+          "matched_quiz_concept": "gestalt theory",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "mental objects",
+          "matched_quiz_concept": "mental representations",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "material objects",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "attribute-based categorization",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "categorical differences",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "conceptual generalization",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "social insulation",
+          "matched_quiz_concept": "social constructs",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "philosophical base",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "concept acquisition",
+          "matched_quiz_concept": "concept nature",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "natural science",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "analytical philosophy",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "concept theory",
+          "matched_quiz_concept": "gestalt theory",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "borderline cases",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "categorization decision",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "essential features",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "rounded corners",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "statue transformation",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "unit analysis",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "chunk selection",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "atomistic view",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "classical theory",
+          "matched_quiz_concept": "gestalt theory",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "dictionary definitions",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "necessary features",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sufficient features",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "hierarchical taxonomy",
+          "matched_quiz_concept": "{'concept': 'hierarchical definition critique'}",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "internal dictionary",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "infinite regress",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "atomic concepts",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "prototype theory",
+          "matched_quiz_concept": "gestalt theory",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "fallible guides",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "fuzzy edges",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "chunk treatment",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "unit variability",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "inconsistent definitions",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "perceptual categorization",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cognitive units",
+          "matched_quiz_concept": "american cognitive psychology",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "feature selection",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "statistical learning",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "definitional ambiguity",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "categorization tasks",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "concept definitions",
+          "matched_quiz_concept": "concept nature",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "verbal responses",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "laboratory context",
+          "matched_quiz_concept": "social context",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "everyday knowledge",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "concept use",
+          "matched_quiz_concept": "concept nature",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "psychological reality",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "formal taxonomy",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ambiguity problem",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "law interpretation",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "concept stability",
+          "matched_quiz_concept": "concept nature",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "object-centered problem",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "judicial ambiguity",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "true concepts",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "definition limitation",
+          "matched_quiz_concept": "{'concept': 'hierarchical definition critique'}",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "concept mediation",
+          "matched_quiz_concept": "concept nature",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "knowledge facilit y",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "subject vs object",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "systematic taxonomy",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "revision cycles",
+          "matched_quiz_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cognitive foil",
+          "matched_quiz_concept": "american cognitive psychology",
+          "similarity": 0.408248
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 1.410258,
+      "breadth_normalized_entropy": 0.724729,
+      "matched_document_concepts": 7,
+      "total_document_concepts": 75
+    },
+    "duplication": {
+      "duplication": 0.631579,
+      "unique_matched_document_concepts": 7,
+      "total_quiz_concepts": 19,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "psychology of concepts",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "gestalt theory",
+          "matched_document_concept": "category theory",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "freudian psychoanalysis",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "american cognitive psychology",
+          "matched_document_concept": "cognitive revolution",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "british empirical tradition",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "materialist monism",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "cartesian dualism",
+          "matched_document_concept": "cartesian dualism",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "existentialism",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "nihilism",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "concept nature",
+          "matched_document_concept": "concept formation",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "social constructs",
+          "matched_document_concept": "social experience",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "mental representations",
+          "matched_document_concept": "mental representations",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "linguistic nature",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "physiological phenomena",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "genetic factors",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "emotion in cognition",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "social context",
+          "matched_document_concept": "social experience",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "mathematical modeling",
+          "matched_document_concept": "psychology of concepts",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "{'concept': 'hierarchical definition critique'}",
+          "matched_document_concept": "concept formation",
+          "similarity": 0.353553
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 75,
+      "quiz_concepts": 19
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc15\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc15\\question_concepts.json"
+  }
+}

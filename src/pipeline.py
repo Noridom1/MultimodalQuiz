@@ -20,6 +20,7 @@ from src.knowledge.kg_builder import build_knowledge_graph_workflow, export_grap
 from src.planner.planner import QuizPlanner
 from src.planner.topic_planner import TopicAgenticPlanner
 from src.utils.io import append_jsonl, relative_path, write_json
+from src.utils import settings
 
 logger = logging.getLogger(__name__)
 
@@ -180,12 +181,12 @@ class QuizGenerationPipeline:
         )
         effective_distribution = difficulty_distribution or DEFAULT_DIFFICULTY_DISTRIBUTION
 
-        extractor_backend = os.getenv("QUIZGEN_EXTRACTOR_BACKEND", "langchain")
-        extractor_provider = os.getenv("QUIZGEN_LLM_PROVIDER", "openai")
-        extractor_granularity = os.getenv("QUIZGEN_EXTRACTION_GRANULARITY", "balanced")
-        extractor_model = os.getenv("QUIZGEN_LLM_MODEL")
-        kg_chunk_max_tokens = int(os.getenv("QUIZGEN_KG_MAX_TOKENS", "280"))
-        kg_overlap_blocks = int(os.getenv("QUIZGEN_KG_OVERLAP_BLOCKS", "1"))
+        extractor_backend = settings.EXTRACTOR_BACKEND
+        extractor_provider = settings.PROVIDER
+        extractor_granularity = settings.EXTRACTION_GRANULARITY
+        extractor_model = settings.GLOBAL_MODEL
+        kg_chunk_max_tokens = settings.KG_MAX_TOKENS
+        kg_overlap_blocks = settings.KG_OVERLAP_BLOCKS
 
         _log_event(
             context,

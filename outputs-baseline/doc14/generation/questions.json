@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q_2bc936237b",
+    "question_text": "Which process results in the formation of a zygote?",
+    "options": [
+      "Fertilization",
+      "Photosynthesis",
+      "Respiration",
+      "Metamorphosis"
+    ],
+    "correct_answer": "Fertilization",
+    "explanation": "The document states that fertilization is the fusion of a sperm and an ovum to form a zygote.",
+    "target_concept": "Fertilization process in reproduction",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_231435_doc14_086aa5/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 1,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_231435_doc14_086aa5",
+      "source_label": "doc14",
+      "question_index": 1
+    }
+  },
+  {
+    "id": "q_b80e9af2e5",
+    "question_text": "Which of these animals reproduces through external fertilization?",
+    "options": [
+      "Cow",
+      "Frog",
+      "Human",
+      "Dog"
+    ],
+    "correct_answer": "Frog",
+    "explanation": "Frogs undergo external fertilization where eggs and sperm are released into water, as described in the document.",
+    "target_concept": "External fertilization examples",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_231435_doc14_086aa5/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 2,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_231435_doc14_086aa5",
+      "source_label": "doc14",
+      "question_index": 2
+    }
+  },
+  {
+    "id": "q_2e01197b7f",
+    "question_text": "What are the male gametes called in human reproduction?",
+    "options": [
+      "Ova",
+      "Sperms",
+      "Zygotes",
+      "Embryos"
+    ],
+    "correct_answer": "Sperms",
+    "explanation": "The male reproductive organs produce male gametes called sperms, as detailed in the document.",
+    "target_concept": "Male reproductive system components",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_231435_doc14_086aa5/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 3,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_231435_doc14_086aa5",
+      "source_label": "doc14",
+      "question_index": 3
+    }
+  },
+  {
+    "id": "q_24c29cc38d",
+    "question_text": "Which type of reproduction involves only one parent?",
+    "options": [
+      "Sexual reproduction",
+      "Asexual reproduction",
+      "Internal fertilization",
+      "External fertilization"
+    ],
+    "correct_answer": "Asexual reproduction",
+    "explanation": "Asexual reproduction occurs in organisms like amoeba and hydra, requiring only one parent, as explained in the text.",
+    "target_concept": "Asexual reproduction definitions",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_231435_doc14_086aa5/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 4,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_231435_doc14_086aa5",
+      "source_label": "doc14",
+      "question_index": 4
+    }
+  },
+  {
+    "id": "q_1228850966",
+    "question_text": "What term describes animals that lay eggs for reproduction?",
+    "options": [
+      "Viviparous",
+      "Oviparous",
+      "Metamorphic",
+      "Amniotic"
+    ],
+    "correct_answer": "Oviparous",
+    "explanation": "Oviparous animals, like frogs and hens, lay eggs, while viviparous animals give birth to live young, as discussed in the document.",
+    "target_concept": "Viviparous vs. oviparous animals",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_231435_doc14_086aa5/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 5,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_231435_doc14_086aa5",
+      "source_label": "doc14",
+      "question_index": 5
+    }
+  }
+]

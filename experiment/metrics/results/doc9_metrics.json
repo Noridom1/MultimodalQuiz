@@ -1,0 +1,558 @@
+{
+  "doc_id": "doc9",
+  "created_at": "2026-05-11T17:38:10.000155Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc9\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.210027,
+      "thresholded_coverage": 0.051282,
+      "threshold": 0.75,
+      "matched_doc_count": 4,
+      "total_doc_count": 78,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "public health emergency",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "global pandemic",
+          "matched_quiz_concept": "pandemic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "who guidelines",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "stigma reduction",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mental health",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "respectful language",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "avoid stigmatizing labels",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "trusted information sources",
+          "matched_quiz_concept": "trusted sources",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "anxiety management",
+          "matched_quiz_concept": "stress management",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "community solidarity",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "social support networks",
+          "matched_quiz_concept": "family support",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "positive narratives",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "hopeful stories",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "healthcare workers' role",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "appreciation for caregivers",
+          "matched_quiz_concept": "terminology for people",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "stress management",
+          "matched_quiz_concept": "stress management",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "self-care strategies",
+          "matched_quiz_concept": "stress coping strategies",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "emotional well-being",
+          "matched_quiz_concept": "emotional processing",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "avoid harmful coping",
+          "matched_quiz_concept": "stress coping strategies",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "past coping strategies",
+          "matched_quiz_concept": "stress coping strategies",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "community stigma",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "family avoidance",
+          "matched_quiz_concept": "family support",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "inclusive communication",
+          "matched_quiz_concept": "collegial communication limits",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "resource access",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mental health support",
+          "matched_quiz_concept": "family support",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "chronic stress prevention",
+          "matched_quiz_concept": "pandemic stress",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "workplace well-being",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "mhgap intervention guide",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "occupational capacity",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "communication accuracy",
+          "matched_quiz_concept": "collegial communication limits",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "stress reduction",
+          "matched_quiz_concept": "pandemic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "buddy system",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "work breaks",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "flexible schedules",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "psychosocial services",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "trained personnel",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "psychotropic medications",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "emotional expression",
+          "matched_quiz_concept": "emotional processing",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "child-parent bond",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "routine maintenance",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "age-appropriate info",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "infection prevention",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "social support",
+          "matched_quiz_concept": "family support",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "self-care modeling",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "emergency response",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "psychological first aid",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "crisis management",
+          "matched_quiz_concept": "stress management",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "stress monitoring",
+          "matched_quiz_concept": "pandemic stress",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "safety reinforcement",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "medical access",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "alternative care",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "home exercises",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "social contact",
+          "matched_quiz_concept": "social contact avoidance",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "medication stockpiling",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "child separation",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "dementia management",
+          "matched_quiz_concept": "stress management",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "clear communication",
+          "matched_quiz_concept": "collegial communication limits",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "emergency preparedness",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "isolation",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "social networks",
+          "matched_quiz_concept": "social contact avoidance",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "daily routines",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "physical contact",
+          "matched_quiz_concept": "social contact avoidance",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "communication technologies",
+          "matched_quiz_concept": "collegial communication limits",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "health authorities",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "healthy activities",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "exercise",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "sleep routines",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "healthy diet",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "perspective maintenance",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "public health agencies",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "outbreak management",
+          "matched_quiz_concept": "stress management",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "news reports",
+          "matched_quiz_concept": "continuous news",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "information updates",
+          "matched_quiz_concept": "scheduled updates",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "health professionals",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "who website",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "psychosocial aspects",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "epidemic control",
+          "matched_quiz_concept": "who guidelines",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "information sources",
+          "matched_quiz_concept": "unreliable sources",
+          "similarity": 0.5
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 2.190283,
+      "breadth_normalized_entropy": 0.808805,
+      "matched_document_concepts": 15,
+      "total_document_concepts": 78
+    },
+    "duplication": {
+      "duplication": 0.423077,
+      "unique_matched_document_concepts": 15,
+      "total_quiz_concepts": 26,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "who guidelines",
+          "matched_document_concept": "who guidelines",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "correct term",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "affected individuals",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "terminology for people",
+          "matched_document_concept": "appreciation for caregivers",
+          "similarity": 0.333333
+        },
+        {
+          "quiz_concept": "covid-19 patients",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "continuous news",
+          "matched_document_concept": "news reports",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "frequent sharing",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "unreliable sources",
+          "matched_document_concept": "information sources",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "scheduled updates",
+          "matched_document_concept": "information updates",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "trusted sources",
+          "matched_document_concept": "trusted information sources",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "stress coping strategies",
+          "matched_document_concept": "past coping strategies",
+          "similarity": 0.666667
+        },
+        {
+          "quiz_concept": "social contact avoidance",
+          "matched_document_concept": "social contact",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "caffeine energy boost",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "sufficient rest",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "physical activity engagement",
+          "matched_document_concept": "physical contact",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "collegial communication limits",
+          "matched_document_concept": "inclusive communication",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "emotional processing",
+          "matched_document_concept": "emotional expression",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "creative expression",
+          "matched_document_concept": "emotional expression",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "pandemic stress",
+          "matched_document_concept": "global pandemic",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "family support",
+          "matched_document_concept": "family avoidance",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "stress management",
+          "matched_document_concept": "stress management",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "simple facts",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "consistent repetition",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "older adults",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "cognitive decline",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "written instructions",
+          "matched_document_concept": "public health emergency",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 78,
+      "quiz_concepts": 26
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc9\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc9\\question_concepts.json"
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q_d0769d2b68",
+    "question_text": "What was a key achievement of the August Revolution regarding religion in Vietnam, according to the author?",
+    "options": [
+      "Establishing a state religion",
+      "Eliminating all religious practices",
+      "Addressing the religious issue at the first step alongside other national issues",
+      "Restricting freedom of religion"
+    ],
+    "correct_answer": "Addressing the religious issue at the first step alongside other national issues",
+    "explanation": "The document states that the revolution 'had scored initial achievements in solving at the first step the religious issue Vietnam, together with many other issues of the national warfare and the people’s livelihood.' (p. 29)",
+    "target_concept": "August Revolution's religious impact",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003614_doc3_101ec7/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 1,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003614_doc3_101ec7",
+      "source_label": "doc3",
+      "question_index": 1
+    }
+  },
+  {
+    "id": "q_0e00c2e322",
+    "question_text": "According to the proclamation of the Indochinese Communist Party (1945), which right was explicitly included in the uprising program?",
+    "options": [
+      "Freedom from taxation",
+      "Freedom of religion as a democratic liberty",
+      "Mandatory military conscription",
+      "Restriction of religious diversity"
+    ],
+    "correct_answer": "Freedom of religion as a democratic liberty",
+    "explanation": "The document notes that the 10-point proclamation's 5th point explicitly stated 'freedom of religion' as a democratic liberty among other civic rights. (p. 30-31)",
+    "target_concept": "1945 Communist Party proclamation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003614_doc3_101ec7/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 2,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003614_doc3_101ec7",
+      "source_label": "doc3",
+      "question_index": 2
+    }
+  },
+  {
+    "id": "q_d3c9d99957",
+    "question_text": "What role did Catholic personalities hold in the early Vietnamese political system after the August Revolution?",
+    "options": [
+      "They were excluded from government roles",
+      "They occupied significant positions in the government and National Assembly",
+      "They were required to convert to Marxism-Leninism",
+      "They were prohibited from participating in public life"
+    ],
+    "correct_answer": "They occupied significant positions in the government and National Assembly",
+    "explanation": "The text lists multiple Catholic figures (Nguyễn Mạnh Hà, Ngô Tử Hạ, Phạm Bá Trực) in ministerial roles and the National Assembly. (p. 30-31)",
+    "target_concept": "Religious representation in governance",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003614_doc3_101ec7/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 3,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003614_doc3_101ec7",
+      "source_label": "doc3",
+      "question_index": 3
+    }
+  },
+  {
+    "id": "q_9dee28dbf7",
+    "question_text": "What did Hồ Chí Minh propose regarding religion in the first session of the Temporary Government (September 1945)?",
+    "options": [
+      "Enforce Marxist-Leninist atheism",
+      "Proclaim 'Freedom of beliefs and solidarity between Catholics and non-Catholics'",
+      "Ban all Christian practices",
+      "Establish a state-controlled church"
+    ],
+    "correct_answer": "Proclaim 'Freedom of beliefs and solidarity between Catholics and non-Catholics'",
+    "explanation": "Document quotes Hồ Chí Minh's explicit proposal to address religious division: 'I propose the Government to issue a proclamation: Freedom of beliefs and solidarity between Catholics and non-Catholics.' (p. 31)",
+    "target_concept": "Hồ Chí Minh's religious policy",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003614_doc3_101ec7/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 4,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003614_doc3_101ec7",
+      "source_label": "doc3",
+      "question_index": 4
+    }
+  },
+  {
+    "id": "q_0aae39e836",
+    "question_text": "What criticism did Trường Chinh address in his article 'To overthrow an erroneous tendency' (1946)?",
+    "options": [
+      "Overemphasizing economic reforms",
+      "Leftist infanticide and military errors",
+      "Excessive revolutionary zeal infringing on religious customs",
+      "Neglecting agricultural production"
+    ],
+    "correct_answer": "Excessive revolutionary zeal infringing on religious customs",
+    "explanation": "The document details Trường Chinh's critique of 'leftist infantilism' that 'create[d] division in the Unified Front of the People' by disrupting traditional practices. (p. 32)",
+    "target_concept": "Critique of leftist religious policies",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260512_003614_doc3_101ec7/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 5,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260512_003614_doc3_101ec7",
+      "source_label": "doc3",
+      "question_index": 5
+    }
+  }
+]

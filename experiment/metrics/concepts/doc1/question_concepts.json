@@ -1,0 +1,81 @@
+{
+  "doc_id": "doc1",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:02:25.364577Z",
+  "all_concepts": [
+    "dien bien phu battle",
+    "enemy battalions",
+    "vietnamese military action",
+    "battalion count estimation",
+    "{'concepts': 'offensive date'}",
+    "central sector",
+    "northern sub-sector",
+    "central sub-sector",
+    "southern sub-sector",
+    "hong cum sub-sector",
+    "dien bien phu campaign",
+    "first phase outcome",
+    "sub-sector capture",
+    "sub-sector destruction",
+    "sub-sector annihilation",
+    "airfield control",
+    "primary outcome",
+    "enemy planes",
+    "destroyed",
+    "brought down",
+    "campaign"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "How many enemy battalions were present at Dien Bien Phu when the Vietnamese launched their attack?",
+      "concepts": [
+        "dien bien phu battle",
+        "enemy battalions",
+        "vietnamese military action",
+        "battalion count estimation"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "On which date did the Vietnamese begin the offensive against Dien Bien Phu?",
+      "concepts": [
+        "{'concepts': 'offensive date'}"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Which of the following sub-sectors was described as the most important in the central sector?",
+      "concepts": [
+        "central sector",
+        "northern sub-sector",
+        "central sub-sector",
+        "southern sub-sector",
+        "hong cum sub-sector"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "What was the primary outcome of the first phase of the Dien Bien Phu campaign?",
+      "concepts": [
+        "dien bien phu campaign",
+        "first phase outcome",
+        "sub-sector capture",
+        "sub-sector destruction",
+        "sub-sector annihilation",
+        "airfield control",
+        "primary outcome"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "What was the total number of enemy planes destroyed or brought down during the campaign, according to the document?",
+      "concepts": [
+        "enemy planes",
+        "destroyed",
+        "brought down",
+        "campaign"
+      ]
+    }
+  ]
+}

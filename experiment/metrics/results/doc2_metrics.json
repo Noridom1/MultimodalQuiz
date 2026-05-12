@@ -1,0 +1,563 @@
+{
+  "doc_id": "doc2",
+  "created_at": "2026-05-11T17:38:08.972819Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc2\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.423124,
+      "thresholded_coverage": 0.166667,
+      "threshold": 0.75,
+      "matched_doc_count": 14,
+      "total_doc_count": 84,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "process scheduling",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "cpu multiplexing",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "virtual cpu",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "time-sharing os",
+          "matched_quiz_concept": "memory sharing",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "context switch",
+          "matched_quiz_concept": "context switch",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "cpu registers",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "state save/restore",
+          "matched_quiz_concept": "save restore",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "blocking system call",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "hardware timer interrupt",
+          "matched_quiz_concept": "timer interrupt",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "interrupt-driven scheduling",
+          "matched_quiz_concept": "timer interrupt",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "process blocking",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "voluntary switch",
+          "matched_quiz_concept": "context switch",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "involuntary switch",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "multi-cpu synchronization",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "resource cleanup",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "process termination",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "per-cpu process tracking",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "scheduler thread",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "trap to kernel",
+          "matched_quiz_concept": "kernel function",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "trap return",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "context switch function",
+          "matched_quiz_concept": "context switch",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "struct context",
+          "matched_quiz_concept": "context switch",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "thread state",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "caller-saved registers",
+          "matched_quiz_concept": "caller-saved registers",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "callee-saved registers",
+          "matched_quiz_concept": "callee-saved registers",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "risc-v calling convention",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "stack pointer",
+          "matched_quiz_concept": "stack management",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "program counter",
+          "matched_quiz_concept": "program counter",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "hardware timer",
+          "matched_quiz_concept": "timer interrupt",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "transparency to processes",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "process-switch diagram",
+          "matched_quiz_concept": "process context switch",
+          "similarity": 0.666667
+        },
+        {
+          "document_concept": "scheduler function",
+          "matched_quiz_concept": "kernel function",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "per-cpu scheduler",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "thread scheduling",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "schedule selection",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "switching mechanism",
+          "matched_quiz_concept": "context switching",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "process switch",
+          "matched_quiz_concept": "process context switch",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "cpu lock",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "process state",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "cpu hartid",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "spinlock",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "nested spinlock",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cpu context",
+          "matched_quiz_concept": "context switch",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "process lock",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "cpu per-cpu",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.632456
+        },
+        {
+          "document_concept": "interrupt disable",
+          "matched_quiz_concept": "timer interrupt",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "context save",
+          "matched_quiz_concept": "context switch",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "context restore",
+          "matched_quiz_concept": "context switch",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "process runnable",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "process running",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "cpu schedule",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "cpu loop",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "cpu hartid index",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "cpu current",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "process context",
+          "matched_quiz_concept": "process context switch",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "sched call",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "trapframe field",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cpu proc",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "cpu hartid array",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "process table",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "swtch call",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "trapframe setup",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cpu thread",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "double context switch",
+          "matched_quiz_concept": "context switch",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "cpu stack",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "process exit",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "thread yield",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cpu yield",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "cpu sleep",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "cpu fork",
+          "matched_quiz_concept": "cpu registers",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "process start",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "round robin",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "process priorities",
+          "matched_quiz_concept": "process scheduling",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "scheduler preference",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "fairness",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "throughput",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "context switches",
+          "matched_quiz_concept": "context switch",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "kernel threads",
+          "matched_quiz_concept": "kernel function",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "single context switch",
+          "matched_quiz_concept": "context switch",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "thread selection",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "locking",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "deadlocks",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "cpus contention",
+          "matched_quiz_concept": "involuntary context switch",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "lock management",
+          "matched_quiz_concept": "stack management",
+          "similarity": 0.5
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 2.121179,
+      "breadth_normalized_entropy": 0.8846,
+      "matched_document_concepts": 11,
+      "total_document_concepts": 84
+    },
+    "duplication": {
+      "duplication": 0.47619,
+      "unique_matched_document_concepts": 11,
+      "total_quiz_concepts": 21,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "involuntary context switch",
+          "matched_document_concept": "context switch",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "context switch mechanism",
+          "matched_document_concept": "context switch",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "timer interrupt",
+          "matched_document_concept": "hardware timer interrupt",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "process scheduling",
+          "matched_document_concept": "process scheduling",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "preemptive multitasking",
+          "matched_document_concept": "process scheduling",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "context switch",
+          "matched_document_concept": "context switch",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "cpu registers",
+          "matched_document_concept": "cpu registers",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "save restore",
+          "matched_document_concept": "state save/restore",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "kernel function",
+          "matched_document_concept": "scheduler function",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "context switching",
+          "matched_document_concept": "context switch",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "memory sharing",
+          "matched_document_concept": "time-sharing os",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "concurrency control",
+          "matched_document_concept": "process scheduling",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "stack management",
+          "matched_document_concept": "stack pointer",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "general-purpose registers",
+          "matched_document_concept": "cpu registers",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "program counter",
+          "matched_document_concept": "program counter",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "caller-saved registers",
+          "matched_document_concept": "caller-saved registers",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "callee-saved registers",
+          "matched_document_concept": "callee-saved registers",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "floating-point registers",
+          "matched_document_concept": "cpu registers",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "race conditions",
+          "matched_document_concept": "process scheduling",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "atomic updates",
+          "matched_document_concept": "process scheduling",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "process context switch",
+          "matched_document_concept": "context switch",
+          "similarity": 0.816497
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 84,
+      "quiz_concepts": 21
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc2\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc2\\question_concepts.json"
+  }
+}

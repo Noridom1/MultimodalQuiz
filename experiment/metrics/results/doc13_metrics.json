@@ -1,0 +1,588 @@
+{
+  "doc_id": "doc13",
+  "created_at": "2026-05-11T17:38:08.626420Z",
+  "coverage_threshold": 0.75,
+  "source_questions": "outputs-baseline\\doc13\\generation\\questions.json",
+  "metrics": {
+    "coverage": {
+      "soft_coverage": 0.203087,
+      "thresholded_coverage": 0.051546,
+      "threshold": 0.75,
+      "matched_doc_count": 5,
+      "total_doc_count": 97,
+      "doc_to_quiz_matches": [
+        {
+          "document_concept": "racket sport",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "singles game",
+          "matched_quiz_concept": "singles service",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "doubles game",
+          "matched_quiz_concept": "doubles matches",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "shuttlecock",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "net",
+          "matched_quiz_concept": "{'concept': 'badminton net height'}",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "badminton court",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "racket grip",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "feathered shuttle",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "synthetic shuttle",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "plastic shuttle",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "service court",
+          "matched_quiz_concept": "service court",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "serving rules",
+          "matched_quiz_concept": "badminton rules",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "rally scoring",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "point system",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "game rules",
+          "matched_quiz_concept": "badminton rules",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "match format",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "net height",
+          "matched_quiz_concept": "{'concept': 'badminton net height'}",
+          "similarity": 0.707107
+        },
+        {
+          "document_concept": "court dimensions",
+          "matched_quiz_concept": "service court",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "waist serve",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "olympic sport",
+          "matched_quiz_concept": "olympic debut city",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "historical origins",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "racket weight",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "service rotation",
+          "matched_quiz_concept": "singles service",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "feints in serving",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "rally continuation",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "no bounce rule",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "win rally",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "net fault",
+          "matched_quiz_concept": "{'concept': 'badminton net height'}",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "court boundary",
+          "matched_quiz_concept": "service court",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "double hit",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "carrying bird",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "ceiling hit",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "net touch",
+          "matched_quiz_concept": "{'concept': 'badminton net height'}",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "over net reach",
+          "matched_quiz_concept": "{'concept': 'badminton net height'}",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "point scoring",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "serve rotation",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "position switch",
+          "matched_quiz_concept": "front-back position",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "forehand stroke",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "backhand stroke",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "short service",
+          "matched_quiz_concept": "singles service",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "long service",
+          "matched_quiz_concept": "singles service",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "drive service",
+          "matched_quiz_concept": "singles service",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "backhand serve",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "attacking clear",
+          "matched_quiz_concept": "attacking strategy",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "defensive clear",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "drop shot",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "smash stroke",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "drive stroke",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "net shot",
+          "matched_quiz_concept": "{'concept': 'badminton net height'}",
+          "similarity": 0.353553
+        },
+        {
+          "document_concept": "hairpin shot",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "attacking lob",
+          "matched_quiz_concept": "attacking strategy",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "defensive lob",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "doubles strategy",
+          "matched_quiz_concept": "doubles matches",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "front-back position",
+          "matched_quiz_concept": "front-back position",
+          "similarity": 1.0
+        },
+        {
+          "document_concept": "side-by-side defense",
+          "matched_quiz_concept": "side-by-side position",
+          "similarity": 0.833333
+        },
+        {
+          "document_concept": "teamwork",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "home position",
+          "matched_quiz_concept": "front-back position",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "four corners",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "midcourt stance",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "serve placement",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "opponent weakness",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "strokes variety",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "concentration",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "badminton vocabulary",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "ace serve",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "backcourt rearcourt",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "baseline position",
+          "matched_quiz_concept": "front-back position",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "shuttlecock term",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "illegal stroke",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "court center line",
+          "matched_quiz_concept": "service court",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "clear shot action",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "doubles gameplay",
+          "matched_quiz_concept": "doubles matches",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "drop shot technique",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "drive shot force",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "fault violation",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "forecourt area",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "home position stance",
+          "matched_quiz_concept": "front-back position",
+          "similarity": 0.333333
+        },
+        {
+          "document_concept": "lob trajectory",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "net contact rule",
+          "matched_quiz_concept": "{'concept': 'badminton net height'}",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "racket equipment",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "rally sequence",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "rearcourt positioning",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "underarm serve",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "service court areas",
+          "matched_quiz_concept": "service court",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "smash overhead stroke",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "wood shot legality",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "court diagram elements",
+          "matched_quiz_concept": "service court",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "score margin requirement",
+          "matched_quiz_concept": "odd score",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "olympic debut",
+          "matched_quiz_concept": "olympic debut city",
+          "similarity": 0.816497
+        },
+        {
+          "document_concept": "singles doubles court",
+          "matched_quiz_concept": "singles service",
+          "similarity": 0.408248
+        },
+        {
+          "document_concept": "net shot execution",
+          "matched_quiz_concept": "{'concept': 'badminton net height'}",
+          "similarity": 0.288675
+        },
+        {
+          "document_concept": "badminton play",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.5
+        },
+        {
+          "document_concept": "fun activity",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "health benefits",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "easy learn",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "simple practice",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        },
+        {
+          "document_concept": "encouragement to join",
+          "matched_quiz_concept": "badminton introduction",
+          "similarity": 0.0
+        }
+      ]
+    },
+    "breadth": {
+      "breadth_entropy": 2.351673,
+      "breadth_normalized_entropy": 0.980724,
+      "matched_document_concepts": 11,
+      "total_document_concepts": 97
+    },
+    "duplication": {
+      "duplication": 0.153846,
+      "unique_matched_document_concepts": 11,
+      "total_quiz_concepts": 13,
+      "quiz_to_doc_matches": [
+        {
+          "quiz_concept": "badminton introduction",
+          "matched_document_concept": "badminton court",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "olympic debut city",
+          "matched_document_concept": "olympic debut",
+          "similarity": 0.816497
+        },
+        {
+          "quiz_concept": "first introduction",
+          "matched_document_concept": "racket sport",
+          "similarity": 0.0
+        },
+        {
+          "quiz_concept": "{'concept': 'badminton net height'}",
+          "matched_document_concept": "net height",
+          "similarity": 0.707107
+        },
+        {
+          "quiz_concept": "singles service",
+          "matched_document_concept": "singles game",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "service court",
+          "matched_document_concept": "service court",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "odd score",
+          "matched_document_concept": "score margin requirement",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "badminton rules",
+          "matched_document_concept": "badminton court",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "winning margin",
+          "matched_document_concept": "score margin requirement",
+          "similarity": 0.408248
+        },
+        {
+          "quiz_concept": "doubles matches",
+          "matched_document_concept": "doubles game",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "attacking strategy",
+          "matched_document_concept": "attacking clear",
+          "similarity": 0.5
+        },
+        {
+          "quiz_concept": "front-back position",
+          "matched_document_concept": "front-back position",
+          "similarity": 1.0
+        },
+        {
+          "quiz_concept": "side-by-side position",
+          "matched_document_concept": "side-by-side defense",
+          "similarity": 0.833333
+        }
+      ]
+    },
+    "counts": {
+      "document_concepts": 97,
+      "quiz_concepts": 13
+    }
+  },
+  "artifacts": {
+    "document_concepts_path": "experiment\\metrics\\concepts\\doc13\\document_concepts.json",
+    "question_concepts_path": "experiment\\metrics\\concepts\\doc13\\question_concepts.json"
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q_e59927eae7",
+    "question_text": "What is the primary physical response triggered by the 'fight or flight' reaction?",
+    "options": [
+      "Increased appetite",
+      "Lowered heart rate",
+      "Elevated heart rate",
+      "Reduced perspiration"
+    ],
+    "correct_answer": "Elevated heart rate",
+    "explanation": "The document states adrenaline and noradrenaline raise heart rate and increase sweating during stress. (Pages 4-5)",
+    "target_concept": "Physiological stress response",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_230230_doc11_a41fe4/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 1,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_230230_doc11_a41fe4",
+      "source_label": "doc11",
+      "question_index": 1
+    }
+  },
+  {
+    "id": "q_db566d51d0",
+    "question_text": "Which long-term health risk is most strongly associated with chronic stress according to the document?",
+    "options": [
+      "Skin rashes",
+      "Joint inflammation",
+      "Heart disease",
+      "Vision loss"
+    ],
+    "correct_answer": "Heart disease",
+    "explanation": "The text explicitly links prolonged stress to heart attacks and strokes. (Pages 3-4)",
+    "target_concept": "Chronic stress consequences",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_230230_doc11_a41fe4/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 2,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_230230_doc11_a41fe4",
+      "source_label": "doc11",
+      "question_index": 2
+    }
+  },
+  {
+    "id": "q_841b85b7ea",
+    "question_text": "What percentage of UK workplace illness cases are attributed to mental health issues?",
+    "options": [
+      "15%",
+      "20%",
+      "35%",
+      "40%"
+    ],
+    "correct_answer": "40%",
+    "explanation": "The document cites mental health as accounting for 40% of sick leave and 20% of NHS employee illness. (Pages 18-19)",
+    "target_concept": "Workplace stress statistics",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_230230_doc11_a41fe4/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 3,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_230230_doc11_a41fe4",
+      "source_label": "doc11",
+      "question_index": 3
+    }
+  },
+  {
+    "id": "q_73589bcb6d",
+    "question_text": "Which recommended stress management technique is most directly linked to reducing stress hormones?",
+    "options": [
+      "Writing poetry",
+      "Organizing a room",
+      "Deep breathing",
+      "Window shopping"
+    ],
+    "correct_answer": "Deep breathing",
+    "explanation": "Mindfulness techniques like deep breathing are featured as stress-reduction strategies. (Page 28)",
+    "target_concept": "Stress mitigation methods",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_230230_doc11_a41fe4/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 4,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_230230_doc11_a41fe4",
+      "source_label": "doc11",
+      "question_index": 4
+    }
+  },
+  {
+    "id": "q_8288f80a37",
+    "question_text": "What is the document's primary warning regarding substance use during stress?",
+    "options": [
+      "Drugs increase social bonding",
+      "Alcohol improves sleep quality",
+      "Smoking reduces anxiety over time",
+      "Substances often worsen mental health"
+    ],
+    "correct_answer": "Substances often worsen mental health",
+    "explanation": "The text warns that nicotine and alcohol can exacerbate anxiety and depression long-term. (Pages 22-23)",
+    "target_concept": "Substance use risks",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "mock://baseline/20260511_230230_doc11_a41fe4/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "method": "baseline_direct_llm",
+      "baseline_index": 5,
+      "provider": "groq",
+      "model": null,
+      "run_id": "20260511_230230_doc11_a41fe4",
+      "source_label": "doc11",
+      "question_index": 5
+    }
+  }
+]

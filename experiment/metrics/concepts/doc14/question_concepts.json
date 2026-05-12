@@ -1,0 +1,68 @@
+{
+  "doc_id": "doc14",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:12:17.756554Z",
+  "all_concepts": [
+    "zygote formation",
+    "fertilization",
+    "external fertilization",
+    "animal reproduction",
+    "male gametes",
+    "spermatogenesis",
+    "gametes",
+    "sexual reproduction",
+    "asexual reproduction",
+    "internal fertilization",
+    "egg-laying animals",
+    "viviparous reproduction",
+    "oviparous classification",
+    "amniotic eggs"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "Which process results in the formation of a zygote?",
+      "concepts": [
+        "zygote formation",
+        "fertilization"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "Which of these animals reproduces through external fertilization?",
+      "concepts": [
+        "external fertilization",
+        "animal reproduction"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "What are the male gametes called in human reproduction?",
+      "concepts": [
+        "male gametes",
+        "spermatogenesis",
+        "gametes"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Which type of reproduction involves only one parent?",
+      "concepts": [
+        "sexual reproduction",
+        "asexual reproduction",
+        "internal fertilization",
+        "external fertilization"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "What term describes animals that lay eggs for reproduction?",
+      "concepts": [
+        "egg-laying animals",
+        "viviparous reproduction",
+        "oviparous classification",
+        "amniotic eggs"
+      ]
+    }
+  ]
+}

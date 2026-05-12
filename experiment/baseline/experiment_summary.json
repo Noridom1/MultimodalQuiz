@@ -1,0 +1,34 @@
+{
+  "method": "baseline",
+  "input_dir": "data\\raw",
+  "num_questions": 5,
+  "difficulty_distribution": {
+    "easy": 0.4,
+    "medium": 0.4,
+    "hard": 0.2
+  },
+  "generation_mode": null,
+  "total_files": 1,
+  "succeeded": 1,
+  "failed": 0,
+  "started_at": "2026-04-27T07:55:51.149477Z",
+  "finished_at": "2026-04-27T07:56:11.831611Z",
+  "total_elapsed_seconds": 20.678954,
+  "records": [
+    {
+      "document_path": "data\\raw\\200401-marxist-Dien-Bien-Phu.pdf",
+      "document_name": "200401-marxist-Dien-Bien-Phu.pdf",
+      "run_id": "200401-marxist-Dien-Bien-Phu_5",
+      "method": "baseline",
+      "status": "success",
+      "started_at": "2026-04-27T07:55:51.149477Z",
+      "finished_at": "2026-04-27T07:56:11.830847Z",
+      "elapsed_seconds": 20.676399,
+      "output_root": "D:\\projects\\MultimodalQuiz\\experiment\\baseline\\200401-marxist-Dien-Bien-Phu_5",
+      "manifest_path": "D:\\projects\\MultimodalQuiz\\experiment\\baseline\\200401-marxist-Dien-Bien-Phu_5\\manifest.json",
+      "log_path": "D:\\projects\\MultimodalQuiz\\experiment\\baseline\\200401-marxist-Dien-Bien-Phu_5\\logs\\pipeline.log",
+      "error_type": null,
+      "error_message": null
+    }
+  ]
+}

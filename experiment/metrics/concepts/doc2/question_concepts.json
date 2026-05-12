@@ -1,0 +1,84 @@
+{
+  "doc_id": "doc2",
+  "question_count": 5,
+  "created_at": "2026-05-11T17:15:44.076558Z",
+  "all_concepts": [
+    "involuntary context switch",
+    "context switch mechanism",
+    "timer interrupt",
+    "process scheduling",
+    "preemptive multitasking",
+    "context switch",
+    "cpu registers",
+    "save restore",
+    "kernel function",
+    "context switching",
+    "memory sharing",
+    "concurrency control",
+    "stack management",
+    "general-purpose registers",
+    "program counter",
+    "caller-saved registers",
+    "callee-saved registers",
+    "floating-point registers",
+    "race conditions",
+    "atomic updates",
+    "process context switch"
+  ],
+  "per_question": [
+    {
+      "index": 1,
+      "question": "Which mechanism does xv6 use to force involuntary context switches when a process computes for long periods without blocking?",
+      "concepts": [
+        "involuntary context switch",
+        "context switch mechanism",
+        "timer interrupt",
+        "process scheduling",
+        "preemptive multitasking"
+      ]
+    },
+    {
+      "index": 2,
+      "question": "What is the primary purpose of the `swtch` function in kernel/swtch.S?",
+      "concepts": [
+        "context switch",
+        "cpu registers",
+        "save restore",
+        "kernel function"
+      ]
+    },
+    {
+      "index": 3,
+      "question": "Why must the scheduler thread always act as an intermediary in context switches between processes?",
+      "concepts": [
+        "process scheduling",
+        "context switching",
+        "memory sharing",
+        "concurrency control",
+        "cpu registers",
+        "stack management"
+      ]
+    },
+    {
+      "index": 4,
+      "question": "Which registers does `swtch` explicitly save and restore to implement context switching?",
+      "concepts": [
+        "general-purpose registers",
+        "program counter",
+        "caller-saved registers",
+        "callee-saved registers",
+        "floating-point registers"
+      ]
+    },
+    {
+      "index": 5,
+      "question": "Why must `p->lock` remain held across calls to `swtch()` in xv6?",
+      "concepts": [
+        "race conditions",
+        "atomic updates",
+        "concurrency control",
+        "process context switch"
+      ]
+    }
+  ]
+}
