@@ -2,12 +2,18 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections import Counter
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any, Mapping, Optional
 
 from src.knowledge.schema import MultimodalDocumentGraph, NodeKind
 from src.planner.prompt_templates import render_planner_prompt
+from src.question_formats import (
+    QuestionFormatProfile,
+    coerce_format_profile,
+    normalize_question_type,
+)
 from src.utils.llm import LLMClient
 
 from dotenv import load_dotenv
@@ -52,15 +58,18 @@ class QuizPlanner:
         *,
         num_questions: int,
         difficulty_distribution: dict[str, float],
+        format_profile: QuestionFormatProfile | Mapping[str, float] | str | None = None,
     ) -> list[QuestionPlan]:
         if num_questions <= 0:
             raise ValueError("num_questions must be greater than zero.")
 
         self._validate_difficulty_distribution(difficulty_distribution)
+        profile = coerce_format_profile(format_profile)
         prompt = render_planner_prompt(
             graph_context=self._build_graph_context(),
             num_questions=num_questions,
             difficulty_distribution=difficulty_distribution,
+            format_profile=profile,
         )
 
         last_error: Exception | None = None
@@ -111,7 +120,7 @@ class QuizPlanner:
                     print("[QuizPlanner] Failed to parse cleaned LLM output. Cleaned repr:", repr(cleaned))
                     print("[QuizPlanner] Original raw output repr:", repr(raw_output))
                     raise
-                plans = self._parse_plans(payload, num_questions)
+                plans = self._parse_plans(payload, num_questions, profile)
                 self._repair_concept_coverage(plans)
                 self._validate_concept_coverage(plans, num_questions)
                 self._validate_difficulty_balance(plans, num_questions, difficulty_distribution)
@@ -121,6 +130,8 @@ class QuizPlanner:
                 continue
             except RuntimeError as exc:
                 last_error = exc
+                if "question format" in str(exc).lower():
+                    continue
                 break
 
         raise RuntimeError("Failed to generate a valid quiz plan.") from last_error
@@ -161,7 +172,12 @@ class QuizPlanner:
             "edges": edges,
         }
 
-    def _parse_plans(self, payload: Any, expected_count: int) -> list[QuestionPlan]:
+    def _parse_plans(
+        self,
+        payload: Any,
+        expected_count: int,
+        format_profile: QuestionFormatProfile,
+    ) -> list[QuestionPlan]:
         if not isinstance(payload, dict):
             raise RuntimeError("Planner output must be a JSON object.")
         rows = payload.get("questions")
@@ -176,7 +192,8 @@ class QuizPlanner:
                 raise RuntimeError("Each planned question must be an object.")
 
             target_concept = self._normalized_text(row.get("target_concept"))
-            question_type = self._normalized_text(row.get("question_type"))
+            question_type_raw = self._normalized_text(row.get("question_type"))
+            question_type = normalize_question_type(question_type_raw)
             difficulty = self._normalized_text(row.get("difficulty")).lower()
             reasoning_type = self._normalized_text(row.get("reasoning_type")).lower()
             # Images are mandatory for all generated questions
@@ -201,6 +218,18 @@ class QuizPlanner:
                 raise RuntimeError(f"Unsupported difficulty: {difficulty}")
             if reasoning_type not in self._VALID_REASONING:
                 raise RuntimeError(f"Unsupported reasoning_type: {reasoning_type}")
+            if question_type not in format_profile.allowed_types:
+                raise RuntimeError(
+                    f"question_type {question_type_raw!r} (normalized {question_type!r}) not allowed by profile "
+                    f"{sorted(format_profile.allowed_types)}. question format retry."
+                )
+
+            row_meta = row.get("metadata")
+            plan_meta: dict[str, object] = dict(row_meta) if isinstance(row_meta, dict) else {}
+            if question_type == "matching":
+                mp = row.get("matching_pairs")
+                if isinstance(mp, list) and "matching_pairs" not in plan_meta:
+                    plan_meta["matching_pairs"] = mp
 
             plans.append(
                 QuestionPlan(
@@ -211,8 +240,22 @@ class QuizPlanner:
                     image_role=image_role,
                     image_description=image_description,
                     learning_objective=learning_objective,
+                    metadata=plan_meta,
                 )
             )
+
+        if (
+            not format_profile.is_mcq_only()
+            and len(format_profile.allowed_types) > 1
+            and expected_count >= 3
+        ):
+            tallies = Counter(p.question_type for p in plans)
+            count_map = {t: int(tallies.get(t, 0)) for t in format_profile.allowed_types}
+            if not format_profile.distribution_within_tolerance(count_map, expected_count):
+                raise RuntimeError(
+                    f"question format distribution off-target counts={count_map} "
+                    f"expected≈{format_profile.expected_counts(expected_count)}. question format retry."
+                )
 
         return plans
 

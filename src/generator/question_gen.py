@@ -8,6 +8,7 @@ from uuid import uuid4
 
 from src.knowledge.schema import Question
 from src.planner.planner import QuestionPlan
+from src.question_formats import merge_question_metadata, normalize_question_type
 from src.utils.llm import LLMClient
 
 LOGGER = logging.getLogger(__name__)
@@ -26,13 +27,80 @@ class LLMQuestionGenerator:
         self._max_retries = max_retries
 
     @staticmethod
-    def _system_prompt() -> str:
-        return (
+    def _system_prompt_for_plan(question_plan: QuestionPlan) -> str:
+        qt = normalize_question_type(question_plan.question_type)
+        base = (
             "You are an expert assessment author. Produce one accurate question in strict JSON format "
-            "matching the required schema. Do not output markdown or extra text. "
-            'For multiple-choice questions, always return exactly 4 non-empty options and set '
-            '"correct_answer" to either the full correct option text or one of A, B, C, D.'
+            "matching the required schema. Do not output markdown or extra text."
         )
+        if qt == "multiple_choice":
+            return (
+                base
+                + " For multiple-choice, return exactly 4 non-empty options and set correct_answer "
+                "to either the full correct option text or one of A, B, C, D."
+            )
+        if qt == "true_false":
+            return base + ' For true/false, options must be ["True", "False"] and correct_answer True or False.'
+        if qt == "fill_in_blank":
+            return (
+                base + " For fill-in-the-blank, use ____ or {blank} in question_text, options must be [], "
+                "and correct_answer must be the missing phrase."
+            )
+        if qt == "matching":
+            return (
+                base + " For matching, fill matching_left, matching_right (same length), matching_solution "
+                "as index pairs, options [], and a short correct_answer summary."
+            )
+        return base
+
+    @staticmethod
+    def _repair_type_hints(question_plan: QuestionPlan) -> str:
+        qt = normalize_question_type(question_plan.question_type)
+        if qt == "multiple_choice":
+            return "For multiple-choice, return exactly 4 non-empty options; correct_answer = option text or A/B/C/D."
+        if qt == "true_false":
+            return 'For true/false, options exactly ["True","False"]; correct_answer True or False.'
+        if qt == "fill_in_blank":
+            return "For fill-in-the-blank, include ____ or {blank}; options []; correct_answer is the blank text."
+        if qt == "matching":
+            return (
+                "For matching, include matching_left, matching_right, matching_solution as a perfect one-to-one pairing; "
+                "options []."
+            )
+        return "Follow the schema in the user prompt exactly."
+
+    @staticmethod
+    def _augment_matching_payload(payload: dict[str, object], question_plan: QuestionPlan) -> None:
+        if payload.get("matching_left") and payload.get("matching_solution"):
+            return
+        meta = question_plan.metadata or {}
+        pairs = payload.get("matching_pairs") or meta.get("matching_pairs")
+        if not isinstance(pairs, list) or len(pairs) < 2:
+            return
+        left: list[str] = []
+        right: list[str] = []
+        for item in pairs:
+            if isinstance(item, dict):
+                left.append(str(item.get("left", "")).strip())
+                right.append(str(item.get("right", "")).strip())
+        if len(left) != len(right) or len(left) < 2:
+            return
+        payload.setdefault("matching_left", left)
+        payload.setdefault("matching_right", right)
+        n = len(left)
+        payload.setdefault("matching_solution", [[i, i] for i in range(n)])
+
+    @staticmethod
+    def _normalize_payload_for_question(payload: dict[str, object], question_plan: QuestionPlan) -> None:
+        qt = normalize_question_type(question_plan.question_type)
+        oraw = payload.get("options")
+        if qt == "true_false":
+            if not isinstance(oraw, list) or len(oraw) == 0:
+                payload["options"] = ["True", "False"]
+        elif qt in {"fill_in_blank", "matching"}:
+            payload["options"] = []
+        if qt == "matching":
+            LLMQuestionGenerator._augment_matching_payload(payload, question_plan)
 
     @staticmethod
     def _requires_image_grounding(question_plan: QuestionPlan) -> bool:
@@ -46,12 +114,12 @@ class LLMQuestionGenerator:
         invalid_payload_text: str,
         validation_error: str,
         require_image_grounding: bool,
+        question_plan: QuestionPlan,
     ) -> str:
         repair_instructions = [
             "Your previous JSON was invalid. Return corrected JSON only.",
             "Keep the same target concept and overall intent.",
-            "For multiple-choice questions, return exactly 4 non-empty options.",
-            'Set "correct_answer" to either one option text or A/B/C/D.',
+            LLMQuestionGenerator._repair_type_hints(question_plan),
         ]
         if require_image_grounding:
             repair_instructions.append(
@@ -108,14 +176,30 @@ class LLMQuestionGenerator:
         question_plan: QuestionPlan,
         image_path: str | None,
     ) -> Question:
+        payload = dict(payload)
+        LLMQuestionGenerator._normalize_payload_for_question(payload, question_plan)
+
         question_text = str(payload.get("question_text", "")).strip()
         options_raw = payload.get("options", [])
         options: list[str] = []
         if isinstance(options_raw, list):
             options = [str(item).strip() for item in options_raw if str(item).strip()]
 
+        qt = normalize_question_type(question_plan.question_type)
+        if qt == "true_false" and not options:
+            options = ["True", "False"]
+        if qt == "fill_in_blank" or qt == "matching":
+            options = []
+
         correct_answer = str(payload.get("correct_answer", "")).strip()
         explanation = str(payload.get("explanation", "")).strip()
+
+        base_meta: dict[str, object] = {
+            "reasoning_type": question_plan.reasoning_type,
+            "tested_fact_source": question_plan.tested_fact_block_id,
+            **(question_plan.metadata or {}),
+        }
+        merged_meta = merge_question_metadata(base_meta, payload, question_type=qt)
 
         question = Question(
             id=f"q_{uuid4().hex[:10]}",
@@ -125,14 +209,10 @@ class LLMQuestionGenerator:
             explanation=explanation,
             target_concept=question_plan.target_concept,
             difficulty=question_plan.difficulty,
-            question_type=question_plan.question_type,
+            question_type=qt,
             associated_image=image_path,
             image_grounded=LLMQuestionGenerator._requires_image_grounding(question_plan),
-            metadata={
-                "reasoning_type": question_plan.reasoning_type,
-                "tested_fact_source": question_plan.tested_fact_block_id,
-                **question_plan.metadata
-            },
+            metadata=merged_meta,
         )
         question.validate()
         return question
@@ -141,7 +221,7 @@ class LLMQuestionGenerator:
     def _default_plan() -> QuestionPlan:
         return QuestionPlan(
             target_concept="unspecified",
-            question_type="multiple-choice",
+            question_type="multiple_choice",
             difficulty="medium",
             reasoning_type="factoid",
             image_role="illustrative",
@@ -161,10 +241,8 @@ class LLMQuestionGenerator:
         if not prompt:
             raise ValueError("Question prompt cannot be empty.")
 
-        # Ensure the effective plan exists; images are mandatory
+        # Ensure the effective plan exists; image may be absent on provider failures
         effective_plan = question_plan
-        if not image_path:
-            raise ValueError("Image is required by plan but no image_path provided to generator.")
         require_image_grounding = self._requires_image_grounding(effective_plan)
         generation_started_at = time.perf_counter()
         LOGGER.info(
@@ -187,13 +265,14 @@ class LLMQuestionGenerator:
                     invalid_payload_text=previous_output,
                     validation_error=str(last_error),
                     require_image_grounding=require_image_grounding,
+                    question_plan=effective_plan,
                 )
             elif require_image_grounding and attempt > 0:
                 attempt_prompt = (
                     f"{prompt}\n\n"
                     "Retry instruction: The output must require visual evidence from the associated image. "
                     "Mention concrete visual cues in question_text or explanation. "
-                    "For multiple-choice questions, return exactly 4 non-empty options."
+                    f"{LLMQuestionGenerator._repair_type_hints(effective_plan)}"
                 )
 
             try:
@@ -204,7 +283,9 @@ class LLMQuestionGenerator:
                     effective_plan.target_concept,
                     len(attempt_prompt),
                 )
-                llm_output = self._llm_client.complete(attempt_prompt, system_prompt=self._system_prompt())
+                llm_output = self._llm_client.complete(
+                    attempt_prompt, system_prompt=self._system_prompt_for_plan(effective_plan)
+                )
                 previous_output = llm_output
                 payload = self._extract_json_payload(llm_output)
                 question = self._build_question_from_payload(
@@ -213,7 +294,7 @@ class LLMQuestionGenerator:
                     image_path=image_path,
                 )
 
-                if require_image_grounding and not self._is_image_grounded(question):
+                if require_image_grounding and image_path and not self._is_image_grounded(question):
                     raise ValueError("Generated question is not image-grounded.")
 
                 LOGGER.info(

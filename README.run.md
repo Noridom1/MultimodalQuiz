@@ -200,6 +200,20 @@ python scripts/run_pipeline.py data/raw/astronomy.pdf --num-questions 5
 
 Run outputs are written under `outputs/`.
 
+### Question formats (MCQ, true/false, fill-in-blank, matching)
+
+- **CLI**: `--question-formats multiple_choice` for MCQ-only, or a JSON mix (escape quotes in PowerShell), for example:
+
+```powershell
+python scripts/run_pipeline.py data/raw/doc.pdf --question-formats '{\"multiple_choice\":0.34,\"true_false\":0.33,\"fill_in_blank\":0.33}'
+```
+
+- **Config**: [`configs/default.yaml`](configs/default.yaml) → `pipeline.question_format_distribution` (used when the CLI/API does not override formats).
+
+- **HTTP API**: `POST /api/notebooks/{id}/generate` accepts optional `question_format_distribution`, for example `{"multiple_choice": 0.25, "true_false": 0.25, "fill_in_blank": 0.25, "matching": 0.25}`.
+
+- **Studio UI**: When creating a quiz, **Question types** uses checkboxes. The selected types are split evenly; if all are unchecked, the request safely falls back to `multiple_choice` only. The player supports each format in the quiz panel.
+
 ## 8. Troubleshooting
 
 `ModuleNotFoundError` or import errors:

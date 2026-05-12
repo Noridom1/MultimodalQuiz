@@ -7,6 +7,8 @@ from typing import Any, Literal, Optional
 import networkx as nx
 from pydantic import BaseModel, Field
 
+from src.question_formats import normalize_question_type
+
 
 class NodeKind(str, Enum):
     document = "document"
@@ -151,7 +153,9 @@ class Question(BaseModel):
         if not self.question_text or not self.question_text.strip():
             raise ValueError("question_text must be non-empty")
 
-        if self.question_type in {"multiple-choice", "multiple_choice"}:
+        qt = normalize_question_type(self.question_type)
+
+        if qt == "multiple_choice":
             if not isinstance(self.options, list) or len(self.options) != 4:
                 raise ValueError("multiple-choice questions must include 4 options")
             opts = [str(o).strip() for o in self.options]
@@ -161,11 +165,68 @@ class Question(BaseModel):
             if ca not in opts and ca.upper() not in {"A", "B", "C", "D"}:
                 raise ValueError("correct_answer must match one of the options or A/B/C/D")
 
+        elif qt == "true_false":
+            opts = [str(o).strip() for o in self.options] if self.options else []
+            if len(opts) not in (0, 2):
+                raise ValueError("true_false questions must have 0 or 2 options")
+            ca_raw = str(self.correct_answer).strip()
+            ca_up = ca_raw.upper()
+            ok = ca_up in {"TRUE", "FALSE", "T", "F", "YES", "NO"}
+            if opts and not ok:
+                ok = ca_raw in opts
+            if not ok:
+                raise ValueError("true_false: correct_answer must be True/False (or match an option)")
+
+        elif qt == "fill_in_blank":
+            if not str(self.correct_answer).strip():
+                raise ValueError("fill_in_blank requires non-empty correct_answer")
+            stem = self.question_text.lower()
+            if "____" not in self.question_text and "{blank}" not in stem:
+                raise ValueError("fill_in_blank: question_text should include ____ or {blank}")
+
+        elif qt == "matching":
+            if not str(self.correct_answer).strip():
+                raise ValueError("matching requires non-empty correct_answer (summary of pairings)")
+            self._validate_matching_structure()
+
+        else:
+            if not str(self.correct_answer).strip():
+                raise ValueError("correct_answer must be non-empty")
+
         if not self.difficulty or self.difficulty.lower() not in {"easy", "medium", "hard"}:
             raise ValueError("difficulty must be one of: easy, medium, hard")
 
-        if self.associated_image is None or not str(self.associated_image).strip():
-            raise ValueError("associated_image must be a non-empty URL/path for multimodal questions")
+        # Image can be missing when image generation/provider returns no asset.
+        # Keep associated_image optional so text-only questions can still ship.
+
+    def _validate_matching_structure(self) -> None:
+        md = self.metadata
+        left = md.get("matching_left")
+        right = md.get("matching_right")
+        sol = md.get("matching_solution")
+        if not isinstance(left, list) or not isinstance(right, list):
+            raise ValueError("matching: metadata.matching_left and matching_right must be lists")
+        if len(left) != len(right) or len(left) < 2:
+            raise ValueError("matching: left/right must be the same length and at least 2")
+        if not all(str(x).strip() for x in left) or not all(str(x).strip() for x in right):
+            raise ValueError("matching: non-empty strings required in left/right")
+        if not isinstance(sol, list) or len(sol) != len(left):
+            raise ValueError("matching: matching_solution must be a list with one pair per row")
+        n = len(left)
+        seen_l: set[int] = set()
+        seen_r: set[int] = set()
+        for pair in sol:
+            if not isinstance(pair, (list, tuple)) or len(pair) != 2:
+                raise ValueError("matching: each matching_solution entry must be [left_index, right_index]")
+            li, ri = int(pair[0]), int(pair[1])
+            if not (0 <= li < n and 0 <= ri < n):
+                raise ValueError("matching: solution indices out of range")
+            if li in seen_l or ri in seen_r:
+                raise ValueError("matching: each item must be used exactly once")
+            seen_l.add(li)
+            seen_r.add(ri)
+        if len(seen_l) != n:
+            raise ValueError("matching: solution must pair every left item")
 
 
 class TextChunk(BaseModel):

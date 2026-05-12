@@ -83,11 +83,11 @@ function getFilenameFromDisposition(disposition) {
   return plainMatch?.[1]?.trim() || "";
 }
 
-function downloadBlob(blob, filename) {
+function downloadBlob(blob, filename, fallback = "quiz-export") {
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
-  link.download = filename || "quiz-export.zip";
+  link.download = filename || fallback;
   document.body.appendChild(link);
   link.click();
   link.remove();
@@ -96,7 +96,15 @@ function downloadBlob(blob, filename) {
 
 export const api = {
   health: () => request("/api/health"),
-  listNotebooks: () => request("/api/notebooks"),
+  listNotebooks: (query = "") => {
+    const params = new URLSearchParams();
+    const trimmed = String(query || "").trim();
+    if (trimmed) {
+      params.set("q", trimmed);
+    }
+    const suffix = params.toString();
+    return request(`/api/notebooks${suffix ? `?${suffix}` : ""}`);
+  },
   createNotebook: (payload) =>
     request("/api/notebooks", {
       method: "POST",
@@ -120,9 +128,17 @@ export const api = {
     request(`/api/notebooks/${notebookId}/runs/${runId}`, {
       method: "DELETE",
     }),
-  exportRun: async (notebookId, runId) => {
-    const { blob, filename } = await requestBlob(`/api/notebooks/${notebookId}/runs/${runId}/export`);
-    downloadBlob(blob, filename);
+  exportRun: async (notebookId, runId, { format = "zip", dataFormat = "json" } = {}) => {
+    const params = new URLSearchParams();
+    params.set("format", format);
+    if (format === "zip") {
+      params.set("data_format", dataFormat);
+    }
+    const query = params.toString();
+    const path = `/api/notebooks/${notebookId}/runs/${runId}/export${query ? `?${query}` : ""}`;
+    const { blob, filename } = await requestBlob(path);
+    const fallback = format === "pdf" ? "quiz-export.pdf" : "quiz-export.zip";
+    downloadBlob(blob, filename, fallback);
   },
   uploadSource: (notebookId, { file, title }) => {
     const formData = new FormData();
@@ -146,5 +162,23 @@ export const api = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
+    }),
+  listQuizLists: () => request("/api/quiz-lists"),
+  createQuizList: (payload) =>
+    request("/api/quiz-lists", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    }),
+  getQuizList: (listId) => request(`/api/quiz-lists/${listId}`),
+  addQuizListItem: (listId, payload) =>
+    request(`/api/quiz-lists/${listId}/items`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    }),
+  removeQuizListItem: (listId, itemId) =>
+    request(`/api/quiz-lists/${listId}/items/${itemId}`, {
+      method: "DELETE",
     }),
 };

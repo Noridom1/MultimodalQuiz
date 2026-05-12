@@ -300,8 +300,8 @@ class GenerationOrchestrator:
         def _generate_image_for(idx_local: int, prompt_local: str):
             try:
                 if mock_image:
-                    image_url = f"mock://image/{effective_run_id}/{idx_local}.png"
-                    return {"index": idx_local, "status": "generated", "image_url": image_url}
+                    # In mock/no-image mode, skip external image calls and return no image ref.
+                    return {"index": idx_local, "status": "skipped", "image_url": None}
                 else:
                     image_url = self._image_generator.generate(
                         prompt_local,
@@ -418,11 +418,17 @@ class GenerationOrchestrator:
                         image_url,
                     )
                 else:
-                    raise RuntimeError(f"No image prompt available for index {idx}; images are required.")
+                    LOGGER.warning(
+                        "No image prompt available for index=%s; proceeding without image.",
+                        idx,
+                    )
+                    image_status = "missing_prompt"
 
                 if image_url is None:
-                    LOGGER.error("Image generation failed for index=%s", idx)
-                    raise RuntimeError(f"Image generation failed for index {idx}; cannot continue without an image.")
+                    LOGGER.warning(
+                        "Image generation unavailable for index=%s; proceeding without image.",
+                        idx,
+                    )
 
                 serialized_image_ref = self._serialize_image_ref(image_url, artifact_root=effective_artifact_root)
                 image_local_path = None
@@ -442,7 +448,11 @@ class GenerationOrchestrator:
 
                 if mock_question:
                     LOGGER.info("Using mock question output for index=%s", idx)
-                    image_grounded = bool(plan and (plan.image_role or "").strip().lower() == "reasoning")
+                    image_grounded = bool(
+                        image_url
+                        and plan
+                        and (plan.image_role or "").strip().lower() == "reasoning"
+                    )
                     q_obj = {
                         "id": f"q_mock_{idx}",
                         "question_text": f"Mock question for {plan.target_concept if plan else idx}",

@@ -7,6 +7,7 @@ import {
   LoaderCircle,
   Plus,
   Search,
+  Star,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import LoadingPanel from "../components/common/LoadingPanel";
@@ -69,10 +70,14 @@ function DashboardPage() {
           <span>NotebookQuiz</span>
         </Link>
         <div className="topbar-actions">
-          <button className="ghost-pill">
+          <Link className="ghost-pill" to="/search">
             <Search size={18} />
             Search
-          </button>
+          </Link>
+          <Link className="ghost-pill" to="/saved">
+            <Star size={18} />
+            Saved
+          </Link>
           {user ? (
             <UserAccountMenu />
           ) : supabaseConfigured ? (

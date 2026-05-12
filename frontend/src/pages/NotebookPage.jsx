@@ -1,26 +1,39 @@
 import { useEffect, useLayoutEffect, useRef, useState, useTransition } from "react";
-import { BookOpen } from "lucide-react";
-import { Link, useParams } from "react-router-dom";
+import { BookOpen, Star } from "lucide-react";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import { api } from "../api";
 import LoadingPanel from "../components/common/LoadingPanel";
 import UserAccountMenu from "../components/common/UserAccountMenu";
 import ConversationPanel from "../components/notebook/ConversationPanel";
+import ExportOptionsModal from "../components/notebook/ExportOptionsModal";
 import QuizBuilderModal from "../components/notebook/QuizBuilderModal";
 import QuizPanel from "../components/notebook/QuizPanel";
+import SaveToListModal from "../components/notebook/SaveToListModal";
 import SourcePanel from "../components/notebook/SourcePanel";
 import { useAuth } from "../context/AuthContext";
 import { useWorkspaceColumnResize } from "../hooks/useWorkspaceColumnResize";
+import {
+  buildEqualDistribution,
+  QUIZ_QUESTION_TYPE_LABELS,
+} from "../utils/quizFormatPresets";
+import { isAnswerCorrect, isAnswerProvided } from "../utils/quizScoring";
 import { loadQuizSession, saveQuizSession } from "../utils/quizSessionStorage";
 
 function NotebookPage() {
   const { notebookId } = useParams();
+  const [searchParams] = useSearchParams();
   const { user } = useAuth();
   const [workspace, setWorkspace] = useState(null);
   const [loading, setLoading] = useState(true);
   const [message, setMessage] = useState("");
   const [quizBuilderOpen, setQuizBuilderOpen] = useState(false);
+  const [saveListRunId, setSaveListRunId] = useState("");
+  const [exportRunId, setExportRunId] = useState("");
+  const [exportPending, setExportPending] = useState(false);
+  const [exportPrefs, setExportPrefs] = useState({ format: "zip", dataFormat: "json" });
   const [selectedSourceId, setSelectedSourceId] = useState("");
   const [questions, setQuestions] = useState(10);
+  const [selectedQuestionTypes, setSelectedQuestionTypes] = useState(["multiple_choice"]);
   const [selectedRunId, setSelectedRunId] = useState("");
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState({});
@@ -73,6 +86,8 @@ function NotebookPage() {
     });
   }, [workspace?.sources]);
 
+  const runFromUrl = searchParams.get("run") || "";
+
   useEffect(() => {
     const completedRuns = (workspace?.runs || []).filter((run) => run.status === "completed");
     if (!completedRuns.length) {
@@ -80,12 +95,15 @@ function NotebookPage() {
       return;
     }
     setSelectedRunId((current) => {
+      if (runFromUrl && completedRuns.some((run) => run.run_id === runFromUrl)) {
+        return runFromUrl;
+      }
       if (current && completedRuns.some((run) => run.run_id === current)) {
         return current;
       }
       return "";
     });
-  }, [workspace?.runs]);
+  }, [workspace?.runs, runFromUrl]);
 
   const selectedRunForSession =
     workspace?.runs?.filter((run) => run.status === "completed").find((run) => run.run_id === selectedRunId) || null;
@@ -134,17 +152,20 @@ function NotebookPage() {
   const quizResults = selectedRun?.summary?.results || [];
   const totalQuestions = quizResults.length;
 
-  const score = quizResults.reduce((total, item, index) => {
-    return total + (selectedAnswers[index] === item.correct_answer ? 1 : 0);
-  }, 0);
+  const score = quizResults.reduce(
+    (total, item, index) => total + (isAnswerCorrect(item, selectedAnswers[index]) ? 1 : 0),
+    0,
+  );
 
-  const answeredCount = Array.from({ length: totalQuestions }, (_, index) => index).filter((index) =>
-    Object.prototype.hasOwnProperty.call(selectedAnswers, index),
-  ).length;
+  const answeredCount = quizResults.reduce(
+    (total, item, index) => total + (isAnswerProvided(item, selectedAnswers[index]) ? 1 : 0),
+    0,
+  );
 
   const wrongCount = quizResults.reduce((total, item, index) => {
-    if (!Object.prototype.hasOwnProperty.call(selectedAnswers, index)) return total;
-    return total + (selectedAnswers[index] !== item.correct_answer ? 1 : 0);
+    const answer = selectedAnswers[index];
+    if (!isAnswerProvided(item, answer)) return total;
+    return total + (isAnswerCorrect(item, answer) ? 0 : 1);
   }, 0);
 
   const unansweredCount = Math.max(0, totalQuestions - answeredCount);
@@ -226,11 +247,16 @@ function NotebookPage() {
       return;
     }
     startRunTransition(async () => {
+      const question_format_distribution = buildEqualDistribution(selectedQuestionTypes);
+      // #region agent log
+      fetch('http://127.0.0.1:7543/ingest/a8a2cdae-d426-47e7-b573-22856f7eadc4',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'c02dfd'},body:JSON.stringify({sessionId:'c02dfd',runId:'pre-fix',hypothesisId:'H1',location:'frontend/src/pages/NotebookPage.jsx:247',message:'generate_quiz payload prepared',data:{selectedQuestionTypes,question_format_distribution,num_questions:questions,source_id:selectedSourceId},timestamp:Date.now()})}).catch(()=>{});
+      // #endregion
       const createdRun = await api.generateQuiz(notebookId, {
         source_id: selectedSourceId,
         num_questions: questions,
         mock_image: false,
         mock_question: false,
+        question_format_distribution,
       });
       const nextWorkspace = await refreshWorkspace();
       setQuizBuilderOpen(false);
@@ -273,9 +299,23 @@ function NotebookPage() {
     await refreshWorkspace();
   }
 
-  async function handleExportRun(runId) {
-    if (!notebookId) return;
-    await api.exportRun(notebookId, runId);
+  function handleRequestExport(runId) {
+    if (!runId) return;
+    setExportRunId(runId);
+  }
+
+  async function handleConfirmExport({ format, dataFormat }) {
+    if (!notebookId || !exportRunId) return;
+    setExportPending(true);
+    try {
+      await api.exportRun(notebookId, exportRunId, { format, dataFormat });
+      setExportPrefs({ format, dataFormat });
+      setExportRunId("");
+    } catch (err) {
+      alert(err instanceof Error ? err.message : "Export failed");
+    } finally {
+      setExportPending(false);
+    }
   }
 
   return (
@@ -303,19 +343,48 @@ function NotebookPage() {
             aria-label="Notebook title"
           />
         </div>
-        <div className="notebook-topbar-actions">{user ? <UserAccountMenu /> : null}</div>
+        <div className="notebook-topbar-actions">
+          <Link className="ghost-pill compact" to="/saved">
+            <Star size={18} />
+            Saved
+          </Link>
+          {user ? <UserAccountMenu /> : null}
+        </div>
       </header>
 
       <QuizBuilderModal
         open={quizBuilderOpen}
         pendingRun={pendingRun}
         questions={questions}
+        selectedQuestionTypes={selectedQuestionTypes}
         selectedSourceId={selectedSourceId}
         sources={workspace.sources}
+        questionTypeLabels={QUIZ_QUESTION_TYPE_LABELS}
         setQuestions={setQuestions}
+        setSelectedQuestionTypes={setSelectedQuestionTypes}
         setSelectedSourceId={setSelectedSourceId}
         onClose={() => setQuizBuilderOpen(false)}
         onCreate={handleGenerateQuiz}
+      />
+
+      <SaveToListModal
+        open={Boolean(saveListRunId)}
+        notebookId={notebookId}
+        runId={saveListRunId}
+        onClose={() => setSaveListRunId("")}
+        onAdded={() => { }}
+      />
+
+      <ExportOptionsModal
+        open={Boolean(exportRunId)}
+        pending={exportPending}
+        defaultFormat={exportPrefs.format}
+        defaultDataFormat={exportPrefs.dataFormat}
+        onCancel={() => {
+          if (exportPending) return;
+          setExportRunId("");
+        }}
+        onConfirm={handleConfirmExport}
       />
 
       <main ref={workspaceRef} className="workspace-flex">
@@ -363,6 +432,7 @@ function NotebookPage() {
           <QuizPanel
             activeQuestionIndex={activeQuestionIndex}
             canGenerate={Boolean(primarySource)}
+            notebookId={notebookId}
             pendingRun={pendingRun}
             resultStats={resultStats}
             resultsOpen={resultsOpen}
@@ -375,11 +445,12 @@ function NotebookPage() {
             setSelectedAnswers={setSelectedAnswers}
             setSelectedRunId={setSelectedRunId}
             onDeleteRun={handleDeleteRun}
-            onExportRun={handleExportRun}
+            onRequestExport={handleRequestExport}
             onExitQuiz={flushAndExitQuiz}
             onOpenQuizBuilder={() => setQuizBuilderOpen(true)}
             onRedoQuiz={handleRedoQuiz}
             onRenameRun={handleRenameRun}
+            onRequestSaveToList={(runId) => setSaveListRunId(runId)}
           />
         </div>
       </main>

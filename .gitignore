@@ -18,7 +18,6 @@ __brainstorms__
 outputs/
 .DS_Store
 post-test/index.html
-*.html
 node_modules/
 apps/
 backend/
