@@ -1,0 +1,16 @@
+# Render Blueprint: deploy the FastAPI backend as a Web Service.
+# https://render.com/docs/blueprint-spec
+#
+# After deploy, set environment variables in the Render dashboard (secrets):
+#   QUIZGEN_*, MISTRAL_API_KEY / OPENAI_API_KEY, SUPABASE_*, UI_ALLOWED_ORIGIN, etc.
+#
+# Frontend: deploy `frontend/` separately on Vercel (see README.run.md).
+
+services:
+  - type: web
+    name: multimodal-quiz-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    plan: starter

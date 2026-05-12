@@ -11,6 +11,35 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(PROJECT_ROOT / ".env")
 
 
+def _normalize_origin(value: str) -> str:
+    return value.strip().rstrip("/")
+
+
+def _parse_cors_allow_origins() -> tuple[str, ...]:
+    """Merge comma-separated UI_ALLOWED_ORIGINS, legacy UI_ALLOWED_ORIGIN, and local dev defaults."""
+    origins: list[str] = []
+    multi = os.getenv("UI_ALLOWED_ORIGINS", "").strip()
+    if multi:
+        origins.extend(_normalize_origin(x) for x in multi.split(",") if x.strip())
+    single = _normalize_origin(os.getenv("UI_ALLOWED_ORIGIN", "http://localhost:5173"))
+    if single not in origins:
+        origins.append(single)
+    for dev in ("http://127.0.0.1:5173", "http://localhost:5173", "http://localhost:3000"):
+        if dev not in origins:
+            origins.append(dev)
+    seen: set[str] = set()
+    unique: list[str] = []
+    for o in origins:
+        if o not in seen:
+            seen.add(o)
+            unique.append(o)
+    return tuple(unique)
+
+
+# Evaluated once at import (restart server after changing env).
+CORS_ALLOW_ORIGINS: tuple[str, ...] = _parse_cors_allow_origins()
+
+
 @dataclass(frozen=True)
 class Settings:
     project_root: Path = PROJECT_ROOT
@@ -21,7 +50,7 @@ class Settings:
     supabase_service_role_key: str = os.getenv("SUPABASE_SERVICE_ROLE_KEY", "")
     supabase_jwt_secret: str = os.getenv("SUPABASE_JWT_SECRET", "")
     supabase_bucket: str = os.getenv("SUPABASE_BUCKET", "quiz-assets")
-    allowed_origin: str = os.getenv("UI_ALLOWED_ORIGIN", "http://localhost:5173")
+    allowed_origin: str = _normalize_origin(os.getenv("UI_ALLOWED_ORIGIN", "http://localhost:5173"))
 
     @property
     def supabase_enabled(self) -> bool:
