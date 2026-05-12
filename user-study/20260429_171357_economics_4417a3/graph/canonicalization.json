@@ -1,0 +1,1349 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "economics::concept::0::demand",
+      "label": "demand",
+      "normalized_label": "demand",
+      "aliases": [],
+      "mention_count": 11,
+      "definitions": [
+        "The amount of some good or service consumers are willing and able to purchase at each price.",
+        "the relationship between a range of prices and the quantities demanded at those prices, as illustrated by a demand curve or a demand schedule."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+        "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Demand for Goods and Services"
+        ],
+        [
+          "CLEAR IT UP"
+        ],
+        [
+          "Supply of Goods and Services"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::1::quantity_demanded",
+      "label": "quantity demanded",
+      "normalized_label": "quantity demanded",
+      "aliases": [],
+      "mention_count": 15,
+      "definitions": [
+        "The total number of units that consumers would purchase at a given price.",
+        "a certain point on the demand curve, or one quantity on the demand schedule."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+        "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+        "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+        "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+        "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Demand for Goods and Services"
+        ],
+        [
+          "CLEAR IT UP"
+        ],
+        [
+          "Supply of Goods and Services"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::2::law_of_demand",
+      "label": "law of demand",
+      "normalized_label": "law of demand",
+      "aliases": [
+        "Law of Demand"
+      ],
+      "mention_count": 8,
+      "definitions": [
+        "The inverse relationship between price and quantity demanded, assuming other variables are held constant.",
+        "The inverse relationship between prices and quantity demanded."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+        "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+        "economics::paragraph::15::figure_3_2_a_demand_curve_for_gasoline_the_deman::chunk::6::figure_3_2_a_demand_curve_for_gasoline_the_deman"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Demand for Goods and Services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::3::supply",
+      "label": "supply",
+      "normalized_label": "supply",
+      "aliases": [],
+      "mention_count": 9,
+      "definitions": [
+        "The amount of some good or service producers are willing and able to sell at each price.",
+        "the amount of some good or service a producer is willing to produce and/or bring to market at each price.",
+        "the relationship between a range of prices and the quantities supplied at those prices, illustrated with a supply curve or a supply schedule."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+        "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+        "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Supply of Goods and Services"
+        ],
+        [
+          "CLEAR IT UP"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::4::quantity_supplied",
+      "label": "quantity supplied",
+      "normalized_label": "quantity supplied",
+      "aliases": [],
+      "mention_count": 8,
+      "definitions": [
+        "The total number of units that producers would sell at a given price.",
+        "a certain point on the supply curve, or one quantity on the supply schedule."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+        "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+        "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Supply of Goods and Services"
+        ],
+        [
+          "CLEAR IT UP"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::5::law_of_supply",
+      "label": "law of supply",
+      "normalized_label": "law of supply",
+      "aliases": [],
+      "mention_count": 9,
+      "definitions": [
+        "The direct relationship between price and quantity supplied, assuming other variables are held constant.",
+        "the positive relationship between price and quantity supplied—that a higher price leads to a higher quantity supplied and a lower price leads to a lower quantity supplied.",
+        "a higher price leads to a higher quantity supplied, and vice versa."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+        "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+        "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Supply of Goods and Services"
+        ],
+        [
+          "CLEAR IT UP"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::6::demand_curve",
+      "label": "demand curve",
+      "normalized_label": "demand curve",
+      "aliases": [
+        "Demand Curve"
+      ],
+      "mention_count": 13,
+      "definitions": [
+        "A graphical representation of the relationship between price and quantity demanded."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+        "economics::paragraph::9::we_can_show_an_example_from_the_market_for_gasol::chunk::3::we_can_show_an_example_from_the_market_for_gasol",
+        "economics::paragraph::15::figure_3_2_a_demand_curve_for_gasoline_the_deman::chunk::6::figure_3_2_a_demand_curve_for_gasoline_the_deman",
+        "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+        "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Demand for Goods and Services"
+        ],
+        [
+          "CLEAR IT UP"
+        ],
+        [
+          "Supply of Goods and Services"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::7::supply_curve",
+      "label": "supply curves",
+      "normalized_label": "supply curve",
+      "aliases": [
+        "supply curve"
+      ],
+      "mention_count": 10,
+      "definitions": [
+        "A graphical representation of the relationship between price and quantity supplied.",
+        "a graphic illustration of the relationship between price and quantity supplied.",
+        "created by graphing the points from the supply schedule and then connecting them."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+        "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+        "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+        "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "CLEAR IT UP"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::8::equilibrium",
+      "label": "equilibrium",
+      "normalized_label": "equilibrium",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [
+        "The point where demand and supply curves intersect, indicating a balance between quantity demanded and quantity supplied.",
+        "The point where the supply curve and the demand curve cross, where the amount of the product consumers want to buy is equal to the amount producers want to sell."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+        "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::9::equilibrium_price",
+      "label": "equilibrium price",
+      "normalized_label": "equilibrium price",
+      "aliases": [
+        "equilibrium point"
+      ],
+      "mention_count": 9,
+      "definitions": [
+        "The price at which the quantity demanded equals the quantity supplied.",
+        "The price at which the quantity of gasoline demanded equals the quantity supplied.",
+        "The only price where quantity demanded is equal to quantity supplied."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+        "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+        "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::10::equilibrium_quantity",
+      "label": "equilibrium quantity",
+      "normalized_label": "equilibrium quantity",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [
+        "The quantity at which the quantity demanded equals the quantity supplied.",
+        "The common quantity where the plans of consumers and producers agree."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+        "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::11::price",
+      "label": "price",
+      "normalized_label": "price",
+      "aliases": [
+        "Price"
+      ],
+      "mention_count": 11,
+      "definitions": [
+        "What a buyer pays for a unit of a specific good or service.",
+        "what the producer receives for selling one unit of a good or service."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+        "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+        "economics::details::14::details_summary_line_summary_quantity_of_gasolin::chunk::5::details_summary_line_summary_quantity_of_gasolin",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+        "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+        "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac"
+      ],
+      "section_paths": [
+        [
+          "Demand for Goods and Services"
+        ],
+        [
+          "Supply of Goods and Services"
+        ],
+        [
+          "CLEAR IT UP"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::12::demand_schedule",
+      "label": "demand schedule",
+      "normalized_label": "demand schedule",
+      "aliases": [],
+      "mention_count": 7,
+      "definitions": [
+        "A table that shows the quantity demanded at each price."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+        "economics::paragraph::9::we_can_show_an_example_from_the_market_for_gasol::chunk::3::we_can_show_an_example_from_the_market_for_gasol",
+        "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a"
+      ],
+      "section_paths": [
+        [
+          "Demand for Goods and Services"
+        ],
+        [
+          "CLEAR IT UP"
+        ],
+        [
+          "Supply of Goods and Services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::13::quantity_of_gasoline",
+      "label": "Quantity of Gasoline",
+      "normalized_label": "quantity of gasoline",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "economics::details::14::details_summary_line_summary_quantity_of_gasolin::chunk::5::details_summary_line_summary_quantity_of_gasolin"
+      ],
+      "section_paths": [
+        [
+          "Demand for Goods and Services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::14::supply_schedule",
+      "label": "supply schedule",
+      "normalized_label": "supply schedule",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "a table that shows the quantity supplied at a range of different prices.",
+        "the table that shows quantity supplied of gasoline at each price."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+        "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl"
+      ],
+      "section_paths": [
+        [
+          "CLEAR IT UP"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::15::quantity",
+      "label": "quantity",
+      "normalized_label": "quantity",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac"
+      ],
+      "section_paths": [
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::16::excess_supply",
+      "label": "excess supply",
+      "normalized_label": "excess supply",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+        "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+        "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti"
+      ],
+      "section_paths": [
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::17::excess_demand",
+      "label": "excess demand",
+      "normalized_label": "excess demand",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de"
+      ],
+      "section_paths": [
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::18::surplus",
+      "label": "surplus",
+      "normalized_label": "surplus",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [
+        "A situation where the quantity of a good or service exceeds the quantity demanded at a given price."
+      ],
+      "source_chunk_ids": [
+        "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+        "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+        "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+        "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati"
+      ],
+      "section_paths": [
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::19::shortage",
+      "label": "shortage",
+      "normalized_label": "shortage",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g"
+      ],
+      "section_paths": [
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::20::price_reductions",
+      "label": "price reductions",
+      "normalized_label": "price reductions",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+        "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati"
+      ],
+      "section_paths": [
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::21::gasoline",
+      "label": "gasoline",
+      "normalized_label": "gasoline",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati"
+      ],
+      "section_paths": [
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics::concept::22::equilibrium_level",
+      "label": "equilibrium level",
+      "normalized_label": "equilibrium level",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The price at which the quantity demanded equals the quantity supplied."
+      ],
+      "source_chunk_ids": [
+        "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati"
+      ],
+      "section_paths": [
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::2::law_of_demand"
+      ],
+      "labels": [
+        "demand",
+        "law of demand"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::3::supply",
+        "economics::concept::5::law_of_supply"
+      ],
+      "labels": [
+        "supply",
+        "law of supply"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::6::demand_curve"
+      ],
+      "labels": [
+        "demand",
+        "demand curve"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::3::supply",
+        "economics::concept::7::supply_curve"
+      ],
+      "labels": [
+        "supply",
+        "supply curve"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::8::equilibrium",
+        "economics::concept::9::equilibrium_price"
+      ],
+      "labels": [
+        "equilibrium",
+        "equilibrium price"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::8::equilibrium",
+        "economics::concept::10::equilibrium_quantity"
+      ],
+      "labels": [
+        "equilibrium",
+        "equilibrium quantity"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::9::equilibrium_price",
+        "economics::concept::11::price"
+      ],
+      "labels": [
+        "equilibrium price",
+        "price"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::12::demand_schedule"
+      ],
+      "labels": [
+        "demand",
+        "demand schedule"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::3::supply",
+        "economics::concept::14::supply_schedule"
+      ],
+      "labels": [
+        "supply",
+        "supply schedule"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::1::quantity_demanded",
+        "economics::concept::15::quantity"
+      ],
+      "labels": [
+        "quantity demanded",
+        "quantity"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::3::supply",
+        "economics::concept::16::excess_supply"
+      ],
+      "labels": [
+        "supply",
+        "excess supply"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::17::excess_demand"
+      ],
+      "labels": [
+        "demand",
+        "excess demand"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::11::price",
+        "economics::concept::20::price_reductions"
+      ],
+      "labels": [
+        "price",
+        "price reductions"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::13::quantity_of_gasoline",
+        "economics::concept::21::gasoline"
+      ],
+      "labels": [
+        "Quantity of Gasoline",
+        "gasoline"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::8::equilibrium",
+        "economics::concept::22::equilibrium_level"
+      ],
+      "labels": [
+        "equilibrium",
+        "equilibrium level"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 143,
+    "canonical_concept_count": 23,
+    "candidate_merge_count": 15
+  }
+}

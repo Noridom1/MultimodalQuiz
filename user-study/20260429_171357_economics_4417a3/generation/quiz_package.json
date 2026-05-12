@@ -1,0 +1,286 @@
+{
+  "run_id": "20260429_171357_economics_4417a3",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_b87a5eddc8",
+        "question_text": "According to the law of demand, if the price of a good increases, what is the most likely causal effect on the quantity demanded, assuming all other factors remain constant?",
+        "options": [
+          "A) Quantity demanded increases due to higher perceived value.",
+          "B) Quantity demanded decreases as consumers seek cheaper alternatives.",
+          "C) Quantity demanded remains unchanged because price is not a factor.",
+          "D) Quantity demanded increases because consumers expect further price hikes."
+        ],
+        "correct_answer": "B",
+        "explanation": "The law of demand states that, ceteris paribus, there is an inverse relationship between price and quantity demanded. As price rises, consumers typically reduce their purchases due to budget constraints or substitution effects. (Source: economics::concept::2::law_of_demand)",
+        "target_concept": "law of demand",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "economics::concept::2::law_of_demand",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: law of demand\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the causal relationship described by the law of demand.\nImage context: A graph showing an inverse relationship between price and quantity demanded.\nTested fact block ID: economics::concept::2::law_of_demand\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple line graph with a downward-sloping curve, where the vertical axis is labeled \"Price\" and the horizontal axis is labeled \"Quantity Demanded.\" Use high-contrast colors (e.g., black axes, blue curve) and ensure the inverse relationship is visually clear. Avoid any text that explains the law directly.\n\nAlt: A graph with a downward-sloping line showing the relationship between price and quantity demanded."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_ef2aaf2c90",
+        "question_text": "In a standard supply and demand graph, the equilibrium level is defined as:",
+        "options": [
+          "A. The point where the demand curve intersects the y-axis",
+          "B. The point where the supply curve intersects the x-axis",
+          "C. The point where the demand and supply curves intersect",
+          "D. The point where the price is highest on the demand curve"
+        ],
+        "correct_answer": "C",
+        "explanation": "The equilibrium level is the point where the demand and supply curves intersect, indicating the price at which quantity demanded equals quantity supplied. This is a fundamental concept in economics (equilibrium_level_1).",
+        "target_concept": "equilibrium level",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "equilibrium_level_1",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: equilibrium level\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and graphical representation of equilibrium level in economics.\nImage context: A graph showing the intersection of demand and supply curves at the equilibrium point.\nTested fact block ID: equilibrium_level_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast line graph with a downward-sloping demand curve (labeled \"Demand\") and an upward-sloping supply curve (labeled \"Supply\") intersecting at a clearly marked point labeled \"Equilibrium.\" Use bold, distinct colors for each curve (e.g., blue for demand, red for supply) and a neutral background. Add minimal axis labels for price (vertical) and quantity (horizontal) without numerical values.\n\nAlt: A graph showing demand and supply curves intersecting at the equilibrium point."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_b525b3d1ef",
+        "question_text": "According to the law of supply, what is the primary causal factor that leads producers to increase the quantity of a good they are willing to supply?",
+        "options": [
+          "A decrease in production costs",
+          "An increase in consumer demand",
+          "An increase in the price of the good",
+          "Government subsidies for production"
+        ],
+        "correct_answer": "C",
+        "explanation": "The law of supply states that, all else being equal, an increase in the price of a good causes producers to supply a greater quantity of that good. This is illustrated by the upward-sloping supply curve (block_1).",
+        "target_concept": "law of supply",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "block_1",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: law of supply\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the causal relationship between price and quantity supplied as described by the law of supply.\nImage context: A graph showing an upward-sloping supply curve, illustrating the positive relationship between price and quantity supplied.\nTested fact block ID: block_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast line graph with a bold upward-sloping supply curve (P on the vertical axis, Q on the horizontal axis). Label axes as \"Price\" and \"Quantity Supplied,\" and mark two distinct points on the curve with placeholder labels like \"Point X\" and \"Point Y\" to show movement along the curve. Use a neutral color palette (e.g., blue curve on white background) with clear, legible labels in dark text. Avoid decorative elements.\n\n**Alt:** A line graph with an upward-sloping curve showing the positive relationship between price and quantity supplied."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_adfc3e91fa",
+        "question_text": "Which of the following best describes the graphical representation of the law of supply?",
+        "options": [
+          "A downward-sloping curve indicating an inverse relationship between price and quantity supplied",
+          "A vertical line indicating a fixed quantity supplied regardless of price",
+          "An upward-sloping curve indicating a direct relationship between price and quantity supplied",
+          "A horizontal line indicating a fixed price regardless of quantity supplied"
+        ],
+        "correct_answer": "An upward-sloping curve indicating a direct relationship between price and quantity supplied",
+        "explanation": "The law of supply states that, all else being equal, an increase in price results in an increase in quantity supplied, which is graphically represented by an upward-sloping supply curve. (supply_curve_1)",
+        "target_concept": "supply curves",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "supply_curve_1",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: supply curves\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the graphical representation of the law of supply.\nImage context: A graph showing an upward-sloping supply curve with price on the y-axis and quantity supplied on the x-axis.\nTested fact block ID: supply_curve_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast line graph with a bold upward-sloping supply curve, labeled axes (Price on Y, Quantity Supplied on X), and a simple grid for clarity. Use a vibrant color for the curve (e.g., blue) against a neutral background, with clear axis labels and tick marks. Avoid any extraneous text or branding.\n\nAlt: A graph with an upward-sloping supply curve, showing price on the vertical axis and quantity supplied on the horizontal axis."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_fd08cd0073",
+        "question_text": "Which of the following best describes the purpose of a demand schedule?",
+        "options": [
+          "A. To illustrate the relationship between price and quantity supplied over time",
+          "B. To show the total revenue generated at different price levels",
+          "C. To represent the quantities of a good consumers are willing and able to purchase at various prices",
+          "D. To track the production costs associated with different output levels"
+        ],
+        "correct_answer": "C",
+        "explanation": "A demand schedule is a table that shows the quantities of a good consumers are willing and able to buy at different prices, illustrating the law of demand. (Source: demand_schedule_1)",
+        "target_concept": "demand schedule",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "demand_schedule_1",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: demand schedule\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and purpose of a demand schedule.\nImage context: A table with two columns labeled 'Price' and 'Quantity Demanded' with multiple rows of data.\nTested fact block ID: demand_schedule_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast table with two columns labeled \"Price ($)\" and \"Quantity Demanded (Units)\" filled with 5-7 rows of placeholder numerical data (e.g., $10, 50; $8, 75). Use a simple, modern design with bold headers, muted background, and a subtle grid to emphasize readability. Avoid real-world references—use generic labels like \"Product X.\"\n\n**Alt:** A two-column table showing the relationship between price and quantity demanded for a generic product."
+    },
+    {
+      "index": 6,
+      "question": {
+        "id": "q_d9314502be",
+        "question_text": "Which of the following factors does NOT directly influence the quantity supplied of a good in the short run?",
+        "options": [
+          "A. The price of the good itself",
+          "B. The cost of production inputs",
+          "C. Consumer income levels",
+          "D. Technological advancements in production"
+        ],
+        "correct_answer": "C",
+        "explanation": "Quantity supplied is determined by factors such as the good's price, production costs, and technology, but not by consumer income, which affects demand. (economics::concept::4::quantity_supplied)",
+        "target_concept": "quantity supplied",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/6.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "economics::concept::4::quantity_supplied",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/6.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: quantity supplied\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and determinants of quantity supplied.\nImage context: A graph showing a supply curve with price on the y-axis and quantity supplied on the x-axis.\nTested fact block ID: economics::concept::4::quantity_supplied\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast line graph with a rising supply curve (left to right) on a white background. Label the y-axis as \"Price (per unit)\" and the x-axis as \"Quantity Supplied,\" using bold, legible text. Use a solid blue line for the curve, with subtle grid lines for clarity, and avoid any extraneous elements.\n\nAlt: A line graph showing an upward-sloping supply curve with labeled axes for price and quantity supplied."
+    },
+    {
+      "index": 7,
+      "question": {
+        "id": "q_5b7a7f6abb",
+        "question_text": "Which of the following best describes the demand curve in a standard economic model?",
+        "options": [
+          "A horizontal line indicating that quantity demanded is constant regardless of price",
+          "A vertical line indicating that price is constant regardless of quantity demanded",
+          "A downward-sloping line indicating an inverse relationship between price and quantity demanded",
+          "An upward-sloping line indicating a direct relationship between price and quantity demanded"
+        ],
+        "correct_answer": "C",
+        "explanation": "The demand curve is downward-sloping because, as the price of a good decreases, the quantity demanded typically increases, reflecting the law of demand. This relationship is illustrated in the graph with price on the y-axis and quantity demanded on the x-axis. (Source: demand_curve_1)",
+        "target_concept": "demand curve",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/7.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "demand_curve_1",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/7.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: demand curve\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and graphical representation of the demand curve.\nImage context: A graph showing a downward-sloping demand curve with price on the y-axis and quantity demanded on the x-axis.\nTested fact block ID: demand_curve_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Create a clean, high-contrast line graph with a downward-sloping demand curve. Label the y-axis as \"Price\" and the x-axis as \"Quantity Demanded,\" using bold, legible text. Use a solid blue line for the curve, a light gray grid for reference, and ensure the axes are clearly marked with generic numerical placeholders (e.g., $10, $5, 20 units, 40 units). Avoid real-world branding or specific product names.\n\n**Alt:** A graph with a downward-sloping blue line representing a demand curve, showing the inverse relationship between price and quantity demanded."
+    },
+    {
+      "index": 8,
+      "question": {
+        "id": "q_a00a6ae0dd",
+        "question_text": "In a standard supply and demand graph, what does the equilibrium quantity represent?",
+        "options": [
+          "The price at which the quantity demanded equals the quantity supplied",
+          "The quantity at which the supply curve and demand curve intersect",
+          "The maximum price consumers are willing to pay for a good",
+          "The minimum price producers are willing to accept for a good"
+        ],
+        "correct_answer": "B",
+        "explanation": "The equilibrium quantity is the quantity at which the supply and demand curves intersect, indicating the amount of goods traded when the market is in balance. (Source: block_10)",
+        "target_concept": "equilibrium quantity",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/8.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "block_10",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/8.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: equilibrium quantity\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and graphical representation of equilibrium quantity.\nImage context: A graph showing the intersection of supply and demand curves at the equilibrium point.\nTested fact block ID: block_10\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast line graph with labeled x-axis (Quantity) and y-axis (Price). Draw an upward-sloping supply curve and a downward-sloping demand curve intersecting at a clearly marked equilibrium point labeled \"E.\" Use bold colors (e.g., blue for demand, red for supply) and ensure all labels are legible. Avoid text that reveals specific values or answers.\n\n**Alt:** A graph showing supply and demand curves intersecting at equilibrium point E."
+    },
+    {
+      "index": 9,
+      "question": {
+        "id": "q_d9109dc0de",
+        "question_text": "Which of the following best describes the term 'quantity demanded' in economics?",
+        "options": [
+          "The total amount of a good or service that consumers are willing and able to purchase at a specific price over a given period of time.",
+          "The maximum amount of a good or service that producers are willing to supply at any given price.",
+          "The equilibrium price at which the supply and demand curves intersect in a market.",
+          "The total revenue generated by sellers from the sale of a good or service at various price levels."
+        ],
+        "correct_answer": "A",
+        "explanation": "Quantity demanded refers specifically to the amount of a good or service consumers are willing and able to buy at a particular price, as defined in economics::concept::1::quantity_demanded. It is a key component of demand analysis and is represented on the demand curve.",
+        "target_concept": "quantity demanded",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/9.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "economics::concept::1::quantity_demanded",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/9.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: quantity demanded\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and role of quantity demanded in economic analysis.\nImage context: A graph showing the relationship between price and quantity demanded on a demand curve.\nTested fact block ID: economics::concept::1::quantity_demanded\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast line graph with a downward-sloping demand curve, where the vertical axis is labeled \"Price (P)\" and the horizontal axis is labeled \"Quantity Demanded (Q).\" Use bold, legible labels and a simple color scheme (e.g., black axes, blue curve) to emphasize the inverse relationship between price and quantity. Avoid clutter and ensure the curve is smooth and clearly visible.\n\nAlt: A graph with a downward-sloping line showing the relationship between price and quantity demanded."
+    },
+    {
+      "index": 10,
+      "question": {
+        "id": "q_35d494241c",
+        "question_text": "Which of the following best describes the relationship between price and quantity supplied in a typical market?",
+        "options": [
+          "A. As price increases, quantity supplied decreases due to higher production costs.",
+          "B. As price increases, quantity supplied increases as producers seek higher profits.",
+          "C. Price and quantity supplied are unrelated in a competitive market.",
+          "D. Quantity supplied determines the price, not the other way around."
+        ],
+        "correct_answer": "B",
+        "explanation": "According to the law of supply, there is a direct relationship between price and quantity supplied: as price rises, producers are willing to supply more to maximize profits. This is a fundamental principle in economics (economics::concept::11::price).",
+        "target_concept": "price",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/10.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "economics::concept::11::price",
+          "run_id": "20260429_171357_economics_4417a3"
+        }
+      },
+      "image_url": "generation/images/10.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: price\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of price in determining the supply of a good or service.\nImage context: A graph showing the relationship between price and quantity supplied.\nTested fact block ID: economics::concept::11::price\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast line graph with a rising curve (supply curve) labeled \"Quantity Supplied\" (x-axis) and \"Price\" (y-axis). Use bold, legible labels and a neutral color palette (e.g., blue for the curve, gray axes). Avoid real-world examples—use generic terms like \"Good X.\" Ensure the curve slopes upward to illustrate direct relationship.\n\n**Alt:** A line graph showing an upward-sloping supply curve with labeled axes for price and quantity supplied."
+    }
+  ]
+}

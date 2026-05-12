@@ -1,0 +1,189 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::2::law_of_demand"
+      ],
+      "labels": [
+        "demand",
+        "law of demand"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::3::supply",
+        "economics::concept::5::law_of_supply"
+      ],
+      "labels": [
+        "supply",
+        "law of supply"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::6::demand_curve"
+      ],
+      "labels": [
+        "demand",
+        "demand curve"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::3::supply",
+        "economics::concept::7::supply_curve"
+      ],
+      "labels": [
+        "supply",
+        "supply curve"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::8::equilibrium",
+        "economics::concept::9::equilibrium_price"
+      ],
+      "labels": [
+        "equilibrium",
+        "equilibrium price"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::8::equilibrium",
+        "economics::concept::10::equilibrium_quantity"
+      ],
+      "labels": [
+        "equilibrium",
+        "equilibrium quantity"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::9::equilibrium_price",
+        "economics::concept::11::price"
+      ],
+      "labels": [
+        "equilibrium price",
+        "price"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::12::demand_schedule"
+      ],
+      "labels": [
+        "demand",
+        "demand schedule"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::3::supply",
+        "economics::concept::14::supply_schedule"
+      ],
+      "labels": [
+        "supply",
+        "supply schedule"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::1::quantity_demanded",
+        "economics::concept::15::quantity"
+      ],
+      "labels": [
+        "quantity demanded",
+        "quantity"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::3::supply",
+        "economics::concept::16::excess_supply"
+      ],
+      "labels": [
+        "supply",
+        "excess supply"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::17::excess_demand"
+      ],
+      "labels": [
+        "demand",
+        "excess demand"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::11::price",
+        "economics::concept::20::price_reductions"
+      ],
+      "labels": [
+        "price",
+        "price reductions"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::13::quantity_of_gasoline",
+        "economics::concept::21::gasoline"
+      ],
+      "labels": [
+        "Quantity of Gasoline",
+        "gasoline"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "economics::concept::8::equilibrium",
+        "economics::concept::22::equilibrium_level"
+      ],
+      "labels": [
+        "equilibrium",
+        "equilibrium level"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

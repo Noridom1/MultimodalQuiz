@@ -1,0 +1,853 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "astronomy::image::0::images_8390fac29777c8a1ec70271810afb8ebe2a9a5ea7::chunk::0::images_8390fac29777c8a1ec70271810afb8ebe2a9a5ea7",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "astronomy::details::1::details_summary_natural_image_summary_two_inters::chunk::1::details_summary_natural_image_summary_two_inters",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "astronomy::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Learning Objectives"
+      ],
+      "concepts": [
+        "lunar phases",
+        "Moon",
+        "Sun",
+        "Earth"
+      ],
+      "definitions": [
+        {
+          "concept": "lunar phases",
+          "definition": "different appearances of the Moon as it progresses through its cycle."
+        }
+      ],
+      "relations": [
+        {
+          "source": "lunar phases",
+          "target": "Moon",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "revolves_around",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "Sun",
+          "relation": "reflects_light_from",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 3,
+      "chunk_id": "astronomy::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "lunar phases",
+        "Moon",
+        "Sun",
+        "Earth"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "lunar phases",
+          "target": "Moon",
+          "relation": "caused_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "lunar phases",
+          "target": "Sun",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "revolves_around",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "astronomy::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "Sun",
+        "lunar cycle",
+        "Moon",
+        "Earth",
+        "eclipse"
+      ],
+      "definitions": [
+        {
+          "concept": "lunar cycle",
+          "definition": "The time it takes for the Moon to move completely around Earth, approximately four weeks."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "lunar cycle",
+          "target": "Moon",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "eclipse",
+          "target": "Sun",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "stand about 6 feet in front of a bright electric light in a completely dark room (or outdoors at night) and hold in your hand a small round object such as a tennis ball or an orange."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "astronomy::paragraph::14::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::8::figure_4_14_phases_of_the_moon_the_appearance_of",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "Phases of the Moon",
+        "New Moon",
+        "Illuminated side",
+        "Dark side"
+      ],
+      "definitions": [
+        {
+          "concept": "New Moon",
+          "definition": "The phase of the Moon when it is in the same general direction in the sky as the Sun, with its illuminated side turned away from Earth and its dark side turned toward Earth."
+        }
+      ],
+      "relations": [
+        {
+          "source": "New Moon",
+          "target": "Sun",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "New Moon",
+          "target": "Illuminated side",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "New Moon",
+          "target": "Dark side",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "In the position 'New,' for example, you are facing the Moon from the right side of Earth in the middle of the day."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "astronomy::paragraph::15::the_moon_is_said_to_be_new_when_it_is_in_the_sam::chunk::9::the_moon_is_said_to_be_new_when_it_is_in_the_sam",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "New Moon",
+        "Illuminated side",
+        "Dark side",
+        "Crescent Moon"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "New Moon",
+          "target": "Sun",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Crescent Moon",
+          "target": "New Moon",
+          "relation": "follows",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "astronomy::paragraph::16::but_the_moon_does_not_remain_in_this_phase_long_::chunk::10::but_the_moon_does_not_remain_in_this_phase_long_",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "Crescent Moon",
+        "First Quarter Moon"
+      ],
+      "definitions": [
+        {
+          "concept": "First Quarter Moon",
+          "definition": "The phase of the Moon when it is one-quarter of the way around its orbit, with half of its illuminated side visible to Earth observers."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Crescent Moon",
+          "target": "New Moon",
+          "relation": "follows",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "First Quarter Moon",
+          "target": "Crescent Moon",
+          "relation": "follows",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "astronomy::paragraph::17::after_about_one_week_the_moon_is_one_quarter_of_::chunk::11::after_about_one_week_the_moon_is_one_quarter_of_",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "First Quarter Moon",
+        "Waxing Gibbous",
+        "Full Moon"
+      ],
+      "definitions": [
+        {
+          "concept": "Waxing Gibbous",
+          "definition": "The phase of the Moon when more and more of its illuminated hemisphere is visible, occurring after the First Quarter Moon."
+        },
+        {
+          "concept": "Full Moon",
+          "definition": "The phase of the Moon when it is opposite the Sun in the sky, with its illuminated side fully visible to Earth observers."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Waxing Gibbous",
+          "target": "First Quarter Moon",
+          "relation": "follows",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Full Moon",
+          "target": "Waxing Gibbous",
+          "relation": "follows",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "astronomy::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "full moon",
+        "Sun",
+        "Moon",
+        "sunset",
+        "sunrise",
+        "Dracula"
+      ],
+      "definitions": [
+        {
+          "concept": "full moon",
+          "definition": "The phase of the Moon when it is opposite the Sun in the sky and fully illuminated."
+        }
+      ],
+      "relations": [
+        {
+          "source": "full moon",
+          "target": "Sun",
+          "relation": "opposite_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "Sun",
+          "relation": "opposite_behavior",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dracula",
+          "target": "full moon",
+          "relation": "parallels",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "astronomy::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "full moon",
+        "lunacy",
+        "new moon",
+        "crescent moon"
+      ],
+      "definitions": [
+        {
+          "concept": "lunacy",
+          "definition": "Crazy behavior associated with the full moon."
+        }
+      ],
+      "relations": [
+        {
+          "source": "full moon",
+          "target": "lunacy",
+          "relation": "associated_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "homicides",
+          "target": "full moon",
+          "relation": "no_correlation",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "homicides occur at the same rate during the new moon or the crescent moon as during the full moon."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "astronomy::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "full moon",
+        "third quarter",
+        "lunar phases"
+      ],
+      "definitions": [
+        {
+          "concept": "third quarter",
+          "definition": "The phase of the Moon when it is three-quarters of the way around its orbit, with half of the visible side illuminated."
+        }
+      ],
+      "relations": [
+        {
+          "source": "third quarter",
+          "target": "full moon",
+          "relation": "follows",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "lunar phases",
+          "target": "full moon",
+          "relation": "includes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "About a week after the full moon, for example, the Moon is at third quarter."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "astronomy::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "concepts": [
+        "full moon",
+        "third quarter",
+        "lunar eclipse",
+        "Earth's shadow"
+      ],
+      "definitions": [
+        {
+          "concept": "lunar eclipse",
+          "definition": "An event when Earth's shadow falls on the Moon."
+        }
+      ],
+      "relations": [
+        {
+          "source": "lunar eclipse",
+          "target": "Earth's shadow",
+          "relation": "caused_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "third quarter",
+          "target": "full moon",
+          "relation": "follows",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "astronomy::paragraph::24::the_moon_is_actually_30_earth_diameters_away_fro::chunk::16::the_moon_is_actually_30_earth_diameters_away_fro",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "MAKING CONNECTIONS"
+      ],
+      "concepts": [
+        "Moon",
+        "Earth-diameters",
+        "lunar eclipses"
+      ],
+      "definitions": [
+        {
+          "concept": "lunar eclipses",
+          "definition": "The times when Earth’s shadow falls on the Moon."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "lunar eclipses",
+          "target": "Earth's shadow",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 17,
+      "chunk_id": "astronomy::image::26::images_2d0623d2e968118f351bf638872a011868d0fb033::chunk::17::images_2d0623d2e968118f351bf638872a011868d0fb033",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "MAKING CONNECTIONS"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 18,
+      "chunk_id": "astronomy::paragraph::28::the_week_seems_independent_of_celestial_motions_::chunk::18::the_week_seems_independent_of_celestial_motions_",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "Astronomy and the Days of the Week"
+      ],
+      "concepts": [
+        "week",
+        "celestial motions",
+        "Sun",
+        "Moon",
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "week",
+          "target": "celestial motions",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "days of the week",
+          "target": "Sun",
+          "relation": "named_after",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "days of the week",
+          "target": "Moon",
+          "relation": "named_after",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "days of the week",
+          "target": "Mercury",
+          "relation": "named_after",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "days of the week",
+          "target": "Venus",
+          "relation": "named_after",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "days of the week",
+          "target": "Mars",
+          "relation": "named_after",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "days of the week",
+          "target": "Jupiter",
+          "relation": "named_after",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "days of the week",
+          "target": "Saturn",
+          "relation": "named_after",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "mercoledi in Italian, mercredi in French, and miércoles in Spanish.",
+        "martes in Spanish.",
+        "giovedi in Italian.",
+        "vendredi in French."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 19,
+      "chunk_id": "astronomy::paragraph::30::there_is_no_reason_that_the_week_has_to_have_sev::chunk::19::there_is_no_reason_that_the_week_has_to_have_sev",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "LINK TO LEARNING"
+      ],
+      "concepts": [
+        "week"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 20,
+      "chunk_id": "astronomy::image::32::images_b5d917258bbe1f10d6392f058103b6e703c369de1::chunk::20::images_b5d917258bbe1f10d6392f058103b6e703c369de1",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "LINK TO LEARNING"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 21,
+      "chunk_id": "astronomy::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "LINK TO LEARNING"
+      ],
+      "concepts": [
+        "Moon",
+        "Earth",
+        "simulation"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "orbits",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 22,
+      "chunk_id": "astronomy::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::22::this_simulation_of_the_moon_orbiting_the_earth_h",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "concepts": [
+        "sidereal period",
+        "sidereal month",
+        "solar month",
+        "synchronous rotation"
+      ],
+      "definitions": [
+        {
+          "concept": "sidereal period",
+          "definition": "The period of the Moon's revolution about Earth measured with respect to the stars."
+        },
+        {
+          "concept": "sidereal month",
+          "definition": "The sidereal period of the Moon, which is 27.3217 days."
+        },
+        {
+          "concept": "solar month",
+          "definition": "The time interval in which the phases of the Moon repeat, which is 29.5306 days."
+        },
+        {
+          "concept": "synchronous rotation",
+          "definition": "The behavior where the Moon rotates on its axis in the same time it takes to revolve about Earth, keeping the same face toward Earth."
+        }
+      ],
+      "relations": [
+        {
+          "source": "sidereal period",
+          "target": "sidereal month",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "solar month",
+          "target": "sidereal month",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "orbits",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "synchronous rotation",
+          "relation": "exhibits",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 23,
+      "chunk_id": "astronomy::image::37::images_4fc45205e206d50791e6528bb3b27487cee36d7d1::chunk::23::images_4fc45205e206d50791e6528bb3b27487cee36d7d1",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 24,
+      "chunk_id": "astronomy::details::38::details_summary_text_image_summary_earth_details::chunk::24::details_summary_text_image_summary_earth_details",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "concepts": [
+        "Earth",
+        "The Moon’s Revolution and Rotation"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 25,
+      "chunk_id": "astronomy::paragraph::39::a::chunk::25::a",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 26,
+      "chunk_id": "astronomy::image::40::images_922b6c6476875d2631c51ca8b7be59a82251dbffc::chunk::26::images_922b6c6476875d2631c51ca8b7be59a82251dbffc",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 27,
+      "chunk_id": "astronomy::details::41::details_summary_text_image_summary_earth_details::chunk::27::details_summary_text_image_summary_earth_details",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "concepts": [
+        "Earth"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 28,
+      "chunk_id": "astronomy::paragraph::42::b_figure_4_15_the_moon_without_and_with_rotation::chunk::28::b_figure_4_15_the_moon_without_and_with_rotation",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "concepts": [
+        "Moon",
+        "Rotation",
+        "Orbit",
+        "Illumination",
+        "Dark Side of the Moon"
+      ],
+      "definitions": [
+        {
+          "concept": "Dark Side of the Moon",
+          "definition": "A misnomer for the back side of the Moon, which is not regularly dark but experiences sunlight as the Moon rotates."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Moon",
+          "target": "Rotation",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "Orbit",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon's appearance",
+          "target": "Illumination",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 26,
+    "concept_count": 40,
+    "relation_count": 45
+  }
+}

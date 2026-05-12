@@ -1,0 +1,82 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram of the Moon orbiting Earth, with two curved arrows: one showing the Moon’s rotation (labeled \"Rotation Period\") and another showing its orbit (labeled \"Orbital Period\"). Use a neutral color palette (e.g., dark blue for Earth, light gray for the Moon, and bright yellow for arrows) to emphasize the equal lengths of both periods. Avoid text that explains the relationship—let the visual comparison imply it.\n\n**Alt:** A diagram of the Moon orbiting Earth with arrows indicating equal rotation and orbital periods.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate the Waxing Gibbous Moon phase with a clear, high-contrast depiction of the Moon showing more than half of its right side illuminated (from a Northern Hemisphere perspective). Use a dark blue or black background for contrast, and label the illuminated and shadowed regions subtly with \"Illuminated Side\" and \"Shadowed Side\" in neutral, small text. Avoid any additional celestial bodies or distracting elements.\n\n**Alt:** A detailed illustration of the Waxing Gibbous Moon phase, showing over half of the right side brightly lit against a dark background.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram of an elliptical orbit with Earth at one focus. Label the farthest point (apogee) and closest point (perigee) with bold, legible text, using neutral placeholders like \"Point A\" and \"Point B.\" Use a dark background with bright, contrasting colors for clarity, and avoid realistic textures or branded elements.\n\n**Alt:** A diagram of an elliptical orbit around Earth, with labeled points marking the farthest and closest distances.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing Earth at the center with the Moon in orbit around it, using arrows to indicate both orbital motion (counterclockwise) and rotation (Moon spinning on its axis). Label the orbital path as \"Orbital Period\" and the Moon's spin as \"Rotation Period,\" using bold, legible text. Use a dark blue background for space, Earth in green/blue, and the Moon in gray with subtle craters for clarity.\n\n**Alt:** A diagram illustrating the Moon's synchronized rotation and orbit around Earth, with labeled arrows showing both movements.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "Create a cross-sectional diagram of the Sun with labeled layers (core, radiative zone, convective zone, photosphere, chromosphere, and corona) in high-contrast colors (e.g., fiery oranges/yellows for inner layers, fading to white/blue for the outer corona). Show the Moon aligned between the Sun and Earth during a total solar eclipse, blocking the photosphere to reveal the corona as a glowing halo. Use simple, bold labels and arrows to indicate alignment and visibility.\n\nAlt: A labeled diagram of the Sun's layers and the alignment during a total solar eclipse, highlighting the visible corona.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  },
+  {
+    "index": 6,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast diagram showing the Sun, Earth, and Moon aligned in a straight line, with the Moon positioned between the Earth and Sun. Use bright yellow for the Sun, blue for Earth, and gray for the Moon, clearly labeling the illuminated side (facing the Sun) and dark side (facing Earth) of the Moon. Ensure the diagram is uncluttered, with bold arrows indicating sunlight direction.\n\nAlt: A diagram of the Sun, Earth, and Moon during a New Moon, showing the Moon's illuminated and dark sides.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/6.png",
+    "local_path": "generation/images/6.png",
+    "image_ref": "generation/images/6.png"
+  },
+  {
+    "index": 7,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast diagram showing the Sun, Earth, and Moon aligned in a straight line, with the Moon positioned between the Earth and Sun. Use bold, labeled arrows to indicate sunlight direction, and color the Sun yellow, Earth blue-green, and Moon gray. Ensure all labels (e.g., \"Sun,\" \"Earth,\" \"Moon\") are legible and placed near their respective bodies without overlapping.\n\nAlt: A diagram illustrating the alignment of the Sun, Earth, and Moon during the New Moon phase, with the Moon positioned between the Earth and Sun.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/7.png",
+    "local_path": "generation/images/7.png",
+    "image_ref": "generation/images/7.png"
+  },
+  {
+    "index": 8,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing Earth and the Moon in tidal lock, with the Moon’s far side (never visible from Earth) shaded darker. Label Earth as \"Planet\" and the Moon as \"Satellite,\" and use arrows to indicate rotation and orbital path. Use a cool color palette (blues/grays) for clarity.\n\n**Alt:** A diagram illustrating tidal locking between a planet and its moon, with the moon's far side highlighted in dark shading.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/8.png",
+    "local_path": "generation/images/8.png",
+    "image_ref": "generation/images/8.png"
+  },
+  {
+    "index": 9,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast diagram showing the Earth at the center, the Sun to one side, and the Moon positioned at a 90-degree angle from the Earth-Sun line, with half of the Moon’s near side illuminated. Use clear labels like \"Earth,\" \"Sun,\" and \"Moon\" with arrows indicating sunlight direction, and avoid any text that explains the phase name. Use a dark background for space with bright, contrasting colors for celestial bodies (e.g., yellow Sun, blue-green Earth, gray Moon). Alt: A diagram of the Earth, Sun, and Moon showing the Moon's position and illumination during its first quarter phase.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/9.png",
+    "local_path": "generation/images/9.png",
+    "image_ref": "generation/images/9.png"
+  },
+  {
+    "index": 10,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast diagram of an elliptical orbit with Earth at one focus, showing the Moon at two key points: closest (perigee) and farthest (apogee) from Earth, with dashed lines marking distances and clear labels for each position. Use a dark blue or black background with bright, contrasting colors (e.g., white/yellow for the Moon and orbit, light blue for Earth) to ensure visibility. Avoid text beyond the labels \"Perigee\" and \"Apogee.\"\n\nAlt: A diagram of the Moon's elliptical orbit around Earth, highlighting its closest and farthest points.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_174028_astronomy_c6179a/generation/images/10.png",
+    "local_path": "generation/images/10.png",
+    "image_ref": "generation/images/10.png"
+  }
+]

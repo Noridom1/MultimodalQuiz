@@ -1,0 +1,38 @@
+Index: 9
+Target concept: quantity demanded
+Tested fact block id: economics::concept::1::quantity_demanded
+Image description: A graph showing the relationship between price and quantity demanded on a demand curve.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: quantity demanded
+Question type: multiple_choice
+Difficulty: hard
+Reasoning type: factoid
+Image role: illustrative
+Learning objective: Understand the definition and role of quantity demanded in economic analysis.
+Image context: A graph showing the relationship between price and quantity demanded on a demand curve.
+Tested fact block ID: economics::concept::1::quantity_demanded
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+Create a clean, high-contrast line graph with a downward-sloping demand curve, where the vertical axis is labeled "Price (P)" and the horizontal axis is labeled "Quantity Demanded (Q)." Use bold, legible labels and a simple color scheme (e.g., black axes, blue curve) to emphasize the inverse relationship between price and quantity. Avoid clutter and ensure the curve is smooth and clearly visible.
+
+Alt: A graph with a downward-sloping line showing the relationship between price and quantity demanded.
+
+--- Raw LLM image-prompt response ---
+Create a clean, high-contrast line graph with a downward-sloping demand curve, where the vertical axis is labeled "Price (P)" and the horizontal axis is labeled "Quantity Demanded (Q)." Use bold, legible labels and a simple color scheme (e.g., black axes, blue curve) to emphasize the inverse relationship between price and quantity. Avoid clutter and ensure the curve is smooth and clearly visible.
+
+Alt: A graph with a downward-sloping line showing the relationship between price and quantity demanded.

@@ -1,0 +1,268 @@
+{
+  "count": 4,
+  "topics": [
+    {
+      "id": "economics::topic_candidate::anchor::0::demand_curve",
+      "label": "Demand curve",
+      "description": "Concept-anchored topic centered on demand curve",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "Demand for Goods and Services"
+        ],
+        [
+          "Supply of Goods and Services"
+        ],
+        [
+          "CLEAR IT UP"
+        ],
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::10::equilibrium_quantity",
+        "economics::concept::11::price",
+        "economics::concept::12::demand_schedule",
+        "economics::concept::13::quantity_of_gasoline",
+        "economics::concept::14::supply_schedule",
+        "economics::concept::16::excess_supply",
+        "economics::concept::18::surplus",
+        "economics::concept::1::quantity_demanded",
+        "economics::concept::2::law_of_demand",
+        "economics::concept::3::supply",
+        "economics::concept::4::quantity_supplied",
+        "economics::concept::5::law_of_supply",
+        "economics::concept::6::demand_curve",
+        "economics::concept::7::supply_curve",
+        "economics::concept::8::equilibrium",
+        "economics::concept::9::equilibrium_price"
+      ],
+      "chunk_ids": [
+        "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+        "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+        "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+        "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+        "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+        "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+        "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+        "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good"
+      ],
+      "artifact_ids": [
+        "economics::artifact::14::details_summary_line_summary_quantity_of_gasolin",
+        "economics::artifact::42::details_summary_line_summary_point_quantity_of_g"
+      ],
+      "seed_concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::11::price",
+        "economics::concept::1::quantity_demanded",
+        "economics::concept::6::demand_curve",
+        "economics::concept::7::supply_curve",
+        "economics::concept::9::equilibrium_price"
+      ],
+      "scores": {
+        "coherence_score": 0.7,
+        "grounding_score": 0.941,
+        "breadth_score": 0.0,
+        "distinctness_score": 0.64,
+        "pedagogical_usefulness": 0.574
+      },
+      "metadata": {
+        "anchor_concept_id": "economics::concept::6::demand_curve",
+        "merged_candidate_ids": [
+          "economics::topic_candidate::anchor::1::quantity_demanded",
+          "economics::topic_candidate::anchor::5::demand",
+          "economics::topic_candidate::anchor::7::equilibrium_price",
+          "economics::topic_candidate::section::1::learning_objectives",
+          "economics::topic_candidate::section::2::demand_for_goods_and_services",
+          "economics::topic_candidate::section::4::supply_of_goods_and_services",
+          "economics::topic_candidate::section::5::clear_it_up",
+          "economics::topic_candidate::section::6::equilibrium_where_demand_and_supply_intersect"
+        ]
+      }
+    },
+    {
+      "id": "economics::topic_candidate::anchor::2::price",
+      "label": "Price",
+      "description": "Concept-anchored topic centered on price",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Demand for Goods and Services"
+        ],
+        [
+          "LEARNING OBJECTIVES"
+        ]
+      ],
+      "concept_ids": [
+        "economics::concept::10::equilibrium_quantity",
+        "economics::concept::11::price",
+        "economics::concept::12::demand_schedule",
+        "economics::concept::14::supply_schedule",
+        "economics::concept::1::quantity_demanded",
+        "economics::concept::3::supply",
+        "economics::concept::4::quantity_supplied",
+        "economics::concept::5::law_of_supply",
+        "economics::concept::6::demand_curve",
+        "economics::concept::7::supply_curve",
+        "economics::concept::8::equilibrium",
+        "economics::concept::9::equilibrium_price"
+      ],
+      "chunk_ids": [
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+        "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+        "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+        "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+        "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good"
+      ],
+      "artifact_ids": [
+        "economics::artifact::14::details_summary_line_summary_quantity_of_gasolin",
+        "economics::artifact::42::details_summary_line_summary_point_quantity_of_g"
+      ],
+      "seed_concept_ids": [
+        "economics::concept::11::price",
+        "economics::concept::3::supply",
+        "economics::concept::4::quantity_supplied",
+        "economics::concept::5::law_of_supply",
+        "economics::concept::7::supply_curve"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "anchor_concept_id": "economics::concept::11::price",
+        "merged_candidate_ids": [
+          "economics::topic_candidate::anchor::3::supply_curves",
+          "economics::topic_candidate::anchor::4::quantity_supplied",
+          "economics::topic_candidate::anchor::6::law_of_supply",
+          "economics::topic_candidate::anchor::8::supply"
+        ]
+      }
+    },
+    {
+      "id": "economics::topic_candidate::anchor::9::demand_schedule",
+      "label": "Demand schedule",
+      "description": "Concept-anchored topic centered on demand schedule",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Demand for Goods and Services"
+        ]
+      ],
+      "concept_ids": [
+        "economics::concept::0::demand",
+        "economics::concept::11::price",
+        "economics::concept::12::demand_schedule",
+        "economics::concept::16::excess_supply",
+        "economics::concept::18::surplus",
+        "economics::concept::1::quantity_demanded",
+        "economics::concept::20::price_reductions",
+        "economics::concept::2::law_of_demand",
+        "economics::concept::6::demand_curve",
+        "economics::concept::9::equilibrium_price"
+      ],
+      "chunk_ids": [
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+        "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+        "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+        "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati",
+        "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good"
+      ],
+      "artifact_ids": [
+        "economics::artifact::14::details_summary_line_summary_quantity_of_gasolin",
+        "economics::artifact::42::details_summary_line_summary_point_quantity_of_g"
+      ],
+      "seed_concept_ids": [
+        "economics::concept::12::demand_schedule"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "economics::concept::12::demand_schedule"
+      }
+    },
+    {
+      "id": "economics::topic_candidate::anchor::10::surplus",
+      "label": "Surplus",
+      "description": "Concept-anchored topic centered on surplus",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Equilibrium—Where Demand and Supply Intersect"
+        ]
+      ],
+      "concept_ids": [
+        "economics::concept::10::equilibrium_quantity",
+        "economics::concept::16::excess_supply",
+        "economics::concept::17::excess_demand",
+        "economics::concept::18::surplus",
+        "economics::concept::19::shortage",
+        "economics::concept::1::quantity_demanded",
+        "economics::concept::20::price_reductions",
+        "economics::concept::21::gasoline",
+        "economics::concept::8::equilibrium",
+        "economics::concept::9::equilibrium_price"
+      ],
+      "chunk_ids": [
+        "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+        "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+        "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+        "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+        "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+        "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+        "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati",
+        "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good"
+      ],
+      "artifact_ids": [
+        "economics::artifact::42::details_summary_line_summary_point_quantity_of_g"
+      ],
+      "seed_concept_ids": [
+        "economics::concept::16::excess_supply",
+        "economics::concept::18::surplus"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "economics::concept::18::surplus",
+        "merged_candidate_ids": [
+          "economics::topic_candidate::anchor::11::excess_supply"
+        ]
+      }
+    }
+  ]
+}

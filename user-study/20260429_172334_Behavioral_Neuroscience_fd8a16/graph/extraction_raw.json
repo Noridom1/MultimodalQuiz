@@ -1,0 +1,1013 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "LEARNING OBJECTIVES"
+      ],
+      "concepts": [
+        "neurons",
+        "neurotransmitters",
+        "receptors",
+        "enzymes",
+        "vesicle",
+        "intracellular signals"
+      ],
+      "definitions": [
+        {
+          "concept": "neurotransmitters",
+          "definition": "Chemical substances produced by neurons that underlie behavior."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurons",
+          "target": "neurotransmitters",
+          "relation": "produces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "receptors",
+          "relation": "interacts_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "enzymes",
+          "target": "neurotransmitters",
+          "relation": "produces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "vesicle",
+          "relation": "stored_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "intracellular signals",
+          "target": "neurotransmitters",
+          "relation": "triggers_release_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "concepts": [
+        "neurons",
+        "neurotransmitters",
+        "blood-brain barrier",
+        "astrocytes",
+        "amino acids",
+        "fatty acids",
+        "sugar molecules",
+        "enzymes",
+        "vesicle",
+        "intracellular signals"
+      ],
+      "definitions": [
+        {
+          "concept": "blood-brain barrier",
+          "definition": "A firewall-like structure that regulates the passage of nutrients into the brain."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurons",
+          "target": "neurotransmitters",
+          "relation": "produces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurons",
+          "target": "nutrients",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "nutrients",
+          "target": "blood-brain barrier",
+          "relation": "crosses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "astrocytes",
+          "target": "neurons",
+          "relation": "assists_transport_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "enzymes",
+          "target": "neurotransmitters",
+          "relation": "produces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "vesicle",
+          "relation": "stored_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "intracellular signals",
+          "target": "neurotransmitters",
+          "relation": "triggers_release_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "concepts": [
+        "Nutrients",
+        "Blood-brain barrier (BBB)",
+        "Neurons",
+        "Enzymes",
+        "Neurotransmitters",
+        "Synaptic vesicles",
+        "Action potential",
+        "Ca²+ influx",
+        "Vesicle fusion",
+        "Synaptic cleft",
+        "Postsynaptic receptors",
+        "EPSPs",
+        "IPs",
+        "Secondary biochemical processes",
+        "Presynaptic receptors",
+        "Reuptake",
+        "Transporters",
+        "Degradation",
+        "Synthesizing enzymes",
+        "Metal ions",
+        "Cofactors",
+        "Substantia nigra",
+        "Hippocampus",
+        "Locus coeruleus",
+        "Red nucleus",
+        "Neurotransmitter metabolism"
+      ],
+      "definitions": [
+        {
+          "concept": "Enzymes",
+          "definition": "Proteins that help build, breakdown or otherwise modify substances in our cells."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Nutrients",
+          "target": "Neurons",
+          "relation": "transported_into",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Action potential",
+          "target": "Ca²+ influx",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Ca²+ influx",
+          "target": "Vesicle fusion",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Vesicle fusion",
+          "target": "Neurotransmitter release",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neurotransmitter",
+          "target": "Postsynaptic receptors",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neurotransmitter",
+          "target": "EPSPs",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neurotransmitter",
+          "target": "IPs",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neurotransmitter",
+          "target": "Secondary biochemical processes",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Presynaptic receptors",
+          "target": "Neurotransmitter synthesis",
+          "relation": "inhibits",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Presynaptic receptors",
+          "target": "Neurotransmitter release",
+          "relation": "inhibits",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neurotransmitter actions",
+          "target": "Reuptake",
+          "relation": "terminated_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neurotransmitter actions",
+          "target": "Degradation",
+          "relation": "terminated_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Synthesizing enzymes",
+          "target": "Metal ions",
+          "relation": "uses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Metal ions",
+          "target": "Neurotransmitter metabolism",
+          "relation": "critical_for",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "Neurons in the substantia nigra contain iron, neurons in the hippocampus contain zinc, neurons in the locus coeruleus contain copper, and neurons in the red nucleus contain cobalt."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "concepts": [
+        "Amino acid",
+        "Fatty acid",
+        "Sugar molecule",
+        "Neuron",
+        "Synthesizing enzymes",
+        "Metal ions",
+        "Cofactors",
+        "Substantia nigra",
+        "Hippocampus",
+        "Locus coeruleus",
+        "Red nucleus",
+        "Neurotransmitter metabolism",
+        "GABA",
+        "Glutamate",
+        "Dopamine",
+        "Norepinephrine",
+        "Epinephrine",
+        "Serotonin",
+        "Neuropeptides",
+        "Endocannabinoids",
+        "Prostaglandins",
+        "DNA",
+        "Enzymes",
+        "Precursors"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Amino acid",
+          "target": "Synthesizing enzymes",
+          "relation": "acted_upon_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fatty acid",
+          "target": "Synthesizing enzymes",
+          "relation": "acted_upon_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Sugar molecule",
+          "target": "Synthesizing enzymes",
+          "relation": "acted_upon_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Synthesizing enzymes",
+          "target": "Metal ions",
+          "relation": "uses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Metal ions",
+          "target": "Neurotransmitter metabolism",
+          "relation": "critical_for",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "GABA",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Glutamate",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dopamine",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Norepinephrine",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Epinephrine",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Serotonin",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neuropeptides",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Endocannabinoids",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Prostaglandins",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neuropeptides",
+          "target": "DNA",
+          "relation": "utilizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Endocannabinoids",
+          "target": "DNA",
+          "relation": "utilizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Prostaglandins",
+          "target": "DNA",
+          "relation": "utilizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "Neurons in the substantia nigra contain iron, neurons in the hippocampus contain zinc, neurons in the locus coeruleus contain copper, and neurons in the red nucleus contain cobalt.",
+        "GABA and glutamate are simple amino acids and are the most abundant neurotransmitters in the human brain."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "concepts": [
+        "Energy efficiency",
+        "GABA",
+        "Glutamate",
+        "Dopamine",
+        "Norepinephrine",
+        "Epinephrine",
+        "Serotonin",
+        "Neuropeptides",
+        "Endocannabinoids",
+        "Prostaglandins",
+        "DNA",
+        "Enzymes",
+        "Precursors"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "GABA",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Glutamate",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dopamine",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Norepinephrine",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Epinephrine",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Serotonin",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neuropeptides",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Endocannabinoids",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Prostaglandins",
+          "target": "Neurotransmitter",
+          "relation": "type_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neuropeptides",
+          "target": "DNA",
+          "relation": "utilizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Endocannabinoids",
+          "target": "DNA",
+          "relation": "utilizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Prostaglandins",
+          "target": "DNA",
+          "relation": "utilizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "GABA and glutamate are simple amino acids and are the most abundant neurotransmitters in the human brain."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "concepts": [
+        "Energy efficiency",
+        "GABA",
+        "Glutamate",
+        "Dopamine",
+        "Norepinephrine",
+        "Epinephrine",
+        "Serotonin",
+        "Neuropeptides",
+        "Endocannabinoids",
+        "Prostaglandins",
+        "DNA",
+        "Enzymes",
+        "Precursors",
+        "Synaptic vesicles",
+        "Presynaptic terminal",
+        "Neurotransmitter molecules",
+        "Neurons"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Neurotransmitter molecules",
+          "target": "Synaptic vesicles",
+          "relation": "transported_into",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Synaptic vesicles",
+          "target": "Presynaptic terminal",
+          "relation": "clustered_at",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neurons",
+          "target": "Neurotransmitter molecules",
+          "relation": "release",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neurons",
+          "target": "Synaptic vesicles",
+          "relation": "produce",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Neuropeptides",
+          "target": "DNA",
+          "relation": "utilizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Endocannabinoids",
+          "target": "DNA",
+          "relation": "utilizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Prostaglandins",
+          "target": "DNA",
+          "relation": "utilizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "concepts": [
+        "neurotransmitter molecules",
+        "synaptic vesicles",
+        "presynaptic terminal",
+        "neurons",
+        "action potential",
+        "voltage-dependent calcium channels",
+        "calcium ions",
+        "synapse",
+        "synaptic cleft"
+      ],
+      "definitions": [
+        {
+          "concept": "synaptic vesicles",
+          "definition": "very tiny spheres clustered at the presynaptic terminal with hollow centers into which approximately 10,000 molecules of a typical neurotransmitter can be stored for later release from a neuron."
+        },
+        {
+          "concept": "synapse",
+          "definition": "The junction at which two neurons communicate via the release of a neurotransmitter molecule."
+        },
+        {
+          "concept": "synaptic cleft",
+          "definition": "the small space between neurons."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurotransmitter molecules",
+          "target": "synaptic vesicles",
+          "relation": "stored_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "synaptic vesicles",
+          "target": "presynaptic terminal",
+          "relation": "located_at",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "action potential",
+          "target": "voltage-dependent calcium channels",
+          "relation": "opens",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "calcium ions",
+          "target": "synaptic vesicle",
+          "relation": "triggers_release_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "synaptic vesicle",
+          "target": "synaptic cleft",
+          "relation": "releases_into",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [
+        "vesicle fusion",
+        "neurotransmitter",
+        "receptor",
+        "ionotropic receptors",
+        "metabotropic receptors",
+        "ligand",
+        "ligand-gated transmembrane ion channels",
+        "post-synaptic neuron"
+      ],
+      "definitions": [
+        {
+          "concept": "ionotropic receptors",
+          "definition": "transmembrane molecules that can 'open' or 'close' a channel that would allow smaller particles to travel in and out of the cell."
+        },
+        {
+          "concept": "ligand-gated transmembrane ion channels",
+          "definition": "ionotropic receptors that open or close in response to ligand binding, allowing ions to travel through."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurotransmitter",
+          "target": "receptor",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "ligand",
+          "target": "ionotropic receptors",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "ionotropic receptors",
+          "target": "ligand-gated transmembrane ion channels",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "ion concentration change",
+          "target": "secondary biochemical processes",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [
+        "neurotransmitter",
+        "receptor",
+        "ionotropic receptors",
+        "metabotropic receptors",
+        "ligand",
+        "G-protein",
+        "secondary messenger",
+        "G-protein coupled receptors"
+      ],
+      "definitions": [
+        {
+          "concept": "metabotropic receptors",
+          "definition": "receptors linked to a G-protein that activate secondary messengers upon ligand binding."
+        },
+        {
+          "concept": "G-protein coupled receptors",
+          "definition": "a large group of evolutionarily related proteins that activate G-proteins and secondary messengers."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurotransmitter",
+          "target": "receptor",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "ligand",
+          "target": "metabotropic receptor",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "metabotropic receptor",
+          "target": "G-protein",
+          "relation": "activates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "G-protein",
+          "target": "secondary messenger",
+          "relation": "activates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "secondary messenger",
+          "target": "ion channels",
+          "relation": "may_open",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "Behavioral_Neuroscience::image::25::images_522b532ebdfd84047e878b87f73f73a32606d1f9d::chunk::14::images_522b532ebdfd84047e878b87f73f73a32606d1f9d",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [
+        "Ligand-gated ion channels",
+        "G-protein-coupled receptors",
+        "ion channel",
+        "G-protein",
+        "intracellular messengers"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Ligand-gated ion channels",
+          "target": "ion channel",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "G-protein-coupled receptors",
+          "target": "G-protein",
+          "relation": "activates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "G-protein",
+          "target": "intracellular messengers",
+          "relation": "modulates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [
+        "metabotropic receptors",
+        "ionotropic receptors",
+        "synaptic communication",
+        "neurotransmitters",
+        "neural systems",
+        "redundancy",
+        "axon terminal",
+        "enzymatic inactivation",
+        "dietary supplements"
+      ],
+      "definitions": [
+        {
+          "concept": "metabotropic receptors",
+          "definition": "Not explicitly defined in this chunk."
+        },
+        {
+          "concept": "ionotropic receptors",
+          "definition": "Not explicitly defined in this chunk."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurotransmitters",
+          "target": "oxidation",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 0.9
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "enzymatic inactivation",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 0.8
+        },
+        {
+          "source": "neural systems",
+          "target": "redundancy",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 0.9
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 17,
+      "chunk_id": "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "concepts": [
+        "synaptic communication",
+        "neurotransmitters",
+        "vesicles",
+        "oxidation",
+        "neural systems",
+        "redundancy",
+        "axon terminal",
+        "reuptake",
+        "autoreceptor",
+        "feedback"
+      ],
+      "definitions": [
+        {
+          "concept": "reuptake",
+          "definition": "The reabsorption of a neurotransmitter via a protein transporter located on the (pre-synaptic) membrane of the axon terminal."
+        },
+        {
+          "concept": "autoreceptor",
+          "definition": "A special type of protein receptor located on the membranes of nerve cells that is sensitive to the neurotransmitters released by the neuron on which it sits."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurotransmitters",
+          "target": "reuptake",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 0.9
+        },
+        {
+          "source": "autoreceptor",
+          "target": "neurotransmitter release",
+          "relation": "regulates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 0.8
+        },
+        {
+          "source": "neural systems",
+          "target": "redundancy",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 0.9
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 13,
+    "concept_count": 79,
+    "relation_count": 85
+  }
+}

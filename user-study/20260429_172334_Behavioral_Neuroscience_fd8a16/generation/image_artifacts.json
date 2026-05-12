@@ -1,0 +1,82 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a cross-sectional diagram of the blood-brain barrier, showing a capillary with endothelial cells, tight junctions, and surrounding astrocytes. Use high-contrast colors (e.g., red for blood cells, blue for brain tissue) and label key components like \"endothelial cells,\" \"tight junctions,\" and \"astrocytes.\" Depict selective permeability with arrows showing allowed molecules (e.g., oxygen, glucose) passing through while blocking harmful substances.\n\nAlt: A labeled diagram of the blood-brain barrier showing its structure and selective permeability.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a synaptic cleft with two labeled molecules: a small, round \"Neurotransmitter X\" (acetylcholine placeholder) and a larger, irregularly shaped \"Enzyme Y\" (acetylcholinesterase placeholder) actively breaking it down. Use bright, distinct colors (e.g., blue for the neurotransmitter, red for the enzyme) and clear arrows to show the breakdown process. Label the synaptic cleft and presynaptic/post-synaptic membranes with neutral terms like \"Nerve Cell 1\" and \"Nerve Cell 2.\" Avoid text revealing the enzyme’s identity.\n\n**Alt:** A diagram showing an enzyme breaking down a neurotransmitter in the gap between two nerve cells.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified diagram of oxidation in a cell, showing an oxygen molecule (O₂) pulling an electron from a lipid membrane, leaving behind a damaged, jagged section labeled \"Oxidized Lipid.\" Use high-contrast colors: red for oxygen, blue for electrons, and gray for the cell membrane. Include a small inset of a neuron with a dotted line connecting to the damaged cell, implying behavioral impact. Avoid text labels for quiz answers.\n\n**Alt:** A diagram illustrating oxidation damaging a cell membrane, with a neuron inset suggesting neurological effects.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a synaptic cleft, showing a round neurotransmitter molecule (e.g., a stylized blue hexagon) binding to a matching receptor (labeled \"Receptor\") on the postsynaptic membrane. Use warm colors (orange/red) for the postsynaptic neuron and cool colors (blue/green) for the neurotransmitter and presynaptic side. Include clear arrows to indicate binding direction, and label key parts: \"Neurotransmitter,\" \"Receptor,\" and \"Postsynaptic Membrane.\" Avoid realistic protein structures—opt for iconic, accessible shapes.\n\n**Alt:** A diagram of a neurotransmitter binding to a receptor on a neuron's surface, illustrating synaptic signaling.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of the glutamate-glutamine cycle between a neuron and an astrocyte. Show glutamate (labeled \"GLU\") released from the neuron, taken up by the astrocyte, converted to glutamine (labeled \"GLN\"), and returned to the neuron. Use distinct colors for each molecule (e.g., red for glutamate, blue for glutamine) and bold arrows to indicate direction. Keep labels minimal and avoid text-heavy explanations.\n\n**Alt:** A diagram illustrating the glutamate-glutamine cycle between a neuron and an astrocyte, showing molecule exchange and conversion.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  },
+  {
+    "index": 6,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast diagram showing the conversion of glutamate to GABA, with clear arrows and labeled molecules (e.g., \"Substrate: Glutamate,\" \"Product: GABA\"). Use a neutral color palette with bold outlines for clarity, and label the enzyme as \"Enzyme X\" to avoid revealing the answer. Alt: A diagram illustrating the enzymatic conversion of glutamate to GABA, with labeled molecules and a placeholder for the enzyme name.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/6.png",
+    "local_path": "generation/images/6.png",
+    "image_ref": "generation/images/6.png"
+  },
+  {
+    "index": 7,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified cross-section diagram of a presynaptic terminal, highlighting voltage-gated calcium channels in the membrane and nearby synaptic vesicles. Use high-contrast colors (e.g., blue for calcium ions, red for vesicles) and label key structures like \"Calcium Channel\" and \"Synaptic Vesicle\" without explaining their function. Ensure the composition shows calcium ions entering the terminal near vesicles.\n\n**Alt:** A labeled diagram of a presynaptic terminal with calcium channels and vesicles, showing calcium ion influx.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/7.png",
+    "local_path": "generation/images/7.png",
+    "image_ref": "generation/images/7.png"
+  },
+  {
+    "index": 8,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a synaptic cleft, showing a synaptic vesicle near the presynaptic membrane with labeled calcium channels. Depict calcium ions (Ca²⁺) flowing into the presynaptic terminal, triggering vesicle fusion and neurotransmitter release—use bright orange for calcium ions and cool blues/greys for cellular structures. Label key components (e.g., \"Voltage-gated Ca²⁺ channel,\" \"Synaptic vesicle,\" \"Fusion pore\") without explaining the mechanism. Ensure clear visual hierarchy and avoid text-heavy explanations.\n\n**Alt:** A labeled diagram of a synapse showing calcium ions entering the presynaptic terminal and a vesicle fusing with the membrane.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/8.png",
+    "local_path": "generation/images/8.png",
+    "image_ref": "generation/images/8.png"
+  },
+  {
+    "index": 9,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a neuron’s synapse, showing spherical synaptic vesicles (labeled \"Vesicles\") fused to the presynaptic membrane, releasing small circular neurotransmitters (labeled \"Neurotransmitters\") into the synaptic cleft. Use a bright, warm color (e.g., orange) for vesicles, cool blue for the cleft, and neutral grays for membranes. Ensure clear arrows indicate release direction.\n\n**Alt:** A labeled diagram of synaptic vesicles releasing neurotransmitters into the synaptic cleft.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/9.png",
+    "local_path": "generation/images/9.png",
+    "image_ref": "generation/images/9.png"
+  },
+  {
+    "index": 10,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified cross-sectional diagram of a neuron’s presynaptic terminal, showing a voltage-dependent calcium channel embedded in the membrane. Depict the channel in a closed state (left) with a polarized membrane (negative inside) and an open state (right) after depolarization (positive inside), with calcium ions (Ca²⁺) flowing inward. Use high-contrast colors: blue for the membrane, yellow for calcium ions, and red for the channel’s activation gate. Label key parts: \"Membrane,\" \"Ca²⁺ Channel (Closed/Open),\" and \"Ca²⁺ Inflow.\" Avoid text that explains the mechanism—focus on visual clarity.\n\n**Alt:** A diagram showing calcium channels opening in a neuron’s membrane when depolarized, allowing calcium ions to enter.",
+    "source_url": "/content/MultimodalQuiz/outputs/20260429_172334_Behavioral_Neuroscience_fd8a16/generation/images/10.png",
+    "local_path": "generation/images/10.png",
+    "image_ref": "generation/images/10.png"
+  }
+]

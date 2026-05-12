@@ -1,0 +1,145 @@
+{
+  "section_count": 7,
+  "sections": [
+    {
+      "id": "astronomy::section::2::4_5_phases_and_motions_of_the_moon",
+      "label": "4.5 Phases and Motions of the Moon",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "4.5 Phases and Motions of the Moon"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 2,
+        "level": 1
+      }
+    },
+    {
+      "id": "astronomy::section::3::learning_objectives",
+      "label": "Learning Objectives",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Learning Objectives"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 3,
+        "level": 1
+      }
+    },
+    {
+      "id": "astronomy::section::8::lunar_phases",
+      "label": "Lunar Phases",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 8,
+        "level": 1
+      }
+    },
+    {
+      "id": "astronomy::section::25::making_connections",
+      "label": "MAKING CONNECTIONS",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "MAKING CONNECTIONS"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 25,
+        "level": 1
+      }
+    },
+    {
+      "id": "astronomy::section::27::astronomy_and_the_days_of_the_week",
+      "label": "Astronomy and the Days of the Week",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Astronomy and the Days of the Week"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 27,
+        "level": 1
+      }
+    },
+    {
+      "id": "astronomy::section::31::link_to_learning",
+      "label": "LINK TO LEARNING",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "LINK TO LEARNING"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 31,
+        "level": 1
+      }
+    },
+    {
+      "id": "astronomy::section::34::the_moon_s_revolution_and_rotation",
+      "label": "The Moon’s Revolution and Rotation",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 34,
+        "level": 1
+      }
+    }
+  ]
+}

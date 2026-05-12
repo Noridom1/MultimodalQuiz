@@ -1,0 +1,286 @@
+{
+  "run_id": "20260429_174028_astronomy_c6179a",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_f39eb6117f",
+        "question_text": "Why does the Moon always show the same face to Earth?",
+        "options": [
+          "A) The Moon does not rotate on its axis.",
+          "B) The Moon's rotation period is equal to its orbital period around Earth.",
+          "C) Earth's gravity prevents the Moon from rotating.",
+          "D) The Moon's rotation is tidally locked to the Sun, not Earth."
+        ],
+        "correct_answer": "B",
+        "explanation": "The Moon exhibits synchronous rotation, meaning its rotation period matches its orbital period around Earth (approximately 27.3 days), causing the same side to always face Earth. This is a result of tidal forces over time. (Source: block_13)",
+        "target_concept": "synchronous rotation",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "block_13",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: synchronous rotation\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the relationship between the Moon's rotation and orbital periods.\nImage context: A diagram showing the Moon's rotation and orbit around Earth, with arrows indicating equal periods.\nTested fact block ID: block_13\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram of the Moon orbiting Earth, with two curved arrows: one showing the Moon’s rotation (labeled \"Rotation Period\") and another showing its orbit (labeled \"Orbital Period\"). Use a neutral color palette (e.g., dark blue for Earth, light gray for the Moon, and bright yellow for arrows) to emphasize the equal lengths of both periods. Avoid text that explains the relationship—let the visual comparison imply it.\n\n**Alt:** A diagram of the Moon orbiting Earth with arrows indicating equal rotation and orbital periods."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_af7b698aba",
+        "question_text": "Which of the following best describes the Waxing Gibbous phase of the Moon?",
+        "options": [
+          "The Moon is less than half illuminated and appears as a crescent shape.",
+          "The Moon is more than half illuminated but not yet full, with the right side lit in the Northern Hemisphere.",
+          "The Moon is fully illuminated and appears as a perfect circle.",
+          "The Moon is more than half illuminated but not yet full, with the left side lit in the Northern Hemisphere."
+        ],
+        "correct_answer": "B",
+        "explanation": "The Waxing Gibbous phase occurs when the Moon is more than half illuminated but not yet full, with the right side visible in the Northern Hemisphere. This phase follows the First Quarter and precedes the Full Moon. (Source: block_16)",
+        "target_concept": "Waxing Gibbous",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "block_16",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Waxing Gibbous\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the characteristics of the Waxing Gibbous lunar phase.\nImage context: An illustration of the Waxing Gibbous phase, showing the Moon with more than half of its illuminated side visible.\nTested fact block ID: block_16\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Illustrate the Waxing Gibbous Moon phase with a clear, high-contrast depiction of the Moon showing more than half of its right side illuminated (from a Northern Hemisphere perspective). Use a dark blue or black background for contrast, and label the illuminated and shadowed regions subtly with \"Illuminated Side\" and \"Shadowed Side\" in neutral, small text. Avoid any additional celestial bodies or distracting elements.\n\n**Alt:** A detailed illustration of the Waxing Gibbous Moon phase, showing over half of the right side brightly lit against a dark background."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_d063759ac5",
+        "question_text": "Which of the following best describes the shape of the Moon's orbit around Earth?",
+        "options": [
+          "A perfect circle with Earth at the exact center",
+          "A highly eccentric ellipse with Earth at one focus",
+          "A slightly eccentric ellipse with Earth at one focus",
+          "A parabolic trajectory that occasionally intersects Earth's path"
+        ],
+        "correct_answer": "C",
+        "explanation": "The Moon's orbit is an ellipse with a low eccentricity (approximately 0.05), meaning it is nearly circular but not perfectly so. Earth is located at one of the two foci of this ellipse, not the center. (Source: block_1)",
+        "target_concept": "Orbit",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "block_1",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Orbit\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the shape and characteristics of the Moon's orbit around Earth.\nImage context: A diagram showing the elliptical orbit of the Moon around Earth, with labeled apogee and perigee points.\nTested fact block ID: block_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram of an elliptical orbit with Earth at one focus. Label the farthest point (apogee) and closest point (perigee) with bold, legible text, using neutral placeholders like \"Point A\" and \"Point B.\" Use a dark background with bright, contrasting colors for clarity, and avoid realistic textures or branded elements.\n\n**Alt:** A diagram of an elliptical orbit around Earth, with labeled points marking the farthest and closest distances."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_401596534e",
+        "question_text": "Why does the Moon always show the same face to Earth?",
+        "options": [
+          "A) The Moon does not rotate on its axis.",
+          "B) The Moon's rotation period is equal to its orbital period around Earth.",
+          "C) Earth's gravity prevents the Moon from rotating.",
+          "D) The Moon rotates much faster than it orbits Earth."
+        ],
+        "correct_answer": "B",
+        "explanation": "The Moon's rotation period is equal to its orbital period around Earth, a phenomenon called synchronous rotation, which causes the same side to always face Earth. (Source: block_10)",
+        "target_concept": "Rotation",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "block_10",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Rotation\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the relationship between the Moon's rotation and orbital periods.\nImage context: A diagram showing the Moon's rotation and orbital period around Earth.\nTested fact block ID: block_10\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing Earth at the center with the Moon in orbit around it, using arrows to indicate both orbital motion (counterclockwise) and rotation (Moon spinning on its axis). Label the orbital path as \"Orbital Period\" and the Moon's spin as \"Rotation Period,\" using bold, legible text. Use a dark blue background for space, Earth in green/blue, and the Moon in gray with subtle craters for clarity.\n\n**Alt:** A diagram illustrating the Moon's synchronized rotation and orbit around Earth, with labeled arrows showing both movements."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_3c0c2df099",
+        "question_text": "During a total solar eclipse, the Sun's corona becomes visible primarily because:",
+        "options": [
+          "The Moon's shadow completely blocks the Sun's photosphere, revealing the fainter corona.",
+          "The Earth's atmosphere scatters light, making the corona appear brighter.",
+          "The Sun's magnetic field intensifies, illuminating the corona.",
+          "The Moon's gravitational pull alters the Sun's outer layers, exposing the corona."
+        ],
+        "correct_answer": "The Moon's shadow completely blocks the Sun's photosphere, revealing the fainter corona.",
+        "explanation": "The corona becomes visible when the Moon obscures the Sun's bright photosphere, allowing the fainter corona to be seen. This occurs due to the precise alignment during a total solar eclipse. (Source: block_1)",
+        "target_concept": "Sun",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "block_1",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Sun\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the conditions under which the Sun's corona becomes visible during an eclipse.\nImage context: A diagram showing the layers of the Sun and the alignment during a total solar eclipse.\nTested fact block ID: block_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a cross-sectional diagram of the Sun with labeled layers (core, radiative zone, convective zone, photosphere, chromosphere, and corona) in high-contrast colors (e.g., fiery oranges/yellows for inner layers, fading to white/blue for the outer corona). Show the Moon aligned between the Sun and Earth during a total solar eclipse, blocking the photosphere to reveal the corona as a glowing halo. Use simple, bold labels and arrows to indicate alignment and visibility.\n\nAlt: A labeled diagram of the Sun's layers and the alignment during a total solar eclipse, highlighting the visible corona."
+    },
+    {
+      "index": 6,
+      "question": {
+        "id": "q_51a77afa48",
+        "question_text": "During a New Moon, which side of the Moon is illuminated by the Sun?",
+        "options": [
+          "The side facing the Earth",
+          "The side facing away from the Earth",
+          "Both sides equally",
+          "Neither side is illuminated"
+        ],
+        "correct_answer": "B",
+        "explanation": "During a New Moon, the side of the Moon facing away from the Earth is illuminated by the Sun, while the side facing the Earth is in darkness. This occurs because the Moon is positioned between the Earth and the Sun. (Source: astronomy::concept::8::illuminated_side)",
+        "target_concept": "Illuminated side",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/6.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "astronomy::concept::8::illuminated_side",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/6.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Illuminated side\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the orientation of the Moon's illuminated and dark sides during a New Moon.\nImage context: A diagram showing the positions of the Earth, Moon, and Sun during a New Moon, highlighting the illuminated and dark sides.\nTested fact block ID: astronomy::concept::8::illuminated_side\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast diagram showing the Sun, Earth, and Moon aligned in a straight line, with the Moon positioned between the Earth and Sun. Use bright yellow for the Sun, blue for Earth, and gray for the Moon, clearly labeling the illuminated side (facing the Sun) and dark side (facing Earth) of the Moon. Ensure the diagram is uncluttered, with bold arrows indicating sunlight direction.\n\nAlt: A diagram of the Sun, Earth, and Moon during a New Moon, showing the Moon's illuminated and dark sides."
+    },
+    {
+      "index": 7,
+      "question": {
+        "id": "q_5ac8ac50c0",
+        "question_text": "During the New Moon phase, which of the following best describes the positional relationship of the Moon, Earth, and Sun?",
+        "options": [
+          "The Moon is positioned between the Earth and the Sun, with its dark side facing Earth.",
+          "The Earth is positioned between the Moon and the Sun, casting a shadow on the Moon.",
+          "The Sun is positioned between the Earth and the Moon, fully illuminating the Moon's far side.",
+          "The Moon is positioned perpendicular to the line connecting the Earth and the Sun, showing a half-lit phase."
+        ],
+        "correct_answer": "A",
+        "explanation": "During the New Moon phase, the Moon is located between the Earth and the Sun, with its unilluminated side facing Earth. This alignment results in the Moon being invisible from Earth's perspective. (Source: astronomy::concept::7::new_moon)",
+        "target_concept": "New Moon",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/7.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "astronomy::concept::7::new_moon",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/7.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: New Moon\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the positional relationship of the Moon, Earth, and Sun during the New Moon phase.\nImage context: A diagram showing the alignment of the Earth, Moon, and Sun during a New Moon phase.\nTested fact block ID: astronomy::concept::7::new_moon\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast diagram showing the Sun, Earth, and Moon aligned in a straight line, with the Moon positioned between the Earth and Sun. Use bold, labeled arrows to indicate sunlight direction, and color the Sun yellow, Earth blue-green, and Moon gray. Ensure all labels (e.g., \"Sun,\" \"Earth,\" \"Moon\") are legible and placed near their respective bodies without overlapping.\n\nAlt: A diagram illustrating the alignment of the Sun, Earth, and Moon during the New Moon phase, with the Moon positioned between the Earth and Sun."
+    },
+    {
+      "index": 8,
+      "question": {
+        "id": "q_f91be5e5f2",
+        "question_text": "What is the primary reason the far side of the Moon is often referred to as the 'dark side'?",
+        "options": [
+          "A) It receives no sunlight due to Earth's shadow.",
+          "B) It is permanently hidden from Earth's view due to tidal locking.",
+          "C) It is composed of darker materials than the near side.",
+          "D) It experiences perpetual darkness regardless of the Moon's orbit."
+        ],
+        "correct_answer": "B",
+        "explanation": "The far side of the Moon is called the 'dark side' because tidal locking causes the same side to always face Earth, making the opposite side perpetually hidden from view. This does not imply a lack of sunlight, as both sides receive light during the Moon's orbit. (Source: astronomy::concept::9::dark_side)",
+        "target_concept": "Dark side",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/8.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "astronomy::concept::9::dark_side",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/8.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Dark side\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the concept of the Moon's dark side and its relationship to tidal locking.\nImage context: A diagram showing the Moon's tidal locking with Earth, highlighting the far side that is never visible.\nTested fact block ID: astronomy::concept::9::dark_side\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing Earth and the Moon in tidal lock, with the Moon’s far side (never visible from Earth) shaded darker. Label Earth as \"Planet\" and the Moon as \"Satellite,\" and use arrows to indicate rotation and orbital path. Use a cool color palette (blues/grays) for clarity.\n\n**Alt:** A diagram illustrating tidal locking between a planet and its moon, with the moon's far side highlighted in dark shading."
+    },
+    {
+      "index": 9,
+      "question": {
+        "id": "q_3c777a146d",
+        "question_text": "During the First Quarter Moon phase, which of the following best describes the Moon's position and illumination as observed from Earth?",
+        "options": [
+          "The Moon is positioned between the Earth and the Sun, with the side facing Earth completely dark.",
+          "The Moon is at a 90-degree angle relative to the Earth and Sun, with the right half illuminated as seen from Earth.",
+          "The Moon is on the opposite side of the Earth from the Sun, with the entire face visible from Earth fully illuminated.",
+          "The Moon is at a 45-degree angle relative to the Earth and Sun, with only a small crescent visible from Earth."
+        ],
+        "correct_answer": "B",
+        "explanation": "The First Quarter Moon occurs when the Moon is at a 90-degree angle relative to the Earth and Sun, resulting in the right half of the Moon being illuminated as seen from Earth. This phase follows the New Moon and precedes the Full Moon. Source: astronomy::concept::11::first_quarter_moon.",
+        "target_concept": "First Quarter Moon",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/9.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "astronomy::concept::11::first_quarter_moon",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/9.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: First Quarter Moon\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the position and illumination of the Moon during the First Quarter Moon phase.\nImage context: A diagram showing the position of the Moon relative to the Earth and Sun during the First Quarter Moon phase.\nTested fact block ID: astronomy::concept::11::first_quarter_moon\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast diagram showing the Earth at the center, the Sun to one side, and the Moon positioned at a 90-degree angle from the Earth-Sun line, with half of the Moon’s near side illuminated. Use clear labels like \"Earth,\" \"Sun,\" and \"Moon\" with arrows indicating sunlight direction, and avoid any text that explains the phase name. Use a dark background for space with bright, contrasting colors for celestial bodies (e.g., yellow Sun, blue-green Earth, gray Moon). Alt: A diagram of the Earth, Sun, and Moon showing the Moon's position and illumination during its first quarter phase."
+    },
+    {
+      "index": 10,
+      "question": {
+        "id": "q_2725a25a46",
+        "question_text": "Which of the following statements accurately describes the Moon's orbit around Earth and its effect on celestial motions?",
+        "options": [
+          "The Moon's orbit is perfectly circular, resulting in consistent tidal forces throughout the month.",
+          "The Moon's elliptical orbit causes its distance from Earth to vary, leading to differences in apparent size and tidal effects.",
+          "The Moon's orbit is inclined at a fixed 90-degree angle to Earth's equator, causing it to always appear directly overhead at the poles.",
+          "The Moon's orbit is retrograde, meaning it moves in the opposite direction to Earth's rotation, resulting in fewer visible phases."
+        ],
+        "correct_answer": "B",
+        "explanation": "The Moon's orbit is elliptical, causing its distance from Earth to vary between perigee (closest) and apogee (farthest), which affects its apparent size and tidal forces. This is supported by astronomy::concept::10::crescent_moon.",
+        "target_concept": "celestial motions",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/10.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "astronomy::concept::10::crescent_moon",
+          "run_id": "20260429_174028_astronomy_c6179a"
+        }
+      },
+      "image_url": "generation/images/10.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: celestial motions\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the nature of the Moon's orbit and its implications for celestial motions.\nImage context: A diagram showing the elliptical orbit of the Moon around Earth, highlighting the varying distances at perigee and apogee.\nTested fact block ID: astronomy::concept::10::crescent_moon\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast diagram of an elliptical orbit with Earth at one focus, showing the Moon at two key points: closest (perigee) and farthest (apogee) from Earth, with dashed lines marking distances and clear labels for each position. Use a dark blue or black background with bright, contrasting colors (e.g., white/yellow for the Moon and orbit, light blue for Earth) to ensure visibility. Avoid text beyond the labels \"Perigee\" and \"Apogee.\"\n\nAlt: A diagram of the Moon's elliptical orbit around Earth, highlighting its closest and farthest points."
+    }
+  ]
+}

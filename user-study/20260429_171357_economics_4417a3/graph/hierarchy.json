@@ -1,0 +1,145 @@
+{
+  "section_count": 7,
+  "sections": [
+    {
+      "id": "economics::section::0::3_1_demand_supply_and_equilibrium_in_markets_for",
+      "label": "3.1 Demand, Supply, and Equilibrium in Markets for Goods and Services",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "3.1 Demand, Supply, and Equilibrium in Markets for Goods and Services"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "economics::section::1::learning_objectives",
+      "label": "LEARNING OBJECTIVES",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "LEARNING OBJECTIVES"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 1,
+        "level": 1
+      }
+    },
+    {
+      "id": "economics::section::5::demand_for_goods_and_services",
+      "label": "Demand for Goods and Services",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 5,
+        "level": 1
+      }
+    },
+    {
+      "id": "economics::section::19::clear_it_up",
+      "label": "CLEAR IT UP",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 19,
+        "level": 1
+      }
+    },
+    {
+      "id": "economics::section::22::supply_of_goods_and_services",
+      "label": "Supply of Goods and Services",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 22,
+        "level": 1
+      }
+    },
+    {
+      "id": "economics::section::26::clear_it_up",
+      "label": "CLEAR IT UP",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 26,
+        "level": 1
+      }
+    },
+    {
+      "id": "economics::section::38::equilibrium_where_demand_and_supply_intersect",
+      "label": "Equilibrium—Where Demand and Supply Intersect",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 38,
+        "level": 1
+      }
+    }
+  ]
+}

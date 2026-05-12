@@ -1,0 +1,222 @@
+[
+  {
+    "id": "q_b87a5eddc8",
+    "question_text": "According to the law of demand, if the price of a good increases, what is the most likely causal effect on the quantity demanded, assuming all other factors remain constant?",
+    "options": [
+      "A) Quantity demanded increases due to higher perceived value.",
+      "B) Quantity demanded decreases as consumers seek cheaper alternatives.",
+      "C) Quantity demanded remains unchanged because price is not a factor.",
+      "D) Quantity demanded increases because consumers expect further price hikes."
+    ],
+    "correct_answer": "B",
+    "explanation": "The law of demand states that, ceteris paribus, there is an inverse relationship between price and quantity demanded. As price rises, consumers typically reduce their purchases due to budget constraints or substitution effects. (Source: economics::concept::2::law_of_demand)",
+    "target_concept": "law of demand",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "economics::concept::2::law_of_demand",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  },
+  {
+    "id": "q_ef2aaf2c90",
+    "question_text": "In a standard supply and demand graph, the equilibrium level is defined as:",
+    "options": [
+      "A. The point where the demand curve intersects the y-axis",
+      "B. The point where the supply curve intersects the x-axis",
+      "C. The point where the demand and supply curves intersect",
+      "D. The point where the price is highest on the demand curve"
+    ],
+    "correct_answer": "C",
+    "explanation": "The equilibrium level is the point where the demand and supply curves intersect, indicating the price at which quantity demanded equals quantity supplied. This is a fundamental concept in economics (equilibrium_level_1).",
+    "target_concept": "equilibrium level",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "equilibrium_level_1",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  },
+  {
+    "id": "q_b525b3d1ef",
+    "question_text": "According to the law of supply, what is the primary causal factor that leads producers to increase the quantity of a good they are willing to supply?",
+    "options": [
+      "A decrease in production costs",
+      "An increase in consumer demand",
+      "An increase in the price of the good",
+      "Government subsidies for production"
+    ],
+    "correct_answer": "C",
+    "explanation": "The law of supply states that, all else being equal, an increase in the price of a good causes producers to supply a greater quantity of that good. This is illustrated by the upward-sloping supply curve (block_1).",
+    "target_concept": "law of supply",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  },
+  {
+    "id": "q_adfc3e91fa",
+    "question_text": "Which of the following best describes the graphical representation of the law of supply?",
+    "options": [
+      "A downward-sloping curve indicating an inverse relationship between price and quantity supplied",
+      "A vertical line indicating a fixed quantity supplied regardless of price",
+      "An upward-sloping curve indicating a direct relationship between price and quantity supplied",
+      "A horizontal line indicating a fixed price regardless of quantity supplied"
+    ],
+    "correct_answer": "An upward-sloping curve indicating a direct relationship between price and quantity supplied",
+    "explanation": "The law of supply states that, all else being equal, an increase in price results in an increase in quantity supplied, which is graphically represented by an upward-sloping supply curve. (supply_curve_1)",
+    "target_concept": "supply curves",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "supply_curve_1",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  },
+  {
+    "id": "q_fd08cd0073",
+    "question_text": "Which of the following best describes the purpose of a demand schedule?",
+    "options": [
+      "A. To illustrate the relationship between price and quantity supplied over time",
+      "B. To show the total revenue generated at different price levels",
+      "C. To represent the quantities of a good consumers are willing and able to purchase at various prices",
+      "D. To track the production costs associated with different output levels"
+    ],
+    "correct_answer": "C",
+    "explanation": "A demand schedule is a table that shows the quantities of a good consumers are willing and able to buy at different prices, illustrating the law of demand. (Source: demand_schedule_1)",
+    "target_concept": "demand schedule",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "demand_schedule_1",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  },
+  {
+    "id": "q_d9314502be",
+    "question_text": "Which of the following factors does NOT directly influence the quantity supplied of a good in the short run?",
+    "options": [
+      "A. The price of the good itself",
+      "B. The cost of production inputs",
+      "C. Consumer income levels",
+      "D. Technological advancements in production"
+    ],
+    "correct_answer": "C",
+    "explanation": "Quantity supplied is determined by factors such as the good's price, production costs, and technology, but not by consumer income, which affects demand. (economics::concept::4::quantity_supplied)",
+    "target_concept": "quantity supplied",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/6.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "economics::concept::4::quantity_supplied",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  },
+  {
+    "id": "q_5b7a7f6abb",
+    "question_text": "Which of the following best describes the demand curve in a standard economic model?",
+    "options": [
+      "A horizontal line indicating that quantity demanded is constant regardless of price",
+      "A vertical line indicating that price is constant regardless of quantity demanded",
+      "A downward-sloping line indicating an inverse relationship between price and quantity demanded",
+      "An upward-sloping line indicating a direct relationship between price and quantity demanded"
+    ],
+    "correct_answer": "C",
+    "explanation": "The demand curve is downward-sloping because, as the price of a good decreases, the quantity demanded typically increases, reflecting the law of demand. This relationship is illustrated in the graph with price on the y-axis and quantity demanded on the x-axis. (Source: demand_curve_1)",
+    "target_concept": "demand curve",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/7.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "demand_curve_1",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  },
+  {
+    "id": "q_a00a6ae0dd",
+    "question_text": "In a standard supply and demand graph, what does the equilibrium quantity represent?",
+    "options": [
+      "The price at which the quantity demanded equals the quantity supplied",
+      "The quantity at which the supply curve and demand curve intersect",
+      "The maximum price consumers are willing to pay for a good",
+      "The minimum price producers are willing to accept for a good"
+    ],
+    "correct_answer": "B",
+    "explanation": "The equilibrium quantity is the quantity at which the supply and demand curves intersect, indicating the amount of goods traded when the market is in balance. (Source: block_10)",
+    "target_concept": "equilibrium quantity",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/8.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "block_10",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  },
+  {
+    "id": "q_d9109dc0de",
+    "question_text": "Which of the following best describes the term 'quantity demanded' in economics?",
+    "options": [
+      "The total amount of a good or service that consumers are willing and able to purchase at a specific price over a given period of time.",
+      "The maximum amount of a good or service that producers are willing to supply at any given price.",
+      "The equilibrium price at which the supply and demand curves intersect in a market.",
+      "The total revenue generated by sellers from the sale of a good or service at various price levels."
+    ],
+    "correct_answer": "A",
+    "explanation": "Quantity demanded refers specifically to the amount of a good or service consumers are willing and able to buy at a particular price, as defined in economics::concept::1::quantity_demanded. It is a key component of demand analysis and is represented on the demand curve.",
+    "target_concept": "quantity demanded",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/9.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "economics::concept::1::quantity_demanded",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  },
+  {
+    "id": "q_35d494241c",
+    "question_text": "Which of the following best describes the relationship between price and quantity supplied in a typical market?",
+    "options": [
+      "A. As price increases, quantity supplied decreases due to higher production costs.",
+      "B. As price increases, quantity supplied increases as producers seek higher profits.",
+      "C. Price and quantity supplied are unrelated in a competitive market.",
+      "D. Quantity supplied determines the price, not the other way around."
+    ],
+    "correct_answer": "B",
+    "explanation": "According to the law of supply, there is a direct relationship between price and quantity supplied: as price rises, producers are willing to supply more to maximize profits. This is a fundamental principle in economics (economics::concept::11::price).",
+    "target_concept": "price",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/10.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "economics::concept::11::price",
+      "run_id": "20260429_171357_economics_4417a3"
+    }
+  }
+]

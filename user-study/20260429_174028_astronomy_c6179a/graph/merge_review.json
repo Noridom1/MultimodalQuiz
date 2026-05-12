@@ -1,0 +1,129 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "astronomy::concept::1::moon",
+        "astronomy::concept::6::phases_of_the_moon"
+      ],
+      "labels": [
+        "Moon",
+        "Phases of the Moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::1::moon",
+        "astronomy::concept::7::new_moon"
+      ],
+      "labels": [
+        "Moon",
+        "New Moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::1::moon",
+        "astronomy::concept::10::crescent_moon"
+      ],
+      "labels": [
+        "Moon",
+        "Crescent Moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::1::moon",
+        "astronomy::concept::11::first_quarter_moon"
+      ],
+      "labels": [
+        "Moon",
+        "First Quarter Moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::1::moon",
+        "astronomy::concept::13::full_moon"
+      ],
+      "labels": [
+        "Moon",
+        "Full Moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::5::eclipse",
+        "astronomy::concept::19::lunar_eclipse"
+      ],
+      "labels": [
+        "eclipse",
+        "lunar eclipse"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::3::earth",
+        "astronomy::concept::20::earth_s_shadow"
+      ],
+      "labels": [
+        "Earth",
+        "Earth's shadow"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::1::moon",
+        "astronomy::concept::32::the_moon_s_revolution_and_rotation"
+      ],
+      "labels": [
+        "Moon",
+        "The Moon’s Revolution and Rotation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::31::synchronous_rotation",
+        "astronomy::concept::33::rotation"
+      ],
+      "labels": [
+        "synchronous rotation",
+        "Rotation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::1::moon",
+        "astronomy::concept::36::dark_side_of_the_moon"
+      ],
+      "labels": [
+        "Moon",
+        "Dark Side of the Moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

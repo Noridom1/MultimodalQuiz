@@ -1,0 +1,831 @@
+{
+  "chunk_count": 28,
+  "chunks": [
+    {
+      "id": "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+      "label": "By the end of this section, you will be able to: • Explain demand, quantity demanded, and the law of demand • Explain...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to::chunk::0::by_the_end_of_this_section_you_will_be_able_to",
+      "page_idx": null,
+      "section_path": [
+        "LEARNING OBJECTIVES"
+      ],
+      "text": "By the end of this section, you will be able to:\n\n• Explain demand, quantity demanded, and the law of demand • Explain supply, quantity supplied, and the law of supply • Identify a demand curve and a supply curve • Explain equilibrium, equilibrium price, and equilibrium quantity\n\nFirst let’s hrst focus on what economists mean by demand, what they mean by supply, and then how demand and supply interact in a market.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::2::by_the_end_of_this_section_you_will_be_able_to",
+          "economics::paragraph::3::explain_demand_quantity_demanded_and_the_law_of_",
+          "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 70,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+      "label": "First let’s hrst focus on what economists mean by demand, what they mean by supply, and then how demand and supply in...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b::chunk::1::first_let_s_hrst_focus_on_what_economists_mean_b",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "First let’s hrst focus on what economists mean by demand, what they mean by supply, and then how demand and supply interact in a market.\n\nEconomists use the term demand to refer to the amount of some good or service consumers are willing and able to purchase at each price. Demand is fundamentally based on needs and wants—if you have no need or want for something, you won't buy it. While a consumer may be able to differentiate between a need and a want, from an economist’s perspective they are the same thing. Demand is also based on ability to pay. If you cannot pay for it, you have no effective demand. By this dehnition, a person who does not have a drivers\n\nlicense has no effective demand for a car.\n\nWhat a buyer pays for a unit of the specihc good or service is called price. The total number of units that consumers would purchase at that price is called the quantity demanded. A rise in price of a good or service almost always decreases the quantity demanded of that good or service. Conversely, a fall in price will increase the quantity demanded. When the price of a gallon of gasoline increases, for example, people look for ways to reduce their consumption by combining several errands, commuting by carpool or mass transit, or taking weekend or vacation trips closer to home. Economists call this inverse relationship between price and quantity demanded the law of demand. The law of demand assumes that all other variables that affect demand (which we explain in the next module) are held constant.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::4::first_let_s_hrst_focus_on_what_economists_mean_b",
+          "economics::paragraph::6::economists_use_the_term_demand_to_refer_to_the_a",
+          "economics::paragraph::7::license_has_no_effective_demand_for_a_car",
+          "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 272,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+      "label": "What a buyer pays for a unit of the specihc good or service is called price. The total number of units that consumers...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good::chunk::2::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "What a buyer pays for a unit of the specihc good or service is called price. The total number of units that consumers would purchase at that price is called the quantity demanded. A rise in price of a good or service almost always decreases the quantity demanded of that good or service. Conversely, a fall in price will increase the quantity demanded. When the price of a gallon of gasoline increases, for example, people look for ways to reduce their consumption by combining several errands, commuting by carpool or mass transit, or taking weekend or vacation trips closer to home. Economists call this inverse relationship between price and quantity demanded the law of demand. The law of demand assumes that all other variables that affect demand (which we explain in the next module) are held constant.\n\nWe can show an example from the market for gasoline in a table or a graph. Economists call a table that shows the quantity demanded at each price, such as Table 3.1, a demand schedule. In this case we measure price in dollars per gallon of gasoline. We measure the quantity demanded in millions of gallons over some time period (for example, per day or per year) and over some geographic area (like a state or a country). A demand curve shows the relationship between price and quantity demanded on a graph like Figure 3.2, with quantity on the horizontal axis and the price per gallon on the vertical axis. (Note that this is an exception to the normal rule in mathematics that the independent variable (x) goes on the horizontal axis and the dependent variable (y) goes on the vertical axis. While economists often use math, they are different disciplines.)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::8::what_a_buyer_pays_for_a_unit_of_the_specihc_good",
+          "economics::paragraph::9::we_can_show_an_example_from_the_market_for_gasol"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 290,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "economics::paragraph::9::we_can_show_an_example_from_the_market_for_gasol::chunk::3::we_can_show_an_example_from_the_market_for_gasol",
+      "label": "We can show an example from the market for gasoline in a table or a graph. Economists call a table that shows the qua...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::9::we_can_show_an_example_from_the_market_for_gasol::chunk::3::we_can_show_an_example_from_the_market_for_gasol",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "We can show an example from the market for gasoline in a table or a graph. Economists call a table that shows the quantity demanded at each price, such as Table 3.1, a demand schedule. In this case we measure price in dollars per gallon of gasoline. We measure the quantity demanded in millions of gallons over some time period (for example, per day or per year) and over some geographic area (like a state or a country). A demand curve shows the relationship between price and quantity demanded on a graph like Figure 3.2, with quantity on the horizontal axis and the price per gallon on the vertical axis. (Note that this is an exception to the normal rule in mathematics that the independent variable (x) goes on the horizontal axis and the dependent variable (y) goes on the vertical axis. While economists often use math, they are different disciplines.)\n\nTable 3.1 shows the demand schedule and the graph in Figure 3.2 shows the demand curve. These are two ways to describe the same relationship between price and quantity demanded.\n\n<table><tr><td>Price (per gallon)</td><td>Quantity Demanded (millions of gallons)</td></tr><tr><td>$1.00</td><td>800</td></tr><tr><td>$1.20</td><td>700</td></tr><tr><td>$1.40</td><td>600</td></tr><tr><td>$1.60</td><td>550</td></tr><tr><td>$1.80</td><td>500</td></tr><tr><td>$2.00</td><td>460</td></tr><tr><td>$2.20</td><td>420</td></tr></table>\n\nTABLE 3.1 Price and Quantity Demanded of Gasoline",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::9::we_can_show_an_example_from_the_market_for_gasol",
+          "economics::paragraph::10::table_3_1_shows_the_demand_schedule_and_the_grap",
+          "economics::paragraph::11::table_tr_td_price_per_gallon_td_td_quantity_dema",
+          "economics::paragraph::12::table_3_1_price_and_quantity_demanded_of_gasolin"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 273,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "economics::image::13::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173::chunk::4::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173",
+      "label": "![](images/1a730c7ca1c61aceec91f159411f843c4ca8ee1730e89ac60ab88b0b25ea718a.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::13::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173::chunk::4::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "![](images/1a730c7ca1c61aceec91f159411f843c4ca8ee1730e89ac60ab88b0b25ea718a.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::image::13::images_1a730c7ca1c61aceec91f159411f843c4ca8ee173"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "economics::details::14::details_summary_line_summary_quantity_of_gasolin::chunk::5::details_summary_line_summary_quantity_of_gasolin",
+      "label": "<details> <summary>line</summary> | Quantity of Gasoline (millions of gallons) | Price ($ per gallon) | |---|---| | 4...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::details::14::details_summary_line_summary_quantity_of_gasolin::chunk::5::details_summary_line_summary_quantity_of_gasolin",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "<details>\n<summary>line</summary>\n\n| Quantity of Gasoline (millions of gallons) | Price ($ per gallon) |\n|---|---|\n| 420 | 2.20 |\n| 460 | 2.00 |\n| 500 | 1.80 |\n| 550 | 1.60 |\n| 600 | 1.40 |\n| 700 | 1.20 |\n| 800 | 1.00 |\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::details::14::details_summary_line_summary_quantity_of_gasolin"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 35,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "economics::paragraph::15::figure_3_2_a_demand_curve_for_gasoline_the_deman::chunk::6::figure_3_2_a_demand_curve_for_gasoline_the_deman",
+      "label": "FIGURE 3.2 A Demand Curve for Gasoline The demand schedule shows that as price rises, quantity demanded decreases, an...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::15::figure_3_2_a_demand_curve_for_gasoline_the_deman::chunk::6::figure_3_2_a_demand_curve_for_gasoline_the_deman",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "FIGURE 3.2 A Demand Curve for Gasoline The demand schedule shows that as price rises, quantity demanded decreases, and vice versa. We graph these points, and the line connecting them is the demand curve (D). The downward slope of the demand curve again illustrates the law of demand—the inverse relationship between prices and quantity demanded.\n\nDemand curves will appear somewhat different for each product. They may appear relatively steep or iat, or they may be straight or curved. Nearly all demand curves share the fundamental similarity that they slope down from left to right. Demand curves embody the law of demand: As the price increases, the quantity demanded decreases, and conversely, as the price decreases, the quantity demanded increases.\n\nConfused about these different types of demand? Read the next Clear It Up feature.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::15::figure_3_2_a_demand_curve_for_gasoline_the_deman",
+          "economics::paragraph::16::demand_curves_will_appear_somewhat_different_for",
+          "economics::paragraph::17::confused_about_these_different_types_of_demand_r"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 135,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "economics::image::18::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6::chunk::7::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6",
+      "label": "![](images/0867621a74ad709d801039f69fa5d2b702fb0f0b62c31ebacdc0ce9418158a03.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::18::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6::chunk::7::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6",
+      "page_idx": null,
+      "section_path": [
+        "Demand for Goods and Services"
+      ],
+      "text": "![](images/0867621a74ad709d801039f69fa5d2b702fb0f0b62c31ebacdc0ce9418158a03.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::image::18::images_0867621a74ad709d801039f69fa5d2b702fb0f0b6"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+      "label": "Is demand the same as quantity demanded? In economic terminology, demand is not the same as quantity demanded. When e...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::20::is_demand_the_same_as_quantity_demanded::chunk::8::is_demand_the_same_as_quantity_demanded",
+      "page_idx": null,
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "text": "Is demand the same as quantity demanded?\n\nIn economic terminology, demand is not the same as quantity demanded. When economists talk about demand, they mean the relationship between a range of prices and the quantities demanded at those prices, as illustrated by a demand curve or a demand schedule. When economists talk about quantity demanded, they mean only a certain point on the demand curve, or one quantity on the demand schedule. In short, demand refers to the curve and quantity demanded refers to a (specidc) point on the curve.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::20::is_demand_the_same_as_quantity_demanded",
+          "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 90,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+      "label": "In economic terminology, demand is not the same as quantity demanded. When economists talk about demand, they mean th...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::9::in_economic_terminology_demand_is_not_the_same_a",
+      "page_idx": null,
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "text": "In economic terminology, demand is not the same as quantity demanded. When economists talk about demand, they mean the relationship between a range of prices and the quantities demanded at those prices, as illustrated by a demand curve or a demand schedule. When economists talk about quantity demanded, they mean only a certain point on the demand curve, or one quantity on the demand schedule. In short, demand refers to the curve and quantity demanded refers to a (specidc) point on the curve.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 83,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "label": "In economic terminology, demand is not the same as quantity demanded. When economists talk about demand, they mean th...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a::chunk::10::in_economic_terminology_demand_is_not_the_same_a",
+      "page_idx": null,
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "text": "In economic terminology, demand is not the same as quantity demanded. When economists talk about demand, they mean the relationship between a range of prices and the quantities demanded at those prices, as illustrated by a demand curve or a demand schedule. When economists talk about quantity demanded, they mean only a certain point on the demand curve, or one quantity on the demand schedule. In short, demand refers to the curve and quantity demanded refers to a (specidc) point on the curve.\n\nWhen economists talk about supply, they mean the amount of some good or service a producer is willing to produce and/or bring to market at each price. Price is what the producer receives for selling one unit of a good or service. A rise in price almost always leads to an increase in the quantity supplied of that good or service, while a fall in price will decrease the quantity supplied. When the price of gasoline rises, for example, it encourages proht-seeking hrms to take several actions: expand exploration for oil reserves; drill for more oil; invest in more pipelines and oil tankers to bring the oil to plants for rehning into gasoline; build new oil rehneries; purchase additional pipelines and trucks to ship the gasoline to gas stations; and open more gas stations or keep existing gas stations open longer hours. Economists call this positive relationship between price and quantity supplied—that a higher price leads to a higher quantity supplied and a lower price leads to a lower quantity supplied—the law of supply. The law of supply assumes that all other variables that affect supply (to be explained in the next module) are held constant.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::21::in_economic_terminology_demand_is_not_the_same_a",
+          "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 283,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+      "label": "When economists talk about supply, they mean the amount of some good or service a producer is willing to produce and/...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_::chunk::11::when_economists_talk_about_supply_they_mean_the_",
+      "page_idx": null,
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "text": "When economists talk about supply, they mean the amount of some good or service a producer is willing to produce and/or bring to market at each price. Price is what the producer receives for selling one unit of a good or service. A rise in price almost always leads to an increase in the quantity supplied of that good or service, while a fall in price will decrease the quantity supplied. When the price of gasoline rises, for example, it encourages proht-seeking hrms to take several actions: expand exploration for oil reserves; drill for more oil; invest in more pipelines and oil tankers to bring the oil to plants for rehning into gasoline; build new oil rehneries; purchase additional pipelines and trucks to ship the gasoline to gas stations; and open more gas stations or keep existing gas stations open longer hours. Economists call this positive relationship between price and quantity supplied—that a higher price leads to a higher quantity supplied and a lower price leads to a lower quantity supplied—the law of supply. The law of supply assumes that all other variables that affect supply (to be explained in the next module) are held constant.\n\nStill unsure about the different types of supply? See the following Clear It Up feature.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::23::when_economists_talk_about_supply_they_mean_the_",
+          "economics::paragraph::24::still_unsure_about_the_different_types_of_supply"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 215,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "economics::image::25::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004::chunk::12::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004",
+      "label": "![](images/ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004eb4c14ef8b92dd73a9c7126.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::25::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004::chunk::12::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004",
+      "page_idx": null,
+      "section_path": [
+        "Supply of Goods and Services"
+      ],
+      "text": "![](images/ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004eb4c14ef8b92dd73a9c7126.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::image::25::images_ec0227f0eb5cf2c10cd38d5fa0b60f80dd8491004"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+      "label": "Is supply the same as quantity supplied? In economic terminology, supply is not the same as quantity supplied. When e...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::27::is_supply_the_same_as_quantity_supplied::chunk::13::is_supply_the_same_as_quantity_supplied",
+      "page_idx": null,
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "text": "Is supply the same as quantity supplied?\n\nIn economic terminology, supply is not the same as quantity supplied. When economists refer to supply, they mean the relationship between a range of prices and the quantities supplied at those prices, a relationship that we can illustrate with a supply curve or a supply schedule. When economists refer to quantity supplied, they mean only a certain point on the supply curve, or one quantity on the supply schedule. In short, supply refers to the curve and quantity supplied refers to a (specidc) point on the curve.\n\nFigure 3.3 illustrates the law of supply, again using the market for gasoline as an example. Like demand, we can illustrate supply using a table or a graph. A supply schedule is a table, like Table 3.2, that shows the quantity supplied at a range of different prices. Again, we measure price in dollars per gallon of gasoline and we measure quantity supplied in millions of gallons. A supply curve is a graphic illustration of the relationship between price, shown on the vertical axis, and quantity, shown on the horizontal axis. The supply schedule and the supply curve are just two different ways of showing the same information. Notice that the horizontal and vertical axes on the graph for the supply curve are the same as for the demand curve.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::27::is_supply_the_same_as_quantity_supplied",
+          "economics::paragraph::28::in_economic_terminology_supply_is_not_the_same_a",
+          "economics::paragraph::29::figure_3_3_illustrates_the_law_of_supply_again_u"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 226,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "economics::image::30::images_5c7ab5885771eaab96e63c5223a5287570e51a671::chunk::14::images_5c7ab5885771eaab96e63c5223a5287570e51a671",
+      "label": "![](images/5c7ab5885771eaab96e63c5223a5287570e51a671211ef76e22bcf4be48b0183.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::30::images_5c7ab5885771eaab96e63c5223a5287570e51a671::chunk::14::images_5c7ab5885771eaab96e63c5223a5287570e51a671",
+      "page_idx": null,
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "text": "![](images/5c7ab5885771eaab96e63c5223a5287570e51a671211ef76e22bcf4be48b0183.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::image::30::images_5c7ab5885771eaab96e63c5223a5287570e51a671"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "economics::details::31::details_summary_line_summary_quantity_of_gasolin::chunk::15::details_summary_line_summary_quantity_of_gasolin",
+      "label": "<details> <summary>line</summary> | Quantity of Gasoline (millions of gallons) | Price ($ per gallon) | |---|---| | 5...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::details::31::details_summary_line_summary_quantity_of_gasolin::chunk::15::details_summary_line_summary_quantity_of_gasolin",
+      "page_idx": null,
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "text": "<details>\n<summary>line</summary>\n\n| Quantity of Gasoline (millions of gallons) | Price ($ per gallon) |\n|---|---|\n| 500 | 1.00 |\n| 550 | 1.20 |\n| 600 | 1.40 |\n| 640 | 1.60 |\n| 680 | 1.80 |\n| 700 | 2.00 |\n| 720 | 2.20 |\nThe chart displays a single data point labeled 'S' at approximately 720 million gallons on the x-axis. The y-axis is labeled 'Price ($ per gallon)'. The x-axis ranges from 300 to 900 million gallons.\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::details::31::details_summary_line_summary_quantity_of_gasolin"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 71,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+      "label": "FIGURE 3.3 A Supply Curve for Gasoline The supply schedule is the table that shows quantity supplied of gasoline at e...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl::chunk::16::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+      "page_idx": null,
+      "section_path": [
+        "CLEAR IT UP"
+      ],
+      "text": "FIGURE 3.3 A Supply Curve for Gasoline The supply schedule is the table that shows quantity supplied of gasoline at each price. As price rises, quantity supplied also increases, and vice versa. The supply curve (S) is created by graphing the points from the supply schedule and then connecting them. The upward slope of the supply curve illustrates the law of supply—that a higher price leads to a higher quantity supplied, and vice versa.\n\n<table><tr><td>Price (per gallon)</td><td>Quantity Supplied (millions of gallons)</td></tr><tr><td>$1.00</td><td>500</td></tr><tr><td>$1.20</td><td>550</td></tr><tr><td>$1.40</td><td>600</td></tr><tr><td>$1.60</td><td>640</td></tr><tr><td>$1.80</td><td>680</td></tr></table>\n\nTABLE 3.2 Price and Supply of Gasoline\n\n<table><tr><td>Price (per gallon)</td><td>Quantity Supplied (millions of gallons)</td></tr><tr><td>$2.00</td><td>700</td></tr><tr><td>$2.20</td><td>720</td></tr></table>\n\nTABLE 3.2 Price and Supply of Gasoline\n\nThe shape of supply curves will vary somewhat according to the product: steeper, iatter, straighter, or curved. Nearly all supply curves, however, share a basic similarity: they slope up from left to right and illustrate the law of supply: as the price rises, say, from \\$1.00 per gallon to \\$2.20 per gallon, the quantity supplied increases from 500 gallons to 720 gallons. Conversely, as the price falls, the quantity supplied decreases.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::32::figure_3_3_a_supply_curve_for_gasoline_the_suppl",
+          "economics::paragraph::33::table_tr_td_price_per_gallon_td_td_quantity_supp",
+          "economics::paragraph::34::table_3_2_price_and_supply_of_gasoline",
+          "economics::paragraph::35::table_tr_td_price_per_gallon_td_td_quantity_supp",
+          "economics::paragraph::36::table_3_2_price_and_supply_of_gasoline",
+          "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 260,
+        "contains_atomic_block": false,
+        "block_count": 6
+      }
+    },
+    {
+      "id": "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac",
+      "label": "The shape of supply curves will vary somewhat according to the product: steeper, iatter, straighter, or curved. Nearl...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac::chunk::17::the_shape_of_supply_curves_will_vary_somewhat_ac",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "The shape of supply curves will vary somewhat according to the product: steeper, iatter, straighter, or curved. Nearly all supply curves, however, share a basic similarity: they slope up from left to right and illustrate the law of supply: as the price rises, say, from \\$1.00 per gallon to \\$2.20 per gallon, the quantity supplied increases from 500 gallons to 720 gallons. Conversely, as the price falls, the quantity supplied decreases.\n\nBecause the graphs for demand and supply curves both have price on the vertical axis and quantity on the horizontal axis, the demand curve and supply curve for a particular good or service can appear on the same graph. Together, demand and supply determine the price and the quantity that will be bought and sold in a market.\n\nFigure 3.4 illustrates the interaction of demand and supply in the market for gasoline. The demand curve (D) is identical to Figure 3.2. The supply curve (S) is identical to Figure 3.3. Table 3.3 contains the same information in tabular form.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::37::the_shape_of_supply_curves_will_vary_somewhat_ac",
+          "economics::paragraph::39::because_the_graphs_for_demand_and_supply_curves_",
+          "economics::paragraph::40::figure_3_4_illustrates_the_interaction_of_demand"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 176,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "economics::image::41::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe::chunk::18::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe",
+      "label": "![](images/01de24c962aa4ffb5caec59be30230e50f6dfbafef05ac18f66c7d9431db9512.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::41::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe::chunk::18::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "![](images/01de24c962aa4ffb5caec59be30230e50f6dfbafef05ac18f66c7d9431db9512.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::image::41::images_01de24c962aa4ffb5caec59be30230e50f6dfbafe"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+      "label": "<details> <summary>line</summary> | Point | Quantity of Gasoline (millions of gallons) | Price ($ per gallon) | |---|...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::details::42::details_summary_line_summary_point_quantity_of_g::chunk::19::details_summary_line_summary_point_quantity_of_g",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "<details>\n<summary>line</summary>\n\n| Point | Quantity of Gasoline (millions of gallons) | Price ($ per gallon) |\n|---|---|---|\n| S | 700 | 2.20 |\n| E | 600 | 1.40 |\n| D | 800 | 1.00 |\n| An above-equilibrium price | 650 | 1.80 |\n| Excess supply or surplus | 500 | 1.80 |\n| Excess demand or shortage | 550 | 1.20 |\n| Equilibrium price | 600 | 1.40 |\n| A below-equilibrium price | 650 | 1.60 |\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::details::42::details_summary_line_summary_point_quantity_of_g"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 60,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+      "label": "FIGURE 3.4 Demand and Supply for Gasoline The demand curve (D) and the supply curve (S) intersect at the equilibrium...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de::chunk::20::figure_3_4_demand_and_supply_for_gasoline_the_de",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "FIGURE 3.4 Demand and Supply for Gasoline The demand curve (D) and the supply curve (S) intersect at the equilibrium point E, with a price of \\$1.40 and a quantity of 600. The equilibrium price is the only price where quantity demanded is equal to quantity supplied. At a price above equilibrium like \\$1.80, quantity supplied exceeds the quantity demanded, so there is excess supply. At a price below equilibrium such as \\$1.20, quantity demanded exceeds quantity supplied, so there is excess demand.\n\n<table><tr><td>Price (per gallon)</td><td>Quantity demanded (millions of gallons)</td><td>Quantity supplied (millions of gallons)</td></tr><tr><td>$1.00</td><td>800</td><td>500</td></tr><tr><td>$1.20</td><td>700</td><td>550</td></tr><tr><td>$1.40</td><td>600</td><td>600</td></tr></table>\n\nTABLE 3.3 Price, Quantity Demanded, and Quantity Supplied\n\n<table><tr><td>Price (per gallon)</td><td>Quantity demanded (millions of gallons)</td><td>Quantity supplied (millions of gallons)</td></tr><tr><td>$1.60</td><td>550</td><td>640</td></tr><tr><td>$1.80</td><td>500</td><td>680</td></tr><tr><td>$2.00</td><td>460</td><td>700</td></tr><tr><td>$2.20</td><td>420</td><td>720</td></tr></table>\n\nTABLE 3.3 Price, Quantity Demanded, and Quantity Supplied",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::43::figure_3_4_demand_and_supply_for_gasoline_the_de",
+          "economics::paragraph::44::table_tr_td_price_per_gallon_td_td_quantity_dema",
+          "economics::paragraph::45::table_3_3_price_quantity_demanded_and_quantity_s",
+          "economics::paragraph::46::table_tr_td_price_per_gallon_td_td_quantity_dema",
+          "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 235,
+        "contains_atomic_block": false,
+        "block_count": 5
+      }
+    },
+    {
+      "id": "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+      "label": "TABLE 3.3 Price, Quantity Demanded, and Quantity Supplied Remember this: When two lines on a diagram cross, this inte...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s::chunk::21::table_3_3_price_quantity_demanded_and_quantity_s",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "TABLE 3.3 Price, Quantity Demanded, and Quantity Supplied\n\nRemember this: When two lines on a diagram cross, this intersection usually means something. The point where the supply curve (S) and the demand curve (D) cross, designated by point E in Figure 3.4, is called the equilibrium. The equilibrium price is the only price where the plans of consumers and the plans of producers agree—that is, where the amount of the product consumers want to buy (quantity demanded) is equal to the amount producers want to sell (quantity supplied). Economists call this common quantity the equilibrium quantity. At any other price, the quantity demanded does not equal the quantity supplied, so the market is not in equilibrium at that price.\n\nIn Figure 3.4, the equilibrium price is \\$1.40 per gallon of gasoline and the equilibrium quantity is 600 million gallons. If you had only the demand and supply schedules, and not the graph, you could hnd the equilibrium by looking for the price level on the tables where the quantity demanded and the quantity supplied are equal.\n\nThe word “equilibrium” means “balance.” If a market is at its equilibrium price and quantity, then it has no reason to move away from that point. However, if a market is not at equilibrium, then economic pressures arise to move the market toward the equilibrium price and the equilibrium quantity.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::47::table_3_3_price_quantity_demanded_and_quantity_s",
+          "economics::paragraph::48::remember_this_when_two_lines_on_a_diagram_cross_",
+          "economics::paragraph::49::in_figure_3_4_the_equilibrium_price_is_1_40_per_",
+          "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 231,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+      "label": "The word “equilibrium” means “balance.” If a market is at its equilibrium price and quantity, then it has no reason t...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i::chunk::22::the_word_equilibrium_means_balance_if_a_market_i",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "The word “equilibrium” means “balance.” If a market is at its equilibrium price and quantity, then it has no reason to move away from that point. However, if a market is not at equilibrium, then economic pressures arise to move the market toward the equilibrium price and the equilibrium quantity.\n\nImagine, for example, that the price of a gallon of gasoline was above the equilibrium price—that is, instead of \\$1.40 per gallon, the price is \\$1.80 per gallon. The dashed horizontal line at the price of \\$1.80 in Figure 3.4 illustrates this above-equilibrium price. At this higher price, the quantity demanded drops from 600 to 500. This decline in quantity reiects how consumers react to the higher price by hnding ways to use less gasoline.\n\nMoreover, at this higher price of \\$1.80, the quantity of gasoline supplied rises from 600 to 680, as the higher price makes it more prohtable for gasoline producers to expand their output. Now, consider how quantity demanded and quantity supplied are related at this above-equilibrium price. Quantity demanded has fallen to 500 gallons, while quantity supplied has risen to 680 gallons. In fact, at any above-equilibrium price, the quantity supplied exceeds the quantity demanded. We call this an excess supply or a surplus.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::50::the_word_equilibrium_means_balance_if_a_market_i",
+          "economics::paragraph::51::imagine_for_example_that_the_price_of_a_gallon_o",
+          "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 217,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+      "label": "Moreover, at this higher price of \\$1.80, the quantity of gasoline supplied rises from 600 to 680, as the higher pric...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti::chunk::23::moreover_at_this_higher_price_of_1_80_the_quanti",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "Moreover, at this higher price of \\$1.80, the quantity of gasoline supplied rises from 600 to 680, as the higher price makes it more prohtable for gasoline producers to expand their output. Now, consider how quantity demanded and quantity supplied are related at this above-equilibrium price. Quantity demanded has fallen to 500 gallons, while quantity supplied has risen to 680 gallons. In fact, at any above-equilibrium price, the quantity supplied exceeds the quantity demanded. We call this an excess supply or a surplus.\n\nWith a surplus, gasoline accumulates at gas stations, in tanker trucks, in pipelines, and at oil rehneries. This accumulation puts pressure on gasoline sellers. If a surplus remains unsold, those hrms involved in making and selling gasoline are not receiving enough cash to pay their workers and to cover their expenses. In this situation, some producers and sellers will want to cut prices, because it is better to sell at a lower price than not to sell at all. Once some sellers start cutting prices, others will follow to avoid losing sales. These price reductions in turn will stimulate a higher quantity demanded. Therefore, if the price is above the equilibrium level, incentives built into the structure of demand and supply will create pressures for the price to fall toward the equilibrium.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::52::moreover_at_this_higher_price_of_1_80_the_quanti",
+          "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 218,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati",
+      "label": "With a surplus, gasoline accumulates at gas stations, in tanker trucks, in pipelines, and at oil rehneries. This accu...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati::chunk::24::with_a_surplus_gasoline_accumulates_at_gas_stati",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "With a surplus, gasoline accumulates at gas stations, in tanker trucks, in pipelines, and at oil rehneries. This accumulation puts pressure on gasoline sellers. If a surplus remains unsold, those hrms involved in making and selling gasoline are not receiving enough cash to pay their workers and to cover their expenses. In this situation, some producers and sellers will want to cut prices, because it is better to sell at a lower price than not to sell at all. Once some sellers start cutting prices, others will follow to avoid losing sales. These price reductions in turn will stimulate a higher quantity demanded. Therefore, if the price is above the equilibrium level, incentives built into the structure of demand and supply will create pressures for the price to fall toward the equilibrium.\n\nNow suppose that the price is below its equilibrium level at \\$1.20 per gallon, as the dashed horizontal line at this price in Figure 3.4 shows. At this lower price, the quantity demanded increases from 600 to 700 as drivers take longer trips, spend more minutes warming up the car in the driveway in wintertime, stop sharing rides to work, and buy larger cars that get fewer miles to the gallon. However, the below-equilibrium price reduces gasoline producers’ incentives to produce and sell gasoline, and the quantity supplied falls from 600 to 550.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::53::with_a_surplus_gasoline_accumulates_at_gas_stati",
+          "economics::paragraph::54::now_suppose_that_the_price_is_below_its_equilibr"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 228,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "economics::paragraph::54::now_suppose_that_the_price_is_below_its_equilibr::chunk::25::now_suppose_that_the_price_is_below_its_equilibr",
+      "label": "Now suppose that the price is below its equilibrium level at \\$1.20 per gallon, as the dashed horizontal line at this...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::paragraph::54::now_suppose_that_the_price_is_below_its_equilibr::chunk::25::now_suppose_that_the_price_is_below_its_equilibr",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "Now suppose that the price is below its equilibrium level at \\$1.20 per gallon, as the dashed horizontal line at this price in Figure 3.4 shows. At this lower price, the quantity demanded increases from 600 to 700 as drivers take longer trips, spend more minutes warming up the car in the driveway in wintertime, stop sharing rides to work, and buy larger cars that get fewer miles to the gallon. However, the below-equilibrium price reduces gasoline producers’ incentives to produce and sell gasoline, and the quantity supplied falls from 600 to 550.\n\nWhen the price is below equilibrium, there is excess demand, or a shortage—that is, at the given price the quantity demanded, which has been stimulated by the lower price, now exceeds the quantity supplied, which has been depressed by the lower price. In this situation, eager gasoline buyers mob the gas stations, only to hnd many stations running short of fuel. Oil companies and gas stations recognize that they have an opportunity to make higher prohts by selling what gasoline they have at a higher price. As a result, the price rises toward the equilibrium level. Read Demand, Supply, and Efhciency for more discussion on the importance of the demand and supply model.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::paragraph::54::now_suppose_that_the_price_is_below_its_equilibr",
+          "economics::paragraph::55::when_the_price_is_below_equilibrium_there_is_exc"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 210,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "economics::image::56::images_eff820436aa74f16cfe02c2fa91fd45408cced668::chunk::26::images_eff820436aa74f16cfe02c2fa91fd45408cced668",
+      "label": "![](images/eff820436aa74f16cfe02c2fa91fd45408cced668d6987d11acf4ab8a317a7e3.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::image::56::images_eff820436aa74f16cfe02c2fa91fd45408cced668::chunk::26::images_eff820436aa74f16cfe02c2fa91fd45408cced668",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "![](images/eff820436aa74f16cfe02c2fa91fd45408cced668d6987d11acf4ab8a317a7e3.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::image::56::images_eff820436aa74f16cfe02c2fa91fd45408cced668"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "economics::details::57::details_summary_natural_image_summary_pure_geome::chunk::27::details_summary_natural_image_summary_pure_geome",
+      "label": "<details> <summary>natural_image</summary> Pure geometric lines forming an X shape on a black background (no text or...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/raw/economics.pdf",
+      "source_location": null,
+      "source_chunk_id": "economics::details::57::details_summary_natural_image_summary_pure_geome::chunk::27::details_summary_natural_image_summary_pure_geome",
+      "page_idx": null,
+      "section_path": [
+        "Equilibrium—Where Demand and Supply Intersect"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nPure geometric lines forming an X shape on a black background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "economics::details::57::details_summary_natural_image_summary_pure_geome"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 20,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    }
+  ]
+}

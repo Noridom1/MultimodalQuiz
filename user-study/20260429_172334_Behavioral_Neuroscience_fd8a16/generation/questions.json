@@ -1,0 +1,222 @@
+[
+  {
+    "id": "q_42a16c6be1",
+    "question_text": "Which of the following best describes the primary function of the blood-brain barrier (BBB)?",
+    "options": [
+      "A. To facilitate the rapid exchange of all blood-borne substances into the brain",
+      "B. To act as a semipermeable barrier that selectively allows essential nutrients to pass while blocking harmful substances",
+      "C. To produce cerebrospinal fluid for cushioning the central nervous system",
+      "D. To generate electrical impulses for neuronal communication"
+    ],
+    "correct_answer": "B",
+    "explanation": "The blood-brain barrier (BBB) is a semipermeable barrier that protects the central nervous system by selectively allowing essential nutrients to pass while blocking potentially harmful substances. Source: The tested fact block ID INFERRED.",
+    "target_concept": "Blood-brain barrier (BBB)",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "INFERRED: The blood-brain barrier (BBB) is a semipermeable barrier that protects the central nervous system from potentially harmful substances.",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  },
+  {
+    "id": "q_d657ec958e",
+    "question_text": "Which enzyme is primarily responsible for the inactivation of acetylcholine in the synaptic cleft?",
+    "options": [
+      "A. Monoamine oxidase",
+      "B. Acetylcholinesterase",
+      "C. Catechol-O-methyltransferase",
+      "D. Choline acetyltransferase"
+    ],
+    "correct_answer": "B",
+    "explanation": "Acetylcholinesterase is the enzyme that rapidly breaks down acetylcholine in the synaptic cleft, terminating its action. This process is crucial for normal synaptic transmission. (Source: block_10)",
+    "target_concept": "enzymatic inactivation",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "block_10",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  },
+  {
+    "id": "q_fe4c6ea88e",
+    "question_text": "In the provided diagram, oxidation is depicted as an electron transfer process. Which cellular component is most directly disrupted due to the loss of electrons, as visually indicated by the annotations and arrows in the image?",
+    "options": [
+      "A) Mitochondrial DNA",
+      "B) Lipid bilayer of the cell membrane",
+      "C) Nuclear membrane proteins",
+      "D) Cytosolic enzymes"
+    ],
+    "correct_answer": "B",
+    "explanation": "The diagram highlights the lipid bilayer of the cell membrane as the primary site of disruption due to electron loss during oxidation, as shown by the arrows pointing to the membrane structure and annotations indicating oxidative damage. This aligns with the fact that lipid peroxidation is a well-documented consequence of oxidative stress (block_10).",
+    "target_concept": "oxidation",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": true,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_10",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  },
+  {
+    "id": "q_b29f1c65f4",
+    "question_text": "Which of the following best describes the primary role of receptors in neurotransmission?",
+    "options": [
+      "A) To synthesize neurotransmitters for release into the synaptic cleft",
+      "B) To propagate action potentials along the axon of the presynaptic neuron",
+      "C) To bind neurotransmitters and initiate a postsynaptic response",
+      "D) To degrade excess neurotransmitters in the synaptic cleft"
+    ],
+    "correct_answer": "C",
+    "explanation": "Receptors are proteins located on the postsynaptic membrane that bind neurotransmitters, leading to the initiation of a postsynaptic response. This process is critical for signal transmission between neurons. (Source: block_1)",
+    "target_concept": "receptors",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  },
+  {
+    "id": "q_f7e101c127",
+    "question_text": "Which of the following best explains the causal role of astrocytes in the glutamate-glutamine cycle?",
+    "options": [
+      "Astrocytes convert glutamate into glutamine to replenish neuronal glutamate stores, facilitating neurotransmitter recycling.",
+      "Astrocytes directly release glutamate into the synaptic cleft to enhance neuronal signaling.",
+      "Astrocytes metabolize glutamine into glutamate to inhibit neuronal excitation.",
+      "Astrocytes store excess glutamate to prevent neuronal damage without further processing."
+    ],
+    "correct_answer": "Astrocytes convert glutamate into glutamine to replenish neuronal glutamate stores, facilitating neurotransmitter recycling.",
+    "explanation": "Astrocytes play a critical role in neurotransmitter metabolism by converting glutamate, taken up from the synaptic cleft, into glutamine via glutamine synthetase. This glutamine is then transported back to neurons to replenish glutamate stores, completing the glutamate-glutamine cycle (block_1).",
+    "target_concept": "Neurotransmitter metabolism",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  },
+  {
+    "id": "q_8b930995d0",
+    "question_text": "Which enzyme is responsible for synthesizing GABA from glutamate?",
+    "options": [
+      "A. Glutamate decarboxylase",
+      "B. GABA transaminase",
+      "C. Glutamine synthetase",
+      "D. Glutamate dehydrogenase"
+    ],
+    "correct_answer": "A",
+    "explanation": "Glutamate decarboxylase (GAD) catalyzes the synthesis of GABA from glutamate, as confirmed by block_1.",
+    "target_concept": "Synthesizing enzymes",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/6.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  },
+  {
+    "id": "q_877673e9e8",
+    "question_text": "In the presynaptic terminal diagram, what is the primary role of calcium ions entering through the labeled calcium channels?",
+    "options": [
+      "A) To directly bind to neurotransmitters and escort them across the synaptic cleft",
+      "B) To trigger the fusion of synaptic vesicles with the presynaptic membrane",
+      "C) To depolarize the postsynaptic neuron by entering its receptors",
+      "D) To break down excess neurotransmitters in the synaptic cleft"
+    ],
+    "correct_answer": "B",
+    "explanation": "Calcium ions entering the presynaptic terminal through the labeled channels bind to synaptic proteins, causing vesicles to fuse with the membrane and release neurotransmitters (block_123). The diagram shows vesicles near the channels, indicating this causal relationship.",
+    "target_concept": "Presynaptic terminal",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/7.png",
+    "image_grounded": true,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_123",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  },
+  {
+    "id": "q_d70fe96020",
+    "question_text": "In the diagram, what is the direct causal role of calcium ions in neurotransmitter release?",
+    "options": [
+      "A) They bind to synaptic vesicles to transport them to the presynaptic membrane.",
+      "B) They trigger the fusion of synaptic vesicles with the presynaptic membrane by interacting with SNARE proteins.",
+      "C) They degrade the presynaptic membrane to allow vesicle release.",
+      "D) They inhibit neurotransmitter release by blocking vesicle movement."
+    ],
+    "correct_answer": "B",
+    "explanation": "The diagram shows calcium ions entering the presynaptic terminal and binding to SNARE proteins, which facilitates the fusion of synaptic vesicles with the presynaptic membrane. This is consistent with block_1, which describes the essential role of calcium ions in triggering vesicle fusion.",
+    "target_concept": "Metal ions",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/8.png",
+    "image_grounded": true,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  },
+  {
+    "id": "q_614d9fcd0b",
+    "question_text": "Which of the following best describes the primary function of synaptic vesicles in neurotransmission?",
+    "options": [
+      "A) They generate action potentials in the postsynaptic neuron.",
+      "B) They store and release neurotransmitters into the synaptic cleft.",
+      "C) They degrade excess neurotransmitters to terminate synaptic signaling.",
+      "D) They synthesize neurotransmitters from precursor molecules."
+    ],
+    "correct_answer": "B",
+    "explanation": "Synaptic vesicles are small, membrane-bound structures that store and release neurotransmitters, as cited in neuroscience literature. This process is essential for transmitting signals between neurons.",
+    "target_concept": "Synaptic vesicles",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/9.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "Synaptic vesicles are small, membrane-bound structures that store and release neurotransmitters.",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  },
+  {
+    "id": "q_df8d024f22",
+    "question_text": "In the diagram, what is the direct cause of voltage-dependent calcium channels opening, as indicated by the visual cues?",
+    "options": [
+      "A: Binding of neurotransmitters to postsynaptic receptors",
+      "B: Depolarization of the presynaptic membrane",
+      "C: Increase in intracellular calcium concentration",
+      "D: Hyperpolarization of the presynaptic membrane"
+    ],
+    "correct_answer": "B",
+    "explanation": "The diagram shows voltage-dependent calcium channels opening in response to membrane depolarization, as evidenced by the labeled depolarization event preceding channel activation. This aligns with the causal mechanism described in block_1, where depolarization triggers channel opening.",
+    "target_concept": "voltage-dependent calcium channels",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/10.png",
+    "image_grounded": true,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+    }
+  }
+]

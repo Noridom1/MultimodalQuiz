@@ -1,0 +1,211 @@
+{
+  "artifact_count": 10,
+  "artifacts": [
+    {
+      "id": "astronomy::artifact::0::images_8390fac29777c8a1ec70271810afb8ebe2a9a5ea7",
+      "label": "![](images/8390fac29777c8a1ec70271810afb8ebe2a9a5ea7ccc0990132971c31218ab52.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::image::0::images_8390fac29777c8a1ec70271810afb8ebe2a9a5ea7::chunk::0::images_8390fac29777c8a1ec70271810afb8ebe2a9a5ea7",
+      "page_idx": null,
+      "section_path": [],
+      "text": "![](images/8390fac29777c8a1ec70271810afb8ebe2a9a5ea7ccc0990132971c31218ab52.jpg)",
+      "image_path": "images/8390fac29777c8a1ec70271810afb8ebe2a9a5ea7ccc0990132971c31218ab52.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::image::0::images_8390fac29777c8a1ec70271810afb8ebe2a9a5ea7",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "astronomy::artifact::1::details_summary_natural_image_summary_two_inters",
+      "label": "<details> <summary>natural_image</summary> Two intersecting diagonal lines forming an X shape on a black background (...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::details::1::details_summary_natural_image_summary_two_inters::chunk::1::details_summary_natural_image_summary_two_inters",
+      "page_idx": null,
+      "section_path": [],
+      "text": "<details>\n<summary>natural_image</summary>\n\nTwo intersecting diagonal lines forming an X shape on a black background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::details::1::details_summary_natural_image_summary_two_inters",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "astronomy::artifact::12::images_6d13b5352f6e28fa1920aa6094cce8d0feae341ff",
+      "label": "![](images/6d13b5352f6e28fa1920aa6094cce8d0feae341ff1ae12c4e7e73b0ca78ae30e.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::image::12::images_6d13b5352f6e28fa1920aa6094cce8d0feae341ff::chunk::6::images_6d13b5352f6e28fa1920aa6094cce8d0feae341ff",
+      "page_idx": null,
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "text": "![](images/6d13b5352f6e28fa1920aa6094cce8d0feae341ff1ae12c4e7e73b0ca78ae30e.jpg)",
+      "image_path": "images/6d13b5352f6e28fa1920aa6094cce8d0feae341ff1ae12c4e7e73b0ca78ae30e.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::image::12::images_6d13b5352f6e28fa1920aa6094cce8d0feae341ff",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "astronomy::artifact::13::details_summary_text_image_summary_waxing_gibbou",
+      "label": "<details> <summary>text_image</summary> Waxing gibbous First quarter C B Waxing crescent A New E Earth F G H Waning g...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::details::13::details_summary_text_image_summary_waxing_gibbou::chunk::7::details_summary_text_image_summary_waxing_gibbou",
+      "page_idx": null,
+      "section_path": [
+        "Lunar Phases"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nWaxing gibbous\nFirst quarter\nC\nB\nWaxing crescent\nA\nNew\nE\nEarth\nF\nG\nH\nWaning gibbous\nThird quarter\nFull\nSunlight\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::details::13::details_summary_text_image_summary_waxing_gibbou",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "astronomy::artifact::26::images_2d0623d2e968118f351bf638872a011868d0fb033",
+      "label": "![](images/2d0623d2e968118f351bf638872a011868d0fb03332d1c2ed806a08829b97aee.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::image::26::images_2d0623d2e968118f351bf638872a011868d0fb033::chunk::17::images_2d0623d2e968118f351bf638872a011868d0fb033",
+      "page_idx": null,
+      "section_path": [
+        "MAKING CONNECTIONS"
+      ],
+      "text": "![](images/2d0623d2e968118f351bf638872a011868d0fb03332d1c2ed806a08829b97aee.jpg)",
+      "image_path": "images/2d0623d2e968118f351bf638872a011868d0fb03332d1c2ed806a08829b97aee.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::image::26::images_2d0623d2e968118f351bf638872a011868d0fb033",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "astronomy::artifact::32::images_b5d917258bbe1f10d6392f058103b6e703c369de1",
+      "label": "![](images/b5d917258bbe1f10d6392f058103b6e703c369de11385f0d5d724da09a286261.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::image::32::images_b5d917258bbe1f10d6392f058103b6e703c369de1::chunk::20::images_b5d917258bbe1f10d6392f058103b6e703c369de1",
+      "page_idx": null,
+      "section_path": [
+        "LINK TO LEARNING"
+      ],
+      "text": "![](images/b5d917258bbe1f10d6392f058103b6e703c369de11385f0d5d724da09a286261.jpg)",
+      "image_path": "images/b5d917258bbe1f10d6392f058103b6e703c369de11385f0d5d724da09a286261.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::image::32::images_b5d917258bbe1f10d6392f058103b6e703c369de1",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "astronomy::artifact::37::images_4fc45205e206d50791e6528bb3b27487cee36d7d1",
+      "label": "![](images/4fc45205e206d50791e6528bb3b27487cee36d7d12bc995480bcbeaf2834972b.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::image::37::images_4fc45205e206d50791e6528bb3b27487cee36d7d1::chunk::23::images_4fc45205e206d50791e6528bb3b27487cee36d7d1",
+      "page_idx": null,
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "text": "![](images/4fc45205e206d50791e6528bb3b27487cee36d7d12bc995480bcbeaf2834972b.jpg)",
+      "image_path": "images/4fc45205e206d50791e6528bb3b27487cee36d7d12bc995480bcbeaf2834972b.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::image::37::images_4fc45205e206d50791e6528bb3b27487cee36d7d1",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "astronomy::artifact::38::details_summary_text_image_summary_earth_details",
+      "label": "<details> <summary>text_image</summary> Earth </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::details::38::details_summary_text_image_summary_earth_details::chunk::24::details_summary_text_image_summary_earth_details",
+      "page_idx": null,
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nEarth\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::details::38::details_summary_text_image_summary_earth_details",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "astronomy::artifact::40::images_922b6c6476875d2631c51ca8b7be59a82251dbffc",
+      "label": "![](images/922b6c6476875d2631c51ca8b7be59a82251dbffc1f2faf091701d466a8bf853.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::image::40::images_922b6c6476875d2631c51ca8b7be59a82251dbffc::chunk::26::images_922b6c6476875d2631c51ca8b7be59a82251dbffc",
+      "page_idx": null,
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "text": "![](images/922b6c6476875d2631c51ca8b7be59a82251dbffc1f2faf091701d466a8bf853.jpg)",
+      "image_path": "images/922b6c6476875d2631c51ca8b7be59a82251dbffc1f2faf091701d466a8bf853.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::image::40::images_922b6c6476875d2631c51ca8b7be59a82251dbffc",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "astronomy::artifact::41::details_summary_text_image_summary_earth_details",
+      "label": "<details> <summary>text_image</summary> Earth </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": "astronomy::details::41::details_summary_text_image_summary_earth_details::chunk::27::details_summary_text_image_summary_earth_details",
+      "page_idx": null,
+      "section_path": [
+        "The Moon’s Revolution and Rotation"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nEarth\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "astronomy::details::41::details_summary_text_image_summary_earth_details",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    }
+  ]
+}

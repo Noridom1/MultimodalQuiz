@@ -1,0 +1,579 @@
+{
+  "chunk_count": 20,
+  "chunks": [
+    {
+      "id": "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+      "label": "By the end of this section, you should be able to 3.1.1 Explain the basic mechanisms that neurons use to produce and...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+      "page_idx": null,
+      "section_path": [
+        "LEARNING OBJECTIVES"
+      ],
+      "text": "By the end of this section, you should be able to\n\n3.1.1 Explain the basic mechanisms that neurons use to produce and release neurotransmitters 3.1.2 Describe the ways that neurotransmitters interact with receptors\n\nIn the following sections, you will learn general principles about brain chemistry. Neurons access nutrients from the diet, or from their own neuronal membranes, to produce the neurotransmitters that underlie behavior. These nutrients, including amino acids, fatty acids or sugar molecules, are taken inside a neuron or glial cell where they are acted upon by enzymes to produce a neurotransmitter that is stored in a vesicle and later released in response to specifc intracellular signals. Neurons release the most recently produced neurotransmitter molecules frst, thus guaranteeing that the communication between neurons is successful.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::2::by_the_end_of_this_section_you_should_be_able_to",
+          "Behavioral_Neuroscience::paragraph::3::3_1_1_explain_the_basic_mechanisms_that_neurons_",
+          "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 130,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "label": "In the following sections, you will learn general principles about brain chemistry. Neurons access nutrients from the...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "page_idx": null,
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "text": "In the following sections, you will learn general principles about brain chemistry. Neurons access nutrients from the diet, or from their own neuronal membranes, to produce the neurotransmitters that underlie behavior. These nutrients, including amino acids, fatty acids or sugar molecules, are taken inside a neuron or glial cell where they are acted upon by enzymes to produce a neurotransmitter that is stored in a vesicle and later released in response to specifc intracellular signals. Neurons release the most recently produced neurotransmitter molecules frst, thus guaranteeing that the communication between neurons is successful.\n\nNeurotransmitters are produced inside neurons. Their production depends upon the neuron obtaining an adequate supply of precursors from the blood. This is not as easy as it sounds. The production of neurotransmitters requires a variety of amino acids, sugar, fats, vitamins, and minerals. These nutrients float around in the blood after each meal. Every cell in the body competes with the brain for access to these nutrients. The brain is at a distinct disadvantage because it sits behind a frewall called the blood-brain barrier (see Chapter 1 Structure and Function of the Nervous System: Cells and Anatomy). However, fortunately, the blood-brain barrier possesses a variety of specialized transporting mechanisms that can actively transfer nutrients into the brain (Step 1 in Figure 3.3). Once a nutrient crosses the blood-brain barrier it is usually transported to neurons with the assistance of astrocytes.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::4::in_the_following_sections_you_will_learn_general",
+          "Behavioral_Neuroscience::paragraph::6::neurotransmitters_are_produced_inside_neurons_th"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 237,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::image::7::images_f2bc8821a146348afd02a12584d03be110a48c87e::chunk::2::images_f2bc8821a146348afd02a12584d03be110a48c87e",
+      "label": "![](images/f2bc8821a146348afd02a12584d03be110a48c87e57e581e3ce2dcfd52ef80cb.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::image::7::images_f2bc8821a146348afd02a12584d03be110a48c87e::chunk::2::images_f2bc8821a146348afd02a12584d03be110a48c87e",
+      "page_idx": null,
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "text": "![](images/f2bc8821a146348afd02a12584d03be110a48c87e57e581e3ce2dcfd52ef80cb.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::image::7::images_f2bc8821a146348afd02a12584d03be110a48c87e"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::3::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Preursor: Precursor amino acid, sugar, fat or peptide\"]...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::3::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Preursor: Precursor amino acid, sugar, fat or peptide\"] --> B[\"Transporters\"]\n    B --> C[\"Neurotransmitter synthesizing enzyme\"]\n    C --> D[\"Autoreceptor\"]\n    D --> E[\"Reuptake Transporters\"]\n    E --> F[\"Astrocyte\"]\n    F --> G[\"Degrading enzyme\"]\n    G --> H[\"Ions\"]\n    H --> I[\"Transporters\"]\n    I --> J[\"Transporters\"]\n    style A fill:#f9f,stroke:#333\n    style B fill:#ccf,stroke:#333\n    style C fill:#cfc,stroke:#333\n    style D fill:#fcc,stroke:#333\n    style E fill:#cff,stroke:#333\n    style F fill:#ffc,stroke:#333\n    style G fill:#cfc,stroke:#333\n    style H fill:#fcc,stroke:#333\n    style I fill:#cfc,stroke:#333\n    style J fill:#fcc,stroke:#333\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::details::8::details_summary_flowchart_summary_mermaid_graph_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 107,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "label": "Nutrients absorbed from food are transported out of the blood,across the BBB,and into neurons. ② Enzyumer nutrerthint...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "page_idx": null,
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "text": "Nutrients absorbed from food are transported out of the blood,across the BBB,and into neurons. ② Enzyumer nutrerthinto neurotransmitters. ③ reurportesitovesicles.\n\nThe action potential causes Ca²+ influx, which causes vesicle fusion. Neurotransmitter is released inthe synaptic cleft. 5 Neurotransmitter bind to postsynaptic receptors, causing EPSPs,IPsand/orsecondary biochemical processes\n\n® prusingtic utsyeceptors, neuron to stop transmitter synthesis and/or release.\n\nNeurotransmitter actions are terminated by reuptake by transporters or degradation by enzymes.\n\nFIGURE 3.3 Neurotransmitter lifecycle\n\nAfter an amino acid, fatty acid or sugar molecule is inside a neuron, it is generally acted upon by synthesizing enzymes (Step 2 in Figure 3.3). Enzymes are proteins that help build, breakdown or otherwise modify substances in our cells. The action of many of these enzymes uses metal ions as co-factors to assist with the conversion process. For example, neurons in the substantia nigra contain iron, neurons in the hippocampus contain zinc, neurons in the locus coeruleus contain copper, and neurons in the red nucleus contain cobalt. The presence of these metals is critical for normal neurotransmitter metabolism.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::9::nutrients_absorbed_from_food_are_transported_out",
+          "Behavioral_Neuroscience::paragraph::10::the_action_potential_causes_ca_influx_which_caus",
+          "Behavioral_Neuroscience::paragraph::11::prusingtic_utsyeceptors_neuron_to_stop_transmitt",
+          "Behavioral_Neuroscience::paragraph::12::neurotransmitter_actions_are_terminated_by_reupt",
+          "Behavioral_Neuroscience::paragraph::13::figure_3_3_neurotransmitter_lifecycle",
+          "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 178,
+        "contains_atomic_block": false,
+        "block_count": 6
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+      "label": "After an amino acid, fatty acid or sugar molecule is inside a neuron, it is generally acted upon by synthesizing enzy...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule::chunk::5::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+      "page_idx": null,
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "text": "After an amino acid, fatty acid or sugar molecule is inside a neuron, it is generally acted upon by synthesizing enzymes (Step 2 in Figure 3.3). Enzymes are proteins that help build, breakdown or otherwise modify substances in our cells. The action of many of these enzymes uses metal ions as co-factors to assist with the conversion process. For example, neurons in the substantia nigra contain iron, neurons in the hippocampus contain zinc, neurons in the locus coeruleus contain copper, and neurons in the red nucleus contain cobalt. The presence of these metals is critical for normal neurotransmitter metabolism.\n\nBrains demonstrate a degree of energy effciency in terms of which of these transmitters it utilizes most extensively. For example, GABA and glutamate are simple amino acids and are the most abundant neurotransmitters in the human brain. They require only single-step enzymatic modifcation. Four amine neurotransmitters (dopamine, norepinephrine, epinephrine, and serotonin) require enzymatic modifcation of dietary amino acids to produce and inactivate. The brain contains 1000-fold fewer of these amine-releasing neurons, as compared to glutamate and GABA, probably because they require more energy to function. Finally, the other, far less abundant neurotransmitters, such as the neuropeptides (which are a string of amino acids) require a considerable amount of energy by the neuron to produce and inactivate. Neuropeptides occur roughly one-million-fold lower concentration in the brain than glutamate and GABA. These neurotransmitters, as well as the fat-derived neurotransmitters endocannabinoids and prostaglandins, all utilize the DNA in the nucleus to produce the necessary enzymes and precursors. The endogenous levels of these two fat-derived are kept quite low and are produced only when needed.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::14::after_an_amino_acid_fatty_acid_or_sugar_molecule",
+          "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 279,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+      "label": "Brains demonstrate a degree of energy effciency in terms of which of these transmitters it utilizes most extensively....",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::6::brains_demonstrate_a_degree_of_energy_effciency_",
+      "page_idx": null,
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "text": "Brains demonstrate a degree of energy effciency in terms of which of these transmitters it utilizes most extensively. For example, GABA and glutamate are simple amino acids and are the most abundant neurotransmitters in the human brain. They require only single-step enzymatic modifcation. Four amine neurotransmitters (dopamine, norepinephrine, epinephrine, and serotonin) require enzymatic modifcation of dietary amino acids to produce and inactivate. The brain contains 1000-fold fewer of these amine-releasing neurons, as compared to glutamate and GABA, probably because they require more energy to function. Finally, the other, far less abundant neurotransmitters, such as the neuropeptides (which are a string of amino acids) require a considerable amount of energy by the neuron to produce and inactivate. Neuropeptides occur roughly one-million-fold lower concentration in the brain than glutamate and GABA. These neurotransmitters, as well as the fat-derived neurotransmitters endocannabinoids and prostaglandins, all utilize the DNA in the nucleus to produce the necessary enzymes and precursors. The endogenous levels of these two fat-derived are kept quite low and are produced only when needed.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 178,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+      "label": "Brains demonstrate a degree of energy effciency in terms of which of these transmitters it utilizes most extensively....",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_::chunk::7::brains_demonstrate_a_degree_of_energy_effciency_",
+      "page_idx": null,
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "text": "Brains demonstrate a degree of energy effciency in terms of which of these transmitters it utilizes most extensively. For example, GABA and glutamate are simple amino acids and are the most abundant neurotransmitters in the human brain. They require only single-step enzymatic modifcation. Four amine neurotransmitters (dopamine, norepinephrine, epinephrine, and serotonin) require enzymatic modifcation of dietary amino acids to produce and inactivate. The brain contains 1000-fold fewer of these amine-releasing neurons, as compared to glutamate and GABA, probably because they require more energy to function. Finally, the other, far less abundant neurotransmitters, such as the neuropeptides (which are a string of amino acids) require a considerable amount of energy by the neuron to produce and inactivate. Neuropeptides occur roughly one-million-fold lower concentration in the brain than glutamate and GABA. These neurotransmitters, as well as the fat-derived neurotransmitters endocannabinoids and prostaglandins, all utilize the DNA in the nucleus to produce the necessary enzymes and precursors. The endogenous levels of these two fat-derived are kept quite low and are produced only when needed.\n\nOnce synthesized, most neurotransmitter molecules are then actively transported into synaptic vesicles (step 3 Figure 3.3); these are very tiny spheres clustered at the presynaptic terminal with hollow centers into which approximately 10,000 molecules of a typical neurotransmitter can be stored for later release from a neuron. Neurons pay attention to the shelf life of their neurotransmitters; they prefer to release the most recently produced neurotransmitter molecules frst. This means that the freshest products are released frst, thus guaranteeing that the communication between neurons is successful. Many neurons produce two (and rarely three) different neurotransmitters; each is stored inside different vesicles and are released independently of each other.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::15::brains_demonstrate_a_degree_of_energy_effciency_",
+          "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 288,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+      "label": "Once synthesized, most neurotransmitter molecules are then actively transported into synaptic vesicles (step 3 Figure...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+      "page_idx": null,
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "text": "Once synthesized, most neurotransmitter molecules are then actively transported into synaptic vesicles (step 3 Figure 3.3); these are very tiny spheres clustered at the presynaptic terminal with hollow centers into which approximately 10,000 molecules of a typical neurotransmitter can be stored for later release from a neuron. Neurons pay attention to the shelf life of their neurotransmitters; they prefer to release the most recently produced neurotransmitter molecules frst. This means that the freshest products are released frst, thus guaranteeing that the communication between neurons is successful. Many neurons produce two (and rarely three) different neurotransmitters; each is stored inside different vesicles and are released independently of each other.\n\nThe arrival of the action potential at the end of the axon opens a group of voltage-dependent calcium channels that allows the entry of calcium ions (see Chapter 2 Neurophysiology). The elevated intracellular concentration of calcium ions initiates the next step in the communication of one neuron with the next: A synaptic vesicle either merges into its cell wall (both are made of lipids so imagine two soap bubbles coming together), or opens a small pore into the neuronal membrane, and releases the neurotransmitter into the small space between neurons, called a synaptic cleft (step 4 Figure 3.3). Figure 3.4 shows the process of vesicle fusion in more detail. The junction at which two neurons communicate via the release of a neurotransmitter molecule is called a synapse. Because the synapse is such a small space, the concentration of neurotransmitter molecules in the synapse following release becomes very high for a brief period.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::17::once_synthesized_most_neurotransmitter_molecules",
+          "Behavioral_Neuroscience::paragraph::18::the_arrival_of_the_action_potential_at_the_end_o"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 265,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::image::19::images_075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2::chunk::9::images_075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2",
+      "label": "![](images/075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2e892843c1cd5562cc275b64.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::image::19::images_075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2::chunk::9::images_075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2",
+      "page_idx": null,
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "text": "![](images/075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2e892843c1cd5562cc275b64.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::image::19::images_075a3ddc2ec989d9dc92fb273d04b9fa20f9376e2"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::details::20::details_summary_flowchart_summary_mermaid_graph_::chunk::10::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Neurotransmitter\"] --> B[\"Vesicle\"] B --> C[\"Docking pr...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::details::20::details_summary_flowchart_summary_mermaid_graph_::chunk::10::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Neurotransmitter\"] --> B[\"Vesicle\"]\n    B --> C[\"Docking proteins\"]\n    C --> D[\"Cytosol\"]\n    D --> E[\"Synaptic cleft\"]\n    \n    subgraph Stage 1\n        F[\"Proteins on the vesicle and the presynaptic cell membrane bind to each other, docking the vesicle.\"]\n    end\n    \n    subgraph Stage 2\n        G[\"When Ca²⁺ enters, it binds to docking proteins and activates vesicle fusion.\"]\n    end\n    \n    subgraph Stage 3\n        H[\"Neurotransmitters from the vesicle flow into the synaptic cleft.\"]\n    end\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::details::20::details_summary_flowchart_summary_mermaid_graph_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 75,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::11::figure_3_4_vesicle_fusion",
+      "label": "FIGURE 3.4 Vesicle fusion",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::11::figure_3_4_vesicle_fusion",
+      "page_idx": null,
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "text": "FIGURE 3.4 Vesicle fusion",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 5,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+      "label": "FIGURE 3.4 Vesicle fusion Once released into the synapse, neurotransmitter molecules briefly interact or bind with a...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+      "page_idx": null,
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "text": "FIGURE 3.4 Vesicle fusion\n\nOnce released into the synapse, neurotransmitter molecules briefly interact or bind with a protein, called a receptor, that is (usually) located on the surface of the neuron on the other side of the synapse (step 5 in Figure 3.3). These receptors are divided into two general types: either ionotropic or metabotropic receptors (Figure 3.5). Ionotropic receptors are transmembrane molecules that can “open” or “close” a channel that would allow smaller particles to travel in and out of the cell. Ionotropic receptors allow different kinds of ions to travel in and out of the cell. Ionotropic receptors are not opened (or closed) all the time. They are generally closed until another small molecule (called a ligand — in our case, a neurotransmitter) binds to the receptor. As soon as the ligand binds to the receptor (step 1 in the left side of Figure 3.5), the receptor changes conformation (the protein that makes up the channel changes shape), and, as they do so, they create a small opening that is big enough for ions to travel through (step 2 in the left side of Figure 3.5). Therefore, ionotropic receptors are called “ligand-gated transmembrane ion channels”. The abrupt change in concentration of these ions induces secondary biochemical processes which may have either short-term or long-term consequences on the post-synaptic neuron’s behavior.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::21::figure_3_4_vesicle_fusion",
+          "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 231,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+      "label": "Once released into the synapse, neurotransmitter molecules briefly interact or bind with a protein, called a receptor...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+      "page_idx": null,
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "text": "Once released into the synapse, neurotransmitter molecules briefly interact or bind with a protein, called a receptor, that is (usually) located on the surface of the neuron on the other side of the synapse (step 5 in Figure 3.3). These receptors are divided into two general types: either ionotropic or metabotropic receptors (Figure 3.5). Ionotropic receptors are transmembrane molecules that can “open” or “close” a channel that would allow smaller particles to travel in and out of the cell. Ionotropic receptors allow different kinds of ions to travel in and out of the cell. Ionotropic receptors are not opened (or closed) all the time. They are generally closed until another small molecule (called a ligand — in our case, a neurotransmitter) binds to the receptor. As soon as the ligand binds to the receptor (step 1 in the left side of Figure 3.5), the receptor changes conformation (the protein that makes up the channel changes shape), and, as they do so, they create a small opening that is big enough for ions to travel through (step 2 in the left side of Figure 3.5). Therefore, ionotropic receptors are called “ligand-gated transmembrane ion channels”. The abrupt change in concentration of these ions induces secondary biochemical processes which may have either short-term or long-term consequences on the post-synaptic neuron’s behavior.\n\nMetabotropic receptors do not have a “channel” that opens or closes. Instead, they are linked to another small chemical called a “G-protein.” As soon as a ligand binds the metabotropic receptor (step 1 in the right side of Figure 3.5), the receptor “activates” the G-protein (it basically changes the G-protein shape). Once activated, the G-protein itself goes on and activates another molecule (step 2 in the right side of Figure 3.5). This new molecule is called a “secondary messenger.” A secondary messenger is a chemical whose function is to go and activate other particles. So far, this process is common to all metabotropic receptors. What happens from there on is different for every metabotropic receptor. In some cases, the secondary messenger travel until it binds to and opens ion channels located somewhere else on the membrane (step 3 in the right side of Figure 3.5). In some cases, the secondary messenger will go and activate other intermediate molecules inside the cell. The important thing to remember is that metabotropic receptors do not have ion channels, and binding of a ligand may or may not result in the opening of ion channels at different sites on the membrane. But they will always activate a G-protein that will in turn activate secondary messengers. G-protein coupled receptors are a large group of evolutionarily related proteins that are very common in the brain and body; over eight hundred human genes are devoted to producing these proteins.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::23::once_released_into_the_synapse_neurotransmitter_",
+          "Behavioral_Neuroscience::paragraph::24::metabotropic_receptors_do_not_have_a_channel_tha"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 477,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::image::25::images_522b532ebdfd84047e878b87f73f73a32606d1f9d::chunk::14::images_522b532ebdfd84047e878b87f73f73a32606d1f9d",
+      "label": "![](images/522b532ebdfd84047e878b87f73f73a32606d1f9dfd420c89960b30cf184f63b.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::image::25::images_522b532ebdfd84047e878b87f73f73a32606d1f9d::chunk::14::images_522b532ebdfd84047e878b87f73f73a32606d1f9d",
+      "page_idx": null,
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "text": "![](images/522b532ebdfd84047e878b87f73f73a32606d1f9dfd420c89960b30cf184f63b.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::image::25::images_522b532ebdfd84047e878b87f73f73a32606d1f9d"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Ligand-gated ion channels (ionotropic)\"] --> B[\"Ion cha...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Ligand-gated ion channels (ionotropic)\"] --> B[\"Ion channel\"]\n    B --> C[\"Neurotransmitter binds to channel.\"]\n    B --> D[\"Channel opens. Ions flow in or out.\"]\n    E[\"G-protein-coupled receptors (metabotropic)\"] --> F[\"Effector protein\"]\n    F --> G[\"G-protein subunits or intracellular messengers modulate channels.\"]\n    G --> H[\"Ion channel open. Ions flow in or out.\"]\n    style A fill:#f9f,stroke:#333\n    style E fill:#bbf,stroke:#333\n    style F fill:#bfb,stroke:#333\n    style G fill:#ffb,stroke:#333\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::details::26::details_summary_flowchart_summary_mermaid_graph_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 85,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+      "label": "FIGURE 3.5 Metabotropic vs ionotropic receptors Despite many safeguards, the synaptic communication processes describ...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+      "page_idx": null,
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "text": "FIGURE 3.5 Metabotropic vs ionotropic receptors\n\nDespite many safeguards, the synaptic communication processes described above often fail because the vesicles are empty or do not fuse properly, or the neurotransmitters are oxidized and therefore inactive (Linden, 2007). Neural systems have a built-in redundancy that allows them to compensate for failures in single neurons. Brains try to be energy effcient and not waste neurotransmitters. Many, but not all, neurotransmitters, or components of them after enzymatic inactivation, are re-absorbed by the axon terminal and re-used. Finally, although neurons utilize components of the diet to produce neurotransmitters, the production of neurotransmitters is rarely signifcantly enhanced by dietary supplements.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors",
+          "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 109,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "label": "Despite many safeguards, the synaptic communication processes described above often fail because the vesicles are emp...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "page_idx": null,
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "text": "Despite many safeguards, the synaptic communication processes described above often fail because the vesicles are empty or do not fuse properly, or the neurotransmitters are oxidized and therefore inactive (Linden, 2007). Neural systems have a built-in redundancy that allows them to compensate for failures in single neurons. Brains try to be energy effcient and not waste neurotransmitters. Many, but not all, neurotransmitters, or components of them after enzymatic inactivation, are re-absorbed by the axon terminal and re-used. Finally, although neurons utilize components of the diet to produce neurotransmitters, the production of neurotransmitters is rarely signifcantly enhanced by dietary supplements.\n\nAfter most neurotransmitters are released into the synaptic cleft they need to be inactivated. The primary mechanism for inactivation is reuptake (step 7 in Figure 3.3). Reuptake is the reabsorption of a neurotransmitter via a protein transporter located on the (pre-synaptic) membrane of the axon terminal. Reuptake allows for the recycling of neurotransmitters. Because neurotransmitter molecules are large and hydrophilic, they cannot simply diffuse through the membrane; this is why specifc transporter proteins are necessary.\n\nNeurons beneft from feedback on how much neurotransmitter they are releasing at their axonal terminals. This feedback is provided by a special type of protein receptor called an autoreceptor (step 6 in Figure 3.3).\n\nAutoreceptors are located on the membranes of nerve cells. They may be located on the cell body or the axonal terminal. These receptors are only sensitive to the neurotransmitters released by the neuron on which the autoreceptor sits. Activation of an autoreceptor usually leads to a reduction in the rate of release of the cell's neurotransmitter.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::paragraph::28::despite_many_safeguards_the_synaptic_communicati",
+          "Behavioral_Neuroscience::paragraph::30::after_most_neurotransmitters_are_released_into_t",
+          "Behavioral_Neuroscience::paragraph::31::neurons_beneft_from_feedback_on_how_much_neurotr",
+          "Behavioral_Neuroscience::paragraph::32::autoreceptors_are_located_on_the_membranes_of_ne"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 271,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::image::33::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33::chunk::18::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33",
+      "label": "![](images/049c91dd66e7771b6b47d9fd7739a66b555d8db333cb254964c4401574fbcb7e.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::image::33::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33::chunk::18::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33",
+      "page_idx": null,
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "text": "![](images/049c91dd66e7771b6b47d9fd7739a66b555d8db333cb254964c4401574fbcb7e.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::image::33::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "Behavioral_Neuroscience::details::34::details_summary_natural_image_summary_pure_geome::chunk::19::details_summary_natural_image_summary_pure_geome",
+      "label": "<details> <summary>natural_image</summary> Pure geometric lines forming an X shape on a black background (no text or...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/raw/Behavioral_Neuroscience.pdf",
+      "source_location": null,
+      "source_chunk_id": "Behavioral_Neuroscience::details::34::details_summary_natural_image_summary_pure_geome::chunk::19::details_summary_natural_image_summary_pure_geome",
+      "page_idx": null,
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nPure geometric lines forming an X shape on a black background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "Behavioral_Neuroscience::details::34::details_summary_natural_image_summary_pure_geome"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 20,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    }
+  ]
+}

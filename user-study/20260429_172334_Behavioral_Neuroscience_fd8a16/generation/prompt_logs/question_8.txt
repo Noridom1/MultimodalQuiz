@@ -1,0 +1,40 @@
+Index: 8
+Target concept: Metal ions
+Tested fact block id: block_1
+Image description: A diagram showing the role of calcium ions in synaptic vesicle fusion with the presynaptic membrane.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: Metal ions
+Question type: multiple_choice
+Difficulty: hard
+Reasoning type: causal
+Image role: reasoning
+Learning objective: Understand the specific role of calcium ions in neurotransmitter release.
+Image context: A diagram showing the role of calcium ions in synaptic vesicle fusion with the presynaptic membrane.
+Tested fact block ID: block_1
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.
+
+--- Image prompt ---
+**Prompt:**
+Create a simplified, high-contrast diagram of a synaptic cleft, showing a synaptic vesicle near the presynaptic membrane with labeled calcium channels. Depict calcium ions (Ca²⁺) flowing into the presynaptic terminal, triggering vesicle fusion and neurotransmitter release—use bright orange for calcium ions and cool blues/greys for cellular structures. Label key components (e.g., "Voltage-gated Ca²⁺ channel," "Synaptic vesicle," "Fusion pore") without explaining the mechanism. Ensure clear visual hierarchy and avoid text-heavy explanations.
+
+**Alt:** A labeled diagram of a synapse showing calcium ions entering the presynaptic terminal and a vesicle fusing with the membrane.
+
+--- Raw LLM image-prompt response ---
+**Prompt:**
+Create a simplified, high-contrast diagram of a synaptic cleft, showing a synaptic vesicle near the presynaptic membrane with labeled calcium channels. Depict calcium ions (Ca²⁺) flowing into the presynaptic terminal, triggering vesicle fusion and neurotransmitter release—use bright orange for calcium ions and cool blues/greys for cellular structures. Label key components (e.g., "Voltage-gated Ca²⁺ channel," "Synaptic vesicle," "Fusion pore") without explaining the mechanism. Ensure clear visual hierarchy and avoid text-heavy explanations.
+
+**Alt:** A labeled diagram of a synapse showing calcium ions entering the presynaptic terminal and a vesicle fusing with the membrane.

@@ -1,0 +1,286 @@
+{
+  "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_42a16c6be1",
+        "question_text": "Which of the following best describes the primary function of the blood-brain barrier (BBB)?",
+        "options": [
+          "A. To facilitate the rapid exchange of all blood-borne substances into the brain",
+          "B. To act as a semipermeable barrier that selectively allows essential nutrients to pass while blocking harmful substances",
+          "C. To produce cerebrospinal fluid for cushioning the central nervous system",
+          "D. To generate electrical impulses for neuronal communication"
+        ],
+        "correct_answer": "B",
+        "explanation": "The blood-brain barrier (BBB) is a semipermeable barrier that protects the central nervous system by selectively allowing essential nutrients to pass while blocking potentially harmful substances. Source: The tested fact block ID INFERRED.",
+        "target_concept": "Blood-brain barrier (BBB)",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "INFERRED: The blood-brain barrier (BBB) is a semipermeable barrier that protects the central nervous system from potentially harmful substances.",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Blood-brain barrier (BBB)\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role and function of the blood-brain barrier in protecting the central nervous system.\nImage context: A diagram showing the structure of the blood-brain barrier, highlighting its selective permeability.\nTested fact block ID: INFERRED: The blood-brain barrier (BBB) is a semipermeable barrier that protects the central nervous system from potentially harmful substances.\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a cross-sectional diagram of the blood-brain barrier, showing a capillary with endothelial cells, tight junctions, and surrounding astrocytes. Use high-contrast colors (e.g., red for blood cells, blue for brain tissue) and label key components like \"endothelial cells,\" \"tight junctions,\" and \"astrocytes.\" Depict selective permeability with arrows showing allowed molecules (e.g., oxygen, glucose) passing through while blocking harmful substances.\n\nAlt: A labeled diagram of the blood-brain barrier showing its structure and selective permeability."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_d657ec958e",
+        "question_text": "Which enzyme is primarily responsible for the inactivation of acetylcholine in the synaptic cleft?",
+        "options": [
+          "A. Monoamine oxidase",
+          "B. Acetylcholinesterase",
+          "C. Catechol-O-methyltransferase",
+          "D. Choline acetyltransferase"
+        ],
+        "correct_answer": "B",
+        "explanation": "Acetylcholinesterase is the enzyme that rapidly breaks down acetylcholine in the synaptic cleft, terminating its action. This process is crucial for normal synaptic transmission. (Source: block_10)",
+        "target_concept": "enzymatic inactivation",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "block_10",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: enzymatic inactivation\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the specific enzyme responsible for the inactivation of acetylcholine and its location of action.\nImage context: A diagram showing acetylcholinesterase breaking down acetylcholine in the synaptic cleft.\nTested fact block ID: block_10\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a synaptic cleft with two labeled molecules: a small, round \"Neurotransmitter X\" (acetylcholine placeholder) and a larger, irregularly shaped \"Enzyme Y\" (acetylcholinesterase placeholder) actively breaking it down. Use bright, distinct colors (e.g., blue for the neurotransmitter, red for the enzyme) and clear arrows to show the breakdown process. Label the synaptic cleft and presynaptic/post-synaptic membranes with neutral terms like \"Nerve Cell 1\" and \"Nerve Cell 2.\" Avoid text revealing the enzyme’s identity.\n\n**Alt:** A diagram showing an enzyme breaking down a neurotransmitter in the gap between two nerve cells."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_fe4c6ea88e",
+        "question_text": "In the provided diagram, oxidation is depicted as an electron transfer process. Which cellular component is most directly disrupted due to the loss of electrons, as visually indicated by the annotations and arrows in the image?",
+        "options": [
+          "A) Mitochondrial DNA",
+          "B) Lipid bilayer of the cell membrane",
+          "C) Nuclear membrane proteins",
+          "D) Cytosolic enzymes"
+        ],
+        "correct_answer": "B",
+        "explanation": "The diagram highlights the lipid bilayer of the cell membrane as the primary site of disruption due to electron loss during oxidation, as shown by the arrows pointing to the membrane structure and annotations indicating oxidative damage. This aligns with the fact that lipid peroxidation is a well-documented consequence of oxidative stress (block_10).",
+        "target_concept": "oxidation",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": true,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "block_10",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: oxidation\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: causal\nImage role: reasoning\nLearning objective: Understand the role of oxidation in cellular damage and its implications in behavioral neuroscience.\nImage context: A diagram showing the electron transfer process during oxidation, highlighting the disruption of cellular components.\nTested fact block ID: block_10\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.",
+      "image_prompt": "**Prompt:**\nCreate a simplified diagram of oxidation in a cell, showing an oxygen molecule (O₂) pulling an electron from a lipid membrane, leaving behind a damaged, jagged section labeled \"Oxidized Lipid.\" Use high-contrast colors: red for oxygen, blue for electrons, and gray for the cell membrane. Include a small inset of a neuron with a dotted line connecting to the damaged cell, implying behavioral impact. Avoid text labels for quiz answers.\n\n**Alt:** A diagram illustrating oxidation damaging a cell membrane, with a neuron inset suggesting neurological effects."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_b29f1c65f4",
+        "question_text": "Which of the following best describes the primary role of receptors in neurotransmission?",
+        "options": [
+          "A) To synthesize neurotransmitters for release into the synaptic cleft",
+          "B) To propagate action potentials along the axon of the presynaptic neuron",
+          "C) To bind neurotransmitters and initiate a postsynaptic response",
+          "D) To degrade excess neurotransmitters in the synaptic cleft"
+        ],
+        "correct_answer": "C",
+        "explanation": "Receptors are proteins located on the postsynaptic membrane that bind neurotransmitters, leading to the initiation of a postsynaptic response. This process is critical for signal transmission between neurons. (Source: block_1)",
+        "target_concept": "receptors",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "block_1",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: receptors\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of receptors in neurotransmission.\nImage context: A diagram showing a neurotransmitter binding to a receptor on the postsynaptic membrane.\nTested fact block ID: block_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a synaptic cleft, showing a round neurotransmitter molecule (e.g., a stylized blue hexagon) binding to a matching receptor (labeled \"Receptor\") on the postsynaptic membrane. Use warm colors (orange/red) for the postsynaptic neuron and cool colors (blue/green) for the neurotransmitter and presynaptic side. Include clear arrows to indicate binding direction, and label key parts: \"Neurotransmitter,\" \"Receptor,\" and \"Postsynaptic Membrane.\" Avoid realistic protein structures—opt for iconic, accessible shapes.\n\n**Alt:** A diagram of a neurotransmitter binding to a receptor on a neuron's surface, illustrating synaptic signaling."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_f7e101c127",
+        "question_text": "Which of the following best explains the causal role of astrocytes in the glutamate-glutamine cycle?",
+        "options": [
+          "Astrocytes convert glutamate into glutamine to replenish neuronal glutamate stores, facilitating neurotransmitter recycling.",
+          "Astrocytes directly release glutamate into the synaptic cleft to enhance neuronal signaling.",
+          "Astrocytes metabolize glutamine into glutamate to inhibit neuronal excitation.",
+          "Astrocytes store excess glutamate to prevent neuronal damage without further processing."
+        ],
+        "correct_answer": "Astrocytes convert glutamate into glutamine to replenish neuronal glutamate stores, facilitating neurotransmitter recycling.",
+        "explanation": "Astrocytes play a critical role in neurotransmitter metabolism by converting glutamate, taken up from the synaptic cleft, into glutamine via glutamine synthetase. This glutamine is then transported back to neurons to replenish glutamate stores, completing the glutamate-glutamine cycle (block_1).",
+        "target_concept": "Neurotransmitter metabolism",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "block_1",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Neurotransmitter metabolism\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the role of astrocytes in neurotransmitter metabolism and recycling.\nImage context: A diagram showing the glutamate-glutamine cycle between astrocytes and neurons.\nTested fact block ID: block_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of the glutamate-glutamine cycle between a neuron and an astrocyte. Show glutamate (labeled \"GLU\") released from the neuron, taken up by the astrocyte, converted to glutamine (labeled \"GLN\"), and returned to the neuron. Use distinct colors for each molecule (e.g., red for glutamate, blue for glutamine) and bold arrows to indicate direction. Keep labels minimal and avoid text-heavy explanations.\n\n**Alt:** A diagram illustrating the glutamate-glutamine cycle between a neuron and an astrocyte, showing molecule exchange and conversion."
+    },
+    {
+      "index": 6,
+      "question": {
+        "id": "q_8b930995d0",
+        "question_text": "Which enzyme is responsible for synthesizing GABA from glutamate?",
+        "options": [
+          "A. Glutamate decarboxylase",
+          "B. GABA transaminase",
+          "C. Glutamine synthetase",
+          "D. Glutamate dehydrogenase"
+        ],
+        "correct_answer": "A",
+        "explanation": "Glutamate decarboxylase (GAD) catalyzes the synthesis of GABA from glutamate, as confirmed by block_1.",
+        "target_concept": "Synthesizing enzymes",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/6.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "block_1",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/6.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Synthesizing enzymes\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the enzyme responsible for synthesizing GABA from glutamate.\nImage context: A diagram showing the enzymatic synthesis of GABA from glutamate.\nTested fact block ID: block_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast diagram showing the conversion of glutamate to GABA, with clear arrows and labeled molecules (e.g., \"Substrate: Glutamate,\" \"Product: GABA\"). Use a neutral color palette with bold outlines for clarity, and label the enzyme as \"Enzyme X\" to avoid revealing the answer. Alt: A diagram illustrating the enzymatic conversion of glutamate to GABA, with labeled molecules and a placeholder for the enzyme name."
+    },
+    {
+      "index": 7,
+      "question": {
+        "id": "q_877673e9e8",
+        "question_text": "In the presynaptic terminal diagram, what is the primary role of calcium ions entering through the labeled calcium channels?",
+        "options": [
+          "A) To directly bind to neurotransmitters and escort them across the synaptic cleft",
+          "B) To trigger the fusion of synaptic vesicles with the presynaptic membrane",
+          "C) To depolarize the postsynaptic neuron by entering its receptors",
+          "D) To break down excess neurotransmitters in the synaptic cleft"
+        ],
+        "correct_answer": "B",
+        "explanation": "Calcium ions entering the presynaptic terminal through the labeled channels bind to synaptic proteins, causing vesicles to fuse with the membrane and release neurotransmitters (block_123). The diagram shows vesicles near the channels, indicating this causal relationship.",
+        "target_concept": "Presynaptic terminal",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/7.png",
+        "image_grounded": true,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "block_123",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/7.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Presynaptic terminal\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: causal\nImage role: reasoning\nLearning objective: Understand the role of calcium ions in triggering neurotransmitter release at the presynaptic terminal.\nImage context: A diagram showing the presynaptic terminal with calcium channels and synaptic vesicles.\nTested fact block ID: block_123\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.",
+      "image_prompt": "**Prompt:**\nCreate a simplified cross-section diagram of a presynaptic terminal, highlighting voltage-gated calcium channels in the membrane and nearby synaptic vesicles. Use high-contrast colors (e.g., blue for calcium ions, red for vesicles) and label key structures like \"Calcium Channel\" and \"Synaptic Vesicle\" without explaining their function. Ensure the composition shows calcium ions entering the terminal near vesicles.\n\n**Alt:** A labeled diagram of a presynaptic terminal with calcium channels and vesicles, showing calcium ion influx."
+    },
+    {
+      "index": 8,
+      "question": {
+        "id": "q_d70fe96020",
+        "question_text": "In the diagram, what is the direct causal role of calcium ions in neurotransmitter release?",
+        "options": [
+          "A) They bind to synaptic vesicles to transport them to the presynaptic membrane.",
+          "B) They trigger the fusion of synaptic vesicles with the presynaptic membrane by interacting with SNARE proteins.",
+          "C) They degrade the presynaptic membrane to allow vesicle release.",
+          "D) They inhibit neurotransmitter release by blocking vesicle movement."
+        ],
+        "correct_answer": "B",
+        "explanation": "The diagram shows calcium ions entering the presynaptic terminal and binding to SNARE proteins, which facilitates the fusion of synaptic vesicles with the presynaptic membrane. This is consistent with block_1, which describes the essential role of calcium ions in triggering vesicle fusion.",
+        "target_concept": "Metal ions",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/8.png",
+        "image_grounded": true,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "block_1",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/8.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Metal ions\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: causal\nImage role: reasoning\nLearning objective: Understand the specific role of calcium ions in neurotransmitter release.\nImage context: A diagram showing the role of calcium ions in synaptic vesicle fusion with the presynaptic membrane.\nTested fact block ID: block_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.",
+      "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a synaptic cleft, showing a synaptic vesicle near the presynaptic membrane with labeled calcium channels. Depict calcium ions (Ca²⁺) flowing into the presynaptic terminal, triggering vesicle fusion and neurotransmitter release—use bright orange for calcium ions and cool blues/greys for cellular structures. Label key components (e.g., \"Voltage-gated Ca²⁺ channel,\" \"Synaptic vesicle,\" \"Fusion pore\") without explaining the mechanism. Ensure clear visual hierarchy and avoid text-heavy explanations.\n\n**Alt:** A labeled diagram of a synapse showing calcium ions entering the presynaptic terminal and a vesicle fusing with the membrane."
+    },
+    {
+      "index": 9,
+      "question": {
+        "id": "q_614d9fcd0b",
+        "question_text": "Which of the following best describes the primary function of synaptic vesicles in neurotransmission?",
+        "options": [
+          "A) They generate action potentials in the postsynaptic neuron.",
+          "B) They store and release neurotransmitters into the synaptic cleft.",
+          "C) They degrade excess neurotransmitters to terminate synaptic signaling.",
+          "D) They synthesize neurotransmitters from precursor molecules."
+        ],
+        "correct_answer": "B",
+        "explanation": "Synaptic vesicles are small, membrane-bound structures that store and release neurotransmitters, as cited in neuroscience literature. This process is essential for transmitting signals between neurons.",
+        "target_concept": "Synaptic vesicles",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/9.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "Synaptic vesicles are small, membrane-bound structures that store and release neurotransmitters.",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/9.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Synaptic vesicles\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role and function of synaptic vesicles in neurotransmission.\nImage context: A diagram showing synaptic vesicles releasing neurotransmitters into the synaptic cleft.\nTested fact block ID: Synaptic vesicles are small, membrane-bound structures that store and release neurotransmitters.\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a neuron’s synapse, showing spherical synaptic vesicles (labeled \"Vesicles\") fused to the presynaptic membrane, releasing small circular neurotransmitters (labeled \"Neurotransmitters\") into the synaptic cleft. Use a bright, warm color (e.g., orange) for vesicles, cool blue for the cleft, and neutral grays for membranes. Ensure clear arrows indicate release direction.\n\n**Alt:** A labeled diagram of synaptic vesicles releasing neurotransmitters into the synaptic cleft."
+    },
+    {
+      "index": 10,
+      "question": {
+        "id": "q_df8d024f22",
+        "question_text": "In the diagram, what is the direct cause of voltage-dependent calcium channels opening, as indicated by the visual cues?",
+        "options": [
+          "A: Binding of neurotransmitters to postsynaptic receptors",
+          "B: Depolarization of the presynaptic membrane",
+          "C: Increase in intracellular calcium concentration",
+          "D: Hyperpolarization of the presynaptic membrane"
+        ],
+        "correct_answer": "B",
+        "explanation": "The diagram shows voltage-dependent calcium channels opening in response to membrane depolarization, as evidenced by the labeled depolarization event preceding channel activation. This aligns with the causal mechanism described in block_1, where depolarization triggers channel opening.",
+        "target_concept": "voltage-dependent calcium channels",
+        "difficulty": "hard",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/10.png",
+        "image_grounded": true,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "block_1",
+          "run_id": "20260429_172334_Behavioral_Neuroscience_fd8a16"
+        }
+      },
+      "image_url": "generation/images/10.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: voltage-dependent calcium channels\nQuestion type: multiple_choice\nDifficulty: hard\nReasoning type: causal\nImage role: reasoning\nLearning objective: Understand the role of voltage-dependent calcium channels in initiating neurotransmitter release.\nImage context: A diagram showing the opening of voltage-dependent calcium channels in response to membrane depolarization.\nTested fact block ID: block_1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.",
+      "image_prompt": "**Prompt:**\nCreate a simplified cross-sectional diagram of a neuron’s presynaptic terminal, showing a voltage-dependent calcium channel embedded in the membrane. Depict the channel in a closed state (left) with a polarized membrane (negative inside) and an open state (right) after depolarization (positive inside), with calcium ions (Ca²⁺) flowing inward. Use high-contrast colors: blue for the membrane, yellow for calcium ions, and red for the channel’s activation gate. Label key parts: \"Membrane,\" \"Ca²⁺ Channel (Closed/Open),\" and \"Ca²⁺ Inflow.\" Avoid text that explains the mechanism—focus on visual clarity.\n\n**Alt:** A diagram showing calcium channels opening in a neuron’s membrane when depolarized, allowing calcium ions to enter."
+    }
+  ]
+}

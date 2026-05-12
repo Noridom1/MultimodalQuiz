@@ -1,0 +1,112 @@
+[
+  {
+    "target_concept": "synchronous rotation",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Moon's rotation and orbit around Earth, with arrows indicating equal periods.",
+    "learning_objective": "Understand the relationship between the Moon's rotation and orbital periods.",
+    "tested_fact_block_id": "block_13",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Waxing Gibbous",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "An illustration of the Waxing Gibbous phase, showing the Moon with more than half of its illuminated side visible.",
+    "learning_objective": "Identify the characteristics of the Waxing Gibbous lunar phase.",
+    "tested_fact_block_id": "block_16",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Orbit",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the elliptical orbit of the Moon around Earth, with labeled apogee and perigee points.",
+    "learning_objective": "Understand the shape and characteristics of the Moon's orbit around Earth.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Rotation",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Moon's rotation and orbital period around Earth.",
+    "learning_objective": "Understand the relationship between the Moon's rotation and orbital periods.",
+    "tested_fact_block_id": "block_10",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Sun",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the layers of the Sun and the alignment during a total solar eclipse.",
+    "learning_objective": "Understand the conditions under which the Sun's corona becomes visible during an eclipse.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Illuminated side",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the positions of the Earth, Moon, and Sun during a New Moon, highlighting the illuminated and dark sides.",
+    "learning_objective": "Understand the orientation of the Moon's illuminated and dark sides during a New Moon.",
+    "tested_fact_block_id": "astronomy::concept::8::illuminated_side",
+    "metadata": {}
+  },
+  {
+    "target_concept": "New Moon",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the alignment of the Earth, Moon, and Sun during a New Moon phase.",
+    "learning_objective": "Understand the positional relationship of the Moon, Earth, and Sun during the New Moon phase.",
+    "tested_fact_block_id": "astronomy::concept::7::new_moon",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Dark side",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Moon's tidal locking with Earth, highlighting the far side that is never visible.",
+    "learning_objective": "Understand the concept of the Moon's dark side and its relationship to tidal locking.",
+    "tested_fact_block_id": "astronomy::concept::9::dark_side",
+    "metadata": {}
+  },
+  {
+    "target_concept": "First Quarter Moon",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the position of the Moon relative to the Earth and Sun during the First Quarter Moon phase.",
+    "learning_objective": "Understand the position and illumination of the Moon during the First Quarter Moon phase.",
+    "tested_fact_block_id": "astronomy::concept::11::first_quarter_moon",
+    "metadata": {}
+  },
+  {
+    "target_concept": "celestial motions",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the elliptical orbit of the Moon around Earth, highlighting the varying distances at perigee and apogee.",
+    "learning_objective": "Understand the nature of the Moon's orbit and its implications for celestial motions.",
+    "tested_fact_block_id": "astronomy::concept::10::crescent_moon",
+    "metadata": {}
+  }
+]
