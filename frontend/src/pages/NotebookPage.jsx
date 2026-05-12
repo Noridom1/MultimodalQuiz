@@ -3,15 +3,18 @@ import { BookOpen } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import { api } from "../api";
 import LoadingPanel from "../components/common/LoadingPanel";
+import UserAccountMenu from "../components/common/UserAccountMenu";
 import ConversationPanel from "../components/notebook/ConversationPanel";
 import QuizBuilderModal from "../components/notebook/QuizBuilderModal";
 import QuizPanel from "../components/notebook/QuizPanel";
 import SourcePanel from "../components/notebook/SourcePanel";
+import { useAuth } from "../context/AuthContext";
 import { useWorkspaceColumnResize } from "../hooks/useWorkspaceColumnResize";
 import { loadQuizSession, saveQuizSession } from "../utils/quizSessionStorage";
 
 function NotebookPage() {
   const { notebookId } = useParams();
+  const { user } = useAuth();
   const [workspace, setWorkspace] = useState(null);
   const [loading, setLoading] = useState(true);
   const [message, setMessage] = useState("");
@@ -50,7 +53,7 @@ function NotebookPage() {
     return () => {
       active = false;
     };
-  }, [notebookId]);
+  }, [notebookId, user?.id]);
 
   useEffect(() => {
     if (!workspace?.notebook) return;
@@ -300,6 +303,7 @@ function NotebookPage() {
             aria-label="Notebook title"
           />
         </div>
+        <div className="notebook-topbar-actions">{user ? <UserAccountMenu /> : null}</div>
       </header>
 
       <QuizBuilderModal

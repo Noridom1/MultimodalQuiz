@@ -1,7 +1,45 @@
 export const API_BASE = import.meta.env.VITE_API_BASE_URL || "";
 
+let getAccessToken = () => null;
+let onUnauthorized = () => {};
+
+export function configureApiClient({ getToken, onAuthError } = {}) {
+  if (typeof getToken === "function") {
+    getAccessToken = getToken;
+  }
+  if (typeof onAuthError === "function") {
+    onUnauthorized = onAuthError;
+  }
+}
+
+function withAuthHeaders(headers) {
+  const h = new Headers();
+  if (headers instanceof Headers) {
+    headers.forEach((value, key) => h.set(key, value));
+  } else if (headers && typeof headers === "object") {
+    for (const [key, value] of Object.entries(headers)) {
+      if (value != null) h.set(key, String(value));
+    }
+  }
+  const token = getAccessToken();
+  if (token) {
+    h.set("Authorization", `Bearer ${token}`);
+  }
+  return h;
+}
+
 async function request(path, options = {}) {
-  const response = await fetch(`${API_BASE}${path}`, options);
+  const response = await fetch(`${API_BASE}${path}`, {
+    ...options,
+    headers: withAuthHeaders(options.headers),
+  });
+  if (response.status === 401) {
+    try {
+      onUnauthorized();
+    } catch {
+      /* ignore */
+    }
+  }
   if (!response.ok) {
     const error = await response.json().catch(() => ({ detail: "Request failed" }));
     throw new Error(error.detail || "Request failed");
@@ -10,7 +48,17 @@ async function request(path, options = {}) {
 }
 
 async function requestBlob(path, options = {}) {
-  const response = await fetch(`${API_BASE}${path}`, options);
+  const response = await fetch(`${API_BASE}${path}`, {
+    ...options,
+    headers: withAuthHeaders(options.headers),
+  });
+  if (response.status === 401) {
+    try {
+      onUnauthorized();
+    } catch {
+      /* ignore */
+    }
+  }
   if (!response.ok) {
     const error = await response.json().catch(() => ({ detail: "Request failed" }));
     throw new Error(error.detail || "Request failed");
@@ -100,4 +148,3 @@ export const api = {
       body: JSON.stringify(payload),
     }),
 };
-

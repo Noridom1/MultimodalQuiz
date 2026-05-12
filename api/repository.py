@@ -7,12 +7,36 @@ from typing import Any
 from uuid import uuid4
 
 import requests
+from fastapi import HTTPException
 
 from .config import Settings
 
 
 def utcnow_iso() -> str:
     return datetime.now(UTC).isoformat()
+
+
+def _rest_fail(response: requests.Response) -> None:
+    """Raise HTTPException with PostgREST / Supabase error body (no secrets)."""
+    detail: str
+    try:
+        body = response.json()
+        if isinstance(body, dict):
+            detail = str(
+                body.get("message")
+                or body.get("error_description")
+                or body.get("hint")
+                or body.get("code")
+                or json.dumps(body, ensure_ascii=False)
+            )
+        else:
+            detail = str(body)
+    except Exception:
+        detail = (response.text or response.reason or "Supabase REST error").strip()
+    status = response.status_code
+    if status >= 500:
+        status = 502
+    raise HTTPException(status_code=status, detail=detail[:4000])
 
 
 class NotebookRepository:
@@ -30,27 +54,38 @@ class NotebookRepository:
     def is_remote(self) -> bool:
         return self.settings.supabase_enabled
 
-    def list_notebooks(self) -> list[dict[str, Any]]:
+    def list_notebooks(self, *, owner_id: str | None = None) -> list[dict[str, Any]]:
         notebooks = self._select("notebooks", order="last_opened_at.desc")
+        if owner_id is not None:
+            notebooks = [item for item in notebooks if item.get("owner_id") == owner_id]
         return sorted(notebooks, key=lambda item: item.get("last_opened_at", ""), reverse=True)
 
     def get_notebook(self, notebook_id: str) -> dict[str, Any] | None:
         rows = self._select("notebooks", filters={"id": notebook_id})
         return rows[0] if rows else None
 
-    def create_notebook(self, title: str, description: str | None = None) -> dict[str, Any]:
+    def create_notebook(
+        self,
+        title: str,
+        description: str | None = None,
+        *,
+        owner_id: str | None = None,
+    ) -> dict[str, Any]:
         now = utcnow_iso()
-        payload = {
+        payload: dict[str, Any] = {
             "id": str(uuid4()),
             "title": title,
             "description": description or "",
             "cover_image": "",
             "accent_color": self._pick_accent(title),
             "pinned": False,
-            "created_at": now,
-            "updated_at": now,
-            "last_opened_at": now,
         }
+        if not self.is_remote:
+            payload["created_at"] = now
+            payload["updated_at"] = now
+            payload["last_opened_at"] = now
+        if owner_id:
+            payload["owner_id"] = owner_id
         return self._insert_one("notebooks", payload)
 
     def update_notebook(self, notebook_id: str, patch: dict[str, Any]) -> dict[str, Any] | None:
@@ -127,7 +162,8 @@ class NotebookRepository:
                 "content-type": content_type,
             }
             response = requests.post(url, headers=headers, data=payload, timeout=30)
-            response.raise_for_status()
+            if not response.ok:
+                _rest_fail(response)
             return (
                 f"{self.settings.supabase_url}/storage/v1/object/public/"
                 f"{self.settings.supabase_bucket}/{storage_path}"
@@ -162,7 +198,8 @@ class NotebookRepository:
                 params=params,
                 timeout=30,
             )
-            response.raise_for_status()
+            if not response.ok:
+                _rest_fail(response)
             return response.json()
 
         items = self._read_local(table)
@@ -183,7 +220,8 @@ class NotebookRepository:
                 json=payload,
                 timeout=30,
             )
-            response.raise_for_status()
+            if not response.ok:
+                _rest_fail(response)
             return response.json()[0]
 
         items = self._read_local(table)
@@ -207,7 +245,8 @@ class NotebookRepository:
                 json=payload,
                 timeout=30,
             )
-            response.raise_for_status()
+            if not response.ok:
+                _rest_fail(response)
             return response.json()
 
         items = self._read_local(table)
@@ -228,7 +267,8 @@ class NotebookRepository:
                 params=params,
                 timeout=30,
             )
-            response.raise_for_status()
+            if not response.ok:
+                _rest_fail(response)
             return
 
         items = self._read_local(table)

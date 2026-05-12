@@ -1,11 +1,21 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import SupabaseAuthCard from "../components/auth/SupabaseAuthCard";
 import { supabase } from "../lib/supabaseClient";
 
+function safeReturnPath(state) {
+  const raw = typeof state?.from === "string" ? state.from : "/";
+  if (!raw.startsWith("/") || raw.startsWith("//")) {
+    return "/";
+  }
+  return raw;
+}
+
 export default function LoginPage() {
   const navigate = useNavigate();
+  const location = useLocation();
   const [errorMessage, setErrorMessage] = useState("");
+  const returnTo = safeReturnPath(location.state);
 
   useEffect(() => {
     if (!supabase) return undefined;
@@ -13,11 +23,11 @@ export default function LoginPage() {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((event, session) => {
       if (event === "SIGNED_IN" && session) {
-        navigate("/", { replace: true });
+        navigate(returnTo, { replace: true });
       }
     });
     return () => subscription.unsubscribe();
-  }, [navigate]);
+  }, [navigate, returnTo]);
 
   return (
     <SupabaseAuthCard

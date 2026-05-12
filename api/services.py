@@ -11,6 +11,7 @@ from urllib.parse import unquote, urlparse
 
 from fastapi import HTTPException, UploadFile
 
+from .auth import AuthUser
 from .config import Settings
 from .repository import NotebookRepository
 from src.pipeline import QuizGenerationPipeline
@@ -22,11 +23,18 @@ class NotebookService:
         self.repo = repo
         self.pipeline = QuizGenerationPipeline(output_root=settings.output_root)
 
-    def list_notebook_cards(self) -> list[dict[str, Any]]:
-        notebooks = self.repo.list_notebooks()
+    def _require_notebook_owner(self, notebook: dict[str, Any], auth: AuthUser | None) -> None:
+        if auth is None:
+            return
+        if notebook.get("owner_id") != auth.id:
+            raise HTTPException(status_code=404, detail="Notebook not found")
+
+    def list_notebook_cards(self, *, auth: AuthUser | None) -> list[dict[str, Any]]:
+        owner = auth.id if auth else None
+        notebooks = self.repo.list_notebooks(owner_id=owner)
         cards: list[dict[str, Any]] = []
         for notebook in notebooks:
-            workspace = self.get_workspace(notebook["id"])
+            workspace = self.get_workspace(notebook["id"], auth=auth)
             cards.append(
                 {
                     **workspace["notebook"],
@@ -41,10 +49,11 @@ class NotebookService:
             )
         return cards
 
-    def get_workspace(self, notebook_id: str) -> dict[str, Any]:
+    def get_workspace(self, notebook_id: str, *, auth: AuthUser | None) -> dict[str, Any]:
         notebook = self.repo.get_notebook(notebook_id)
         if not notebook:
             raise HTTPException(status_code=404, detail="Notebook not found")
+        self._require_notebook_owner(notebook, auth)
 
         self.repo.update_notebook(notebook_id, {"last_opened_at": self._now()})
         sources = self.repo.list_sources(notebook_id)
@@ -75,10 +84,12 @@ class NotebookService:
         *,
         upload: UploadFile,
         title: str | None,
+        auth: AuthUser | None,
     ) -> dict[str, Any]:
         notebook = self.repo.get_notebook(notebook_id)
         if not notebook:
             raise HTTPException(status_code=404, detail="Notebook not found")
+        self._require_notebook_owner(notebook, auth)
 
         file_bytes = await upload.read()
         if not file_bytes:
@@ -115,10 +126,11 @@ class NotebookService:
         )
         return source
 
-    def add_message(self, notebook_id: str, content: str) -> dict[str, Any]:
+    def add_message(self, notebook_id: str, content: str, *, auth: AuthUser | None) -> dict[str, Any]:
         notebook = self.repo.get_notebook(notebook_id)
         if not notebook:
             raise HTTPException(status_code=404, detail="Notebook not found")
+        self._require_notebook_owner(notebook, auth)
 
         user_message = self.repo.create_message(notebook_id, "user", content.strip())
         runs = [self._hydrate_run(run) for run in self.repo.list_runs(notebook_id)]
@@ -135,10 +147,12 @@ class NotebookService:
         num_questions: int,
         mock_image: bool,
         mock_question: bool,
+        auth: AuthUser | None,
     ) -> dict[str, Any]:
         notebook = self.repo.get_notebook(notebook_id)
         if not notebook:
             raise HTTPException(status_code=404, detail="Notebook not found")
+        self._require_notebook_owner(notebook, auth)
 
         source = next((item for item in self.repo.list_sources(notebook_id) if item["id"] == source_id), None)
         if not source:
@@ -209,10 +223,11 @@ class NotebookService:
             )
             raise HTTPException(status_code=500, detail=str(exc)) from exc
 
-    def patch_notebook(self, notebook_id: str, *, title: str | None) -> dict[str, Any]:
+    def patch_notebook(self, notebook_id: str, *, title: str | None, auth: AuthUser | None) -> dict[str, Any]:
         notebook = self.repo.get_notebook(notebook_id)
         if not notebook:
             raise HTTPException(status_code=404, detail="Notebook not found")
+        self._require_notebook_owner(notebook, auth)
         patch: dict[str, Any] = {}
         if title is not None:
             cleaned = title.strip()
@@ -226,10 +241,13 @@ class NotebookService:
             raise HTTPException(status_code=404, detail="Notebook not found")
         return updated
 
-    def rename_run(self, notebook_id: str, run_id: str, title: str) -> dict[str, Any]:
+    def rename_run(self, notebook_id: str, run_id: str, title: str, *, auth: AuthUser | None) -> dict[str, Any]:
         run = self.repo.get_run_by_run_id(run_id)
         if not run or run.get("notebook_id") != notebook_id:
             raise HTTPException(status_code=404, detail="Run not found")
+        notebook = self.repo.get_notebook(notebook_id)
+        if notebook:
+            self._require_notebook_owner(notebook, auth)
         cleaned = title.strip()
         if not cleaned:
             raise HTTPException(status_code=400, detail="Title cannot be empty")
@@ -250,16 +268,22 @@ class NotebookService:
             raise HTTPException(status_code=404, detail="Run not found")
         return hydrated
 
-    def delete_notebook_run(self, notebook_id: str, run_id: str) -> None:
+    def delete_notebook_run(self, notebook_id: str, run_id: str, *, auth: AuthUser | None) -> None:
         run = self.repo.get_run_by_run_id(run_id)
         if not run or run.get("notebook_id") != notebook_id:
             raise HTTPException(status_code=404, detail="Run not found")
+        notebook = self.repo.get_notebook(notebook_id)
+        if notebook:
+            self._require_notebook_owner(notebook, auth)
         self.repo.delete_run(run_id)
 
-    def export_run_zip(self, notebook_id: str, run_id: str) -> tuple[bytes, str]:
+    def export_run_zip(self, notebook_id: str, run_id: str, *, auth: AuthUser | None) -> tuple[bytes, str]:
         run = self._hydrate_run(self.repo.get_run_by_run_id(run_id))
         if not run or run.get("notebook_id") != notebook_id:
             raise HTTPException(status_code=404, detail="Run not found")
+        notebook = self.repo.get_notebook(notebook_id)
+        if notebook:
+            self._require_notebook_owner(notebook, auth)
         if run.get("status") != "completed":
             raise HTTPException(status_code=400, detail="Only completed quizzes can be exported")
 
@@ -311,6 +335,19 @@ class NotebookService:
 
         filename = f"{self._slugify(str(payload['title'])) or self._slugify(run_id)}.zip"
         return zip_buffer.getvalue(), filename
+
+    def get_run_for_request(self, run_id: str, *, auth: AuthUser | None) -> dict[str, Any]:
+        run = self.repo.get_run_by_run_id(run_id)
+        if not run:
+            raise HTTPException(status_code=404, detail="Run not found")
+        notebook = self.repo.get_notebook(str(run.get("notebook_id", "")))
+        if not notebook:
+            raise HTTPException(status_code=404, detail="Run not found")
+        self._require_notebook_owner(notebook, auth)
+        hydrated = self._hydrate_run(run)
+        if not hydrated:
+            raise HTTPException(status_code=404, detail="Run not found")
+        return hydrated
 
     def _build_run_summary(self, notebook_id: str, result: dict[str, Any]) -> dict[str, Any]:
         run_root = Path(result["run_root"])

@@ -10,22 +10,31 @@ import {
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import LoadingPanel from "../components/common/LoadingPanel";
+import UserAccountMenu from "../components/common/UserAccountMenu";
 import { api } from "../api";
+import { useAuth } from "../context/AuthContext";
 import { heroStyle } from "../utils/ui";
 
 function DashboardPage() {
   const navigate = useNavigate();
+  const { user, supabaseConfigured } = useAuth();
   const [notebooks, setNotebooks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [creating, startCreating] = useTransition();
 
   useEffect(() => {
     let active = true;
+    setLoading(true);
     api
       .listNotebooks()
       .then((data) => {
         if (active) {
           setNotebooks(data);
+        }
+      })
+      .catch(() => {
+        if (active) {
+          setNotebooks([]);
         }
       })
       .finally(() => {
@@ -36,7 +45,7 @@ function DashboardPage() {
     return () => {
       active = false;
     };
-  }, []);
+  }, [user?.id, supabaseConfigured]);
 
   const featured = notebooks.slice(0, 3);
 
@@ -64,9 +73,13 @@ function DashboardPage() {
             <Search size={18} />
             Search
           </button>
-          <Link className="ghost-pill" to="/login">
-            Sign in
-          </Link>
+          {user ? (
+            <UserAccountMenu />
+          ) : supabaseConfigured ? (
+            <Link className="ghost-pill" to="/login">
+              Sign in
+            </Link>
+          ) : null}
           <button className="primary-pill" onClick={handleCreateNotebook} disabled={creating}>
             {creating ? <LoaderCircle className="spin" size={18} /> : <Plus size={18} />}
             Create new

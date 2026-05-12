@@ -2,12 +2,13 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from fastapi import FastAPI, File, Form, HTTPException, UploadFile
+from fastapi import Depends, FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
+from .auth import AuthUser, get_auth_user
 from .config import settings
 from .repository import NotebookRepository
 from .services import NotebookService
@@ -53,27 +54,42 @@ class RunPatchRequest(BaseModel):
 
 @app.get("/api/health")
 def healthcheck() -> dict[str, object]:
-    return {"ok": True, "supabase_enabled": settings.supabase_enabled}
+    return {
+        "ok": True,
+        "supabase_enabled": settings.supabase_enabled,
+        "auth_enabled": settings.auth_enabled,
+    }
 
 
 @app.get("/api/notebooks")
-def list_notebooks() -> list[dict[str, object]]:
-    return service.list_notebook_cards()
+def list_notebooks(user: AuthUser | None = Depends(get_auth_user)) -> list[dict[str, object]]:
+    return service.list_notebook_cards(auth=user)
 
 
 @app.post("/api/notebooks")
-def create_notebook(payload: NotebookCreateRequest) -> dict[str, object]:
-    return repo.create_notebook(payload.title, payload.description)
+def create_notebook(
+    payload: NotebookCreateRequest,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, object]:
+    owner_id = user.id if user else None
+    return repo.create_notebook(payload.title, payload.description, owner_id=owner_id)
 
 
 @app.get("/api/notebooks/{notebook_id}")
-def get_notebook(notebook_id: str) -> dict[str, object]:
-    return service.get_workspace(notebook_id)
+def get_notebook(
+    notebook_id: str,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, object]:
+    return service.get_workspace(notebook_id, auth=user)
 
 
 @app.patch("/api/notebooks/{notebook_id}")
-def patch_notebook(notebook_id: str, payload: NotebookPatchRequest) -> dict[str, object]:
-    return service.patch_notebook(notebook_id, title=payload.title)
+def patch_notebook(
+    notebook_id: str,
+    payload: NotebookPatchRequest,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, object]:
+    return service.patch_notebook(notebook_id, title=payload.title, auth=user)
 
 
 @app.post("/api/notebooks/{notebook_id}/sources")
@@ -81,40 +97,63 @@ async def upload_source(
     notebook_id: str,
     file: UploadFile = File(...),
     title: str | None = Form(default=None),
+    user: AuthUser | None = Depends(get_auth_user),
 ) -> dict[str, object]:
-    return await service.add_source(notebook_id, upload=file, title=title)
+    return await service.add_source(notebook_id, upload=file, title=title, auth=user)
 
 
 @app.post("/api/notebooks/{notebook_id}/messages")
-def create_message(notebook_id: str, payload: MessageCreateRequest) -> dict[str, object]:
-    return service.add_message(notebook_id, payload.content)
+def create_message(
+    notebook_id: str,
+    payload: MessageCreateRequest,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, object]:
+    return service.add_message(notebook_id, payload.content, auth=user)
 
 
 @app.post("/api/notebooks/{notebook_id}/generate")
-def generate_quiz(notebook_id: str, payload: GenerateQuizRequest) -> dict[str, object]:
+def generate_quiz(
+    notebook_id: str,
+    payload: GenerateQuizRequest,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, object]:
     return service.generate_quiz(
         notebook_id,
         source_id=payload.source_id,
         num_questions=payload.num_questions,
         mock_image=payload.mock_image,
         mock_question=payload.mock_question,
+        auth=user,
     )
 
 
 @app.patch("/api/notebooks/{notebook_id}/runs/{run_id}")
-def patch_run(notebook_id: str, run_id: str, payload: RunPatchRequest) -> dict[str, object]:
-    return service.rename_run(notebook_id, run_id, payload.title)
+def patch_run(
+    notebook_id: str,
+    run_id: str,
+    payload: RunPatchRequest,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, object]:
+    return service.rename_run(notebook_id, run_id, payload.title, auth=user)
 
 
 @app.delete("/api/notebooks/{notebook_id}/runs/{run_id}")
-def delete_run(notebook_id: str, run_id: str) -> dict[str, bool]:
-    service.delete_notebook_run(notebook_id, run_id)
+def delete_run(
+    notebook_id: str,
+    run_id: str,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> dict[str, bool]:
+    service.delete_notebook_run(notebook_id, run_id, auth=user)
     return {"ok": True}
 
 
 @app.get("/api/notebooks/{notebook_id}/runs/{run_id}/export")
-def export_run(notebook_id: str, run_id: str) -> Response:
-    payload, filename = service.export_run_zip(notebook_id, run_id)
+def export_run(
+    notebook_id: str,
+    run_id: str,
+    user: AuthUser | None = Depends(get_auth_user),
+) -> Response:
+    payload, filename = service.export_run_zip(notebook_id, run_id, auth=user)
     return Response(
         content=payload,
         media_type="application/zip",
@@ -123,11 +162,8 @@ def export_run(notebook_id: str, run_id: str) -> Response:
 
 
 @app.get("/api/runs/{run_id}")
-def get_run(run_id: str) -> dict[str, object]:
-    run = service._hydrate_run(repo.get_run_by_run_id(run_id))
-    if not run:
-        raise HTTPException(status_code=404, detail="Run not found")
-    return run
+def get_run(run_id: str, user: AuthUser | None = Depends(get_auth_user)) -> dict[str, object]:
+    return service.get_run_for_request(run_id, auth=user)
 
 
 @app.get("/api/artifacts/{artifact_path:path}")

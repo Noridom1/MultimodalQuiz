@@ -104,6 +104,42 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_public_key
 
 Use the **anon** key from the Supabase dashboard (not the service role). Enable the Google, Apple, and Facebook providers under Authentication if you use those buttons.
 
+#### Per-user notebooks (API)
+
+The FastAPI server verifies the same Supabase session the browser uses. Add to the **repository root** `.env` (next to your other `SUPABASE_*` vars):
+
+```env
+SUPABASE_JWT_SECRET=your_jwt_secret_from_supabase_dashboard
+```
+
+Copy **Legacy JWT secret** from **Supabase → JWT Keys → Legacy JWT secret** when your project still issues **HS256** access tokens. If Supabase uses **asymmetric signing (ES256/RS256)**, the API verifies tokens with **`{SUPABASE_URL}/auth/v1/.well-known/jwks.json`** and does **not** need the legacy secret for those tokens.
+
+When **`SUPABASE_URL`** is set, `/api/notebooks` requires `Authorization: Bearer <access_token>` and scopes notebooks by `owner_id`. Apply the `owner_id` migration at the bottom of [`supabase/schema.sql`](supabase/schema.sql) if your project was created before that column existed.
+
+`GET /api/health` includes `auth_enabled: true` when `SUPABASE_URL` is set (JWT verification is active).
+
+#### OAuth providers (Facebook, Google, Apple)
+
+**Important:** Social login goes **browser → provider → Supabase → your app**. The provider (e.g. Meta) redirects to Supabase first, not to `localhost`.
+
+1. **Supabase** — In the Supabase dashboard: **Authentication → URL configuration**. Set **Site URL** to your app origin (e.g. `http://localhost:5173`). Under **Redirect URLs**, add the same origin and paths you use after login (e.g. `http://localhost:5173` and `http://localhost:5173/**` or `http://localhost:5173/login`).
+
+2. **Meta (Facebook) — Valid OAuth Redirect URIs** — Add **exactly** (replace with your project ref):
+
+   ```text
+   https://<your-project-ref>.supabase.co/auth/v1/callback
+   ```
+
+   You can copy the callback URL from **Supabase → Authentication → Providers → Facebook** (it is shown in the setup instructions). If this URI is missing, Meta shows errors like **“Can’t load URL”** / domain not allowed.
+
+3. **Why Meta still complains about “localhost”** — Meta’s note that `http://localhost` redirect URIs are auto-allowed in development applies when **Facebook’s redirect_uri is on localhost**. With Supabase, that redirect_uri is **`https://….supabase.co/auth/v1/callback`**, so you must allow that URL explicitly (step 2). Your **final** return to the app still uses `redirectTo` (e.g. `http://localhost:5173/`), which Supabase handles after the callback.
+
+4. **Meta — App Domains / JavaScript SDK** — In **App settings → Basic**, set **Website** / site URL as needed for your dev app (e.g. `http://localhost:5173`). If you use **“Allowed Domains for the JavaScript SDK”**, include the exact origin you open in the browser (e.g. `http://localhost:5173`). Use **`http://localhost:5173`**, not `http://127.0.0.1:5173`, unless you add the `127.0.0.1` origin everywhere (Meta treats them as different sites).
+
+5. **App mode** — Keep the Meta app in **Development** while testing; the localhost redirect exception does not replace the need for the **Supabase callback** URI in step 2.
+
+6. **“Invalid Scopes: email” (Meta)** — Facebook Login only allows scopes your app is allowed to request. The `email` permission must be enabled under **Meta → your app → Use cases / Permissions and features** (and may require App Review when live). This project’s Facebook button requests **`public_profile` only** so local sign-in works without `email`; once Meta grants `email` for your app, you can change the `scopes` option in `SupabaseAuthCard.jsx` to `public_profile,email` if you need the address on the Supabase user.
+
 Open:
 
 ```text
@@ -137,11 +173,14 @@ That schema creates:
 - `public.notebook_runs`
 - A public storage bucket named `quiz-assets`
 
+If you already applied an older schema, ensure `public.notebooks` has an **`owner_id uuid`** column (see the `alter table` at the bottom of `supabase/schema.sql`). The API returns a **clear JSON `detail`** from PostgREST on failure (for example unknown column). If you previously added `owner_id` with a foreign key to `auth.users` and inserts still fail with 400, drop that constraint so `owner_id` is a plain uuid: `ALTER TABLE public.notebooks DROP CONSTRAINT IF EXISTS notebooks_owner_id_fkey;`
+
 Then set these values in `.env`:
 
 ```env
 SUPABASE_URL=...
 SUPABASE_SERVICE_ROLE_KEY=...
+SUPABASE_JWT_SECRET=...
 SUPABASE_BUCKET=quiz-assets
 ```
 

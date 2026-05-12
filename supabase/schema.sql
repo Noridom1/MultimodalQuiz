@@ -2,6 +2,7 @@ create extension if not exists "pgcrypto";
 
 create table if not exists public.notebooks (
   id uuid primary key default gen_random_uuid(),
+  owner_id uuid,
   title text not null,
   description text not null default '',
   cover_image text not null default '',
@@ -66,3 +67,7 @@ create policy "public read quiz assets"
 on storage.objects for select
 to public
 using (bucket_id = 'quiz-assets');
+
+-- Per-user notebooks: store Supabase Auth user id (uuid). No FK to auth.users so PostgREST inserts stay reliable.
+alter table public.notebooks add column if not exists owner_id uuid;
+create index if not exists notebooks_owner_id_idx on public.notebooks (owner_id);

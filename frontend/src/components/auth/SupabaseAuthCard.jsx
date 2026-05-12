@@ -112,7 +112,12 @@ export default function SupabaseAuthCard({
     try {
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "facebook",
-        options: { redirectTo: redirectUrl },
+        options: {
+          redirectTo: redirectUrl,
+          // Meta rejects `email` until it is enabled for the app (Permissions and Features).
+          // `public_profile` works for new apps in Development without extra review.
+          scopes: "public_profile",
+        },
       });
       if (error) throw error;
     } catch (e) {
