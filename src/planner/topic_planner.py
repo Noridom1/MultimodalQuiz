@@ -135,16 +135,17 @@ class TopicAgenticPlanner:
         target_type_counts = profile.expected_counts(effective_total)
         produced_type_counts: Counter[str] = Counter()
 
-        # Extract all topic nodes from graph
-        # Note: Topics are typically nodes with kind == "concept" that have special metadata
-        # For now, we treat all concept nodes as potential topics
-        # In a real system, topics might be marked with metadata["is_topic"] = True
-        topic_ids = [node.id for node in self._knowledge_graph.nodes if node.kind == NodeKind.concept]
+        # Prefer explicit topic nodes from topic induction. Fall back to concept nodes for older graphs.
+        topic_ids = [node.id for node in self._knowledge_graph.nodes if node.kind == NodeKind.topic]
+        topic_source = "topic"
+        if not topic_ids:
+            topic_ids = [node.id for node in self._knowledge_graph.nodes if node.kind == NodeKind.concept]
+            topic_source = "concept-fallback"
 
         if not topic_ids:
             raise ValueError("No topic nodes found in graph. Cannot proceed with topic-agentic planning.")
 
-        logger.info(f"Found {len(topic_ids)} topic nodes. Planning {effective_total} questions.")
+        logger.info("Found %d %s candidates. Planning %d questions.", len(topic_ids), topic_source, effective_total)
 
         # Calculate total resources for proportional allocation, but prioritize uncovered concepts
         topic_contexts = {}
@@ -168,8 +169,14 @@ class TopicAgenticPlanner:
         def topic_uncovered_concepts(ctx):
             return [c for c in ctx.associated_concepts if c.label.lower() not in used_concepts]
 
+        logger.debug(
+            "Initial topic contexts retrieved: %d. Starting planning loop with budget %d.",
+            len(topic_contexts),
+            remaining_budget,
+        )
         # Loop through topics and allocate proportionally by uncovered concept counts
         for topic_id in topic_ids:
+            logger.info("Evaluating topic %s for question generation (remaining budget: %d)", topic_id, remaining_budget)
             if topic_id not in topic_contexts:
                 continue
 
@@ -177,7 +184,7 @@ class TopicAgenticPlanner:
             uncovered = topic_uncovered_concepts(context)
             # Skip topics with no uncovered concepts
             if not uncovered:
-                logger.debug(f"Skipping topic {topic_id} ({context.topic_label}) - no uncovered concepts")
+                logger.debug("Skipping topic %s (%s) - no uncovered concepts", topic_id, context.topic_label)
                 continue
 
             # Compute total uncovered across remaining topics
@@ -240,7 +247,7 @@ class TopicAgenticPlanner:
                 if remaining_budget <= 0:
                     break
             except RuntimeError as e:
-                logger.error(f"Failed to generate plans for topic {context.topic_label}: {e}")
+                logger.error("Failed to generate plans for topic %s: %s", context.topic_label, e)
                 continue
 
         if not all_plans:

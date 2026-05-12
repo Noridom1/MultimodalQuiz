@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import logging
+import os
 from pathlib import Path
 
 from fastapi import Depends, FastAPI, File, Form, HTTPException, Query, UploadFile
@@ -14,7 +16,28 @@ from .repository import NotebookRepository
 from .services import NotebookService
 
 
+def _configure_application_logging() -> None:
+    level_name = os.getenv("QUIZGEN_LOG_LEVEL", "INFO").upper()
+    level = getattr(logging, level_name, logging.INFO)
+    formatter = logging.Formatter("%(levelname)s %(name)s: %(message)s")
+
+    for logger_name in ("src", "api"):
+        app_logger = logging.getLogger(logger_name)
+        app_logger.setLevel(level)
+        app_logger.propagate = False
+        has_stream_handler = any(isinstance(handler, logging.StreamHandler) for handler in app_logger.handlers)
+        if not has_stream_handler:
+            handler = logging.StreamHandler()
+            handler.setLevel(level)
+            handler.setFormatter(formatter)
+            app_logger.addHandler(handler)
+        else:
+            for handler in app_logger.handlers:
+                handler.setLevel(level)
+
+
 app = FastAPI(title="Multimodal Quiz UI API")
+_configure_application_logging()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=list(CORS_ALLOW_ORIGINS),
