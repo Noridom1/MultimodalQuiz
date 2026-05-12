@@ -58,8 +58,8 @@ class TopicContextRetriever:
         topic_node = self._nodes_by_id.get(topic_id)
         if not topic_node:
             raise ValueError(f"Topic node {topic_id} not found in graph")
-        if topic_node.kind != NodeKind.concept:  # Topics are typically concept nodes
-            raise ValueError(f"Node {topic_id} is not a concept (kind={topic_node.kind})")
+        if topic_node.kind not in {NodeKind.topic, NodeKind.concept}:
+            raise ValueError(f"Node {topic_id} is not a supported topic node (kind={topic_node.kind})")
 
         # Initialize context
         context = TopicContext(
@@ -67,8 +67,8 @@ class TopicContextRetriever:
             topic_label=topic_node.label,
         )
 
-        # Find associated concepts via 'groups' or 'mentions' edges
-        associated_concepts = self._find_associated_concepts(topic_id)
+        # Topic nodes use induced topic edges; concept nodes use concept-centric retrieval.
+        associated_concepts = self._find_associated_concepts(topic_id, topic_kind=topic_node.kind)
         context.associated_concepts = associated_concepts
 
         # For each concept, find chunks and images
@@ -81,6 +81,11 @@ class TopicContextRetriever:
             
             concept_chunks[concept.id] = chunks
             concept_images[concept.id] = images
+
+        if topic_node.kind == NodeKind.topic:
+            direct_chunks = self._find_chunks_for_topic(topic_id)
+            if direct_chunks:
+                concept_chunks[topic_id] = direct_chunks
 
         context.concept_chunks = concept_chunks
         context.concept_images = concept_images
@@ -98,8 +103,8 @@ class TopicContextRetriever:
 
         return context
 
-    def _find_associated_concepts(self, topic_id: str) -> list[ConceptNode]:
-        """Find all concept nodes associated with a topic via 'groups' or 'mentions' edges.
+    def _find_associated_concepts(self, topic_id: str, *, topic_kind: NodeKind) -> list[ConceptNode]:
+        """Find all concept nodes associated with a topic or concept node.
         
         Args:
             topic_id: The topic node ID.
@@ -107,44 +112,78 @@ class TopicContextRetriever:
         Returns:
             List of ConceptNode objects.
         """
-        concepts = []
-        visited = set()
+        if topic_kind == NodeKind.topic:
+            return self._find_associated_concepts_for_topic(topic_id)
+        return self._find_associated_concepts_for_concept(topic_id)
 
-        # Use groups and mentions edges from the topic
-        edge_types = {EdgeRelation.mentions, EdgeRelation.defines, EdgeRelation.explains}
-        
-        # BFS to find connected concepts
-        queue = [topic_id]
-        
-        while queue:
-            current_id = queue.pop(0)
-            if current_id in visited:
+    def _find_associated_concepts_for_topic(self, topic_id: str) -> list[ConceptNode]:
+        concepts: list[ConceptNode] = []
+        seen: set[str] = set()
+
+        for edge in self._edges_by_source.get(topic_id, []):
+            if edge.relation != EdgeRelation.groups:
                 continue
-            visited.add(current_id)
-
-            # Find outgoing edges
-            outgoing_edges = self._edges_by_source.get(current_id, [])
-            for edge in outgoing_edges:
-                if edge.confidence != "EXTRACTED":
-                    # Skip non-extracted edges for strict filtering
-                    continue
-                
-                target_node = self._nodes_by_id.get(edge.target)
-                if not target_node:
-                    continue
-
-                # If target is a concept, add it
-                if target_node.kind == NodeKind.concept:
-                    if target_node.id not in visited:
-                        concepts.append(ConceptNode(
-                            id=target_node.id,
-                            label=target_node.label,
-                            text=target_node.text,
-                            metadata=target_node.metadata,
-                        ))
-                        queue.append(target_node.id)
+            target_node = self._nodes_by_id.get(edge.target)
+            if not target_node or target_node.kind != NodeKind.concept:
+                continue
+            if target_node.id in seen:
+                continue
+            seen.add(target_node.id)
+            concepts.append(
+                ConceptNode(
+                    id=target_node.id,
+                    label=target_node.label,
+                    text=target_node.text,
+                    metadata=target_node.metadata,
+                )
+            )
 
         return concepts
+
+    def _find_associated_concepts_for_concept(self, topic_id: str) -> list[ConceptNode]:
+        topic_node = self._nodes_by_id.get(topic_id)
+        if not topic_node:
+            return []
+        return [
+            ConceptNode(
+                id=topic_node.id,
+                label=topic_node.label,
+                text=topic_node.text,
+                metadata=topic_node.metadata,
+            )
+        ]
+
+    def _find_chunks_for_topic(self, topic_id: str) -> list[TextChunk]:
+        chunks: list[TextChunk] = []
+        seen: set[str] = set()
+
+        for edge in self._edges_by_source.get(topic_id, []):
+            if edge.relation != EdgeRelation.grounded_by:
+                continue
+
+            chunk_node = self._nodes_by_id.get(edge.target)
+            if not chunk_node or chunk_node.kind != NodeKind.chunk:
+                continue
+            if not chunk_node.text or chunk_node.id in seen:
+                continue
+
+            seen.add(chunk_node.id)
+            chunks.append(
+                TextChunk(
+                    id=chunk_node.id,
+                    text=chunk_node.text,
+                    source_block_id=chunk_node.id,
+                    section_path=getattr(chunk_node, "section_path", []),
+                    confidence=edge.confidence,
+                    metadata={
+                        "source_label": getattr(chunk_node, "label", None),
+                        "source_file": getattr(chunk_node, "source_file", None),
+                        "topic_grounded": True,
+                    },
+                )
+            )
+
+        return chunks
 
     def _find_chunks_for_concept(self, concept_id: str) -> list[TextChunk]:
         """Find all text chunks associated with a concept.
