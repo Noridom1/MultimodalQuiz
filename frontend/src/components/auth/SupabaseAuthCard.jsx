@@ -189,22 +189,22 @@ export default function SupabaseAuthCard({
   const primaryCta = isSignUp ? "Create Account" : "Sign In";
 
   return (
-    <div className="tw-relative tw-flex tw-min-h-screen tw-w-full tw-overflow-hidden tw-bg-[#030712] tw-text-slate-100">
+    <div className="tw-relative tw-flex tw-min-h-screen tw-w-full tw-overflow-hidden tw-bg-[#eceff3] tw-text-slate-900">
       <div
-        className="tw-pointer-events-none tw-absolute tw-inset-0 tw-animate-gradient-shift tw-bg-gradient-to-br tw-from-[#020617] tw-via-[#0c1222] tw-to-[#042f2e]"
+        className="tw-pointer-events-none tw-absolute tw-inset-0 tw-bg-gradient-to-br tw-from-[#f3f0ff] tw-via-[#eceff3] tw-to-[#e8ecff]"
         style={{ backgroundSize: "200% 200%" }}
       />
 
       <motion.div
         aria-hidden
-        className="tw-pointer-events-none tw-absolute tw--left-32 tw-top-1/4 tw-h-[420px] tw-w-[420px] tw-rounded-full tw-bg-cyan-500/25 tw-blur-[100px] tw-animate-pulse-slow"
+        className="tw-pointer-events-none tw-absolute tw--left-32 tw-top-1/4 tw-h-[420px] tw-w-[420px] tw-rounded-full tw-bg-violet-400/20 tw-blur-[100px] tw-animate-pulse-slow"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.2 }}
       />
       <motion.div
         aria-hidden
-        className="tw-pointer-events-none tw-absolute tw--right-40 tw-bottom-0 tw-h-[480px] tw-w-[480px] tw-rounded-full tw-bg-blue-600/20 tw-blur-[110px] tw-animate-pulse-slow"
+        className="tw-pointer-events-none tw-absolute tw--right-40 tw-bottom-0 tw-h-[480px] tw-w-[480px] tw-rounded-full tw-bg-indigo-400/15 tw-blur-[110px] tw-animate-pulse-slow"
         style={{ animationDelay: "2s" }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -212,7 +212,7 @@ export default function SupabaseAuthCard({
       />
       <motion.div
         aria-hidden
-        className="tw-pointer-events-none tw-absolute tw-left-1/2 tw-top-0 tw-h-[300px] tw-w-[600px] tw--translate-x-1/2 tw-rounded-full tw-bg-cyan-400/10 tw-blur-[90px]"
+        className="tw-pointer-events-none tw-absolute tw-left-1/2 tw-top-0 tw-h-[300px] tw-w-[600px] tw--translate-x-1/2 tw-rounded-full tw-bg-violet-300/12 tw-blur-[90px]"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
@@ -227,22 +227,21 @@ export default function SupabaseAuthCard({
         >
           <div
             className={cn(
-              "tw-relative tw-overflow-hidden tw-rounded-2xl tw-border tw-border-white/[0.08] tw-bg-slate-950/55 tw-p-8 tw-shadow-auth tw-backdrop-blur-2xl sm:tw-p-10",
-              "tw-ring-1 tw-ring-cyan-400/10",
+              "tw-relative tw-overflow-hidden tw-rounded-2xl tw-border tw-border-slate-200/90 tw-bg-white tw-p-8 tw-shadow-xl sm:tw-p-10",
             )}
           >
-            <div className="tw-pointer-events-none tw-absolute tw-inset-0 tw-bg-gradient-to-b tw-from-white/[0.04] tw-to-transparent" />
+            <div className="tw-pointer-events-none tw-absolute tw-inset-0 tw-bg-gradient-to-b tw-from-violet-50/80 tw-to-transparent" />
 
             <header className="tw-relative tw-mb-8 tw-text-center">
-              <h1 className="tw-font-display tw-text-2xl tw-font-semibold tw-tracking-tight tw-text-white sm:tw-text-[1.65rem]">
+              <h1 className="tw-font-display tw-text-2xl tw-font-semibold tw-tracking-tight tw-text-slate-900 sm:tw-text-[1.65rem]">
                 {title}
               </h1>
-              <p className="tw-mt-2 tw-text-sm tw-leading-relaxed tw-text-slate-400">{subtitle}</p>
+              <p className="tw-mt-2 tw-text-sm tw-leading-relaxed tw-text-slate-600">{subtitle}</p>
             </header>
 
             {errorMessage ? (
               <div
-                className="tw-relative tw-mb-4 tw-rounded-lg tw-border tw-border-red-500/30 tw-bg-red-950/40 tw-px-3 tw-py-2 tw-text-sm tw-text-red-200"
+                className="tw-relative tw-mb-4 tw-rounded-lg tw-border tw-border-red-200 tw-bg-red-50 tw-px-3 tw-py-2 tw-text-sm tw-text-red-800"
                 role="alert"
               >
                 {errorMessage}
@@ -251,7 +250,7 @@ export default function SupabaseAuthCard({
 
             {formInfo ? (
               <div
-                className="tw-relative tw-mb-4 tw-rounded-lg tw-border tw-border-emerald-500/30 tw-bg-emerald-950/40 tw-px-3 tw-py-2 tw-text-sm tw-text-emerald-100"
+                className="tw-relative tw-mb-4 tw-rounded-lg tw-border tw-border-emerald-200 tw-bg-emerald-50 tw-px-3 tw-py-2 tw-text-sm tw-text-emerald-900"
                 role="status"
               >
                 {formInfo}
@@ -260,7 +259,7 @@ export default function SupabaseAuthCard({
 
             <form className="tw-relative tw-space-y-5" onSubmit={handleSubmit} noValidate>
               <div className="tw-space-y-2">
-                <label htmlFor={emailId} className="tw-text-sm tw-font-medium tw-text-slate-200">
+                <label htmlFor={emailId} className="tw-text-sm tw-font-medium tw-text-slate-700">
                   Email
                 </label>
                 <input
@@ -272,9 +271,9 @@ export default function SupabaseAuthCard({
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className={cn(
-                    "tw-flex tw-h-11 tw-w-full tw-rounded-lg tw-border tw-border-white/10 tw-bg-white/[0.04] tw-px-3 tw-py-2 tw-text-sm tw-text-white tw-outline-none tw-transition tw-duration-200",
-                    "placeholder:tw-text-slate-500",
-                    "focus-visible:tw-border-cyan-400/40 focus-visible:tw-ring-2 focus-visible:tw-ring-cyan-400/20",
+                    "tw-flex tw-h-11 tw-w-full tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-px-3 tw-py-2 tw-text-sm tw-text-slate-900 tw-outline-none tw-transition tw-duration-200",
+                    "placeholder:tw-text-slate-400",
+                    "focus-visible:tw-border-violet-400 focus-visible:tw-ring-2 focus-visible:tw-ring-violet-200",
                   )}
                   placeholder="you@company.com"
                 />
@@ -282,14 +281,14 @@ export default function SupabaseAuthCard({
 
               <div className="tw-space-y-2">
                 <div className="tw-flex tw-items-center tw-justify-between tw-gap-2">
-                  <label htmlFor={passwordId} className="tw-text-sm tw-font-medium tw-text-slate-200">
+                  <label htmlFor={passwordId} className="tw-text-sm tw-font-medium tw-text-slate-700">
                     Password
                   </label>
                   {!isSignUp ? (
                     <button
                       type="button"
                       onClick={handleForgotPassword}
-                      className="tw-rounded-sm tw-text-xs tw-font-medium tw-text-cyan-400 tw-underline-offset-4 tw-transition hover:tw-text-cyan-300 hover:tw-underline focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-cyan-400/40"
+                      className="tw-rounded-sm tw-text-xs tw-font-medium tw-text-violet-600 tw-underline-offset-4 tw-transition hover:tw-text-violet-700 hover:tw-underline focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-violet-200"
                     >
                       Forgot Password?
                     </button>
@@ -305,16 +304,16 @@ export default function SupabaseAuthCard({
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     className={cn(
-                      "tw-flex tw-h-11 tw-w-full tw-rounded-lg tw-border tw-border-white/10 tw-bg-white/[0.04] tw-py-2 tw-pl-3 tw-pr-11 tw-text-sm tw-text-white tw-outline-none tw-transition tw-duration-200",
-                      "placeholder:tw-text-slate-500",
-                      "focus-visible:tw-border-cyan-400/40 focus-visible:tw-ring-2 focus-visible:tw-ring-cyan-400/20",
+                      "tw-flex tw-h-11 tw-w-full tw-rounded-lg tw-border tw-border-slate-200 tw-bg-white tw-py-2 tw-pl-3 tw-pr-11 tw-text-sm tw-text-slate-900 tw-outline-none tw-transition tw-duration-200",
+                      "placeholder:tw-text-slate-400",
+                      "focus-visible:tw-border-violet-400 focus-visible:tw-ring-2 focus-visible:tw-ring-violet-200",
                     )}
                     placeholder="••••••••"
                   />
                   <button
                     type="button"
                     onClick={() => setShowPassword((v) => !v)}
-                    className="tw-absolute tw-right-1 tw-top-1/2 tw-flex tw-h-9 tw-w-9 tw--translate-y-1/2 tw-items-center tw-justify-center tw-rounded-md tw-text-slate-400 tw-transition hover:tw-bg-white/5 hover:tw-text-slate-200 focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-cyan-400/30"
+                    className="tw-absolute tw-right-1 tw-top-1/2 tw-flex tw-h-9 tw-w-9 tw--translate-y-1/2 tw-items-center tw-justify-center tw-rounded-md tw-text-slate-500 tw-transition hover:tw-bg-slate-100 hover:tw-text-slate-800 focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-violet-200"
                     aria-label={showPassword ? "Hide password" : "Show password"}
                   >
                     {showPassword ? <EyeOff className="tw-h-4 tw-w-4" /> : <Eye className="tw-h-4 tw-w-4" />}
@@ -330,9 +329,9 @@ export default function SupabaseAuthCard({
                     type="checkbox"
                     checked={rememberMe}
                     onChange={(e) => setRememberMe(e.target.checked)}
-                    className="tw-h-4 tw-w-4 tw-rounded tw-border-white/20 tw-bg-white/5 tw-text-cyan-500 tw-ring-offset-slate-950 focus-visible:tw-ring-2 focus-visible:tw-ring-cyan-400/40 focus-visible:tw-ring-offset-2"
+                    className="tw-h-4 tw-w-4 tw-rounded tw-border-slate-300 tw-bg-white tw-text-violet-600 tw-ring-offset-white focus-visible:tw-ring-2 focus-visible:tw-ring-violet-300 focus-visible:tw-ring-offset-2"
                   />
-                  <label htmlFor={rememberId} className="tw-select-none tw-text-sm tw-text-slate-400">
+                  <label htmlFor={rememberId} className="tw-select-none tw-text-sm tw-text-slate-600">
                     Remember me for 30 days
                   </label>
                 </div>
@@ -344,9 +343,9 @@ export default function SupabaseAuthCard({
                 whileHover={{ scale: 1.01 }}
                 whileTap={{ scale: 0.99 }}
                 className={cn(
-                  "tw-relative tw-flex tw-h-12 tw-w-full tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-lg tw-text-sm tw-font-semibold tw-text-slate-950 tw-transition",
-                  "tw-bg-gradient-to-r tw-from-cyan-400 tw-via-cyan-500 tw-to-blue-600 tw-shadow-lg tw-shadow-cyan-500/20",
-                  "hover:tw-shadow-xl hover:tw-shadow-cyan-500/25 focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-cyan-300/50 focus-visible:tw-ring-offset-2 focus-visible:tw-ring-offset-slate-950",
+                  "tw-relative tw-flex tw-h-12 tw-w-full tw-items-center tw-justify-center tw-overflow-hidden tw-rounded-lg tw-text-sm tw-font-semibold tw-text-white tw-transition",
+                  "tw-bg-gradient-to-r tw-from-violet-500 tw-via-violet-600 tw-to-indigo-600 tw-shadow-lg tw-shadow-violet-500/25",
+                  "hover:tw-shadow-xl hover:tw-shadow-violet-500/30 focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-violet-300 focus-visible:tw-ring-offset-2 focus-visible:tw-ring-offset-white",
                   "disabled:tw-pointer-events-none disabled:tw-opacity-60",
                 )}
               >
@@ -366,10 +365,10 @@ export default function SupabaseAuthCard({
 
             <div className="tw-relative tw-my-8">
               <div className="tw-absolute tw-inset-0 tw-flex tw-items-center" aria-hidden>
-                <div className="tw-w-full tw-border-t tw-border-white/10" />
+                <div className="tw-w-full tw-border-t tw-border-slate-200" />
               </div>
               <div className="tw-relative tw-flex tw-justify-center tw-text-xs tw-uppercase tw-tracking-wider">
-                <span className="tw-bg-slate-950/80 tw-px-3 tw-text-slate-500">Or continue with</span>
+                <span className="tw-bg-white tw-px-3 tw-text-slate-500">Or continue with</span>
               </div>
             </div>
 
@@ -394,14 +393,14 @@ export default function SupabaseAuthCard({
               />
             </div>
 
-            <p className="tw-relative tw-mt-8 tw-text-center tw-text-sm tw-text-slate-500">
+            <p className="tw-relative tw-mt-8 tw-text-center tw-text-sm tw-text-slate-600">
               {isSignUp ? (
                 <>
                   Already have an account?{" "}
                   <button
                     type="button"
                     onClick={onNavigateSignIn}
-                    className="tw-rounded-sm tw-font-semibold tw-text-cyan-400 tw-underline-offset-4 tw-transition hover:tw-text-cyan-300 hover:tw-underline focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-cyan-400/40"
+                    className="tw-rounded-sm tw-font-semibold tw-text-violet-600 tw-underline-offset-4 tw-transition hover:tw-text-violet-700 hover:tw-underline focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-violet-200"
                   >
                     Sign in
                   </button>
@@ -412,7 +411,7 @@ export default function SupabaseAuthCard({
                   <button
                     type="button"
                     onClick={onNavigateSignUp}
-                    className="tw-rounded-sm tw-font-semibold tw-text-cyan-400 tw-underline-offset-4 tw-transition hover:tw-text-cyan-300 hover:tw-underline focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-cyan-400/40"
+                    className="tw-rounded-sm tw-font-semibold tw-text-violet-600 tw-underline-offset-4 tw-transition hover:tw-text-violet-700 hover:tw-underline focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-violet-200"
                   >
                     Create an Account
                   </button>
@@ -435,14 +434,14 @@ function OAuthButton({ label, icon, onClick, busy }) {
       whileHover={{ y: -1 }}
       whileTap={{ scale: 0.98 }}
       className={cn(
-        "tw-flex tw-h-11 tw-w-full tw-items-center tw-justify-center tw-gap-2 tw-rounded-lg tw-border tw-border-white/10",
-        "tw-bg-white/[0.03] tw-text-sm tw-font-medium tw-text-slate-200 tw-backdrop-blur-sm tw-transition tw-duration-200",
-        "hover:tw-border-cyan-400/25 hover:tw-bg-white/[0.06] hover:tw-shadow-oauth-hover",
-        "focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-cyan-400/35",
+        "tw-flex tw-h-11 tw-w-full tw-items-center tw-justify-center tw-gap-2 tw-rounded-lg tw-border tw-border-slate-200",
+        "tw-bg-slate-50 tw-text-sm tw-font-medium tw-text-slate-800 tw-transition tw-duration-200",
+        "hover:tw-border-violet-300 hover:tw-bg-white hover:tw-shadow-md",
+        "focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-violet-200",
         "disabled:tw-pointer-events-none disabled:tw-opacity-50",
       )}
     >
-      {busy ? <Loader2 className="tw-h-4 tw-w-4 tw-animate-spin tw-text-cyan-400" /> : icon}
+      {busy ? <Loader2 className="tw-h-4 tw-w-4 tw-animate-spin tw-text-violet-600" /> : icon}
       {label}
     </motion.button>
   );

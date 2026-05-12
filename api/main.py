@@ -14,7 +14,7 @@ from .repository import NotebookRepository
 from .services import NotebookService
 
 
-app = FastAPI(title="Multimodal Quiz UI API")
+app = FastAPI(title="VisionQ API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=list(CORS_ALLOW_ORIGINS),

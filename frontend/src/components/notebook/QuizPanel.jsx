@@ -1,13 +1,16 @@
 import {
   CheckCircle2,
+  ChevronLeft,
+  ChevronRight,
   Circle,
   CircleDashed,
   CircleX,
-  ChevronLeft,
   Download,
+  FileText,
+  GraduationCap,
   LoaderCircle,
   MoreVertical,
-  Plus,
+  Sparkles,
 } from "lucide-react";
 import { useEffect, useId, useState } from "react";
 import { API_BASE } from "../../api";
@@ -160,6 +163,18 @@ function QuizScoreRing({ correct, total }) {
   );
 }
 
+function formatRunBlurb(run) {
+  const concepts = run?.summary?.concepts;
+  if (Array.isArray(concepts) && concepts.length > 0) {
+    return concepts
+      .slice(0, 3)
+      .map((c) => String(c).trim())
+      .filter(Boolean)
+      .join(" · ");
+  }
+  return "Multimodal quiz with image-backed questions from your sources.";
+}
+
 function RunListRow({
   run,
   formatTitle,
@@ -185,18 +200,31 @@ function RunListRow({
   }, [isMenuOpen, run.run_id, onToggleMenu]);
 
   return (
-    <div className={`run-list-item${completed ? "" : " run-list-item--inactive"}`}>
+    <div
+      className={`run-list-item${completed ? "" : " run-list-item--inactive"}${isMenuOpen ? " run-list-item--menu-open" : ""}`}
+    >
       <button
         type="button"
         className="run-list-item-main"
         onClick={() => completed && onSelectCompleted(run.run_id)}
         disabled={!completed}
       >
+        <div className="run-list-icon-tile" aria-hidden>
+          <FileText size={18} strokeWidth={1.75} />
+        </div>
         <div className="run-list-item-body">
           <strong>{formatTitle(run)}</strong>
-          <span>{run.summary?.question_count || run.num_questions || 0} questions</span>
+          <div className="run-list-blurb-row">
+            <span className="run-question-badge">
+              {run.summary?.question_count || run.num_questions || 0} questions
+            </span>
+            <span className="run-list-desc">{formatRunBlurb(run)}</span>
+          </div>
         </div>
         {!completed ? <CircleDashed size={16} className="run-list-status-icon" aria-hidden /> : null}
+        {completed && !isMenuOpen ? (
+          <ChevronRight size={20} className="run-list-chevron" aria-hidden />
+        ) : null}
       </button>
       <div className="run-list-item-actions" data-run-menu={run.run_id}>
         <button
@@ -370,22 +398,34 @@ function QuizPanel({
 
   return (
     <section className="panel studio-panel">
-      <div className="panel-header">
-        <h2>Quizzes</h2>
+      <div
+        className={`panel-header panel-header--notebook quiz-panel-head${selectedRun ? " quiz-panel-head--detail" : ""}`}
+      >
+        <div className="panel-header-lead">
+          <div className="panel-header-icon-wrap" aria-hidden>
+            <GraduationCap size={22} strokeWidth={1.75} />
+          </div>
+          <div className="panel-header-text">
+            <h2>Quizzes</h2>
+            {!selectedRun ? (
+              <p className="panel-subtitle">Generate quizzes from your sources.</p>
+            ) : null}
+          </div>
+        </div>
+        {!selectedRun ? (
+          <button
+            type="button"
+            className="primary-pill compact quiz-panel-generate-header"
+            onClick={() => onOpenQuizBuilder()}
+            disabled={!canGenerate || pendingRun}
+          >
+            {pendingRun ? <LoaderCircle className="spin" size={18} /> : <Sparkles size={18} />}
+            Generate quiz
+          </button>
+        ) : null}
       </div>
       {!selectedRun ? (
         <div className="quiz-panel-list">
-          <div className="quiz-panel-toolbar">
-            <button
-              type="button"
-              className="primary-pill compact quiz-panel-generate"
-              onClick={() => onOpenQuizBuilder()}
-              disabled={!canGenerate || pendingRun}
-            >
-              {pendingRun ? <LoaderCircle className="spin" size={18} /> : <Plus size={18} />}
-              Generate quiz
-            </button>
-          </div>
           <div className="quiz-run-list-scroll">
             <div className="quiz-run-list">
               {workspaceRuns.map((run) => (

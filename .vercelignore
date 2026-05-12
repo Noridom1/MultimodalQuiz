@@ -1,0 +1,9 @@
+# Vercel uploads: exclude backend so `api/*.py` is not treated as Python serverless routes
+# (that causes FUNCTION_INVOCATION_FAILED / 500 when the project root is the repo root).
+api/
+requirements.txt
+.venv/
+venv/
+.localdata/
+outputs/
+data/

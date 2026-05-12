@@ -260,12 +260,14 @@ Open `http://localhost:5173`.
 
 ## 10. Production deploy (Vercel frontend)
 
+After both hosts exist, you can print the exact `UI_ALLOWED_ORIGIN`, `VITE_API_BASE_URL`, and Supabase URL lines with [`scripts/Print-DeployEnvValues.ps1`](scripts/Print-DeployEnvValues.ps1) (pass your Vercel and Render origins).
+
 Only the **Vite SPA** under [`frontend/`](frontend/) belongs on Vercel. Quiz generation uses disk (`outputs/`, `data/uploads/`), so **do not** run the FastAPI app as Vercel serverless.
 
 ### Frontend on Vercel
 
 1. Import this repo in Vercel.
-2. Set **Root Directory** to `frontend`.
+2. Set **Root Directory** to `frontend` (required). If the root is the monorepo root, Vercel treats the FastAPI package folder [`api/`](api/) as **Python serverless** routes and `requirements.txt` as a Python app, which produces **500 / `FUNCTION_INVOCATION_FAILED` (python3.12)** on routes like `/` or `/favicon.ico`. Fix: **Root Directory → `frontend`**, then redeploy. If you must leave the project root at the repo root, [`vercel.json`](vercel.json) at the repo root builds `frontend/dist` and [`.vercelignore`](.vercelignore) excludes `api/` from the deployment bundle.
 3. Framework: Vite (auto-detected); output directory `dist`. [`frontend/vercel.json`](frontend/vercel.json) rewrites all routes to `index.html` so React Router works on refresh.
 4. **Environment variables** (Vercel → Project → Settings → Environment Variables). Copy names from [`frontend/.env.example`](frontend/.env.example):
 
@@ -293,7 +295,7 @@ In **Supabase → Authentication → URL configuration**:
 
 When you want the live site to use a persistent backend instead of localhost:
 
-1. Deploy the API with Docker (e.g. [`render.yaml`](render.yaml) Blueprint or any host running [`Dockerfile`](Dockerfile) / [`Procfile`](Procfile): `uvicorn api.main:app --host 0.0.0.0 --port $PORT`). Set secrets like root `.env` (`SUPABASE_*`, `QUIZGEN_*`, LLM keys, etc.).
+1. Deploy the API with Docker (e.g. [`render.yaml`](render.yaml) Blueprint or any host running [`Dockerfile`](Dockerfile) / [`Procfile`](Procfile): `uvicorn api.main:app --host 0.0.0.0 --port $PORT`). The blueprint declares env keys (defaults for `QUIZGEN_*` / bucket; set secrets in the Render dashboard). Set remaining secrets like root `.env` (`SUPABASE_*`, LLM keys, `UI_ALLOWED_ORIGIN`, etc.).
 2. **CORS**: set `UI_ALLOWED_ORIGIN` to your Vercel origin (no trailing slash), or **`UI_ALLOWED_ORIGINS`** for multiple preview/production URLs; see [`.env.example`](.env.example).
 3. Set **`VITE_API_BASE_URL`** on Vercel to that API origin and redeploy.
 

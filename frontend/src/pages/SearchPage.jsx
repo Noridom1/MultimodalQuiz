@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { ArrowLeft, BookOpen, LoaderCircle, Search } from "lucide-react";
-import { Link, useNavigate, useSearchParams } from "react-router-dom";
+import { ArrowLeft, LoaderCircle, Search } from "lucide-react";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import VisionQBrandLink from "../components/common/VisionQBrandLink";
 import UserAccountMenu from "../components/common/UserAccountMenu";
 import { api } from "../api";
 import { useAuth } from "../context/AuthContext";
@@ -57,12 +58,7 @@ function SearchPage() {
   return (
     <div className="page-shell search-page">
       <header className="topbar">
-        <Link className="brand" to="/">
-          <div className="brand-mark">
-            <BookOpen size={22} />
-          </div>
-          <span>NotebookQuiz</span>
-        </Link>
+        <VisionQBrandLink />
         <div className="topbar-actions">
           {user ? <UserAccountMenu /> : null}
         </div>

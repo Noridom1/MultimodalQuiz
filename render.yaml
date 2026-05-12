@@ -1,10 +1,11 @@
 # Render Blueprint: deploy the FastAPI backend as a Web Service.
 # https://render.com/docs/blueprint-spec
 #
-# After deploy, set environment variables in the Render dashboard (secrets):
-#   QUIZGEN_*, MISTRAL_API_KEY / OPENAI_API_KEY, SUPABASE_*, UI_ALLOWED_ORIGIN, etc.
+# Secrets and UI_ALLOWED_ORIGIN use sync: false — set values in the Render dashboard
+# (Blueprint sync will not overwrite them). See repo .env.example for full variable list.
 #
 # Frontend: deploy `frontend/` separately on Vercel (see README.run.md).
+# After you have both URLs: .\scripts\Print-DeployEnvValues.ps1 -VercelOrigin "..." -RenderApiOrigin "..."
 
 services:
   - type: web
@@ -14,3 +15,26 @@ services:
     dockerContext: .
     healthCheckPath: /api/health
     plan: starter
+    envVars:
+      - key: QUIZGEN_EXTRACTOR_BACKEND
+        value: langchain
+      - key: QUIZGEN_LLM_PROVIDER
+        value: mistral
+      - key: QUIZGEN_LLM_MODEL
+        value: devstral-medium-latest
+      - key: SUPABASE_BUCKET
+        value: quiz-assets
+      - key: UI_ALLOWED_ORIGIN
+        sync: false
+      - key: UI_ALLOWED_ORIGINS
+        sync: false
+      - key: MISTRAL_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_JWT_SECRET
+        sync: false

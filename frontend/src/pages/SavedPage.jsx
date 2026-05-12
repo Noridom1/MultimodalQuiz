@@ -1,8 +1,9 @@
 import { useEffect, useState, useTransition } from "react";
-import { BookOpen, ChevronLeft, Folder, LoaderCircle, Plus, Star } from "lucide-react";
+import { ChevronLeft, Folder, LoaderCircle, Plus, Star } from "lucide-react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { api } from "../api";
 import LoadingPanel from "../components/common/LoadingPanel";
+import VisionQBrandLink from "../components/common/VisionQBrandLink";
 
 const FOLDER_COLORS = ["#f0bf57", "#e37a46", "#9d6bff", "#5f6fff", "#4fb38a"];
 
@@ -188,12 +189,7 @@ function SavedPage() {
             <ChevronLeft size={18} />
             Saved
           </button>
-          <Link className="brand" to="/">
-            <div className="brand-mark">
-              <BookOpen size={22} />
-            </div>
-            <span>NotebookQuiz</span>
-          </Link>
+          <VisionQBrandLink />
         </header>
 
         {detailLoading ? (
@@ -249,12 +245,7 @@ function SavedPage() {
   return (
     <div className="page-shell saved-page">
       <header className="topbar">
-        <Link className="brand" to="/">
-          <div className="brand-mark">
-            <BookOpen size={22} />
-          </div>
-          <span>NotebookQuiz</span>
-        </Link>
+        <VisionQBrandLink />
         <div className="topbar-actions">
           <Link className="ghost-pill" to="/">
             Notebooks

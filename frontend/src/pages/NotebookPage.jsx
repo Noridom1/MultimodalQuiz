@@ -1,10 +1,10 @@
 import { useEffect, useLayoutEffect, useRef, useState, useTransition } from "react";
-import { BookOpen, Star } from "lucide-react";
+import { CheckCircle2, Pencil } from "lucide-react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { api } from "../api";
 import LoadingPanel from "../components/common/LoadingPanel";
+import VisionQBrandLink from "../components/common/VisionQBrandLink";
 import UserAccountMenu from "../components/common/UserAccountMenu";
-import ConversationPanel from "../components/notebook/ConversationPanel";
 import ExportOptionsModal from "../components/notebook/ExportOptionsModal";
 import QuizBuilderModal from "../components/notebook/QuizBuilderModal";
 import QuizPanel from "../components/notebook/QuizPanel";
@@ -25,7 +25,6 @@ function NotebookPage() {
   const { user } = useAuth();
   const [workspace, setWorkspace] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [message, setMessage] = useState("");
   const [quizBuilderOpen, setQuizBuilderOpen] = useState(false);
   const [saveListRunId, setSaveListRunId] = useState("");
   const [exportRunId, setExportRunId] = useState("");
@@ -38,7 +37,6 @@ function NotebookPage() {
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [resultsOpen, setResultsOpen] = useState(false);
-  const [pendingMessage, startMessageTransition] = useTransition();
   const [pendingRun, startRunTransition] = useTransition();
   const [pendingUpload, startUploadTransition] = useTransition();
   const [notebookTitleDraft, setNotebookTitleDraft] = useState("");
@@ -218,18 +216,6 @@ function NotebookPage() {
     });
   }
 
-  function handleSendMessage(event) {
-    event.preventDefault();
-    if (!message.trim()) {
-      return;
-    }
-    startMessageTransition(async () => {
-      await api.sendMessage(notebookId, message.trim());
-      setMessage("");
-      refreshWorkspace();
-    });
-  }
-
   function handleUploadFile(event) {
     const file = event.target.files?.[0];
     if (!file) {
@@ -321,12 +307,8 @@ function NotebookPage() {
   return (
     <div className="page-shell notebook-page">
       <header className="topbar notebook-topbar">
-        <div className="notebook-topbar-brand">
-          <Link className="brand-mark-link" to="/" aria-label="Back to notebooks">
-            <div className="brand-mark">
-              <BookOpen size={20} />
-            </div>
-          </Link>
+        <VisionQBrandLink aria-label="Back to notebooks" />
+        <div className="notebook-topbar-title">
           <input
             className="notebook-title-input"
             value={notebookTitleDraft}
@@ -342,10 +324,11 @@ function NotebookPage() {
             spellCheck={false}
             aria-label="Notebook title"
           />
+          <Pencil size={16} className="notebook-title-pencil" aria-hidden />
         </div>
         <div className="notebook-topbar-actions">
-          <Link className="ghost-pill compact" to="/saved">
-            <Star size={18} />
+          <Link className="notebook-saved-pill" to="/saved">
+            <CheckCircle2 size={18} className="notebook-saved-check" aria-hidden />
             Saved
           </Link>
           {user ? <UserAccountMenu /> : null}
@@ -404,31 +387,11 @@ function NotebookPage() {
           className="workspace-resizer"
           role="separator"
           aria-orientation="vertical"
-          aria-label="Resize sources column"
+          aria-label="Resize columns"
           tabIndex={-1}
-          onMouseDown={(event) => startColumnDrag(0, workspaceRef.current)(event)}
+          onMouseDown={(event) => startColumnDrag(workspaceRef.current)(event)}
         />
-        <div className="workspace-pane workspace-pane--center">
-          <ConversationPanel
-            message={message}
-            messages={workspace.messages}
-            pendingMessage={pendingMessage}
-            setMessage={setMessage}
-            onSendMessage={handleSendMessage}
-          />
-        </div>
-        <div
-          className="workspace-resizer"
-          role="separator"
-          aria-orientation="vertical"
-          aria-label="Resize quizzes column"
-          tabIndex={-1}
-          onMouseDown={(event) => startColumnDrag(1, workspaceRef.current)(event)}
-        />
-        <div
-          className="workspace-pane workspace-pane--right"
-          style={{ width: columnWidths.right, flex: "0 0 auto" }}
-        >
+        <div className="workspace-pane workspace-pane--right">
           <QuizPanel
             activeQuestionIndex={activeQuestionIndex}
             canGenerate={Boolean(primarySource)}

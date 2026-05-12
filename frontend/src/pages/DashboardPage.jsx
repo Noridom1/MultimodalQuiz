@@ -1,6 +1,5 @@
 import { useEffect, useState, useTransition } from "react";
 import {
-  BookOpen,
   ChevronRight,
   Grid2X2,
   LayoutPanelLeft,
@@ -11,6 +10,7 @@ import {
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import LoadingPanel from "../components/common/LoadingPanel";
+import VisionQBrandLink from "../components/common/VisionQBrandLink";
 import UserAccountMenu from "../components/common/UserAccountMenu";
 import { api } from "../api";
 import { useAuth } from "../context/AuthContext";
@@ -63,12 +63,7 @@ function DashboardPage() {
   return (
     <div className="page-shell dashboard-page">
       <header className="topbar">
-        <Link className="brand" to="/">
-          <div className="brand-mark">
-            <BookOpen size={22} />
-          </div>
-          <span>NotebookQuiz</span>
-        </Link>
+        <VisionQBrandLink />
         <div className="topbar-actions">
           <Link className="ghost-pill" to="/search">
             <Search size={18} />
