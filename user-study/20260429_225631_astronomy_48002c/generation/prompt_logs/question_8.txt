@@ -1,0 +1,40 @@
+Index: 8
+Target concept: sidereal period
+Tested fact block id: block_2
+Image description: A star chart showing the moon's position relative to distant stars over time.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: sidereal period
+Question type: short_answer
+Difficulty: medium
+Reasoning type: causal
+Image role: reasoning
+Learning objective: Explain the relationship between the sidereal period and the moon's orbit.
+Image context: A star chart showing the moon's position relative to distant stars over time.
+Tested fact block ID: block_2
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.
+
+--- Image prompt ---
+**Prompt:**
+Create a star chart with a dark blue/black background and bright white/yellow stars, showing the Moon’s orbit as a dotted white arc. Label key positions (e.g., "Position 1," "Position 2") to mark the Moon’s movement against fixed stars over time, using high-contrast text. Avoid real constellations; use generic star patterns.
+
+**Alt:** A star chart illustrating the Moon’s orbit relative to distant stars, with labeled positions to show its sidereal period.
+
+--- Raw LLM image-prompt response ---
+**Prompt:**
+Create a star chart with a dark blue/black background and bright white/yellow stars, showing the Moon’s orbit as a dotted white arc. Label key positions (e.g., "Position 1," "Position 2") to mark the Moon’s movement against fixed stars over time, using high-contrast text. Avoid real constellations; use generic star patterns.
+
+**Alt:** A star chart illustrating the Moon’s orbit relative to distant stars, with labeled positions to show its sidereal period.

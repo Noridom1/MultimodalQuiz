@@ -1,0 +1,38 @@
+Index: 2
+Target concept: Earth
+Tested fact block id: block_4
+Image description: An illustration of the Earth's gravitational pull affecting the Moon's orbit.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: Earth
+Question type: short_answer
+Difficulty: medium
+Reasoning type: causal
+Image role: reasoning
+Learning objective: Explain how Earth's gravity influences the Moon's motion.
+Image context: An illustration of the Earth's gravitational pull affecting the Moon's orbit.
+Tested fact block ID: block_4
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.
+
+--- Image prompt ---
+**Prompt:** Create a minimalist diagram showing Earth at the center with a curved arrow representing its gravitational pull extending toward the Moon, which orbits along a slightly elliptical path. Label Earth as "Planet X" and the Moon as "Satellite Y," using bold, high-contrast colors (e.g., blue for Earth, gray for the Moon, and red for the gravitational arrow). Ensure the orbit path is clearly visible with a dashed line.
+
+**Alt:** A diagram illustrating how Planet X's gravity pulls on Satellite Y, keeping it in a curved orbit.
+
+--- Raw LLM image-prompt response ---
+**Prompt:** Create a minimalist diagram showing Earth at the center with a curved arrow representing its gravitational pull extending toward the Moon, which orbits along a slightly elliptical path. Label Earth as "Planet X" and the Moon as "Satellite Y," using bold, high-contrast colors (e.g., blue for Earth, gray for the Moon, and red for the gravitational arrow). Ensure the orbit path is clearly visible with a dashed line.
+
+**Alt:** A diagram illustrating how Planet X's gravity pulls on Satellite Y, keeping it in a curved orbit.

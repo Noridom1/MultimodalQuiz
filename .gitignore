@@ -1,5 +1,6 @@
 data/*
 !data/raw/
+user-study/
 
 # 2. Ignore mọi thứ trong raw nhưng chừa lại các file PDF cụ thể
 data/raw/*

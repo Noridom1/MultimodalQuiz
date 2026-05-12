@@ -1,0 +1,112 @@
+[
+  {
+    "target_concept": "Sun",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Sun's position relative to the Earth and Moon.",
+    "learning_objective": "Identify the Sun's role in the Earth-Moon system.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Earth",
+    "question_type": "short_answer",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "An illustration of the Earth's gravitational pull affecting the Moon's orbit.",
+    "learning_objective": "Explain how Earth's gravity influences the Moon's motion.",
+    "tested_fact_block_id": "block_4",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Moon",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Moon's synchronous rotation with Earth.",
+    "learning_objective": "Understand the basic concept of synchronous rotation as it applies to the Moon.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Moon",
+    "question_type": "short_answer",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "An illustration depicting the tidal forces between Earth and the Moon.",
+    "learning_objective": "Explain the causal relationship between tidal forces and synchronous rotation.",
+    "tested_fact_block_id": "block_2",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Moon orbiting the Earth",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Moon's orbit around the Earth.",
+    "learning_objective": "Understand the basic concept of the Moon's orbit around the Earth.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Moon orbiting the Earth",
+    "question_type": "short_answer",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A diagram illustrating the relationship between the Moon's orbit and the Earth's rotation.",
+    "learning_objective": "Explain the causal relationship between the Moon's orbit and the Earth's rotation.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "lunar phases",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the different phases of the moon.",
+    "learning_objective": "Identify the sequence of lunar phases.",
+    "tested_fact_block_id": "block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "sidereal period",
+    "question_type": "short_answer",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "reasoning",
+    "image_description": "A star chart showing the moon's position relative to distant stars over time.",
+    "learning_objective": "Explain the relationship between the sidereal period and the moon's orbit.",
+    "tested_fact_block_id": "block_2",
+    "metadata": {}
+  },
+  {
+    "target_concept": "synodic month",
+    "question_type": "true_false",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A comparison of the sidereal month and synodic month durations.",
+    "learning_objective": "Distinguish between sidereal and synodic months.",
+    "tested_fact_block_id": "block_3",
+    "metadata": {}
+  },
+  {
+    "target_concept": "orbital mechanics",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "reasoning_type": "multi-hop",
+    "image_role": "reasoning",
+    "image_description": "A diagram illustrating the gravitational forces acting on the moon.",
+    "learning_objective": "Analyze the factors influencing the moon's orbital period.",
+    "tested_fact_block_id": "block_4",
+    "metadata": {}
+  }
+]

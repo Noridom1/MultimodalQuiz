@@ -1,0 +1,200 @@
+[
+  {
+    "id": "q_5d9d27f550",
+    "question_text": "What is the primary role of the Sun in the Earth-Moon system?",
+    "options": [
+      "A) It provides light and heat to the Earth and Moon",
+      "B) It controls the tides on Earth",
+      "C) It causes the Moon to orbit the Earth",
+      "D) It creates the Earth's magnetic field"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Sun's primary role in the Earth-Moon system is to provide light and heat, which are essential for life on Earth and influence the system's dynamics. (block_1)",
+    "target_concept": "Sun",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  },
+  {
+    "id": "q_4757727d7a",
+    "question_text": "Based on the illustration, how does Earth's gravity affect the Moon's motion?",
+    "options": [],
+    "correct_answer": "Earth's gravity keeps the Moon in a stable orbit by pulling it inward, balancing its forward motion.",
+    "explanation": "The image shows the Moon's curved path around Earth, with arrows indicating gravitational pull toward Earth. This demonstrates how gravity acts as a centripetal force, preventing the Moon from moving in a straight line and maintaining its orbit. (Source: block_4)",
+    "target_concept": "Earth",
+    "difficulty": "medium",
+    "question_type": "short_answer",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": true,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_4",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  },
+  {
+    "id": "q_87dd9af285",
+    "question_text": "Why do we always see the same side of the Moon from Earth?",
+    "options": [
+      "A) The Moon does not rotate on its axis.",
+      "B) The Moon rotates once on its axis in the same time it takes to orbit Earth once.",
+      "C) The Moon is tidally locked to the Sun, not Earth.",
+      "D) Earth's gravity prevents the Moon from rotating."
+    ],
+    "correct_answer": "B",
+    "explanation": "The Moon is in synchronous rotation with Earth, meaning it rotates once on its axis in the same time it takes to complete one orbit around Earth. This is why we always see the same side of the Moon. (Source: block_1)",
+    "target_concept": "Moon",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  },
+  {
+    "id": "q_c4a7c69353",
+    "question_text": "Based on the illustration, explain how tidal forces contribute to the Moon's synchronous rotation.",
+    "options": [],
+    "correct_answer": "Tidal forces create bulges on the Moon, and Earth's gravity pulls on these bulges, causing torque that slows the Moon's rotation until it matches its orbital period.",
+    "explanation": "The image shows tidal bulges on the Moon due to Earth's gravitational pull. These bulges experience torque, which gradually synchronizes the Moon's rotation with its orbit (block_2).",
+    "target_concept": "Moon",
+    "difficulty": "medium",
+    "question_type": "short_answer",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": true,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_2",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  },
+  {
+    "id": "q_7a2b799dd1",
+    "question_text": "Which celestial body does the Moon orbit around?",
+    "options": [
+      "The Sun",
+      "The Earth",
+      "Mars",
+      "Venus"
+    ],
+    "correct_answer": "The Earth",
+    "explanation": "The Moon orbits the Earth, as it is Earth's only natural satellite. This relationship is a fundamental concept in astronomy. (Source: block_1)",
+    "target_concept": "Moon orbiting the Earth",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  },
+  {
+    "id": "q_cae7c1e47d",
+    "question_text": "Based on the diagram, explain how the Moon's orbit around the Earth affects the Earth's rotation. Reference at least one visible feature from the image in your answer.",
+    "options": [],
+    "correct_answer": "The Moon's gravitational pull, as shown by the curved arrow in the diagram, causes tidal forces that slow the Earth's rotation over time, while the Moon's orbit gradually expands.",
+    "explanation": "The diagram illustrates the gravitational interaction between the Earth and Moon, with arrows or annotations showing the tidal bulges. This demonstrates how the Moon's orbit influences Earth's rotation through tidal friction, as described in block_1.",
+    "target_concept": "Moon orbiting the Earth",
+    "difficulty": "medium",
+    "question_type": "short_answer",
+    "associated_image": "generation/images/6.png",
+    "image_grounded": true,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  },
+  {
+    "id": "q_81541ceee5",
+    "question_text": "Which of the following is the correct sequence of lunar phases starting from the New Moon?",
+    "options": [
+      "A) New Moon, First Quarter, Full Moon, Last Quarter",
+      "B) New Moon, Full Moon, First Quarter, Last Quarter",
+      "C) Full Moon, New Moon, Last Quarter, First Quarter",
+      "D) First Quarter, Full Moon, Last Quarter, New Moon"
+    ],
+    "correct_answer": "A",
+    "explanation": "The correct sequence of lunar phases starts with the New Moon, followed by the First Quarter, Full Moon, and Last Quarter. This cycle repeats approximately every 29.5 days. (Source: block_1)",
+    "target_concept": "lunar phases",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/7.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "block_1",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  },
+  {
+    "id": "q_e999903049",
+    "question_text": "Based on the star chart, explain how the moon's position relative to distant stars changes over time and what this indicates about its sidereal period.",
+    "options": [],
+    "correct_answer": "The moon appears to shift eastward relative to distant stars over time, indicating it completes one full orbit (sidereal period) in about 27.3 days as it returns to the same position among the stars.",
+    "explanation": "The star chart shows the moon's eastward movement against the fixed background of stars, demonstrating its orbital progression. This visual shift confirms the sidereal period as the time for the moon to complete one orbit relative to the stars (block_2).",
+    "target_concept": "sidereal period",
+    "difficulty": "medium",
+    "question_type": "short_answer",
+    "associated_image": "generation/images/8.png",
+    "image_grounded": true,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "block_2",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  },
+  {
+    "id": "q_3fd771b9a3",
+    "question_text": "A synodic month is longer than a sidereal month because it accounts for the Earth's movement around the Sun.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "A synodic month (29.5 days) is longer than a sidereal month (27.3 days) because it measures the time for the Moon to return to the same phase, which requires extra time due to Earth's orbital motion. (block_3)",
+    "target_concept": "synodic month",
+    "difficulty": "medium",
+    "question_type": "true_false",
+    "associated_image": "generation/images/9.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "block_3",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  },
+  {
+    "id": "q_c19292d56e",
+    "question_text": "In the provided diagram, if the gravitational force vector from Earth to the Moon (labeled F₁) is twice as long as the centrifugal force vector (labeled F₂), what does this imply about the Moon's orbital period?",
+    "options": [
+      "The Moon's orbital period would decrease because the net force is directed inward, increasing orbital velocity.",
+      "The Moon's orbital period would remain unchanged as the vectors are balanced regardless of their magnitudes.",
+      "The Moon's orbital period would increase because the dominant gravitational force would slow the Moon's velocity.",
+      "The Moon would escape Earth's orbit as the centrifugal force is insufficient to maintain a stable orbit."
+    ],
+    "correct_answer": "A",
+    "explanation": "The diagram shows F₁ (gravitational force) being longer than F₂ (centrifugal force), indicating a net inward force. According to orbital mechanics, this would cause the Moon to accelerate, reducing its orbital period (block_4). The relative lengths of the vectors visually confirm the imbalance favoring gravitational pull.",
+    "target_concept": "orbital mechanics",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/10.png",
+    "image_grounded": true,
+    "metadata": {
+      "reasoning_type": "multi-hop",
+      "tested_fact_source": "block_4",
+      "run_id": "20260429_225631_astronomy_48002c"
+    }
+  }
+]

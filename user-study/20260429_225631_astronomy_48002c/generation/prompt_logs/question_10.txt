@@ -1,0 +1,40 @@
+Index: 10
+Target concept: orbital mechanics
+Tested fact block id: block_4
+Image description: A diagram illustrating the gravitational forces acting on the moon.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: orbital mechanics
+Question type: multiple_choice
+Difficulty: hard
+Reasoning type: multi-hop
+Image role: reasoning
+Learning objective: Analyze the factors influencing the moon's orbital period.
+Image context: A diagram illustrating the gravitational forces acting on the moon.
+Tested fact block ID: block_4
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The question must require visual evidence from the associated image. Reference visible attributes such as shape, labels, orientation, relative position, color, or annotations in the explanation.
+
+--- Image prompt ---
+**Prompt:**
+Create a minimalist diagram showing the Moon in orbit around Earth, with labeled arrows indicating gravitational pull (toward Earth) and centrifugal force (outward). Use high-contrast colors (e.g., blue for Earth, gray for Moon, red/yellow for force vectors) and include a dashed orbital path. Avoid text answers; label forces as "Force 1" and "Force 2" for neutrality.
+
+**Alt:** A diagram of the Moon orbiting Earth with labeled gravitational and centrifugal forces.
+
+--- Raw LLM image-prompt response ---
+**Prompt:**
+Create a minimalist diagram showing the Moon in orbit around Earth, with labeled arrows indicating gravitational pull (toward Earth) and centrifugal force (outward). Use high-contrast colors (e.g., blue for Earth, gray for Moon, red/yellow for force vectors) and include a dashed orbital path. Avoid text answers; label forces as "Force 1" and "Force 2" for neutrality.
+
+**Alt:** A diagram of the Moon orbiting Earth with labeled gravitational and centrifugal forces.

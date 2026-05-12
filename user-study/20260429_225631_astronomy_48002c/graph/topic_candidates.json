@@ -1,0 +1,297 @@
+{
+  "count": 7,
+  "topics": [
+    {
+      "id": "astronomy::topic_candidate::section::0::document",
+      "label": "Document",
+      "description": "Section-seeded topic for Document",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Document"
+        ]
+      ],
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::10::lunar_eclipses",
+        "astronomy::concept::11::synchronous_rotation",
+        "astronomy::concept::12::sidereal_period",
+        "astronomy::concept::13::solar_month",
+        "astronomy::concept::14::moon_orbiting_the_earth",
+        "astronomy::concept::2::lunar_phases",
+        "astronomy::concept::3::lunar_cycle",
+        "astronomy::concept::4::earth",
+        "astronomy::concept::6::full_moon",
+        "astronomy::concept::7::first_quarter_phase",
+        "astronomy::concept::8::waxing_gibbous"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::2::lunar_phases",
+        "astronomy::concept::6::full_moon"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.417,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.616
+      },
+      "metadata": {
+        "section_id": "astronomy::section::root",
+        "source_section_label": "Document"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::0::lunar_phases",
+      "label": "Lunar phases",
+      "description": "Concept-anchored topic centered on lunar phases",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [],
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::10::lunar_eclipses",
+        "astronomy::concept::11::synchronous_rotation",
+        "astronomy::concept::12::sidereal_period",
+        "astronomy::concept::13::solar_month",
+        "astronomy::concept::14::moon_orbiting_the_earth",
+        "astronomy::concept::2::lunar_phases",
+        "astronomy::concept::3::lunar_cycle",
+        "astronomy::concept::4::earth",
+        "astronomy::concept::6::full_moon"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::2::lunar_phases"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::2::lunar_phases"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::1::moon",
+      "label": "Moon",
+      "description": "Concept-anchored topic centered on Moon",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [],
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::10::lunar_eclipses",
+        "astronomy::concept::11::synchronous_rotation",
+        "astronomy::concept::12::sidereal_period",
+        "astronomy::concept::13::solar_month",
+        "astronomy::concept::14::moon_orbiting_the_earth",
+        "astronomy::concept::2::lunar_phases",
+        "astronomy::concept::3::lunar_cycle",
+        "astronomy::concept::4::earth",
+        "astronomy::concept::6::full_moon"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::0::moon"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::0::moon"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::2::earth",
+      "label": "Earth",
+      "description": "Concept-anchored topic centered on Earth",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [],
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::11::synchronous_rotation",
+        "astronomy::concept::12::sidereal_period",
+        "astronomy::concept::2::lunar_phases",
+        "astronomy::concept::3::lunar_cycle",
+        "astronomy::concept::4::earth"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::4::earth"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 1.0,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.942
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::4::earth"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::3::sidereal_period",
+      "label": "Sidereal period",
+      "description": "Concept-anchored topic centered on sidereal period",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [],
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::10::lunar_eclipses",
+        "astronomy::concept::11::synchronous_rotation",
+        "astronomy::concept::12::sidereal_period",
+        "astronomy::concept::13::solar_month",
+        "astronomy::concept::14::moon_orbiting_the_earth",
+        "astronomy::concept::2::lunar_phases",
+        "astronomy::concept::3::lunar_cycle",
+        "astronomy::concept::4::earth",
+        "astronomy::concept::6::full_moon"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::12::sidereal_period"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::12::sidereal_period"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::4::sidereal_month",
+      "label": "Sidereal month",
+      "description": "Concept-anchored topic centered on sidereal month",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [],
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::10::lunar_eclipses",
+        "astronomy::concept::11::synchronous_rotation",
+        "astronomy::concept::12::sidereal_period",
+        "astronomy::concept::13::solar_month",
+        "astronomy::concept::14::moon_orbiting_the_earth",
+        "astronomy::concept::2::lunar_phases",
+        "astronomy::concept::3::lunar_cycle",
+        "astronomy::concept::4::earth",
+        "astronomy::concept::6::full_moon"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::13::solar_month"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::13::solar_month"
+      }
+    },
+    {
+      "id": "astronomy::topic_candidate::anchor::5::synchronous_rotation",
+      "label": "Synchronous rotation",
+      "description": "Concept-anchored topic centered on synchronous rotation",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [],
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::10::lunar_eclipses",
+        "astronomy::concept::11::synchronous_rotation",
+        "astronomy::concept::12::sidereal_period",
+        "astronomy::concept::13::solar_month",
+        "astronomy::concept::14::moon_orbiting_the_earth",
+        "astronomy::concept::2::lunar_phases",
+        "astronomy::concept::3::lunar_cycle",
+        "astronomy::concept::4::earth",
+        "astronomy::concept::6::full_moon"
+      ],
+      "chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "astronomy::concept::11::synchronous_rotation"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "astronomy::concept::11::synchronous_rotation"
+      }
+    }
+  ]
+}

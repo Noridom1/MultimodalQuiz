@@ -1,0 +1,45 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::5::new_moon"
+      ],
+      "labels": [
+        "Moon",
+        "new moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::6::full_moon"
+      ],
+      "labels": [
+        "Moon",
+        "full moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::14::moon_orbiting_the_earth"
+      ],
+      "labels": [
+        "Moon",
+        "Moon orbiting the Earth"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

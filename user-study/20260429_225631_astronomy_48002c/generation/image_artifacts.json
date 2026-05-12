@@ -1,0 +1,82 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast diagram showing the Sun (large, bright yellow circle) at the center, with Earth (smaller blue-green circle) orbiting it and the Moon (tiny gray circle) orbiting Earth. Use clear arrows to indicate orbital paths and label the bodies as \"Sun,\" \"Earth,\" and \"Moon\" without additional explanatory text. Alt: A diagram of the Sun, Earth, and Moon showing their relative positions and orbital paths.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Create a minimalist diagram showing Earth at the center with a curved arrow representing its gravitational pull extending toward the Moon, which orbits along a slightly elliptical path. Label Earth as \"Planet X\" and the Moon as \"Satellite Y,\" using bold, high-contrast colors (e.g., blue for Earth, gray for the Moon, and red for the gravitational arrow). Ensure the orbit path is clearly visible with a dashed line.\n\n**Alt:** A diagram illustrating how Planet X's gravity pulls on Satellite Y, keeping it in a curved orbit.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "Create a simple diagram showing Earth and the Moon with arrows indicating the Moon's rotation and orbit, using high-contrast colors (e.g., blue for Earth, gray for the Moon) and clear labels like \"Rotation\" and \"Orbit.\" Ensure the Moon always faces Earth with the same side to illustrate synchronous rotation. Alt: A diagram of Earth and the Moon showing synchronous rotation with labeled arrows.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a high-contrast illustration showing Earth and the Moon with exaggerated tidal bulges on both bodies, labeled \"Tidal Bulge (Earth)\" and \"Tidal Bulge (Moon).\" Use arrows to indicate gravitational pull between them, and depict the Moon’s slightly elongated shape to suggest synchronous rotation. Use a cool blue/purple palette for space and warm tones for the tidal distortions.\n\n**Alt:** A diagram of Earth and the Moon with labeled tidal bulges and arrows showing gravitational forces.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast diagram of Earth at the center with a clearly labeled elliptical orbit path, marking the Moon’s position at two key points (e.g., \"Position 1\" and \"Position 2\") to show movement. Use a dark blue background for space, Earth in realistic blues/greens, and the Moon in grayscale with a subtle crater texture. Add a small arrow indicating orbital direction.\n\nAlt: A diagram of Earth with the Moon's elliptical orbit path marked, showing two labeled positions to illustrate its movement.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  },
+  {
+    "index": 6,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing Earth (blue/green) with a labeled arrow indicating its counterclockwise rotation, and the Moon (gray) in an elliptical orbit around it with a labeled arrow showing its orbital direction. Use dashed lines to connect key points (e.g., tidal bulges) to emphasize causal effects, but avoid explanatory text. Ensure all labels are neutral (e.g., \"Earth,\" \"Moon,\" \"Orbit Path\"). Alt: A diagram of Earth rotating while the Moon orbits it, with arrows showing motion and dashed lines linking interactions.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/6.png",
+    "local_path": "generation/images/6.png",
+    "image_ref": "generation/images/6.png"
+  },
+  {
+    "index": 7,
+    "status": "generated",
+    "image_prompt": "Create a circular diagram with eight distinct moon phases (new moon, waxing crescent, first quarter, waxing gibbous, full moon, waning gibbous, last quarter, waning crescent) arranged clockwise, each clearly labeled with high-contrast text on a dark blue or black background. Use a simple, clean style with white or light yellow for the moon and labels to ensure readability, and avoid any decorative elements that may distract from the sequence. Alt: A circular diagram illustrating the eight phases of the moon in order, labeled for clarity.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/7.png",
+    "local_path": "generation/images/7.png",
+    "image_ref": "generation/images/7.png"
+  },
+  {
+    "index": 8,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a star chart with a dark blue/black background and bright white/yellow stars, showing the Moon’s orbit as a dotted white arc. Label key positions (e.g., \"Position 1,\" \"Position 2\") to mark the Moon’s movement against fixed stars over time, using high-contrast text. Avoid real constellations; use generic star patterns.\n\n**Alt:** A star chart illustrating the Moon’s orbit relative to distant stars, with labeled positions to show its sidereal period.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/8.png",
+    "local_path": "generation/images/8.png",
+    "image_ref": "generation/images/8.png"
+  },
+  {
+    "index": 9,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a minimalist diagram comparing two lunar cycles: a shorter arc labeled \"Sidereal Month (27.3 days)\" and a longer arc labeled \"Synodic Month (29.5 days).\" Use high-contrast colors (e.g., blue for sidereal, orange for synodic) with the Earth at the center, the Moon orbiting, and the Sun positioned to show alignment shifts. Include a small key explaining the labels without defining the terms.\n\n**Alt:** A diagram showing two lunar orbit arcs of different lengths, labeled with their durations, centered on Earth with the Sun in the background.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/9.png",
+    "local_path": "generation/images/9.png",
+    "image_ref": "generation/images/9.png"
+  },
+  {
+    "index": 10,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a minimalist diagram showing the Moon in orbit around Earth, with labeled arrows indicating gravitational pull (toward Earth) and centrifugal force (outward). Use high-contrast colors (e.g., blue for Earth, gray for Moon, red/yellow for force vectors) and include a dashed orbital path. Avoid text answers; label forces as \"Force 1\" and \"Force 2\" for neutrality.\n\n**Alt:** A diagram of the Moon orbiting Earth with labeled gravitational and centrifugal forces.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260429_225631_astronomy_48002c/generation/images/10.png",
+    "local_path": "generation/images/10.png",
+    "image_ref": "generation/images/10.png"
+  }
+]

@@ -1,0 +1,523 @@
+{
+  "concepts": [
+    "moon",
+    "sun",
+    "lunar phases",
+    "lunar cycle",
+    "earth",
+    "new moon",
+    "full moon",
+    "first quarter phase",
+    "waxing gibbous",
+    "third quarter phase",
+    "lunar eclipses",
+    "synchronous rotation",
+    "sidereal period",
+    "solar month",
+    "moon orbiting the earth",
+    "sidereal month"
+  ],
+  "definitions": {
+    "lunar phases": "Different appearances of the Moon as it progresses through its cycle, starting dark and becoming illuminated by sunlight over about two weeks, then fading back to dark.",
+    "new moon": "The phase of the Moon when it is in the same general direction in the sky as the Sun, with its illuminated side turned away from Earth.",
+    "full moon": "The phase of the Moon when it is opposite the Sun in the sky, with its illuminated side fully visible from Earth.",
+    "third quarter phase": "The phase of the Moon when it is three-quarters of the way around its orbit, with half of its visible side illuminated.",
+    "synchronous rotation": "the behavior where the Moon rotates on its axis in the same time it takes to revolve about Earth, keeping the same face toward Earth.",
+    "sidereal period": "the period of the Moon's revolution about Earth measured with respect to the stars.",
+    "solar month": "the time interval in which the Moon's phases repeat, lasting 29.5306 days.",
+    "sidereal month": "27.3217 days, the exact duration of the Moon's sidereal period."
+  },
+  "relations": [
+    {
+      "source": "Moon",
+      "target": "Sun",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "lunar phases",
+      "target": "motion of the Moon",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Moon",
+      "target": "Earth",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Moon",
+      "target": "Sun",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "lunar phases",
+      "target": "motion of the Moon",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Moon",
+      "target": "Earth",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "new moon",
+      "target": "Sun",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "full moon",
+      "target": "Sun",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Moon",
+      "target": "Sun",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "lunar phases",
+      "target": "motion of the Moon",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Moon",
+      "target": "Earth",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "lunar eclipses",
+      "target": "Earth's shadow",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Moon",
+      "target": "Earth",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "synchronous rotation",
+      "target": "Moon",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "sidereal period",
+      "target": "Moon",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "solar month",
+      "target": "lunar phases",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "sidereal period",
+      "target": "Moon orbiting the Earth",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "solar month",
+      "target": "sidereal period",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "synchronous rotation",
+      "target": "Moon",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h",
+      "source_file": "data/raw/astronomy.pdf",
+      "extraction_method": "langchain"
+    }
+  ],
+  "examples": [
+    "stand about 6 feet in front of a bright electric light in a completely dark room (or outdoors at night) and hold in your hand a small round object such as a tennis ball or an orange.",
+    "In the position 'New,' for example, you are facing the Moon from the right side of Earth in the middle of the day.",
+    "orbiting your roommate or another volunteer to simulate synchronous rotation"
+  ],
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [],
+      "concepts": [
+        "Moon",
+        "Sun",
+        "lunar phases",
+        "lunar cycle",
+        "Earth"
+      ],
+      "definitions": [
+        {
+          "concept": "lunar phases",
+          "definition": "Different appearances of the Moon as it progresses through its cycle, starting dark and becoming illuminated by sunlight over about two weeks, then fading back to dark."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Moon",
+          "target": "Sun",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "lunar phases",
+          "target": "motion of the Moon",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "stand about 6 feet in front of a bright electric light in a completely dark room (or outdoors at night) and hold in your hand a small round object such as a tennis ball or an orange."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [],
+      "concepts": [
+        "Moon",
+        "Sun",
+        "lunar phases",
+        "lunar cycle",
+        "Earth",
+        "new moon",
+        "full moon",
+        "first quarter phase",
+        "waxing gibbous"
+      ],
+      "definitions": [
+        {
+          "concept": "new moon",
+          "definition": "The phase of the Moon when it is in the same general direction in the sky as the Sun, with its illuminated side turned away from Earth."
+        },
+        {
+          "concept": "full moon",
+          "definition": "The phase of the Moon when it is opposite the Sun in the sky, with its illuminated side fully visible from Earth."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Moon",
+          "target": "Sun",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "lunar phases",
+          "target": "motion of the Moon",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "new moon",
+          "target": "Sun",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "full moon",
+          "target": "Sun",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "In the position 'New,' for example, you are facing the Moon from the right side of Earth in the middle of the day."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [],
+      "concepts": [
+        "Moon",
+        "Sun",
+        "lunar phases",
+        "lunar cycle",
+        "Earth",
+        "new moon",
+        "full moon",
+        "first quarter phase",
+        "waxing gibbous",
+        "third quarter phase",
+        "lunar eclipses"
+      ],
+      "definitions": [
+        {
+          "concept": "third quarter phase",
+          "definition": "The phase of the Moon when it is three-quarters of the way around its orbit, with half of its visible side illuminated."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Moon",
+          "target": "Sun",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "lunar phases",
+          "target": "motion of the Moon",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "lunar eclipses",
+          "target": "Earth's shadow",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 3,
+      "chunk_id": "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [],
+      "concepts": [
+        "full moon",
+        "lunar phases",
+        "lunar eclipses",
+        "synchronous rotation",
+        "sidereal period",
+        "solar month"
+      ],
+      "definitions": [
+        {
+          "concept": "synchronous rotation",
+          "definition": "The rotation of the Moon on its axis in the same time it takes to revolve around Earth, keeping the same face turned toward Earth."
+        },
+        {
+          "concept": "sidereal period",
+          "definition": "The period of the Moon's revolution about Earth measured with respect to the stars, approximately 27.3217 days."
+        },
+        {
+          "concept": "solar month",
+          "definition": "The time interval in which the phases of the Moon repeat, approximately 29.5306 days."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Moon",
+          "target": "Earth",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "synchronous rotation",
+          "target": "Moon",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "sidereal period",
+          "target": "Moon",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "solar month",
+          "target": "lunar phases",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h",
+      "source_file": "data/raw/astronomy.pdf",
+      "section_path": [],
+      "concepts": [
+        "Moon orbiting the Earth",
+        "sidereal period",
+        "sidereal month",
+        "solar month",
+        "synchronous rotation"
+      ],
+      "definitions": [
+        {
+          "concept": "sidereal period",
+          "definition": "the period of the Moon's revolution about Earth measured with respect to the stars."
+        },
+        {
+          "concept": "sidereal month",
+          "definition": "27.3217 days, the exact duration of the Moon's sidereal period."
+        },
+        {
+          "concept": "solar month",
+          "definition": "the time interval in which the Moon's phases repeat, lasting 29.5306 days."
+        },
+        {
+          "concept": "synchronous rotation",
+          "definition": "the behavior where the Moon rotates on its axis in the same time it takes to revolve about Earth, keeping the same face toward Earth."
+        }
+      ],
+      "relations": [
+        {
+          "source": "sidereal period",
+          "target": "Moon orbiting the Earth",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "solar month",
+          "target": "sidereal period",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "synchronous rotation",
+          "target": "Moon",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "orbiting your roommate or another volunteer to simulate synchronous rotation"
+      ],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 5,
+    "concept_count": 16,
+    "relation_count": 19
+  }
+}

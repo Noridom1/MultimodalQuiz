@@ -1,0 +1,26 @@
+{
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "astronomy::section::root",
+      "label": "Document",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/raw/astronomy.pdf",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Document"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1,
+        "synthetic": true
+      }
+    }
+  ]
+}

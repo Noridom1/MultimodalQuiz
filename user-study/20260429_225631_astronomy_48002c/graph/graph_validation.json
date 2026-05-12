@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "document_nodes": 1,
+    "section_nodes": 1,
+    "chunk_nodes": 5,
+    "concept_nodes": 15,
+    "topic_nodes": 1,
+    "artifact_nodes": 0,
+    "edge_count": 88
+  }
+}

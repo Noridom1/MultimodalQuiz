@@ -1,0 +1,479 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "astronomy::concept::0::moon",
+      "label": "Moon",
+      "normalized_label": "moon",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::1::sun",
+      "label": "Sun",
+      "normalized_label": "sun",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::2::lunar_phases",
+      "label": "lunar phases",
+      "normalized_label": "lunar phases",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [
+        "Different appearances of the Moon as it progresses through its cycle, starting dark and becoming illuminated by sunlight over about two weeks, then fading back to dark."
+      ],
+      "source_chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::3::lunar_cycle",
+      "label": "lunar cycle",
+      "normalized_label": "lunar cycle",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::4::earth",
+      "label": "Earth",
+      "normalized_label": "earth",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::0::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::5::new_moon",
+      "label": "new moon",
+      "normalized_label": "new moon",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "The phase of the Moon when it is in the same general direction in the sky as the Sun, with its illuminated side turned away from Earth."
+      ],
+      "source_chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::6::full_moon",
+      "label": "full moon",
+      "normalized_label": "full moon",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "The phase of the Moon when it is opposite the Sun in the sky, with its illuminated side fully visible from Earth."
+      ],
+      "source_chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::7::first_quarter_phase",
+      "label": "first quarter phase",
+      "normalized_label": "first quarter phase",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::8::waxing_gibbous",
+      "label": "waxing gibbous",
+      "normalized_label": "waxing gibbous",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "astronomy::paragraph::0::4_5_phases_and_motions_of_the_moon_learning_obje::chunk::1::4_5_phases_and_motions_of_the_moon_learning_obje",
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::9::third_quarter_phase",
+      "label": "third quarter phase",
+      "normalized_label": "third quarter phase",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The phase of the Moon when it is three-quarters of the way around its orbit, with half of its visible side illuminated."
+      ],
+      "source_chunk_ids": [
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::10::lunar_eclipses",
+      "label": "lunar eclipses",
+      "normalized_label": "lunar eclipses",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "astronomy::paragraph::1::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::2::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::11::synchronous_rotation",
+      "label": "synchronous rotation",
+      "normalized_label": "synchronous rotation",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "The rotation of the Moon on its axis in the same time it takes to revolve around Earth, keeping the same face turned toward Earth.",
+        "the behavior where the Moon rotates on its axis in the same time it takes to revolve about Earth, keeping the same face toward Earth."
+      ],
+      "source_chunk_ids": [
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::12::sidereal_period",
+      "label": "sidereal period",
+      "normalized_label": "sidereal period",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "The period of the Moon's revolution about Earth measured with respect to the stars, approximately 27.3217 days.",
+        "the period of the Moon's revolution about Earth measured with respect to the stars."
+      ],
+      "source_chunk_ids": [
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::13::solar_month",
+      "label": "sidereal month",
+      "normalized_label": "solar month",
+      "aliases": [
+        "solar month"
+      ],
+      "mention_count": 6,
+      "definitions": [
+        "The time interval in which the phases of the Moon repeat, approximately 29.5306 days.",
+        "27.3217 days, the exact duration of the Moon's sidereal period.",
+        "the time interval in which the Moon's phases repeat, lasting 29.5306 days."
+      ],
+      "source_chunk_ids": [
+        "astronomy::paragraph::2::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::3::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "astronomy::concept::14::moon_orbiting_the_earth",
+      "label": "Moon orbiting the Earth",
+      "normalized_label": "moon orbiting the earth",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "astronomy::paragraph::3::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::4::this_simulation_of_the_moon_orbiting_the_earth_h"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::5::new_moon"
+      ],
+      "labels": [
+        "Moon",
+        "new moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::6::full_moon"
+      ],
+      "labels": [
+        "Moon",
+        "full moon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "astronomy::concept::0::moon",
+        "astronomy::concept::14::moon_orbiting_the_earth"
+      ],
+      "labels": [
+        "Moon",
+        "Moon orbiting the Earth"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 47,
+    "canonical_concept_count": 15,
+    "candidate_merge_count": 3
+  }
+}
