@@ -26,3 +26,4 @@ web/
 frontend/dist/
 .localdata/
 data/uploads/
+**/.cursor
