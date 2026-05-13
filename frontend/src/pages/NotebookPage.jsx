@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState, useTransition } from "react";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { CheckCircle2, Pencil } from "lucide-react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { api } from "../api";
@@ -22,9 +23,18 @@ import { loadQuizSession, saveQuizSession } from "../utils/quizSessionStorage";
 function NotebookPage() {
   const { notebookId } = useParams();
   const [searchParams] = useSearchParams();
+  const queryClient = useQueryClient();
   const { user } = useAuth();
-  const [workspace, setWorkspace] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const notebookQueryKey = ["notebook", notebookId, user?.id ?? "anon"];
+
+  const workspaceQuery = useQuery({
+    queryKey: notebookQueryKey,
+    queryFn: () => api.getNotebook(notebookId),
+    enabled: Boolean(notebookId),
+  });
+
+  const workspace = workspaceQuery.data;
+  const showNotebookLoading = Boolean(notebookId) && (workspaceQuery.isPending || !workspace);
   const [quizBuilderOpen, setQuizBuilderOpen] = useState(false);
   const [saveListRunId, setSaveListRunId] = useState("");
   const [exportRunId, setExportRunId] = useState("");
@@ -42,29 +52,6 @@ function NotebookPage() {
   const [notebookTitleDraft, setNotebookTitleDraft] = useState("");
   const workspaceRef = useRef(null);
   const { widths: columnWidths, startDrag: startColumnDrag } = useWorkspaceColumnResize();
-
-  useEffect(() => {
-    if (!notebookId) {
-      return;
-    }
-    let active = true;
-    setLoading(true);
-    api
-      .getNotebook(notebookId)
-      .then((data) => {
-        if (active) {
-          setWorkspace(data);
-        }
-      })
-      .finally(() => {
-        if (active) {
-          setLoading(false);
-        }
-      });
-    return () => {
-      active = false;
-    };
-  }, [notebookId, user?.id]);
 
   useEffect(() => {
     if (!workspace?.notebook) return;
@@ -135,10 +122,10 @@ function NotebookPage() {
     });
   }, [notebookId, selectedRunId, sessionQuestionCount, selectedAnswers, resultsOpen, activeQuestionIndex]);
 
-  if (loading || !workspace) {
+  if (showNotebookLoading) {
     return (
       <div className="page-shell notebook-page">
-        <LoadingPanel />
+        <LoadingPanel label="Loading workspace..." />
       </div>
     );
   }
@@ -210,9 +197,9 @@ function NotebookPage() {
     if (!notebookId) {
       return Promise.resolve(null);
     }
-    return api.getNotebook(notebookId).then((data) => {
-      setWorkspace(data);
-      return data;
+    return queryClient.fetchQuery({
+      queryKey: notebookQueryKey,
+      queryFn: () => api.getNotebook(notebookId),
     });
   }
 
@@ -234,9 +221,6 @@ function NotebookPage() {
     }
     startRunTransition(async () => {
       const question_format_distribution = buildEqualDistribution(selectedQuestionTypes);
-      // #region agent log
-      fetch('http://127.0.0.1:7543/ingest/a8a2cdae-d426-47e7-b573-22856f7eadc4',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'c02dfd'},body:JSON.stringify({sessionId:'c02dfd',runId:'pre-fix',hypothesisId:'H1',location:'frontend/src/pages/NotebookPage.jsx:247',message:'generate_quiz payload prepared',data:{selectedQuestionTypes,question_format_distribution,num_questions:questions,source_id:selectedSourceId},timestamp:Date.now()})}).catch(()=>{});
-      // #endregion
       const createdRun = await api.generateQuiz(notebookId, {
         source_id: selectedSourceId,
         num_questions: questions,
@@ -260,7 +244,9 @@ function NotebookPage() {
     if (trimmed === workspace.notebook.title) return;
     try {
       const updated = await api.patchNotebook(notebookId, { title: trimmed });
-      setWorkspace((w) => (w ? { ...w, notebook: { ...w.notebook, ...updated } } : w));
+      queryClient.setQueryData(notebookQueryKey, (old) =>
+        old ? { ...old, notebook: { ...old.notebook, ...updated } } : old,
+      );
     } catch (err) {
       setNotebookTitleDraft(workspace.notebook.title);
       alert(err instanceof Error ? err.message : "Could not save title");
@@ -307,7 +293,7 @@ function NotebookPage() {
   return (
     <div className="page-shell notebook-page">
       <header className="topbar notebook-topbar">
-        <VisionQBrandLink aria-label="Back to notebooks" />
+        <VisionQBrandLink aria-label="Back to all workspaces" />
         <div className="notebook-topbar-title">
           <input
             className="notebook-title-input"
@@ -322,7 +308,7 @@ function NotebookPage() {
             }}
             maxLength={120}
             spellCheck={false}
-            aria-label="Notebook title"
+            aria-label="Workspace name"
           />
           <Pencil size={16} className="notebook-title-pencil" aria-hidden />
         </div>

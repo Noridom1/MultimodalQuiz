@@ -145,6 +145,12 @@ class NotebookRepository:
     def list_runs(self, notebook_id: str) -> list[dict[str, Any]]:
         return self._select("notebook_runs", filters={"notebook_id": notebook_id}, order="created_at.desc")
 
+    def list_sources_for_notebook_ids(self, notebook_ids: list[str]) -> list[dict[str, Any]]:
+        return self._select_in("notebook_sources", "notebook_id", notebook_ids)
+
+    def list_runs_for_notebook_ids(self, notebook_ids: list[str]) -> list[dict[str, Any]]:
+        return self._select_in("notebook_runs", "notebook_id", notebook_ids)
+
     def get_run_by_run_id(self, run_id: str) -> dict[str, Any] | None:
         rows = self._select("notebook_runs", filters={"run_id": run_id})
         return rows[0] if rows else None
@@ -284,6 +290,40 @@ class NotebookRepository:
             reverse = direction == "desc"
             filtered.sort(key=lambda item: item.get(field, ""), reverse=reverse)
         return filtered
+
+    def _select_in(self, table: str, column: str, values: list[str]) -> list[dict[str, Any]]:
+        unique: list[str] = []
+        seen: set[str] = set()
+        for raw in values:
+            token = str(raw).strip()
+            if not token or token in seen:
+                continue
+            seen.add(token)
+            unique.append(token)
+        if not unique:
+            return []
+
+        if self.is_remote:
+            all_rows: list[dict[str, Any]] = []
+            chunk_size = 40
+            for i in range(0, len(unique), chunk_size):
+                chunk = unique[i : i + chunk_size]
+                inner = ",".join(chunk)
+                params: dict[str, Any] = {"select": "*", column: f"in.({inner})"}
+                response = requests.get(
+                    f"{self.settings.supabase_url}/rest/v1/{table}",
+                    headers=self._rest_headers(),
+                    params=params,
+                    timeout=30,
+                )
+                if not response.ok:
+                    _rest_fail(response)
+                all_rows.extend(response.json())
+            return all_rows
+
+        items = self._read_local(table)
+        idset = set(unique)
+        return [item for item in items if str(item.get(column) or "") in idset]
 
     def _insert_one(self, table: str, payload: dict[str, Any]) -> dict[str, Any]:
         if self.is_remote:

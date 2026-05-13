@@ -1,10 +1,10 @@
 import { LoaderCircle } from "lucide-react";
 
-function LoadingPanel() {
+function LoadingPanel({ label = "Loading workspace..." }) {
   return (
     <div className="loading-panel">
       <LoaderCircle className="spin" size={26} />
-      <span>Loading workspace...</span>
+      <span>{label}</span>
     </div>
   );
 }

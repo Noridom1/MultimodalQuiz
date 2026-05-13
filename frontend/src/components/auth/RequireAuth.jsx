@@ -12,7 +12,7 @@ export default function RequireAuth() {
   if (loading) {
     return (
       <div className="page-shell notebook-page">
-        <LoadingPanel />
+        <LoadingPanel label="Checking session..." />
       </div>
     );
   }

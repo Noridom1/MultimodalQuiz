@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 import { ArrowLeft, LoaderCircle, Search } from "lucide-react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import VisionQBrandLink from "../components/common/VisionQBrandLink";
@@ -14,8 +15,6 @@ function SearchPage() {
   const initialQuery = searchParams.get("q") || "";
   const [query, setQuery] = useState(initialQuery);
   const [debouncedQuery, setDebouncedQuery] = useState(initialQuery);
-  const [loading, setLoading] = useState(false);
-  const [results, setResults] = useState([]);
 
   useEffect(() => {
     setQuery(initialQuery);
@@ -31,29 +30,20 @@ function SearchPage() {
     return () => window.clearTimeout(timeoutId);
   }, [query, setSearchParams]);
 
-  useEffect(() => {
-    if (!debouncedQuery) {
-      setResults([]);
-      setLoading(false);
-      return;
-    }
-    let active = true;
-    setLoading(true);
-    api
-      .listNotebooks(debouncedQuery)
-      .then((data) => {
-        if (active) setResults(data);
-      })
-      .catch(() => {
-        if (active) setResults([]);
-      })
-      .finally(() => {
-        if (active) setLoading(false);
-      });
-    return () => {
-      active = false;
-    };
-  }, [debouncedQuery, user?.id]);
+  const searchQuery = useQuery({
+    queryKey: ["notebooks", "search", debouncedQuery, user?.id ?? "anon"],
+    queryFn: async () => {
+      try {
+        return await api.listNotebooks(debouncedQuery);
+      } catch {
+        return [];
+      }
+    },
+    enabled: Boolean(debouncedQuery),
+  });
+
+  const results = searchQuery.data ?? [];
+  const showSearchLoading = Boolean(debouncedQuery) && searchQuery.isPending;
 
   return (
     <div className="page-shell search-page">
@@ -69,13 +59,13 @@ function SearchPage() {
           <ArrowLeft size={18} />
           Back
         </button>
-        <label className="search-screen-input" aria-label="Search notebooks">
+        <label className="search-screen-input" aria-label="Search workspaces">
           <Search size={18} />
           <input
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search by notebook title or description"
+            placeholder="Search by workspace title or description"
             autoFocus
           />
         </label>
@@ -83,16 +73,16 @@ function SearchPage() {
 
       <section className="search-screen-results">
         {!debouncedQuery ? (
-          <p className="search-screen-hint">Type to search notebooks.</p>
-        ) : loading ? (
+          <p className="search-screen-hint">Type to search workspaces.</p>
+        ) : showSearchLoading ? (
           <div className="search-screen-loading">
             <LoaderCircle className="spin" size={18} />
-            <span>Searching notebooks...</span>
+            <span>Searching workspaces...</span>
           </div>
         ) : results.length === 0 ? (
-          <p className="search-screen-hint">No notebooks found for "{debouncedQuery}".</p>
+          <p className="search-screen-hint">No workspaces found for "{debouncedQuery}".</p>
         ) : (
-          <div className="search-results-list">
+          <div className={`search-results-list${searchQuery.isFetching && !searchQuery.isPending ? " search-results-list--syncing" : ""}`}>
             {results.map((notebook, index) => (
               <button
                 key={notebook.id}

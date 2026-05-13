@@ -1,8 +1,9 @@
 import {
+  BarChart2,
+  Bookmark,
   CheckCircle2,
   ChevronLeft,
   ChevronRight,
-  Circle,
   CircleDashed,
   CircleX,
   Download,
@@ -11,8 +12,9 @@ import {
   LoaderCircle,
   MoreVertical,
   Sparkles,
+  X,
 } from "lucide-react";
-import { useEffect, useId, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { API_BASE } from "../../api";
 import {
   expectedMatchingMap,
@@ -110,6 +112,25 @@ function buildQuestionImageCandidates(imageUrl, selectedRun) {
   return deduped;
 }
 
+/** Local-only override: fixed image paths per question index for one run folder. */
+const HARDCODED_RUN_GENERATION_IMAGES = {
+  "20260512_173748_book-riscv-rev5-chap8_16673c": {
+    1: "outputs/20260512_173748_book-riscv-rev5-chap8_16673c/generation/images/1.png",
+    2: "outputs/20260512_173748_book-riscv-rev5-chap8_16673c/generation/images/2.jpg",
+    3: "outputs/20260512_173748_book-riscv-rev5-chap8_16673c/generation/images/3.jpg",
+    4: "outputs/20260512_173748_book-riscv-rev5-chap8_16673c/generation/images/4.png",
+    5: "outputs/20260512_173748_book-riscv-rev5-chap8_16673c/generation/images/5.png",
+  },
+};
+
+function hardcodedQuestionImageRef(runId, questionIndex1Based) {
+  if (!runId || questionIndex1Based == null || Number.isNaN(Number(questionIndex1Based))) return "";
+  const table = HARDCODED_RUN_GENERATION_IMAGES[runId];
+  if (!table) return "";
+  const n = Number(questionIndex1Based);
+  return table[n] || "";
+}
+
 function formatQuizTitle(run) {
   const rawTitle = String(run?.summary?.title || run?.title || "Untitled quiz").trim();
   if (!rawTitle) return "Untitled quiz";
@@ -117,6 +138,11 @@ function formatQuizTitle(run) {
     .replace(/^run[\s:_-]*/i, "")
     .replace(/\s{2,}/g, " ")
     .trim();
+}
+
+function formatDifficultyLabel(raw) {
+  const s = String(raw ?? "medium").trim() || "medium";
+  return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
 }
 
 function findFirstReviewQuestionIndex(quizResults, selectedAnswers) {
@@ -331,12 +357,21 @@ function QuizPanel({
   onRequestSaveToList,
 }) {
   const [openMenuRunId, setOpenMenuRunId] = useState(null);
+  const [quizDetailMenuOpen, setQuizDetailMenuOpen] = useState(false);
+  const quizDetailMenuRef = useRef(null);
   /** Draft inputs before Submit for fill-in-blank / matching (per question index). */
   const [fibDraftByIndex, setFibDraftByIndex] = useState({});
   const [matchingDraftByIndex, setMatchingDraftByIndex] = useState({});
   const quizResults = selectedRun?.summary?.results || [];
   const currentQuestion = quizResults[activeQuestionIndex] || null;
-  const imageCandidates = buildQuestionImageCandidates(currentQuestion?.image_url, selectedRun);
+  const questionIndex1Based =
+    currentQuestion?.index != null && String(currentQuestion.index).trim() !== ""
+      ? Number(currentQuestion.index)
+      : activeQuestionIndex + 1;
+  const hardcodedImageRef = hardcodedQuestionImageRef(selectedRun?.run_id, questionIndex1Based);
+  const effectiveQuestionImageUrl = hardcodedImageRef || currentQuestion?.image_url || "";
+  const imageCandidates = buildQuestionImageCandidates(effectiveQuestionImageUrl, selectedRun);
+  const showQuestionImage = imageCandidates.length > 0;
   const hasCompletedRuns = workspaceRuns.some((run) => run.status === "completed");
   const currentChoice = selectedAnswers[activeQuestionIndex];
   const currentType = normalizeQuestionType(currentQuestion || {});
@@ -358,6 +393,16 @@ function QuizPanel({
       : {};
   const matchingLeft = Array.isArray(mdMatching.matching_left) ? mdMatching.matching_left : [];
   const matchingRight = Array.isArray(mdMatching.matching_right) ? mdMatching.matching_right : [];
+
+  useEffect(() => {
+    if (!quizDetailMenuOpen) return undefined;
+    const onDocMouseDown = (event) => {
+      if (quizDetailMenuRef.current?.contains(event.target)) return;
+      setQuizDetailMenuOpen(false);
+    };
+    document.addEventListener("mousedown", onDocMouseDown);
+    return () => document.removeEventListener("mousedown", onDocMouseDown);
+  }, [quizDetailMenuOpen]);
 
   useEffect(() => {
     if (currentType !== "matching" || matchingSubmitted || matchingLeft.length === 0) return;
@@ -401,6 +446,8 @@ function QuizPanel({
   const matchingCanSubmit =
     Boolean(matchingDraftPayload) && isAnswerProvided(currentQuestion, matchingDraftPayload);
 
+  const artifactPaths = selectedRun?.summary?.artifact_paths ?? {};
+
   return (
     <section className="panel studio-panel">
       <div
@@ -408,16 +455,27 @@ function QuizPanel({
       >
         <div className="panel-header-lead">
           <div className="panel-header-icon-wrap" aria-hidden>
-            <GraduationCap size={22} strokeWidth={1.75} />
+            <GraduationCap size={19} strokeWidth={1.75} />
           </div>
           <div className="panel-header-text">
             <h2>Quizzes</h2>
-            {!selectedRun ? (
-              <p className="panel-subtitle">Generate quizzes from your sources.</p>
-            ) : null}
+            <p className="panel-subtitle">
+              {selectedRun
+                ? "Test your knowledge from your sources."
+                : "Generate quizzes from your sources."}
+            </p>
           </div>
         </div>
-        {!selectedRun ? (
+        {selectedRun ? (
+          <button
+            type="button"
+            className="ghost-pill compact quiz-panel-exit-quiz"
+            onClick={() => onExitQuiz()}
+          >
+            <X size={15} aria-hidden />
+            Exit quiz
+          </button>
+        ) : (
           <button
             type="button"
             className="primary-pill compact quiz-panel-generate-header"
@@ -427,7 +485,7 @@ function QuizPanel({
             {pendingRun ? <LoaderCircle className="spin" size={18} /> : <Sparkles size={18} />}
             Generate quiz
           </button>
-        ) : null}
+        )}
       </div>
       {!selectedRun ? (
         <div className="quiz-panel-list">
@@ -469,21 +527,80 @@ function QuizPanel({
       ) : (
         <div className="quiz-panel-content quiz-panel-content--detail">
           <div className="quiz-player">
-            <div className="quiz-player-header">
-              <button type="button" className="ghost-pill compact quiz-back-button" onClick={() => onExitQuiz()}>
-                <ChevronLeft size={16} />
-                Back to quizzes
+            <div className="quiz-player-toolbar">
+              <button
+                type="button"
+                className="quiz-toolbar-back"
+                onClick={() => onExitQuiz()}
+                aria-label="Back to quizzes"
+              >
+                <ChevronLeft size={18} strokeWidth={2} aria-hidden />
               </button>
-              <h3>{formatQuizTitle(selectedRun)}</h3>
-              {onRequestSaveToList && notebookId ? (
-                <button
-                  type="button"
-                  className="ghost-pill compact"
-                  onClick={() => onRequestSaveToList(selectedRun.run_id)}
-                >
-                  Save to list…
-                </button>
-              ) : null}
+              <h3 className="quiz-toolbar-title">{formatQuizTitle(selectedRun)}</h3>
+              <div className="quiz-toolbar-actions" ref={quizDetailMenuRef}>
+                {onRequestSaveToList && notebookId ? (
+                  <button
+                    type="button"
+                    className="quiz-toolbar-text-btn"
+                    onClick={() => onRequestSaveToList(selectedRun.run_id)}
+                  >
+                    <Bookmark size={15} strokeWidth={2} aria-hidden />
+                    Save to list
+                  </button>
+                ) : null}
+                <div className="quiz-toolbar-menu-wrap">
+                  <button
+                    type="button"
+                    className="quiz-toolbar-more"
+                    aria-expanded={quizDetailMenuOpen}
+                    aria-haspopup="true"
+                    aria-label="Quiz options"
+                    onClick={() => setQuizDetailMenuOpen((open) => !open)}
+                  >
+                    <MoreVertical size={18} strokeWidth={2} aria-hidden />
+                  </button>
+                  {quizDetailMenuOpen ? (
+                    <div className="run-list-menu quiz-toolbar-dropdown" role="menu">
+                      <button
+                        type="button"
+                        className="run-list-menu-item"
+                        role="menuitem"
+                        onClick={() => {
+                          onRequestExport(selectedRun.run_id);
+                          setQuizDetailMenuOpen(false);
+                        }}
+                      >
+                        <Download size={16} aria-hidden />
+                        Export…
+                      </button>
+                      {artifactPaths.quiz_package ? (
+                        <a
+                          href={artifactPaths.quiz_package}
+                          className="run-list-menu-item"
+                          role="menuitem"
+                          target="_blank"
+                          rel="noreferrer"
+                          onClick={() => setQuizDetailMenuOpen(false)}
+                        >
+                          Quiz package
+                        </a>
+                      ) : null}
+                      {artifactPaths.graph_html ? (
+                        <a
+                          href={artifactPaths.graph_html}
+                          className="run-list-menu-item"
+                          role="menuitem"
+                          target="_blank"
+                          rel="noreferrer"
+                          onClick={() => setQuizDetailMenuOpen(false)}
+                        >
+                          Graph
+                        </a>
+                      ) : null}
+                    </div>
+                  ) : null}
+                </div>
+              </div>
             </div>
 
             {resultsOpen ? (
@@ -576,15 +693,35 @@ function QuizPanel({
             ) : currentQuestion ? (
               <>
                 <div className="quiz-player-scroll">
-                  <div className="quiz-progress-row quiz-progress-row--simple">
-                    <span className="quiz-progress-label">
-                      Question {activeQuestionIndex + 1} of {totalQuestions}
-                    </span>
-                  </div>
-
-                  <div className="quiz-player-body">
-                    {currentQuestion.image_url ? (
-                      <div className="quiz-player-image">
+                  <article className="quiz-question-card">
+                    <div className="quiz-question-card-head">
+                      <div className="quiz-progress-stack">
+                        <span className="quiz-progress-label quiz-progress-label--strong">
+                          Question {activeQuestionIndex + 1} of {totalQuestions}
+                        </span>
+                        <div
+                          className="quiz-progress-bar"
+                          role="progressbar"
+                          aria-valuemin={1}
+                          aria-valuenow={Math.min(activeQuestionIndex + 1, Math.max(totalQuestions, 1))}
+                          aria-valuemax={Math.max(totalQuestions, 1)}
+                          aria-label={`Question ${activeQuestionIndex + 1} of ${totalQuestions}`}
+                        >
+                          <div
+                            className="quiz-progress-bar-fill"
+                            style={{
+                              width: `${totalQuestions > 0 ? ((activeQuestionIndex + 1) / totalQuestions) * 100 : 0}%`,
+                            }}
+                          />
+                        </div>
+                      </div>
+                      <div className="quiz-difficulty-badge">
+                        <BarChart2 size={14} strokeWidth={2} aria-hidden />
+                        {formatDifficultyLabel(currentQuestion.difficulty)}
+                      </div>
+                    </div>
+                    {showQuestionImage ? (
+                      <div className="quiz-player-image quiz-player-image--card">
                         <img
                           key={currentQuestion.index ?? activeQuestionIndex}
                           src={imageCandidates[0] || ""}
@@ -601,10 +738,10 @@ function QuizPanel({
                         />
                       </div>
                     ) : null}
-                    <span className="eyebrow">
-                      {currentQuestion.difficulty} - {currentQuestion.target_concept}
-                    </span>
-                    <h4>{currentQuestion.question_text}</h4>
+                    <h4 className="quiz-question-title">{currentQuestion.question_text}</h4>
+                    {currentQuestion.target_concept ? (
+                      <p className="quiz-question-concept">{String(currentQuestion.target_concept)}</p>
+                    ) : null}
                     {currentType === "fill_in_blank" ? (
                       <div className="quiz-options quiz-options--with-submit">
                         <input
@@ -727,111 +864,93 @@ function QuizPanel({
                         ) : null}
                       </div>
                     ) : (
-                    <div className="quiz-options">
-                      {currentQuestion.options.map((option) => {
-                        const isSelected = currentChoice === option;
-                        const showFeedback = isSelected && hasAnswer;
-                        const isCorrectChoice = option === currentQuestion.correct_answer;
-                        return (
-                          <button
-                            type="button"
-                            key={option}
-                            className={`quiz-option ${isSelected ? "selected" : ""} ${showFeedback && isCorrectChoice ? "quiz-option--correct" : ""
-                              } ${showFeedback && !isCorrectChoice ? "quiz-option--incorrect" : ""}`}
-                            disabled={choiceLocked}
-                            onClick={() =>
-                              setSelectedAnswers((current) => {
-                                if (Object.prototype.hasOwnProperty.call(current, activeQuestionIndex)) {
-                                  return current;
-                                }
-                                return { ...current, [activeQuestionIndex]: option };
-                              })
-                            }
-                          >
-                            <span className="quiz-option-main">
-                              {!isSelected ? (
-                                <Circle size={18} aria-hidden />
-                              ) : isCorrectChoice ? (
-                                <CheckCircle2 size={18} aria-hidden />
-                              ) : (
-                                <CircleX size={18} aria-hidden />
-                              )}
-                              <span className="quiz-option-text">{option}</span>
-                            </span>
-                            {showFeedback ? (
-                              <div className="quiz-option-feedback">
-                                <div className={`quiz-option-verdict ${isCorrectChoice ? "correct" : "incorrect"}`}>
-                                  {isCorrectChoice ? (
-                                    <>
-                                      <CheckCircle2 size={18} aria-hidden />
-                                      <span>Correct!</span>
-                                    </>
-                                  ) : (
-                                    <>
-                                      <CircleX size={18} aria-hidden />
-                                      <span>Not quite right!</span>
-                                    </>
-                                  )}
+                      <div className="quiz-options">
+                        {currentQuestion.options.map((option, optionIndex) => {
+                          const isSelected = currentChoice === option;
+                          const showFeedback = isSelected && hasAnswer;
+                          const isCorrectChoice = option === currentQuestion.correct_answer;
+                          const letter =
+                            optionIndex < 26 ? String.fromCharCode(65 + optionIndex) : String(optionIndex + 1);
+                          return (
+                            <button
+                              type="button"
+                              key={option}
+                              className={`quiz-option ${isSelected ? "selected" : ""} ${showFeedback && isCorrectChoice ? "quiz-option--correct" : ""
+                                } ${showFeedback && !isCorrectChoice ? "quiz-option--incorrect" : ""}`}
+                              disabled={choiceLocked}
+                              onClick={() =>
+                                setSelectedAnswers((current) => {
+                                  if (Object.prototype.hasOwnProperty.call(current, activeQuestionIndex)) {
+                                    return current;
+                                  }
+                                  return { ...current, [activeQuestionIndex]: option };
+                                })
+                              }
+                            >
+                              <span className="quiz-option-row">
+                                <span className="quiz-option-letter" aria-hidden>
+                                  {letter}
+                                </span>
+                                <span className="quiz-option-text">{option}</span>
+                              </span>
+                              {showFeedback ? (
+                                <div className="quiz-option-feedback">
+                                  <div className={`quiz-option-verdict ${isCorrectChoice ? "correct" : "incorrect"}`}>
+                                    {isCorrectChoice ? (
+                                      <>
+                                        <CheckCircle2 size={18} aria-hidden />
+                                        <span>Correct!</span>
+                                      </>
+                                    ) : (
+                                      <>
+                                        <CircleX size={18} aria-hidden />
+                                        <span>Not quite right!</span>
+                                      </>
+                                    )}
+                                  </div>
+                                  {currentQuestion.explanation ? (
+                                    <p className="quiz-option-explanation">{currentQuestion.explanation}</p>
+                                  ) : null}
                                 </div>
-                                {currentQuestion.explanation ? (
-                                  <p className="quiz-option-explanation">{currentQuestion.explanation}</p>
-                                ) : null}
-                              </div>
-                            ) : null}
-                          </button>
-                        );
-                      })}
-                    </div>
+                              ) : null}
+                            </button>
+                          );
+                        })}
+                      </div>
                     )}
-                  </div>
-
-                  <div className="quiz-player-footer quiz-player-footer--links-only">
-                    <div className="artifact-links">
-                      <button
-                        type="button"
-                        className="ghost-inline compact"
-                        onClick={() => onRequestExport(selectedRun.run_id)}
-                      >
-                        <Download size={16} />
-                        Export…
-                      </button>
-                      <a href={selectedRun.summary.artifact_paths.quiz_package} target="_blank" rel="noreferrer">
-                        Quiz package
-                      </a>
-                      <a href={selectedRun.summary.artifact_paths.graph_html} target="_blank" rel="noreferrer">
-                        Graph
-                      </a>
-                    </div>
-                  </div>
+                  </article>
                 </div>
 
                 <div className="quiz-player-actions quiz-player-actions--dock">
                   <button
                     type="button"
-                    className="ghost-pill"
+                    className="ghost-pill quiz-nav-prev"
                     onClick={() => setActiveQuestionIndex((current) => Math.max(0, current - 1))}
                     disabled={activeQuestionIndex === 0}
                   >
+                    <ChevronLeft size={18} aria-hidden />
                     Previous
                   </button>
                   {activeQuestionIndex === totalQuestions - 1 ? (
                     <button
                       type="button"
-                      className="primary-pill"
+                      className="primary-pill quiz-nav-next"
                       onClick={() => setResultsOpen(true)}
                       disabled={totalQuestions === 0}
                     >
-                      Show result
+                      View results
+                      <ChevronRight size={18} aria-hidden />
                     </button>
                   ) : (
                     <button
                       type="button"
-                      className="primary-pill"
+                      className="primary-pill quiz-nav-next"
                       onClick={() =>
                         setActiveQuestionIndex((current) => Math.min(totalQuestions - 1, current + 1))
                       }
                     >
                       Next
+                      <ChevronRight size={18} aria-hidden />
                     </button>
                   )}
                 </div>

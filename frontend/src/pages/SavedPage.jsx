@@ -1,4 +1,5 @@
 import { useEffect, useState, useTransition } from "react";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { ChevronLeft, Folder, LoaderCircle, Plus, Star } from "lucide-react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { api } from "../api";
@@ -103,77 +104,45 @@ function CreateListModal({ open, onClose, onCreated }) {
 function SavedPage() {
   const { listId } = useParams();
   const navigate = useNavigate();
-  const [lists, setLists] = useState([]);
-  const [detail, setDetail] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [detailLoading, setDetailLoading] = useState(false);
-  const [error, setError] = useState("");
+  const queryClient = useQueryClient();
   const [createOpen, setCreateOpen] = useState(false);
   const [removingId, setRemovingId] = useState("");
 
-  useEffect(() => {
-    let active = true;
-    if (listId) {
-      setDetailLoading(true);
-      setError("");
-      api
-        .getQuizList(listId)
-        .then((data) => {
-          if (active) setDetail(data);
-        })
-        .catch((err) => {
-          if (active) {
-            setError(err instanceof Error ? err.message : "Could not load list");
-            setDetail(null);
-          }
-        })
-        .finally(() => {
-          if (active) setDetailLoading(false);
-        });
-    } else {
-      setDetail(null);
-    }
-    return () => {
-      active = false;
-    };
-  }, [listId]);
+  const listsQuery = useQuery({
+    queryKey: ["quizLists"],
+    queryFn: () => api.listQuizLists(),
+    enabled: !listId,
+  });
 
-  useEffect(() => {
-    if (listId) {
-      setLoading(false);
-      return undefined;
-    }
-    let active = true;
-    setLoading(true);
-    setError("");
-    api
-      .listQuizLists()
-      .then((data) => {
-        if (active) setLists(data);
-      })
-      .catch((err) => {
-        if (active) setError(err instanceof Error ? err.message : "Could not load lists");
-      })
-      .finally(() => {
-        if (active) setLoading(false);
-      });
-    return () => {
-      active = false;
-    };
-  }, [listId]);
+  const detailQuery = useQuery({
+    queryKey: ["quizList", listId],
+    queryFn: () => api.getQuizList(listId),
+    enabled: Boolean(listId),
+  });
 
-  function refreshLists() {
-    api.listQuizLists().then(setLists).catch(() => {});
-  }
+  const lists = listsQuery.data ?? [];
+  const listInitialLoading = Boolean(!listId && listsQuery.isPending && lists.length === 0);
+  const listsErrorMsg = listsQuery.isError
+    ? listsQuery.error instanceof Error
+      ? listsQuery.error.message
+      : "Could not load lists"
+    : "";
+
+  const detail = detailQuery.data;
+  const detailInitialLoading = Boolean(listId && detailQuery.isPending && !detail);
+  const detailErrorMsg = detailQuery.isError
+    ? detailQuery.error instanceof Error
+      ? detailQuery.error.message
+      : "Could not load list"
+    : "";
 
   async function handleRemoveItem(itemId) {
     if (!listId || !window.confirm("Remove this quiz from the list?")) return;
     setRemovingId(itemId);
     try {
       await api.removeQuizListItem(listId, itemId);
-      const next = await api.getQuizList(listId);
-      setDetail(next);
-      refreshLists();
+      await queryClient.invalidateQueries({ queryKey: ["quizList", listId] });
+      await queryClient.invalidateQueries({ queryKey: ["quizLists"] });
     } catch (err) {
       alert(err instanceof Error ? err.message : "Remove failed");
     } finally {
@@ -192,11 +161,11 @@ function SavedPage() {
           <VisionQBrandLink />
         </header>
 
-        {detailLoading ? (
-          <LoadingPanel />
-        ) : error ? (
+        {detailInitialLoading ? (
+          <LoadingPanel label="Loading list..." />
+        ) : detailErrorMsg ? (
           <div className="saved-error">
-            <p>{error}</p>
+            <p>{detailErrorMsg}</p>
             <Link className="ghost-pill" to="/login">
               Sign in
             </Link>
@@ -235,7 +204,7 @@ function SavedPage() {
                 </li>
               ))}
             </ul>
-            {!detail.items?.length ? <p className="saved-empty-hint">Add quizzes from a notebook using “Save to list”.</p> : null}
+            {!detail.items?.length ? <p className="saved-empty-hint">Add quizzes from a workspace using “Save to list”.</p> : null}
           </>
         ) : null}
       </div>
@@ -248,7 +217,7 @@ function SavedPage() {
         <VisionQBrandLink />
         <div className="topbar-actions">
           <Link className="ghost-pill" to="/">
-            Notebooks
+            Workspaces
           </Link>
           <Link className="ghost-pill" to="/login">
             Sign in
@@ -263,11 +232,11 @@ function SavedPage() {
         </h1>
       </div>
 
-      {loading ? (
-        <LoadingPanel />
-      ) : error ? (
+      {listInitialLoading ? (
+        <LoadingPanel label="Loading saved lists..." />
+      ) : listsErrorMsg ? (
         <div className="saved-error">
-          <p>{error}</p>
+          <p>{listsErrorMsg}</p>
           <p className="saved-error-hint">Saved lists require an account when the API uses Supabase.</p>
           <Link className="primary-pill" to="/login">
             Sign in
@@ -308,7 +277,7 @@ function SavedPage() {
         open={createOpen}
         onClose={() => setCreateOpen(false)}
         onCreated={() => {
-          refreshLists();
+          void queryClient.invalidateQueries({ queryKey: ["quizLists"] });
         }}
       />
     </div>

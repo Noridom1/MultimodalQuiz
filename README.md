@@ -1,5 +1,7 @@
 # Multimodal Quiz Generation Framework
 
+For a product-oriented overview of the **VisionQ** web application (React + FastAPI), see **[docs/product.md](docs/product.md)**.
+
 ## 1. Problem Statement
 
 Quiz-based learning is a widely adopted approach in education, supporting knowledge assessment, reinforcement, and active learning. With the advancement of natural language processing, automatic quiz generation has emerged as an important research area, enabling scalable and efficient creation of educational content. Existing approaches primarily focus on generating textual questions, such as multiple-choice questions (MCQs), short-answer questions, and fill-in-the-blank formats, directly from textual documents.

@@ -4,6 +4,7 @@ import csv
 import datetime as dt
 import io
 import json
+from collections import defaultdict
 import mimetypes
 import re
 import zipfile
@@ -58,22 +59,73 @@ class NotebookService:
     def list_notebook_cards(self, *, auth: AuthUser | None, query: str | None = None) -> list[dict[str, Any]]:
         owner = auth.id if auth else None
         notebooks = self.repo.list_notebooks(owner_id=owner, query=query)
+        if not notebooks:
+            return []
+
+        ids = [str(n["id"]) for n in notebooks if n.get("id")]
+        sources_all = self.repo.list_sources_for_notebook_ids(ids)
+        runs_all = self.repo.list_runs_for_notebook_ids(ids)
+
+        sources_by: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for row in sources_all:
+            bid = str(row.get("notebook_id") or "")
+            if bid:
+                sources_by[bid].append(row)
+
+        runs_by: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for row in runs_all:
+            bid = str(row.get("notebook_id") or "")
+            if bid:
+                runs_by[bid].append(row)
+        for bid in runs_by:
+            runs_by[bid].sort(key=lambda item: str(item.get("created_at") or ""), reverse=True)
+
         cards: list[dict[str, Any]] = []
         for notebook in notebooks:
-            workspace = self.get_workspace(notebook["id"], auth=auth)
+            self._require_notebook_owner(notebook, auth)
+            nid = str(notebook.get("id") or "")
+            nb_runs = runs_by.get(nid, [])
+            latest = nb_runs[0] if nb_runs else None
+            summary = self._run_summary_dict(latest) if latest else {}
+            question_count = self._question_count_from_parsed_summary(summary)
+            if not question_count and latest:
+                raw_n = latest.get("num_questions")
+                if isinstance(raw_n, int) and raw_n >= 0:
+                    question_count = raw_n
+            cover = str(notebook.get("cover_image") or "").strip()
+            hero = cover or str(summary.get("hero_image") or "").strip()
             cards.append(
                 {
-                    **workspace["notebook"],
-                    "source_count": len(workspace["sources"]),
-                    "run_count": len(workspace["runs"]),
-                    "question_count": workspace["latest_run"]["summary"].get("question_count", 0)
-                    if workspace["latest_run"]
-                    else 0,
-                    "hero_image": workspace["notebook"].get("cover_image")
-                    or (workspace["latest_run"]["summary"].get("hero_image") if workspace["latest_run"] else ""),
+                    **notebook,
+                    "source_count": len(sources_by.get(nid, [])),
+                    "run_count": len(nb_runs),
+                    "question_count": question_count,
+                    "hero_image": hero,
                 }
             )
         return cards
+
+    @staticmethod
+    def _run_summary_dict(run: dict[str, Any] | None) -> dict[str, Any]:
+        if not run:
+            return {}
+        summary = run.get("summary") or {}
+        if isinstance(summary, str):
+            try:
+                summary = json.loads(summary)
+            except json.JSONDecodeError:
+                return {}
+        return summary if isinstance(summary, dict) else {}
+
+    @staticmethod
+    def _question_count_from_parsed_summary(summary: dict[str, Any]) -> int:
+        qc = summary.get("question_count")
+        if isinstance(qc, int) and qc >= 0:
+            return qc
+        results = summary.get("results") or []
+        if isinstance(results, list):
+            return len(results)
+        return 0
 
     def get_workspace(self, notebook_id: str, *, auth: AuthUser | None) -> dict[str, Any]:
         notebook = self.repo.get_notebook(notebook_id)
@@ -872,6 +924,112 @@ class NotebookService:
             raise HTTPException(status_code=404, detail="Run not found")
         return hydrated
 
+    def _api_artifact_href(self, absolute_file: Path) -> str:
+        project_root = self.settings.project_root.resolve()
+        resolved = absolute_file.resolve()
+        relative = resolved.relative_to(project_root).as_posix()
+        return f"/api/artifacts/{relative}"
+
+    def _enrich_summary_results_with_disk_images(
+        self, summary: dict[str, Any], manifest: dict[str, Any], run_id: str
+    ) -> dict[str, Any]:
+        """Fill empty per-question image_url from disk when the run output folder is present.
+
+        Resolution order for each question index:
+        1. ``image_url`` in ``generation/quiz_package.json`` for that index (relative to run root
+           or http(s)/data URL), if the referenced file exists locally.
+        2. ``generation/images/q{index}.<ext>`` or ``generation/images/{index}.<ext>`` under the run
+           folder (``.png``, ``.jpg``, …).
+        """
+        results = summary.get("results")
+        if not isinstance(results, list) or not results:
+            return summary
+        run_root = self._run_root_from_manifest(manifest, run_id)
+        quiz_path = run_root / "generation" / "quiz_package.json"
+
+        def normalize_question_index(value: object) -> int | None:
+            if isinstance(value, bool):
+                return None
+            if isinstance(value, int):
+                return value
+            if isinstance(value, float) and value.is_integer():
+                return int(value)
+            if isinstance(value, str) and value.strip().isdigit():
+                return int(value.strip())
+            return None
+
+        disk_by_index: dict[int, str] = {}
+        if quiz_path.is_file():
+            try:
+                payload = json.loads(quiz_path.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                payload = {}
+            for item in payload.get("results", []) or []:
+                if not isinstance(item, dict):
+                    continue
+                idx = normalize_question_index(item.get("index"))
+                ref = item.get("image_url")
+                if idx is not None and isinstance(ref, str) and ref.strip():
+                    disk_by_index[idx] = ref.strip()
+
+        image_dir = run_root / "generation" / "images"
+        exts = (".png", ".jpg", ".jpeg", ".webp", ".gif")
+        project_root = self.settings.project_root.resolve()
+
+        def href_for_ref_on_disk(question_index: int) -> str:
+            ref = disk_by_index.get(question_index)
+            if ref:
+                lowered = ref.lower()
+                if lowered.startswith(("http://", "https://", "data:")):
+                    return ref
+                normalized = ref.replace("\\", "/").lstrip("/")
+                try:
+                    target = (run_root / normalized).resolve()
+                except OSError:
+                    target = run_root / normalized
+                if (
+                    project_root in target.parents or target == project_root
+                ) and target.is_file():
+                    return self._api_artifact_href(target)
+            if image_dir.is_dir():
+                for ext in exts:
+                    for name in (f"q{question_index}{ext}", f"{question_index}{ext}"):
+                        candidate = image_dir / name
+                        try:
+                            resolved = candidate.resolve()
+                        except OSError:
+                            continue
+                        if resolved.is_file():
+                            return self._api_artifact_href(resolved)
+            return ""
+
+        new_results: list[Any] = []
+        changed = False
+        hero = str(summary.get("hero_image") or "").strip()
+
+        for row in results:
+            if not isinstance(row, dict):
+                new_results.append(row)
+                continue
+            row_out = dict(row)
+            idx = normalize_question_index(row_out.get("index"))
+            existing = str(row_out.get("image_url") or "").strip()
+            if not existing and idx is not None:
+                href = href_for_ref_on_disk(idx)
+                if href:
+                    row_out["image_url"] = href
+                    changed = True
+                    if not hero:
+                        hero = href
+            new_results.append(row_out)
+
+        if not changed:
+            return summary
+        out = {**summary, "results": new_results}
+        if hero and not str(summary.get("hero_image") or "").strip():
+            out["hero_image"] = hero
+        return out
+
     def _hydrate_run(self, run: dict[str, Any] | None) -> dict[str, Any] | None:
         if not run:
             return None
@@ -893,6 +1051,9 @@ class NotebookService:
                 artifact_paths = json.loads(artifact_paths)
             except json.JSONDecodeError:
                 artifact_paths = {}
+        run_id = str(run.get("run_id") or "")
+        if isinstance(summary, dict) and isinstance(summary.get("results"), list):
+            summary = self._enrich_summary_results_with_disk_images(summary, manifest, run_id)
         return {**run, "summary": summary, "manifest": manifest, "artifact_paths": artifact_paths}
 
     def _build_assistant_reply(
