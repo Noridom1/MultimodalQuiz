@@ -1,0 +1,38 @@
+Index: 5
+Target concept: Illumination
+Tested fact block id: doc5::concept::42::illumination
+Image description: A diagram showing the Moon's phases with the waxing gibbous phase highlighted and the illuminated portion clearly marked.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: Illumination
+Question type: multiple_choice
+Difficulty: medium
+Reasoning type: factoid
+Image role: illustrative
+Learning objective: Understand the role of illumination in determining the Moon's phases, specifically the waxing gibbous phase.
+Image context: A diagram showing the Moon's phases with the waxing gibbous phase highlighted and the illuminated portion clearly marked.
+Tested fact block ID: doc5::concept::42::illumination
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+Create a diagram of the Moon's phases in a circular arrangement, with the waxing gibbous phase prominently highlighted in a warm yellow glow to emphasize illumination. Label each phase clearly (e.g., "New Moon," "First Quarter") and use arrows to show the direction of orbit, with the waxing gibbous phase marked by a bold outline and a label like "Highlighted Phase." Use high-contrast colors (dark background, bright Moon phases) for accessibility, and avoid realistic Earth/Moon textures to prevent copyright issues.
+
+Alt: A diagram of the Moon's phases with the waxing gibbous phase highlighted to show illumination.
+
+--- Raw LLM image-prompt response ---
+Create a diagram of the Moon's phases in a circular arrangement, with the waxing gibbous phase prominently highlighted in a warm yellow glow to emphasize illumination. Label each phase clearly (e.g., "New Moon," "First Quarter") and use arrows to show the direction of orbit, with the waxing gibbous phase marked by a bold outline and a label like "Highlighted Phase." Use high-contrast colors (dark background, bright Moon phases) for accessibility, and avoid realistic Earth/Moon textures to prevent copyright issues.
+
+Alt: A diagram of the Moon's phases with the waxing gibbous phase highlighted to show illumination.

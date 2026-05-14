@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast Venn diagram with three overlapping circles labeled \"Category X,\" \"Category Y,\" and \"Category Z,\" each filled with distinct colors (e.g., blue, green, red). Highlight the overlapping regions with a neutral tone (e.g., gray) and label them \"Shared Feature 1,\" \"Shared Feature 2,\" etc., using bold, legible text. Ensure the diagram is simple, uncluttered, and uses generic placeholders to avoid bias.\n\nAlt: A Venn diagram illustrating overlapping features between three labeled categories, emphasizing shared characteristics.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_160446_doc15_58e94f/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram of a generic entity (e.g., a stylized person, animal, or object) with 3-4 labeled attributes like \"name,\" \"age,\" and \"color\" in bold, legible text. Use a clean, minimalist style with a neutral background and distinct colors for each label (e.g., blue for \"name,\" green for \"age\"). Replace specific values with placeholders (e.g., \"Name: [Entity X]\"). Ensure the layout clearly groups the entity and its attributes together.\n\n**Alt:** A diagram of a generic entity with labeled attributes such as name, age, and color, using placeholder values.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_160446_doc15_58e94f/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "Create a simple diagram of a generic object (e.g., a chair) with labeled attributes: essential traits (e.g., \"has legs,\" \"supports weight\") in bold blue text, and contingent traits (e.g., \"color: red,\" \"material: wood\") in dashed green text. Use high-contrast colors and clear arrows to distinguish the two categories, ensuring all labels are legible. Alt: A diagram of a chair with attributes labeled as essential (blue) or contingent (green) to illustrate the difference between necessary and variable traits.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_160446_doc15_58e94f/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate a diverse group of 4–5 people engaged in conversation at a café, with one person gesturing while others listen or respond. Use warm, inviting colors (soft browns, greens, and muted blues) to emphasize a relaxed social atmosphere. Label key elements like \"Group Interaction,\" \"Verbal Exchange,\" and \"Shared Space\" with subtle, high-contrast text. Avoid branded items or logos.\n\n**Alt:** A diverse group of people sitting at a café table, talking and gesturing in a friendly social setting.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_160446_doc15_58e94f/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast diagram with a central node labeled \"Concept\" branching into three tiers of related abstract ideas (e.g., \"Sub-Concept A,\" \"Sub-Concept B\"), using distinct colors for each tier and arrows to show hierarchical relationships. Use simple geometric shapes (circles, rectangles) with bold outlines and a neutral background for clarity. Alt: A hierarchical diagram illustrating the relationships between abstract concepts and their subcategories.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_160446_doc15_58e94f/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

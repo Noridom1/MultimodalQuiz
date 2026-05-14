@@ -1,0 +1,788 @@
+{
+  "count": 16,
+  "topics": [
+    {
+      "id": "doc1::topic_candidate::section::1::the_historic_dien_bien_phu_campaign",
+      "label": "The Historic Dien Bien Phu Campaign",
+      "description": "Section-seeded topic for The Historic Dien Bien Phu Campaign",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::10::party_s_central_committee",
+        "doc1::concept::11::government",
+        "doc1::concept::14::navarre_plan",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::1::bac_bo",
+        "doc1::concept::2::upper_laos",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::4::tuan_giao",
+        "doc1::concept::5::son_la",
+        "doc1::concept::9::winter_spring_campaign"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::5::son_la"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc1::section::1::the_historic_dien_bien_phu_campaign",
+        "source_section_label": "The Historic Dien Bien Phu Campaign"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::section::2::first_phase_destruction_of_the_northern_sub_sector",
+      "label": "First phase: destruction of the northern sub-sector",
+      "description": "Section-seeded topic for First phase: destruction of the northern sub-sector",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "First phase: destruction of the northern sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::14::navarre_plan",
+        "doc1::concept::15::him_lam",
+        "doc1::concept::16::doc_lap",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::18::ban_keo",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::2::upper_laos",
+        "doc1::concept::31::encirclement",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::4::tuan_giao",
+        "doc1::concept::5::son_la"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::3::lai_chau"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc1::section::18::first_phase_destruction_of_the_northern_sub_sect",
+        "source_section_label": "First phase: destruction of the northern sub-sector"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::section::3::second_phase_occupation_of_the_hills_in_the_east_and_encirclement_of_the_central_sub_sector",
+      "label": "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector",
+      "description": "Section-seeded topic for Second phase: Occupation of the hills in the east and encirclement of the central sub-sector",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::20::hill_a_1",
+        "doc1::concept::21::hill_c_1",
+        "doc1::concept::22::hill_d_1",
+        "doc1::concept::23::hill_e_1",
+        "doc1::concept::31::encirclement",
+        "doc1::concept::44::american_interventionists",
+        "doc1::concept::45::bombers",
+        "doc1::concept::46::transport_planes",
+        "doc1::concept::5::son_la"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc1::section::26::second_phase_occupation_of_the_hills_in_the_east",
+        "source_section_label": "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::section::4::third_phase_annihilation_of_the_enemy",
+      "label": "Third phase: Annihilation of the enemy",
+      "description": "Section-seeded topic for Third phase: Annihilation of the enemy",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::20::hill_a_1",
+        "doc1::concept::21::hill_c_1",
+        "doc1::concept::2::upper_laos",
+        "doc1::concept::56::viet_bac",
+        "doc1::concept::57::french_and_american_generals",
+        "doc1::concept::58::dien_bien_phu_entrenched_camp",
+        "doc1::concept::59::high_command_of_the_french_expeditionary_corps",
+        "doc1::concept::60::dien_bien_phu_garrison",
+        "doc1::concept::66::fifth_zone"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc1::section::35::third_phase_annihilation_of_the_enemy",
+        "source_section_label": "Third phase: Annihilation of the enemy"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::0::dien_bien_phu",
+      "label": "Dien Bien Phu",
+      "description": "Concept-anchored topic centered on Dien Bien Phu",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::14::navarre_plan",
+        "doc1::concept::16::doc_lap",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::2::upper_laos",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::4::tuan_giao",
+        "doc1::concept::5::son_la",
+        "doc1::concept::9::winter_spring_campaign"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::0::dien_bien_phu"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::0::dien_bien_phu"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::1::central_sub_sector",
+      "label": "Central sub-sector",
+      "description": "Concept-anchored topic centered on central sub-sector",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::20::hill_a_1",
+        "doc1::concept::21::hill_c_1",
+        "doc1::concept::22::hill_d_1",
+        "doc1::concept::23::hill_e_1",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::46::transport_planes",
+        "doc1::concept::5::son_la"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::19::central_sub_sector"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::19::central_sub_sector"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::2::muong_thanh",
+      "label": "Muong Thanh",
+      "description": "Concept-anchored topic centered on Muong Thanh",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "First phase: destruction of the northern sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::14::navarre_plan",
+        "doc1::concept::15::him_lam",
+        "doc1::concept::16::doc_lap",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::20::hill_a_1",
+        "doc1::concept::21::hill_c_1",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::5::son_la"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::17::muong_thanh"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::17::muong_thanh"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::3::supply_lines",
+      "label": "Supply lines",
+      "description": "Concept-anchored topic centered on supply lines",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::14::navarre_plan",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::1::bac_bo",
+        "doc1::concept::2::upper_laos",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::4::tuan_giao",
+        "doc1::concept::5::son_la",
+        "doc1::concept::9::winter_spring_campaign"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::5::son_la"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::5::son_la"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::4::lai_chau",
+      "label": "Lai Chau",
+      "description": "Concept-anchored topic centered on Lai Chau",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::14::navarre_plan",
+        "doc1::concept::16::doc_lap",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::2::upper_laos",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::4::tuan_giao",
+        "doc1::concept::5::son_la",
+        "doc1::concept::9::winter_spring_campaign"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::3::lai_chau"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::3::lai_chau"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::5::upper_laos",
+      "label": "Upper Laos",
+      "description": "Concept-anchored topic centered on Upper Laos",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::14::navarre_plan",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::2::upper_laos",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::56::viet_bac",
+        "doc1::concept::5::son_la",
+        "doc1::concept::60::dien_bien_phu_garrison",
+        "doc1::concept::9::winter_spring_campaign"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::2::upper_laos"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::2::upper_laos"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::6::hill_a_1",
+      "label": "Hill A-1",
+      "description": "Concept-anchored topic centered on hill A-1",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::20::hill_a_1",
+        "doc1::concept::21::hill_c_1",
+        "doc1::concept::22::hill_d_1",
+        "doc1::concept::23::hill_e_1",
+        "doc1::concept::26::command_post",
+        "doc1::concept::44::american_interventionists",
+        "doc1::concept::46::transport_planes"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::20::hill_a_1"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::20::hill_a_1"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::7::encirclement",
+      "label": "Encirclement",
+      "description": "Concept-anchored topic centered on encirclement",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::14::navarre_plan",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::20::hill_a_1",
+        "doc1::concept::31::encirclement",
+        "doc1::concept::32::artillery",
+        "doc1::concept::33::mortars",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::5::son_la"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::31::encirclement"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::31::encirclement"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::8::navarre_plan",
+      "label": "Navarre plan",
+      "description": "Concept-anchored topic centered on Navarre plan",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::14::navarre_plan",
+        "doc1::concept::17::muong_thanh",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::1::bac_bo",
+        "doc1::concept::2::upper_laos",
+        "doc1::concept::3::lai_chau",
+        "doc1::concept::4::tuan_giao",
+        "doc1::concept::5::son_la",
+        "doc1::concept::9::winter_spring_campaign"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::14::navarre_plan"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::14::navarre_plan"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::9::napalm_bombs",
+      "label": "Napalm bombs",
+      "description": "Concept-anchored topic centered on napalm bombs",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::1::bac_bo",
+        "doc1::concept::44::american_interventionists",
+        "doc1::concept::45::bombers",
+        "doc1::concept::47::napalm_bombs",
+        "doc1::concept::48::artillery_bases",
+        "doc1::concept::49::delayed_action_bombs",
+        "doc1::concept::50::butterfly_anti_personnel_bombs",
+        "doc1::concept::5::son_la"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::47::napalm_bombs"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.625,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.809
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::47::napalm_bombs"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::10::american_interventionists",
+      "label": "American interventionists",
+      "description": "Concept-anchored topic centered on American interventionists",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::20::hill_a_1",
+        "doc1::concept::21::hill_c_1",
+        "doc1::concept::44::american_interventionists",
+        "doc1::concept::45::bombers",
+        "doc1::concept::46::transport_planes",
+        "doc1::concept::47::napalm_bombs",
+        "doc1::concept::48::artillery_bases",
+        "doc1::concept::50::butterfly_anti_personnel_bombs",
+        "doc1::concept::54::dien_bien_phu_base",
+        "doc1::concept::5::son_la"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::44::american_interventionists"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::44::american_interventionists"
+      }
+    },
+    {
+      "id": "doc1::topic_candidate::anchor::11::transport_planes",
+      "label": "Transport planes",
+      "description": "Concept-anchored topic centered on transport planes",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::19::central_sub_sector",
+        "doc1::concept::20::hill_a_1",
+        "doc1::concept::21::hill_c_1",
+        "doc1::concept::23::hill_e_1",
+        "doc1::concept::26::command_post",
+        "doc1::concept::44::american_interventionists",
+        "doc1::concept::45::bombers",
+        "doc1::concept::46::transport_planes",
+        "doc1::concept::54::dien_bien_phu_base"
+      ],
+      "chunk_ids": [
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc1::concept::46::transport_planes"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc1::concept::46::transport_planes"
+      }
+    }
+  ]
+}

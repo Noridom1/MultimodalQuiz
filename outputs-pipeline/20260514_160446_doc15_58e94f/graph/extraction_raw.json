@@ -1,0 +1,476 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Psychology of Concepts"
+      ],
+      "concepts": [
+        "psychology of concepts",
+        "Cognitive Revolution",
+        "Jerome Bruner",
+        "Jacqueline Goodnow",
+        "George Austin",
+        "Eleanor Rosch",
+        "Douglas Medin",
+        "Lawrence Barsalou",
+        "Edward Smith",
+        "Gregory Murphy",
+        "Susan Carey",
+        "Eric Margolis",
+        "Stephen Laurence",
+        "Jerry Fodor"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "doc15::paragraph::5::these_writers_seem_to_agree_that_nothing_was_kno::chunk::1::these_writers_seem_to_agree_that_nothing_was_kno",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Psychology of Concepts"
+      ],
+      "concepts": [
+        "Psychology of Concepts",
+        "Cognitive Psychology",
+        "Cartesian dualism",
+        "experimental natural science",
+        "analytical philosophy"
+      ],
+      "definitions": [
+        {
+          "concept": "Psychology of Concepts",
+          "definition": "The current of Cognitive Psychology that locates itself within the traditions of experimental natural science and analytical philosophy."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Psychology of Concepts",
+          "target": "Cartesian dualism",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Psychology of Concepts",
+          "target": "experimental natural science",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Psychology of Concepts",
+          "target": "analytical philosophy",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "Gregory Murphy says in the introduction to 'The Big Book of Concepts': 'In general, I try to use the word concepts to talk about mental representations of classes of things, and categories to talk about the classes themselves (2004, p. 5).'"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Psychology of Concepts"
+      ],
+      "concepts": [
+        "objective world",
+        "individual entities",
+        "attributes",
+        "features",
+        "essence",
+        "contingent attributes",
+        "social experience",
+        "laboratory conditions",
+        "psychology of concepts"
+      ],
+      "definitions": [
+        {
+          "concept": "attributes",
+          "definition": "Properties or features that exhaustively describe individual entities."
+        },
+        {
+          "concept": "essence",
+          "definition": "An intrinsic nature or quality that transcends contingent attributes."
+        }
+      ],
+      "relations": [
+        {
+          "source": "individual entities",
+          "target": "attributes",
+          "relation": "composed_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "essence",
+          "target": "contingent attributes",
+          "relation": "transcends",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "psychology of concepts",
+          "target": "laboratory conditions",
+          "relation": "tested_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "A dog is a member of the species dog because it was born of a dog, not because it is like other dogs.",
+        "The President is not President because he looks presidential, but because he was elected."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "doc15::paragraph::11::generally_speaking_these_writers_accept_that_peo::chunk::5::generally_speaking_these_writers_accept_that_peo",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Psychology of Concepts"
+      ],
+      "concepts": [
+        "concepts",
+        "social experience",
+        "laboratory conditions",
+        "made-up concepts",
+        "psychology of concepts",
+        "social interaction",
+        "multiple-choice questionnaire"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "concepts",
+          "target": "social experience",
+          "relation": "acquired_through",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "psychology of concepts",
+          "target": "laboratory conditions",
+          "relation": "tested_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Psychology of Concepts"
+      ],
+      "concepts": [
+        "object-categorisation",
+        "concepts",
+        "borderline cases",
+        "categorisation",
+        "litmus test",
+        "square",
+        "Virgin Mary",
+        "inessential features",
+        "essential features"
+      ],
+      "definitions": [
+        {
+          "concept": "object-categorisation",
+          "definition": "A theory focused on classifying objects rather than understanding concepts."
+        }
+      ],
+      "relations": [
+        {
+          "source": "object-categorisation",
+          "target": "concepts",
+          "relation": "contrasted_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "borderline cases",
+          "target": "psychology of concepts",
+          "relation": "illustrates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "inessential features",
+          "target": "essential features",
+          "relation": "guides_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "A series of figures graduated from a circle to a square with rounded corners.",
+        "A statue of the Virgin Mary with altered features."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Psychology of Concepts"
+      ],
+      "concepts": [
+        "object-categorisation",
+        "concepts",
+        "borderline cases",
+        "categorisation",
+        "litmus test",
+        "square",
+        "Virgin Mary",
+        "inessential features",
+        "essential features",
+        "units of analysis",
+        "chunks"
+      ],
+      "definitions": [
+        {
+          "concept": "units of analysis",
+          "definition": "The entities or elements selected as the basis for study or categorization."
+        }
+      ],
+      "relations": [
+        {
+          "source": "object-categorisation",
+          "target": "concepts",
+          "relation": "contrasted_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "borderline cases",
+          "target": "psychology of concepts",
+          "relation": "illustrates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "units of analysis",
+          "target": "chunks",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "A series of figures graduated from a circle to a square with rounded corners.",
+        "A statue of the Virgin Mary with altered features."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "doc15::paragraph::15::the_world_is_not_only_seen_atomistically_but_as_::chunk::8::the_world_is_not_only_seen_atomistically_but_as_",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Classical Theory of Concepts"
+      ],
+      "concepts": [
+        "atomistically",
+        "units of analysis",
+        "Classical Theory of Concepts",
+        "Psychology of Concepts"
+      ],
+      "definitions": [
+        {
+          "concept": "Classical Theory of Concepts",
+          "definition": "The theory of concepts which dominated psychology from antiquity up to about 1970, where concepts are defined by necessary and sufficient features."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Psychology of Concepts",
+          "target": "Classical Theory of Concepts",
+          "relation": "originated_from",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "doc15::paragraph::17::the_psychology_of_concepts_needs_to_be_understoo::chunk::9::the_psychology_of_concepts_needs_to_be_understoo",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Classical Theory of Concepts"
+      ],
+      "concepts": [
+        "Psychology of Concepts",
+        "Classical Theory of Concepts",
+        "Cognitive Psychology"
+      ],
+      "definitions": [
+        {
+          "concept": "Classical Theory of Concepts",
+          "definition": "The theory of concepts embodied in a simple dictionary, where every concept is given by its definition."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Psychology of Concepts",
+          "target": "Classical Theory of Concepts",
+          "relation": "originated_from",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "doc15::paragraph::18::the_classical_theory_is_the_theory_of_concepts_w::chunk::10::the_classical_theory_is_the_theory_of_concepts_w",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Classical Theory of Concepts"
+      ],
+      "concepts": [
+        "Classical Theory of Concepts",
+        "hierarchical taxonomy",
+        "atomic concepts",
+        "composite concepts"
+      ],
+      "definitions": [
+        {
+          "concept": "Classical Theory of Concepts",
+          "definition": "The theory of concepts where every concept is given by its definition, and definitions specify necessary and sufficient features."
+        }
+      ],
+      "relations": [
+        {
+          "source": "composite concepts",
+          "target": "atomic concepts",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "doc15::paragraph::19::the_first_problem_with_this_as_an_approach_to_a_::chunk::11::the_first_problem_with_this_as_an_approach_to_a_",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Classical Theory of Concepts"
+      ],
+      "concepts": [
+        "atomic concepts",
+        "composite concepts",
+        "hierarchical taxonomy",
+        "Oxford English Dictionary"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "composite concepts",
+          "target": "atomic concepts",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "doc15::paragraph::20::but_secondly_a_look_into_dictionaries_soon_makes::chunk::12::but_secondly_a_look_into_dictionaries_soon_makes",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Classical Theory of Concepts"
+      ],
+      "concepts": [
+        "Classical Theory",
+        "Oxford English Dictionary",
+        "categorisation tasks",
+        "psychological reality",
+        "verbal responses"
+      ],
+      "definitions": [
+        {
+          "concept": "Oxford English Dictionary",
+          "definition": "A vast work that provides multiple meanings replete with quotations and etymology to bring a real understanding of concepts."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Classical Theory",
+          "target": "psychological reality",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "categorisation tasks",
+          "target": "verbal responses",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "doc15::paragraph::21::eleanor_rosch_murphy_2004_p_16_discovered_that_p::chunk::13::eleanor_rosch_murphy_2004_p_16_discovered_that_p",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "section_path": [
+        "The Classical Theory of Concepts"
+      ],
+      "concepts": [
+        "Classical Theory",
+        "categorisation tasks",
+        "psychological reality",
+        "verbal responses"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Classical Theory",
+          "target": "psychological reality",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "categorisation tasks",
+          "target": "verbal responses",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 12,
+    "concept_count": 50,
+    "relation_count": 22
+  }
+}

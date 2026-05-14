@@ -1,0 +1,38 @@
+Index: 5
+Target concept: symptoms of stress
+Tested fact block id: doc11::chunk::10::symptoms_of_stress::0
+Image description: A person holding their chest, appearing anxious, with a visible heartbeat line indicating elevated heart rate.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: symptoms of stress
+Question type: multiple_choice
+Difficulty: easy
+Reasoning type: factoid
+Image role: illustrative
+Learning objective: Identify common physiological symptoms associated with stress.
+Image context: A person holding their chest, appearing anxious, with a visible heartbeat line indicating elevated heart rate.
+Tested fact block ID: doc11::chunk::10::symptoms_of_stress::0
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+**Prompt:** Illustrate a person clutching their chest with a tense expression, their face flushed and forehead slightly sweaty, while a pulsing red heartbeat line (EKG-style) rises sharply beside them to indicate elevated heart rate. Add subtle labels like "rapid heartbeat" and "chest tightness" near the relevant areas, using high-contrast colors (e.g., red for the heartbeat, neutral tones for the person). Avoid text that states "stress" directly.
+
+**Alt:** A person holds their chest with a worried expression, with a visible elevated heartbeat line and labels for physiological symptoms.
+
+--- Raw LLM image-prompt response ---
+**Prompt:** Illustrate a person clutching their chest with a tense expression, their face flushed and forehead slightly sweaty, while a pulsing red heartbeat line (EKG-style) rises sharply beside them to indicate elevated heart rate. Add subtle labels like "rapid heartbeat" and "chest tightness" near the relevant areas, using high-contrast colors (e.g., red for the heartbeat, neutral tones for the person). Avoid text that states "stress" directly.
+
+**Alt:** A person holds their chest with a worried expression, with a visible elevated heartbeat line and labels for physiological symptoms.

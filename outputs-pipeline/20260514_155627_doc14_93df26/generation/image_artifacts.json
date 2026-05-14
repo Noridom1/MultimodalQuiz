@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing two distinct gametes (labeled \"Gamete A\" and \"Gamete B\") fusing to form a zygote, with arrows indicating the combination of genetic material. Use a neutral color palette with bright accents for clarity, and ensure labels are legible. Avoid realistic human figures—use abstract shapes or symbols for gametes.\n\n**Alt:** A diagram illustrating two gametes merging to form a zygote, demonstrating genetic diversity in sexual reproduction.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_155627_doc14_93df26/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a high-contrast microscopic illustration of a zygote formation, showing a sperm cell (labeled \"Sperm\") fusing with an egg cell (labeled \"Egg\") against a dark background with bright, glowing highlights. Use a simple, scientific style with clear outlines and a neutral color palette (blues, purples, and whites) to emphasize the cellular structures. Avoid any text beyond the labels.\n\n**Alt:** A microscopic view of a sperm cell merging with an egg cell to form a zygote.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_155627_doc14_93df26/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast diagram illustrating the early stages of embryonic development, from zygote to blastocyst, with labeled stages (e.g., \"Stage 1: Zygote,\" \"Stage 2: Morula\") in a neutral color palette (blues, grays, and soft yellows). Use simple, abstract shapes to represent cells, ensuring clarity and avoiding realistic human forms. Alt: A labeled diagram showing the progression of early embryonic development stages.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_155627_doc14_93df26/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast diagram of a sperm cell with clear labels for key parts (e.g., head, midpiece, tail), using a neutral color palette with one accent color for emphasis. Highlight the acrosome at the tip of the head with a distinct label (e.g., \"Part X\") but avoid naming its function. Ensure all text is legible and the composition is balanced.\n\nAlt: A labeled diagram of a sperm cell with parts marked, emphasizing a specific section at the head.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_155627_doc14_93df26/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "Create a simplified, high-contrast diagram of a sperm cell with the head region prominently highlighted in a distinct color (e.g., bright blue). Label key structures like the acrosome (marked as \"Structure X\") and nucleus, using clear, bold text on a neutral background. Ensure the acrosome is visually emphasized as the focal point without explicitly naming its function.\n\nAlt: Labeled diagram of a sperm cell with the head region highlighted, showing key structures including Structure X.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_155627_doc14_93df26/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

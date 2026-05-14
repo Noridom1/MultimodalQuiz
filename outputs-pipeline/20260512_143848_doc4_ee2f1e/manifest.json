@@ -1,0 +1,58 @@
+{
+  "run_id": "20260512_143848_doc4_ee2f1e",
+  "created_at": "2026-05-12T07:40:55.468277Z",
+  "source_document": "data/markdown/doc4/hybrid_auto/doc4.md",
+  "output_root": "outputs/20260512_143848_doc4_ee2f1e",
+  "stages": {
+    "parse": "completed",
+    "extract": "completed",
+    "graph": "completed",
+    "plan": "completed",
+    "generate": "completed"
+  },
+  "artifacts": {
+    "parsed_document": "outputs/20260512_143848_doc4_ee2f1e/document/parsed_document.json",
+    "extracted": "outputs/20260512_143848_doc4_ee2f1e/extraction/extracted.json",
+    "graph": "outputs/20260512_143848_doc4_ee2f1e/graph/graph.json",
+    "graph_networkx": "outputs/20260512_143848_doc4_ee2f1e/graph/graph_networkx.json",
+    "graph_html": "outputs/20260512_143848_doc4_ee2f1e/graph/graph.html",
+    "hierarchy": "outputs/20260512_143848_doc4_ee2f1e/graph/hierarchy.json",
+    "chunks": "outputs/20260512_143848_doc4_ee2f1e/graph/chunks.json",
+    "artifact_links": "outputs/20260512_143848_doc4_ee2f1e/graph/artifact_links.json",
+    "extraction_raw": "outputs/20260512_143848_doc4_ee2f1e/graph/extraction_raw.json",
+    "canonicalization": "outputs/20260512_143848_doc4_ee2f1e/graph/canonicalization.json",
+    "merge_review": "outputs/20260512_143848_doc4_ee2f1e/graph/merge_review.json",
+    "merge_application": "outputs/20260512_143848_doc4_ee2f1e/graph/merge_application.json",
+    "graph_consolidated": "outputs/20260512_143848_doc4_ee2f1e/graph/graph_consolidated.json",
+    "topic_candidates": "outputs/20260512_143848_doc4_ee2f1e/graph/topic_candidates.json",
+    "topic_consolidation": "outputs/20260512_143848_doc4_ee2f1e/graph/topic_consolidation.json",
+    "topics": "outputs/20260512_143848_doc4_ee2f1e/graph/topics.json",
+    "graph_validation": "outputs/20260512_143848_doc4_ee2f1e/graph/graph_validation.json",
+    "plan": "outputs/20260512_143848_doc4_ee2f1e/planning/quiz_plan.json",
+    "generation_questions": "outputs/20260512_143848_doc4_ee2f1e/generation/questions.json",
+    "generation_quiz_package": "outputs/20260512_143848_doc4_ee2f1e/generation/quiz_package.json",
+    "generation_image_artifacts": "outputs/20260512_143848_doc4_ee2f1e/generation/image_artifacts.json",
+    "generation_image_dir": "outputs/20260512_143848_doc4_ee2f1e/generation/images",
+    "questions": "outputs/20260512_143848_doc4_ee2f1e/generation/questions.json",
+    "quiz_package": "outputs/20260512_143848_doc4_ee2f1e/generation/quiz_package.json",
+    "image_artifacts": "outputs/20260512_143848_doc4_ee2f1e/generation/image_artifacts.json",
+    "pipeline_log": "outputs/20260512_143848_doc4_ee2f1e/logs/pipeline.log"
+  },
+  "config": {
+    "extractor_backend": "langchain",
+    "extractor_provider": "mistral",
+    "extractor_granularity": "balanced",
+    "extractor_model": "devstral-medium-latest",
+    "kg_chunk_max_tokens": 280,
+    "kg_overlap_blocks": 1,
+    "num_questions": 5,
+    "difficulty_distribution": {
+      "easy": 0.4,
+      "medium": 0.4,
+      "hard": 0.2
+    },
+    "html_graph": true,
+    "mock_image": false,
+    "mock_question": false
+  }
+}

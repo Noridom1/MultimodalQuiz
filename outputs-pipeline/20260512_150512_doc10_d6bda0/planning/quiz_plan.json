@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "Hypervisor",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing a hypervisor managing multiple virtual machines on a single physical host.",
+    "learning_objective": "Understand the role and function of a hypervisor in virtualization.",
+    "tested_fact_block_id": "doc10::concept::43::hypervisor",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Hypervisor/VMM",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the hypervisor layer between hardware and virtual machines.",
+    "learning_objective": "Understand the role and function of a hypervisor in virtualization.",
+    "tested_fact_block_id": "doc10::concept::10::hypervisor_vmm",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Hardware (CPU, RAM, I/O)",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing a hypervisor managing multiple virtual machines on a single physical CPU.",
+    "learning_objective": "Understand how a hypervisor interacts with physical CPU resources to manage virtual machines.",
+    "tested_fact_block_id": "doc10::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Virtual Hardware",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing virtual hardware components like virtual CPUs, memory, and storage.",
+    "learning_objective": "Understand the definition and purpose of virtual hardware in virtual machines.",
+    "tested_fact_block_id": "doc10::chunk::15::virtual_hardware::0",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Isolation",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing isolated containers running on a shared OS kernel.",
+    "learning_objective": "Understand the role of isolation in containerization.",
+    "tested_fact_block_id": "doc10::chunk::18::containerization::1",
+    "metadata": {}
+  }
+]

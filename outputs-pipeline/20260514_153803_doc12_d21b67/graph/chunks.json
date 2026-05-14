@@ -1,0 +1,545 @@
+{
+  "chunk_count": 16,
+  "chunks": [
+    {
+      "id": "doc12::paragraph::1::speaker_safety_manager_foreman::chunk::0::speaker_safety_manager_foreman",
+      "label": "Speaker: Safety Manager/Foreman Audience: Workers",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::paragraph::1::speaker_safety_manager_foreman::chunk::0::speaker_safety_manager_foreman",
+      "page_idx": null,
+      "section_path": [
+        "TOOLBOX TALK: Stress Management"
+      ],
+      "text": "Speaker: Safety Manager/Foreman\n\nAudience: Workers",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::paragraph::1::speaker_safety_manager_foreman",
+          "doc12::paragraph::2::audience_workers"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 6,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+      "label": "Audience: Workers We are here today to focus on stress management and job stress, specifically to talk about what str...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+      "page_idx": null,
+      "section_path": [
+        "I. Introduction"
+      ],
+      "text": "Audience: Workers\n\nWe are here today to focus on stress management and job stress, specifically to talk about what stress is, its threats to health and happiness, sources of job stress, and solutions.\n\nStress if a buzzword we hear all the time in lots of different contexts – stress at work, stress at home. We hear about it in commercials, newspaper ads, from our doctors, from people who care about us. What does stress mean to you? Ask workers.\n\nStress is an important topic for everyone and especially for people working in the construction industry, since the job is both physically and mentally demanding.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::paragraph::2::audience_workers",
+          "doc12::paragraph::4::we_are_here_today_to_focus_on_stress_management_",
+          "doc12::paragraph::5::stress_if_a_buzzword_we_hear_all_the_time_in_lot",
+          "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 103,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es",
+      "label": "Stress is an important topic for everyone and especially for people working in the construction industry, since the j...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es",
+      "page_idx": null,
+      "section_path": [
+        "II. Different Types of Stress?"
+      ],
+      "text": "Stress is an important topic for everyone and especially for people working in the construction industry, since the job is both physically and mentally demanding.\n\nThere are different types of stress. A stressor can be a one time or short-term occurrence, or it can be long lasting.1 We are going to focus on work-related stress, which we will call job stress. Job Stress is the harmful physical and emotional responses that occur when the job demands and requirements do not match the capabilities, resources, or needs of the worker. Job stress can lead to poor physical and mental health and even injury.\n\nStress if not a sign of weakness or failure. In fact, it probably indicates your overall investment in the work you are doing.\n\nNot all stress is bad. Stress can motivate people to perform, like when they need to take a test or interview for a new job. It can even help you in a dangerous situation in which you need to run fast for safety. However, job stress is often about bigger issues that require solutions.2",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es",
+          "doc12::paragraph::8::there_are_different_types_of_stress_a_stressor_c",
+          "doc12::paragraph::9::stress_if_not_a_sign_of_weakness_or_failure_in_f",
+          "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 183,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+      "label": "Not all stress is bad. Stress can motivate people to perform, like when they need to take a test or interview for a n...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+      "page_idx": null,
+      "section_path": [
+        "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+      ],
+      "text": "Not all stress is bad. Stress can motivate people to perform, like when they need to take a test or interview for a new job. It can even help you in a dangerous situation in which you need to run fast for safety. However, job stress is often about bigger issues that require solutions.2\n\nStress affects everyone from time to time. A report published by the National Institute for Occupational Safety and Health (NIOSH) states that 40% of workers report that their job is “very or extremely stressful.” 1 Does that number strike anyone as higher than you would have thought?\n\nProblems at work are more strongly associated with health complaints than are any other life stressor – more so than even financial problems or family problems.2 Again, surprising?\n\nHealth care expenses are nearly 50% greater for workers who report high levels of stress. Chronic job stress can put you at risk for:\n\n• Substance abuse • PTSD • Aggression3 • Workplace Injury Cardiovascular Disease • Suicide • Musculoskeletal Disorders • Cancer • Depression • Ulcers • Anxiety • Impaired Immune Function",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people",
+          "doc12::paragraph::12::stress_affects_everyone_from_time_to_time_a_repo",
+          "doc12::paragraph::13::problems_at_work_are_more_strongly_associated_wi",
+          "doc12::paragraph::14::health_care_expenses_are_nearly_50_greater_for_w",
+          "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 172,
+        "contains_atomic_block": false,
+        "block_count": 5
+      }
+    },
+    {
+      "id": "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+      "label": "• Substance abuse • PTSD • Aggression3 • Workplace Injury Cardiovascular Disease • Suicide • Musculoskeletal Disorder...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+      "page_idx": null,
+      "section_path": [
+        "IV. What Causes Work Stress?"
+      ],
+      "text": "• Substance abuse • PTSD • Aggression3 • Workplace Injury Cardiovascular Disease • Suicide • Musculoskeletal Disorders • Cancer • Depression • Ulcers • Anxiety • Impaired Immune Function\n\nWorking conditions can play a direct role in causing job stress. Individual and situational factors also contribute to stress related to work. Conditions that may lead to stress include:\n\n• The Design of Tasks (heavy workload, not getting breaks, etc.) • Management Style (poor communication between workers and management) • Co-worker Relationships Work Rules (roles and expectations are not clear) • Career Concerns (job insecurity, lack of growth opportunity or promotion, unexpected changes) Environmental Conditions of Work (unpleasant or dangerous physical conditions like noise, air pollution, or ergonomic problems)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur",
+          "doc12::paragraph::17::working_conditions_can_play_a_direct_role_in_cau",
+          "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 104,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+      "label": "• The Design of Tasks (heavy workload, not getting breaks, etc.) • Management Style (poor communication between worke...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+      "page_idx": null,
+      "section_path": [
+        "IV. Recognizing the Signs and Symptoms of Stress"
+      ],
+      "text": "• The Design of Tasks (heavy workload, not getting breaks, etc.) • Management Style (poor communication between workers and management) • Co-worker Relationships Work Rules (roles and expectations are not clear) • Career Concerns (job insecurity, lack of growth opportunity or promotion, unexpected changes) Environmental Conditions of Work (unpleasant or dangerous physical conditions like noise, air pollution, or ergonomic problems)\n\nYou may not always be aware of your body’s response to stress. Routine stress may be hard to notice at first because of the source of the stress is constant and does not have a clear start or stop. Warning Signs of Stress include3:\n\n• Headache • Sleep disturbances/difficulty sleeping • Difficulty concentrating • Short Temper • Upset Stomach • Job dissatisfaction • Low morale",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b",
+          "doc12::paragraph::20::you_may_not_always_be_aware_of_your_body_s_respo",
+          "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 117,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+      "label": "• Headache • Sleep disturbances/difficulty sleeping • Difficulty concentrating • Short Temper • Upset Stomach • Job d...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+      "page_idx": null,
+      "section_path": [
+        "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+      ],
+      "text": "• Headache • Sleep disturbances/difficulty sleeping • Difficulty concentrating • Short Temper • Upset Stomach • Job dissatisfaction • Low morale\n\nAnybody here have some things they do to get rid of stress? There are many ways!\n\nIt is helpful first to reflect on exactly what part of work is causing stress. Look back to the causes of stress previously mentioned.\n\na. What elements can you change? b. What elements require communication with others? c. What can be changed about your work environment? d. What resources do you need?\n\nWays to Manage Stress at Work:\n\na. Utilize your social connections i. Talk to people around you at work including co-workers or your boss if you feel comfortable, and at home b. Take breaks when you need them3 c. Be aware of your health and stay on top of your care d. Exercise to boost your mood and reduce stress e. Do relaxation activities (even setting aside time to sit and listen to music without distractions counts) f. Know when to talk to a healthcare provider if you are overwhelmed\n\nCharacteristics of healthy, low-stress work organizations that you can work towards with your colleagues:\n\na. Recognition of employees for good work performance (telling someone they did well, giving bonuses for good work)\n\nb. Opportunities for career development (allowing workers opportunities to advance) c. An organizational culture that values the individual worker d. Management actions that are consistent with organizational values (rewarding employees for good safety behavior) e. Are there any other examples you can think of?\n\nEverybody contributes to a healthy, low-stress culture at work. It is on everyone to work together, communicate, and help each other combat job stress.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_",
+          "doc12::paragraph::23::anybody_here_have_some_things_they_do_to_get_rid",
+          "doc12::list_item::24::1_it_is_helpful_first_to_reflect_on_exactly_what",
+          "doc12::paragraph::25::a_what_elements_can_you_change_b_what_elements_r",
+          "doc12::list_item::26::2_ways_to_manage_stress_at_work",
+          "doc12::paragraph::27::a_utilize_your_social_connections_i_talk_to_peop",
+          "doc12::list_item::28::3_characteristics_of_healthy_low_stress_work_org",
+          "doc12::paragraph::29::a_recognition_of_employees_for_good_work_perform",
+          "doc12::paragraph::30::b_opportunities_for_career_development_allowing_",
+          "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "list_item",
+          "paragraph",
+          "list_item",
+          "paragraph",
+          "list_item",
+          "paragraph",
+          "paragraph",
+          "list_item"
+        ],
+        "token_count": 276,
+        "contains_atomic_block": false,
+        "block_count": 10
+      }
+    },
+    {
+      "id": "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu",
+      "label": "Everybody contributes to a healthy, low-stress culture at work. It is on everyone to work together, communicate, and...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu",
+      "page_idx": null,
+      "section_path": [
+        "VI. Conclusion"
+      ],
+      "text": "Everybody contributes to a healthy, low-stress culture at work. It is on everyone to work together, communicate, and help each other combat job stress.\n\nWe have a limited amount of time here, so I want to make sure you take note of the resources we have provided. It is important to remember that you are your own biggest ally when it comes to stress. Though sometimes stress can be visible to friends, co-workers, and loved ones, you are the best judge of how you feel and what is causing you stress.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_",
+          "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_"
+        ],
+        "block_kinds": [
+          "list_item",
+          "paragraph"
+        ],
+        "token_count": 93,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+      "label": "We have a limited amount of time here, so I want to make sure you take note of the resources we have provided. It is...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+      "page_idx": null,
+      "section_path": [
+        "Resources"
+      ],
+      "text": "We have a limited amount of time here, so I want to make sure you take note of the resources we have provided. It is important to remember that you are your own biggest ally when it comes to stress. Though sometimes stress can be visible to friends, co-workers, and loved ones, you are the best judge of how you feel and what is causing you stress.\n\n\"5 Things You Should Know About Stress.\" National Institute of Mental Health. https://www.nimh.nih.gov/health/publications/stress/index.shtml\n\n\"Stress in the Workplace\" Safety and Health (2016, March 01) http://www.safetyandhealthmagazine.com/articles/stress-in-the-workplace-2\n\n\"Workplace Stress.\" NIOSH Science Blog (2007. December 3). https://blogs.cdc.gov/nioshscience-blog/2007/12/03/stress/",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_",
+          "doc12::list_item::35::1_5_things_you_should_know_about_stress_national",
+          "doc12::list_item::36::2_stress_in_the_workplace_safety_and_health_2016",
+          "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 128,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::9::workplace_stress_niosh_science_blog_2007_decembe",
+      "label": "\"Workplace Stress.\" NIOSH Science Blog (2007. December 3). https://blogs.cdc.gov/nioshscience-blog/2007/12/03/stress/",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::9::workplace_stress_niosh_science_blog_2007_decembe",
+      "page_idx": null,
+      "section_path": [
+        "STRESS MANAGEMENT Manage your job stress"
+      ],
+      "text": "\"Workplace Stress.\" NIOSH Science Blog (2007. December 3). https://blogs.cdc.gov/nioshscience-blog/2007/12/03/stress/",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem"
+        ],
+        "block_kinds": [
+          "list_item"
+        ],
+        "token_count": 18,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::10::workplace_stress_niosh_science_blog_2007_decembe",
+      "label": "\"Workplace Stress.\" NIOSH Science Blog (2007. December 3). https://blogs.cdc.gov/nioshscience-blog/2007/12/03/stress/...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::10::workplace_stress_niosh_science_blog_2007_decembe",
+      "page_idx": null,
+      "section_path": [
+        "Nearly everyone experiences stress at some time in their life."
+      ],
+      "text": "\"Workplace Stress.\" NIOSH Science Blog (2007. December 3). https://blogs.cdc.gov/nioshscience-blog/2007/12/03/stress/\n\nIt's not a sign of weakness or failure-it likely shows your investment in your work. However,stress is a sign that you may need to make some changes.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem",
+          "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely"
+        ],
+        "block_kinds": [
+          "list_item",
+          "paragraph"
+        ],
+        "token_count": 48,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+      "label": "It's not a sign of weakness or failure-it likely shows your investment in your work. However,stress is a sign that yo...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+      "page_idx": null,
+      "section_path": [
+        "How to deal with job stress"
+      ],
+      "text": "It's not a sign of weakness or failure-it likely shows your investment in your work. However,stress is a sign that you may need to make some changes.\n\n· Reflect on exactly what part of work is causing stress\n\nWhat elements can you personally change?\n\nWhat elements require communication with others?\n\n· Ways to manage stress on your own\n\nExercise to help boost your mood and reduce stress\n\nDo relaxation activities (Even setting aside time to relax and listen to music without distractions counts)\n\nSet goals and priorities\n\nUse your socialconnections: Talk to people who can provide emotionaland other support. Ask for help from friends,family,and community orreligious organizations\n\nTake breaks when you need them\n\nGet other points of view from friends orcolleagues\n\nBe aware of your health and stay on top of your care\n\nAvoid resorting to alcohol for short-term relief\n\nTalk to a healthcare providerif you are overwhelmed",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+          "doc12::paragraph::42::reflect_on_exactly_what_part_of_work_is_causing_",
+          "doc12::list_item::43::what_elements_can_you_personally_change",
+          "doc12::list_item::44::what_elements_require_communication_with_others",
+          "doc12::paragraph::45::ways_to_manage_stress_on_your_own",
+          "doc12::list_item::46::exercise_to_help_boost_your_mood_and_reduce_stre",
+          "doc12::list_item::47::do_relaxation_activities_even_setting_aside_time",
+          "doc12::list_item::48::set_goals_and_priorities",
+          "doc12::list_item::49::use_your_socialconnections_talk_to_people_who_ca",
+          "doc12::list_item::50::take_breaks_when_you_need_them",
+          "doc12::list_item::51::get_other_points_of_view_from_friends_orcolleagu",
+          "doc12::list_item::52::be_aware_of_your_health_and_stay_on_top_of_your_",
+          "doc12::list_item::53::avoid_resorting_to_alcohol_for_short_term_relief",
+          "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "list_item",
+          "list_item",
+          "paragraph",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 152,
+        "contains_atomic_block": false,
+        "block_count": 14
+      }
+    },
+    {
+      "id": "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+      "label": "Talk to a healthcare providerif you are overwhelmed",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+      "page_idx": null,
+      "section_path": [
+        "Information on STRESS MANAGEMENT"
+      ],
+      "text": "Talk to a healthcare providerif you are overwhelmed",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel"
+        ],
+        "block_kinds": [
+          "list_item"
+        ],
+        "token_count": 8,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel",
+      "label": "Talk to a healthcare providerif you are overwhelmed \"Workplace Stress\" NIOSH Science Blog(December 3, 2007) blogs.cdc...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel",
+      "page_idx": null,
+      "section_path": [
+        "These articles and resources can help you learn to cope with stress:"
+      ],
+      "text": "Talk to a healthcare providerif you are overwhelmed\n\n\"Workplace Stress\" NIOSH Science Blog(December 3, 2007)\n\nblogs.cdc.gov/niosh-scienceblog/2007/12/03/stress/\n\n\"Stress in the Workplace\" Safety and Health (March 1, 2016)\n\nwww.safetyandhealthmagazine. com/articles/stress-in-theworkplace-2\n\n“5 Things You Should Know About Stress.\" National Institute of Mental Health www.nimh.nih.gov/health/ publications/stress/index.shtml\n\nCenter for Workplace Mental Health website\n\nworkplacementalhealth.org\n\nSubstance Abuse and Mental Health Services Administration (SAMHSA) Treatment Referral Helpline and Behavioral Health Treatment Locator\n\n800-662-HELP(4357) findtreatment.samhsa.gov/\n\nUniversity of Michigan Depression Center's Tips for Coping At Work\n\nwww.depressiontoolkit.org/ download/TipsforCopingatWork. pdf\n\n“Right Direction\"Work Depression Screening tool www.rightdirectionforme.com/ DepressionatWork.html",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel",
+          "doc12::paragraph::57::workplace_stress_niosh_science_blog_december_3_2",
+          "doc12::paragraph::58::blogs_cdc_gov_niosh_scienceblog_2007_12_03_stres",
+          "doc12::paragraph::59::stress_in_the_workplace_safety_and_health_march_",
+          "doc12::paragraph::60::www_safetyandhealthmagazine_com_articles_stress_",
+          "doc12::paragraph::61::5_things_you_should_know_about_stress_national_i",
+          "doc12::paragraph::62::center_for_workplace_mental_health_website",
+          "doc12::paragraph::63::workplacementalhealth_org",
+          "doc12::paragraph::64::substance_abuse_and_mental_health_services_admin",
+          "doc12::paragraph::65::800_662_help_4357_findtreatment_samhsa_gov",
+          "doc12::paragraph::66::university_of_michigan_depression_center_s_tips_",
+          "doc12::paragraph::67::www_depressiontoolkit_org_download_tipsforcoping",
+          "doc12::paragraph::68::right_direction_work_depression_screening_tool_w"
+        ],
+        "block_kinds": [
+          "list_item",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 123,
+        "contains_atomic_block": false,
+        "block_count": 13
+      }
+    },
+    {
+      "id": "doc12::image::69::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7::chunk::14::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7",
+      "label": "![](images/9b9a23678b9b7123ed79530a20eeaba8b1f133cd768b5086d38c51e3562cd224.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::image::69::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7::chunk::14::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7",
+      "page_idx": null,
+      "section_path": [
+        "These articles and resources can help you learn to cope with stress:"
+      ],
+      "text": "![](images/9b9a23678b9b7123ed79530a20eeaba8b1f133cd768b5086d38c51e3562cd224.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::image::69::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc12::details::70::details_summary_text_image_summary_arm_all_the_r::chunk::15::details_summary_text_image_summary_arm_all_the_r",
+      "label": "<details> <summary>text_image</summary> ARM All the Right Moves </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::details::70::details_summary_text_image_summary_arm_all_the_r::chunk::15::details_summary_text_image_summary_arm_all_the_r",
+      "page_idx": null,
+      "section_path": [
+        "These articles and resources can help you learn to cope with stress:"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nARM\nAll the Right Moves\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc12::details::70::details_summary_text_image_summary_arm_all_the_r"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 10,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a stylized world map with color-coded regions (e.g., warm colors for high density, cool for low) to illustrate population distribution, using clear labels like \"High Density,\" \"Medium Density,\" and \"Low Density\" without specific place names. Include subtle icons representing key demographic factors (e.g., age groups, migration arrows, birth/death symbols) in the margins or as overlays. Use high-contrast colors and simple, bold outlines for accessibility.\n\nAlt: A color-coded world map showing population density variations with labeled demographic factors.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143848_doc4_ee2f1e/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "Create a stylized, high-contrast map illustrating human settlements (marked as small clusters of buildings or dots labeled \"Site 1,\" \"Site 2,\" etc.) nestled along winding rivers (blue) and at the foothills of mountains (brown/gray), with clear visual connections between terrain and population density. Use earthy tones for natural features and warm neutrals for settlements, ensuring strong contrast for readability. Avoid real-world place names or modern infrastructure.\n\nAlt: A map showing how human settlements are distributed near rivers and mountains, highlighting their relationship with the environment.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143848_doc4_ee2f1e/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "Create a simplified world map with high-contrast colors, highlighting key physical features like mountain ranges (brown), rivers (blue), and deserts (yellow). Label these features generically (e.g., \"Mountain Range 1,\" \"River A,\" \"Desert X\") without revealing specific names. Use a clean, minimalist style with clear visual hierarchy.\n\nAlt: A world map illustrating physical geography with labeled mountains, rivers, and deserts.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143848_doc4_ee2f1e/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast diagram with a central circle labeled \"Natural Laws\" (e.g., gravity, thermodynamics) surrounded by interconnected nodes representing \"Scientific Principles\" (e.g., Newton’s laws, relativity) and \"Technological Applications\" (e.g., engineering, medicine). Use a neutral color palette with bold outlines for clarity, and ensure all labels are legible without revealing specific answers. Alt: A diagram illustrating the hierarchical relationship between natural laws, scientific principles, and their technological applications.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143848_doc4_ee2f1e/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing a natural landscape (e.g., forest, river) transitioning into human-modified areas like farmland, roads, and a small town. Use clear labels like \"Original Ecosystem,\" \"Agricultural Zone,\" and \"Urban Development,\" with muted greens/browns for nature and neutral grays/reds for human alterations. Ensure all elements are generic and non-copyrighted.\n\n**Alt:** A diagram illustrating the transformation of a natural landscape into human-modified areas like farms and towns.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143848_doc4_ee2f1e/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

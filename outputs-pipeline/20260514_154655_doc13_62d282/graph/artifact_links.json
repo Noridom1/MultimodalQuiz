@@ -1,0 +1,782 @@
+{
+  "artifact_count": 37,
+  "artifacts": [
+    {
+      "id": "doc13::artifact::4::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c",
+      "label": "![](images/54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5cdd407f67bde0f854d549c03.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::4::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c::chunk::1::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON"
+      ],
+      "text": "![](images/54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5cdd407f67bde0f854d549c03.jpg)",
+      "image_path": "images/54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5cdd407f67bde0f854d549c03.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::4::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::5::details_summary_natural_image_summary_cartoon_il",
+      "label": "<details> <summary>natural_image</summary> Cartoon illustration of two badminton players at the net, one passing and...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::5::details_summary_natural_image_summary_cartoon_il::chunk::2::details_summary_natural_image_summary_cartoon_il",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nCartoon illustration of two badminton players at the net, one passing and the other running (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::5::details_summary_natural_image_summary_cartoon_il",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::11::images_f027d926038c4a59136712492bba7495702809c1a",
+      "label": "![](images/f027d926038c4a59136712492bba7495702809c1a6ebfc53f87349cea8d91ea2.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::11::images_f027d926038c4a59136712492bba7495702809c1a::chunk::5::images_f027d926038c4a59136712492bba7495702809c1a",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "![](images/f027d926038c4a59136712492bba7495702809c1a6ebfc53f87349cea8d91ea2.jpg)",
+      "image_path": "images/f027d926038c4a59136712492bba7495702809c1a6ebfc53f87349cea8d91ea2.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::11::images_f027d926038c4a59136712492bba7495702809c1a",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::12::details_summary_natural_image_summary_historical",
+      "label": "<details> <summary>natural_image</summary> Historical sketch depicting a court scene with two men, one holding a bato...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::12::details_summary_natural_image_summary_historical::chunk::6::details_summary_natural_image_summary_historical",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nHistorical sketch depicting a court scene with two men, one holding a baton and the other observing (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::12::details_summary_natural_image_summary_historical",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::13::images_103b20b1a19d3ab9e642b915b369f7de4e11e45c9",
+      "label": "![](images/103b20b1a19d3ab9e642b915b369f7de4e11e45c9be7c2312d39d2a71416ffdd.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::13::images_103b20b1a19d3ab9e642b915b369f7de4e11e45c9::chunk::7::images_103b20b1a19d3ab9e642b915b369f7de4e11e45c9",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "![](images/103b20b1a19d3ab9e642b915b369f7de4e11e45c9be7c2312d39d2a71416ffdd.jpg)",
+      "image_path": "images/103b20b1a19d3ab9e642b915b369f7de4e11e45c9be7c2312d39d2a71416ffdd.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::13::images_103b20b1a19d3ab9e642b915b369f7de4e11e45c9",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::14::details_summary_natural_image_summary_watercolor",
+      "label": "<details> <summary>natural_image</summary> Watercolor painting of a grand palace with horseback riders and deer in a...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::14::details_summary_natural_image_summary_watercolor::chunk::8::details_summary_natural_image_summary_watercolor",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nWatercolor painting of a grand palace with horseback riders and deer in a grassy courtyard under a cloudy sky (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::14::details_summary_natural_image_summary_watercolor",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::24::images_b232247767d994e7770043a8a1f3f393e3c579bd0",
+      "label": "![](images/b232247767d994e7770043a8a1f3f393e3c579bd047a9b825e167af245dc6319.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::24::images_b232247767d994e7770043a8a1f3f393e3c579bd0::chunk::13::images_b232247767d994e7770043a8a1f3f393e3c579bd0",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "![](images/b232247767d994e7770043a8a1f3f393e3c579bd047a9b825e167af245dc6319.jpg)",
+      "image_path": "images/b232247767d994e7770043a8a1f3f393e3c579bd047a9b825e167af245dc6319.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::24::images_b232247767d994e7770043a8a1f3f393e3c579bd0",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::25::details_summary_text_image_summary_head_throat_t",
+      "label": "<details> <summary>text_image</summary> head throat throat shaft handle A Racket frame stringed area </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::25::details_summary_text_image_summary_head_throat_t::chunk::14::details_summary_text_image_summary_head_throat_t",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nhead\nthroat\nthroat\nshaft\nhandle\nA Racket\nframe\nstringed area\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::25::details_summary_text_image_summary_head_throat_t",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::26::images_e3282afb491e7161f0534557fd5e626de6beb0ae7",
+      "label": "![](images/e3282afb491e7161f0534557fd5e626de6beb0ae76b01c498c6acd58efc6d5f9.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::26::images_e3282afb491e7161f0534557fd5e626de6beb0ae7::chunk::15::images_e3282afb491e7161f0534557fd5e626de6beb0ae7",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "![](images/e3282afb491e7161f0534557fd5e626de6beb0ae76b01c498c6acd58efc6d5f9.jpg)",
+      "image_path": "images/e3282afb491e7161f0534557fd5e626de6beb0ae76b01c498c6acd58efc6d5f9.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::26::images_e3282afb491e7161f0534557fd5e626de6beb0ae7",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::27::details_summary_text_image_summary_feathers_cork",
+      "label": "<details> <summary>text_image</summary> Feathers Cork base </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::27::details_summary_text_image_summary_feathers_cork::chunk::16::details_summary_text_image_summary_feathers_cork",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nFeathers\nCork base\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::27::details_summary_text_image_summary_feathers_cork",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::30::images_03b299f302a5164fcf472b032093aeabb7692fce1",
+      "label": "![](images/03b299f302a5164fcf472b032093aeabb7692fce16efe9eb8eab89edf1f11579.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::30::images_03b299f302a5164fcf472b032093aeabb7692fce1::chunk::18::images_03b299f302a5164fcf472b032093aeabb7692fce1",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "![](images/03b299f302a5164fcf472b032093aeabb7692fce16efe9eb8eab89edf1f11579.jpg)",
+      "image_path": "images/03b299f302a5164fcf472b032093aeabb7692fce16efe9eb8eab89edf1f11579.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::30::images_03b299f302a5164fcf472b032093aeabb7692fce1",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::31::details_summary_natural_image_summary_black_and_",
+      "label": "<details> <summary>natural_image</summary> Black and white photo of a shuttlecock with fins and body (no text or symb...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::31::details_summary_natural_image_summary_black_and_::chunk::19::details_summary_natural_image_summary_black_and_",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nBlack and white photo of a shuttlecock with fins and body (no text or symbols visible)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::31::details_summary_natural_image_summary_black_and_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::32::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14",
+      "label": "![](images/5a3bfd5e7f07f159c1660e62b7944846fae856e146812cb1d97ec2ce9b10d70f.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::32::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14::chunk::20::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "![](images/5a3bfd5e7f07f159c1660e62b7944846fae856e146812cb1d97ec2ce9b10d70f.jpg)",
+      "image_path": "images/5a3bfd5e7f07f159c1660e62b7944846fae856e146812cb1d97ec2ce9b10d70f.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::32::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::33::details_summary_natural_image_summary_two_types_",
+      "label": "<details> <summary>natural_image</summary> Two types of shuttlecockes with pink caps, one large and one small, shown...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::33::details_summary_natural_image_summary_two_types_::chunk::21::details_summary_natural_image_summary_two_types_",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nTwo types of shuttlecockes with pink caps, one large and one small, shown without any text or symbols.\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::33::details_summary_natural_image_summary_two_types_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::39::images_aa172452deaf35518810c07eb325ab2619ce3bb79",
+      "label": "![](images/aa172452deaf35518810c07eb325ab2619ce3bb7982d37146785171342060241.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::39::images_aa172452deaf35518810c07eb325ab2619ce3bb79::chunk::24::images_aa172452deaf35518810c07eb325ab2619ce3bb79",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "![](images/aa172452deaf35518810c07eb325ab2619ce3bb7982d37146785171342060241.jpg)",
+      "image_path": "images/aa172452deaf35518810c07eb325ab2619ce3bb7982d37146785171342060241.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::39::images_aa172452deaf35518810c07eb325ab2619ce3bb79",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph LR A[\"Grid with vertical dashed line\"] --> B[\"Doubles court\"]...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph LR\n    A[\"Grid with vertical dashed line\"] --> B[\"Doubles court\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::40::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::42::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd",
+      "label": "![](images/28c8b9c3d3281f265d83c0c8fb37842101468a9bd53324789b2e9f5890926070.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::42::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd::chunk::27::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "![](images/28c8b9c3d3281f265d83c0c8fb37842101468a9bd53324789b2e9f5890926070.jpg)",
+      "image_path": "images/28c8b9c3d3281f265d83c0c8fb37842101468a9bd53324789b2e9f5890926070.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::42::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph LR A[\"Grid with vertical division\"] --> B[\"Singles court\"] ``...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::43::details_summary_flowchart_summary_mermaid_graph_::chunk::28::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph LR\n    A[\"Grid with vertical division\"] --> B[\"Singles court\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::43::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::45::images_13151dac5aaa963d45fda9f8f19665cb53082af36",
+      "label": "![](images/13151dac5aaa963d45fda9f8f19665cb53082af36427a2658e28eea26f7ff594.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::45::images_13151dac5aaa963d45fda9f8f19665cb53082af36::chunk::30::images_13151dac5aaa963d45fda9f8f19665cb53082af36",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "![](images/13151dac5aaa963d45fda9f8f19665cb53082af36427a2658e28eea26f7ff594.jpg)",
+      "image_path": "images/13151dac5aaa963d45fda9f8f19665cb53082af36427a2658e28eea26f7ff594.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::45::images_13151dac5aaa963d45fda9f8f19665cb53082af36",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::46::details_summary_text_image_summary_side_line_for",
+      "label": "<details> <summary>text_image</summary> Side Line for Doubles 5.18 m 2.59 m 0.46 m Side Boundary Line 13.40 m Side Li...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::46::details_summary_text_image_summary_side_line_for::chunk::31::details_summary_text_image_summary_side_line_for",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nSide Line for Doubles\n5.18 m 2.59 m\n0.46 m Side Boundary Line 13.40 m\nSide Line for Singles\nCenter Line Net\n1.55 m\nShort Service Line Right Service Court\nLeft Service Court Long Service Line for Doubles\nBack Boundary Line and Long Service Line for Singles\n0.76 m 3.98 m 1.98 m 6.1 m\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::46::details_summary_text_image_summary_side_line_for",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::57::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f",
+      "label": "![](images/8af94e3faffbce4b1052a12aa024c047a23da2f3f2a9880ef9f3ad255302333e.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::57::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f::chunk::34::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f",
+      "page_idx": null,
+      "section_path": [
+        "2. Service:"
+      ],
+      "text": "![](images/8af94e3faffbce4b1052a12aa024c047a23da2f3f2a9880ef9f3ad255302333e.jpg)",
+      "image_path": "images/8af94e3faffbce4b1052a12aa024c047a23da2f3f2a9880ef9f3ad255302333e.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::57::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::58::details_summary_text_image_summary_doubles_servi",
+      "label": "<details> <summary>text_image</summary> DOUBLES SERVICE COURT SINGLES SERVICE COURT </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::58::details_summary_text_image_summary_doubles_servi::chunk::35::details_summary_text_image_summary_doubles_servi",
+      "page_idx": null,
+      "section_path": [
+        "2. Service:"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nDOUBLES SERVICE COURT\nSINGLES SERVICE COURT\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::58::details_summary_text_image_summary_doubles_servi",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::66::images_feb89fe658184cdb896326a4690bec1592f757ff0",
+      "label": "![](images/feb89fe658184cdb896326a4690bec1592f757ff0d9331cf005cc716cefcfb2e.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::66::images_feb89fe658184cdb896326a4690bec1592f757ff0::chunk::39::images_feb89fe658184cdb896326a4690bec1592f757ff0",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "![](images/feb89fe658184cdb896326a4690bec1592f757ff0d9331cf005cc716cefcfb2e.jpg)",
+      "image_path": "images/feb89fe658184cdb896326a4690bec1592f757ff0d9331cf005cc716cefcfb2e.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::66::images_feb89fe658184cdb896326a4690bec1592f757ff0",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::67::details_summary_natural_image_summary_badminton_",
+      "label": "<details> <summary>natural_image</summary> Badminton player in red and yellow jersey mid-swing, racket extended, with...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::67::details_summary_natural_image_summary_badminton_::chunk::40::details_summary_natural_image_summary_badminton_",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nBadminton player in red and yellow jersey mid-swing, racket extended, with blurred background showing blue triangles and green bars (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::67::details_summary_natural_image_summary_badminton_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::69::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff",
+      "label": "![](images/acdb662860ba09e089a8528a4ced6a8b5efc512ff1b9e203f02bc305d67ae03c.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::69::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff::chunk::42::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "![](images/acdb662860ba09e089a8528a4ced6a8b5efc512ff1b9e203f02bc305d67ae03c.jpg)",
+      "image_path": "images/acdb662860ba09e089a8528a4ced6a8b5efc512ff1b9e203f02bc305d67ae03c.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::69::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::70::details_summary_natural_image_summary_badminton_",
+      "label": "<details> <summary>natural_image</summary> Badminton player in action on court, wearing maroon jersey with 'Fed' logo...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::70::details_summary_natural_image_summary_badminton_::chunk::43::details_summary_natural_image_summary_badminton_",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nBadminton player in action on court, wearing maroon jersey with 'Fed' logo (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::70::details_summary_natural_image_summary_badminton_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::86::images_78efb5406f7b3183c35bbaceecc76c77998b629f7",
+      "label": "![](images/78efb5406f7b3183c35bbaceecc76c77998b629f75fe14dc9dd978cedaa59bb1.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::86::images_78efb5406f7b3183c35bbaceecc76c77998b629f7::chunk::46::images_78efb5406f7b3183c35bbaceecc76c77998b629f7",
+      "page_idx": null,
+      "section_path": [
+        "2. Basic strokes."
+      ],
+      "text": "![](images/78efb5406f7b3183c35bbaceecc76c77998b629f75fe14dc9dd978cedaa59bb1.jpg)",
+      "image_path": "images/78efb5406f7b3183c35bbaceecc76c77998b629f75fe14dc9dd978cedaa59bb1.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::86::images_78efb5406f7b3183c35bbaceecc76c77998b629f7",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::87::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"1\"] --> B[\"2\"] B --> C[\"3\"] C --> D[\"4\"] D --> E[\"5\"] E...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::47::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "2. Basic strokes."
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"1\"] --> B[\"2\"]\n    B --> C[\"3\"]\n    C --> D[\"4\"]\n    D --> E[\"5\"]\n    E --> F[\"6\"]\n    style A fill:#d4edda,stroke:#333\n    style B fill:#d4edda,stroke:#333\n    style C fill:#d4edda,stroke:#333\n    style D fill:#d4edda,stroke:#333\n    style E fill:#d4edda,stroke:#333\n    style F fill:#d4edda,stroke:#333\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::87::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::94::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14",
+      "label": "![](images/6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14034f7685c72ef1e7d334801.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::94::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14::chunk::51::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "![](images/6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14034f7685c72ef1e7d334801.jpg)",
+      "image_path": "images/6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14034f7685c72ef1e7d334801.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::94::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::95::details_summary_natural_image_summary_green_fiel",
+      "label": "<details> <summary>natural_image</summary> Green field with two white human figures on the left side and a vertical d...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::95::details_summary_natural_image_summary_green_fiel::chunk::52::details_summary_natural_image_summary_green_fiel",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nGreen field with two white human figures on the left side and a vertical dotted line dividing the right half (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::95::details_summary_natural_image_summary_green_fiel",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::97::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f",
+      "label": "![](images/0b72b2503d069268cf033db4e9711bae5b2d20e4fa642a323d5de9a8f6e2612b.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::97::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f::chunk::54::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "![](images/0b72b2503d069268cf033db4e9711bae5b2d20e4fa642a323d5de9a8f6e2612b.jpg)",
+      "image_path": "images/0b72b2503d069268cf033db4e9711bae5b2d20e4fa642a323d5de9a8f6e2612b.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::97::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::98::details_summary_natural_image_summary_green_grid",
+      "label": "<details> <summary>natural_image</summary> Green grid layout with white human icons and a vertical dotted line (no te...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::98::details_summary_natural_image_summary_green_grid::chunk::55::details_summary_natural_image_summary_green_grid",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nGreen grid layout with white human icons and a vertical dotted line (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::98::details_summary_natural_image_summary_green_grid",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::103::images_3845b63ff0f348fb7dd3332c79c342855a7c11ecc",
+      "label": "![](images/3845b63ff0f348fb7dd3332c79c342855a7c11ecc80b5834c05e63f37c27a769.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::103::images_3845b63ff0f348fb7dd3332c79c342855a7c11ecc::chunk::58::images_3845b63ff0f348fb7dd3332c79c342855a7c11ecc",
+      "page_idx": null,
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "text": "![](images/3845b63ff0f348fb7dd3332c79c342855a7c11ecc80b5834c05e63f37c27a769.jpg)",
+      "image_path": "images/3845b63ff0f348fb7dd3332c79c342855a7c11ecc80b5834c05e63f37c27a769.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::103::images_3845b63ff0f348fb7dd3332c79c342855a7c11ecc",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::104::details_summary_text_image_summary_home_position",
+      "label": "<details> <summary>text_image</summary> HOME POSITION </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::104::details_summary_text_image_summary_home_position::chunk::59::details_summary_text_image_summary_home_position",
+      "page_idx": null,
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nHOME POSITION\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::104::details_summary_text_image_summary_home_position",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc13::artifact::110::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8",
+      "label": "![](images/94079f8fdb6940db60d0f2ef4d872553b26d914c8d1be534c4b85a78dcc86bac.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::110::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8::chunk::64::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "![](images/94079f8fdb6940db60d0f2ef4d872553b26d914c8d1be534c4b85a78dcc86bac.jpg)",
+      "image_path": "images/94079f8fdb6940db60d0f2ef4d872553b26d914c8d1be534c4b85a78dcc86bac.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::110::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::116::images_7698f465b9bedbcb9d446893a6368edb687d44453",
+      "label": "![](images/7698f465b9bedbcb9d446893a6368edb687d44453d401e7081b71213a1c32610.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::116::images_7698f465b9bedbcb9d446893a6368edb687d44453::chunk::67::images_7698f465b9bedbcb9d446893a6368edb687d44453",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "![](images/7698f465b9bedbcb9d446893a6368edb687d44453d401e7081b71213a1c32610.jpg)",
+      "image_path": "images/7698f465b9bedbcb9d446893a6368edb687d44453d401e7081b71213a1c32610.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::image::116::images_7698f465b9bedbcb9d446893a6368edb687d44453",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc13::artifact::117::details_summary_text_image_summary_playing_badmi",
+      "label": "<details> <summary>text_image</summary> Playing badminton is really funny, HEALTHY and very easy to learn and practis...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::117::details_summary_text_image_summary_playing_badmi::chunk::68::details_summary_text_image_summary_playing_badmi",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nPlaying badminton\nis really funny,\nHEALTHY and\nvery easy to learn\nand practise.\nTRY IT !!\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc13::details::117::details_summary_text_image_summary_playing_badmi",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    }
+  ]
+}

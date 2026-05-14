@@ -1,0 +1,2107 @@
+{
+  "concepts": [
+    "badminton",
+    "racket sport",
+    "singles",
+    "doubles",
+    "badminton court",
+    "shuttlecock",
+    "racket",
+    "net",
+    "natural_image",
+    "cartoon illustration",
+    "competitive badminton",
+    "olympic sport",
+    "poona",
+    "watercolor painting",
+    "grand palace",
+    "horseback riders",
+    "deer",
+    "grassy courtyard",
+    "cloudy sky",
+    "badminton house",
+    "duke of beaufort",
+    "the game of badminton",
+    "badminton rackets",
+    "grip",
+    "racket handle",
+    "shuttle",
+    "bird",
+    "birdie",
+    "shuttlecocks with feathers",
+    "feathers",
+    "cork base",
+    "synthetic shuttles",
+    "nylon shuttles",
+    "feathered shuttles",
+    "shuttlecocks",
+    "plastic shuttles",
+    "singles court",
+    "doubles court",
+    "grid with vertical dashed line",
+    "grid with vertical division",
+    "side line for doubles",
+    "side boundary line",
+    "side line for singles",
+    "center line",
+    "short service line",
+    "right service court",
+    "left service court",
+    "long service line for doubles",
+    "back boundary line",
+    "long service line for singles",
+    "scoring system",
+    "rally",
+    "game",
+    "match",
+    "server",
+    "receiver",
+    "service court",
+    "feints",
+    "doubles service court",
+    "singles service court",
+    "fault",
+    "serve",
+    "badminton player",
+    "forehand and backhand",
+    "forehand shot",
+    "backhand shot",
+    "upper arm shots",
+    "under arm shots",
+    "opponent",
+    "service",
+    "short service",
+    "long service",
+    "drive service",
+    "backhand service",
+    "clear",
+    "attacking clear",
+    "defensive clear",
+    "drop shot",
+    "smash",
+    "kill",
+    "drive",
+    "hairpin net shot",
+    "lob",
+    "attacking lob",
+    "defensive lob",
+    "net shot",
+    "badminton strategy",
+    "court position",
+    "doubles badminton",
+    "front-back position",
+    "attacking formation",
+    "side by side position",
+    "defensive formation",
+    "teamwork",
+    "home position",
+    "four corners strategy",
+    "lobs",
+    "clears",
+    "drop shots",
+    "net shots",
+    "wide variety of strokes",
+    "backcourt",
+    "forecourt",
+    "concentration",
+    "singles playing court",
+    "doubles playing court",
+    "badminton net",
+    "overhead serve",
+    "over-waist serve",
+    "under-waist serve",
+    "sydney olympics",
+    "seoul olympics",
+    "barcelona olympics",
+    "service line",
+    "service lane",
+    "drive shot",
+    "wood shot",
+    "frame of the racket",
+    "handle of the racket",
+    "double"
+  ],
+  "definitions": {
+    "badminton court": "A court marked for both singles and doubles matches, rectangular and divided into halves by a net.",
+    "doubles court": "A wider court than the singles court, with a shorter serve-length dimension.",
+    "rally": "A continuous exchange of hits between players until a point is won or lost.",
+    "game": "A segment of play where players compete to reach 21 points with a margin of at least two points.",
+    "match": "A competition consisting of the best of three games.",
+    "service court": "The area where the server and receiver must stand during the serve.",
+    "feints": "Deceptive movements by the server to disconcert the opponent.",
+    "shuttlecock": "An object used in the game that is hit back and forth over a net.",
+    "fault": "An action that results in losing the rally, such as hitting the shuttlecock into the net or out of bounds.",
+    "teamwork": "the success formula in doubles",
+    "singles court": "A court that is narrower than the doubles court but the same length (with the service exception)."
+  },
+  "relations": [
+    {
+      "source": "BADMINTON",
+      "target": "racket sport",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "BADMINTON",
+      "target": "singles",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "BADMINTON",
+      "target": "doubles",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "shuttlecock",
+      "target": "racket",
+      "relation": "used_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "shuttlecock",
+      "target": "net",
+      "relation": "passes_over",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Cartoon illustration",
+      "target": "badminton players",
+      "relation": "depicts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::details::5::details_summary_natural_image_summary_cartoon_il::chunk::2::details_summary_natural_image_summary_cartoon_il",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Competitive badminton",
+      "target": "indoors",
+      "relation": "best_played_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::6::competitive_badminton_is_best_played_indoors_bec::chunk::3::competitive_badminton_is_best_played_indoors_bec",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "BADMINTON",
+      "target": "Olympic sport",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::6::competitive_badminton_is_best_played_indoors_bec::chunk::3::competitive_badminton_is_best_played_indoors_bec",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Badminton",
+      "target": "Olympic sport",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b::chunk::4::badminton_has_been_an_olympic_sport_since_1992_b",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Poona",
+      "target": "Badminton",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b::chunk::4::badminton_has_been_an_olympic_sport_since_1992_b",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Badminton House",
+      "target": "Duke of Beaufort",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::15::badminton_house_gloucestershire_painted_by_josep::chunk::9::badminton_house_gloucestershire_painted_by_josep",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "The Game of Badminton",
+      "target": "BADMINTON",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::15::badminton_house_gloucestershire_painted_by_josep::chunk::9::badminton_house_gloucestershire_painted_by_josep",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Badminton House",
+      "target": "Duke of Beaufort",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::10::this_new_sport_was_definitively_launched_in_1873",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "The Game of Badminton",
+      "target": "BADMINTON",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::10::this_new_sport_was_definitively_launched_in_1873",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Grip",
+      "target": "Racket handle",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::11::this_new_sport_was_definitively_launched_in_1873",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Shuttlecocks with feathers",
+      "target": "high level players",
+      "relation": "used_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac::chunk::12::badminton_rackets_are_light_with_top_quality_rac",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Feathered shuttles",
+      "target": "Nylon shuttles",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often::chunk::17::synthetic_shuttles_nylon_shuttles_they_are_often",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "doubles court",
+      "target": "singles court",
+      "relation": "wider_than",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "doubles court",
+      "target": "badminton court",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Grid with vertical dashed line",
+      "target": "Doubles court",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Grid with vertical division",
+      "target": "Singles court",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::details::43::details_summary_flowchart_summary_mermaid_graph_::chunk::28::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "scoring system",
+      "target": "rally",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::49::before_may_2006_players_could_only_win_a_point_o::chunk::32::before_may_2006_players_could_only_win_a_point_o",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "game",
+      "target": "match",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::49::before_may_2006_players_could_only_win_a_point_o::chunk::32::before_may_2006_players_could_only_win_a_point_o",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "server",
+      "target": "service court",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla::chunk::33::a_match_is_the_best_of_three_games_the_first_pla",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "receiver",
+      "target": "service court",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla::chunk::33::a_match_is_the_best_of_three_games_the_first_pla",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "server",
+      "target": "feints",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla::chunk::33::a_match_is_the_best_of_three_games_the_first_pla",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "doubles service court",
+      "target": "singles service court",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::details::58::details_summary_text_image_summary_doubles_servi::chunk::35::details_summary_text_image_summary_doubles_servi",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "shuttlecock",
+      "target": "net",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "rally",
+      "target": "fault",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "fault",
+      "target": "rally",
+      "relation": "ends",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Choice of stroke",
+      "target": "Shuttlecock position",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Choice of stroke",
+      "target": "Birdie height",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Choice of stroke",
+      "target": "Opponent position",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Attacking clear",
+      "target": "Clear",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Defensive clear",
+      "target": "Clear",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Smash",
+      "target": "Kill",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Badminton strategy",
+      "target": "Strokes",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Badminton strategy",
+      "target": "Court position",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Doubles badminton",
+      "target": "Front-Back Position",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::90::to_win_in_badminton_players_need_to_employ_a_wid::chunk::50::to_win_in_badminton_players_need_to_employ_a_wid",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Front-Back Position",
+      "target": "Attacking formation",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::90::to_win_in_badminton_players_need_to_employ_a_wid::chunk::50::to_win_in_badminton_players_need_to_employ_a_wid",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "drop shot",
+      "target": "opponent",
+      "relation": "forces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "net shot",
+      "target": "opponent",
+      "relation": "forces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "drop shot",
+      "target": "opponent",
+      "relation": "forces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "net shot",
+      "target": "opponent",
+      "relation": "forces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "HOME POSITION",
+      "target": "midcourt area",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "FOUR CORNERS STRATEGY",
+      "target": "shuttle",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "FOUR CORNERS STRATEGY",
+      "target": "opponent movement",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "singles court",
+      "target": "doubles court",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "lobs",
+      "target": "clears",
+      "relation": "combined_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "drop shots",
+      "target": "net shots",
+      "relation": "combined_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "CONCENTRATION",
+      "target": "opponent shots",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "extraction_method": "langchain"
+    }
+  ],
+  "examples": [
+    "hitting the birdie into the net",
+    "hitting the shuttle outside the court",
+    "hitting the bird twice before it goes over the net",
+    "If you are in a difficult situation during the rally, you need to make time for yourself to get back to a good position."
+  ],
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON"
+      ],
+      "concepts": [
+        "BADMINTON",
+        "racket sport",
+        "singles",
+        "doubles",
+        "badminton court",
+        "shuttlecock",
+        "racket",
+        "net"
+      ],
+      "definitions": [
+        {
+          "concept": "BADMINTON",
+          "definition": "a racket sport played by either two opposing players (singles) or two opposing pairs (doubles)."
+        },
+        {
+          "concept": "badminton court",
+          "definition": "a rectangular area divided by a net."
+        }
+      ],
+      "relations": [
+        {
+          "source": "BADMINTON",
+          "target": "racket sport",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "BADMINTON",
+          "target": "singles",
+          "relation": "includes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "BADMINTON",
+          "target": "doubles",
+          "relation": "includes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "shuttlecock",
+          "target": "racket",
+          "relation": "used_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "shuttlecock",
+          "target": "net",
+          "relation": "passes_over",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "doc13::image::4::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c::chunk::1::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "doc13::details::5::details_summary_natural_image_summary_cartoon_il::chunk::2::details_summary_natural_image_summary_cartoon_il",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON"
+      ],
+      "concepts": [
+        "natural_image",
+        "Cartoon illustration"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Cartoon illustration",
+          "target": "badminton players",
+          "relation": "depicts",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 3,
+      "chunk_id": "doc13::paragraph::6::competitive_badminton_is_best_played_indoors_bec::chunk::3::competitive_badminton_is_best_played_indoors_bec",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON"
+      ],
+      "concepts": [
+        "Competitive badminton",
+        "Olympic sport"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Competitive badminton",
+          "target": "indoors",
+          "relation": "best_played_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "BADMINTON",
+          "target": "Olympic sport",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b::chunk::4::badminton_has_been_an_olympic_sport_since_1992_b",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "History"
+      ],
+      "concepts": [
+        "Badminton",
+        "Olympic sport",
+        "Poona"
+      ],
+      "definitions": [
+        {
+          "concept": "Poona",
+          "definition": "A form of badminton played in colonial India."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Badminton",
+          "target": "Olympic sport",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Poona",
+          "target": "Badminton",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "doc13::details::14::details_summary_natural_image_summary_watercolor::chunk::8::details_summary_natural_image_summary_watercolor",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "History"
+      ],
+      "concepts": [
+        "Watercolor painting",
+        "Grand palace",
+        "Horseback riders",
+        "Deer",
+        "Grassy courtyard",
+        "Cloudy sky"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "doc13::paragraph::15::badminton_house_gloucestershire_painted_by_josep::chunk::9::badminton_house_gloucestershire_painted_by_josep",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "History"
+      ],
+      "concepts": [
+        "Badminton House",
+        "Duke of Beaufort",
+        "The Game of Badminton",
+        "BADMINTON"
+      ],
+      "definitions": [
+        {
+          "concept": "BADMINTON",
+          "definition": "The sport was then known as 'The Game of Badminton' for a number of years, until the name was shortened to BADMINTON."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Badminton House",
+          "target": "Duke of Beaufort",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "The Game of Badminton",
+          "target": "BADMINTON",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::10::this_new_sport_was_definitively_launched_in_1873",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON EQUIPMENT"
+      ],
+      "concepts": [
+        "Badminton House",
+        "Duke of Beaufort",
+        "The Game of Badminton",
+        "BADMINTON"
+      ],
+      "definitions": [
+        {
+          "concept": "BADMINTON",
+          "definition": "The sport was then known as 'The Game of Badminton' for a number of years, until the name was shortened to BADMINTON."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Badminton House",
+          "target": "Duke of Beaufort",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "The Game of Badminton",
+          "target": "BADMINTON",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::11::this_new_sport_was_definitively_launched_in_1873",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Rackets"
+      ],
+      "concepts": [
+        "Badminton rackets",
+        "Grip",
+        "Racket handle"
+      ],
+      "definitions": [
+        {
+          "concept": "Badminton rackets",
+          "definition": "Badminton rackets are light, with top quality rackets weighting between 79 and 91 grams including the strings."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Grip",
+          "target": "Racket handle",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac::chunk::12::badminton_rackets_are_light_with_top_quality_rac",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "concepts": [
+        "Badminton rackets",
+        "Shuttlecock",
+        "Shuttle",
+        "Bird",
+        "Birdie",
+        "Shuttlecocks with feathers"
+      ],
+      "definitions": [
+        {
+          "concept": "Shuttlecock",
+          "definition": "A projectile with an open conical shape."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Shuttlecocks with feathers",
+          "target": "high level players",
+          "relation": "used_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "doc13::details::27::details_summary_text_image_summary_feathers_cork::chunk::16::details_summary_text_image_summary_feathers_cork",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "concepts": [
+        "Feathers",
+        "Cork base"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 17,
+      "chunk_id": "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often::chunk::17::synthetic_shuttles_nylon_shuttles_they_are_often",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "concepts": [
+        "Synthetic shuttles",
+        "Nylon shuttles",
+        "Feathered shuttles"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Feathered shuttles",
+          "target": "Nylon shuttles",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 18,
+      "chunk_id": "doc13::image::30::images_03b299f302a5164fcf472b032093aeabb7692fce1::chunk::18::images_03b299f302a5164fcf472b032093aeabb7692fce1",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 19,
+      "chunk_id": "doc13::details::31::details_summary_natural_image_summary_black_and_::chunk::19::details_summary_natural_image_summary_black_and_",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "concepts": [
+        "Shuttlecock"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 20,
+      "chunk_id": "doc13::image::32::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14::chunk::20::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 21,
+      "chunk_id": "doc13::details::33::details_summary_natural_image_summary_two_types_::chunk::21::details_summary_natural_image_summary_two_types_",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "concepts": [
+        "shuttlecocks"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 22,
+      "chunk_id": "doc13::paragraph::34::plastic_shuttles_they_are_smaller_and_it_is_almo::chunk::22::plastic_shuttles_they_are_smaller_and_it_is_almo",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "concepts": [
+        "plastic shuttles"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 23,
+      "chunk_id": "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "concepts": [
+        "badminton court",
+        "singles court",
+        "doubles court"
+      ],
+      "definitions": [
+        {
+          "concept": "badminton court",
+          "definition": "A court marked for both singles and doubles matches, rectangular and divided into halves by a net."
+        },
+        {
+          "concept": "doubles court",
+          "definition": "A wider court than the singles court, with a shorter serve-length dimension."
+        }
+      ],
+      "relations": [
+        {
+          "source": "doubles court",
+          "target": "singles court",
+          "relation": "wider_than",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "doubles court",
+          "target": "badminton court",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 24,
+      "chunk_id": "doc13::image::39::images_aa172452deaf35518810c07eb325ab2619ce3bb79::chunk::24::images_aa172452deaf35518810c07eb325ab2619ce3bb79",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 25,
+      "chunk_id": "doc13::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "concepts": [
+        "Grid with vertical dashed line",
+        "Doubles court"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Grid with vertical dashed line",
+          "target": "Doubles court",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 26,
+      "chunk_id": "doc13::paragraph::41::the_singles_court_is_a_little_smaller_5_18_m_wid::chunk::26::the_singles_court_is_a_little_smaller_5_18_m_wid",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "concepts": [
+        "Singles court"
+      ],
+      "definitions": [
+        {
+          "concept": "Singles court",
+          "definition": "A court that is 5.18 meters wide and 13.40 meters long."
+        }
+      ],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 27,
+      "chunk_id": "doc13::image::42::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd::chunk::27::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 28,
+      "chunk_id": "doc13::details::43::details_summary_flowchart_summary_mermaid_graph_::chunk::28::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "concepts": [
+        "Grid with vertical division",
+        "Singles court"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Grid with vertical division",
+          "target": "Singles court",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 29,
+      "chunk_id": "doc13::paragraph::44::the_net_is_1_55_m_high::chunk::29::the_net_is_1_55_m_high",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "concepts": [
+        "Net"
+      ],
+      "definitions": [
+        {
+          "concept": "Net",
+          "definition": "The net is 1.55 m high."
+        }
+      ],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 30,
+      "chunk_id": "doc13::image::45::images_13151dac5aaa963d45fda9f8f19665cb53082af36::chunk::30::images_13151dac5aaa963d45fda9f8f19665cb53082af36",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 31,
+      "chunk_id": "doc13::details::46::details_summary_text_image_summary_side_line_for::chunk::31::details_summary_text_image_summary_side_line_for",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "concepts": [
+        "Side Line for Doubles",
+        "Side Boundary Line",
+        "Side Line for Singles",
+        "Center Line",
+        "Net",
+        "Short Service Line",
+        "Right Service Court",
+        "Left Service Court",
+        "Long Service Line for Doubles",
+        "Back Boundary Line",
+        "Long Service Line for Singles"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 32,
+      "chunk_id": "doc13::paragraph::49::before_may_2006_players_could_only_win_a_point_o::chunk::32::before_may_2006_players_could_only_win_a_point_o",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "1. Scoring system: 3 x 21 rally point scoring system."
+      ],
+      "concepts": [
+        "scoring system",
+        "rally",
+        "game",
+        "match"
+      ],
+      "definitions": [
+        {
+          "concept": "rally",
+          "definition": "A sequence of shots in which players hit the shuttlecock back and forth."
+        },
+        {
+          "concept": "game",
+          "definition": "A segment of play where players compete to reach 21 points with a margin of at least two points."
+        },
+        {
+          "concept": "match",
+          "definition": "A competition consisting of the best of three games."
+        }
+      ],
+      "relations": [
+        {
+          "source": "scoring system",
+          "target": "rally",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "game",
+          "target": "match",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 33,
+      "chunk_id": "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla::chunk::33::a_match_is_the_best_of_three_games_the_first_pla",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "2. Service:"
+      ],
+      "concepts": [
+        "server",
+        "receiver",
+        "service court",
+        "feints"
+      ],
+      "definitions": [
+        {
+          "concept": "service court",
+          "definition": "The area where the server and receiver must stand during the serve."
+        },
+        {
+          "concept": "feints",
+          "definition": "Deceptive movements by the server to disconcert the opponent."
+        }
+      ],
+      "relations": [
+        {
+          "source": "server",
+          "target": "service court",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "receiver",
+          "target": "service court",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "server",
+          "target": "feints",
+          "relation": "uses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 34,
+      "chunk_id": "doc13::image::57::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f::chunk::34::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "2. Service:"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 35,
+      "chunk_id": "doc13::details::58::details_summary_text_image_summary_doubles_servi::chunk::35::details_summary_text_image_summary_doubles_servi",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "2. Service:"
+      ],
+      "concepts": [
+        "doubles service court",
+        "singles service court"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "doubles service court",
+          "target": "singles service court",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 36,
+      "chunk_id": "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "3. Playing the game:"
+      ],
+      "concepts": [
+        "shuttlecock",
+        "net",
+        "rally",
+        "fault",
+        "birdie",
+        "serve",
+        "match"
+      ],
+      "definitions": [
+        {
+          "concept": "shuttlecock",
+          "definition": "An object used in the game that is hit back and forth over a net."
+        },
+        {
+          "concept": "rally",
+          "definition": "A continuous exchange of hits between players until a point is won or lost."
+        },
+        {
+          "concept": "fault",
+          "definition": "An action that results in losing the rally, such as hitting the shuttlecock into the net or out of bounds."
+        }
+      ],
+      "relations": [
+        {
+          "source": "shuttlecock",
+          "target": "net",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "rally",
+          "target": "fault",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "fault",
+          "target": "rally",
+          "relation": "ends",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "hitting the birdie into the net",
+        "hitting the shuttle outside the court",
+        "hitting the bird twice before it goes over the net"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 40,
+      "chunk_id": "doc13::details::67::details_summary_natural_image_summary_badminton_::chunk::40::details_summary_natural_image_summary_badminton_",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "concepts": [
+        "Badminton player",
+        "Forehand and backhand"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 41,
+      "chunk_id": "doc13::paragraph::68::forehand_shot::chunk::41::forehand_shot",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "concepts": [
+        "Forehand shot"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 42,
+      "chunk_id": "doc13::image::69::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff::chunk::42::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 43,
+      "chunk_id": "doc13::details::70::details_summary_natural_image_summary_badminton_::chunk::43::details_summary_natural_image_summary_badminton_",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "concepts": [
+        "Badminton player"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 44,
+      "chunk_id": "doc13::paragraph::71::backhand_shot::chunk::44::backhand_shot",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "concepts": [
+        "Backhand shot"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 45,
+      "chunk_id": "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "2. Basic strokes."
+      ],
+      "concepts": [
+        "Backhand shot",
+        "Upper arm shots",
+        "Under arm shots",
+        "Shuttlecock",
+        "Net",
+        "Birdie",
+        "Opponent",
+        "Service",
+        "Short service",
+        "Long service",
+        "Drive service",
+        "Backhand service",
+        "Clear",
+        "Attacking clear",
+        "Defensive clear",
+        "Drop shot",
+        "Smash",
+        "Kill",
+        "Drive",
+        "Hairpin net shot",
+        "Lob",
+        "Attacking lob",
+        "Defensive lob"
+      ],
+      "definitions": [
+        {
+          "concept": "Service",
+          "definition": "Under waist shot."
+        },
+        {
+          "concept": "Clear",
+          "definition": "Upper arm or overhead shot - hitting the shuttle high and to the back of the opponents' court, the rearcourt."
+        },
+        {
+          "concept": "Drop shot",
+          "definition": "Upper arm or overhead shot - hitting the shuttle so that it falls softly downwards into the opponents' forecourt, very close to the net."
+        },
+        {
+          "concept": "Smash",
+          "definition": "Upper arm or overhead shot – hitting the shuttle downwards and fast, attempting to win the rally immediately. It is also called 'kill'."
+        },
+        {
+          "concept": "Drive",
+          "definition": "Hitting the shuttle as far as you can, not too high, horizontally and fast."
+        },
+        {
+          "concept": "Hairpin net shot",
+          "definition": "Under arm shot - hitting the shuttle softly back to the net."
+        },
+        {
+          "concept": "Lob",
+          "definition": "Under arm shot – hitting the shuttle high and to the back of the opponents’ court."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Choice of stroke",
+          "target": "Shuttlecock position",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Choice of stroke",
+          "target": "Birdie height",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Choice of stroke",
+          "target": "Opponent position",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Attacking clear",
+          "target": "Clear",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Defensive clear",
+          "target": "Clear",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Smash",
+          "target": "Kill",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 48,
+      "chunk_id": "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "2. Basic strokes."
+      ],
+      "concepts": [
+        "Defensive clear",
+        "Attacking clear",
+        "Drive",
+        "Smash",
+        "Drop shot",
+        "Net shot",
+        "Lob"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 49,
+      "chunk_id": "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "BADMINTON STRATEGY"
+      ],
+      "concepts": [
+        "Defensive clear",
+        "Attacking clear",
+        "Drive",
+        "Smash",
+        "Drop shot",
+        "Net shot",
+        "Lob",
+        "Badminton strategy",
+        "Court position"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Badminton strategy",
+          "target": "Strokes",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Badminton strategy",
+          "target": "Court position",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 50,
+      "chunk_id": "doc13::paragraph::90::to_win_in_badminton_players_need_to_employ_a_wid::chunk::50::to_win_in_badminton_players_need_to_employ_a_wid",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "concepts": [
+        "Doubles badminton",
+        "Front-Back Position",
+        "Attacking formation"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Doubles badminton",
+          "target": "Front-Back Position",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Front-Back Position",
+          "target": "Attacking formation",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 51,
+      "chunk_id": "doc13::image::94::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14::chunk::51::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 52,
+      "chunk_id": "doc13::details::95::details_summary_natural_image_summary_green_fiel::chunk::52::details_summary_natural_image_summary_green_fiel",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "concepts": [
+        "natural_image"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 53,
+      "chunk_id": "doc13::paragraph::96::side_by_side_position_defensive_formation::chunk::53::side_by_side_position_defensive_formation",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "concepts": [
+        "Side by side Position",
+        "defensive formation"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 54,
+      "chunk_id": "doc13::image::97::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f::chunk::54::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 55,
+      "chunk_id": "doc13::details::98::details_summary_natural_image_summary_green_grid::chunk::55::details_summary_natural_image_summary_green_grid",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "concepts": [
+        "natural_image"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 56,
+      "chunk_id": "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "concepts": [
+        "shuttle",
+        "drop shot",
+        "net shot",
+        "teamwork"
+      ],
+      "definitions": [
+        {
+          "concept": "teamwork",
+          "definition": "the success formula in doubles"
+        }
+      ],
+      "relations": [
+        {
+          "source": "drop shot",
+          "target": "opponent",
+          "relation": "forces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "net shot",
+          "target": "opponent",
+          "relation": "forces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 57,
+      "chunk_id": "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "concepts": [
+        "shuttle",
+        "drop shot",
+        "net shot",
+        "teamwork",
+        "HOME POSITION"
+      ],
+      "definitions": [
+        {
+          "concept": "HOME POSITION",
+          "definition": "a position in the midcourt area where you can possibly reach any of your opponent's shots"
+        }
+      ],
+      "relations": [
+        {
+          "source": "drop shot",
+          "target": "opponent",
+          "relation": "forces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "net shot",
+          "target": "opponent",
+          "relation": "forces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "HOME POSITION",
+          "target": "midcourt area",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 60,
+      "chunk_id": "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "concepts": [
+        "FOUR CORNERS STRATEGY",
+        "shuttle",
+        "singles court",
+        "doubles court",
+        "lobs",
+        "clears",
+        "drop shots",
+        "net shots",
+        "WIDE VARIETY OF STROKES",
+        "backcourt",
+        "forecourt",
+        "home position",
+        "CONCENTRATION"
+      ],
+      "definitions": [
+        {
+          "concept": "FOUR CORNERS STRATEGY",
+          "definition": "Always try to hit the shuttle away from your opponent and make your opponent move around the court."
+        },
+        {
+          "concept": "singles court",
+          "definition": "A court that is narrower than the doubles court but the same length (with the service exception)."
+        },
+        {
+          "concept": "WIDE VARIETY OF STROKES",
+          "definition": "Using different types of strokes depending on the situation to be flexible."
+        }
+      ],
+      "relations": [
+        {
+          "source": "FOUR CORNERS STRATEGY",
+          "target": "shuttle",
+          "relation": "involves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "FOUR CORNERS STRATEGY",
+          "target": "opponent movement",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "singles court",
+          "target": "doubles court",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "lobs",
+          "target": "clears",
+          "relation": "combined_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "drop shots",
+          "target": "net shots",
+          "relation": "combined_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "CONCENTRATION",
+          "target": "opponent shots",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "If you are in a difficult situation during the rally, you need to make time for yourself to get back to a good position."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 64,
+      "chunk_id": "doc13::image::110::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8::chunk::64::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 65,
+      "chunk_id": "doc13::list_item::111::2_draw_a_badminton_court_and_mark_a_the_singles_::chunk::65::draw_a_badminton_court_and_mark_a_the_singles_pl",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "concepts": [
+        "badminton court",
+        "singles playing court",
+        "doubles playing court",
+        "net",
+        "short service line",
+        "singles service court",
+        "doubles service court"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 66,
+      "chunk_id": "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "concepts": [
+        "badminton",
+        "badminton net",
+        "overhead serve",
+        "over-waist serve",
+        "under-waist serve",
+        "drop shot",
+        "net shot",
+        "fault",
+        "Sydney Olympics",
+        "Seoul Olympics",
+        "Barcelona Olympics",
+        "service line",
+        "service lane",
+        "service court",
+        "drop shot",
+        "smash",
+        "lob",
+        "drive shot",
+        "clear",
+        "rally",
+        "home position",
+        "wood shot",
+        "shuttlecock",
+        "frame of the racket",
+        "handle of the racket",
+        "double"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 67,
+      "chunk_id": "doc13::image::116::images_7698f465b9bedbcb9d446893a6368edb687d44453::chunk::67::images_7698f465b9bedbcb9d446893a6368edb687d44453",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 68,
+      "chunk_id": "doc13::details::117::details_summary_text_image_summary_playing_badmi::chunk::68::details_summary_text_image_summary_playing_badmi",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "concepts": [
+        "badminton"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 53,
+    "concept_count": 120,
+    "relation_count": 51
+  }
+}

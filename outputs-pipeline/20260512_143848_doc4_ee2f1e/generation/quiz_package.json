@@ -1,0 +1,146 @@
+{
+  "run_id": "20260512_143848_doc4_ee2f1e",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_e03c38966d",
+        "question_text": "Which of the following is a key factor studied in demography?",
+        "options": [
+          "A. Population size and distribution",
+          "B. Economic policies of a country",
+          "C. Cultural traditions and festivals",
+          "D. Political party affiliations"
+        ],
+        "correct_answer": "A",
+        "explanation": "Demography primarily studies population characteristics such as size, distribution, and composition. This is a foundational concept in understanding human populations. (Source: doc4::chunk::0)",
+        "target_concept": "Demography",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc4::chunk::0",
+          "run_id": "20260512_143848_doc4_ee2f1e"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Demography\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the key factors studied in demography.\nImage context: A map showing population distribution across different regions.\nTested fact block ID: doc4::chunk::0\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a stylized world map with color-coded regions (e.g., warm colors for high density, cool for low) to illustrate population distribution, using clear labels like \"High Density,\" \"Medium Density,\" and \"Low Density\" without specific place names. Include subtle icons representing key demographic factors (e.g., age groups, migration arrows, birth/death symbols) in the margins or as overlays. Use high-contrast colors and simple, bold outlines for accessibility.\n\nAlt: A color-coded world map showing population density variations with labeled demographic factors."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_90332d914c",
+        "question_text": "Which of the following best explains why early human settlements often developed near rivers?",
+        "options": [
+          "A) Rivers provided a reliable source of fresh water and fertile soil for agriculture.",
+          "B) Rivers were the only available source of food for early humans.",
+          "C) Early humans believed rivers had spiritual significance.",
+          "D) Rivers acted as natural barriers to protect settlements from invasions."
+        ],
+        "correct_answer": "A",
+        "explanation": "Early human settlements developed near rivers primarily due to access to fresh water and fertile soil, which supported agriculture and sustained communities. This relationship is documented in historical and geographical studies (doc4::chunk::1).",
+        "target_concept": "relationship between human societies and earth’s surface",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "doc4::chunk::1",
+          "run_id": "20260512_143848_doc4_ee2f1e"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: relationship between human societies and earth’s surface\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the dynamic relationship between human societies and the physical environment.\nImage context: A map showing the distribution of human settlements in relation to natural features like rivers and mountains.\nTested fact block ID: doc4::chunk::1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a stylized, high-contrast map illustrating human settlements (marked as small clusters of buildings or dots labeled \"Site 1,\" \"Site 2,\" etc.) nestled along winding rivers (blue) and at the foothills of mountains (brown/gray), with clear visual connections between terrain and population density. Use earthy tones for natural features and warm neutrals for settlements, ensuring strong contrast for readability. Avoid real-world place names or modern infrastructure.\n\nAlt: A map showing how human settlements are distributed near rivers and mountains, highlighting their relationship with the environment."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_79bb134d28",
+        "question_text": "What is the primary focus of geography as a field of study?",
+        "options": [
+          "A. The study of human cultures and societies",
+          "B. The study of Earth's physical features, climate, and human-environment interactions",
+          "C. The study of historical events and their impact on modern societies",
+          "D. The study of celestial bodies and their movements"
+        ],
+        "correct_answer": "B",
+        "explanation": "Geography is the study of Earth's physical features, climate, and how humans interact with their environment. This definition aligns with the fundamental concept outlined in doc4::concept::1::geography.",
+        "target_concept": "geography",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc4::concept::1::geography",
+          "run_id": "20260512_143848_doc4_ee2f1e"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: geography\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the fundamental definition of geography.\nImage context: A world map highlighting various physical features such as mountains, rivers, and deserts.\nTested fact block ID: doc4::concept::1::geography\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simplified world map with high-contrast colors, highlighting key physical features like mountain ranges (brown), rivers (blue), and deserts (yellow). Label these features generically (e.g., \"Mountain Range 1,\" \"River A,\" \"Desert X\") without revealing specific names. Use a clean, minimalist style with clear visual hierarchy.\n\nAlt: A world map illustrating physical geography with labeled mountains, rivers, and deserts."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_77b93fe043",
+        "question_text": "Which of the following best describes natural laws in the context of science and technology?",
+        "options": [
+          "A set of rules created by scientists to explain observations",
+          "Fundamental principles that govern the behavior of the natural world, derived from repeated observations and experiments",
+          "Theories that change frequently based on new technological advancements",
+          "Guidelines established by governments to regulate scientific research"
+        ],
+        "correct_answer": "B",
+        "explanation": "Natural laws are fundamental principles that describe the consistent behavior of the natural world, derived from empirical observations and experiments. They are not human-made rules or theories subject to frequent change. (Source: doc4::chunk::44::natural_laws)",
+        "target_concept": "natural laws",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc4::chunk::44::natural_laws",
+          "run_id": "20260512_143848_doc4_ee2f1e"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: natural laws\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and scope of natural laws in the context of technology and science.\nImage context: A diagram showing the relationship between natural laws and scientific principles.\nTested fact block ID: doc4::chunk::44::natural_laws\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast diagram with a central circle labeled \"Natural Laws\" (e.g., gravity, thermodynamics) surrounded by interconnected nodes representing \"Scientific Principles\" (e.g., Newton’s laws, relativity) and \"Technological Applications\" (e.g., engineering, medicine). Use a neutral color palette with bold outlines for clarity, and ensure all labels are legible without revealing specific answers. Alt: A diagram illustrating the hierarchical relationship between natural laws, scientific principles, and their technological applications."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_81ddc9bd53",
+        "question_text": "Which of the following best describes the humanisation of nature?",
+        "options": [
+          "A. The process of preserving natural landscapes without any human intervention.",
+          "B. The transformation of natural environments through human activities such as agriculture and urban development.",
+          "C. The study of natural ecosystems and their interactions with wildlife.",
+          "D. The movement to protect endangered species by relocating them to zoos."
+        ],
+        "correct_answer": "B",
+        "explanation": "The humanisation of nature refers to the modification of natural landscapes by human actions, such as farming or city expansion, as outlined in doc4::concept::54::humanisation_of_nature.",
+        "target_concept": "humanisation of nature",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc4::concept::54::humanisation_of_nature",
+          "run_id": "20260512_143848_doc4_ee2f1e"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: humanisation of nature\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and implications of the humanisation of nature.\nImage context: A diagram showing human modifications to a natural landscape, such as agriculture and urban development.\nTested fact block ID: doc4::concept::54::humanisation_of_nature\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing a natural landscape (e.g., forest, river) transitioning into human-modified areas like farmland, roads, and a small town. Use clear labels like \"Original Ecosystem,\" \"Agricultural Zone,\" and \"Urban Development,\" with muted greens/browns for nature and neutral grays/reds for human alterations. Ensure all elements are generic and non-copyrighted.\n\n**Alt:** A diagram illustrating the transformation of a natural landscape into human-modified areas like farms and towns."
+    }
+  ]
+}

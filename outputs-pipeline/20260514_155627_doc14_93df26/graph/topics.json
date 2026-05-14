@@ -1,0 +1,665 @@
+{
+  "count": 11,
+  "topics": [
+    {
+      "id": "doc14::topic_candidate::section::11::asexual_reproduction",
+      "label": "Asexual Reproduction",
+      "description": "Section-seeded topic for 6.3 Asexual Reproduction",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "6.3 Asexual Reproduction"
+        ],
+        [
+          "Viviparous and Oviparous Animals"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::28::eggs",
+        "doc14::concept::32::sperms",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::52::viviparous_animals",
+        "doc14::concept::53::oviparous_animals",
+        "doc14::concept::54::metamorphosis",
+        "doc14::concept::55::flowchart",
+        "doc14::concept::56::early_tadpole",
+        "doc14::concept::57::late_tadpole",
+        "doc14::concept::58::adult_frog"
+      ],
+      "chunk_ids": [
+        "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::48::details_summary_flowchart_summary_mermaid_graph_",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::45::you_will_be_surprised_to_know_that_in_many_anima::chunk::28::you_will_be_surprised_to_know_that_in_many_anima",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::73::in_animals_which_undergo_external_fertilisation_::chunk::43::in_animals_which_undergo_external_fertilisation_",
+        "doc14::paragraph::75::we_have_learnt_that_some_animals_give_birth_to_y::chunk::44::we_have_learnt_that_some_animals_give_birth_to_y",
+        "doc14::paragraph::79::can_you_now_give_some_more_examples_of_viviparou::chunk::45::can_you_now_give_some_more_examples_of_viviparou",
+        "doc14::paragraph::83::the_tadpoles_transform_into_adults_capable_of_ju::chunk::46::the_tadpoles_transform_into_adults_capable_of_ju"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::31::details_summary_text_image_summary_sperms_ovum_d",
+        "doc14::artifact::87::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::28::eggs",
+        "doc14::concept::53::oviparous_animals",
+        "doc14::concept::54::metamorphosis",
+        "doc14::concept::58::adult_frog"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "section_id": "doc14::section::84::6_3_asexual_reproduction",
+        "source_section_label": "6.3 Asexual Reproduction",
+        "merged_candidate_ids": [
+          "doc14::topic_candidate::anchor::6::oviparous_animals"
+        ]
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::section::8::viviparous_and_oviparous_animals",
+      "label": "Viviparous and Oviparous Animals",
+      "description": "Section-seeded topic for Viviparous and Oviparous Animals",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Viviparous and Oviparous Animals"
+        ],
+        [
+          "Activity 6.2"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::28::eggs",
+        "doc14::concept::52::viviparous_animals",
+        "doc14::concept::53::oviparous_animals"
+      ],
+      "chunk_ids": [
+        "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::48::details_summary_flowchart_summary_mermaid_graph_",
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re",
+        "doc14::paragraph::73::in_animals_which_undergo_external_fertilisation_::chunk::43::in_animals_which_undergo_external_fertilisation_",
+        "doc14::paragraph::75::we_have_learnt_that_some_animals_give_birth_to_y::chunk::44::we_have_learnt_that_some_animals_give_birth_to_y"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::87::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::52::viviparous_animals",
+        "doc14::concept::53::oviparous_animals"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.91
+      },
+      "metadata": {
+        "section_id": "doc14::section::74::viviparous_and_oviparous_animals",
+        "source_section_label": "Viviparous and Oviparous Animals",
+        "merged_candidate_ids": [
+          "doc14::topic_candidate::section::9::activity_6_2"
+        ]
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::anchor::0::zygote",
+      "label": "Zygote",
+      "description": "Concept-anchored topic centered on zygote",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "6.2 Sexual Reproduction"
+        ],
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::26::uterus",
+        "doc14::concept::28::eggs",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::45::embryo",
+        "doc14::concept::46::foetus",
+        "doc14::concept::47::ovary",
+        "doc14::concept::48::ovulation",
+        "doc14::concept::49::oviduct",
+        "doc14::concept::50::egg_shell",
+        "doc14::concept::51::chick",
+        "doc14::concept::8::gametes",
+        "doc14::concept::9::zygote"
+      ],
+      "chunk_ids": [
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::paragraph::32::fig_6_5_fertilisation::chunk::21::fig_6_5_fertilisation",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus",
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::18::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::artifact::68::details_summary_text_image_summary_uterus_detail",
+        "doc14::artifact::87::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::26::uterus",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::9::zygote"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.3,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.79
+      },
+      "metadata": {
+        "anchor_concept_id": "doc14::concept::9::zygote",
+        "merged_candidate_ids": [
+          "doc14::topic_candidate::section::7::development_of_embryo"
+        ]
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::anchor::1::uterus",
+      "label": "Uterus",
+      "description": "Concept-anchored topic centered on uterus",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ],
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::26::uterus",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::45::embryo",
+        "doc14::concept::46::foetus",
+        "doc14::concept::47::ovary",
+        "doc14::concept::48::ovulation",
+        "doc14::concept::49::oviduct",
+        "doc14::concept::50::egg_shell",
+        "doc14::concept::51::chick",
+        "doc14::concept::9::zygote"
+      ],
+      "chunk_ids": [
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::paragraph::32::fig_6_5_fertilisation::chunk::21::fig_6_5_fertilisation",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus",
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::artifact::68::details_summary_text_image_summary_uterus_detail"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::26::uterus",
+        "doc14::concept::45::embryo",
+        "doc14::concept::46::foetus"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "doc14::concept::26::uterus",
+        "merged_candidate_ids": [
+          "doc14::topic_candidate::anchor::3::embryo",
+          "doc14::topic_candidate::anchor::7::foetus"
+        ]
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::anchor::2::sperm",
+      "label": "Sperm",
+      "description": "Concept-anchored topic centered on sperm",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ],
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::11::testes",
+        "doc14::concept::12::sperm",
+        "doc14::concept::14::penis",
+        "doc14::concept::15::head",
+        "doc14::concept::16::middle_piece",
+        "doc14::concept::17::tail",
+        "doc14::concept::32::sperms",
+        "doc14::concept::33::ovum",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::6::sexual_reproduction",
+        "doc14::concept::9::zygote"
+      ],
+      "chunk_ids": [
+        "doc14::details::15::details_summary_text_image_summary_head_middle_p::chunk::5::details_summary_text_image_summary_head_middle_p",
+        "doc14::details::18::details_summary_text_image_summary_sperm_duct_pe::chunk::8::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::paragraph::11::try_to_recall_reproduction_in_plants_which_you_s::chunk::3::try_to_recall_reproduction_in_plants_which_you_s",
+        "doc14::paragraph::32::fig_6_5_fertilisation::chunk::21::fig_6_5_fertilisation",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::15::details_summary_text_image_summary_head_middle_p",
+        "doc14::artifact::18::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::artifact::31::details_summary_text_image_summary_sperms_ovum_d",
+        "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::33::ovum"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.5,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.85
+      },
+      "metadata": {
+        "anchor_concept_id": "doc14::concept::12::sperm",
+        "merged_candidate_ids": [
+          "doc14::topic_candidate::anchor::8::ovum"
+        ]
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::anchor::4::eggs",
+      "label": "Eggs",
+      "description": "Concept-anchored topic centered on eggs",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::26::uterus",
+        "doc14::concept::28::eggs",
+        "doc14::concept::30::nucleus",
+        "doc14::concept::32::sperms",
+        "doc14::concept::33::ovum",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::45::embryo",
+        "doc14::concept::46::foetus",
+        "doc14::concept::53::oviparous_animals",
+        "doc14::concept::56::early_tadpole",
+        "doc14::concept::57::late_tadpole",
+        "doc14::concept::58::adult_frog",
+        "doc14::concept::9::zygote"
+      ],
+      "chunk_ids": [
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::48::details_summary_flowchart_summary_mermaid_graph_",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::18::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::artifact::28::details_summary_text_image_summary_nucleus_detai",
+        "doc14::artifact::31::details_summary_text_image_summary_sperms_ovum_d",
+        "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::artifact::68::details_summary_text_image_summary_uterus_detail",
+        "doc14::artifact::87::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::26::uterus",
+        "doc14::concept::28::eggs",
+        "doc14::concept::32::sperms",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::9::zygote"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.2,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.76
+      },
+      "metadata": {
+        "anchor_concept_id": "doc14::concept::28::eggs",
+        "merged_candidate_ids": [
+          "doc14::topic_candidate::anchor::5::sperms",
+          "doc14::topic_candidate::section::3::female_reproductive_organs"
+        ]
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::section::1::sexual_reproduction",
+      "label": "Sexual Reproduction",
+      "description": "Section-seeded topic for 6.2 Sexual Reproduction",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "6.2 Sexual Reproduction"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::26::uterus",
+        "doc14::concept::33::ovum",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::45::embryo",
+        "doc14::concept::46::foetus",
+        "doc14::concept::49::oviduct",
+        "doc14::concept::5::reproduction_in_animals",
+        "doc14::concept::6::sexual_reproduction",
+        "doc14::concept::7::asexual_reproduction",
+        "doc14::concept::8::gametes",
+        "doc14::concept::9::zygote"
+      ],
+      "chunk_ids": [
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::paragraph::1::you_have_already_learnt_in_your_previous_class_a::chunk::1::you_have_already_learnt_in_your_previous_class_a",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus",
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::18::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::artifact::31::details_summary_text_image_summary_sperms_ovum_d",
+        "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::artifact::68::details_summary_text_image_summary_uterus_detail"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::6::sexual_reproduction",
+        "doc14::concept::7::asexual_reproduction",
+        "doc14::concept::9::zygote"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc14::section::10::6_2_sexual_reproduction",
+        "source_section_label": "6.2 Sexual Reproduction"
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::section::4::fertilisation",
+      "label": "Fertilisation",
+      "description": "Section-seeded topic for Fertilisation",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Fertilisation"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::26::uterus",
+        "doc14::concept::28::eggs",
+        "doc14::concept::32::sperms",
+        "doc14::concept::33::ovum",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::35::fusing_nuclei",
+        "doc14::concept::36::egg_cell",
+        "doc14::concept::37::sperm_cell",
+        "doc14::concept::38::internal_fertilisation",
+        "doc14::concept::45::embryo",
+        "doc14::concept::9::zygote"
+      ],
+      "chunk_ids": [
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::paragraph::32::fig_6_5_fertilisation::chunk::21::fig_6_5_fertilisation",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::18::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::artifact::31::details_summary_text_image_summary_sperms_ovum_d",
+        "doc14::artifact::39::details_summary_text_image_summary_fusing_nuclei",
+        "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::artifact::68::details_summary_text_image_summary_uterus_detail",
+        "doc14::artifact::87::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::9::zygote"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc14::section::36::fertilisation",
+        "source_section_label": "Fertilisation"
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::section::6::activity_6_1",
+      "label": "Activity 6.1",
+      "description": "Section-seeded topic for Activity 6.1",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Activity 6.1"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::28::eggs",
+        "doc14::concept::32::sperms",
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::39::frog_s_eggs",
+        "doc14::concept::40::jelly_layer",
+        "doc14::concept::41::mechanical_component_cluster",
+        "doc14::concept::42::external_fertilisation",
+        "doc14::concept::43::aquatic_animals",
+        "doc14::concept::44::gamete",
+        "doc14::concept::45::embryo",
+        "doc14::concept::9::zygote"
+      ],
+      "chunk_ids": [
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::45::you_will_be_surprised_to_know_that_in_many_anima::chunk::28::you_will_be_surprised_to_know_that_in_many_anima",
+        "doc14::paragraph::51::fig_6_7_eggs_of_frog::chunk::31::fig_6_7_eggs_of_frog",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::18::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::artifact::31::details_summary_text_image_summary_sperms_ovum_d",
+        "doc14::artifact::50::details_summary_natural_image_summary_overhead_v",
+        "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::artifact::87::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::28::eggs",
+        "doc14::concept::32::sperms",
+        "doc14::concept::34::fertilisation"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc14::section::46::activity_6_1",
+        "source_section_label": "Activity 6.1"
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::section::2::male_reproductive_organs",
+      "label": "Male Reproductive Organs",
+      "description": "Section-seeded topic for Male Reproductive Organs",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::10::male_reproductive_organs",
+        "doc14::concept::11::testes",
+        "doc14::concept::12::sperm",
+        "doc14::concept::13::sperm_ducts",
+        "doc14::concept::14::penis",
+        "doc14::concept::15::head",
+        "doc14::concept::16::middle_piece",
+        "doc14::concept::17::tail",
+        "doc14::concept::19::duct",
+        "doc14::concept::20::testis",
+        "doc14::concept::6::sexual_reproduction",
+        "doc14::concept::9::zygote"
+      ],
+      "chunk_ids": [
+        "doc14::details::15::details_summary_text_image_summary_head_middle_p::chunk::5::details_summary_text_image_summary_head_middle_p",
+        "doc14::details::18::details_summary_text_image_summary_sperm_duct_pe::chunk::8::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::paragraph::11::try_to_recall_reproduction_in_plants_which_you_s::chunk::3::try_to_recall_reproduction_in_plants_which_you_s",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus",
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::15::details_summary_text_image_summary_head_middle_p",
+        "doc14::artifact::18::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::14::penis",
+        "doc14::concept::6::sexual_reproduction"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "section_id": "doc14::section::12::male_reproductive_organs",
+        "source_section_label": "Male Reproductive Organs"
+      }
+    },
+    {
+      "id": "doc14::topic_candidate::section::0::modes_of_reproduction",
+      "label": "Modes of Reproduction",
+      "description": "Section-seeded topic for 6.1 Modes of Reproduction",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "6.1 Modes of Reproduction"
+        ]
+      ],
+      "concept_ids": [
+        "doc14::concept::0::digestion",
+        "doc14::concept::12::sperm",
+        "doc14::concept::14::penis",
+        "doc14::concept::1::circulation",
+        "doc14::concept::2::respiration",
+        "doc14::concept::3::reproduction",
+        "doc14::concept::4::reproduction_in_plants",
+        "doc14::concept::5::reproduction_in_animals",
+        "doc14::concept::6::sexual_reproduction",
+        "doc14::concept::7::asexual_reproduction",
+        "doc14::concept::8::gametes",
+        "doc14::concept::9::zygote"
+      ],
+      "chunk_ids": [
+        "doc14::details::18::details_summary_text_image_summary_sperm_duct_pe::chunk::8::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::paragraph::0::do_you_recall_the_processes_of_digestion_circula::chunk::0::do_you_recall_the_processes_of_digestion_circula",
+        "doc14::paragraph::11::try_to_recall_reproduction_in_plants_which_you_s::chunk::3::try_to_recall_reproduction_in_plants_which_you_s",
+        "doc14::paragraph::1::you_have_already_learnt_in_your_previous_class_a::chunk::1::you_have_already_learnt_in_your_previous_class_a",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus",
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction"
+      ],
+      "artifact_ids": [
+        "doc14::artifact::18::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_"
+      ],
+      "seed_concept_ids": [
+        "doc14::concept::5::reproduction_in_animals",
+        "doc14::concept::6::sexual_reproduction",
+        "doc14::concept::7::asexual_reproduction"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc14::section::2::6_1_modes_of_reproduction",
+        "source_section_label": "6.1 Modes of Reproduction"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_count": 19,
+    "consolidated_count": 11,
+    "accepted_count": 11
+  }
+}

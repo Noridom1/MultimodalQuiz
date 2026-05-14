@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_3fd7280edc",
+    "question_text": "What was the primary strategic intent behind the Navarre Plan during the First Indochina War?",
+    "options": [
+      "A. To launch a full-scale invasion of North Vietnam to capture Hanoi",
+      "B. To lure the Viet Minh into a decisive battle at Dien Bien Phu to cripple their forces",
+      "C. To establish a defensive perimeter around Saigon to protect French colonial interests",
+      "D. To negotiate a peaceful withdrawal from Indochina under international supervision"
+    ],
+    "correct_answer": "B",
+    "explanation": "The Navarre Plan aimed to draw the Viet Minh into a large-scale confrontation at Dien Bien Phu, where French forces could leverage superior firepower to decisively weaken them. This strategy was intended to force a favorable negotiation outcome. (doc1::concept::14::navarre_plan)",
+    "target_concept": "Navarre plan",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "doc1::concept::14::navarre_plan",
+      "run_id": "20260512_141058_doc1_4abbc8"
+    }
+  },
+  {
+    "id": "q_2da7678a16",
+    "question_text": "What was the significance of the Battle of Dien Bien Phu in the First Indochina War?",
+    "options": [
+      "A. It marked the beginning of French colonial rule in Indochina.",
+      "B. It was a decisive Vietnamese victory that led to the Geneva Accords and the end of French involvement in Indochina.",
+      "C. It was a minor skirmish with no significant impact on the war's outcome.",
+      "D. It resulted in the immediate unification of Vietnam under communist rule."
+    ],
+    "correct_answer": "B",
+    "explanation": "The Battle of Dien Bien Phu was a decisive victory for the Viet Minh, leading to the 1954 Geneva Accords and the withdrawal of French forces from Indochina. (doc1::concept::0::dien_bien_phu)",
+    "target_concept": "Dien Bien Phu",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc1::concept::0::dien_bien_phu",
+      "run_id": "20260512_141058_doc1_4abbc8"
+    }
+  },
+  {
+    "id": "q_c1a3b58ac1",
+    "question_text": "Which of the following best describes the primary objective of the Winter-Spring campaign during the Vietnam War?",
+    "options": [
+      "A. To secure key urban areas in South Vietnam",
+      "B. To disrupt enemy supply lines and logistics",
+      "C. To launch a large-scale offensive to gain territorial control",
+      "D. To negotiate a ceasefire with opposing forces"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Winter-Spring campaign was a major military offensive aimed at gaining territorial control and weakening enemy positions. (doc1::concept::9::winter_spring_campaign)",
+    "target_concept": "Winter-Spring campaign",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc1::concept::9::winter_spring_campaign",
+      "run_id": "20260512_141058_doc1_4abbc8"
+    }
+  },
+  {
+    "id": "q_6dbe932ccb",
+    "question_text": "Which of the following best describes the primary role of the Party's Central Committee within the government structure?",
+    "options": [
+      "A. It serves as the legislative body responsible for drafting and passing laws.",
+      "B. It acts as the highest decision-making authority, setting major policies and directives.",
+      "C. It functions as the judicial branch, interpreting laws and resolving disputes.",
+      "D. It manages day-to-day administrative tasks, such as local governance and public services."
+    ],
+    "correct_answer": "B",
+    "explanation": "The Party's Central Committee is the highest decision-making authority, responsible for setting major policies and directives that guide the government. This is outlined in doc1::concept::10::party_s_central_committee.",
+    "target_concept": "Government",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc1::concept::10::party_s_central_committee",
+      "run_id": "20260512_141058_doc1_4abbc8"
+    }
+  },
+  {
+    "id": "q_b2da9ffd15",
+    "question_text": "Where is Phu Tho province located in Vietnam?",
+    "options": [
+      "In the Mekong Delta region",
+      "In the Central Highlands region",
+      "In the Red River Delta region",
+      "In the Southeast region"
+    ],
+    "correct_answer": "In the Red River Delta region",
+    "explanation": "Phu Tho province is situated in the Red River Delta region of northern Vietnam, as documented in doc1::concept::13::phu_tho.",
+    "target_concept": "Phu Tho",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc1::concept::13::phu_tho",
+      "run_id": "20260512_141058_doc1_4abbc8"
+    }
+  }
+]

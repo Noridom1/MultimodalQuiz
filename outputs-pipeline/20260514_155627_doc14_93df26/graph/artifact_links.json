@@ -1,0 +1,530 @@
+{
+  "artifact_count": 25,
+  "artifacts": [
+    {
+      "id": "doc14::artifact::14::images_c7e6beb434514c198aba5b75f4c4228cda42278a8",
+      "label": "![](images/c7e6beb434514c198aba5b75f4c4228cda42278a877bb919395d4ca0046c7bf7.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::14::images_c7e6beb434514c198aba5b75f4c4228cda42278a8::chunk::4::images_c7e6beb434514c198aba5b75f4c4228cda42278a8",
+      "page_idx": null,
+      "section_path": [
+        "Male Reproductive Organs"
+      ],
+      "text": "![](images/c7e6beb434514c198aba5b75f4c4228cda42278a877bb919395d4ca0046c7bf7.jpg)",
+      "image_path": "images/c7e6beb434514c198aba5b75f4c4228cda42278a877bb919395d4ca0046c7bf7.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::14::images_c7e6beb434514c198aba5b75f4c4228cda42278a8",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::15::details_summary_text_image_summary_head_middle_p",
+      "label": "<details> <summary>text_image</summary> Head Middle piece Tail </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::15::details_summary_text_image_summary_head_middle_p::chunk::5::details_summary_text_image_summary_head_middle_p",
+      "page_idx": null,
+      "section_path": [
+        "Male Reproductive Organs"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nHead\nMiddle piece\nTail\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::15::details_summary_text_image_summary_head_middle_p",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc14::artifact::17::images_b053017d6abb359d124391954e513b1df81268a83",
+      "label": "![](images/b053017d6abb359d124391954e513b1df81268a833d43b2a83c5d110e9ee7e75.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::17::images_b053017d6abb359d124391954e513b1df81268a83::chunk::7::images_b053017d6abb359d124391954e513b1df81268a83",
+      "page_idx": null,
+      "section_path": [
+        "Male Reproductive Organs"
+      ],
+      "text": "![](images/b053017d6abb359d124391954e513b1df81268a833d43b2a83c5d110e9ee7e75.jpg)",
+      "image_path": "images/b053017d6abb359d124391954e513b1df81268a833d43b2a83c5d110e9ee7e75.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::17::images_b053017d6abb359d124391954e513b1df81268a83",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::18::details_summary_text_image_summary_sperm_duct_pe",
+      "label": "<details> <summary>text_image</summary> Sperm duct Penis Testis </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::18::details_summary_text_image_summary_sperm_duct_pe::chunk::8::details_summary_text_image_summary_sperm_duct_pe",
+      "page_idx": null,
+      "section_path": [
+        "Male Reproductive Organs"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nSperm\nduct\nPenis\nTestis\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::18::details_summary_text_image_summary_sperm_duct_pe",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc14::artifact::20::images_80f0d2a8ff769b01e36e85bab2f4a0710cd7b5aa9",
+      "label": "![](images/80f0d2a8ff769b01e36e85bab2f4a0710cd7b5aa9a0f7f6ee3fbc9aa77814e36.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::20::images_80f0d2a8ff769b01e36e85bab2f4a0710cd7b5aa9::chunk::10::images_80f0d2a8ff769b01e36e85bab2f4a0710cd7b5aa9",
+      "page_idx": null,
+      "section_path": [
+        "Male Reproductive Organs"
+      ],
+      "text": "![](images/80f0d2a8ff769b01e36e85bab2f4a0710cd7b5aa9a0f7f6ee3fbc9aa77814e36.jpg)",
+      "image_path": "images/80f0d2a8ff769b01e36e85bab2f4a0710cd7b5aa9a0f7f6ee3fbc9aa77814e36.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::20::images_80f0d2a8ff769b01e36e85bab2f4a0710cd7b5aa9",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::24::images_6b7afa4fb4e449c706fb785ca1c52e6db619a1de6",
+      "label": "![](images/6b7afa4fb4e449c706fb785ca1c52e6db619a1de60469f826c13197d7518b608.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::24::images_6b7afa4fb4e449c706fb785ca1c52e6db619a1de6::chunk::13::images_6b7afa4fb4e449c706fb785ca1c52e6db619a1de6",
+      "page_idx": null,
+      "section_path": [
+        "Female Reproductive Organs"
+      ],
+      "text": "![](images/6b7afa4fb4e449c706fb785ca1c52e6db619a1de60469f826c13197d7518b608.jpg)",
+      "image_path": "images/6b7afa4fb4e449c706fb785ca1c52e6db619a1de60469f826c13197d7518b608.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::24::images_6b7afa4fb4e449c706fb785ca1c52e6db619a1de6",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::25::details_summary_text_image_summary_oviduct_uteru",
+      "label": "<details> <summary>text_image</summary> Oviduct Uterus Ovary </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::25::details_summary_text_image_summary_oviduct_uteru::chunk::14::details_summary_text_image_summary_oviduct_uteru",
+      "page_idx": null,
+      "section_path": [
+        "Female Reproductive Organs"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nOviduct\nUterus\nOvary\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::25::details_summary_text_image_summary_oviduct_uteru",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc14::artifact::27::images_1aa597c5e6e97dae9d779d6beb10195be5b1eac57",
+      "label": "![](images/1aa597c5e6e97dae9d779d6beb10195be5b1eac57e92573fad24181346694b9c.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::27::images_1aa597c5e6e97dae9d779d6beb10195be5b1eac57::chunk::16::images_1aa597c5e6e97dae9d779d6beb10195be5b1eac57",
+      "page_idx": null,
+      "section_path": [
+        "Female Reproductive Organs"
+      ],
+      "text": "![](images/1aa597c5e6e97dae9d779d6beb10195be5b1eac57e92573fad24181346694b9c.jpg)",
+      "image_path": "images/1aa597c5e6e97dae9d779d6beb10195be5b1eac57e92573fad24181346694b9c.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::27::images_1aa597c5e6e97dae9d779d6beb10195be5b1eac57",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::28::details_summary_text_image_summary_nucleus_detai",
+      "label": "<details> <summary>text_image</summary> Nucleus </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::28::details_summary_text_image_summary_nucleus_detai::chunk::17::details_summary_text_image_summary_nucleus_detai",
+      "page_idx": null,
+      "section_path": [
+        "Female Reproductive Organs"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nNucleus\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::28::details_summary_text_image_summary_nucleus_detai",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc14::artifact::30::images_d07cffdb8239dcfc14298b1ffd1d53c57e2303d3b",
+      "label": "![](images/d07cffdb8239dcfc14298b1ffd1d53c57e2303d3bfc9e7f11a5a44d910c3d909.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::30::images_d07cffdb8239dcfc14298b1ffd1d53c57e2303d3b::chunk::19::images_d07cffdb8239dcfc14298b1ffd1d53c57e2303d3b",
+      "page_idx": null,
+      "section_path": [
+        "Female Reproductive Organs"
+      ],
+      "text": "![](images/d07cffdb8239dcfc14298b1ffd1d53c57e2303d3bfc9e7f11a5a44d910c3d909.jpg)",
+      "image_path": "images/d07cffdb8239dcfc14298b1ffd1d53c57e2303d3bfc9e7f11a5a44d910c3d909.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::30::images_d07cffdb8239dcfc14298b1ffd1d53c57e2303d3b",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::31::details_summary_text_image_summary_sperms_ovum_d",
+      "label": "<details> <summary>text_image</summary> Sperms Ovum </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::31::details_summary_text_image_summary_sperms_ovum_d::chunk::20::details_summary_text_image_summary_sperms_ovum_d",
+      "page_idx": null,
+      "section_path": [
+        "Female Reproductive Organs"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nSperms\nOvum\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::31::details_summary_text_image_summary_sperms_ovum_d",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc14::artifact::35::images_57349d8914497fe1ffa2d1ed4880b8b83c00f848a",
+      "label": "![](images/57349d8914497fe1ffa2d1ed4880b8b83c00f848a3de9d13e9b5cbaecf48ab6e.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::35::images_57349d8914497fe1ffa2d1ed4880b8b83c00f848a::chunk::22::images_57349d8914497fe1ffa2d1ed4880b8b83c00f848a",
+      "page_idx": null,
+      "section_path": [
+        "Female Reproductive Organs"
+      ],
+      "text": "![](images/57349d8914497fe1ffa2d1ed4880b8b83c00f848a3de9d13e9b5cbaecf48ab6e.jpg)",
+      "image_path": "images/57349d8914497fe1ffa2d1ed4880b8b83c00f848a3de9d13e9b5cbaecf48ab6e.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::35::images_57349d8914497fe1ffa2d1ed4880b8b83c00f848a",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::38::images_ae450c1e84960d8321fd60aff9f2c00a95ea7d1e5",
+      "label": "![](images/ae450c1e84960d8321fd60aff9f2c00a95ea7d1e5abcfbe0c094480189086119.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::38::images_ae450c1e84960d8321fd60aff9f2c00a95ea7d1e5::chunk::24::images_ae450c1e84960d8321fd60aff9f2c00a95ea7d1e5",
+      "page_idx": null,
+      "section_path": [
+        "Fertilisation"
+      ],
+      "text": "![](images/ae450c1e84960d8321fd60aff9f2c00a95ea7d1e5abcfbe0c094480189086119.jpg)",
+      "image_path": "images/ae450c1e84960d8321fd60aff9f2c00a95ea7d1e5abcfbe0c094480189086119.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::38::images_ae450c1e84960d8321fd60aff9f2c00a95ea7d1e5",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::39::details_summary_text_image_summary_fusing_nuclei",
+      "label": "<details> <summary>text_image</summary> Fusing nuclei </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::39::details_summary_text_image_summary_fusing_nuclei::chunk::25::details_summary_text_image_summary_fusing_nuclei",
+      "page_idx": null,
+      "section_path": [
+        "Fertilisation"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nFusing\nnuclei\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::39::details_summary_text_image_summary_fusing_nuclei",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc14::artifact::49::images_700683dcac453e826edb980084f876d5ee92047fb",
+      "label": "![](images/700683dcac453e826edb980084f876d5ee92047fb78d13ac58657213f85f3c77.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::49::images_700683dcac453e826edb980084f876d5ee92047fb::chunk::29::images_700683dcac453e826edb980084f876d5ee92047fb",
+      "page_idx": null,
+      "section_path": [
+        "Activity 6.1"
+      ],
+      "text": "![](images/700683dcac453e826edb980084f876d5ee92047fb78d13ac58657213f85f3c77.jpg)",
+      "image_path": "images/700683dcac453e826edb980084f876d5ee92047fb78d13ac58657213f85f3c77.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::49::images_700683dcac453e826edb980084f876d5ee92047fb",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::50::details_summary_natural_image_summary_overhead_v",
+      "label": "<details> <summary>natural_image</summary> Overhead view of a mechanical component cluster with multiple circular com...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::50::details_summary_natural_image_summary_overhead_v::chunk::30::details_summary_natural_image_summary_overhead_v",
+      "page_idx": null,
+      "section_path": [
+        "Activity 6.1"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nOverhead view of a mechanical component cluster with multiple circular components (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::50::details_summary_natural_image_summary_overhead_v",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc14::artifact::54::images_5a9498d314fe3af26a45966fed7964e671e0b00e2",
+      "label": "![](images/5a9498d314fe3af26a45966fed7964e671e0b00e29ceebcef7fa44279118388f.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::54::images_5a9498d314fe3af26a45966fed7964e671e0b00e2::chunk::32::images_5a9498d314fe3af26a45966fed7964e671e0b00e2",
+      "page_idx": null,
+      "section_path": [
+        "Activity 6.1"
+      ],
+      "text": "![](images/5a9498d314fe3af26a45966fed7964e671e0b00e29ceebcef7fa44279118388f.jpg)",
+      "image_path": "images/5a9498d314fe3af26a45966fed7964e671e0b00e29ceebcef7fa44279118388f.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::54::images_5a9498d314fe3af26a45966fed7964e671e0b00e2",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::55::images_3c79beeb9546c77abcd424db8b515b56bebd2ecef",
+      "label": "![](images/3c79beeb9546c77abcd424db8b515b56bebd2ecef3d6e685aa2bb67830ceab4a.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::55::images_3c79beeb9546c77abcd424db8b515b56bebd2ecef::chunk::33::images_3c79beeb9546c77abcd424db8b515b56bebd2ecef",
+      "page_idx": null,
+      "section_path": [
+        "Activity 6.1"
+      ],
+      "text": "![](images/3c79beeb9546c77abcd424db8b515b56bebd2ecef3d6e685aa2bb67830ceab4a.jpg)",
+      "image_path": "images/3c79beeb9546c77abcd424db8b515b56bebd2ecef3d6e685aa2bb67830ceab4a.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::55::images_3c79beeb9546c77abcd424db8b515b56bebd2ecef",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::60::images_bd49f65e5d181e1d199e99f9afcd3cbac2e2b9fa1",
+      "label": "![](images/bd49f65e5d181e1d199e99f9afcd3cbac2e2b9fa123adff6eaf0bfa522ce78f8.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::60::images_bd49f65e5d181e1d199e99f9afcd3cbac2e2b9fa1::chunk::35::images_bd49f65e5d181e1d199e99f9afcd3cbac2e2b9fa1",
+      "page_idx": null,
+      "section_path": [
+        "Activity 6.1"
+      ],
+      "text": "![](images/bd49f65e5d181e1d199e99f9afcd3cbac2e2b9fa123adff6eaf0bfa522ce78f8.jpg)",
+      "image_path": "images/bd49f65e5d181e1d199e99f9afcd3cbac2e2b9fa123adff6eaf0bfa522ce78f8.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::60::images_bd49f65e5d181e1d199e99f9afcd3cbac2e2b9fa1",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::64::images_5a278923e6508c8cda9fff1d06af4b27ae8e64c86",
+      "label": "![](images/5a278923e6508c8cda9fff1d06af4b27ae8e64c8686ddf0173130b5a05b4c645.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::64::images_5a278923e6508c8cda9fff1d06af4b27ae8e64c86::chunk::37::images_5a278923e6508c8cda9fff1d06af4b27ae8e64c86",
+      "page_idx": null,
+      "section_path": [
+        "Development of Embryo"
+      ],
+      "text": "![](images/5a278923e6508c8cda9fff1d06af4b27ae8e64c8686ddf0173130b5a05b4c645.jpg)",
+      "image_path": "images/5a278923e6508c8cda9fff1d06af4b27ae8e64c8686ddf0173130b5a05b4c645.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::64::images_5a278923e6508c8cda9fff1d06af4b27ae8e64c86",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::65::details_summary_text_image_summary_uterus_ovary_",
+      "label": "<details> <summary>text_image</summary> Uterus Ovary Zygote (b) Embedding embryo Ovulation (a) Uterus wall Developing...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_",
+      "page_idx": null,
+      "section_path": [
+        "Development of Embryo"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nUterus\nOvary\nZygote\n(b)\nEmbedding\nembryo\nOvulation\n(a)\nUterus wall\nDeveloping\nembryo\n(c)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::65::details_summary_text_image_summary_uterus_ovary_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc14::artifact::67::images_6b355de17cf54b8aa77400b96c36b450d1a7e4c50",
+      "label": "![](images/6b355de17cf54b8aa77400b96c36b450d1a7e4c50875a22498d3f13d1841148c.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::67::images_6b355de17cf54b8aa77400b96c36b450d1a7e4c50::chunk::40::images_6b355de17cf54b8aa77400b96c36b450d1a7e4c50",
+      "page_idx": null,
+      "section_path": [
+        "Development of Embryo"
+      ],
+      "text": "![](images/6b355de17cf54b8aa77400b96c36b450d1a7e4c50875a22498d3f13d1841148c.jpg)",
+      "image_path": "images/6b355de17cf54b8aa77400b96c36b450d1a7e4c50875a22498d3f13d1841148c.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::67::images_6b355de17cf54b8aa77400b96c36b450d1a7e4c50",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::68::details_summary_text_image_summary_uterus_detail",
+      "label": "<details> <summary>text_image</summary> Uterus </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::68::details_summary_text_image_summary_uterus_detail::chunk::41::details_summary_text_image_summary_uterus_detail",
+      "page_idx": null,
+      "section_path": [
+        "Development of Embryo"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nUterus\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::68::details_summary_text_image_summary_uterus_detail",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc14::artifact::86::images_7a611ee2200c78e8bb09e4bc5991d081e679e4eff",
+      "label": "![](images/7a611ee2200c78e8bb09e4bc5991d081e679e4eff5d7605c8e46338c96bc93a9.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::image::86::images_7a611ee2200c78e8bb09e4bc5991d081e679e4eff::chunk::47::images_7a611ee2200c78e8bb09e4bc5991d081e679e4eff",
+      "page_idx": null,
+      "section_path": [
+        "6.3 Asexual Reproduction"
+      ],
+      "text": "![](images/7a611ee2200c78e8bb09e4bc5991d081e679e4eff5d7605c8e46338c96bc93a9.jpg)",
+      "image_path": "images/7a611ee2200c78e8bb09e4bc5991d081e679e4eff5d7605c8e46338c96bc93a9.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::image::86::images_7a611ee2200c78e8bb09e4bc5991d081e679e4eff",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc14::artifact::87::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"(a) Eggs\"] --> B[\"(b) Early tadpole\"] B --> C[\"(c) Late...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc14/hybrid_auto/doc14.md",
+      "source_location": null,
+      "source_chunk_id": "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::48::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "6.3 Asexual Reproduction"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"(a) Eggs\"] --> B[\"(b) Early tadpole\"]\n    B --> C[\"(c) Late tadpole\"]\n    C --> D[\"(d) Adult frog\"]\n    D --> A\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "count": 8,
+  "topics": [
+    {
+      "id": "doc5::topic_candidate::anchor::7::lunar_eclipses",
+      "label": "Lunar eclipses",
+      "description": "Concept-anchored topic centered on lunar eclipses",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Lunar Phases"
+        ]
+      ],
+      "concept_ids": [
+        "doc5::concept::22::full_moon",
+        "doc5::concept::27::lunar_eclipses",
+        "doc5::concept::28::earth_s_shadow",
+        "doc5::concept::29::earth_diameters",
+        "doc5::concept::2::moon"
+      ],
+      "chunk_ids": [
+        "doc5::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "doc5::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+        "doc5::paragraph::24::the_moon_is_actually_30_earth_diameters_away_fro::chunk::16::the_moon_is_actually_30_earth_diameters_away_fro",
+        "doc5::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "doc5::paragraph::42::b_figure_4_15_the_moon_without_and_with_rotation::chunk::28::b_figure_4_15_the_moon_without_and_with_rotation",
+        "doc5::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "doc5::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "doc5::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc5::concept::27::lunar_eclipses"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.97
+      },
+      "metadata": {
+        "anchor_concept_id": "doc5::concept::27::lunar_eclipses"
+      }
+    },
+    {
+      "id": "doc5::topic_candidate::anchor::9::illuminated_side",
+      "label": "Illuminated side",
+      "description": "Concept-anchored topic centered on Illuminated side",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Lunar Phases"
+        ]
+      ],
+      "concept_ids": [
+        "doc5::concept::12::third_quarter",
+        "doc5::concept::15::phases_of_the_moon",
+        "doc5::concept::16::new_moon",
+        "doc5::concept::17::illuminated_side",
+        "doc5::concept::18::dark_side",
+        "doc5::concept::19::crescent_moon",
+        "doc5::concept::20::first_quarter_moon",
+        "doc5::concept::21::waxing_gibbous_moon",
+        "doc5::concept::22::full_moon",
+        "doc5::concept::26::lunacy",
+        "doc5::concept::30::week"
+      ],
+      "chunk_ids": [
+        "doc5::paragraph::14::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::8::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "doc5::paragraph::15::the_moon_is_said_to_be_new_when_it_is_in_the_sam::chunk::9::the_moon_is_said_to_be_new_when_it_is_in_the_sam",
+        "doc5::paragraph::16::but_the_moon_does_not_remain_in_this_phase_long_::chunk::10::but_the_moon_does_not_remain_in_this_phase_long_",
+        "doc5::paragraph::17::after_about_one_week_the_moon_is_one_quarter_of_::chunk::11::after_about_one_week_the_moon_is_one_quarter_of_",
+        "doc5::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "doc5::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "doc5::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "doc5::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+        "doc5::paragraph::28::the_week_seems_independent_of_celestial_motions_::chunk::18::the_week_seems_independent_of_celestial_motions_"
+      ],
+      "artifact_ids": [
+        "doc5::artifact::13::details_summary_text_image_summary_waxing_gibbou"
+      ],
+      "seed_concept_ids": [
+        "doc5::concept::16::new_moon",
+        "doc5::concept::17::illuminated_side",
+        "doc5::concept::18::dark_side",
+        "doc5::concept::19::crescent_moon",
+        "doc5::concept::20::first_quarter_moon"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.909,
+        "breadth_score": 0.5,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.818
+      },
+      "metadata": {
+        "anchor_concept_id": "doc5::concept::17::illuminated_side",
+        "merged_candidate_ids": [
+          "doc5::topic_candidate::anchor::10::dark_side",
+          "doc5::topic_candidate::anchor::3::celestial_motions",
+          "doc5::topic_candidate::anchor::4::new_moon",
+          "doc5::topic_candidate::anchor::6::first_quarter_moon"
+        ]
+      }
+    },
+    {
+      "id": "doc5::topic_candidate::anchor::0::moon",
+      "label": "Moon",
+      "description": "Concept-anchored topic centered on Moon",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Learning Objectives"
+        ],
+        [
+          "Lunar Phases"
+        ],
+        [
+          "MAKING CONNECTIONS"
+        ],
+        [
+          "LINK TO LEARNING"
+        ]
+      ],
+      "concept_ids": [
+        "doc5::concept::12::third_quarter",
+        "doc5::concept::13::full",
+        "doc5::concept::14::sunlight",
+        "doc5::concept::1::lunar_phases",
+        "doc5::concept::22::full_moon",
+        "doc5::concept::27::lunar_eclipses",
+        "doc5::concept::29::earth_diameters",
+        "doc5::concept::2::moon",
+        "doc5::concept::36::simulation",
+        "doc5::concept::40::rotation",
+        "doc5::concept::41::orbit",
+        "doc5::concept::42::illumination",
+        "doc5::concept::4::earth",
+        "doc5::concept::5::lunar_cycle",
+        "doc5::concept::6::phases",
+        "doc5::concept::7::eclipse"
+      ],
+      "chunk_ids": [
+        "doc5::details::13::details_summary_text_image_summary_waxing_gibbou::chunk::7::details_summary_text_image_summary_waxing_gibbou",
+        "doc5::paragraph::10::here_is_a_simple_experiment_to_show_you_what_we_::chunk::5::here_is_a_simple_experiment_to_show_you_what_we_",
+        "doc5::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "doc5::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "doc5::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+        "doc5::paragraph::24::the_moon_is_actually_30_earth_diameters_away_fro::chunk::16::the_moon_is_actually_30_earth_diameters_away_fro",
+        "doc5::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "doc5::paragraph::42::b_figure_4_15_the_moon_without_and_with_rotation::chunk::28::b_figure_4_15_the_moon_without_and_with_rotation",
+        "doc5::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "doc5::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "doc5::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [
+        "doc5::artifact::13::details_summary_text_image_summary_waxing_gibbou",
+        "doc5::artifact::38::details_summary_text_image_summary_earth_details",
+        "doc5::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "doc5::concept::1::lunar_phases",
+        "doc5::concept::27::lunar_eclipses",
+        "doc5::concept::29::earth_diameters",
+        "doc5::concept::2::moon",
+        "doc5::concept::36::simulation",
+        "doc5::concept::4::earth",
+        "doc5::concept::6::phases"
+      ],
+      "scores": {
+        "coherence_score": 0.7,
+        "grounding_score": 0.875,
+        "breadth_score": 0.0,
+        "distinctness_score": 0.64,
+        "pedagogical_usefulness": 0.551
+      },
+      "metadata": {
+        "anchor_concept_id": "doc5::concept::2::moon",
+        "merged_candidate_ids": [
+          "doc5::topic_candidate::anchor::1::earth",
+          "doc5::topic_candidate::anchor::8::phases",
+          "doc5::topic_candidate::section::1::learning_objectives",
+          "doc5::topic_candidate::section::3::making_connections",
+          "doc5::topic_candidate::section::5::link_to_learning"
+        ]
+      }
+    },
+    {
+      "id": "doc5::topic_candidate::anchor::5::third_quarter",
+      "label": "Third quarter",
+      "description": "Concept-anchored topic centered on Third quarter",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Lunar Phases"
+        ]
+      ],
+      "concept_ids": [
+        "doc5::concept::12::third_quarter",
+        "doc5::concept::16::new_moon",
+        "doc5::concept::19::crescent_moon",
+        "doc5::concept::1::lunar_phases",
+        "doc5::concept::21::waxing_gibbous_moon",
+        "doc5::concept::22::full_moon",
+        "doc5::concept::25::dracula",
+        "doc5::concept::2::moon",
+        "doc5::concept::4::earth",
+        "doc5::concept::6::phases"
+      ],
+      "chunk_ids": [
+        "doc5::paragraph::10::here_is_a_simple_experiment_to_show_you_what_we_::chunk::5::here_is_a_simple_experiment_to_show_you_what_we_",
+        "doc5::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "doc5::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "doc5::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "doc5::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "doc5::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "doc5::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "doc5::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [
+        "doc5::artifact::13::details_summary_text_image_summary_waxing_gibbou",
+        "doc5::artifact::38::details_summary_text_image_summary_earth_details",
+        "doc5::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "doc5::concept::12::third_quarter"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "doc5::concept::12::third_quarter"
+      }
+    },
+    {
+      "id": "doc5::topic_candidate::anchor::2::full_moon",
+      "label": "Full Moon",
+      "description": "Concept-anchored topic centered on Full Moon",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Lunar Phases"
+        ]
+      ],
+      "concept_ids": [
+        "doc5::concept::12::third_quarter",
+        "doc5::concept::16::new_moon",
+        "doc5::concept::19::crescent_moon",
+        "doc5::concept::20::first_quarter_moon",
+        "doc5::concept::21::waxing_gibbous_moon",
+        "doc5::concept::22::full_moon",
+        "doc5::concept::25::dracula",
+        "doc5::concept::26::lunacy",
+        "doc5::concept::27::lunar_eclipses",
+        "doc5::concept::2::moon"
+      ],
+      "chunk_ids": [
+        "doc5::paragraph::16::but_the_moon_does_not_remain_in_this_phase_long_::chunk::10::but_the_moon_does_not_remain_in_this_phase_long_",
+        "doc5::paragraph::17::after_about_one_week_the_moon_is_one_quarter_of_::chunk::11::after_about_one_week_the_moon_is_one_quarter_of_",
+        "doc5::paragraph::19::when_the_moon_is_full_it_is_opposite_the_sun_in_::chunk::12::when_the_moon_is_full_it_is_opposite_the_sun_in_",
+        "doc5::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "doc5::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "doc5::paragraph::22::during_the_two_weeks_following_the_full_moon_the::chunk::15::during_the_two_weeks_following_the_full_moon_the",
+        "doc5::paragraph::24::the_moon_is_actually_30_earth_diameters_away_fro::chunk::16::the_moon_is_actually_30_earth_diameters_away_fro",
+        "doc5::paragraph::28::the_week_seems_independent_of_celestial_motions_::chunk::18::the_week_seems_independent_of_celestial_motions_"
+      ],
+      "artifact_ids": [
+        "doc5::artifact::13::details_summary_text_image_summary_waxing_gibbou"
+      ],
+      "seed_concept_ids": [
+        "doc5::concept::22::full_moon"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc5::concept::22::full_moon"
+      }
+    },
+    {
+      "id": "doc5::topic_candidate::section::2::lunar_phases",
+      "label": "Lunar Phases",
+      "description": "Section-seeded topic for Lunar Phases",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Lunar Phases"
+        ]
+      ],
+      "concept_ids": [
+        "doc5::concept::12::third_quarter",
+        "doc5::concept::16::new_moon",
+        "doc5::concept::17::illuminated_side",
+        "doc5::concept::18::dark_side",
+        "doc5::concept::19::crescent_moon",
+        "doc5::concept::20::first_quarter_moon",
+        "doc5::concept::22::full_moon",
+        "doc5::concept::2::moon",
+        "doc5::concept::4::earth",
+        "doc5::concept::5::lunar_cycle",
+        "doc5::concept::6::phases",
+        "doc5::concept::7::eclipse"
+      ],
+      "chunk_ids": [
+        "doc5::paragraph::10::here_is_a_simple_experiment_to_show_you_what_we_::chunk::5::here_is_a_simple_experiment_to_show_you_what_we_",
+        "doc5::paragraph::14::figure_4_14_phases_of_the_moon_the_appearance_of::chunk::8::figure_4_14_phases_of_the_moon_the_appearance_of",
+        "doc5::paragraph::15::the_moon_is_said_to_be_new_when_it_is_in_the_sam::chunk::9::the_moon_is_said_to_be_new_when_it_is_in_the_sam",
+        "doc5::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "doc5::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "doc5::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "doc5::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "doc5::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [
+        "doc5::artifact::13::details_summary_text_image_summary_waxing_gibbou",
+        "doc5::artifact::38::details_summary_text_image_summary_earth_details",
+        "doc5::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "doc5::concept::22::full_moon",
+        "doc5::concept::2::moon",
+        "doc5::concept::4::earth"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "section_id": "doc5::section::8::lunar_phases",
+        "source_section_label": "Lunar Phases"
+      }
+    },
+    {
+      "id": "doc5::topic_candidate::section::4::astronomy_and_the_days_of_the_week",
+      "label": "Astronomy and the Days of the Week",
+      "description": "Section-seeded topic for Astronomy and the Days of the Week",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Astronomy and the Days of the Week"
+        ]
+      ],
+      "concept_ids": [
+        "doc5::concept::12::third_quarter",
+        "doc5::concept::16::new_moon",
+        "doc5::concept::19::crescent_moon",
+        "doc5::concept::1::lunar_phases",
+        "doc5::concept::20::first_quarter_moon",
+        "doc5::concept::22::full_moon",
+        "doc5::concept::2::moon",
+        "doc5::concept::30::week",
+        "doc5::concept::34::jupiter",
+        "doc5::concept::35::saturn",
+        "doc5::concept::4::earth",
+        "doc5::concept::6::phases"
+      ],
+      "chunk_ids": [
+        "doc5::paragraph::10::here_is_a_simple_experiment_to_show_you_what_we_::chunk::5::here_is_a_simple_experiment_to_show_you_what_we_",
+        "doc5::paragraph::20::and_when_is_the_full_moon_highest_in_the_sky_and::chunk::13::and_when_is_the_full_moon_highest_in_the_sky_and",
+        "doc5::paragraph::21::folklore_has_it_that_more_crazy_behavior_is_seen::chunk::14::folklore_has_it_that_more_crazy_behavior_is_seen",
+        "doc5::paragraph::28::the_week_seems_independent_of_celestial_motions_::chunk::18::the_week_seems_independent_of_celestial_motions_",
+        "doc5::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "doc5::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "doc5::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "doc5::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [
+        "doc5::artifact::13::details_summary_text_image_summary_waxing_gibbou",
+        "doc5::artifact::38::details_summary_text_image_summary_earth_details",
+        "doc5::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "doc5::concept::19::crescent_moon",
+        "doc5::concept::2::moon",
+        "doc5::concept::30::week"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "section_id": "doc5::section::27::astronomy_and_the_days_of_the_week",
+        "source_section_label": "Astronomy and the Days of the Week"
+      }
+    },
+    {
+      "id": "doc5::topic_candidate::section::6::the_moon_s_revolution_and_rotation",
+      "label": "The Moon’s Revolution and Rotation",
+      "description": "Section-seeded topic for The Moon’s Revolution and Rotation",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Moon’s Revolution and Rotation"
+        ]
+      ],
+      "concept_ids": [
+        "doc5::concept::1::lunar_phases",
+        "doc5::concept::2::moon",
+        "doc5::concept::37::sidereal_period",
+        "doc5::concept::38::sidereal_month",
+        "doc5::concept::39::synchronous_rotation",
+        "doc5::concept::40::rotation",
+        "doc5::concept::41::orbit",
+        "doc5::concept::42::illumination",
+        "doc5::concept::43::dark_side_of_the_moon",
+        "doc5::concept::4::earth",
+        "doc5::concept::6::phases",
+        "doc5::concept::7::eclipse"
+      ],
+      "chunk_ids": [
+        "doc5::paragraph::10::here_is_a_simple_experiment_to_show_you_what_we_::chunk::5::here_is_a_simple_experiment_to_show_you_what_we_",
+        "doc5::paragraph::28::the_week_seems_independent_of_celestial_motions_::chunk::18::the_week_seems_independent_of_celestial_motions_",
+        "doc5::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::21::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "doc5::paragraph::33::this_simulation_of_the_moon_orbiting_the_earth_h::chunk::22::this_simulation_of_the_moon_orbiting_the_earth_h",
+        "doc5::paragraph::42::b_figure_4_15_the_moon_without_and_with_rotation::chunk::28::b_figure_4_15_the_moon_without_and_with_rotation",
+        "doc5::paragraph::4::by_the_end_of_this_section_you_will_be_able_to::chunk::2::by_the_end_of_this_section_you_will_be_able_to",
+        "doc5::paragraph::7::these_changes_fascinated_and_mysti_ed_many_early::chunk::3::these_changes_fascinated_and_mysti_ed_many_early",
+        "doc5::paragraph::9::although_we_know_that_the_sun_moves_1_12_of_its_::chunk::4::although_we_know_that_the_sun_moves_1_12_of_its_"
+      ],
+      "artifact_ids": [
+        "doc5::artifact::38::details_summary_text_image_summary_earth_details",
+        "doc5::artifact::41::details_summary_text_image_summary_earth_details"
+      ],
+      "seed_concept_ids": [
+        "doc5::concept::2::moon",
+        "doc5::concept::37::sidereal_period",
+        "doc5::concept::4::earth"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc5::section::34::the_moon_s_revolution_and_rotation",
+        "source_section_label": "The Moon’s Revolution and Rotation"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_count": 18,
+    "consolidated_count": 9,
+    "accepted_count": 8
+  }
+}

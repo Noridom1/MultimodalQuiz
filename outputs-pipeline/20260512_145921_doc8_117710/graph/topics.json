@@ -1,0 +1,703 @@
+{
+  "count": 11,
+  "topics": [
+    {
+      "id": "doc8::topic_candidate::anchor::0::quantum_repeaters",
+      "label": "Quantum repeaters",
+      "description": "Concept-anchored topic centered on Quantum repeaters",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Abstract"
+        ],
+        [
+          "A QUANTUM ROUTER FOR THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::20::quantum_teleportation",
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::62::telephone_networks",
+        "doc8::concept::63::data_networks",
+        "doc8::concept::64::automated_control_plane",
+        "doc8::concept::70::digital_forwarding",
+        "doc8::concept::71::quantum_forwarding",
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::77::eprid",
+        "doc8::concept::83::teleport",
+        "doc8::concept::91::createepr_src_dest"
+      ],
+      "chunk_ids": [
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::19::as_was_the_case_with_telephone_and_data_networks",
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7",
+        "doc8::paragraph::72::table_1_qr1_forwarding_table::chunk::27::table_1_qr1_forwarding_table",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::63::data_networks",
+        "doc8::concept::73::quantum_network"
+      ],
+      "scores": {
+        "coherence_score": 0.7,
+        "grounding_score": 1.0,
+        "breadth_score": 0.1,
+        "distinctness_score": 0.64,
+        "pedagogical_usefulness": 0.625
+      },
+      "metadata": {
+        "anchor_concept_id": "doc8::concept::5::quantum_router",
+        "merged_candidate_ids": [
+          "doc8::topic_candidate::anchor::3::destination_node",
+          "doc8::topic_candidate::anchor::7::quantum_network",
+          "doc8::topic_candidate::section::4::a_quantum_router_for_the_entangled_web"
+        ]
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::anchor::1::entangled_photons",
+      "label": "Entangled photons",
+      "description": "Concept-anchored topic centered on Entangled photons",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "Abstract"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::4::qubit_transmission_protocols",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::63::data_networks",
+        "doc8::concept::6::teleportation",
+        "doc8::concept::71::quantum_forwarding",
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::74::forward_qubit",
+        "doc8::concept::76::bsmresult",
+        "doc8::concept::7::entangled_pair_management",
+        "doc8::concept::8::quantum_simulator",
+        "doc8::concept::91::createepr_src_dest"
+      ],
+      "chunk_ids": [
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::4::bob_occams_solutions::chunk::1::bob_occams_solutions",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further",
+        "doc8::paragraph::98::figure_9_entangled_pair_management::chunk::35::figure_9_entangled_pair_management"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::104::txt_source_node_getqubit_return_0_4091_0_0_9125_",
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::7::entangled_pair_management",
+        "doc8::concept::8::quantum_simulator"
+      ],
+      "scores": {
+        "coherence_score": 0.7,
+        "grounding_score": 1.0,
+        "breadth_score": 0.1,
+        "distinctness_score": 0.64,
+        "pedagogical_usefulness": 0.625
+      },
+      "metadata": {
+        "anchor_concept_id": "doc8::concept::10::entangled_photons",
+        "merged_candidate_ids": [
+          "doc8::topic_candidate::anchor::2::quantum_simulations",
+          "doc8::topic_candidate::section::1::abstract"
+        ]
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::anchor::4::bsmbell_state_measurement",
+      "label": "BSMBell State Measurement",
+      "description": "Concept-anchored topic centered on BSMBell State Measurement",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::49::charlie",
+        "doc8::concept::51::epc",
+        "doc8::concept::52::alice",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::66::source_sp",
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::76::bsmresult"
+      ],
+      "chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::104::txt_source_node_getqubit_return_0_4091_0_0_9125_",
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::37::bsmbell_state_measurement"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "doc8::concept::37::bsmbell_state_measurement"
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::anchor::5::entangled_pair_management_epm",
+      "label": "Entangled Pair Management (EPM)",
+      "description": "Concept-anchored topic centered on Entangled Pair Management (EPM)",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Abstract"
+        ],
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Pair Management"
+        ],
+        [
+          "2. EPM then:"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::63::data_networks",
+        "doc8::concept::70::digital_forwarding",
+        "doc8::concept::71::quantum_forwarding",
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::74::forward_qubit",
+        "doc8::concept::76::bsmresult",
+        "doc8::concept::77::eprid",
+        "doc8::concept::7::entangled_pair_management",
+        "doc8::concept::89::quantum_network_nodes",
+        "doc8::concept::8::quantum_simulator",
+        "doc8::concept::90::epr_eprid",
+        "doc8::concept::91::createepr_src_dest"
+      ],
+      "chunk_ids": [
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::list_item::99::1_createepr_src_dest_causes_epm_to_create_an_ent::chunk::36::createepr_src_dest_causes_epm_to_create_an_entan",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::72::table_1_qr1_forwarding_table::chunk::27::table_1_qr1_forwarding_table",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further",
+        "doc8::paragraph::98::figure_9_entangled_pair_management::chunk::35::figure_9_entangled_pair_management"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::104::txt_source_node_getqubit_return_0_4091_0_0_9125_",
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::63::data_networks",
+        "doc8::concept::77::eprid",
+        "doc8::concept::7::entangled_pair_management",
+        "doc8::concept::8::quantum_simulator"
+      ],
+      "scores": {
+        "coherence_score": 0.7,
+        "grounding_score": 1.0,
+        "breadth_score": 0.0,
+        "distinctness_score": 0.64,
+        "pedagogical_usefulness": 0.595
+      },
+      "metadata": {
+        "anchor_concept_id": "doc8::concept::7::entangled_pair_management",
+        "merged_candidate_ids": [
+          "doc8::topic_candidate::anchor::10::eprid",
+          "doc8::topic_candidate::section::6::quantum_router_design",
+          "doc8::topic_candidate::section::7::entangled_pair_management",
+          "doc8::topic_candidate::section::8::epm_then"
+        ]
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::anchor::6::quantum_state_recovery_qsr",
+      "label": "Quantum state recovery (qsr)",
+      "description": "Concept-anchored topic centered on quantum state recovery (qsr)",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::52::alice",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::63::data_networks",
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::76::bsmresult",
+        "doc8::concept::7::entangled_pair_management"
+      ],
+      "chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::104::txt_source_node_getqubit_return_0_4091_0_0_9125_",
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::48::quantum_state_recovery"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "doc8::concept::48::quantum_state_recovery"
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::anchor::8::entangled_web",
+      "label": "Entangled Web",
+      "description": "Concept-anchored topic centered on Entangled Web",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Routing Architecture"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::63::data_networks",
+        "doc8::concept::64::automated_control_plane",
+        "doc8::concept::65::routing_layer",
+        "doc8::concept::66::source_sp",
+        "doc8::concept::70::digital_forwarding",
+        "doc8::concept::71::quantum_forwarding",
+        "doc8::concept::72::routing_table",
+        "doc8::concept::73::quantum_network"
+      ],
+      "chunk_ids": [
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::19::as_was_the_case_with_telephone_and_data_networks",
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::20::as_was_the_case_with_telephone_and_data_networks",
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7",
+        "doc8::paragraph::72::table_1_qr1_forwarding_table::chunk::27::table_1_qr1_forwarding_table",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::5::quantum_router"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.3,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.79
+      },
+      "metadata": {
+        "anchor_concept_id": "doc8::concept::28::entangled_web",
+        "merged_candidate_ids": [
+          "doc8::topic_candidate::section::5::quantum_routing_architecture"
+        ]
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::anchor::9::quantum_teleportation",
+      "label": "Quantum teleportation",
+      "description": "Concept-anchored topic centered on Quantum teleportation",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::20::quantum_teleportation",
+        "doc8::concept::24::qubits",
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::35::cw_optics",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::63::data_networks",
+        "doc8::concept::71::quantum_forwarding",
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::7::entangled_pair_management",
+        "doc8::concept::8::quantum_simulator",
+        "doc8::concept::91::createepr_src_dest"
+      ],
+      "chunk_ids": [
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu",
+        "doc8::paragraph::17::figure_1_point_to_point_communication::chunk::7::figure_1_point_to_point_communication",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::20::quantum_teleportation",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::8::quantum_simulator"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.2,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.76
+      },
+      "metadata": {
+        "anchor_concept_id": "doc8::concept::20::quantum_teleportation",
+        "merged_candidate_ids": [
+          "doc8::topic_candidate::section::2::introduction",
+          "doc8::topic_candidate::section::10::summary_and_next_steps"
+        ]
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::anchor::11::bsmresult",
+      "label": "BsmResult",
+      "description": "Concept-anchored topic centered on bsmResult",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::74::forward_qubit",
+        "doc8::concept::75::next_hop",
+        "doc8::concept::76::bsmresult",
+        "doc8::concept::77::eprid",
+        "doc8::concept::78::recover_qubit",
+        "doc8::concept::8::quantum_simulator"
+      ],
+      "chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::104::txt_source_node_getqubit_return_0_4091_0_0_9125_",
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::76::bsmresult"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "doc8::concept::76::bsmresult"
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::section::0::a_quantum_router_for_the_entangled_web",
+      "label": "A Quantum Router For The Entangled Web",
+      "description": "Section-seeded topic for A Quantum Router For The Entangled Web",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "A Quantum Router For The Entangled Web"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::0::bernardo_a_huberman",
+        "doc8::concept::1::bob_lund",
+        "doc8::concept::2::cablelabs",
+        "doc8::concept::3::occams_solutions"
+      ],
+      "chunk_ids": [
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu",
+        "doc8::paragraph::1::bernardo_a_huberman_bob_lund::chunk::0::bernardo_a_huberman_bob_lund",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc8::concept::0::bernardo_a_huberman",
+        "doc8::concept::1::bob_lund",
+        "doc8::concept::3::occams_solutions"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.852
+      },
+      "metadata": {
+        "section_id": "doc8::section::0::a_quantum_router_for_the_entangled_web",
+        "source_section_label": "A Quantum Router For The Entangled Web"
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::section::3::the_entangled_web",
+      "label": "THE ENTANGLED WEB",
+      "description": "Section-seeded topic for THE ENTANGLED WEB",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::20::quantum_teleportation",
+        "doc8::concept::24::qubits",
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::35::cw_optics",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::49::charlie",
+        "doc8::concept::51::epc",
+        "doc8::concept::52::alice",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::8::quantum_simulator"
+      ],
+      "chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu",
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via",
+        "doc8::paragraph::17::figure_1_point_to_point_communication::chunk::7::figure_1_point_to_point_communication",
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::8::quantum_simulator"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc8::section::13::the_entangled_web",
+        "source_section_label": "THE ENTANGLED WEB"
+      }
+    },
+    {
+      "id": "doc8::topic_candidate::section::9::entangled_web_prototype",
+      "label": "Entangled Web Prototype",
+      "description": "Section-seeded topic for Entangled Web Prototype",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "concept_ids": [
+        "doc8::concept::105::entangled_pair_id",
+        "doc8::concept::10::entangled_photons",
+        "doc8::concept::28::entangled_web",
+        "doc8::concept::37::bsmbell_state_measurement",
+        "doc8::concept::48::quantum_state_recovery",
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::63::data_networks",
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::74::forward_qubit",
+        "doc8::concept::76::bsmresult",
+        "doc8::concept::83::teleport",
+        "doc8::concept::8::quantum_simulator"
+      ],
+      "chunk_ids": [
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component"
+      ],
+      "artifact_ids": [
+        "doc8::artifact::104::txt_source_node_getqubit_return_0_4091_0_0_9125_",
+        "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc8::concept::5::quantum_router",
+        "doc8::concept::76::bsmresult",
+        "doc8::concept::8::quantum_simulator"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc8::section::102::entangled_web_prototype",
+        "source_section_label": "Entangled Web Prototype"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_count": 23,
+    "consolidated_count": 11,
+    "accepted_count": 11
+  }
+}

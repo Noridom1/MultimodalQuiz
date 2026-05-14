@@ -1,0 +1,685 @@
+{
+  "section_count": 34,
+  "sections": [
+    {
+      "id": "doc10::section::0::docker_introduction",
+      "label": "Docker Introduction \\*",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Docker Introduction \\*"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::3::contents",
+      "label": "Contents",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Contents"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 3,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::4::introduction",
+      "label": "Introduction",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Introduction"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 4,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::5::motivation_1_2",
+      "label": "Motivation (1/2)",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Motivation (1/2)"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 5,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::19::motivation_2_2",
+      "label": "Motivation (2/2)",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Motivation (2/2)"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 19,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::25::learning_objectives",
+      "label": "Learning Objectives",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Learning Objectives"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 25,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::29::core_questions",
+      "label": "Core Questions",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Core Questions"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 29,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::31::virtualization",
+      "label": "Virtualization",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Virtualization"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 31,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::32::history_1_2",
+      "label": "History (1/2)",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "History (1/2)"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 32,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::39::history_2_2",
+      "label": "History (2/2)",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "History (2/2)"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 39,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::47::intuition_and_examples",
+      "label": "Intuition and Examples",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Intuition and Examples"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 47,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::59::de",
+      "label": "De",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "De"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 59,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::77::isolation",
+      "label": "Isolation",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Isolation"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 77,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::91::layering_with_virtualization",
+      "label": "Layering with Virtualization",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Layering with Virtualization"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 91,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::95::layering_explained",
+      "label": "Layering Explained",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Layering Explained"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 95,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::109::review_question",
+      "label": "Review Question",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Review Question"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 109,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::111::containerization",
+      "label": "Containerization",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Containerization"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 111,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::112::basics",
+      "label": "Basics",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Basics"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 112,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::123::layering_with_containerization",
+      "label": "Layering with Containerization",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Layering with Containerization"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 123,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::127::selected_technologies",
+      "label": "Selected Technologies",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Selected Technologies"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 127,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::139::on_images",
+      "label": "On Images",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "On Images"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 139,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::147::review_question",
+      "label": "Review Question",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Review Question"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 147,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::149::docker",
+      "label": "Docker",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Docker"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 149,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::150::docker_installation",
+      "label": "Docker Installation",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Docker Installation"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 150,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::156::first_steps",
+      "label": "First Steps",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "First Steps"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 156,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::170::a_web_server",
+      "label": "A Web Server",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "A Web Server"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 170,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::183::selected_errors",
+      "label": "Selected Errors",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Selected Errors"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 183,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::194::on_option_v",
+      "label": "On Option -v",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "On Option -v"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 194,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::202::docker_toolbox_under_windows",
+      "label": "Docker Toolbox under Windows",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Docker Toolbox under Windows"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 202,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::213::conclusions",
+      "label": "Conclusions",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Conclusions"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 213,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::214::summary",
+      "label": "Summary",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Summary"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 214,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::220::outlook",
+      "label": "Outlook",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Outlook"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 220,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::226::bibliography",
+      "label": "Bibliography",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Bibliography"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 226,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc10::section::227::license_information",
+      "label": "License Information",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "License Information"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 227,
+        "level": 1
+      }
+    }
+  ]
+}

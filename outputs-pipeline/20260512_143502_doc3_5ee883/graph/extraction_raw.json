@@ -1,0 +1,317 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+      "source_file": "data/markdown/doc3/hybrid_auto/doc3.md",
+      "section_path": [
+        "ĐỖ QUANG HƯNG\\*"
+      ],
+      "concepts": [
+        "August Revolution 1945",
+        "Marxist-Leninism",
+        "Hồ Chí Minh",
+        "Democratic Republic of Vietnam",
+        "Vietnamese Communists"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "August Revolution 1945",
+          "target": "religious issue Vietnam",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Vietnamese Communists",
+          "target": "Marxist-Leninism",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Vietnamese Communists",
+          "target": "Hồ Chí Minh",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi",
+      "source_file": "data/markdown/doc3/hybrid_auto/doc3.md",
+      "section_path": [
+        "The August Revolution (1945) and Religious Issues"
+      ],
+      "concepts": [
+        "August Revolution",
+        "National Independence",
+        "Socialism",
+        "Communist Party of Vietnam",
+        "Marxist-Leninism",
+        "Hồ Chí Minh’s thought"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "August Revolution",
+          "target": "National Independence",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "August Revolution",
+          "target": "Socialism",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Communist Party of Vietnam",
+          "target": "Marxist-Leninism",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Communist Party of Vietnam",
+          "target": "Hồ Chí Minh’s thought",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+      "source_file": "data/markdown/doc3/hybrid_auto/doc3.md",
+      "section_path": [
+        "The August Revolution (1945) and Religious Issues"
+      ],
+      "concepts": [
+        "Indochinese Communist Party",
+        "Việt Minh",
+        "Hồ Chí Minh",
+        "National Liberation Committee"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Indochinese Communist Party",
+          "target": "Việt Minh",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Hồ Chí Minh",
+          "target": "National Liberation Committee",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 3,
+      "chunk_id": "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju",
+      "source_file": "data/markdown/doc3/hybrid_auto/doc3.md",
+      "section_path": [
+        "The August Revolution (1945) and Religious Issues"
+      ],
+      "concepts": [
+        "August Revolution",
+        "Hồ Chí Minh",
+        "Việt Minh",
+        "National Assembly",
+        "Catholics for the National Salvation"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "August Revolution",
+          "target": "Hồ Chí Minh",
+          "relation": "personified",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Việt Minh",
+          "target": "National Assembly",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Catholics for the National Salvation",
+          "target": "National Assembly",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+      "source_file": "data/markdown/doc3/hybrid_auto/doc3.md",
+      "section_path": [
+        "The August Revolution (1945) and Religious Issues"
+      ],
+      "concepts": [
+        "National Assembly of the National Resistance",
+        "Cao Triều Phát",
+        "Lê Hữu Từ",
+        "Hồ Ngọc Cẩn",
+        "August Revolution",
+        "Democratic Republic of Vietnam",
+        "Hồ Chí Minh",
+        "Temporary Government",
+        "Freedom of beliefs"
+      ],
+      "definitions": [
+        {
+          "concept": "Freedom of beliefs",
+          "definition": "A principle of the democratic republic regime that stipulates respect for temples, pagodas, imperial tombs, churches, and any places of religious character."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Hồ Chí Minh",
+          "target": "August Revolution",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Freedom of beliefs",
+          "target": "Democratic Republic of Vietnam",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+      "source_file": "data/markdown/doc3/hybrid_auto/doc3.md",
+      "section_path": [
+        "The August Revolution (1945) and Religious Issues"
+      ],
+      "concepts": [
+        "Hồ Chí Minh",
+        "Tôn Đức Thắng",
+        "National Assembly",
+        "Indochinese Communist Party",
+        "August Revolution",
+        "Pius XI",
+        "Pius XII",
+        "International Communism"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Hồ Chí Minh",
+          "target": "August Revolution",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Indochinese Communist Party",
+          "target": "International Communism",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i",
+      "source_file": "data/markdown/doc3/hybrid_auto/doc3.md",
+      "section_path": [
+        "The August Revolution (1945) and Religious Issues"
+      ],
+      "concepts": [
+        "Stalin",
+        "International Communism",
+        "August Revolution",
+        "Trường Chinh",
+        "Sự Thật"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Stalin",
+          "target": "International Communism",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Trường Chinh",
+          "target": "Sự Thật",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "doc3::paragraph::29::these_manifestations_expressed_a_conspicuous_ref::chunk::7::these_manifestations_expressed_a_conspicuous_ref",
+      "source_file": "data/markdown/doc3/hybrid_auto/doc3.md",
+      "section_path": [
+        "The August Revolution (1945) and Religious Issues"
+      ],
+      "concepts": [
+        "Trường Chinh",
+        "Marxists",
+        "leftist infantilism"
+      ],
+      "definitions": [
+        {
+          "concept": "leftist infantilism",
+          "definition": "An expression of the excessive revolutionary spirit, wanting to revolutionize culture, beliefs, and customs."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Trường Chinh",
+          "target": "Marxists",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 8,
+    "concept_count": 30,
+    "relation_count": 19
+  }
+}

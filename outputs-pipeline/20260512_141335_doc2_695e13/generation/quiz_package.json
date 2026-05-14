@@ -1,0 +1,146 @@
+{
+  "run_id": "20260512_141335_doc2_695e13",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_89a642e85c",
+        "question_text": "What is the primary purpose of multiplexing in operating systems?",
+        "options": [
+          "To allow multiple processes to share a single resource efficiently",
+          "To encrypt data transmitted between processes",
+          "To permanently allocate a CPU to a single process",
+          "To delete unnecessary processes to free up memory"
+        ],
+        "correct_answer": "To allow multiple processes to share a single resource efficiently",
+        "explanation": "Multiplexing in operating systems enables multiple processes to share a single resource, such as a CPU, by rapidly switching between them. This improves resource utilization and system efficiency. (Source: doc2::concept::5::multiplexing)",
+        "target_concept": "multiplexing",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc2::concept::5::multiplexing",
+          "run_id": "20260512_141335_doc2_695e13"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: multiplexing\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the basic definition of multiplexing in operating systems.\nImage context: A diagram showing multiple processes sharing a single CPU resource.\nTested fact block ID: doc2::concept::5::multiplexing\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing a single CPU (labeled \"CPU\") at the center, with 3-4 labeled process blocks (e.g., \"Process 1,\" \"Process 2\") connected to it via distinct, colored arrows to illustrate time-sliced sharing. Use a neutral background with bold, legible labels and a simple timeline or clock icon to suggest scheduling. Avoid text explaining multiplexing—let the visual imply shared access.\n\n**Alt:** A diagram of a CPU with multiple labeled processes connected to it, showing resource sharing via colored arrows."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_7d0cb1b837",
+        "question_text": "What is the primary purpose of context switching in an operating system?",
+        "options": [
+          "To terminate a process that is using too much CPU time",
+          "To allow the CPU to switch from executing one process to another",
+          "To permanently save a process's state to disk",
+          "To allocate more memory to a running process"
+        ],
+        "correct_answer": "B",
+        "explanation": "Context switching allows the CPU to switch from executing one process to another by saving the state of the current process and loading the state of the next process. This is essential for multitasking in operating systems. (Source: doc2::concept::11::context_switches)",
+        "target_concept": "context switching",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc2::concept::11::context_switches",
+          "run_id": "20260512_141335_doc2_695e13"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: context switching\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the purpose and mechanism of context switching in operating systems.\nImage context: A diagram showing the steps involved in saving and restoring process states during context switching.\nTested fact block ID: doc2::concept::11::context_switches\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram illustrating context switching in an OS. Show two labeled process states (e.g., \"Process X\" and \"Process Y\") with arrows depicting the steps: 1) Save state of Process X to memory, 2) Load state of Process Y from memory, 3) CPU executes Process Y. Use a neutral color palette (blues/greys) with bold labels for clarity, and avoid realistic UI elements. Alt: A diagram showing how an operating system saves one process's state and loads another during context switching."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_068a8f4f8f",
+        "question_text": "What is the definition of a process in an operating system?",
+        "options": [
+          "A program in execution that includes the program code, data, and resources.",
+          "A static program stored on disk waiting to be executed.",
+          "A hardware component that manages memory allocation.",
+          "A user interface element for interacting with applications."
+        ],
+        "correct_answer": "A program in execution that includes the program code, data, and resources.",
+        "explanation": "A process is a program in execution, encompassing the program code, its current data, and system resources. This definition is foundational for understanding how operating systems manage tasks. (Source: doc2::concept::1::processes)",
+        "target_concept": "processes",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc2::concept::1::processes",
+          "run_id": "20260512_141335_doc2_695e13"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: processes\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and role of a process in an operating system.\nImage context: A diagram showing the lifecycle of a process in an operating system.\nTested fact block ID: doc2::concept::1::processes\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast diagram illustrating the lifecycle of an operating system process, with labeled stages (e.g., \"New,\" \"Ready,\" \"Running,\" \"Waiting,\" \"Terminated\") arranged in a circular flow. Use distinct colors for each stage (e.g., blue for \"Ready,\" green for \"Running\") and minimalist arrows to show transitions. Avoid text-heavy explanations; focus on visual clarity with bold, legible labels.\n\nAlt: A circular diagram showing the stages of a process lifecycle in an operating system, with labeled states and directional arrows."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_36fec03712",
+        "question_text": "In process management, what is the primary purpose of the p->context structure?",
+        "options": [
+          "To store the process ID and user credentials",
+          "To hold the saved registers and CPU state of a process when it is not running",
+          "To manage the memory allocation for the process",
+          "To track the process's open file descriptors"
+        ],
+        "correct_answer": "To hold the saved registers and CPU state of a process when it is not running",
+        "explanation": "The p->context structure is used to save the registers and CPU state of a process when it is preempted or switched out, allowing it to resume execution later. This is documented in doc2::concept::53::p_context.",
+        "target_concept": "p->context",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc2::concept::53::p_context",
+          "run_id": "20260512_141335_doc2_695e13"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: p->context\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of p->context in process management.\nImage context: A diagram showing the relationship between a process and its saved registers.\nTested fact block ID: doc2::concept::53::p_context\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing a labeled process (e.g., \"Process X\") connected to a set of labeled saved registers (e.g., \"Registers: PC, SP, R1-R4\") via a bold arrow labeled \"p->context.\" Use a clean, technical style with a neutral background and distinct colors for the process (blue) and registers (green). Ensure all text is legible and labels are clear.\n\n**Alt:** A diagram illustrating how a process links to its saved registers via a labeled arrow."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_c847a85691",
+        "question_text": "What is the primary role of hardware timers in process scheduling?",
+        "options": [
+          "A) To allocate memory for processes",
+          "B) To enforce time slices for processes",
+          "C) To manage input/output operations",
+          "D) To compile source code into machine code"
+        ],
+        "correct_answer": "B",
+        "explanation": "Hardware timers enforce time slices for processes, ensuring fair CPU allocation among multiple processes. This is critical for high throughput in multitasking systems. (Source: doc2::concept::10::hardware_timer)",
+        "target_concept": "high throughput",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc2::concept::10::hardware_timer",
+          "run_id": "20260512_141335_doc2_695e13"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: high throughput\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of hardware timers in enforcing time slices for processes.\nImage context: A diagram showing a hardware timer enforcing time slices for processes.\nTested fact block ID: doc2::concept::10::hardware_timer\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing a hardware timer (labeled \"Timer\") connected to a CPU, with multiple labeled processes (e.g., \"Process 1,\" \"Process 2\") taking turns in time slices. Use a circular or segmented timeline to visualize the enforced time intervals, with distinct colors for each process. Keep labels minimal and avoid text that explains the mechanism—focus on visual clarity.\n\n**Alt:** A diagram illustrating a hardware timer regulating time slices for multiple processes in a CPU."
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc8::concept::4::qubit_transmission_protocols",
+        "doc8::concept::12::qubit"
+      ],
+      "labels": [
+        "Qubit transmission protocols",
+        "Qubit"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::6::teleportation",
+        "doc8::concept::20::quantum_teleportation"
+      ],
+      "labels": [
+        "Teleportation",
+        "Quantum teleportation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::11::fiber_optics",
+        "doc8::concept::33::continuous_wave_cw_fiber_optics"
+      ],
+      "labels": [
+        "Fiber optics",
+        "continuous wave (CW) fiber optics"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::30::quantum_photon",
+        "doc8::concept::36::photon"
+      ],
+      "labels": [
+        "quantum photon",
+        "photon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::30::quantum_photon",
+        "doc8::concept::43::qp_quantum_photon_transmission"
+      ],
+      "labels": [
+        "quantum photon",
+        "QP Quantum Photon Transmission"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::41::qsr_quantum_state_recovery",
+        "doc8::concept::48::quantum_state_recovery"
+      ],
+      "labels": [
+        "QSR Quantum State Recovery",
+        "Quantum State Recovery"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::42::sp_source_particle",
+        "doc8::concept::50::sp"
+      ],
+      "labels": [
+        "SP Source Particle",
+        "SP"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::40::epc_entangled_particle_creation",
+        "doc8::concept::51::epc"
+      ],
+      "labels": [
+        "EPC Entangled Particle Creation",
+        "EPC"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::38::dp_destination_particle",
+        "doc8::concept::53::dp"
+      ],
+      "labels": [
+        "DP Destination Particle",
+        "DP"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::1::bob_lund",
+        "doc8::concept::54::bob"
+      ],
+      "labels": [
+        "Bob Lund",
+        "Bob"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::6::teleportation",
+        "doc8::concept::55::entangled_state_teleportation"
+      ],
+      "labels": [
+        "Teleportation",
+        "Entangled State Teleportation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::42::sp_source_particle",
+        "doc8::concept::66::source_sp"
+      ],
+      "labels": [
+        "SP Source Particle",
+        "Source SP"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::38::dp_destination_particle",
+        "doc8::concept::67::destination_dp"
+      ],
+      "labels": [
+        "DP Destination Particle",
+        "Destination DP"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::25::quantum_network_architecture",
+        "doc8::concept::73::quantum_network"
+      ],
+      "labels": [
+        "Quantum network architecture",
+        "quantum network"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::12::qubit",
+        "doc8::concept::74::forward_qubit"
+      ],
+      "labels": [
+        "Qubit",
+        "Forward Qubit"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::12::qubit",
+        "doc8::concept::78::recover_qubit"
+      ],
+      "labels": [
+        "Qubit",
+        "Recover Qubit"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::69::bell_state_measurement_results",
+        "doc8::concept::84::bell_state"
+      ],
+      "labels": [
+        "Bell State Measurement Results",
+        "Bell State"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::41::qsr_quantum_state_recovery",
+        "doc8::concept::85::qsr"
+      ],
+      "labels": [
+        "QSR Quantum State Recovery",
+        "qsr"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::38::dp_destination_particle",
+        "doc8::concept::87::destination"
+      ],
+      "labels": [
+        "DP Destination Particle",
+        "Destination"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::89::quantum_network_nodes"
+      ],
+      "labels": [
+        "quantum network",
+        "quantum network nodes"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::70::digital_forwarding",
+        "doc8::concept::95::digital_forwarding_plane"
+      ],
+      "labels": [
+        "Digital Forwarding",
+        "digital forwarding plane"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::71::quantum_forwarding",
+        "doc8::concept::96::quantum_forwarding_plane"
+      ],
+      "labels": [
+        "Quantum Forwarding",
+        "quantum forwarding plane"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::97::quantum_network_protocol"
+      ],
+      "labels": [
+        "quantum network",
+        "quantum network protocol"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::8::quantum_simulator",
+        "doc8::concept::98::javascript_quantum_computer_simulator"
+      ],
+      "labels": [
+        "Quantum simulator",
+        "JavaScript quantum computer simulator"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::6::teleportation",
+        "doc8::concept::103::physical_teleportation"
+      ],
+      "labels": [
+        "Teleportation",
+        "physical teleportation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::74::forward_qubit",
+        "doc8::concept::106::forward"
+      ],
+      "labels": [
+        "Forward Qubit",
+        "forward"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::18::public_goods",
+        "doc8::concept::109::public_goods_game"
+      ],
+      "labels": [
+        "Public goods",
+        "Public goods game"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::36::photon",
+        "doc8::concept::112::entangled_photon_pairs"
+      ],
+      "labels": [
+        "photon",
+        "Entangled photon pairs"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::16::communication_complexity",
+        "doc8::concept::114::one_way_communication_complexity"
+      ],
+      "labels": [
+        "Communication complexity",
+        "One-way communication complexity"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::6::teleportation",
+        "doc8::concept::115::all_photonic_quantum_teleportation"
+      ],
+      "labels": [
+        "Teleportation",
+        "All-photonic quantum teleportation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

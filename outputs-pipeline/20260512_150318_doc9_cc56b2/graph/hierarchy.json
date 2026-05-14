@@ -1,0 +1,165 @@
+{
+  "section_count": 8,
+  "sections": [
+    {
+      "id": "doc9::section::0::mental_health_and_psychosocial_considerations_du",
+      "label": "Mental health and psychosocial considerations during the COVID-19 outbreak",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Mental health and psychosocial considerations during the COVID-19 outbreak"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc9::section::4::messages_for_the_general_population",
+      "label": "Messages for the general population",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Messages for the general population"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 4,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc9::section::11::messages_for_healthcare_workers",
+      "label": "Messages for healthcare workers",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Messages for healthcare workers"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 11,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc9::section::17::messages_for_team_leaders_or_managers_in_health_",
+      "label": "Messages for team leaders or managers in health facilities",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Messages for team leaders or managers in health facilities"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 17,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc9::section::24::messages_for_carers_of_children",
+      "label": "Messages for carers of children",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Messages for carers of children"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 24,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc9::section::29::messages_for_older_adults_people_with_underlying",
+      "label": "Messages for older adults, people with underlying health conditions and their carers",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Messages for older adults, people with underlying health conditions and their carers"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 29,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc9::section::36::messages_for_people_in_isolation",
+      "label": "Messages for people in isolation",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Messages for people in isolation"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 36,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc9::section::40::stay_informed",
+      "label": "Stay informed",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Stay informed"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 40,
+        "level": 1
+      }
+    }
+  ]
+}

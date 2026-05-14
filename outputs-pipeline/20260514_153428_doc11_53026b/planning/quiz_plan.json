@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "fight or flight response",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the physiological changes during the fight or flight response.",
+    "learning_objective": "Identify the primary hormones involved in the fight or flight response.",
+    "tested_fact_block_id": "doc11::chunk::0",
+    "metadata": {}
+  },
+  {
+    "target_concept": "mood",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A person looking sad and withdrawn, illustrating a low mood.",
+    "learning_objective": "Identify the mood-related condition associated with heart disease.",
+    "tested_fact_block_id": "doc11::chunk::11::mood",
+    "metadata": {}
+  },
+  {
+    "target_concept": "physical symptoms",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A person clutching their chest with a visible tense posture.",
+    "learning_objective": "Identify common physical symptoms associated with anxiety.",
+    "tested_fact_block_id": "doc11::chunk::20::physical_symptoms::0",
+    "metadata": {}
+  },
+  {
+    "target_concept": "cortisol",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the release of cortisol from the adrenal glands during stress.",
+    "learning_objective": "Understand the role of cortisol in the body's stress response.",
+    "tested_fact_block_id": "doc11::concept::6::cortisol",
+    "metadata": {}
+  },
+  {
+    "target_concept": "symptoms of stress",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A person holding their chest, appearing anxious, with a visible heartbeat line indicating elevated heart rate.",
+    "learning_objective": "Identify common physiological symptoms associated with stress.",
+    "tested_fact_block_id": "doc11::chunk::10::symptoms_of_stress::0",
+    "metadata": {}
+  }
+]

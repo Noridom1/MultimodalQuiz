@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_e86333f050",
+    "question_text": "According to the law of demand, what happens to the quantity demanded of a good when its price increases?",
+    "options": [
+      "A) Quantity demanded increases",
+      "B) Quantity demanded decreases",
+      "C) Quantity demanded remains the same",
+      "D) Quantity demanded becomes unpredictable"
+    ],
+    "correct_answer": "B",
+    "explanation": "The law of demand states that, all else being equal, the quantity demanded of a good decreases as its price increases, reflecting an inverse relationship. This is illustrated by a downward-sloping demand curve. (Source: doc7::concept::2::law_of_demand)",
+    "target_concept": "law of demand",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc7::concept::2::law_of_demand",
+      "run_id": "20260512_145634_doc7_777895"
+    }
+  },
+  {
+    "id": "q_1f2f8daf4d",
+    "question_text": "What does a demand curve typically show in a graph?",
+    "options": [
+      "The relationship between price and quantity supplied",
+      "The relationship between price and quantity demanded",
+      "The total revenue of a firm at different prices",
+      "The cost of production at different output levels"
+    ],
+    "correct_answer": "The relationship between price and quantity demanded",
+    "explanation": "A demand curve illustrates how the quantity of a good or service that consumers are willing to buy changes as the price varies, with higher prices typically leading to lower quantities demanded. (Source: doc7::concept::6::demand_curve)",
+    "target_concept": "demand curve",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc7::concept::6::demand_curve",
+      "run_id": "20260512_145634_doc7_777895"
+    }
+  },
+  {
+    "id": "q_bbe59953ee",
+    "question_text": "What is the relationship between price and quantity demanded, as illustrated by a downward-sloping demand curve?",
+    "options": [
+      "A. Price and quantity demanded are directly related.",
+      "B. Price and quantity demanded are inversely related.",
+      "C. Price and quantity demanded are unrelated.",
+      "D. Quantity demanded determines the price."
+    ],
+    "correct_answer": "B",
+    "explanation": "The downward-sloping demand curve illustrates the law of demand, showing that as price decreases, quantity demanded increases, and vice versa. This inverse relationship is a fundamental concept in economics. (Source: doc7::concept::1::quantity_demanded)",
+    "target_concept": "quantity demanded",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc7::concept::1::quantity_demanded",
+      "run_id": "20260512_145634_doc7_777895"
+    }
+  },
+  {
+    "id": "q_8040c4b358",
+    "question_text": "According to the law of supply, what happens to the quantity supplied of a good when its price increases?",
+    "options": [
+      "A) The quantity supplied decreases.",
+      "B) The quantity supplied increases.",
+      "C) The quantity supplied remains unchanged.",
+      "D) The quantity supplied becomes unpredictable."
+    ],
+    "correct_answer": "B",
+    "explanation": "The law of supply states that, all else being equal, an increase in the price of a good leads to an increase in the quantity supplied. This is represented by an upward-sloping supply curve (doc7::concept::5::law_of_supply).",
+    "target_concept": "law of supply",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc7::concept::5::law_of_supply",
+      "run_id": "20260512_145634_doc7_777895"
+    }
+  },
+  {
+    "id": "q_c646885d73",
+    "question_text": "Which of the following best describes the typical shape of a supply curve on a graph?",
+    "options": [
+      "A downward-sloping line from left to right",
+      "A horizontal line parallel to the x-axis",
+      "An upward-sloping line from left to right",
+      "A vertical line parallel to the y-axis"
+    ],
+    "correct_answer": "An upward-sloping line from left to right",
+    "explanation": "The supply curve is upward-sloping because, according to the law of supply, as the price of a good increases, the quantity supplied also increases, assuming all else is equal. This relationship is visually represented by an upward-sloping line on a graph with price on the y-axis and quantity supplied on the x-axis. (Source: doc7::chunk::14)",
+    "target_concept": "supply curves",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc7::chunk::14",
+      "run_id": "20260512_145634_doc7_777895"
+    }
+  }
+]

@@ -1,0 +1,800 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc3::concept::0::august_revolution_1945",
+      "label": "August Revolution 1945",
+      "normalized_label": "august revolution 1945",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi"
+      ],
+      "section_paths": [
+        [
+          "ĐỖ QUANG HƯNG\\*"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::1::marxist_leninism",
+      "label": "Marxist-Leninism",
+      "normalized_label": "marxist-leninism",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi"
+      ],
+      "section_paths": [
+        [
+          "ĐỖ QUANG HƯNG\\*"
+        ],
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::2::h_ch_minh",
+      "label": "Hồ Chí Minh",
+      "normalized_label": "h ch minh",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju",
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe"
+      ],
+      "section_paths": [
+        [
+          "ĐỖ QUANG HƯNG\\*"
+        ],
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::3::democratic_republic_of_vietnam",
+      "label": "Democratic Republic of Vietnam",
+      "normalized_label": "democratic republic of vietnam",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista"
+      ],
+      "section_paths": [
+        [
+          "ĐỖ QUANG HƯNG\\*"
+        ],
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::4::vietnamese_communists",
+      "label": "Vietnamese Communists",
+      "normalized_label": "vietnamese communists",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi"
+      ],
+      "section_paths": [
+        [
+          "ĐỖ QUANG HƯNG\\*"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::5::august_revolution",
+      "label": "August Revolution",
+      "normalized_label": "august revolution",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju",
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::6::national_independence",
+      "label": "National Independence",
+      "normalized_label": "national independence",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::7::socialism",
+      "label": "Socialism",
+      "normalized_label": "socialism",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::8::communist_party_of_vietnam",
+      "label": "Communist Party of Vietnam",
+      "normalized_label": "communist party of vietnam",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::9::h_ch_minh_s_thought",
+      "label": "Hồ Chí Minh’s thought",
+      "normalized_label": "h ch minh s thought",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::10::indochinese_communist_party",
+      "label": "Indochinese Communist Party",
+      "normalized_label": "indochinese communist party",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::11::vi_t_minh",
+      "label": "Việt Minh",
+      "normalized_label": "vi t minh",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::12::national_liberation_committee",
+      "label": "National Liberation Committee",
+      "normalized_label": "national liberation committee",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::13::national_assembly",
+      "label": "National Assembly",
+      "normalized_label": "national assembly",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::14::catholics_for_the_national_salvation",
+      "label": "Catholics for the National Salvation",
+      "normalized_label": "catholics for the national salvation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::15::national_assembly_of_the_national_resistance",
+      "label": "National Assembly of the National Resistance",
+      "normalized_label": "national assembly of the national resistance",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::16::cao_tri_u_ph_t",
+      "label": "Cao Triều Phát",
+      "normalized_label": "cao tri u ph t",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::17::l_h_u_t",
+      "label": "Lê Hữu Từ",
+      "normalized_label": "l h u t",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::18::h_ng_c_c_n",
+      "label": "Hồ Ngọc Cẩn",
+      "normalized_label": "h ng c c n",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::19::temporary_government",
+      "label": "Temporary Government",
+      "normalized_label": "temporary government",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::20::freedom_of_beliefs",
+      "label": "Freedom of beliefs",
+      "normalized_label": "freedom of beliefs",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "A principle of the democratic republic regime that stipulates respect for temples, pagodas, imperial tombs, churches, and any places of religious character."
+      ],
+      "source_chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::21::t_n_c_th_ng",
+      "label": "Tôn Đức Thắng",
+      "normalized_label": "t n c th ng",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::22::pius_xi",
+      "label": "Pius XII",
+      "normalized_label": "pius xi",
+      "aliases": [
+        "Pius XI"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::23::international_communism",
+      "label": "International Communism",
+      "normalized_label": "international communism",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::24::stalin",
+      "label": "Stalin",
+      "normalized_label": "stalin",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::25::tr_ng_chinh",
+      "label": "Trường Chinh",
+      "normalized_label": "tr ng chinh",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i",
+        "doc3::paragraph::29::these_manifestations_expressed_a_conspicuous_ref::chunk::7::these_manifestations_expressed_a_conspicuous_ref"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::26::s_th_t",
+      "label": "Sự Thật",
+      "normalized_label": "s th t",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::27::marxists",
+      "label": "Marxists",
+      "normalized_label": "marxists",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc3::paragraph::29::these_manifestations_expressed_a_conspicuous_ref::chunk::7::these_manifestations_expressed_a_conspicuous_ref"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc3::concept::28::leftist_infantilism",
+      "label": "leftist infantilism",
+      "normalized_label": "leftist infantilism",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "An expression of the excessive revolutionary spirit, wanting to revolutionize culture, beliefs, and customs."
+      ],
+      "source_chunk_ids": [
+        "doc3::paragraph::29::these_manifestations_expressed_a_conspicuous_ref::chunk::7::these_manifestations_expressed_a_conspicuous_ref"
+      ],
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc3::concept::0::august_revolution_1945",
+        "doc3::concept::5::august_revolution"
+      ],
+      "labels": [
+        "August Revolution 1945",
+        "August Revolution"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::9::h_ch_minh_s_thought"
+      ],
+      "labels": [
+        "Hồ Chí Minh",
+        "Hồ Chí Minh’s thought"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc3::concept::13::national_assembly",
+        "doc3::concept::15::national_assembly_of_the_national_resistance"
+      ],
+      "labels": [
+        "National Assembly",
+        "National Assembly of the National Resistance"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 47,
+    "canonical_concept_count": 29,
+    "candidate_merge_count": 3
+  }
+}

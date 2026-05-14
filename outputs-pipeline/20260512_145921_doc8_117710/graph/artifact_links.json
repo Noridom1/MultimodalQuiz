@@ -1,0 +1,383 @@
+{
+  "artifact_count": 18,
+  "artifacts": [
+    {
+      "id": "doc8::artifact::15::images_53a8cc3572f7fa2535763f8940dd97c5e7d645182",
+      "label": "![](images/53a8cc3572f7fa2535763f8940dd97c5e7d645182a14fe0aab4e703ecec45e13.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::image::15::images_53a8cc3572f7fa2535763f8940dd97c5e7d645182::chunk::5::images_53a8cc3572f7fa2535763f8940dd97c5e7d645182",
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": "![](images/53a8cc3572f7fa2535763f8940dd97c5e7d645182a14fe0aab4e703ecec45e13.jpg)",
+      "image_path": "images/53a8cc3572f7fa2535763f8940dd97c5e7d645182a14fe0aab4e703ecec45e13.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::image::15::images_53a8cc3572f7fa2535763f8940dd97c5e7d645182",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc8::artifact::16::details_summary_natural_image_summary_two_3d_whi",
+      "label": "<details> <summary>natural_image</summary> Two 3D white figures holding hands with a curved line, no text or symbols...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::details::16::details_summary_natural_image_summary_two_3d_whi::chunk::6::details_summary_natural_image_summary_two_3d_whi",
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nTwo 3D white figures holding hands with a curved line, no text or symbols present\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::details::16::details_summary_natural_image_summary_two_3d_whi",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc8::artifact::19::images_1e02670c568641088478a1c054e728d9722169e32",
+      "label": "![](images/1e02670c568641088478a1c054e728d9722169e32f5d2a561d0d7f8a7d0ccbd5.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::image::19::images_1e02670c568641088478a1c054e728d9722169e32::chunk::8::images_1e02670c568641088478a1c054e728d9722169e32",
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": "![](images/1e02670c568641088478a1c054e728d9722169e32f5d2a561d0d7f8a7d0ccbd5.jpg)",
+      "image_path": "images/1e02670c568641088478a1c054e728d9722169e32f5d2a561d0d7f8a7d0ccbd5.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::image::19::images_1e02670c568641088478a1c054e728d9722169e32",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc8::artifact::39::images_09329168f9612aac3a194ca88a796e78ad9589e47",
+      "label": "![](images/09329168f9612aac3a194ca88a796e78ad9589e4796909e42afa1fa75d8ad821.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::image::39::images_09329168f9612aac3a194ca88a796e78ad9589e47::chunk::10::images_09329168f9612aac3a194ca88a796e78ad9589e47",
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": "![](images/09329168f9612aac3a194ca88a796e78ad9589e4796909e42afa1fa75d8ad821.jpg)",
+      "image_path": "images/09329168f9612aac3a194ca88a796e78ad9589e4796909e42afa1fa75d8ad821.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::image::39::images_09329168f9612aac3a194ca88a796e78ad9589e47",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc8::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD Charlie --> SP Charlie --> EPC Alice --> EP Alice --> BSM...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    Charlie --> SP\n    Charlie --> EPC\n    Alice --> EP\n    Alice --> BSM\n    Alice --> DP\n    Bob --> DP\n    Bob --> QSR\n    BSM --> EP\n    BSM --> QSR\n    DP --> EP\n    QSR --> EP\n    EP --> EPC\n    EPC --> SP\n    style Charlie fill:#f9f,stroke:#333\n    style Alice fill:#ccf,stroke:#333\n    style Bob fill:#cfc,stroke:#333\n    style BSM fill:#fcc,stroke:#333\n    style QSR fill:#cff,stroke:#333\n    style EP fill:#ffc,stroke:#333\n    linkStyle 0 stroke:#000,stroke-width:2px\n    linkStyle 1 stroke:#000,stroke-width:2px\n    linkStyle 2 stroke:#000,stroke-width:2px\n    linkStyle 3 stroke:#000,stroke-width:2px\n    linkStyle 4 stroke:#000,stroke-width:2px\n    linkStyle 5 stroke:#000,stroke-width:2px\n    linkStyle 6 stroke:#000,stroke-width:2px\n    linkStyle 7 stroke:#000,stroke-width:2px\n    linkStyle 8 stroke:#000,stroke-width:2px\n    linkStyle 9 stroke:#000,stroke-width:2px\n    linkStyle 10 stroke:#000,stroke-width:2px\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc8::artifact::44::images_a357c499f8d6e6448d867f87036d89b6742ffbba6",
+      "label": "![](images/a357c499f8d6e6448d867f87036d89b6742ffbba6d029dcdb057e10ac83b8322.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::image::44::images_a357c499f8d6e6448d867f87036d89b6742ffbba6::chunk::13::images_a357c499f8d6e6448d867f87036d89b6742ffbba6",
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": "![](images/a357c499f8d6e6448d867f87036d89b6742ffbba6d029dcdb057e10ac83b8322.jpg)",
+      "image_path": "images/a357c499f8d6e6448d867f87036d89b6742ffbba6d029dcdb057e10ac83b8322.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::image::44::images_a357c499f8d6e6448d867f87036d89b6742ffbba6",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc8::artifact::45::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Alice\"] --> B[\"SP\"] B --> C[\"BSM\"] C --> D[\"Repeater\"]...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::details::45::details_summary_flowchart_summary_mermaid_graph_::chunk::14::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Alice\"] --> B[\"SP\"]\n    B --> C[\"BSM\"]\n    C --> D[\"Repeater\"]\n    D --> E[\"QSR\"]\n    D --> F[\"BSM\"]\n    D --> G[\"EP\"]\n    G --> H[\"EPC\"]\n    H --> I[\"QC\"]\n    I --> J[\"EPC\"]\n    J --> K[\"QC\"]\n    K --> L[\"BCS\"]\n    L --> M[\"SP\"]\n    M --> N[\"BSM\"]\n    N --> O[\"Repeater\"]\n    O --> P[\"QSR\"]\n    O --> Q[\"BSM\"]\n    P --> R[\"QP\"]\n    Q --> S[\"QP\"]\n    R --> T[\"Bob\"]\n    S --> U[\"Bob\"]\n    T --> V[\"DP\"]\n    U --> W[\"QSR\"]\n    V --> X[\"EP\"]\n    W --> Y[\"EP\"]\n    X --> Z[\"QC\"]\n    Z --> AA[\"CC\"]\n    AA --> AB[\"CC\"]\n    AB --> AC[\"CC\"]\n    AC --> AD[\"CC\"]\n    AD --> AE[\"CC\"]\n    AE --> AF[\"CC\"]\n    AF --> AG[\"CC\"]\n    AG --> AH[\"CC\"]\n    AH --> AI[\"CC\"]\n    AI --> AJ[\"CC\"]\n    AJ --> AK[\"CC\"]\n    AK --> AL[\"CC\"]\n    AL --> AM[\"CC\"]\n    AM --> AN[\"CC\"]\n    AN --> AO[\"CC\"]\n    AO --> AP[\"CC\"]\n    AP --> AQ[\"CC\"]\n    AQ --> AR[\"CC\"]\n    AR --> AS[\"CC\"]\n    AS --> AT[\"CC\"]\n    AT --> AU[\"CC\"]\n    AU --> AV[\"CC\"]\n    AV --> AW[\"CC\"]\n    AW --> AX[\"CC\"]\n    AX --> AY[\"CC\"]\n    AY --> AZ[\"CC\"]\n    AZ --> BA[\"CC\"]\n    BA --> BB[\"CC\"]\n    BB --> BC[\"CC\"]\n    BC --> BD[\"CC\"]\n    BD --> BE[\"CC\"]\n    BE --> BF[\"CC\"]\n    BF --> BG[\"CC\"]\n    BG --> BH[\"CC\"]\n    BH --> BI[\"CC\"]\n    BI --> BJ[\"CC\"]\n    BJ --> BK[\"CC\"]\n    BK --> BL[\"CC\"]\n    BL --> BM[\"CC\"]\n    BM --> BN[\"CC\"]\n    BN --> BO[\"CC\"]\n    BO --> BP[\"CC\"]\n    BP --> BQ[\"CC\"]\n    BQ --> BR[\"CC\"]\n    BR --> BS[\"CC\"]\n    BS --> BT[\"CC\"]\n    BT --> BU[\"CC\"]\n    BU --> BV[\"CC\"]\n    BV --> BW[\"CC\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::details::45::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc8::artifact::48::images_44db92000a0f47ec025ace8abc1699a1f81f82bc9",
+      "label": "![](images/44db92000a0f47ec025ace8abc1699a1f81f82bc96f1910b5989b69660d5dc1b.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::image::48::images_44db92000a0f47ec025ace8abc1699a1f81f82bc9::chunk::16::images_44db92000a0f47ec025ace8abc1699a1f81f82bc9",
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": "![](images/44db92000a0f47ec025ace8abc1699a1f81f82bc96f1910b5989b69660d5dc1b.jpg)",
+      "image_path": "images/44db92000a0f47ec025ace8abc1699a1f81f82bc96f1910b5989b69660d5dc1b.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::image::48::images_44db92000a0f47ec025ace8abc1699a1f81f82bc9",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc8::artifact::49::details_summary_natural_image_summary_vintage_el",
+      "label": "<details> <summary>natural_image</summary> Vintage electrical control console with multiple switches, red and white w...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::details::49::details_summary_natural_image_summary_vintage_el::chunk::17::details_summary_natural_image_summary_vintage_el",
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nVintage electrical control console with multiple switches, red and white wires, and a rotary dial on a wooden table (no visible text or labels)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::details::49::details_summary_natural_image_summary_vintage_el",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc8::artifact::55::images_e019cfcb163ebe076ae49918d4dfe042f11c2631e",
+      "label": "![](images/e019cfcb163ebe076ae49918d4dfe042f11c2631ea141b48bf733cb3f5fd4db8.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::image::55::images_e019cfcb163ebe076ae49918d4dfe042f11c2631e::chunk::21::images_e019cfcb163ebe076ae49918d4dfe042f11c2631e",
+      "page_idx": null,
+      "section_path": [
+        "Quantum Routing Architecture"
+      ],
+      "text": "![](images/e019cfcb163ebe076ae49918d4dfe042f11c2631ea141b48bf733cb3f5fd4db8.jpg)",
+      "image_path": "images/e019cfcb163ebe076ae49918d4dfe042f11c2631ea141b48bf733cb3f5fd4db8.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::image::55::images_e019cfcb163ebe076ae49918d4dfe042f11c2631e",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc8::artifact::56::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Source SP\"] --> B[\"BSM\"] B --> C[\"QSR\"] C --> D[\"BSM\"]...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::details::56::details_summary_flowchart_summary_mermaid_graph_::chunk::22::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Quantum Routing Architecture"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Source SP\"] --> B[\"BSM\"]\n    B --> C[\"QSR\"]\n    C --> D[\"BSM\"]\n    D --> E[\"Destination 1 DP\"]\n    E --> F[\"QSR\"]\n    F --> G[\"Destination 2 EP\"]\n    G --> H[\"QSR\"]\n    H --> I[\"Destination 2 EP\"]\n    I --> J[\"Destination 2 EP\"]\n    J --> K[\"QSR\"]\n    K --> L[\"Destination 2 EP\"]\n    L --> M[\"Destination 2 EP\"]\n    M --> N[\"QSR\"]\n    N --> O[\"Destination 2 EP\"]\n    O --> P[\"Destination 2 EP\"]\n    P --> Q[\"QSR\"]\n    Q --> R[\"Destination 2 EP\"]\n    R --> S[\"Destination 2 EP\"]\n    S --> T[\"Destination 2 EP\"]\n    T --> U[\"Destination 2 EP\"]\n    U --> V[\"Destination 2 EP\"]\n    V --> W[\"Destination 2 EP\"]\n    W --> X[\"Destination 2 EP\"]\n    X --> Y[\"Destination 2 EP\"]\n    Y --> Z[\"Destination 2 EP\"]\n    Z --> AA[\"Destination 2 EP\"]\n    AA --> AB[\"Destination 2 EP\"]\n    AB --> AC[\"Destination 2 EP\"]\n    AC --> AD[\"Destination 2 EP\"]\n    AD --> AE[\"Destination 2 EP\"]\n    AE --> AF[\"Destination 2 EP\"]\n    AF --> AG[\"Destination 2 EP\"]\n    AG --> AH[\"Destination 2 EP\"]\n    AH --> AI[\"Destination 2 EP\"]\n    AI --> AJ[\"Destination 2 EP\"]\n    AJ --> AK[\"Destination 2 EP\"]\n    AK --> AL[\"Destination 2 EP\"]\n    AL --> AM[\"Destination 2 EP\"]\n    AM --> AN[\"Destination 2 EP\"]\n    AN --> AO[\"Destination 2 EP\"]\n    AO --> AP[\"Destination 2 EP\"]\n    AP --> AQ[\"Destination 2 EP\"]\n    AQ --> AR[\"Destination 2 EP\"]\n    AR --> AS[\"Destination 2 EP\"]\n    AS --> AT[\"Destination 2 EP\"]\n    AT --> AU[\"Destination 2 EP\"]\n    AU --> AV[\"Destination 2 EP\"]\n    AV --> AW[\"Destination 2 EP\"]\n    AW --> AX[\"Destination 2 EP\"]\n    AX --> AY[\"Destination 2 EP\"]\n    AY --> AZ[\"Destination 2 EP\"]\n    AZ --> BA[\"Destination 2 EP\"]\n    BA --> BB[\"Destination 2 EP\"]\n    BB --> BC[\"Destination 2 EP\"]\n    BC --> BD[\"Destination 2 EP\"]\n    BD --> BE[\"Destination 2 EP\"]\n    BE --> BF[\"Destination 2 EP\"]\n    BF --> BG[\"Destination 2 EP\"]\n    BG --> BH[\"Destination 2 EP\"]\n    BH --> BI[\"Destination 2 EP\"]\n    BI --> BJ[\"Destination 2 EP\"]\n    BJ --> BK[\"Destination 2 EP\"]\n    BK --> BL[\"Destination 2 EP\"]\n    BL --> BM[\"Destination 2 EP\"]\n    BM --> BN[\"Destination 2 EP\"]\n    BN --> BO[\"Destination 2 EP\"]\n    BO --> BP[\"Destination 2 EP\"]\n    BP --> BQ[\"Destination 2 EP\"]\n    BQ --> BR[\"Destination 2 EP\"]\n    BR --> BS[\"Destination 2 EP\"]\n    BS --> BT[\"Destination 2 EP\"]\n    BT --> BU[\"Destination 2 EP\"]\n    BU --> BV[\"Destination 2 EP\"]\n    BV --> BW[\"Destination 2 EP\"]\n    BW --> BX[\"Destination 2 EP\"]\n    BX --> BY[\"Destination 2 EP\"]\n    BY --> BZ[\"Destination 2 EP\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::details::56::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc8::artifact::63::images_20c480791fdcc91c8c2c637d1b7958016ff215d8a",
+      "label": "![](images/20c480791fdcc91c8c2c637d1b7958016ff215d8a87022eedcd40d5255b8bbfc.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::image::63::images_20c480791fdcc91c8c2c637d1b7958016ff215d8a::chunk::24::images_20c480791fdcc91c8c2c637d1b7958016ff215d8a",
+      "page_idx": null,
+      "section_path": [
+        "Quantum Routing Architecture"
+      ],
+      "text": "![](images/20c480791fdcc91c8c2c637d1b7958016ff215d8a87022eedcd40d5255b8bbfc.jpg)",
+      "image_path": "images/20c480791fdcc91c8c2c637d1b7958016ff215d8a87022eedcd40d5255b8bbfc.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::image::63::images_20c480791fdcc91c8c2c637d1b7958016ff215d8a",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc8::artifact::64::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Source\"] --> B[\"BSM\"] B --> C[\"QSR\"] B --> D[\"BSM\"] C -...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Quantum Routing Architecture"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Source\"] --> B[\"BSM\"]\n    B --> C[\"QSR\"]\n    B --> D[\"BSM\"]\n    C --> E[\"EP\"]\n    D --> F[\"EP\"]\n    E --> G[\"QR 1\"]\n    F --> H[\"QR 2\"]\n    G --> I[\"QR 3\"]\n    H --> J[\"QR 3\"]\n    I --> K[\"QR 3\"]\n    J --> L[\"QR 3\"]\n    K --> M[\"QSR\"]\n    K --> N[\"BSM\"]\n    L --> O[\"QSR\"]\n    L --> P[\"BSM\"]\n    M --> Q[\"QSR\"]\n    M --> R[\"BSM\"]\n    N --> S[\"QSR\"]\n    N --> T[\"BSM\"]\n    O --> U[\"QSR\"]\n    O --> V[\"BSM\"]\n    P --> W[\"QSR\"]\n    P --> X[\"BSM\"]\n    Q --> Y[\"Destination\"]\n    R --> Y\n    S --> Y\n    T --> Y\n    U --> Y\n    V --> Y\n    W --> Y\n    X --> Y\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc8::artifact::75::images_6d945dabd67a7e7aba93fcc457a2079dc1cf93e80",
+      "label": "![](images/6d945dabd67a7e7aba93fcc457a2079dc1cf93e807a74592c63d5e2a33104c93.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::image::75::images_6d945dabd67a7e7aba93fcc457a2079dc1cf93e80::chunk::28::images_6d945dabd67a7e7aba93fcc457a2079dc1cf93e80",
+      "page_idx": null,
+      "section_path": [
+        "Quantum Router Design"
+      ],
+      "text": "![](images/6d945dabd67a7e7aba93fcc457a2079dc1cf93e807a74592c63d5e2a33104c93.jpg)",
+      "image_path": "images/6d945dabd67a7e7aba93fcc457a2079dc1cf93e807a74592c63d5e2a33104c93.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::image::75::images_6d945dabd67a7e7aba93fcc457a2079dc1cf93e80",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc8::artifact::76::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD subgraph Source A[\"Qubit Selection\"] --> B[\"Forward Qubit\"...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Quantum Router Design"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    subgraph Source\n        A[\"Qubit Selection\"] --> B[\"Forward Qubit\"]\n        C[\"Next Hop\"] --> B\n        B --> D[\"bsmResult, eprId, dest\"]\n    end\n\n    subgraph Quantum Router\n        E[\"Recover Qubit\"] --> F[\"Forward Qubit\"]\n        G[\"Next Hop\"] --> F\n        F --> H[\"bsmResult, eprId, dest\"]\n    end\n\n    subgraph Destination\n        I[\"Recover Qubit\"] --> J[\"End\"]\n    end\n\n    A --> K[\"Qubit\"]\n    K --> L[\"Quantum Circuits\"]\n    L --> M[\"Next Hop\"]\n    M --> N[\"qubitId, dest\"]\n    N --> O[\"Forward Qubit\"]\n    O --> P[\"bsmResult, eprId, dest\"]\n    P --> Q[\"Recover Qubit\"]\n    Q --> R[\"End\"]\n\n    style Source fill:#f9f,stroke:#333\n    style QuantumRouter fill:#bbf,stroke:#333\n    style Destination fill:#dfd,stroke:#333\n\n    note1[\"getQubit\"]\n    note2[\"teleport{qubitId, nextHop}\"]\n    note3[\"bsmResult,eprId\"]\n    note4[\"qsr(eprId,bsmResult)\"]\n    note5[\"teleport{qubitId, nextHop}\"]\n    note6[\"qsr(eprId,bsmResult)\"]\n    note7[\"qsr(eprId,bsmResult)\"]\n    note8[\"qubitId\"]\n    note9[\"Entangled Pairs\"]\n    note10[\"Quantum Repeater\"]\n    note11[\"Entangled Pairs\"]\n    note12[\"Quantum Network\"]\n    note13[\"Digital Network\"]\n    note14[\"Quantum Network\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc8::artifact::96::images_576cc6fec1a9a627b78ad5674926fa0d6ca9b1572",
+      "label": "![](images/576cc6fec1a9a627b78ad5674926fa0d6ca9b1572657ad1f39be8dd709e782c5.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::image::96::images_576cc6fec1a9a627b78ad5674926fa0d6ca9b1572::chunk::33::images_576cc6fec1a9a627b78ad5674926fa0d6ca9b1572",
+      "page_idx": null,
+      "section_path": [
+        "Entangled Pair Management"
+      ],
+      "text": "![](images/576cc6fec1a9a627b78ad5674926fa0d6ca9b1572657ad1f39be8dd709e782c5.jpg)",
+      "image_path": "images/576cc6fec1a9a627b78ad5674926fa0d6ca9b1572657ad1f39be8dd709e782c5.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::image::96::images_576cc6fec1a9a627b78ad5674926fa0d6ca9b1572",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc8::artifact::97::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Source\"] --> B[\"Quantum Router\"] B --> C[\"Destination\"]...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Entangled Pair Management"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Source\"] --> B[\"Quantum Router\"]\n    B --> C[\"Destination\"]\n    D[\"Entangled Pairs\"] --> E[\"Quantum Repeater\"]\n    E --> F[\"Digital Network Quantum Network\"]\n    G[\"Entangled Pair Management\"] --> H[\"Quantum Repeater\"]\n    H --> I[\"Digital communication\"]\n    H --> J[\"Quantum communication\"]\n    K[\"epr(eprId)\"] --> L[\"createEpr(src, dest)\"]\n    M[\"epr(eprId)\"] --> N[\"createEpr(src, dest)\"]\n    O[\"Quantum Repeater\"] --> P[\"Quantum Repeater\"]\n    Q[\"Quantum Repeater\"] --> R[\"Quantum Repeater\"]\n    S[\"Quantum Repeater\"] --> T[\"Quantum Repeater\"]\n    U[\"Quantum Repeater\"] --> V[\"Quantum Repeater\"]\n    W[\"Quantum Repeater\"] --> X[\"Quantum Repeater\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc8::artifact::104::txt_source_node_getqubit_return_0_4091_0_0_9125_",
+      "label": "```txt Source Node getqubit() return (0.4091)|0> + (0.9125)|1> teleport(qubit: (0.4091)|0> + (0.9125)|1>, nextHop: QI...",
+      "kind": "artifact",
+      "content_type": "code",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_::chunk::38::txt_source_node_getqubit_return_0_4091_0_0_9125_",
+      "page_idx": null,
+      "section_path": [
+        "Entangled Web Prototype"
+      ],
+      "text": "```txt\nSource Node\n    getqubit()\n    return (0.4091)|0> + (0.9125)|1>\n    teleport(qubit: (0.4091)|0> + (0.9125)|1>, nextHop: QIR)\n    Entangled Pair ID: 0, state: (0.7071)|00> + (0.7071)|11>\n    Bell State: (0.2893)|000> + (0.2893)|011> + (0.6452)|100> + (0.6452)|111>)\n    return(epId: 0, bsmResult: 0)\n\nforward({\"src\":\"Source\",\"dest\":\"Destination\",\"teleportResult\":{\"epId\":0,\"bsmResult\":0}})\nQIR\n    qsr({\"epId\":0,\"bsmResult\":0})\n    return(qubit: (0.4091)|0> + (0.9125)|1>)\n    teleport(qubit: (0.4091)|0> + (0.9125)|1>, nextHop: Destination)\n    Entangled Pair ID: 1 state: (0.7071)|00> + (0.7071)|11>\n    Bell State: (0.2893)|000> + (0.2893)|011> + (0.6452)|100> + (0.6452)|111>)\n    return(epId: 1, bsmResult: 3)\n\nforward({\"src\":\"Source\",\"dest\":\"Destination\",\"teleportResult\":{\"epId\":1,\"bsmResult\":3}})\nDestination Node\n    qsr({\"epId\":1,\"bsmResult\":3})\n    return(qubit: (0.4091)|0> + (0.9125)|1>) \n```",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_",
+        "block_kind": "code",
+        "language": "txt"
+      }
+    }
+  ]
+}

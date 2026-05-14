@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_e03c38966d",
+    "question_text": "Which of the following is a key factor studied in demography?",
+    "options": [
+      "A. Population size and distribution",
+      "B. Economic policies of a country",
+      "C. Cultural traditions and festivals",
+      "D. Political party affiliations"
+    ],
+    "correct_answer": "A",
+    "explanation": "Demography primarily studies population characteristics such as size, distribution, and composition. This is a foundational concept in understanding human populations. (Source: doc4::chunk::0)",
+    "target_concept": "Demography",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc4::chunk::0",
+      "run_id": "20260512_143848_doc4_ee2f1e"
+    }
+  },
+  {
+    "id": "q_90332d914c",
+    "question_text": "Which of the following best explains why early human settlements often developed near rivers?",
+    "options": [
+      "A) Rivers provided a reliable source of fresh water and fertile soil for agriculture.",
+      "B) Rivers were the only available source of food for early humans.",
+      "C) Early humans believed rivers had spiritual significance.",
+      "D) Rivers acted as natural barriers to protect settlements from invasions."
+    ],
+    "correct_answer": "A",
+    "explanation": "Early human settlements developed near rivers primarily due to access to fresh water and fertile soil, which supported agriculture and sustained communities. This relationship is documented in historical and geographical studies (doc4::chunk::1).",
+    "target_concept": "relationship between human societies and earth’s surface",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "doc4::chunk::1",
+      "run_id": "20260512_143848_doc4_ee2f1e"
+    }
+  },
+  {
+    "id": "q_79bb134d28",
+    "question_text": "What is the primary focus of geography as a field of study?",
+    "options": [
+      "A. The study of human cultures and societies",
+      "B. The study of Earth's physical features, climate, and human-environment interactions",
+      "C. The study of historical events and their impact on modern societies",
+      "D. The study of celestial bodies and their movements"
+    ],
+    "correct_answer": "B",
+    "explanation": "Geography is the study of Earth's physical features, climate, and how humans interact with their environment. This definition aligns with the fundamental concept outlined in doc4::concept::1::geography.",
+    "target_concept": "geography",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc4::concept::1::geography",
+      "run_id": "20260512_143848_doc4_ee2f1e"
+    }
+  },
+  {
+    "id": "q_77b93fe043",
+    "question_text": "Which of the following best describes natural laws in the context of science and technology?",
+    "options": [
+      "A set of rules created by scientists to explain observations",
+      "Fundamental principles that govern the behavior of the natural world, derived from repeated observations and experiments",
+      "Theories that change frequently based on new technological advancements",
+      "Guidelines established by governments to regulate scientific research"
+    ],
+    "correct_answer": "B",
+    "explanation": "Natural laws are fundamental principles that describe the consistent behavior of the natural world, derived from empirical observations and experiments. They are not human-made rules or theories subject to frequent change. (Source: doc4::chunk::44::natural_laws)",
+    "target_concept": "natural laws",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc4::chunk::44::natural_laws",
+      "run_id": "20260512_143848_doc4_ee2f1e"
+    }
+  },
+  {
+    "id": "q_81ddc9bd53",
+    "question_text": "Which of the following best describes the humanisation of nature?",
+    "options": [
+      "A. The process of preserving natural landscapes without any human intervention.",
+      "B. The transformation of natural environments through human activities such as agriculture and urban development.",
+      "C. The study of natural ecosystems and their interactions with wildlife.",
+      "D. The movement to protect endangered species by relocating them to zoos."
+    ],
+    "correct_answer": "B",
+    "explanation": "The humanisation of nature refers to the modification of natural landscapes by human actions, such as farming or city expansion, as outlined in doc4::concept::54::humanisation_of_nature.",
+    "target_concept": "humanisation of nature",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc4::concept::54::humanisation_of_nature",
+      "run_id": "20260512_143848_doc4_ee2f1e"
+    }
+  }
+]

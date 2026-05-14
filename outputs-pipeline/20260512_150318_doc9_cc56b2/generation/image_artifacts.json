@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a minimalist world map with high-contrast colors (e.g., red for affected regions, neutral gray for unaffected areas) and clear, bold labels like \"Affected Zone 1\" and \"Affected Zone 2.\" Include subtle icons (e.g., medical crosses, alert symbols) to denote health emergencies, ensuring all elements are generic and non-copyrighted. Use a clean, accessible design with sufficient color differentiation for visibility.\n\n**Alt:** A world map with highlighted regions marked as affected by a global health emergency, using symbols and labels for clarity.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150318_doc9_cc56b2/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Create a high-contrast, scientifically accurate illustration of a spherical virus with spike proteins, labeled \"Virus X\" in bold. Use a dark background with bright, distinct colors (e.g., red spikes, gray core) for clarity. Avoid realistic human elements or branded content.\n\n**Alt:** Microscopic depiction of a spherical virus with protruding spikes, labeled \"Virus X\" against a dark background.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150318_doc9_cc56b2/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate a person jogging in a sunny park, surrounded by lush green trees and a clear blue sky, with a relaxed, happy expression. Use bright, natural colors with high contrast for clarity, and avoid branded clothing or logos. Label the scene subtly with \"Park\" and \"Jogging Path\" if needed.\n\n**Alt:** A person jogging in a green park under a blue sky, depicting an active coping strategy for well-being.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150318_doc9_cc56b2/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram of a brain with labeled regions (e.g., \"Amygdala,\" \"Prefrontal Cortex\") showing the effects of chronic stress, using arrows or color shifts (e.g., red for overactivity, gray for shrinkage) to indicate changes. Avoid text-heavy explanations; use icons (e.g., lightning bolts for stress triggers) and minimal labels. Keep the style clean and scientific, with a neutral background for accessibility.\n\n**Alt:** A labeled brain diagram illustrating how chronic stress alters key regions, using color and arrows to show effects.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150318_doc9_cc56b2/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast diagram of a human silhouette with labeled arrows pointing to key areas affected by stress (e.g., brain, heart, muscles, adrenal glands), using a warm red-orange palette for stress responses and cool blues for neutral/baseline states. Include simple icons (e.g., lightning bolts for adrenaline, a racing heart) and avoid realistic faces or branded elements. Alt: A labeled diagram illustrating how stress impacts the body’s organs and systems.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150318_doc9_cc56b2/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

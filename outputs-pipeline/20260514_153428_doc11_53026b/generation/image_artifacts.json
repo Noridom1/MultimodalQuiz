@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast diagram of a human body with labeled arrows showing key physiological changes (e.g., increased heart rate, dilated pupils, tense muscles) during the fight or flight response. Use bold, neutral colors (reds for activation, blues for context) and label hormones as \"Hormone X\" and \"Hormone Y\" without revealing their names. Alt: A diagram illustrating physiological changes during the fight or flight response, with labeled hormones and body reactions.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153428_doc11_53026b/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast illustration of a person sitting alone with slumped shoulders, downcast eyes, and a neutral background to depict a low mood. Use muted blues and grays for a somber tone, and label the scene subtly with \"Mood Condition\" in a small, unobtrusive corner. Avoid any text that reveals the specific condition.\n\n**Alt:** A person sitting alone with a sad expression, illustrating a low mood.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153428_doc11_53026b/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate a person with a tense posture, clutching their chest, with visible signs of distress like sweating or rapid breathing. Use high-contrast colors (e.g., deep blues for clothing, warm reds for stress indicators) and label key symptoms like \"chest tightness\" and \"muscle tension\" with neutral, unobtrusive text. Avoid realistic faces or branded items.\n\n**Alt:** A person in distress clutching their chest, showing physical symptoms of anxiety.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153428_doc11_53026b/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a simplified anatomical diagram showing the adrenal glands (labeled \"Adrenal Glands\") atop the kidneys, with arrows radiating outward to depict cortisol release (labeled \"Cortisol\") during stress. Use a warm, high-contrast color palette (e.g., red/orange for cortisol, neutral tones for anatomy) to emphasize the stress response, and include a small brain icon with a \"Stress Signal\" label to show the trigger. Alt: A diagram illustrating cortisol release from the adrenal glands in response to stress.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153428_doc11_53026b/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate a person clutching their chest with a tense expression, their face flushed and forehead slightly sweaty, while a pulsing red heartbeat line (EKG-style) rises sharply beside them to indicate elevated heart rate. Add subtle labels like \"rapid heartbeat\" and \"chest tightness\" near the relevant areas, using high-contrast colors (e.g., red for the heartbeat, neutral tones for the person). Avoid text that states \"stress\" directly.\n\n**Alt:** A person holds their chest with a worried expression, with a visible elevated heartbeat line and labels for physiological symptoms.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153428_doc11_53026b/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

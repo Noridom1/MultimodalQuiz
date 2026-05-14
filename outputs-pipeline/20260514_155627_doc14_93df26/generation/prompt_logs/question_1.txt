@@ -1,0 +1,40 @@
+Index: 1
+Target concept: sexual reproduction
+Tested fact block id: doc14::chunk::1
+Image description: A diagram showing the fusion of gametes from two parents to form a zygote.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: sexual reproduction
+Question type: multiple_choice
+Difficulty: medium
+Reasoning type: causal
+Image role: illustrative
+Learning objective: Understand how sexual reproduction contributes to genetic diversity.
+Image context: A diagram showing the fusion of gametes from two parents to form a zygote.
+Tested fact block ID: doc14::chunk::1
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+**Prompt:**
+Create a simple, high-contrast diagram showing two distinct gametes (labeled "Gamete A" and "Gamete B") fusing to form a zygote, with arrows indicating the combination of genetic material. Use a neutral color palette with bright accents for clarity, and ensure labels are legible. Avoid realistic human figures—use abstract shapes or symbols for gametes.
+
+**Alt:** A diagram illustrating two gametes merging to form a zygote, demonstrating genetic diversity in sexual reproduction.
+
+--- Raw LLM image-prompt response ---
+**Prompt:**
+Create a simple, high-contrast diagram showing two distinct gametes (labeled "Gamete A" and "Gamete B") fusing to form a zygote, with arrows indicating the combination of genetic material. Use a neutral color palette with bright accents for clarity, and ensure labels are legible. Avoid realistic human figures—use abstract shapes or symbols for gametes.
+
+**Alt:** A diagram illustrating two gametes merging to form a zygote, demonstrating genetic diversity in sexual reproduction.

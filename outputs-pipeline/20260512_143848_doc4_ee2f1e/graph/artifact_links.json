@@ -1,0 +1,148 @@
+{
+  "artifact_count": 7,
+  "artifacts": [
+    {
+      "id": "doc4::artifact::0::images_62c6df618b0dac5b857efc80259cacf9cba618a19",
+      "label": "![](images/62c6df618b0dac5b857efc80259cacf9cba618a192ceb2e3c1e19122570699ee.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": "doc4::image::0::images_62c6df618b0dac5b857efc80259cacf9cba618a19::chunk::0::images_62c6df618b0dac5b857efc80259cacf9cba618a19",
+      "page_idx": null,
+      "section_path": [],
+      "text": "![](images/62c6df618b0dac5b857efc80259cacf9cba618a192ceb2e3c1e19122570699ee.jpg)",
+      "image_path": "images/62c6df618b0dac5b857efc80259cacf9cba618a192ceb2e3c1e19122570699ee.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc4::image::0::images_62c6df618b0dac5b857efc80259cacf9cba618a19",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc4::artifact::1::details_summary_text_image_summary_qr_code_image",
+      "label": "<details> <summary>text_image</summary> QR code image containing encoded data, no visible human-readable text </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": "doc4::details::1::details_summary_text_image_summary_qr_code_image::chunk::1::details_summary_text_image_summary_qr_code_image",
+      "page_idx": null,
+      "section_path": [],
+      "text": "<details>\n<summary>text_image</summary>\n\nQR code image containing encoded data, no visible human-readable text\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc4::details::1::details_summary_text_image_summary_qr_code_image",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc4::artifact::5::images_d02db593a5aa9cfbd1485bcf7594f3143acc4e6ec",
+      "label": "![](images/d02db593a5aa9cfbd1485bcf7594f3143acc4e6ec2801ca296c195f1b4108fbe.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": "doc4::image::5::images_d02db593a5aa9cfbd1485bcf7594f3143acc4e6ec::chunk::5::images_d02db593a5aa9cfbd1485bcf7594f3143acc4e6ec",
+      "page_idx": null,
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "text": "![](images/d02db593a5aa9cfbd1485bcf7594f3143acc4e6ec2801ca296c195f1b4108fbe.jpg)",
+      "image_path": "images/d02db593a5aa9cfbd1485bcf7594f3143acc4e6ec2801ca296c195f1b4108fbe.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc4::image::5::images_d02db593a5aa9cfbd1485bcf7594f3143acc4e6ec",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc4::artifact::6::details_summary_natural_image_summary_black_and_",
+      "label": "<details> <summary>natural_image</summary> Black-and-white collage showing three scenes: a person using a power saw,...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": "doc4::details::6::details_summary_natural_image_summary_black_and_::chunk::6::details_summary_natural_image_summary_black_and_",
+      "page_idx": null,
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nBlack-and-white collage showing three scenes: a person using a power saw, a sailboat on water with boats, and a woman harvesting apples from a tree in front of a snow-capped mountain (no text or symbols visible)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc4::details::6::details_summary_natural_image_summary_black_and_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc4::artifact::9::images_4de22c76a4091cc858d8b8441a4ef9adf2d24d3a7",
+      "label": "![](images/4de22c76a4091cc858d8b8441a4ef9adf2d24d3a7cfb66fdd44a0efdaeb7d8e6.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": "doc4::image::9::images_4de22c76a4091cc858d8b8441a4ef9adf2d24d3a7::chunk::9::images_4de22c76a4091cc858d8b8441a4ef9adf2d24d3a7",
+      "page_idx": null,
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "text": "![](images/4de22c76a4091cc858d8b8441a4ef9adf2d24d3a7cfb66fdd44a0efdaeb7d8e6.jpg)",
+      "image_path": "images/4de22c76a4091cc858d8b8441a4ef9adf2d24d3a7cfb66fdd44a0efdaeb7d8e6.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc4::image::9::images_4de22c76a4091cc858d8b8441a4ef9adf2d24d3a7",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc4::artifact::41::images_93ada8c6f56b334597e32ea938c764f1f786b2bf2",
+      "label": "![](images/93ada8c6f56b334597e32ea938c764f1f786b2bf224b5aa7748e48cf4ba3e0e7.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": "doc4::image::41::images_93ada8c6f56b334597e32ea938c764f1f786b2bf2::chunk::26::images_93ada8c6f56b334597e32ea938c764f1f786b2bf2",
+      "page_idx": null,
+      "section_path": [
+        "Fields and Sub-fields of Human Geography"
+      ],
+      "text": "![](images/93ada8c6f56b334597e32ea938c764f1f786b2bf224b5aa7748e48cf4ba3e0e7.jpg)",
+      "image_path": "images/93ada8c6f56b334597e32ea938c764f1f786b2bf224b5aa7748e48cf4ba3e0e7.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc4::image::41::images_93ada8c6f56b334597e32ea938c764f1f786b2bf2",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc4::artifact::45::images_b062446ae5c3dbfeaffba7c0ba5b5456f0acbc99c",
+      "label": "![](images/b062446ae5c3dbfeaffba7c0ba5b5456f0acbc99c78d0f22f793b4646c9c3c30.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": "doc4::image::45::images_b062446ae5c3dbfeaffba7c0ba5b5456f0acbc99c::chunk::29::images_b062446ae5c3dbfeaffba7c0ba5b5456f0acbc99c",
+      "page_idx": null,
+      "section_path": [
+        "Fields and Sub-fields of Human Geography"
+      ],
+      "text": "![](images/b062446ae5c3dbfeaffba7c0ba5b5456f0acbc99c78d0f22f793b4646c9c3c30.jpg)",
+      "image_path": "images/b062446ae5c3dbfeaffba7c0ba5b5456f0acbc99c78d0f22f793b4646c9c3c30.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc4::image::45::images_b062446ae5c3dbfeaffba7c0ba5b5456f0acbc99c",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    }
+  ]
+}

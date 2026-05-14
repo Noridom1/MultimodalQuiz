@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "Public Health Emergency of International Concern",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A world map highlighting regions affected by a global health emergency.",
+    "learning_objective": "Understand the definition and scope of a Public Health Emergency of International Concern.",
+    "tested_fact_block_id": "doc9::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "COVID-19",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A microscopic image of the SARS-CoV-2 virus.",
+    "learning_objective": "Identify the causative agent of COVID-19.",
+    "tested_fact_block_id": "doc9::concept::1::covid_19",
+    "metadata": {}
+  },
+  {
+    "target_concept": "psychosocial well-being",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A person jogging in a park, surrounded by greenery.",
+    "learning_objective": "Identify a positive coping strategy that supports psychosocial well-being.",
+    "tested_fact_block_id": "doc9::concept::10::coping_strategies",
+    "metadata": {}
+  },
+  {
+    "target_concept": "mental health",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the effects of chronic stress on the brain.",
+    "learning_objective": "Understand the causal relationship between chronic stress and mental health.",
+    "tested_fact_block_id": "doc9::chunk::11::stress::mental_health::0",
+    "metadata": {}
+  },
+  {
+    "target_concept": "stress",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the physiological effects of stress on the body.",
+    "learning_objective": "Understand the physiological response to stress.",
+    "tested_fact_block_id": "doc9::chunk::11::stress::0",
+    "metadata": {}
+  }
+]

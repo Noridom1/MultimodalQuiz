@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_89a642e85c",
+    "question_text": "What is the primary purpose of multiplexing in operating systems?",
+    "options": [
+      "To allow multiple processes to share a single resource efficiently",
+      "To encrypt data transmitted between processes",
+      "To permanently allocate a CPU to a single process",
+      "To delete unnecessary processes to free up memory"
+    ],
+    "correct_answer": "To allow multiple processes to share a single resource efficiently",
+    "explanation": "Multiplexing in operating systems enables multiple processes to share a single resource, such as a CPU, by rapidly switching between them. This improves resource utilization and system efficiency. (Source: doc2::concept::5::multiplexing)",
+    "target_concept": "multiplexing",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc2::concept::5::multiplexing",
+      "run_id": "20260512_141335_doc2_695e13"
+    }
+  },
+  {
+    "id": "q_7d0cb1b837",
+    "question_text": "What is the primary purpose of context switching in an operating system?",
+    "options": [
+      "To terminate a process that is using too much CPU time",
+      "To allow the CPU to switch from executing one process to another",
+      "To permanently save a process's state to disk",
+      "To allocate more memory to a running process"
+    ],
+    "correct_answer": "B",
+    "explanation": "Context switching allows the CPU to switch from executing one process to another by saving the state of the current process and loading the state of the next process. This is essential for multitasking in operating systems. (Source: doc2::concept::11::context_switches)",
+    "target_concept": "context switching",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc2::concept::11::context_switches",
+      "run_id": "20260512_141335_doc2_695e13"
+    }
+  },
+  {
+    "id": "q_068a8f4f8f",
+    "question_text": "What is the definition of a process in an operating system?",
+    "options": [
+      "A program in execution that includes the program code, data, and resources.",
+      "A static program stored on disk waiting to be executed.",
+      "A hardware component that manages memory allocation.",
+      "A user interface element for interacting with applications."
+    ],
+    "correct_answer": "A program in execution that includes the program code, data, and resources.",
+    "explanation": "A process is a program in execution, encompassing the program code, its current data, and system resources. This definition is foundational for understanding how operating systems manage tasks. (Source: doc2::concept::1::processes)",
+    "target_concept": "processes",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc2::concept::1::processes",
+      "run_id": "20260512_141335_doc2_695e13"
+    }
+  },
+  {
+    "id": "q_36fec03712",
+    "question_text": "In process management, what is the primary purpose of the p->context structure?",
+    "options": [
+      "To store the process ID and user credentials",
+      "To hold the saved registers and CPU state of a process when it is not running",
+      "To manage the memory allocation for the process",
+      "To track the process's open file descriptors"
+    ],
+    "correct_answer": "To hold the saved registers and CPU state of a process when it is not running",
+    "explanation": "The p->context structure is used to save the registers and CPU state of a process when it is preempted or switched out, allowing it to resume execution later. This is documented in doc2::concept::53::p_context.",
+    "target_concept": "p->context",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc2::concept::53::p_context",
+      "run_id": "20260512_141335_doc2_695e13"
+    }
+  },
+  {
+    "id": "q_c847a85691",
+    "question_text": "What is the primary role of hardware timers in process scheduling?",
+    "options": [
+      "A) To allocate memory for processes",
+      "B) To enforce time slices for processes",
+      "C) To manage input/output operations",
+      "D) To compile source code into machine code"
+    ],
+    "correct_answer": "B",
+    "explanation": "Hardware timers enforce time slices for processes, ensuring fair CPU allocation among multiple processes. This is critical for high throughput in multitasking systems. (Source: doc2::concept::10::hardware_timer)",
+    "target_concept": "high throughput",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc2::concept::10::hardware_timer",
+      "run_id": "20260512_141335_doc2_695e13"
+    }
+  }
+]

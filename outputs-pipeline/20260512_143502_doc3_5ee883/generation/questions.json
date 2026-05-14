@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_5b530febb4",
+    "question_text": "In which year did the August Revolution take place?",
+    "options": [
+      "1940",
+      "1945",
+      "1950",
+      "1955"
+    ],
+    "correct_answer": "1945",
+    "explanation": "The August Revolution occurred in 1945, marking a pivotal moment in Vietnam's struggle for independence from colonial rule. This event is documented in doc3::chunk::1.",
+    "target_concept": "August Revolution",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc3::chunk::1",
+      "run_id": "20260512_143502_doc3_5ee883"
+    }
+  },
+  {
+    "id": "q_f86dbcae49",
+    "question_text": "Which of the following was a key historical contribution of Hồ Chí Minh?",
+    "options": [
+      "A. Leading the Vietnamese independence movement against French colonial rule",
+      "B. Establishing the first university in Vietnam",
+      "C. Inventing a new form of martial arts",
+      "D. Writing Vietnam's first constitution as an independent monarchy"
+    ],
+    "correct_answer": "A",
+    "explanation": "Hồ Chí Minh was a central figure in Vietnam's struggle for independence from French colonial rule, founding the Viet Minh and later leading the Democratic Republic of Vietnam. (doc3::chunk::1)",
+    "target_concept": "Hồ Chí Minh",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc3::chunk::1",
+      "run_id": "20260512_143502_doc3_5ee883"
+    }
+  },
+  {
+    "id": "q_8630b4aca6",
+    "question_text": "What was the primary goal of the August Revolution in Vietnam?",
+    "options": [
+      "To establish a communist government",
+      "To gain independence from French colonial rule",
+      "To unite North and South Vietnam",
+      "To form an alliance with China"
+    ],
+    "correct_answer": "B",
+    "explanation": "The August Revolution aimed to gain independence from French colonial rule, as documented in doc3::concept::5::august_revolution.",
+    "target_concept": "National Independence",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc3::concept::5::august_revolution",
+      "run_id": "20260512_143502_doc3_5ee883"
+    }
+  },
+  {
+    "id": "q_2667e2aa7c",
+    "question_text": "Which core principle of Hồ Chí Minh’s thought involves adapting Marxism-Leninism to the specific conditions of Vietnam?",
+    "options": [
+      "A) Proletarian internationalism",
+      "B) National independence and socialism",
+      "C) Pure Marxist-Leninist doctrine",
+      "D) Capitalist industrialization"
+    ],
+    "correct_answer": "B",
+    "explanation": "Hồ Chí Minh’s thought emphasizes adapting Marxism-Leninism to Vietnam’s context, prioritizing national independence as a foundation for socialism. This principle is central to his ideological contributions. (Source: doc3::concept::9::h_ch_minh_s_thought::block_1)",
+    "target_concept": "Hồ Chí Minh’s thought",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc3::concept::9::h_ch_minh_s_thought::block_1",
+      "run_id": "20260512_143502_doc3_5ee883"
+    }
+  },
+  {
+    "id": "q_28a34f9909",
+    "question_text": "Which of the following best describes the primary role of the Việt Minh during the mid-20th century?",
+    "options": [
+      "A political party focused on electoral reforms in French Indochina",
+      "A nationalist coalition leading armed resistance against French colonial rule",
+      "A religious movement advocating for Buddhist independence",
+      "An economic alliance promoting trade with neighboring countries"
+    ],
+    "correct_answer": "B",
+    "explanation": "The Việt Minh was a nationalist coalition formed to resist French colonial rule in Indochina, primarily through armed struggle. It played a key role in the August Revolution and the First Indochina War. (doc3::concept::11::vi_t_minh)",
+    "target_concept": "Việt Minh",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc3::concept::11::vi_t_minh",
+      "run_id": "20260512_143502_doc3_5ee883"
+    }
+  }
+]

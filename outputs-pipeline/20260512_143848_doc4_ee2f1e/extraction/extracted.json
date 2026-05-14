@@ -1,0 +1,2164 @@
+{
+  "concepts": [
+    "qr code",
+    "geography",
+    "physical geography",
+    "human geography",
+    "physical environment",
+    "spatial distributions",
+    "social and economic differences",
+    "dualism",
+    "nomothetic",
+    "idiographic",
+    "regional approach",
+    "systematic approach",
+    "theoretical interpretation",
+    "historic-institutional approach",
+    "face of the earth",
+    "eye of the storm",
+    "mouth of the river",
+    "snout of the glacier",
+    "neck of the isthmus",
+    "profile of the soil",
+    "organisms",
+    "living organism",
+    "arteries of circulation",
+    "synthetic study",
+    "relationship between human societies and earth’s surface",
+    "dynamism",
+    "interrelationships between earth and human beings",
+    "socio-cultural environment",
+    "landforms",
+    "soils",
+    "climate",
+    "water",
+    "natural vegetation",
+    "flora and fauna",
+    "houses",
+    "villages",
+    "cities",
+    "road-rail networks",
+    "industries",
+    "farms",
+    "ports",
+    "material culture",
+    "technology",
+    "cultural development",
+    "natural laws",
+    "friction",
+    "heat",
+    "fire",
+    "dna",
+    "genetics",
+    "aerodynamics",
+    "environmental determinism",
+    "possibilism",
+    "cultural landscape",
+    "humanisation of nature",
+    "radical school of thought",
+    "marxian theory",
+    "capitalism",
+    "behavioural school of thought",
+    "lived experience",
+    "perception of space",
+    "social categories",
+    "ethnicity",
+    "race",
+    "religion",
+    "inter-disciplinary nature",
+    "social sciences",
+    "areal differentiation",
+    "spatial organisation",
+    "quantitative revolution",
+    "humanistic schools",
+    "radical schools",
+    "behavioural schools",
+    "post-modernism in geography",
+    "social geography",
+    "behavioural geography",
+    "geography of social well-being",
+    "geography of leisure",
+    "cultural geography",
+    "gender geography",
+    "historical geography",
+    "medical geography",
+    "urban geography",
+    "political geography",
+    "electoral geography",
+    "military geography",
+    "population geography",
+    "settlement geography",
+    "economic geography",
+    "geography of resources",
+    "geography of agriculture",
+    "geography of industries",
+    "geography of marketing",
+    "geography of tourism",
+    "geography of international trade",
+    "sociology",
+    "psychology",
+    "welfare economics",
+    "anthropology",
+    "women's studies",
+    "history",
+    "epidemiology",
+    "urban studies and planning",
+    "political science",
+    "psephology",
+    "military science",
+    "demography",
+    "economics",
+    "resource economics",
+    "agricultural sciences",
+    "industrial economics",
+    "business studies",
+    "commerce",
+    "tourism and travel management",
+    "international trade"
+  ],
+  "definitions": {
+    "geography": "an integrative, empirical, and practical field of study that examines events or phenomena varying over space and time.",
+    "physical geography": "the study of the physical environment.",
+    "human geography": "attempts to explain the relationship between all elements of human life and the space they occur over.",
+    "technology": "indicates the level of cultural development of society.",
+    "environmental determinism": "The type of interaction between primitive human society and strong forces of nature.",
+    "possibilism": "The idea that nature provides opportunities and humans make use of these, slowly humanizing nature.",
+    "cultural landscape": "The imprints of human activities created everywhere, such as health resorts, urban sprawls, fields, and ports.",
+    "quantitative revolution": "The main objective was to identify mappable patterns for different human activities."
+  },
+  "relations": [
+    {
+      "source": "human geography",
+      "target": "geography",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "physical geography",
+      "target": "geography",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "geography",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "physical geography",
+      "target": "geography",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "physical environment",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "human beings",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "dualism",
+      "target": "geography",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "face of the earth",
+      "target": "metaphor",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "eye of the storm",
+      "target": "metaphor",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "mouth of the river",
+      "target": "metaphor",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "snout of the glacier",
+      "target": "metaphor",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neck of the isthmus",
+      "target": "metaphor",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "profile of the soil",
+      "target": "metaphor",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "organisms",
+      "target": "regions",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "living organism",
+      "target": "state/country",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "arteries of circulation",
+      "target": "networks of road, railways, and waterways",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "relationship between human societies and earth’s surface",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "dynamism",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "interrelationships between earth and human beings",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "physical environment",
+      "relation": "studies",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "socio-cultural environment",
+      "relation": "studies",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human beings",
+      "target": "physical environment",
+      "relation": "modifies",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "physical environment",
+      "target": "human lives",
+      "relation": "impacts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "physical environment",
+      "relation": "studies",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "socio-cultural environment",
+      "relation": "studies",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human beings",
+      "target": "physical environment",
+      "relation": "modifies",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "physical environment",
+      "target": "human lives",
+      "relation": "impacts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human beings",
+      "target": "technology",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "technology",
+      "target": "cultural development",
+      "relation": "indicates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human beings",
+      "target": "technology",
+      "relation": "develops",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "technology",
+      "target": "environment",
+      "relation": "loosens_shackles_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "environmental determinism",
+      "target": "primitive human society",
+      "relation": "characterizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "technology",
+      "target": "cultural development",
+      "relation": "indicates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human beings",
+      "target": "technology",
+      "relation": "develops",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "technology",
+      "target": "environment",
+      "relation": "loosens_shackles_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "environmental determinism",
+      "target": "primitive human society",
+      "relation": "characterizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "technology",
+      "target": "cultural development",
+      "relation": "indicates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "technology",
+      "target": "natural laws",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "understanding of natural laws",
+      "target": "technology",
+      "relation": "enables",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "friction and heat",
+      "target": "discovery of fire",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "DNA and genetics",
+      "target": "conquering diseases",
+      "relation": "enables",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "aerodynamics",
+      "target": "faster planes",
+      "relation": "enables",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "technology",
+      "target": "environmental constraints",
+      "relation": "reduces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human activities",
+      "target": "cultural landscape",
+      "relation": "creates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::28::the_people_begin_to_understand_their_environment::chunk::20::the_people_begin_to_understand_their_environment",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "possibilism",
+      "target": "humanisation of nature",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::28::the_people_begin_to_understand_their_environment::chunk::20::the_people_begin_to_understand_their_environment",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Radical school of thought",
+      "target": "Marxian theory",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Radical school of thought",
+      "target": "capitalism",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Behavioural school of thought",
+      "target": "lived experience",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Behavioural school of thought",
+      "target": "perception of space",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "perception of space",
+      "target": "social categories",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Behavioural school of thought",
+      "target": "lived experience",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Behavioural school of thought",
+      "target": "perception of space",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "perception of space",
+      "target": "social categories",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "human geography",
+      "target": "social sciences",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "humanistic schools",
+      "target": "quantitative revolution",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "radical schools",
+      "target": "quantitative revolution",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "behavioural schools",
+      "target": "quantitative revolution",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Post-modernism in geography",
+      "target": "quantitative revolution",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Social Geography",
+      "target": "Sociology",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Behavioural Geography",
+      "target": "Psychology",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of Social Well-being",
+      "target": "Welfare Economics",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of Leisure",
+      "target": "Sociology",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Cultural Geography",
+      "target": "Anthropology",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Gender Geography",
+      "target": "Sociology",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Gender Geography",
+      "target": "Anthropology",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Gender Geography",
+      "target": "Women's Studies",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Historical Geography",
+      "target": "History",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Medical Geography",
+      "target": "Epidemiology",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Urban Geography",
+      "target": "Urban Studies and Planning",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Political Geography",
+      "target": "Political Science",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Electoral Geography",
+      "target": "Psephology",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Military Geography",
+      "target": "Military Science",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Population Geography",
+      "target": "Demography",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Settlement Geography",
+      "target": "Urban/Rural Planning",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Economic Geography",
+      "target": "Economics",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of Resources",
+      "target": "Resource Economics",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of Agriculture",
+      "target": "Agricultural Sciences",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of Industries",
+      "target": "Industrial Economics",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of Marketing",
+      "target": "Business Studies",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of Marketing",
+      "target": "Economics",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of Marketing",
+      "target": "Commerce",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of Tourism",
+      "target": "Tourism and Travel Management",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Geography of International Trade",
+      "target": "International Trade",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "extraction_method": "langchain"
+    }
+  ],
+  "examples": [
+    "understanding of concepts of friction and heat helped us discover fire.",
+    "understanding of the secrets of DNA and genetics enabled us to conquer many diseases.",
+    "laws of aerodynamics to develop faster planes.",
+    "the understanding of concepts of friction and heat helped us discover fire",
+    "understanding of the secrets of DNA and genetics enabled us to conquer many diseases",
+    "laws of aerodynamics to develop faster planes",
+    "health resorts on highlands",
+    "huge urban sprawls",
+    "ports on the coasts"
+  ],
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc4::image::0::images_62c6df618b0dac5b857efc80259cacf9cba618a19::chunk::0::images_62c6df618b0dac5b857efc80259cacf9cba618a19",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "doc4::details::1::details_summary_text_image_summary_qr_code_image::chunk::1::details_summary_text_image_summary_qr_code_image",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [],
+      "concepts": [
+        "QR code"
+      ],
+      "definitions": [
+        {
+          "concept": "QR code",
+          "definition": "image containing encoded data, no visible human-readable text"
+        }
+      ],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "doc4::paragraph::2::12097ch01::chunk::2::12097ch01",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 3,
+      "chunk_id": "doc4::paragraph::2::12097ch01::chunk::3::12097ch01",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Human Geography"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc4::paragraph::2::12097ch01::chunk::4::12097ch01",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "doc4::image::5::images_d02db593a5aa9cfbd1485bcf7594f3143acc4e6ec::chunk::5::images_d02db593a5aa9cfbd1485bcf7594f3143acc4e6ec",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "doc4::details::6::details_summary_natural_image_summary_black_and_::chunk::6::details_summary_natural_image_summary_black_and_",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "concepts": [
+        "geography",
+        "physical geography",
+        "human geography"
+      ],
+      "definitions": [
+        {
+          "concept": "geography",
+          "definition": "an integrative, empirical, and practical field of study that examines events or phenomena varying over space and time."
+        },
+        {
+          "concept": "physical geography",
+          "definition": "the study of the physical environment."
+        },
+        {
+          "concept": "human geography",
+          "definition": "the study of the relationship between the physical/natural and human worlds, the spatial distributions of human phenomena, and how they come about, including social and economic differences between different parts of the world."
+        }
+      ],
+      "relations": [
+        {
+          "source": "human geography",
+          "target": "geography",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "physical geography",
+          "target": "geography",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "concepts": [
+        "geography",
+        "physical geography",
+        "human geography",
+        "physical environment",
+        "spatial distributions",
+        "social and economic differences",
+        "dualism",
+        "nomothetic",
+        "idiographic",
+        "regional approach",
+        "systematic approach",
+        "theoretical interpretation",
+        "historic-institutional approach"
+      ],
+      "definitions": [
+        {
+          "concept": "geography",
+          "definition": "an integrative, empirical, and practical field of study that examines events or phenomena varying over space and time."
+        },
+        {
+          "concept": "physical geography",
+          "definition": "the study of the physical environment."
+        },
+        {
+          "concept": "human geography",
+          "definition": "the study of the relationship between the physical/natural and the human worlds, the spatial distributions of human phenomena, and how they come about, including social and economic differences between different parts of the world."
+        }
+      ],
+      "relations": [
+        {
+          "source": "human geography",
+          "target": "geography",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "physical geography",
+          "target": "geography",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human geography",
+          "target": "physical environment",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human geography",
+          "target": "human beings",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "dualism",
+          "target": "geography",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "doc4::image::9::images_4de22c76a4091cc858d8b8441a4ef9adf2d24d3a7::chunk::9::images_4de22c76a4091cc858d8b8441a4ef9adf2d24d3a7",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "concepts": [
+        "face of the earth",
+        "eye of the storm",
+        "mouth of the river",
+        "snout of the glacier",
+        "neck of the isthmus",
+        "profile of the soil",
+        "organisms",
+        "living organism",
+        "arteries of circulation"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "face of the earth",
+          "target": "metaphor",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "eye of the storm",
+          "target": "metaphor",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "mouth of the river",
+          "target": "metaphor",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "snout of the glacier",
+          "target": "metaphor",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neck of the isthmus",
+          "target": "metaphor",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "profile of the soil",
+          "target": "metaphor",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "organisms",
+          "target": "regions",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "living organism",
+          "target": "state/country",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "arteries of circulation",
+          "target": "networks of road, railways, and waterways",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Human Geography Defined"
+      ],
+      "concepts": [
+        "human geography",
+        "synthetic study",
+        "relationship between human societies and earth’s surface",
+        "dynamism",
+        "interrelationships between earth and human beings"
+      ],
+      "definitions": [
+        {
+          "concept": "human geography",
+          "definition": "the synthetic study of the relationship between human societies and earth’s surface."
+        },
+        {
+          "concept": "human geography",
+          "definition": "the study of the changing relationship between the unresting man and the unstable earth."
+        },
+        {
+          "concept": "human geography",
+          "definition": "conception resulting from a more synthetic knowledge of the physical laws governing our earth and of the relations between the living beings which inhabit it."
+        }
+      ],
+      "relations": [
+        {
+          "source": "human geography",
+          "target": "relationship between human societies and earth’s surface",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human geography",
+          "target": "dynamism",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human geography",
+          "target": "interrelationships between earth and human beings",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "NATURE OF HUMAN GEOGRAPHY"
+      ],
+      "concepts": [
+        "human geography",
+        "physical environment",
+        "socio-cultural environment",
+        "landforms",
+        "soils",
+        "climate",
+        "water",
+        "natural vegetation",
+        "flora and fauna",
+        "houses",
+        "villages",
+        "cities",
+        "road-rail networks",
+        "industries",
+        "farms",
+        "ports",
+        "material culture"
+      ],
+      "definitions": [
+        {
+          "concept": "human geography",
+          "definition": "studies the inter-relationship between the physical environment and socio-cultural environment created by human beings through mutual interaction with each other."
+        }
+      ],
+      "relations": [
+        {
+          "source": "human geography",
+          "target": "physical environment",
+          "relation": "studies",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human geography",
+          "target": "socio-cultural environment",
+          "relation": "studies",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human beings",
+          "target": "physical environment",
+          "relation": "modifies",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "physical environment",
+          "target": "human lives",
+          "relation": "impacts",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Naturalisation of Humans and Humanisation of Nature"
+      ],
+      "concepts": [
+        "human geography",
+        "physical environment",
+        "socio-cultural environment",
+        "landforms",
+        "soils",
+        "climate",
+        "water",
+        "natural vegetation",
+        "flora and fauna",
+        "houses",
+        "villages",
+        "cities",
+        "road-rail networks",
+        "industries",
+        "farms",
+        "ports",
+        "material culture",
+        "technology"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "human geography",
+          "target": "physical environment",
+          "relation": "studies",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human geography",
+          "target": "socio-cultural environment",
+          "relation": "studies",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human beings",
+          "target": "physical environment",
+          "relation": "modifies",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "physical environment",
+          "target": "human lives",
+          "relation": "impacts",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human beings",
+          "target": "technology",
+          "relation": "uses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Naturalisation of Humans and Humanisation of Nature"
+      ],
+      "concepts": [
+        "technology",
+        "cultural development",
+        "natural laws",
+        "friction",
+        "heat",
+        "fire",
+        "DNA",
+        "genetics",
+        "aerodynamics",
+        "environmental determinism"
+      ],
+      "definitions": [
+        {
+          "concept": "technology",
+          "definition": "indicates the level of cultural development of society."
+        },
+        {
+          "concept": "environmental determinism",
+          "definition": "the type of interaction between primitive human society and strong forces of nature where humans were greatly influenced by and adapted to the dictates of Nature."
+        }
+      ],
+      "relations": [
+        {
+          "source": "technology",
+          "target": "cultural development",
+          "relation": "indicates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human beings",
+          "target": "technology",
+          "relation": "develops",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "technology",
+          "target": "environment",
+          "relation": "loosens_shackles_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "environmental determinism",
+          "target": "primitive human society",
+          "relation": "characterizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "understanding of concepts of friction and heat helped us discover fire.",
+        "understanding of the secrets of DNA and genetics enabled us to conquer many diseases.",
+        "laws of aerodynamics to develop faster planes."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "The Naturalisation of Humans"
+      ],
+      "concepts": [
+        "technology",
+        "cultural development",
+        "natural laws",
+        "friction",
+        "heat",
+        "fire",
+        "DNA",
+        "genetics",
+        "aerodynamics",
+        "environmental determinism"
+      ],
+      "definitions": [
+        {
+          "concept": "technology",
+          "definition": "indicates the level of cultural development of society."
+        },
+        {
+          "concept": "environmental determinism",
+          "definition": "the type of interaction between primitive human society and strong forces of nature where humans were greatly influenced by and adapted to the dictates of Nature."
+        }
+      ],
+      "relations": [
+        {
+          "source": "technology",
+          "target": "cultural development",
+          "relation": "indicates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human beings",
+          "target": "technology",
+          "relation": "develops",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "technology",
+          "target": "environment",
+          "relation": "loosens_shackles_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "environmental determinism",
+          "target": "primitive human society",
+          "relation": "characterizes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "understanding of concepts of friction and heat helped us discover fire.",
+        "understanding of the secrets of DNA and genetics enabled us to conquer many diseases.",
+        "laws of aerodynamics to develop faster planes."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "The Naturalisation of Humans"
+      ],
+      "concepts": [
+        "technology",
+        "cultural development",
+        "natural laws",
+        "friction",
+        "heat",
+        "DNA",
+        "genetics",
+        "aerodynamics",
+        "environmental determinism"
+      ],
+      "definitions": [
+        {
+          "concept": "environmental determinism",
+          "definition": "The type of interaction between primitive human society and strong forces of nature."
+        }
+      ],
+      "relations": [
+        {
+          "source": "technology",
+          "target": "cultural development",
+          "relation": "indicates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "technology",
+          "target": "natural laws",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "understanding of natural laws",
+          "target": "technology",
+          "relation": "enables",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "friction and heat",
+          "target": "discovery of fire",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "DNA and genetics",
+          "target": "conquering diseases",
+          "relation": "enables",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "aerodynamics",
+          "target": "faster planes",
+          "relation": "enables",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "technology",
+          "target": "environmental constraints",
+          "relation": "reduces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "the understanding of concepts of friction and heat helped us discover fire",
+        "understanding of the secrets of DNA and genetics enabled us to conquer many diseases",
+        "laws of aerodynamics to develop faster planes"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 20,
+      "chunk_id": "doc4::paragraph::28::the_people_begin_to_understand_their_environment::chunk::20::the_people_begin_to_understand_their_environment",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Humanisation of Nature"
+      ],
+      "concepts": [
+        "possibilism",
+        "cultural landscape",
+        "humanisation of nature"
+      ],
+      "definitions": [
+        {
+          "concept": "possibilism",
+          "definition": "The idea that nature provides opportunities and humans make use of these, slowly humanizing nature."
+        },
+        {
+          "concept": "cultural landscape",
+          "definition": "The imprints of human activities created everywhere, such as health resorts, urban sprawls, fields, and ports."
+        }
+      ],
+      "relations": [
+        {
+          "source": "human activities",
+          "target": "cultural landscape",
+          "relation": "creates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "possibilism",
+          "target": "humanisation of nature",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "health resorts on highlands",
+        "huge urban sprawls",
+        "ports on the coasts"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 24,
+      "chunk_id": "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Humanisation of Nature"
+      ],
+      "concepts": [
+        "Radical school of thought",
+        "Marxian theory",
+        "capitalism",
+        "Behavioural school of thought",
+        "lived experience",
+        "perception of space",
+        "social categories",
+        "ethnicity",
+        "race",
+        "religion"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Radical school of thought",
+          "target": "Marxian theory",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Radical school of thought",
+          "target": "capitalism",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Behavioural school of thought",
+          "target": "lived experience",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Behavioural school of thought",
+          "target": "perception of space",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "perception of space",
+          "target": "social categories",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 25,
+      "chunk_id": "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Fields and Sub-fields of Human Geography"
+      ],
+      "concepts": [
+        "Behavioural school of thought",
+        "lived experience",
+        "perception of space",
+        "social categories",
+        "ethnicity",
+        "race",
+        "religion",
+        "human geography",
+        "inter-disciplinary nature",
+        "social sciences"
+      ],
+      "definitions": [
+        {
+          "concept": "human geography",
+          "definition": "attempts to explain the relationship between all elements of human life and the space they occur over."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Behavioural school of thought",
+          "target": "lived experience",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Behavioural school of thought",
+          "target": "perception of space",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "perception of space",
+          "target": "social categories",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "human geography",
+          "target": "social sciences",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 26,
+      "chunk_id": "doc4::image::41::images_93ada8c6f56b334597e32ea938c764f1f786b2bf2::chunk::26::images_93ada8c6f56b334597e32ea938c764f1f786b2bf2",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Fields and Sub-fields of Human Geography"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 27,
+      "chunk_id": "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Fields and Sub-fields of Human Geography"
+      ],
+      "concepts": [
+        "Areal differentiation",
+        "Spatial organisation",
+        "quantitative revolution",
+        "humanistic schools",
+        "radical schools",
+        "behavioural schools",
+        "Post-modernism in geography"
+      ],
+      "definitions": [
+        {
+          "concept": "Areal differentiation",
+          "definition": "The focus was on identifying the uniqueness of any region and understanding how and why it was different from others."
+        },
+        {
+          "concept": "Spatial organisation",
+          "definition": "Marked by the use of computers and sophisticated statistical tools. Laws of physics were often applied to map and analyse human phenomena."
+        },
+        {
+          "concept": "quantitative revolution",
+          "definition": "The main objective was to identify mappable patterns for different human activities."
+        }
+      ],
+      "relations": [
+        {
+          "source": "humanistic schools",
+          "target": "quantitative revolution",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "radical schools",
+          "target": "quantitative revolution",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "behavioural schools",
+          "target": "quantitative revolution",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Post-modernism in geography",
+          "target": "quantitative revolution",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 28,
+      "chunk_id": "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "section_path": [
+        "Fields and Sub-fields of Human Geography"
+      ],
+      "concepts": [
+        "Human Geography",
+        "Social Geography",
+        "Behavioural Geography",
+        "Geography of Social Well-being",
+        "Geography of Leisure",
+        "Cultural Geography",
+        "Gender Geography",
+        "Historical Geography",
+        "Medical Geography",
+        "Urban Geography",
+        "Political Geography",
+        "Electoral Geography",
+        "Military Geography",
+        "Population Geography",
+        "Settlement Geography",
+        "Economic Geography",
+        "Geography of Resources",
+        "Geography of Agriculture",
+        "Geography of Industries",
+        "Geography of Marketing",
+        "Geography of Tourism",
+        "Geography of International Trade",
+        "Sociology",
+        "Psychology",
+        "Welfare Economics",
+        "Anthropology",
+        "Women's Studies",
+        "History",
+        "Epidemiology",
+        "Urban Studies and Planning",
+        "Political Science",
+        "Psephology",
+        "Military Science",
+        "Demography",
+        "Economics",
+        "Resource Economics",
+        "Agricultural Sciences",
+        "Industrial Economics",
+        "Business Studies",
+        "Commerce",
+        "Tourism and Travel Management",
+        "International Trade"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Social Geography",
+          "target": "Sociology",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Behavioural Geography",
+          "target": "Psychology",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of Social Well-being",
+          "target": "Welfare Economics",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of Leisure",
+          "target": "Sociology",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Cultural Geography",
+          "target": "Anthropology",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Gender Geography",
+          "target": "Sociology",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Gender Geography",
+          "target": "Anthropology",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Gender Geography",
+          "target": "Women's Studies",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Historical Geography",
+          "target": "History",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Medical Geography",
+          "target": "Epidemiology",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Urban Geography",
+          "target": "Urban Studies and Planning",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Political Geography",
+          "target": "Political Science",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Electoral Geography",
+          "target": "Psephology",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Military Geography",
+          "target": "Military Science",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Population Geography",
+          "target": "Demography",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Settlement Geography",
+          "target": "Urban/Rural Planning",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Economic Geography",
+          "target": "Economics",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of Resources",
+          "target": "Resource Economics",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of Agriculture",
+          "target": "Agricultural Sciences",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of Industries",
+          "target": "Industrial Economics",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of Marketing",
+          "target": "Business Studies",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of Marketing",
+          "target": "Economics",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of Marketing",
+          "target": "Commerce",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of Tourism",
+          "target": "Tourism and Travel Management",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Geography of International Trade",
+          "target": "International Trade",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 23,
+    "concept_count": 115,
+    "relation_count": 83
+  }
+}

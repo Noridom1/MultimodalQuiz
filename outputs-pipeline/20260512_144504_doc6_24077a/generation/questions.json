@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_5dbe82ccff",
+    "question_text": "What is the primary role of neurotransmitters in neuronal communication?",
+    "options": [
+      "A) To provide structural support to neurons",
+      "B) To transmit signals across the synaptic cleft",
+      "C) To produce energy for neuronal activity",
+      "D) To insulate neurons for faster signal transmission"
+    ],
+    "correct_answer": "B",
+    "explanation": "Neurotransmitters are chemical messengers that transmit signals from one neuron to another across the synaptic cleft. This process is essential for communication within the nervous system. (Source: doc6::concept::1::neurotransmitters)",
+    "target_concept": "neurotransmitters",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc6::concept::1::neurotransmitters",
+      "run_id": "20260512_144504_doc6_24077a"
+    }
+  },
+  {
+    "id": "q_5f6d18211b",
+    "question_text": "What is the primary role of receptors in neurotransmitter signaling?",
+    "options": [
+      "A) To produce neurotransmitters",
+      "B) To bind neurotransmitters and initiate a response",
+      "C) To break down neurotransmitters",
+      "D) To transport neurotransmitters across the synapse"
+    ],
+    "correct_answer": "B",
+    "explanation": "Receptors bind neurotransmitters released into the synaptic cleft, initiating a response in the postsynaptic neuron. This is a key step in chemical signaling between neurons. (Source: doc6::chunk::1::receptors)",
+    "target_concept": "receptors",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc6::chunk::1::receptors",
+      "run_id": "20260512_144504_doc6_24077a"
+    }
+  },
+  {
+    "id": "q_22f63fe884",
+    "question_text": "Which of the following metal ions is commonly known to serve as a cofactor in enzymatic reactions by stabilizing negative charges in the active site?",
+    "options": [
+      "A) Sodium (Na⁺)",
+      "B) Potassium (K⁺)",
+      "C) Magnesium (Mg²⁺)",
+      "D) Calcium (Ca²⁺)"
+    ],
+    "correct_answer": "C) Magnesium (Mg²⁺)",
+    "explanation": "Magnesium ions (Mg²⁺) are frequently involved in enzymatic reactions as cofactors, often stabilizing negative charges in the active site to facilitate catalysis. This role is well-documented in processes such as ATP hydrolysis. (Source: doc6::chunk::1)",
+    "target_concept": "metal ions",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc6::chunk::1",
+      "run_id": "20260512_144504_doc6_24077a"
+    }
+  },
+  {
+    "id": "q_551838c491",
+    "question_text": "What is the primary function of reuptake in neurotransmission?",
+    "options": [
+      "To degrade excess neurotransmitters in the synaptic cleft",
+      "To recycle neurotransmitters back into the presynaptic neuron",
+      "To bind neurotransmitters to postsynaptic receptors",
+      "To synthesize new neurotransmitters in the presynaptic neuron"
+    ],
+    "correct_answer": "To recycle neurotransmitters back into the presynaptic neuron",
+    "explanation": "Reuptake is the process by which neurotransmitters are transported back into the presynaptic neuron for reuse, ensuring efficient recycling and regulation of synaptic signaling. (doc6::concept::21::reuptake)",
+    "target_concept": "reuptake",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc6::concept::21::reuptake",
+      "run_id": "20260512_144504_doc6_24077a"
+    }
+  },
+  {
+    "id": "q_531f5f9741",
+    "question_text": "What is the primary role of transporter proteins in the context of neurotransmitter recycling?",
+    "options": [
+      "A) To synthesize neurotransmitters from precursor molecules",
+      "B) To degrade neurotransmitters in the synaptic cleft",
+      "C) To move neurotransmitters back into the presynaptic neuron",
+      "D) To release neurotransmitters into the synaptic cleft"
+    ],
+    "correct_answer": "C",
+    "explanation": "Transporter proteins facilitate the reuptake of neurotransmitters from the synaptic cleft back into the presynaptic neuron, which is essential for recycling and regulating neurotransmitter levels. This process is critical for terminating synaptic transmission and maintaining neuronal function. (doc6::concept::57::transporter_proteins)",
+    "target_concept": "transporter proteins",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc6::concept::57::transporter_proteins",
+      "run_id": "20260512_144504_doc6_24077a"
+    }
+  }
+]

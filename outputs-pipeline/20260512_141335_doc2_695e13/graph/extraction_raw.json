@@ -1,0 +1,1311 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc2::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "Scheduling"
+      ],
+      "concepts": [
+        "operating system",
+        "processes",
+        "CPUs",
+        "time-share",
+        "virtual CPU",
+        "multiplexing",
+        "xv6"
+      ],
+      "definitions": [
+        {
+          "concept": "multiplexing",
+          "definition": "The process of time-sharing CPUs among processes to provide the illusion of a virtual CPU for each process."
+        }
+      ],
+      "relations": [
+        {
+          "source": "operating system",
+          "target": "multiplexing",
+          "relation": "achieves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "multiplexing",
+          "target": "processes",
+          "relation": "involves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "multiplexing",
+          "target": "CPUs",
+          "relation": "involves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.1 Multiplexing"
+      ],
+      "concepts": [
+        "xv6",
+        "multiplexing",
+        "system call",
+        "voluntary switches",
+        "involuntary switches",
+        "hardware timer",
+        "context switches",
+        "locking plan"
+      ],
+      "definitions": [
+        {
+          "concept": "voluntary switches",
+          "definition": "Switches that occur when a process makes a system call that blocks, such as read or wait."
+        },
+        {
+          "concept": "involuntary switches",
+          "definition": "Periodic switches forced by xv6 to cope with processes that compute for long periods without blocking."
+        }
+      ],
+      "relations": [
+        {
+          "source": "xv6",
+          "target": "multiplexing",
+          "relation": "achieves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "multiplexing",
+          "target": "voluntary switches",
+          "relation": "involves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "multiplexing",
+          "target": "involuntary switches",
+          "relation": "involves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "involuntary switches",
+          "target": "hardware timer",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "read or wait"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "concepts": [
+        "multiplexing",
+        "context switch",
+        "CPU registers",
+        "hardware timer",
+        "locking plan",
+        "kernel thread",
+        "scheduler thread"
+      ],
+      "definitions": [
+        {
+          "concept": "context switch",
+          "definition": "The steps involved in a CPU leaving off execution of one kernel thread and resuming execution of a different kernel thread."
+        }
+      ],
+      "relations": [
+        {
+          "source": "multiplexing",
+          "target": "context switch",
+          "relation": "involves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "context switch",
+          "target": "CPU registers",
+          "relation": "involves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "context switch",
+          "target": "scheduler thread",
+          "relation": "involves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler thread",
+          "target": "kernel thread",
+          "relation": "selects",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc2::details::10::details_summary_flowchart_summary_mermaid_graph_::chunk::4::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "concepts": [
+        "user space",
+        "shell",
+        "kernel space",
+        "kstack shell",
+        "kstack scheduler",
+        "kstack cat"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "user space",
+          "target": "shell",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "shell",
+          "target": "kernel space",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "kernel space",
+          "target": "kstack shell",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "kstack shell",
+          "target": "switch",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "switch",
+          "target": "kstack scheduler",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "kstack scheduler",
+          "target": "switch",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "switch",
+          "target": "kstack cat",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "kstack cat",
+          "target": "kernel space",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "kernel space",
+          "target": "cat",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.2 Context switch overview"
+      ],
+      "concepts": [
+        "context switch",
+        "user process",
+        "CPU",
+        "scheduler thread",
+        "kernel thread",
+        "trap",
+        "system call",
+        "interrupt",
+        "trap return"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "context switch",
+          "target": "scheduler thread",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "context switch",
+          "target": "kernel thread",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "trap",
+          "target": "kernel thread",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "trap return",
+          "target": "user process",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "xv6 runs with one CPU (and thus one scheduler thread)."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "concepts": [
+        "context switch",
+        "user process",
+        "CPU",
+        "scheduler thread",
+        "kernel thread",
+        "trap",
+        "system call",
+        "interrupt",
+        "trap return",
+        "swtch()",
+        "struct proc",
+        "struct context",
+        "struct cpu"
+      ],
+      "definitions": [
+        {
+          "concept": "swtch()",
+          "definition": "The function swtch() in kernel/swtch.S contains the heart of thread context switching: it saves the switched-from thread’s CPU registers, and restores the previously-saved registers of the switched-to thread."
+        }
+      ],
+      "relations": [
+        {
+          "source": "context switch",
+          "target": "scheduler thread",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "context switch",
+          "target": "kernel thread",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "trap",
+          "target": "kernel thread",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "trap return",
+          "target": "user process",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "swtch()",
+          "target": "struct context",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "struct proc",
+          "target": "struct context",
+          "relation": "contains",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "struct cpu",
+          "target": "struct context",
+          "relation": "contains",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "doc2::code::18::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0::chunk::7::txt_sd_ra_0_a0_sd_sp_8_a0_sd_s0_16_a0",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "doc2::code::19::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16::chunk::8::asm_sd_s11_104_a0_ld_ra_0_a1_ld_sp_8_a1_ld_s0_16",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "concepts": [
+        "sd",
+        "ld",
+        "ra",
+        "sp",
+        "s0",
+        "s11",
+        "ret"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "doc2::paragraph::20::a0_holds_the_first_function_argument_and_a1_the_::chunk::9::a0_holds_the_first_function_argument_and_a1_the_",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "concepts": [
+        "a0",
+        "a1",
+        "struct context",
+        "ra",
+        "sp",
+        "s0",
+        "swtch"
+      ],
+      "definitions": [
+        {
+          "concept": "struct context",
+          "definition": "A structure defined in kernel/proc.h (1951) that includes fields such as s0, which is located at an offset of 16 bytes."
+        }
+      ],
+      "relations": [
+        {
+          "source": "ra",
+          "target": "struct context",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "sp",
+          "target": "struct context",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "s0",
+          "target": "struct context",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "swtch",
+          "target": "ra",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "swtch",
+          "target": "sp",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "doc2::paragraph::21::where_does_swtch_s_ret_return_to_it_returns_to_t::chunk::10::where_does_swtch_s_ret_return_to_it_returns_to_t",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.3 Code: Context switching"
+      ],
+      "concepts": [
+        "swtch",
+        "ra",
+        "sp",
+        "thread X",
+        "thread Y",
+        "CPU"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "swtch",
+          "target": "ra",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "swtch",
+          "target": "sp",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "thread X",
+          "target": "thread Y",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "thread Y",
+          "target": "CPU",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "doc2::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::11::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "swtch",
+        "ra",
+        "sp",
+        "s0",
+        "s11",
+        "RISC-V calling convention",
+        "compiler",
+        "scheduler"
+      ],
+      "definitions": [
+        {
+          "concept": "RISC-V calling convention",
+          "definition": "A set of rules that require the compiler to generate instructions to save caller-saved registers to the stack before a function call and restore them afterward if their values need to be preserved."
+        }
+      ],
+      "relations": [
+        {
+          "source": "swtch",
+          "target": "ra",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "swtch",
+          "target": "sp",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "swtch",
+          "target": "s0",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "swtch",
+          "target": "s11",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "compiler",
+          "target": "RISC-V calling convention",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "swtch",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "swtch",
+        "scheduler",
+        "kernel thread",
+        "CPU",
+        "process lock",
+        "sched",
+        "context",
+        "scheduler thread"
+      ],
+      "definitions": [
+        {
+          "concept": "scheduler",
+          "definition": "A special thread per CPU that chooses which process to run next."
+        },
+        {
+          "concept": "scheduler thread",
+          "definition": "A thread that manages the scheduling of processes on a CPU."
+        }
+      ],
+      "relations": [
+        {
+          "source": "swtch",
+          "target": "scheduler",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "CPU",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "process switching",
+          "target": "scheduler thread",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "doc2::image::26::images_beedb7345045080a4a25965466805e3357535b86e::chunk::13::images_beedb7345045080a4a25965466805e3357535b86e",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "doc2::details::27::details_summary_text_image_summary_process_1_acq::chunk::14::details_summary_text_image_summary_process_1_acq",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "process",
+        "acquire",
+        "release",
+        "RUNNABLE",
+        "RUNNING",
+        "swtch"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "process",
+          "target": "RUNNABLE",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "process",
+          "target": "RUNNING",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "acquire",
+          "target": "p->lock",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "release",
+          "target": "p->lock",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "doc2::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "scheduler",
+        "swtch",
+        "process table",
+        "RUNNABLE",
+        "RUNNING"
+      ],
+      "definitions": [
+        {
+          "concept": "scheduler",
+          "definition": "A loop that finds a process to run and switches to it."
+        }
+      ],
+      "relations": [
+        {
+          "source": "scheduler",
+          "target": "process table",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "RUNNABLE",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "RUNNING",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "doc2::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "scheduler",
+        "process",
+        "swtch()",
+        "process table",
+        "RUNNABLE",
+        "RUNNING",
+        "per-CPU current process variable",
+        "c->proc"
+      ],
+      "definitions": [
+        {
+          "concept": "scheduler",
+          "definition": "A loop that finds a process to run, switches to it, and continues its loop."
+        },
+        {
+          "concept": "RUNNABLE",
+          "definition": "A process state indicating it is ready to be executed."
+        },
+        {
+          "concept": "RUNNING",
+          "definition": "A process state indicating it is currently being executed."
+        }
+      ],
+      "relations": [
+        {
+          "source": "scheduler",
+          "target": "process",
+          "relation": "manages",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "swtch()",
+          "relation": "calls",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "process",
+          "target": "RUNNABLE",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "process",
+          "target": "RUNNING",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "c->proc",
+          "relation": "sets",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "For example, if p->lock were released before invoking swtch, a different CPU c might decide to run the process because its state is RUNNABLE."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 17,
+      "chunk_id": "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "p->lock",
+        "context switching",
+        "p->state",
+        "p->context",
+        "yield",
+        "scheduler",
+        "c->proc"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "p->lock",
+          "target": "context switching",
+          "relation": "required_for",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "p->state",
+          "target": "p->context",
+          "relation": "updated_together",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "yield",
+          "target": "p->lock",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "c->proc",
+          "relation": "clears",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "For example, if p->lock were released before invoking swtch, a different CPU c might decide to run the process because its state is RUNNABLE."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 18,
+      "chunk_id": "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.4 Code: Scheduling"
+      ],
+      "concepts": [
+        "RUNNING",
+        "kernel thread",
+        "swtch",
+        "yield",
+        "forkret",
+        "p->lock",
+        "control registers",
+        "trapframe"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "RUNNING",
+          "target": "kernel thread",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "swtch",
+          "target": "yield",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "forkret",
+          "target": "p->lock",
+          "relation": "releases",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "forkret",
+          "target": "control registers",
+          "relation": "sets_up",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "forkret",
+          "target": "trapframe",
+          "relation": "sets_up",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "for example in yield"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 19,
+      "chunk_id": "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "concepts": [
+        "scheduler",
+        "swtch",
+        "allocproc",
+        "forkret",
+        "current process’s proc structure",
+        "uniprocessor",
+        "global variable",
+        "multi-core machine",
+        "CPU",
+        "tp register",
+        "hartid",
+        "mycpu",
+        "cpu structures",
+        "struct cpu",
+        "proc structure",
+        "saved registers",
+        "spinlocks"
+      ],
+      "definitions": [
+        {
+          "concept": "forkret",
+          "definition": "A function that releases the p->lock and sets up control registers and trapframe fields required to return to user space."
+        },
+        {
+          "concept": "mycpu",
+          "definition": "A function that uses the tp register to index an array of cpu structures and return the one for the current CPU."
+        }
+      ],
+      "relations": [
+        {
+          "source": "scheduler",
+          "target": "swtch",
+          "relation": "calls",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "allocproc",
+          "target": "forkret",
+          "relation": "sets_context_ra_register_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "forkret",
+          "target": "p->lock",
+          "relation": "releases",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "forkret",
+          "target": "user space",
+          "relation": "returns_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "CPU",
+          "target": "tp register",
+          "relation": "holds",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "mycpu",
+          "target": "cpu structures",
+          "relation": "indexes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "struct cpu",
+          "target": "proc structure",
+          "relation": "holds",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "struct cpu",
+          "target": "saved registers",
+          "relation": "holds",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "struct cpu",
+          "target": "spinlocks",
+          "relation": "manages",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 20,
+      "chunk_id": "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "concepts": [
+        "CPU",
+        "hartid",
+        "tp register",
+        "mycpu",
+        "struct cpu",
+        "proc structure",
+        "saved registers",
+        "spinlocks",
+        "interrupt disabling",
+        "start",
+        "machine mode",
+        "prepare_return",
+        "trampoline page",
+        "uservec",
+        "kernel code",
+        "RISC-V hardware",
+        "supervisor mode",
+        "cpuid",
+        "mycpu",
+        "interrupts",
+        "timer interrupt",
+        "thread yield",
+        "execution resumption"
+      ],
+      "definitions": [
+        {
+          "concept": "hartid",
+          "definition": "A unique identifier assigned to each CPU by RISC-V."
+        },
+        {
+          "concept": "mycpu",
+          "definition": "A function that uses the tp register to index an array of cpu structures and return the one for the current CPU."
+        },
+        {
+          "concept": "struct cpu",
+          "definition": "A structure that holds a pointer to the proc structure of the process currently running on a CPU, saved registers for the CPU’s scheduler thread, and the count of nested spinlocks."
+        }
+      ],
+      "relations": [
+        {
+          "source": "CPU",
+          "target": "hartid",
+          "relation": "has",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "mycpu",
+          "target": "tp register",
+          "relation": "uses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "mycpu",
+          "target": "struct cpu",
+          "relation": "returns",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "start",
+          "target": "tp register",
+          "relation": "sets",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "prepare_return",
+          "target": "tp register",
+          "relation": "saves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "uservec",
+          "target": "tp register",
+          "relation": "restores",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "interrupts",
+          "target": "cpuid",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "interrupts",
+          "target": "mycpu",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 21,
+      "chunk_id": "doc2::paragraph::37::the_return_values_of_cpuid_and_mycpu_are_fragile::chunk::21::the_return_values_of_cpuid_and_mycpu_are_fragile",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.5 Code: mycpu and myproc"
+      ],
+      "concepts": [
+        "cpuid",
+        "mycpu",
+        "interrupts",
+        "timer interrupt",
+        "thread yield",
+        "execution resumption",
+        "myproc",
+        "struct proc"
+      ],
+      "definitions": [
+        {
+          "concept": "myproc",
+          "definition": "A function that returns the struct proc pointer for the process running on the current CPU."
+        }
+      ],
+      "relations": [
+        {
+          "source": "myproc",
+          "target": "mycpu",
+          "relation": "invokes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "myproc",
+          "target": "struct cpu",
+          "relation": "fetches_from",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "interrupts",
+          "target": "myproc",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 22,
+      "chunk_id": "doc2::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::22::the_function_myproc_2187_returns_the_struct_proc",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.6 Real world"
+      ],
+      "concepts": [
+        "myproc",
+        "struct proc",
+        "interrupts",
+        "timer interrupt",
+        "scheduler",
+        "round robin",
+        "process priorities",
+        "fairness",
+        "high throughput"
+      ],
+      "definitions": [
+        {
+          "concept": "round robin",
+          "definition": "A scheduling policy that runs each process in turn."
+        }
+      ],
+      "relations": [
+        {
+          "source": "myproc",
+          "target": "struct proc",
+          "relation": "returns",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "round robin",
+          "relation": "implements",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "scheduler",
+          "target": "process priorities",
+          "relation": "manages",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "for example, allow processes to have priorities"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 23,
+      "chunk_id": "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+      "source_file": "data/markdown/doc2/hybrid_auto/doc2.md",
+      "section_path": [
+        "8.7 Exercises"
+      ],
+      "concepts": [
+        "xv6 scheduler",
+        "round robin",
+        "process priorities",
+        "fairness",
+        "high throughput",
+        "context switch",
+        "scheduler thread",
+        "thread selection",
+        "swtch",
+        "multiple CPUs",
+        "locking",
+        "deadlocks"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "xv6 scheduler",
+          "target": "round robin",
+          "relation": "implements",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "context switch",
+          "target": "scheduler thread",
+          "relation": "avoids",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "for example, allow processes to have priorities",
+        "for example, the operating system might also want to guarantee fairness and high throughput"
+      ],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 23,
+    "concept_count": 102,
+    "relation_count": 95
+  }
+}

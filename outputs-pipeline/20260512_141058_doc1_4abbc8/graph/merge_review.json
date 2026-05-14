@@ -1,0 +1,69 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc1::concept::32::artillery",
+        "doc1::concept::48::artillery_bases"
+      ],
+      "labels": [
+        "artillery",
+        "artillery bases"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::54::dien_bien_phu_base"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu base"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::58::dien_bien_phu_entrenched_camp"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu entrenched camp"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc1::concept::55::french_expeditionary_corps",
+        "doc1::concept::59::high_command_of_the_french_expeditionary_corps"
+      ],
+      "labels": [
+        "French Expeditionary Corps",
+        "High Command of the French Expeditionary Corps"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::60::dien_bien_phu_garrison"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu garrison"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

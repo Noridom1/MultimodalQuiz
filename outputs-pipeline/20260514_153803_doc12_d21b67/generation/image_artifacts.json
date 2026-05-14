@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing a causal chain from \"Chronic Job Stress\" (left) to \"Cardiovascular Disease\" (right), with labeled intermediate steps like \"Elevated Cortisol,\" \"High Blood Pressure,\" and \"Inflammation.\" Use a neutral color palette with bold arrows to indicate direction, and avoid realistic human figures. Ensure all text is legible and labels are concise.\n\n**Alt:** A flowchart illustrating how chronic job stress contributes to heart disease through biological pathways.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153803_doc12_d21b67/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a minimalist illustration of a person slumped at a desk, surrounded by towering stacks of paperwork and a glowing computer screen displaying unread emails. Use a muted, high-contrast palette (deep blues/grays with a single accent of dull red for stress cues like a pulsing temple or clenched fists). Label key elements subtly: \"Chronic Workload,\" \"Sleep Deprivation,\" and \"Isolation\" as small icons (e.g., a calendar with endless tasks, a moon with a strike-through, a silent phone). Avoid facial details to universalize the figure. Alt: A person overwhelmed by work-related stress, showing visual symptoms of depression in a high-contrast, labeled workspace.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153803_doc12_d21b67/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast diagram of a workplace setting with labeled factors contributing to job stress, such as \"high workload,\" \"unclear expectations,\" and \"lack of control,\" depicted as interconnected nodes or icons (e.g., a stacked pile for workload, a question mark for ambiguity). Use a muted professional color palette with bold accents for emphasis, ensuring all labels are legible and neutral (e.g., \"Team Member 1\" instead of names). Alt: A diagram illustrating key workplace factors linked to job stress, labeled for clarity.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153803_doc12_d21b67/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate a cluttered office desk with a person holding their head in frustration, surrounded by stacks of papers, a ringing phone, and a laptop displaying multiple open tabs. Use bold, high-contrast colors (e.g., deep blues and warm oranges) to emphasize the chaotic scene, and label key elements like \"Urgent Deadline\" or \"Overdue Tasks\" on sticky notes. Avoid branded items or logos.\n\n**Alt:** A stressed person at a messy desk with piles of work, symbolizing workplace overwhelm.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153803_doc12_d21b67/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate a person jogging in a sunny park, surrounded by trees and a clear path, with a relaxed expression to convey stress relief. Use bright, natural colors (greens, blues, warm sunlight) for a calming effect, and ensure high contrast for accessibility. Label the scene subtly with \"Physical Activity\" near the jogger.\n\n**Alt:** A person jogging in a park, demonstrating physical activity as a stress management technique.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_153803_doc12_d21b67/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "Cardiovascular Disease",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the link between chronic stress and heart disease.",
+    "learning_objective": "Understand the causal relationship between chronic job stress and cardiovascular disease.",
+    "tested_fact_block_id": "doc12::chunk::13::cardiovascular_disease",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Depression",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "An illustration depicting a person experiencing symptoms of depression due to work stress.",
+    "learning_objective": "Identify the primary cause of depression linked to chronic job stress.",
+    "tested_fact_block_id": "doc12::chunk::17::depression",
+    "metadata": {}
+  },
+  {
+    "target_concept": "job stress",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing factors contributing to job stress in a workplace setting.",
+    "learning_objective": "Identify the primary causes of job stress in task design.",
+    "tested_fact_block_id": "doc12::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "stress",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A person looking overwhelmed at a desk with multiple tasks.",
+    "learning_objective": "Identify a common cause of stress in the workplace.",
+    "tested_fact_block_id": "doc12::chunk::5::stress::EXTRACTED",
+    "metadata": {}
+  },
+  {
+    "target_concept": "stress management",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A person jogging in a park, representing physical activity as a stress management technique.",
+    "learning_objective": "Identify effective strategies for managing stress.",
+    "tested_fact_block_id": "doc12::chunk::34::stress_management::a",
+    "metadata": {}
+  }
+]

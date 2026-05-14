@@ -1,0 +1,682 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc12::paragraph::1::speaker_safety_manager_foreman::chunk::0::speaker_safety_manager_foreman",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "TOOLBOX TALK: Stress Management"
+      ],
+      "concepts": [
+        "Safety Manager/Foreman",
+        "Workers"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "I. Introduction"
+      ],
+      "concepts": [
+        "stress management",
+        "job stress",
+        "construction industry"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "II. Different Types of Stress?"
+      ],
+      "concepts": [
+        "stress",
+        "stressor",
+        "job stress"
+      ],
+      "definitions": [
+        {
+          "concept": "job stress",
+          "definition": "the harmful physical and emotional responses that occur when the job demands and requirements do not match the capabilities, resources, or needs of the worker."
+        }
+      ],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 3,
+      "chunk_id": "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+      ],
+      "concepts": [
+        "stress",
+        "National Institute for Occupational Safety and Health (NIOSH)",
+        "chronic job stress",
+        "Substance abuse",
+        "PTSD",
+        "Aggression",
+        "Workplace Injury",
+        "Cardiovascular Disease",
+        "Suicide",
+        "Musculoskeletal Disorders",
+        "Cancer",
+        "Depression",
+        "Ulcers",
+        "Anxiety",
+        "Impaired Immune Function"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "chronic job stress",
+          "target": "Substance abuse",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "PTSD",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Aggression",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Workplace Injury",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Cardiovascular Disease",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Suicide",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Musculoskeletal Disorders",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Cancer",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Depression",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Ulcers",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Anxiety",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "chronic job stress",
+          "target": "Impaired Immune Function",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "IV. What Causes Work Stress?"
+      ],
+      "concepts": [
+        "Substance abuse",
+        "PTSD",
+        "Aggression",
+        "Workplace Injury",
+        "Cardiovascular Disease",
+        "Suicide",
+        "Musculoskeletal Disorders",
+        "Cancer",
+        "Depression",
+        "Ulcers",
+        "Anxiety",
+        "Impaired Immune Function",
+        "Job stress",
+        "The Design of Tasks",
+        "Management Style",
+        "Co-worker Relationships",
+        "Work Rules",
+        "Career Concerns",
+        "Environmental Conditions of Work"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Working conditions",
+          "target": "Job stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Individual and situational factors",
+          "target": "Job stress",
+          "relation": "contributes_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "The Design of Tasks",
+          "target": "Job stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Management Style",
+          "target": "Job stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Co-worker Relationships",
+          "target": "Job stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Work Rules",
+          "target": "Job stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Career Concerns",
+          "target": "Job stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Environmental Conditions of Work",
+          "target": "Job stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "IV. Recognizing the Signs and Symptoms of Stress"
+      ],
+      "concepts": [
+        "The Design of Tasks",
+        "Management Style",
+        "Co-worker Relationships",
+        "Work Rules",
+        "Career Concerns",
+        "Environmental Conditions of Work",
+        "Stress",
+        "Headache",
+        "Sleep disturbances",
+        "Difficulty concentrating",
+        "Short Temper",
+        "Upset Stomach",
+        "Job dissatisfaction",
+        "Low morale"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "The Design of Tasks",
+          "target": "Stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Management Style",
+          "target": "Stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Co-worker Relationships",
+          "target": "Stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Work Rules",
+          "target": "Stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Career Concerns",
+          "target": "Stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Environmental Conditions of Work",
+          "target": "Stress",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+      ],
+      "concepts": [
+        "Stress",
+        "Headache",
+        "Sleep disturbances",
+        "Difficulty concentrating",
+        "Short Temper",
+        "Upset Stomach",
+        "Job dissatisfaction",
+        "Low morale",
+        "Social connections",
+        "Breaks",
+        "Health",
+        "Exercise",
+        "Relaxation activities",
+        "Healthcare provider",
+        "Healthy work organizations",
+        "Recognition of employees",
+        "Opportunities for career development",
+        "Organizational culture",
+        "Management actions"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Social connections",
+          "target": "Stress management",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Breaks",
+          "target": "Stress management",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Health",
+          "target": "Stress management",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Exercise",
+          "target": "Stress management",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Relaxation activities",
+          "target": "Stress management",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Healthcare provider",
+          "target": "Stress management",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Recognition of employees",
+          "target": "Healthy work organizations",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Opportunities for career development",
+          "target": "Healthy work organizations",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Organizational culture",
+          "target": "Healthy work organizations",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Management actions",
+          "target": "Healthy work organizations",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "VI. Conclusion"
+      ],
+      "concepts": [
+        "Healthy work culture",
+        "Stress management",
+        "Resources"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Healthy work culture",
+          "target": "Stress management",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Resources",
+          "target": "Stress management",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "Resources"
+      ],
+      "concepts": [
+        "stress"
+      ],
+      "definitions": [
+        {
+          "concept": "stress",
+          "definition": "A condition where an individual feels overwhelmed or unable to cope with mental or emotional pressure."
+        }
+      ],
+      "relations": [
+        {
+          "source": "stress",
+          "target": "individual",
+          "relation": "affects",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "stress",
+          "target": "friends",
+          "relation": "visible_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "stress",
+          "target": "co-workers",
+          "relation": "visible_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "stress",
+          "target": "loved ones",
+          "relation": "visible_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::9::workplace_stress_niosh_science_blog_2007_decembe",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "STRESS MANAGEMENT Manage your job stress"
+      ],
+      "concepts": [
+        "workplace stress"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::10::workplace_stress_niosh_science_blog_2007_decembe",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "Nearly everyone experiences stress at some time in their life."
+      ],
+      "concepts": [
+        "workplace stress"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "workplace stress",
+          "target": "investment in work",
+          "relation": "indicates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "How to deal with job stress"
+      ],
+      "concepts": [
+        "stress management",
+        "exercise",
+        "relaxation activities",
+        "social connections",
+        "healthcare provider"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "exercise",
+          "target": "stress",
+          "relation": "reduces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "relaxation activities",
+          "target": "stress",
+          "relation": "reduces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "social connections",
+          "target": "stress management",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "healthcare provider",
+          "target": "stress management",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "Exercise to help boost your mood and reduce stress",
+        "Do relaxation activities (Even setting aside time to relax and listen to music without distractions counts)",
+        "Talk to people who can provide emotional and other support",
+        "Talk to a healthcare provider if you are overwhelmed"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "Information on STRESS MANAGEMENT"
+      ],
+      "concepts": [
+        "healthcare provider",
+        "stress management"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "These articles and resources can help you learn to cope with stress:"
+      ],
+      "concepts": [
+        "workplace stress",
+        "NIOSH Science Blog",
+        "National Institute of Mental Health",
+        "Center for Workplace Mental Health",
+        "SAMHSA Treatment Referral Helpline",
+        "Behavioral Health Treatment Locator",
+        "University of Michigan Depression Center",
+        "Right Direction"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "doc12::image::69::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7::chunk::14::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "These articles and resources can help you learn to cope with stress:"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "doc12::details::70::details_summary_text_image_summary_arm_all_the_r::chunk::15::details_summary_text_image_summary_arm_all_the_r",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "section_path": [
+        "These articles and resources can help you learn to cope with stress:"
+      ],
+      "concepts": [
+        "ARM",
+        "All the Right Moves"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 16,
+    "concept_count": 57,
+    "relation_count": 47
+  }
+}

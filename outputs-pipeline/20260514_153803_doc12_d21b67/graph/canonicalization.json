@@ -1,0 +1,1731 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc12::concept::0::safety_manager_foreman",
+      "label": "Safety Manager/Foreman",
+      "normalized_label": "safety manager foreman",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::1::speaker_safety_manager_foreman::chunk::0::speaker_safety_manager_foreman"
+      ],
+      "section_paths": [
+        [
+          "TOOLBOX TALK: Stress Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::1::workers",
+      "label": "Workers",
+      "normalized_label": "workers",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::1::speaker_safety_manager_foreman::chunk::0::speaker_safety_manager_foreman"
+      ],
+      "section_paths": [
+        [
+          "TOOLBOX TALK: Stress Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::2::stress_management",
+      "label": "stress management",
+      "normalized_label": "stress management",
+      "aliases": [
+        "Stress management"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "I. Introduction"
+        ],
+        [
+          "VI. Conclusion"
+        ],
+        [
+          "How to deal with job stress"
+        ],
+        [
+          "Information on STRESS MANAGEMENT"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::3::job_stress",
+      "label": "job stress",
+      "normalized_label": "job stress",
+      "aliases": [
+        "Job stress"
+      ],
+      "mention_count": 4,
+      "definitions": [
+        "the harmful physical and emotional responses that occur when the job demands and requirements do not match the capabilities, resources, or needs of the worker."
+      ],
+      "source_chunk_ids": [
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "I. Introduction"
+        ],
+        [
+          "II. Different Types of Stress?"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::4::construction_industry",
+      "label": "construction industry",
+      "normalized_label": "construction industry",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers"
+      ],
+      "section_paths": [
+        [
+          "I. Introduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::5::stress",
+      "label": "stress",
+      "normalized_label": "stress",
+      "aliases": [
+        "Stress"
+      ],
+      "mention_count": 6,
+      "definitions": [
+        "A condition where an individual feels overwhelmed or unable to cope with mental or emotional pressure."
+      ],
+      "source_chunk_ids": [
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es",
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_"
+      ],
+      "section_paths": [
+        [
+          "II. Different Types of Stress?"
+        ],
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ],
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ],
+        [
+          "Resources"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::6::stressor",
+      "label": "stressor",
+      "normalized_label": "stressor",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "section_paths": [
+        [
+          "II. Different Types of Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::7::national_institute_for_occupational_safety_and_h",
+      "label": "National Institute for Occupational Safety and Health (NIOSH)",
+      "normalized_label": "national institute for occupational safety and health",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::8::chronic_job_stress",
+      "label": "chronic job stress",
+      "normalized_label": "chronic job stress",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::9::substance_abuse",
+      "label": "Substance abuse",
+      "normalized_label": "substance abuse",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::10::ptsd",
+      "label": "PTSD",
+      "normalized_label": "ptsd",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::11::aggression",
+      "label": "Aggression",
+      "normalized_label": "aggression",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::12::workplace_injury",
+      "label": "Workplace Injury",
+      "normalized_label": "workplace injury",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::13::cardiovascular_disease",
+      "label": "Cardiovascular Disease",
+      "normalized_label": "cardiovascular disease",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::14::suicide",
+      "label": "Suicide",
+      "normalized_label": "suicide",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::15::musculoskeletal_disorders",
+      "label": "Musculoskeletal Disorders",
+      "normalized_label": "musculoskeletal disorders",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::16::cancer",
+      "label": "Cancer",
+      "normalized_label": "cancer",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::17::depression",
+      "label": "Depression",
+      "normalized_label": "depression",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::18::ulcers",
+      "label": "Ulcers",
+      "normalized_label": "ulcers",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::19::anxiety",
+      "label": "Anxiety",
+      "normalized_label": "anxiety",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::20::impaired_immune_function",
+      "label": "Impaired Immune Function",
+      "normalized_label": "impaired immune function",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur"
+      ],
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ],
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::21::the_design_of_tasks",
+      "label": "The Design of Tasks",
+      "normalized_label": "the design of tasks",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b"
+      ],
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ],
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::22::management_style",
+      "label": "Management Style",
+      "normalized_label": "management style",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b"
+      ],
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ],
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::23::co_worker_relationships",
+      "label": "Co-worker Relationships",
+      "normalized_label": "co-worker relationships",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b"
+      ],
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ],
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::24::work_rules",
+      "label": "Work Rules",
+      "normalized_label": "work rules",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b"
+      ],
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ],
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::25::career_concerns",
+      "label": "Career Concerns",
+      "normalized_label": "career concerns",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b"
+      ],
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ],
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::26::environmental_conditions_of_work",
+      "label": "Environmental Conditions of Work",
+      "normalized_label": "environmental conditions of work",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b"
+      ],
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ],
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::27::headache",
+      "label": "Headache",
+      "normalized_label": "headache",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ],
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::28::sleep_disturbances",
+      "label": "Sleep disturbances",
+      "normalized_label": "sleep disturbances",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ],
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::29::difficulty_concentrating",
+      "label": "Difficulty concentrating",
+      "normalized_label": "difficulty concentrating",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ],
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::30::short_temper",
+      "label": "Short Temper",
+      "normalized_label": "short temper",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ],
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::31::upset_stomach",
+      "label": "Upset Stomach",
+      "normalized_label": "upset stomach",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ],
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::32::job_dissatisfaction",
+      "label": "Job dissatisfaction",
+      "normalized_label": "job dissatisfaction",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ],
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::33::low_morale",
+      "label": "Low morale",
+      "normalized_label": "low morale",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ],
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::34::social_connections",
+      "label": "Social connections",
+      "normalized_label": "social connections",
+      "aliases": [
+        "social connections"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ],
+        [
+          "How to deal with job stress"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::35::breaks",
+      "label": "Breaks",
+      "normalized_label": "breaks",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::36::health",
+      "label": "Health",
+      "normalized_label": "health",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::37::exercise",
+      "label": "Exercise",
+      "normalized_label": "exercise",
+      "aliases": [
+        "exercise"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ],
+        [
+          "How to deal with job stress"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::38::relaxation_activities",
+      "label": "Relaxation activities",
+      "normalized_label": "relaxation activities",
+      "aliases": [
+        "relaxation activities"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ],
+        [
+          "How to deal with job stress"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::39::healthcare_provider",
+      "label": "Healthcare provider",
+      "normalized_label": "healthcare provider",
+      "aliases": [
+        "healthcare provider"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ],
+        [
+          "How to deal with job stress"
+        ],
+        [
+          "Information on STRESS MANAGEMENT"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::40::healthy_work_organizations",
+      "label": "Healthy work organizations",
+      "normalized_label": "healthy work organizations",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::41::recognition_of_employees",
+      "label": "Recognition of employees",
+      "normalized_label": "recognition of employees",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::42::opportunities_for_career_development",
+      "label": "Opportunities for career development",
+      "normalized_label": "opportunities for career development",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::43::organizational_culture",
+      "label": "Organizational culture",
+      "normalized_label": "organizational culture",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::44::management_actions",
+      "label": "Management actions",
+      "normalized_label": "management actions",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_"
+      ],
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::45::healthy_work_culture",
+      "label": "Healthy work culture",
+      "normalized_label": "healthy work culture",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu"
+      ],
+      "section_paths": [
+        [
+          "VI. Conclusion"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::46::resources",
+      "label": "Resources",
+      "normalized_label": "resources",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu"
+      ],
+      "section_paths": [
+        [
+          "VI. Conclusion"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::47::workplace_stress",
+      "label": "workplace stress",
+      "normalized_label": "workplace stress",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::9::workplace_stress_niosh_science_blog_2007_decembe",
+        "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::10::workplace_stress_niosh_science_blog_2007_decembe",
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "STRESS MANAGEMENT Manage your job stress"
+        ],
+        [
+          "Nearly everyone experiences stress at some time in their life."
+        ],
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::48::niosh_science_blog",
+      "label": "NIOSH Science Blog",
+      "normalized_label": "niosh science blog",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::49::national_institute_of_mental_health",
+      "label": "National Institute of Mental Health",
+      "normalized_label": "national institute of mental health",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::50::center_for_workplace_mental_health",
+      "label": "Center for Workplace Mental Health",
+      "normalized_label": "center for workplace mental health",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::51::samhsa_treatment_referral_helpline",
+      "label": "SAMHSA Treatment Referral Helpline",
+      "normalized_label": "samhsa treatment referral helpline",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::52::behavioral_health_treatment_locator",
+      "label": "Behavioral Health Treatment Locator",
+      "normalized_label": "behavioral health treatment locator",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::53::university_of_michigan_depression_center",
+      "label": "University of Michigan Depression Center",
+      "normalized_label": "university of michigan depression center",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::54::right_direction",
+      "label": "Right Direction",
+      "normalized_label": "right direction",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::55::arm",
+      "label": "ARM",
+      "normalized_label": "arm",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::details::70::details_summary_text_image_summary_arm_all_the_r::chunk::15::details_summary_text_image_summary_arm_all_the_r"
+      ],
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc12::concept::56::all_the_right_moves",
+      "label": "All the Right Moves",
+      "normalized_label": "all the right moves",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc12::details::70::details_summary_text_image_summary_arm_all_the_r::chunk::15::details_summary_text_image_summary_arm_all_the_r"
+      ],
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::5::stress"
+      ],
+      "labels": [
+        "stress management",
+        "stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::3::job_stress",
+        "doc12::concept::8::chronic_job_stress"
+      ],
+      "labels": [
+        "job stress",
+        "chronic job stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::7::national_institute_for_occupational_safety_and_h",
+        "doc12::concept::36::health"
+      ],
+      "labels": [
+        "National Institute for Occupational Safety and Health (NIOSH)",
+        "Health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::5::stress",
+        "doc12::concept::47::workplace_stress"
+      ],
+      "labels": [
+        "stress",
+        "workplace stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::36::health",
+        "doc12::concept::49::national_institute_of_mental_health"
+      ],
+      "labels": [
+        "Health",
+        "National Institute of Mental Health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::36::health",
+        "doc12::concept::50::center_for_workplace_mental_health"
+      ],
+      "labels": [
+        "Health",
+        "Center for Workplace Mental Health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::36::health",
+        "doc12::concept::52::behavioral_health_treatment_locator"
+      ],
+      "labels": [
+        "Health",
+        "Behavioral Health Treatment Locator"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::17::depression",
+        "doc12::concept::53::university_of_michigan_depression_center"
+      ],
+      "labels": [
+        "Depression",
+        "University of Michigan Depression Center"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 100,
+    "canonical_concept_count": 57,
+    "candidate_merge_count": 8
+  }
+}

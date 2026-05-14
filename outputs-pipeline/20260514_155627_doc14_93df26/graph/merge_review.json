@@ -1,0 +1,177 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc14::concept::3::reproduction",
+        "doc14::concept::4::reproduction_in_plants"
+      ],
+      "labels": [
+        "reproduction",
+        "reproduction in plants"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::3::reproduction",
+        "doc14::concept::5::reproduction_in_animals"
+      ],
+      "labels": [
+        "reproduction",
+        "reproduction in animals"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::3::reproduction",
+        "doc14::concept::6::sexual_reproduction"
+      ],
+      "labels": [
+        "reproduction",
+        "sexual reproduction"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::3::reproduction",
+        "doc14::concept::7::asexual_reproduction"
+      ],
+      "labels": [
+        "reproduction",
+        "asexual reproduction"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::13::sperm_ducts"
+      ],
+      "labels": [
+        "sperm",
+        "sperm ducts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::18::human_sperm"
+      ],
+      "labels": [
+        "sperm",
+        "Human sperm"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::21::tail_in_a_sperm"
+      ],
+      "labels": [
+        "sperm",
+        "tail in a sperm"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::31::human_ovum",
+        "doc14::concept::33::ovum"
+      ],
+      "labels": [
+        "Human Ovum",
+        "Ovum"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::29::egg",
+        "doc14::concept::36::egg_cell"
+      ],
+      "labels": [
+        "egg",
+        "Egg cell"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::37::sperm_cell"
+      ],
+      "labels": [
+        "sperm",
+        "Sperm cell"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::38::internal_fertilisation"
+      ],
+      "labels": [
+        "Fertilisation",
+        "Internal fertilisation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::28::eggs",
+        "doc14::concept::39::frog_s_eggs"
+      ],
+      "labels": [
+        "eggs",
+        "frog's eggs"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::42::external_fertilisation"
+      ],
+      "labels": [
+        "Fertilisation",
+        "external fertilisation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::29::egg",
+        "doc14::concept::50::egg_shell"
+      ],
+      "labels": [
+        "egg",
+        "Egg shell"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

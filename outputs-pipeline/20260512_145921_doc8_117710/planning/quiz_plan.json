@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "Bell State Measurement Results",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the four possible Bell states resulting from a Bell State Measurement.",
+    "learning_objective": "Understand the outcome of Bell State Measurement in quantum systems.",
+    "tested_fact_block_id": "doc8::concept::69::bell_state_measurement_results",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Entangled photons",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing two photons connected by a wavy line, representing their entangled state.",
+    "learning_objective": "Understand the basic definition of entangled photons.",
+    "tested_fact_block_id": "doc8::concept::10::entangled_photons",
+    "metadata": {}
+  },
+  {
+    "target_concept": "quantum network",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing nodes connected via quantum entanglement in a quantum network.",
+    "learning_objective": "Understand the fundamental definition and purpose of a quantum network.",
+    "tested_fact_block_id": "doc8::concept::73::quantum_network",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Quantum teleportation",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the process of quantum teleportation with entangled particles and classical communication channels.",
+    "learning_objective": "Understand the basic mechanism of quantum teleportation and its reliance on entanglement and classical communication.",
+    "tested_fact_block_id": "doc8::concept::20::quantum_teleportation",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Entangled Pair Management (EPM)",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing entangled particles being managed between quantum network nodes.",
+    "learning_objective": "Understand the role of Entangled Pair Management in quantum networks.",
+    "tested_fact_block_id": "doc8::concept::7::entangled_pair_management",
+    "metadata": {}
+  }
+]

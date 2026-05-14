@@ -1,0 +1,1020 @@
+{
+  "count": 20,
+  "topics": [
+    {
+      "id": "doc2::topic_candidate::section::1::scheduling",
+      "label": "Scheduling",
+      "description": "Section-seeded topic for Scheduling",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::0::operating_system",
+        "doc2::concept::11::context_switches",
+        "doc2::concept::1::processes",
+        "doc2::concept::2::cpus",
+        "doc2::concept::3::time_share",
+        "doc2::concept::4::virtual_cpu",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::6::xv6",
+        "doc2::concept::8::voluntary_switches",
+        "doc2::concept::9::involuntary_switches"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc2::concept::3::time_share",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::6::xv6"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "section_id": "doc2::section::1::scheduling",
+        "source_section_label": "Scheduling"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::section::2::multiplexing",
+      "label": "Multiplexing",
+      "description": "Section-seeded topic for 8.1 Multiplexing",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::10::hardware_timer",
+        "doc2::concept::11::context_switches",
+        "doc2::concept::14::kernel_thread",
+        "doc2::concept::25::swtch",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::52::p_state",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::78::myproc",
+        "doc2::concept::7::system_call",
+        "doc2::concept::8::voluntary_switches",
+        "doc2::concept::9::involuntary_switches"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::10::hardware_timer",
+        "doc2::concept::11::context_switches",
+        "doc2::concept::7::system_call"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc2::section::4::8_1_multiplexing",
+        "source_section_label": "8.1 Multiplexing"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::section::3::context_switch_overview",
+      "label": "Context switch overview",
+      "description": "Section-seeded topic for 8.2 Context switch overview",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.2 Context switch overview"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::14::kernel_thread",
+        "doc2::concept::15::scheduler_thread",
+        "doc2::concept::16::user_space",
+        "doc2::concept::17::shell",
+        "doc2::concept::18::kernel_space",
+        "doc2::concept::19::kstack_cat",
+        "doc2::concept::24::trap_return",
+        "doc2::concept::25::swtch",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::details::10::details_summary_flowchart_summary_mermaid_graph_::chunk::4::details_summary_flowchart_summary_mermaid_graph_",
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::10::details_summary_flowchart_summary_mermaid_graph_",
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::14::kernel_thread",
+        "doc2::concept::7::system_call"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc2::section::7::8_2_context_switch_overview",
+        "source_section_label": "8.2 Context switch overview"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::section::4::context_switching_implementation",
+      "label": "Context switching implementation",
+      "description": "Section-seeded topic for 8.3 Code: Context switching",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::14::kernel_thread",
+        "doc2::concept::15::scheduler_thread",
+        "doc2::concept::24::trap_return",
+        "doc2::concept::25::swtch",
+        "doc2::concept::26::struct_proc",
+        "doc2::concept::36::thread_x",
+        "doc2::concept::37::thread_y",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::78::myproc",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "doc2::paragraph::37::the_return_values_of_cpuid_and_mycpu_are_fragile::chunk::21::the_return_values_of_cpuid_and_mycpu_are_fragile",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::25::swtch",
+        "doc2::concept::7::system_call"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc2::section::13::8_3_code_context_switching",
+        "source_section_label": "8.3 Code: Context switching"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::section::5::scheduling_implementation",
+      "label": "Scheduling implementation",
+      "description": "Section-seeded topic for 8.4 Code: Scheduling",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::25::swtch",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::44::process",
+        "doc2::concept::45::acquire",
+        "doc2::concept::46::release",
+        "doc2::concept::47::runnable",
+        "doc2::concept::48::running",
+        "doc2::concept::52::p_state",
+        "doc2::concept::54::yield",
+        "doc2::concept::55::forkret"
+      ],
+      "chunk_ids": [
+        "doc2::details::27::details_summary_text_image_summary_process_1_acq::chunk::14::details_summary_text_image_summary_process_1_acq",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "doc2::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::25::swtch",
+        "doc2::concept::40::scheduler"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc2::section::23::8_4_code_scheduling",
+        "source_section_label": "8.4 Code: Scheduling"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::section::6::mycpu_and_myproc_implementation",
+      "label": "Mycpu and myproc implementation",
+      "description": "Section-seeded topic for 8.5 Code: mycpu and myproc",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::24::trap_return",
+        "doc2::concept::25::swtch",
+        "doc2::concept::26::struct_proc",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::47::runnable",
+        "doc2::concept::52::p_state",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::75::interrupts",
+        "doc2::concept::78::myproc",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "doc2::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "doc2::paragraph::37::the_return_values_of_cpuid_and_mycpu_are_fragile::chunk::21::the_return_values_of_cpuid_and_mycpu_are_fragile",
+        "doc2::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::22::the_function_myproc_2187_returns_the_struct_proc"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::25::swtch",
+        "doc2::concept::40::scheduler"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc2::section::33::8_5_code_mycpu_and_myproc",
+        "source_section_label": "8.5 Code: mycpu and myproc"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::section::7::real_world",
+      "label": "Real world",
+      "description": "Section-seeded topic for 8.6 Real world",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.6 Real world"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::10::hardware_timer",
+        "doc2::concept::25::swtch",
+        "doc2::concept::26::struct_proc",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::47::runnable",
+        "doc2::concept::48::running",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::75::interrupts",
+        "doc2::concept::78::myproc",
+        "doc2::concept::79::round_robin",
+        "doc2::concept::7::system_call",
+        "doc2::concept::80::process_priorities"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "doc2::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "doc2::paragraph::37::the_return_values_of_cpuid_and_mycpu_are_fragile::chunk::21::the_return_values_of_cpuid_and_mycpu_are_fragile",
+        "doc2::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::22::the_function_myproc_2187_returns_the_struct_proc",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::10::hardware_timer",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::75::interrupts"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc2::section::39::8_6_real_world",
+        "source_section_label": "8.6 Real world"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::section::8::exercises",
+      "label": "Exercises",
+      "description": "Section-seeded topic for 8.7 Exercises",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.7 Exercises"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::14::kernel_thread",
+        "doc2::concept::15::scheduler_thread",
+        "doc2::concept::25::swtch",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::47::runnable",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::79::round_robin",
+        "doc2::concept::7::system_call",
+        "doc2::concept::82::xv6_scheduler"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::15::scheduler_thread",
+        "doc2::concept::25::swtch"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc2::section::41::8_7_exercises",
+        "source_section_label": "8.7 Exercises"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::0::swtch",
+      "label": "Swtch()",
+      "description": "Concept-anchored topic centered on swtch()",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.3 Code: Context switching"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::25::swtch",
+        "doc2::concept::26::struct_proc",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::47::runnable",
+        "doc2::concept::48::running",
+        "doc2::concept::52::p_state",
+        "doc2::concept::54::yield",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "doc2::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::25::swtch"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::25::swtch"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::1::scheduler",
+      "label": "Scheduler",
+      "description": "Concept-anchored topic centered on scheduler",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::25::swtch",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::44::process",
+        "doc2::concept::45::acquire",
+        "doc2::concept::46::release",
+        "doc2::concept::47::runnable",
+        "doc2::concept::48::running",
+        "doc2::concept::49::process_table",
+        "doc2::concept::54::yield",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::details::27::details_summary_text_image_summary_process_1_acq::chunk::14::details_summary_text_image_summary_process_1_acq",
+        "doc2::paragraph::22::swtch_2902_saves_callee_saved_registers_ra_sp_s0::chunk::11::swtch_2902_saves_callee_saved_registers_ra_sp_s0",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "doc2::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::40::scheduler"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::40::scheduler"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::2::context_switching",
+      "label": "Context switching",
+      "description": "Concept-anchored topic centered on context switching",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::14::kernel_thread",
+        "doc2::concept::15::scheduler_thread",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::54::yield",
+        "doc2::concept::55::forkret",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc2::concept::11::context_switches"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::11::context_switches"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::3::struct_context",
+      "label": "Struct context",
+      "description": "Concept-anchored topic centered on struct context",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::25::swtch",
+        "doc2::concept::26::struct_proc",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::47::runnable",
+        "doc2::concept::52::p_state",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::75::interrupts",
+        "doc2::concept::78::myproc",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "doc2::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "doc2::paragraph::37::the_return_values_of_cpuid_and_mycpu_are_fragile::chunk::21::the_return_values_of_cpuid_and_mycpu_are_fragile",
+        "doc2::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::22::the_function_myproc_2187_returns_the_struct_proc"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::7::system_call"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::7::system_call"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::4::kernel_thread",
+      "label": "Kernel thread",
+      "description": "Concept-anchored topic centered on kernel thread",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.2 Context switch overview"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::14::kernel_thread",
+        "doc2::concept::15::scheduler_thread",
+        "doc2::concept::22::trap",
+        "doc2::concept::25::swtch",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::48::running",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::63::mycpu"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::14::kernel_thread"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::14::kernel_thread"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::5::scheduler_thread",
+      "label": "Scheduler thread",
+      "description": "Concept-anchored topic centered on scheduler thread",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.2 Context switch overview"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::13::cpu_registers",
+        "doc2::concept::14::kernel_thread",
+        "doc2::concept::15::scheduler_thread",
+        "doc2::concept::22::trap",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::48::running",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::63::mycpu"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc2::concept::15::scheduler_thread"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::15::scheduler_thread"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::6::trap_return",
+      "label": "Trap return",
+      "description": "Concept-anchored topic centered on trap return",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.2 Context switch overview"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::20::user_process",
+        "doc2::concept::24::trap_return",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::67::start",
+        "doc2::concept::69::prepare_return",
+        "doc2::concept::71::uservec",
+        "doc2::concept::75::interrupts",
+        "doc2::concept::78::myproc",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "doc2::paragraph::37::the_return_values_of_cpuid_and_mycpu_are_fragile::chunk::21::the_return_values_of_cpuid_and_mycpu_are_fragile",
+        "doc2::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::22::the_function_myproc_2187_returns_the_struct_proc",
+        "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc2::concept::24::trap_return"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::24::trap_return"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::7::running",
+      "label": "RUNNING",
+      "description": "Concept-anchored topic centered on RUNNING",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::14::kernel_thread",
+        "doc2::concept::25::swtch",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::44::process",
+        "doc2::concept::47::runnable",
+        "doc2::concept::48::running",
+        "doc2::concept::49::process_table",
+        "doc2::concept::52::p_state"
+      ],
+      "chunk_ids": [
+        "doc2::details::27::details_summary_text_image_summary_process_1_acq::chunk::14::details_summary_text_image_summary_process_1_acq",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "doc2::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::48::running"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::48::running"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::8::high_throughput",
+      "label": "High throughput",
+      "description": "Concept-anchored topic centered on high throughput",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.1 Multiplexing"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::10::hardware_timer",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::9::involuntary_switches"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::2::any_operating_system_is_likely_to_run_with_more_::chunk::0::any_operating_system_is_likely_to_run_with_more_",
+        "doc2::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::22::the_function_myproc_2187_returns_the_struct_proc",
+        "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc2::concept::10::hardware_timer"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.91
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::10::hardware_timer"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::9::mycpu",
+      "label": "Mycpu",
+      "description": "Concept-anchored topic centered on mycpu",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::24::trap_return",
+        "doc2::concept::25::swtch",
+        "doc2::concept::26::struct_proc",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::5::multiplexing",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::75::interrupts",
+        "doc2::concept::78::myproc",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "doc2::paragraph::37::the_return_values_of_cpuid_and_mycpu_are_fragile::chunk::21::the_return_values_of_cpuid_and_mycpu_are_fragile",
+        "doc2::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::22::the_function_myproc_2187_returns_the_struct_proc",
+        "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::63::mycpu"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::63::mycpu"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::10::process_lock",
+      "label": "Process lock",
+      "description": "Concept-anchored topic centered on process lock",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.4 Code: Scheduling"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::25::swtch",
+        "doc2::concept::40::scheduler",
+        "doc2::concept::41::process_lock",
+        "doc2::concept::45::acquire",
+        "doc2::concept::46::release",
+        "doc2::concept::47::runnable",
+        "doc2::concept::52::p_state",
+        "doc2::concept::54::yield",
+        "doc2::concept::55::forkret"
+      ],
+      "chunk_ids": [
+        "doc2::details::27::details_summary_text_image_summary_process_1_acq::chunk::14::details_summary_text_image_summary_process_1_acq",
+        "doc2::paragraph::24::the_last_section_looked_at_the_internals_of_swtc::chunk::12::the_last_section_looked_at_the_internals_of_swtc",
+        "doc2::paragraph::28::figure_8_2_swtch_always_has_the_scheduler_thread::chunk::15::figure_8_2_swtch_always_has_the_scheduler_thread",
+        "doc2::paragraph::29::scheduler_2558_runs_a_loop_find_a_process_to_run::chunk::16::scheduler_2558_runs_a_loop_find_a_process_to_run",
+        "doc2::paragraph::30::xv6_holds_p_lock_across_calls_to_swtch_the_calle::chunk::17::xv6_holds_p_lock_across_calls_to_swtch_the_calle",
+        "doc2::paragraph::31::running_the_lock_cannot_be_released_until_the_pr::chunk::18::running_the_lock_cannot_be_released_until_the_pr",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::40::the_xv6_scheduler_implements_a_simple_scheduling::chunk::23::the_xv6_scheduler_implements_a_simple_scheduling"
+      ],
+      "artifact_ids": [
+        "doc2::artifact::27::details_summary_text_image_summary_process_1_acq"
+      ],
+      "seed_concept_ids": [
+        "doc2::concept::41::process_lock"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::41::process_lock"
+      }
+    },
+    {
+      "id": "doc2::topic_candidate::anchor::11::interrupts",
+      "label": "Interrupts",
+      "description": "Concept-anchored topic centered on interrupts",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "8.5 Code: mycpu and myproc"
+        ]
+      ],
+      "concept_ids": [
+        "doc2::concept::11::context_switches",
+        "doc2::concept::24::trap_return",
+        "doc2::concept::26::struct_proc",
+        "doc2::concept::63::mycpu",
+        "doc2::concept::74::cpuid",
+        "doc2::concept::75::interrupts",
+        "doc2::concept::78::myproc",
+        "doc2::concept::7::system_call"
+      ],
+      "chunk_ids": [
+        "doc2::paragraph::11::figure_8_1_switching_from_one_user_process_to_an::chunk::5::figure_8_1_switching_from_one_user_process_to_an",
+        "doc2::paragraph::12::at_a_broader_scope_the_steps_involved_in_switchi::chunk::6::at_a_broader_scope_the_steps_involved_in_switchi",
+        "doc2::paragraph::32::there_is_one_case_when_the_scheduler_s_call_to_s::chunk::19::there_is_one_case_when_the_scheduler_s_call_to_s",
+        "doc2::paragraph::35::while_a_given_cpu_is_executing_in_the_kernel_xv6::chunk::20::while_a_given_cpu_is_executing_in_the_kernel_xv6",
+        "doc2::paragraph::37::the_return_values_of_cpuid_and_mycpu_are_fragile::chunk::21::the_return_values_of_cpuid_and_mycpu_are_fragile",
+        "doc2::paragraph::38::the_function_myproc_2187_returns_the_struct_proc::chunk::22::the_function_myproc_2187_returns_the_struct_proc",
+        "doc2::paragraph::3::before_proceeding_with_this_chapter_please_read_::chunk::1::before_proceeding_with_this_chapter_please_read_",
+        "doc2::paragraph::6::implementing_multiplexing_poses_a_few_challenges::chunk::2::implementing_multiplexing_poses_a_few_challenges"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc2::concept::75::interrupts"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.94
+      },
+      "metadata": {
+        "anchor_concept_id": "doc2::concept::75::interrupts"
+      }
+    }
+  ]
+}

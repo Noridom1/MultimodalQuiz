@@ -1,0 +1,105 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::5::stress"
+      ],
+      "labels": [
+        "stress management",
+        "stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::3::job_stress",
+        "doc12::concept::8::chronic_job_stress"
+      ],
+      "labels": [
+        "job stress",
+        "chronic job stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::7::national_institute_for_occupational_safety_and_h",
+        "doc12::concept::36::health"
+      ],
+      "labels": [
+        "National Institute for Occupational Safety and Health (NIOSH)",
+        "Health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::5::stress",
+        "doc12::concept::47::workplace_stress"
+      ],
+      "labels": [
+        "stress",
+        "workplace stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::36::health",
+        "doc12::concept::49::national_institute_of_mental_health"
+      ],
+      "labels": [
+        "Health",
+        "National Institute of Mental Health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::36::health",
+        "doc12::concept::50::center_for_workplace_mental_health"
+      ],
+      "labels": [
+        "Health",
+        "Center for Workplace Mental Health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::36::health",
+        "doc12::concept::52::behavioral_health_treatment_locator"
+      ],
+      "labels": [
+        "Health",
+        "Behavioral Health Treatment Locator"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc12::concept::17::depression",
+        "doc12::concept::53::university_of_michigan_depression_center"
+      ],
+      "labels": [
+        "Depression",
+        "University of Michigan Depression Center"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

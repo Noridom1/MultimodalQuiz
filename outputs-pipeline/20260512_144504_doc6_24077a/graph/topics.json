@@ -1,0 +1,554 @@
+{
+  "count": 12,
+  "topics": [
+    {
+      "id": "doc6::topic_candidate::anchor::5::metabotropic_receptors",
+      "label": "Metabotropic receptors",
+      "description": "Concept-anchored topic centered on metabotropic receptors",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::37::ionotropic_receptors",
+        "doc6::concept::38::metabotropic_receptors",
+        "doc6::concept::39::ligand",
+        "doc6::concept::42::g_protein",
+        "doc6::concept::9::sugar_molecules"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::38::metabotropic_receptors"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.9
+      },
+      "metadata": {
+        "anchor_concept_id": "doc6::concept::38::metabotropic_receptors"
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::anchor::2::synaptic_communication",
+      "label": "Synaptic communication",
+      "description": "Concept-anchored topic centered on synaptic communication",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::16::synaptic_cleft",
+        "doc6::concept::56::vesicles"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::16::synaptic_cleft"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "doc6::concept::16::synaptic_cleft"
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::anchor::4::ionotropic_receptors",
+      "label": "Ionotropic receptors",
+      "description": "Concept-anchored topic centered on ionotropic receptors",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::37::ionotropic_receptors",
+        "doc6::concept::38::metabotropic_receptors",
+        "doc6::concept::39::ligand",
+        "doc6::concept::40::ligand_gated_transmembrane_ion_channels"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::37::ionotropic_receptors"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.852
+      },
+      "metadata": {
+        "anchor_concept_id": "doc6::concept::37::ionotropic_receptors"
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::anchor::10::action_potential",
+      "label": "Action potential",
+      "description": "Concept-anchored topic centered on action potential",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::13::action_potential",
+        "doc6::concept::14::ca_influx",
+        "doc6::concept::15::vesicle_fusion",
+        "doc6::concept::33::voltage_dependent_calcium_channels"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::13::action_potential",
+        "doc6::concept::14::ca_influx"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.852
+      },
+      "metadata": {
+        "anchor_concept_id": "doc6::concept::13::action_potential",
+        "merged_candidate_ids": [
+          "doc6::topic_candidate::anchor::11::calcium_ions"
+        ]
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::anchor::6::neurotransmitter",
+      "label": "Neurotransmitter",
+      "description": "Concept-anchored topic centered on neurotransmitter",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::17::postsynaptic_receptors",
+        "doc6::concept::18::epsps",
+        "doc6::concept::20::secondary_biochemical_processes",
+        "doc6::concept::35::neurotransmitter",
+        "doc6::concept::36::receptor"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::35::neurotransmitter"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.6,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.83
+      },
+      "metadata": {
+        "anchor_concept_id": "doc6::concept::35::neurotransmitter"
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::anchor::8::synaptic_vesicles",
+      "label": "Synaptic vesicles",
+      "description": "Concept-anchored topic centered on synaptic vesicles",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::12::synaptic_vesicles",
+        "doc6::concept::25::metal_ions",
+        "doc6::concept::31::neurotransmitter_metabolism",
+        "doc6::concept::32::presynaptic_terminal"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::12::synaptic_vesicles"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.765
+      },
+      "metadata": {
+        "anchor_concept_id": "doc6::concept::12::synaptic_vesicles"
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::anchor::0::neurotransmitters",
+      "label": "Neurotransmitters",
+      "description": "Concept-anchored topic centered on neurotransmitters",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::0::neurons",
+        "doc6::concept::1::neurotransmitters",
+        "doc6::concept::21::reuptake",
+        "doc6::concept::25::metal_ions",
+        "doc6::concept::2::receptors",
+        "doc6::concept::31::neurotransmitter_metabolism",
+        "doc6::concept::3::enzymes",
+        "doc6::concept::4::vesicle",
+        "doc6::concept::53::enzymatic_inactivation",
+        "doc6::concept::54::axon_terminal",
+        "doc6::concept::57::transporter_proteins",
+        "doc6::concept::5::intracellular_signals",
+        "doc6::concept::6::nutrients"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::0::neurons",
+        "doc6::concept::1::neurotransmitters",
+        "doc6::concept::21::reuptake",
+        "doc6::concept::3::enzymes"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.462,
+        "breadth_score": 0.3,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.602
+      },
+      "metadata": {
+        "anchor_concept_id": "doc6::concept::1::neurotransmitters",
+        "merged_candidate_ids": [
+          "doc6::topic_candidate::anchor::1::neurons",
+          "doc6::topic_candidate::anchor::3::enzymes",
+          "doc6::topic_candidate::anchor::9::reuptake",
+          "doc6::topic_candidate::section::1::learning_objectives"
+        ]
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::anchor::7::nutrients",
+      "label": "Nutrients",
+      "description": "Concept-anchored topic centered on nutrients",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::0::neurons",
+        "doc6::concept::10::blood_brain_barrier",
+        "doc6::concept::11::astrocytes",
+        "doc6::concept::1::neurotransmitters",
+        "doc6::concept::21::reuptake",
+        "doc6::concept::2::receptors",
+        "doc6::concept::3::enzymes",
+        "doc6::concept::4::vesicle",
+        "doc6::concept::5::intracellular_signals",
+        "doc6::concept::6::nutrients"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::6::nutrients"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.6,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.74
+      },
+      "metadata": {
+        "anchor_concept_id": "doc6::concept::6::nutrients"
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::section::4::post_synaptic_actions_of_neurotransmitters",
+      "label": "Post-synaptic actions of neurotransmitters",
+      "description": "Section-seeded topic for Post-synaptic actions of neurotransmitters",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::16::synaptic_cleft",
+        "doc6::concept::1::neurotransmitters",
+        "doc6::concept::35::neurotransmitter",
+        "doc6::concept::37::ionotropic_receptors",
+        "doc6::concept::38::metabotropic_receptors",
+        "doc6::concept::39::ligand",
+        "doc6::concept::42::g_protein",
+        "doc6::concept::43::g_protein_coupled_receptors",
+        "doc6::concept::47::effector_protein",
+        "doc6::concept::48::g_protein_subunits",
+        "doc6::concept::53::enzymatic_inactivation",
+        "doc6::concept::54::axon_terminal"
+      ],
+      "chunk_ids": [
+        "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [
+        "doc6::artifact::26::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc6::concept::16::synaptic_cleft",
+        "doc6::concept::1::neurotransmitters",
+        "doc6::concept::38::metabotropic_receptors"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc6::section::22::post_synaptic_actions_of_neurotransmitters",
+        "source_section_label": "Post-synaptic actions of neurotransmitters"
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::section::2::how_do_neurons_produce_neurotransmitters",
+      "label": "How do neurons produce neurotransmitters?",
+      "description": "Section-seeded topic for How do neurons produce neurotransmitters?",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::0::neurons",
+        "doc6::concept::14::ca_influx",
+        "doc6::concept::16::synaptic_cleft",
+        "doc6::concept::1::neurotransmitters",
+        "doc6::concept::21::reuptake",
+        "doc6::concept::25::metal_ions",
+        "doc6::concept::31::neurotransmitter_metabolism",
+        "doc6::concept::35::neurotransmitter",
+        "doc6::concept::3::enzymes",
+        "doc6::concept::4::vesicle",
+        "doc6::concept::5::intracellular_signals",
+        "doc6::concept::6::nutrients"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::0::neurons",
+        "doc6::concept::16::synaptic_cleft",
+        "doc6::concept::1::neurotransmitters"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc6::section::5::how_do_neurons_produce_neurotransmitters",
+        "source_section_label": "How do neurons produce neurotransmitters?"
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::section::3::how_are_neurotransmitters_stored_and_released",
+      "label": "How are neurotransmitters stored and released?",
+      "description": "Section-seeded topic for How are neurotransmitters stored and released?",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::0::neurons",
+        "doc6::concept::12::synaptic_vesicles",
+        "doc6::concept::13::action_potential",
+        "doc6::concept::14::ca_influx",
+        "doc6::concept::16::synaptic_cleft",
+        "doc6::concept::1::neurotransmitters",
+        "doc6::concept::31::neurotransmitter_metabolism",
+        "doc6::concept::32::presynaptic_terminal",
+        "doc6::concept::33::voltage_dependent_calcium_channels",
+        "doc6::concept::34::synapse",
+        "doc6::concept::3::enzymes",
+        "doc6::concept::6::nutrients"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::0::neurons",
+        "doc6::concept::12::synaptic_vesicles",
+        "doc6::concept::16::synaptic_cleft"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.645
+      },
+      "metadata": {
+        "section_id": "doc6::section::16::how_are_neurotransmitters_stored_and_released",
+        "source_section_label": "How are neurotransmitters stored and released?"
+      }
+    },
+    {
+      "id": "doc6::topic_candidate::section::5::ending_neurotransmitter_action",
+      "label": "Ending neurotransmitter action",
+      "description": "Section-seeded topic for Ending neurotransmitter action",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "concept_ids": [
+        "doc6::concept::0::neurons",
+        "doc6::concept::16::synaptic_cleft",
+        "doc6::concept::1::neurotransmitters",
+        "doc6::concept::21::reuptake",
+        "doc6::concept::3::enzymes",
+        "doc6::concept::50::neural_systems",
+        "doc6::concept::51::redundancy",
+        "doc6::concept::53::enzymatic_inactivation",
+        "doc6::concept::54::axon_terminal",
+        "doc6::concept::56::vesicles",
+        "doc6::concept::57::transporter_proteins",
+        "doc6::concept::6::nutrients"
+      ],
+      "chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc6::concept::16::synaptic_cleft",
+        "doc6::concept::1::neurotransmitters",
+        "doc6::concept::21::reuptake"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.645
+      },
+      "metadata": {
+        "section_id": "doc6::section::29::ending_neurotransmitter_action",
+        "source_section_label": "Ending neurotransmitter action"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_count": 17,
+    "consolidated_count": 12,
+    "accepted_count": 12
+  }
+}

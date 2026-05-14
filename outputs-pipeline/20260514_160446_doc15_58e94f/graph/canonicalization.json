@@ -1,0 +1,1429 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc15::concept::0::psychology_of_concepts",
+      "label": "psychology of concepts",
+      "normalized_label": "psychology of concepts",
+      "aliases": [
+        "Psychology of Concepts"
+      ],
+      "mention_count": 7,
+      "definitions": [
+        "The current of Cognitive Psychology that locates itself within the traditions of experimental natural science and analytical philosophy."
+      ],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach",
+        "doc15::paragraph::5::these_writers_seem_to_agree_that_nothing_was_kno::chunk::1::these_writers_seem_to_agree_that_nothing_was_kno",
+        "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl",
+        "doc15::paragraph::11::generally_speaking_these_writers_accept_that_peo::chunk::5::generally_speaking_these_writers_accept_that_peo",
+        "doc15::paragraph::15::the_world_is_not_only_seen_atomistically_but_as_::chunk::8::the_world_is_not_only_seen_atomistically_but_as_",
+        "doc15::paragraph::17::the_psychology_of_concepts_needs_to_be_understoo::chunk::9::the_psychology_of_concepts_needs_to_be_understoo"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ],
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::1::cognitive_revolution",
+      "label": "Cognitive Revolution",
+      "normalized_label": "cognitive revolution",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::2::jerome_bruner",
+      "label": "Jerome Bruner",
+      "normalized_label": "jerome bruner",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::3::jacqueline_goodnow",
+      "label": "Jacqueline Goodnow",
+      "normalized_label": "jacqueline goodnow",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::4::george_austin",
+      "label": "George Austin",
+      "normalized_label": "george austin",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::5::eleanor_rosch",
+      "label": "Eleanor Rosch",
+      "normalized_label": "eleanor rosch",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::6::douglas_medin",
+      "label": "Douglas Medin",
+      "normalized_label": "douglas medin",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::7::lawrence_barsalou",
+      "label": "Lawrence Barsalou",
+      "normalized_label": "lawrence barsalou",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::8::edward_smith",
+      "label": "Edward Smith",
+      "normalized_label": "edward smith",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::9::gregory_murphy",
+      "label": "Gregory Murphy",
+      "normalized_label": "gregory murphy",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::10::susan_carey",
+      "label": "Susan Carey",
+      "normalized_label": "susan carey",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::11::eric_margolis",
+      "label": "Eric Margolis",
+      "normalized_label": "eric margolis",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::12::stephen_laurence",
+      "label": "Stephen Laurence",
+      "normalized_label": "stephen laurence",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::13::jerry_fodor",
+      "label": "Jerry Fodor",
+      "normalized_label": "jerry fodor",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::1::from_concepts_a_critical_approach::chunk::0::from_concepts_a_critical_approach"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::14::cognitive_psychology",
+      "label": "Cognitive Psychology",
+      "normalized_label": "cognitive psychology",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::5::these_writers_seem_to_agree_that_nothing_was_kno::chunk::1::these_writers_seem_to_agree_that_nothing_was_kno",
+        "doc15::paragraph::17::the_psychology_of_concepts_needs_to_be_understoo::chunk::9::the_psychology_of_concepts_needs_to_be_understoo"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ],
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::15::cartesian_dualism",
+      "label": "Cartesian dualism",
+      "normalized_label": "cartesian dualism",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::5::these_writers_seem_to_agree_that_nothing_was_kno::chunk::1::these_writers_seem_to_agree_that_nothing_was_kno"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::16::experimental_natural_science",
+      "label": "experimental natural science",
+      "normalized_label": "experimental natural science",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::5::these_writers_seem_to_agree_that_nothing_was_kno::chunk::1::these_writers_seem_to_agree_that_nothing_was_kno"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::17::analytical_philosophy",
+      "label": "analytical philosophy",
+      "normalized_label": "analytical philosophy",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::5::these_writers_seem_to_agree_that_nothing_was_kno::chunk::1::these_writers_seem_to_agree_that_nothing_was_kno"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::18::objective_world",
+      "label": "objective world",
+      "normalized_label": "objective world",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::19::individual_entities",
+      "label": "individual entities",
+      "normalized_label": "individual entities",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::20::attributes",
+      "label": "attributes",
+      "normalized_label": "attributes",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "Properties or features that exhaustively describe individual entities."
+      ],
+      "source_chunk_ids": [
+        "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::21::features",
+      "label": "features",
+      "normalized_label": "features",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::22::essence",
+      "label": "essence",
+      "normalized_label": "essence",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "An intrinsic nature or quality that transcends contingent attributes."
+      ],
+      "source_chunk_ids": [
+        "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::23::contingent_attributes",
+      "label": "contingent attributes",
+      "normalized_label": "contingent attributes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::24::social_experience",
+      "label": "social experience",
+      "normalized_label": "social experience",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl",
+        "doc15::paragraph::11::generally_speaking_these_writers_accept_that_peo::chunk::5::generally_speaking_these_writers_accept_that_peo"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::25::laboratory_conditions",
+      "label": "laboratory conditions",
+      "normalized_label": "laboratory conditions",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::10::the_second_assumption_is_that_the_objective_worl::chunk::4::the_second_assumption_is_that_the_objective_worl",
+        "doc15::paragraph::11::generally_speaking_these_writers_accept_that_peo::chunk::5::generally_speaking_these_writers_accept_that_peo"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::26::concepts",
+      "label": "concepts",
+      "normalized_label": "concepts",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::11::generally_speaking_these_writers_accept_that_peo::chunk::5::generally_speaking_these_writers_accept_that_peo",
+        "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::27::made_up_concepts",
+      "label": "made-up concepts",
+      "normalized_label": "made-up concepts",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::11::generally_speaking_these_writers_accept_that_peo::chunk::5::generally_speaking_these_writers_accept_that_peo"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::28::social_interaction",
+      "label": "social interaction",
+      "normalized_label": "social interaction",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::11::generally_speaking_these_writers_accept_that_peo::chunk::5::generally_speaking_these_writers_accept_that_peo"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::29::multiple_choice_questionnaire",
+      "label": "multiple-choice questionnaire",
+      "normalized_label": "multiple-choice questionnaire",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::11::generally_speaking_these_writers_accept_that_peo::chunk::5::generally_speaking_these_writers_accept_that_peo"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::30::object_categorisation",
+      "label": "object-categorisation",
+      "normalized_label": "object-categorisation",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "A theory focused on classifying objects rather than understanding concepts."
+      ],
+      "source_chunk_ids": [
+        "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::31::borderline_cases",
+      "label": "borderline cases",
+      "normalized_label": "borderline cases",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::32::categorisation",
+      "label": "categorisation",
+      "normalized_label": "categorisation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::33::litmus_test",
+      "label": "litmus test",
+      "normalized_label": "litmus test",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::34::square",
+      "label": "square",
+      "normalized_label": "square",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::35::virgin_mary",
+      "label": "Virgin Mary",
+      "normalized_label": "virgin mary",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::36::inessential_features",
+      "label": "inessential features",
+      "normalized_label": "inessential features",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::37::essential_features",
+      "label": "essential features",
+      "normalized_label": "essential features",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::13::although_the_field_and_hence_this_book_concentra::chunk::6::although_the_field_and_hence_this_book_concentra",
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::38::units_of_analysis",
+      "label": "units of analysis",
+      "normalized_label": "units of analysis",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "The entities or elements selected as the basis for study or categorization."
+      ],
+      "source_chunk_ids": [
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego",
+        "doc15::paragraph::15::the_world_is_not_only_seen_atomistically_but_as_::chunk::8::the_world_is_not_only_seen_atomistically_but_as_"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ],
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::39::chunks",
+      "label": "chunks",
+      "normalized_label": "chunks",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::14::so_essentially_we_have_a_theory_of_object_catego::chunk::7::so_essentially_we_have_a_theory_of_object_catego"
+      ],
+      "section_paths": [
+        [
+          "The Psychology of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::40::atomistically",
+      "label": "atomistically",
+      "normalized_label": "atomistically",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::15::the_world_is_not_only_seen_atomistically_but_as_::chunk::8::the_world_is_not_only_seen_atomistically_but_as_"
+      ],
+      "section_paths": [
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::41::classical_theory_of_concepts",
+      "label": "Classical Theory of Concepts",
+      "normalized_label": "classical theory of concepts",
+      "aliases": [],
+      "mention_count": 6,
+      "definitions": [
+        "The theory of concepts which dominated psychology from antiquity up to about 1970, where concepts are defined by necessary and sufficient features.",
+        "The theory of concepts embodied in a simple dictionary, where every concept is given by its definition.",
+        "The theory of concepts where every concept is given by its definition, and definitions specify necessary and sufficient features."
+      ],
+      "source_chunk_ids": [
+        "doc15::paragraph::15::the_world_is_not_only_seen_atomistically_but_as_::chunk::8::the_world_is_not_only_seen_atomistically_but_as_",
+        "doc15::paragraph::17::the_psychology_of_concepts_needs_to_be_understoo::chunk::9::the_psychology_of_concepts_needs_to_be_understoo",
+        "doc15::paragraph::18::the_classical_theory_is_the_theory_of_concepts_w::chunk::10::the_classical_theory_is_the_theory_of_concepts_w"
+      ],
+      "section_paths": [
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::42::hierarchical_taxonomy",
+      "label": "hierarchical taxonomy",
+      "normalized_label": "hierarchical taxonomy",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::18::the_classical_theory_is_the_theory_of_concepts_w::chunk::10::the_classical_theory_is_the_theory_of_concepts_w",
+        "doc15::paragraph::19::the_first_problem_with_this_as_an_approach_to_a_::chunk::11::the_first_problem_with_this_as_an_approach_to_a_"
+      ],
+      "section_paths": [
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::43::atomic_concepts",
+      "label": "atomic concepts",
+      "normalized_label": "atomic concepts",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::18::the_classical_theory_is_the_theory_of_concepts_w::chunk::10::the_classical_theory_is_the_theory_of_concepts_w",
+        "doc15::paragraph::19::the_first_problem_with_this_as_an_approach_to_a_::chunk::11::the_first_problem_with_this_as_an_approach_to_a_"
+      ],
+      "section_paths": [
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::44::composite_concepts",
+      "label": "composite concepts",
+      "normalized_label": "composite concepts",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::18::the_classical_theory_is_the_theory_of_concepts_w::chunk::10::the_classical_theory_is_the_theory_of_concepts_w",
+        "doc15::paragraph::19::the_first_problem_with_this_as_an_approach_to_a_::chunk::11::the_first_problem_with_this_as_an_approach_to_a_"
+      ],
+      "section_paths": [
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::45::oxford_english_dictionary",
+      "label": "Oxford English Dictionary",
+      "normalized_label": "oxford english dictionary",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "A vast work that provides multiple meanings replete with quotations and etymology to bring a real understanding of concepts."
+      ],
+      "source_chunk_ids": [
+        "doc15::paragraph::19::the_first_problem_with_this_as_an_approach_to_a_::chunk::11::the_first_problem_with_this_as_an_approach_to_a_",
+        "doc15::paragraph::20::but_secondly_a_look_into_dictionaries_soon_makes::chunk::12::but_secondly_a_look_into_dictionaries_soon_makes"
+      ],
+      "section_paths": [
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::46::classical_theory",
+      "label": "categorisation tasks",
+      "normalized_label": "classical theory",
+      "aliases": [
+        "Classical Theory"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::20::but_secondly_a_look_into_dictionaries_soon_makes::chunk::12::but_secondly_a_look_into_dictionaries_soon_makes",
+        "doc15::paragraph::21::eleanor_rosch_murphy_2004_p_16_discovered_that_p::chunk::13::eleanor_rosch_murphy_2004_p_16_discovered_that_p"
+      ],
+      "section_paths": [
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::47::psychological_reality",
+      "label": "psychological reality",
+      "normalized_label": "psychological reality",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::20::but_secondly_a_look_into_dictionaries_soon_makes::chunk::12::but_secondly_a_look_into_dictionaries_soon_makes",
+        "doc15::paragraph::21::eleanor_rosch_murphy_2004_p_16_discovered_that_p::chunk::13::eleanor_rosch_murphy_2004_p_16_discovered_that_p"
+      ],
+      "section_paths": [
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc15::concept::48::verbal_responses",
+      "label": "verbal responses",
+      "normalized_label": "verbal responses",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc15::paragraph::20::but_secondly_a_look_into_dictionaries_soon_makes::chunk::12::but_secondly_a_look_into_dictionaries_soon_makes",
+        "doc15::paragraph::21::eleanor_rosch_murphy_2004_p_16_discovered_that_p::chunk::13::eleanor_rosch_murphy_2004_p_16_discovered_that_p"
+      ],
+      "section_paths": [
+        [
+          "The Classical Theory of Concepts"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc15::concept::20::attributes",
+        "doc15::concept::23::contingent_attributes"
+      ],
+      "labels": [
+        "attributes",
+        "contingent attributes"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::0::psychology_of_concepts",
+        "doc15::concept::26::concepts"
+      ],
+      "labels": [
+        "psychology of concepts",
+        "concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::26::concepts",
+        "doc15::concept::27::made_up_concepts"
+      ],
+      "labels": [
+        "concepts",
+        "made-up concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::21::features",
+        "doc15::concept::36::inessential_features"
+      ],
+      "labels": [
+        "features",
+        "inessential features"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::21::features",
+        "doc15::concept::37::essential_features"
+      ],
+      "labels": [
+        "features",
+        "essential features"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::26::concepts",
+        "doc15::concept::41::classical_theory_of_concepts"
+      ],
+      "labels": [
+        "concepts",
+        "Classical Theory of Concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::26::concepts",
+        "doc15::concept::43::atomic_concepts"
+      ],
+      "labels": [
+        "concepts",
+        "atomic concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::26::concepts",
+        "doc15::concept::44::composite_concepts"
+      ],
+      "labels": [
+        "concepts",
+        "composite concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::41::classical_theory_of_concepts",
+        "doc15::concept::46::classical_theory"
+      ],
+      "labels": [
+        "Classical Theory of Concepts",
+        "Classical Theory"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 88,
+    "canonical_concept_count": 49,
+    "candidate_merge_count": 9
+  }
+}

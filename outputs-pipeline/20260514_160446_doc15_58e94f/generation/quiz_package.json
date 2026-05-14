@@ -1,0 +1,146 @@
+{
+  "run_id": "20260514_160446_doc15_58e94f",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_94337ac909",
+        "question_text": "According to the Classical Theory of Concepts, what defines a category?",
+        "options": [
+          "A set of necessary and sufficient conditions that all members must satisfy",
+          "A prototype that best represents the category",
+          "A family resemblance among members without strict rules",
+          "A statistical analysis of common features among members"
+        ],
+        "correct_answer": "A set of necessary and sufficient conditions that all members must satisfy",
+        "explanation": "The Classical Theory of Concepts posits that categories are defined by strict, shared features (necessary and sufficient conditions) that all members must possess. This is distinct from prototype or family resemblance theories. (doc15::concept::41::classical_theory_of_concepts)",
+        "target_concept": "Classical Theory of Concepts",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc15::concept::41::classical_theory_of_concepts",
+          "run_id": "20260514_160446_doc15_58e94f"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Classical Theory of Concepts\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the defining characteristics of the Classical Theory of Concepts.\nImage context: A Venn diagram showing overlapping features of different categories.\nTested fact block ID: doc15::concept::41::classical_theory_of_concepts\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast Venn diagram with three overlapping circles labeled \"Category X,\" \"Category Y,\" and \"Category Z,\" each filled with distinct colors (e.g., blue, green, red). Highlight the overlapping regions with a neutral tone (e.g., gray) and label them \"Shared Feature 1,\" \"Shared Feature 2,\" etc., using bold, legible text. Ensure the diagram is simple, uncluttered, and uses generic placeholders to avoid bias.\n\nAlt: A Venn diagram illustrating overlapping features between three labeled categories, emphasizing shared characteristics."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_d99b004bae",
+        "question_text": "What do attributes represent in the context of an individual entity?",
+        "options": [
+          "A. The actions an entity can perform",
+          "B. The characteristics or properties of the entity",
+          "C. The relationships between entities",
+          "D. The unique identifier of the entity"
+        ],
+        "correct_answer": "B",
+        "explanation": "Attributes represent the characteristics or properties of an individual entity, such as 'name', 'age', or 'color'. This is a fundamental concept in understanding how entities are described in data models. (Source: doc15::chunk::1)",
+        "target_concept": "attributes",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc15::chunk::1",
+          "run_id": "20260514_160446_doc15_58e94f"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: attributes\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand what attributes represent in the context of individual entities.\nImage context: A diagram showing an individual entity with labeled attributes such as 'name', 'age', and 'color'.\nTested fact block ID: doc15::chunk::1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram of a generic entity (e.g., a stylized person, animal, or object) with 3-4 labeled attributes like \"name,\" \"age,\" and \"color\" in bold, legible text. Use a clean, minimalist style with a neutral background and distinct colors for each label (e.g., blue for \"name,\" green for \"age\"). Replace specific values with placeholders (e.g., \"Name: [Entity X]\"). Ensure the layout clearly groups the entity and its attributes together.\n\n**Alt:** A diagram of a generic entity with labeled attributes such as name, age, and color, using placeholder values."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_e9ff99ffbb",
+        "question_text": "Which of the following is an example of a contingent attribute of a 'car'?",
+        "options": [
+          "Having four wheels",
+          "Being a mode of transportation",
+          "Having a red paint color",
+          "Having an engine"
+        ],
+        "correct_answer": "Having a red paint color",
+        "explanation": "A contingent attribute is a characteristic that an object can possess but is not necessary for its identity. The color of a car is contingent because a car can exist in any color, whereas essential attributes like having wheels or an engine are fundamental to its nature. (Source: doc15::concept::23::contingent_attributes)",
+        "target_concept": "contingent attributes",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc15::concept::23::contingent_attributes",
+          "run_id": "20260514_160446_doc15_58e94f"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: contingent attributes\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Distinguish between essential and contingent attributes of an object.\nImage context: A diagram showing an object with attributes labeled as either essential or contingent.\nTested fact block ID: doc15::concept::23::contingent_attributes\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple diagram of a generic object (e.g., a chair) with labeled attributes: essential traits (e.g., \"has legs,\" \"supports weight\") in bold blue text, and contingent traits (e.g., \"color: red,\" \"material: wood\") in dashed green text. Use high-contrast colors and clear arrows to distinguish the two categories, ensuring all labels are legible. Alt: A diagram of a chair with attributes labeled as essential (blue) or contingent (green) to illustrate the difference between necessary and variable traits."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_ef679d7264",
+        "question_text": "What is the definition of social experience?",
+        "options": [
+          "A. An individual's personal thoughts and feelings",
+          "B. Interactions and relationships between individuals in a society",
+          "C. A person's physical surroundings and environment",
+          "D. The process of learning new skills independently"
+        ],
+        "correct_answer": "B",
+        "explanation": "Social experience refers to the interactions and relationships between individuals in a society, as outlined in doc15::concept::24::social_experience.",
+        "target_concept": "social experience",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc15::concept::24::social_experience",
+          "run_id": "20260514_160446_doc15_58e94f"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: social experience\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and scope of social experience.\nImage context: A group of people interacting in a social setting, such as a café or park.\nTested fact block ID: doc15::concept::24::social_experience\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Illustrate a diverse group of 4–5 people engaged in conversation at a café, with one person gesturing while others listen or respond. Use warm, inviting colors (soft browns, greens, and muted blues) to emphasize a relaxed social atmosphere. Label key elements like \"Group Interaction,\" \"Verbal Exchange,\" and \"Shared Space\" with subtle, high-contrast text. Avoid branded items or logos.\n\n**Alt:** A diverse group of people sitting at a café table, talking and gesturing in a friendly social setting."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_094f992283",
+        "question_text": "What is the primary purpose of a concept in cognitive processes?",
+        "options": [
+          "A. To represent a specific physical object",
+          "B. To categorize and generalize ideas or objects",
+          "C. To describe emotional states exclusively",
+          "D. To measure quantitative data"
+        ],
+        "correct_answer": "B",
+        "explanation": "A concept is an abstract idea or mental representation that helps categorize and generalize objects, events, or ideas, as defined in doc15::concept::26::concepts.",
+        "target_concept": "concepts",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc15::concept::26::concepts",
+          "run_id": "20260514_160446_doc15_58e94f"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: concepts\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and scope of concepts.\nImage context: A diagram showing a hierarchy of abstract ideas and their relationships.\nTested fact block ID: doc15::concept::26::concepts\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast diagram with a central node labeled \"Concept\" branching into three tiers of related abstract ideas (e.g., \"Sub-Concept A,\" \"Sub-Concept B\"), using distinct colors for each tier and arrows to show hierarchical relationships. Use simple geometric shapes (circles, rectangles) with bold outlines and a neutral background for clarity. Alt: A hierarchical diagram illustrating the relationships between abstract concepts and their subcategories."
+    }
+  ]
+}

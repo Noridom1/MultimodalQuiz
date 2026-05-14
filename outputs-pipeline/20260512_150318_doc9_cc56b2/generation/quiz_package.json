@@ -1,0 +1,146 @@
+{
+  "run_id": "20260512_150318_doc9_cc56b2",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_dbe19da104",
+        "question_text": "What is a Public Health Emergency of International Concern (PHEIC)?",
+        "options": [
+          "A. A local health issue affecting only one country",
+          "B. An extraordinary event that may require a coordinated international response",
+          "C. A routine health monitoring process by the World Health Organization",
+          "D. A financial crisis impacting global healthcare systems"
+        ],
+        "correct_answer": "B",
+        "explanation": "A Public Health Emergency of International Concern (PHEIC) is defined as an extraordinary event that may constitute a public health risk to other countries through international spread and may require a coordinated international response. This definition is established by the World Health Organization (WHO) under the International Health Regulations (2005). (Source: doc9::chunk::1)",
+        "target_concept": "Public Health Emergency of International Concern",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc9::chunk::1",
+          "run_id": "20260512_150318_doc9_cc56b2"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Public Health Emergency of International Concern\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and scope of a Public Health Emergency of International Concern.\nImage context: A world map highlighting regions affected by a global health emergency.\nTested fact block ID: doc9::chunk::1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a minimalist world map with high-contrast colors (e.g., red for affected regions, neutral gray for unaffected areas) and clear, bold labels like \"Affected Zone 1\" and \"Affected Zone 2.\" Include subtle icons (e.g., medical crosses, alert symbols) to denote health emergencies, ensuring all elements are generic and non-copyrighted. Use a clean, accessible design with sufficient color differentiation for visibility.\n\n**Alt:** A world map with highlighted regions marked as affected by a global health emergency, using symbols and labels for clarity."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_573b461c75",
+        "question_text": "What is the causative agent of COVID-19?",
+        "options": [
+          "Influenza virus",
+          "SARS-CoV-2 virus",
+          "Bacteria",
+          "Fungus"
+        ],
+        "correct_answer": "SARS-CoV-2 virus",
+        "explanation": "COVID-19 is caused by the SARS-CoV-2 virus, a type of coronavirus. This fact is documented in doc9::concept::1::covid_19.",
+        "target_concept": "COVID-19",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc9::concept::1::covid_19",
+          "run_id": "20260512_150318_doc9_cc56b2"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: COVID-19\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the causative agent of COVID-19.\nImage context: A microscopic image of the SARS-CoV-2 virus.\nTested fact block ID: doc9::concept::1::covid_19\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Create a high-contrast, scientifically accurate illustration of a spherical virus with spike proteins, labeled \"Virus X\" in bold. Use a dark background with bright, distinct colors (e.g., red spikes, gray core) for clarity. Avoid realistic human elements or branded content.\n\n**Alt:** Microscopic depiction of a spherical virus with protruding spikes, labeled \"Virus X\" against a dark background."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_e0d0473ddd",
+        "question_text": "Which of the following is a positive coping strategy that supports psychosocial well-being?",
+        "options": [
+          "Avoiding social interactions",
+          "Engaging in regular physical activity",
+          "Ignoring stressful situations",
+          "Overworking to distract from problems"
+        ],
+        "correct_answer": "B",
+        "explanation": "Engaging in regular physical activity is a positive coping strategy that supports psychosocial well-being by reducing stress and improving mood. (Source: doc9::concept::10::coping_strategies)",
+        "target_concept": "psychosocial well-being",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc9::concept::10::coping_strategies",
+          "run_id": "20260512_150318_doc9_cc56b2"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: psychosocial well-being\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify a positive coping strategy that supports psychosocial well-being.\nImage context: A person jogging in a park, surrounded by greenery.\nTested fact block ID: doc9::concept::10::coping_strategies\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Illustrate a person jogging in a sunny park, surrounded by lush green trees and a clear blue sky, with a relaxed, happy expression. Use bright, natural colors with high contrast for clarity, and avoid branded clothing or logos. Label the scene subtly with \"Park\" and \"Jogging Path\" if needed.\n\n**Alt:** A person jogging in a green park under a blue sky, depicting an active coping strategy for well-being."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_35b5509f01",
+        "question_text": "How does chronic stress most directly contribute to the development of mental health disorders?",
+        "options": [
+          "A) By increasing physical activity levels, which improves mood",
+          "B) By altering brain structure and function, particularly in areas regulating emotions",
+          "C) By reducing social interactions, leading to loneliness",
+          "D) By improving cognitive performance through heightened alertness"
+        ],
+        "correct_answer": "B",
+        "explanation": "Chronic stress can negatively impact mental health by altering brain structure and function, particularly in areas like the amygdala and prefrontal cortex, which regulate emotions and decision-making. This is supported by research on the physiological effects of prolonged stress (doc9::chunk::11::stress::mental_health::0).",
+        "target_concept": "mental health",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "doc9::chunk::11::stress::mental_health::0",
+          "run_id": "20260512_150318_doc9_cc56b2"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: mental health\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the causal relationship between chronic stress and mental health.\nImage context: A diagram showing the effects of chronic stress on the brain.\nTested fact block ID: doc9::chunk::11::stress::mental_health::0\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram of a brain with labeled regions (e.g., \"Amygdala,\" \"Prefrontal Cortex\") showing the effects of chronic stress, using arrows or color shifts (e.g., red for overactivity, gray for shrinkage) to indicate changes. Avoid text-heavy explanations; use icons (e.g., lightning bolts for stress triggers) and minimal labels. Keep the style clean and scientific, with a neutral background for accessibility.\n\n**Alt:** A labeled brain diagram illustrating how chronic stress alters key regions, using color and arrows to show effects."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_a7cf8a51c5",
+        "question_text": "Which of the following is a primary physiological response to stress caused by the activation of the sympathetic nervous system?",
+        "options": [
+          "Increased heart rate and blood pressure",
+          "Decreased respiratory rate",
+          "Reduced muscle tension",
+          "Lowered blood sugar levels"
+        ],
+        "correct_answer": "Increased heart rate and blood pressure",
+        "explanation": "Stress triggers the sympathetic nervous system, leading to the 'fight or flight' response, which includes increased heart rate and blood pressure to prepare the body for action. (doc9::chunk::11::stress::0)",
+        "target_concept": "stress",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "doc9::chunk::11::stress::0",
+          "run_id": "20260512_150318_doc9_cc56b2"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: stress\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the physiological response to stress.\nImage context: A diagram showing the physiological effects of stress on the body.\nTested fact block ID: doc9::chunk::11::stress::0\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast diagram of a human silhouette with labeled arrows pointing to key areas affected by stress (e.g., brain, heart, muscles, adrenal glands), using a warm red-orange palette for stress responses and cool blues for neutral/baseline states. Include simple icons (e.g., lightning bolts for adrenaline, a racing heart) and avoid realistic faces or branded elements. Alt: A labeled diagram illustrating how stress impacts the body’s organs and systems."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "run_id": "20260514_153803_doc12_d21b67",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_67a8607840",
+        "question_text": "How does chronic job stress contribute to the development of cardiovascular disease?",
+        "options": [
+          "A) It directly damages heart muscle tissue through excessive workload.",
+          "B) It triggers the release of stress hormones like cortisol, which increase blood pressure and inflammation over time.",
+          "C) It causes immediate heart attacks due to acute emotional distress.",
+          "D) It reduces the body's ability to absorb essential vitamins needed for heart health."
+        ],
+        "correct_answer": "B",
+        "explanation": "Chronic job stress activates the body's stress response, leading to prolonged elevation of cortisol and adrenaline, which contribute to hypertension, inflammation, and atherosclerosis, key factors in cardiovascular disease. (Source: doc12::chunk::13::cardiovascular_disease)",
+        "target_concept": "Cardiovascular Disease",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "doc12::chunk::13::cardiovascular_disease",
+          "run_id": "20260514_153803_doc12_d21b67"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Cardiovascular Disease\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the causal relationship between chronic job stress and cardiovascular disease.\nImage context: A diagram showing the link between chronic stress and heart disease.\nTested fact block ID: doc12::chunk::13::cardiovascular_disease\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing a causal chain from \"Chronic Job Stress\" (left) to \"Cardiovascular Disease\" (right), with labeled intermediate steps like \"Elevated Cortisol,\" \"High Blood Pressure,\" and \"Inflammation.\" Use a neutral color palette with bold arrows to indicate direction, and avoid realistic human figures. Ensure all text is legible and labels are concise.\n\n**Alt:** A flowchart illustrating how chronic job stress contributes to heart disease through biological pathways."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_fae2b88a1f",
+        "question_text": "What is the primary cause of depression linked to chronic job stress?",
+        "options": [
+          "A) Genetic predisposition",
+          "B) Lack of physical exercise",
+          "C) Prolonged exposure to high-stress work environments",
+          "D) Poor dietary habits"
+        ],
+        "correct_answer": "C",
+        "explanation": "The primary cause of depression linked to chronic job stress is prolonged exposure to high-stress work environments. This is supported by research indicating that persistent stress can lead to mental health issues such as depression. (Source: doc12::chunk::17::depression)",
+        "target_concept": "Depression",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc12::chunk::17::depression",
+          "run_id": "20260514_153803_doc12_d21b67"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Depression\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the primary cause of depression linked to chronic job stress.\nImage context: An illustration depicting a person experiencing symptoms of depression due to work stress.\nTested fact block ID: doc12::chunk::17::depression\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a minimalist illustration of a person slumped at a desk, surrounded by towering stacks of paperwork and a glowing computer screen displaying unread emails. Use a muted, high-contrast palette (deep blues/grays with a single accent of dull red for stress cues like a pulsing temple or clenched fists). Label key elements subtly: \"Chronic Workload,\" \"Sleep Deprivation,\" and \"Isolation\" as small icons (e.g., a calendar with endless tasks, a moon with a strike-through, a silent phone). Avoid facial details to universalize the figure. Alt: A person overwhelmed by work-related stress, showing visual symptoms of depression in a high-contrast, labeled workspace."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_ffa711c1ca",
+        "question_text": "Which of the following is a primary cause of job stress related to task design?",
+        "options": [
+          "A. High job autonomy and control over tasks",
+          "B. Clear and achievable job expectations",
+          "C. Excessive workload and unrealistic deadlines",
+          "D. Supportive relationships with colleagues"
+        ],
+        "correct_answer": "C",
+        "explanation": "Excessive workload and unrealistic deadlines are key contributors to job stress in task design, as they create pressure and reduce an employee's sense of control. (Source: doc12::chunk::1)",
+        "target_concept": "job stress",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "doc12::chunk::1",
+          "run_id": "20260514_153803_doc12_d21b67"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: job stress\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Identify the primary causes of job stress in task design.\nImage context: A diagram showing factors contributing to job stress in a workplace setting.\nTested fact block ID: doc12::chunk::1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast diagram of a workplace setting with labeled factors contributing to job stress, such as \"high workload,\" \"unclear expectations,\" and \"lack of control,\" depicted as interconnected nodes or icons (e.g., a stacked pile for workload, a question mark for ambiguity). Use a muted professional color palette with bold accents for emphasis, ensuring all labels are legible and neutral (e.g., \"Team Member 1\" instead of names). Alt: A diagram illustrating key workplace factors linked to job stress, labeled for clarity."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_8666183b48",
+        "question_text": "Which of the following is a common cause of stress in the workplace?",
+        "options": [
+          "Having a supportive team",
+          "Excessive workload",
+          "Regular breaks during work",
+          "Clear communication from management"
+        ],
+        "correct_answer": "Excessive workload",
+        "explanation": "Excessive workload is a well-documented cause of workplace stress, as it can lead to feelings of being overwhelmed and unable to cope. Source: doc12::chunk::5::stress::EXTRACTED.",
+        "target_concept": "stress",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc12::chunk::5::stress::EXTRACTED",
+          "run_id": "20260514_153803_doc12_d21b67"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: stress\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify a common cause of stress in the workplace.\nImage context: A person looking overwhelmed at a desk with multiple tasks.\nTested fact block ID: doc12::chunk::5::stress::EXTRACTED\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Illustrate a cluttered office desk with a person holding their head in frustration, surrounded by stacks of papers, a ringing phone, and a laptop displaying multiple open tabs. Use bold, high-contrast colors (e.g., deep blues and warm oranges) to emphasize the chaotic scene, and label key elements like \"Urgent Deadline\" or \"Overdue Tasks\" on sticky notes. Avoid branded items or logos.\n\n**Alt:** A stressed person at a messy desk with piles of work, symbolizing workplace overwhelm."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_b7a5bc47c1",
+        "question_text": "Which of the following is an effective strategy for managing stress?",
+        "options": [
+          "Avoiding all social interactions",
+          "Engaging in regular physical activity",
+          "Ignoring stressful situations completely",
+          "Consuming excessive caffeine"
+        ],
+        "correct_answer": "B",
+        "explanation": "Engaging in regular physical activity is a proven strategy for managing stress, as it helps reduce stress hormones and stimulates the production of endorphins. Source: doc12::chunk::34::stress_management::a.",
+        "target_concept": "stress management",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc12::chunk::34::stress_management::a",
+          "run_id": "20260514_153803_doc12_d21b67"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: stress management\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify effective strategies for managing stress.\nImage context: A person jogging in a park, representing physical activity as a stress management technique.\nTested fact block ID: doc12::chunk::34::stress_management::a\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Illustrate a person jogging in a sunny park, surrounded by trees and a clear path, with a relaxed expression to convey stress relief. Use bright, natural colors (greens, blues, warm sunlight) for a calming effect, and ensure high contrast for accessibility. Label the scene subtly with \"Physical Activity\" near the jogger.\n\n**Alt:** A person jogging in a park, demonstrating physical activity as a stress management technique."
+    }
+  ]
+}

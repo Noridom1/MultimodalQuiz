@@ -1,0 +1,1424 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc10::paragraph::1::jens_lechtenb_rger::chunk::0::jens_lechtenb_rger",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Docker Introduction \\*"
+      ],
+      "concepts": [
+        "Jens Lechtenbörger",
+        "Data Science Winter School 2023"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "doc10::paragraph::2::data_science_winter_school_2023::chunk::1::data_science_winter_school_2023",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Contents"
+      ],
+      "concepts": [
+        "Data Science Winter School 2023"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "doc10::paragraph::2::data_science_winter_school_2023::chunk::2::data_science_winter_school_2023",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Introduction"
+      ],
+      "concepts": [
+        "Data Science Winter School 2023"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 3,
+      "chunk_id": "doc10::paragraph::2::data_science_winter_school_2023::chunk::3::data_science_winter_school_2023",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Motivation (1/2)"
+      ],
+      "concepts": [
+        "Data Science Winter School 2023",
+        "Virtualization software"
+      ],
+      "definitions": [
+        {
+          "concept": "Virtualization software",
+          "definition": "provides (virtual) hardware interface"
+        }
+      ],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc10::image::7::images_f81ea6a008bab81ab468858b7006b024c37d301de::chunk::4::images_f81ea6a008bab81ab468858b7006b024c37d301de",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Motivation (1/2)"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Motivation (1/2)"
+      ],
+      "concepts": [
+        "Virtual Machine",
+        "App A",
+        "App B",
+        "Guest OS1",
+        "Virtual Hardware 1",
+        "Guest OS2",
+        "Virtual Hardware 2",
+        "Host OS",
+        "Hypervisor/VMM",
+        "KVM",
+        "Xen",
+        "VirtualBox",
+        "Hardware (CPU, RAM, I/O)"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "App A",
+          "target": "Virtual Machine 1",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "App B",
+          "target": "Virtual Machine 1",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Guest OS1",
+          "target": "Virtual Machine 1",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Virtual Hardware 1",
+          "target": "Virtual Machine 1",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "App A",
+          "target": "Virtual Machine 2",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Guest OS2",
+          "target": "Virtual Machine 2",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Virtual Hardware 2",
+          "target": "Virtual Machine 2",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Host OS",
+          "target": "Hypervisor/VMM",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Hypervisor/VMM",
+          "target": "Hardware (CPU, RAM, I/O)",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Motivation (1/2)"
+      ],
+      "concepts": [
+        "Hypervisor/VMM",
+        "Virtual Hardware",
+        "Virtual Machines (VMs)",
+        "Cloud Computing"
+      ],
+      "definitions": [
+        {
+          "concept": "Hypervisor/VMM",
+          "definition": "Interface implemented by Hypervisor/VMM that runs on (usual) host OS, manages real hardware."
+        },
+        {
+          "concept": "Virtual Hardware",
+          "definition": "Virtual hardware can have arbitrary features, largely independent of real hardware."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Virtual Machines (VMs)",
+          "target": "Virtual Hardware",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Virtual Machines (VMs)",
+          "target": "Cloud Computing",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "your own server as VM in a project seminar"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Motivation (2/2)"
+      ],
+      "concepts": [
+        "Containerization",
+        "Docker"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Containerization",
+          "target": "Virtualization",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "doc10::image::21::images_c5bf71aaea7eb99b4f3432941977b0f8d15c0d18e::chunk::8::images_c5bf71aaea7eb99b4f3432941977b0f8d15c0d18e",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Motivation (2/2)"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Motivation (2/2)"
+      ],
+      "concepts": [
+        "Container",
+        "Container manager",
+        "Host OS",
+        "Hardware"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Container",
+          "target": "Host OS",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Container manager",
+          "target": "Host OS",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Host OS",
+          "target": "Hardware",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Motivation (2/2)"
+      ],
+      "concepts": [
+        "Containerization",
+        "OS interface",
+        "OS kernel",
+        "External libraries",
+        "Application",
+        "Container"
+      ],
+      "definitions": [
+        {
+          "concept": "Containerization",
+          "definition": "Provides OS interface and executes software in a controlled way."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Containerization",
+          "target": "OS kernel",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Application",
+          "target": "External libraries",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Container",
+          "target": "External libraries",
+          "relation": "bundles",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Learning Objectives"
+      ],
+      "concepts": [
+        "Containerization",
+        "Virtual machine",
+        "Virtual machine monitor",
+        "Virtualization",
+        "Isolation",
+        "Layering",
+        "Docker"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Containerization",
+          "target": "Virtualization",
+          "relation": "contrasts_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Containerization",
+          "target": "Isolation",
+          "relation": "includes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Containerization",
+          "target": "Layering",
+          "relation": "includes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "start Web/Solid server with static files."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Core Questions"
+      ],
+      "concepts": [
+        "Web/Solid server",
+        "docker files",
+        "virtualization",
+        "containerization"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [
+        "start Web/Solid server with static files",
+        "Interpret and modify simple docker files"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Virtualization"
+      ],
+      "concepts": [
+        "virtualization",
+        "containerization"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::14::what_do_virtualization_and_containerization_mean",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "History (1/2)"
+      ],
+      "concepts": [
+        "virtualization",
+        "IBM mainframes",
+        "VMs",
+        "multitasking OSs"
+      ],
+      "definitions": [
+        {
+          "concept": "virtualization",
+          "definition": "An old concept originating from IBM mainframes in the 1960s, aimed at better resource utilization and running different OS versions in parallel."
+        }
+      ],
+      "relations": [
+        {
+          "source": "virtualization",
+          "target": "IBM mainframes",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "virtualization",
+          "target": "VMs",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "IBM mainframes, 1960s",
+        "Frequently cited survey article by Goldberg, 1974: [Gol74]"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "History (2/2)"
+      ],
+      "concepts": [
+        "virtualization",
+        "server consolidation",
+        "cloud computing",
+        "containers",
+        "serverless computing"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "virtualization",
+          "target": "server consolidation",
+          "relation": "enables",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "virtualization",
+          "target": "cloud computing",
+          "relation": "enabler_for",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "Turn independent servers into VMs, then allocate them to single server",
+        "Servers often with low resource utilization (e.g., CPU usage between 10% and 50% at Google in 2007, [BH07])"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Intuition and Examples"
+      ],
+      "concepts": [
+        "Containers",
+        "Lightweight virtualization",
+        "Serverless computing",
+        "Virtualization",
+        "Virtual memory",
+        "Overlay networks",
+        "Software-defined networking",
+        "Execution environment",
+        "Virtual machine (VM)",
+        "Virtual hardware"
+      ],
+      "definitions": [
+        {
+          "concept": "Virtualization",
+          "definition": "Creation of virtual/abstract version of something."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Containers",
+          "target": "Lightweight virtualization",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Serverless computing",
+          "target": "Virtualization",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "Virtual memory",
+        "Overlay networks",
+        "Software-defined networking",
+        "Execution environment (e.g., Java, Dotnet)",
+        "Virtual hardware"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 20,
+      "chunk_id": "doc10::paragraph::90::e_g_hypervisor_privilege_escalation_and_cross_vm::chunk::20::e_g_hypervisor_privilege_escalation_and_cross_vm",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Layering with Virtualization"
+      ],
+      "concepts": [
+        "hypervisor privilege escalation",
+        "cross-VM side channel attacks"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [
+        "hypervisor privilege escalation and cross-VM side channel attacks"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 24,
+      "chunk_id": "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Layering Explained"
+      ],
+      "concepts": [
+        "Hypervisor",
+        "Virtual Machine Manager (VMM)",
+        "Guest OS",
+        "Host",
+        "VM",
+        "CPU ring 0",
+        "root mode",
+        "CPU ring 1",
+        "Privileged/sensitive instructions",
+        "Virtualization",
+        "Hardware access",
+        "VM backups/snapshots",
+        "Shared memory",
+        "Pipes"
+      ],
+      "definitions": [
+        {
+          "concept": "Hypervisor",
+          "definition": "A hypervisor or virtual machine manager (VMM) with full access to physical hardware."
+        },
+        {
+          "concept": "Guest OS",
+          "definition": "A guest OS is de-privileged and no longer has full hardware access."
+        },
+        {
+          "concept": "Host",
+          "definition": "The environment in which the VMM runs."
+        },
+        {
+          "concept": "VM",
+          "definition": "A guest OS running on abstract hardware."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Hypervisor",
+          "target": "Physical hardware",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Guest OS",
+          "target": "Hypervisor",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "VM",
+          "target": "Abstract hardware",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Privileged/sensitive instructions",
+          "target": "Hypervisor",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "VM backups/snapshots",
+          "target": "Management",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "E.g., kernel mode (CPU ring 0) or additional root mode (e.g., ring -1) with more privileges than kernel mode."
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 25,
+      "chunk_id": "doc10::paragraph::108::each_with_full_os_own_portion_of_underlying_hard::chunk::25::each_with_full_os_own_portion_of_underlying_hard",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Review Question"
+      ],
+      "concepts": [
+        "Java VM",
+        "Virtualization"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Java VM",
+          "target": "Virtualization",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 26,
+      "chunk_id": "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::26::the_java_vm_was_mentioned_as_variant_of_virtuali",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Containerization"
+      ],
+      "concepts": [
+        "Java VM",
+        "Virtualization"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Java VM",
+          "target": "Virtualization",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 27,
+      "chunk_id": "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Basics"
+      ],
+      "concepts": [
+        "Java VM",
+        "Virtualization",
+        "Containerization",
+        "Kernel namespaces",
+        "Control groups (cgroups)",
+        "Copy-on-write",
+        "UnionFS"
+      ],
+      "definitions": [
+        {
+          "concept": "Containerization",
+          "definition": "The main idea of containerization is to share the kernel among containers instead of having a separate OS per VM."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Containerization",
+          "target": "Kernel",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Kernel namespaces",
+          "target": "Container",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Control groups (cgroups)",
+          "target": "Resource usage",
+          "relation": "limits",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Copy-on-write",
+          "target": "Container",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 28,
+      "chunk_id": "doc10::paragraph::122::new_container_without_copying_all_les_localized_::chunk::28::new_container_without_copying_all_les_localized_",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Layering with Containerization"
+      ],
+      "concepts": [
+        "Container",
+        "Localized changes"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 29,
+      "chunk_id": "doc10::image::124::images_2baf90a7bc3275cb0a48b94d8b1f9b99c6762bb4b::chunk::29::images_2baf90a7bc3275cb0a48b94d8b1f9b99c6762bb4b",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Layering with Containerization"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 30,
+      "chunk_id": "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Layering with Containerization"
+      ],
+      "concepts": [
+        "Container",
+        "Container manager",
+        "Host OS",
+        "Hardware"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Container",
+          "target": "Host OS",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Container manager",
+          "target": "Host OS",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Host OS",
+          "target": "Hardware",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 31,
+      "chunk_id": "doc10::paragraph::126::figure_4_layering_with_containerization::chunk::31::figure_4_layering_with_containerization",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Layering with Containerization"
+      ],
+      "concepts": [
+        "Layering with containerization"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 32,
+      "chunk_id": "doc10::paragraph::126::figure_4_layering_with_containerization::chunk::32::figure_4_layering_with_containerization",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Selected Technologies"
+      ],
+      "concepts": [
+        "Docker"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 33,
+      "chunk_id": "doc10::image::129::images_2e7cac49ff0779c51b09ed69e9d5bd50d9e207cd5::chunk::33::images_2e7cac49ff0779c51b09ed69e9d5bd50d9e207cd5",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Selected Technologies"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 34,
+      "chunk_id": "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Selected Technologies"
+      ],
+      "concepts": [
+        "Docker",
+        "Image",
+        "Registries",
+        "Docker files",
+        "Container",
+        "Kubernetes"
+      ],
+      "definitions": [
+        {
+          "concept": "Image",
+          "definition": "describes OS/application environment"
+        },
+        {
+          "concept": "Registries",
+          "definition": "publish images"
+        },
+        {
+          "concept": "Docker files",
+          "definition": "build recipes for images in simple text format"
+        },
+        {
+          "concept": "Container",
+          "definition": "process (set), created from image (image is template for container)"
+        }
+      ],
+      "relations": [
+        {
+          "source": "Container",
+          "target": "Image",
+          "relation": "created_from",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Docker files",
+          "target": "Image",
+          "relation": "builds",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 35,
+      "chunk_id": "doc10::image::135::images_56b45d1d1369434147eca801964cb00c5b022dc08::chunk::35::images_56b45d1d1369434147eca801964cb00c5b022dc08",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Selected Technologies"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 36,
+      "chunk_id": "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Selected Technologies"
+      ],
+      "concepts": [
+        "Kubernetes",
+        "Cluster manager",
+        "Docker",
+        "Pod",
+        "Load-balancer"
+      ],
+      "definitions": [
+        {
+          "concept": "Pod",
+          "definition": "group of containers sharing resources, unit of deployment"
+        }
+      ],
+      "relations": [
+        {
+          "source": "Pod",
+          "target": "containers",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Pod",
+          "target": "scalability",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Kubernetes",
+          "target": "Docker",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 37,
+      "chunk_id": "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "On Images"
+      ],
+      "concepts": [
+        "Pod",
+        "Docker",
+        "Virtual Machines (VMs)",
+        "Dockerfile",
+        "Images"
+      ],
+      "definitions": [
+        {
+          "concept": "Pod",
+          "definition": "group of containers sharing resources, unit of deployment"
+        }
+      ],
+      "relations": [
+        {
+          "source": "Pod",
+          "target": "containers",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Pod",
+          "target": "scalability",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Docker",
+          "target": "Dockerfile",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dockerfile",
+          "target": "Images",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 38,
+      "chunk_id": "doc10::paragraph::146::run_apt_get_update_apt_get_no_install_recommends::chunk::38::run_apt_get_update_apt_get_no_install_recommends",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Review Question"
+      ],
+      "concepts": [
+        "Docker",
+        "Virtualization"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Docker",
+          "target": "Virtualization",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 39,
+      "chunk_id": "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::39::which_conditions_for_virtualization_as_de_ned_in",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Docker"
+      ],
+      "concepts": [
+        "Docker",
+        "Virtualization"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Docker",
+          "target": "Virtualization",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 40,
+      "chunk_id": "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::40::which_conditions_for_virtualization_as_de_ned_in",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Docker Installation"
+      ],
+      "concepts": [
+        "Docker",
+        "Community Edition",
+        "GUI",
+        "Bash"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 41,
+      "chunk_id": "doc10::paragraph::155::some_students_perceive_the_gui_to_be_confusing_u::chunk::41::some_students_perceive_the_gui_to_be_confusing_u",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "First Steps"
+      ],
+      "concepts": [
+        "GUI",
+        "Bash",
+        "docker run",
+        "docker image ls",
+        "docker container ls",
+        "docker container --help",
+        "docker rmi"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 42,
+      "chunk_id": "doc10::paragraph::169::docker_rmi_f_hello_world::chunk::42::docker_rmi_f_hello_world",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "A Web Server"
+      ],
+      "concepts": [
+        "nginx",
+        "docker run",
+        "docker stop",
+        "docker start",
+        "docker logs",
+        "docker rm"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 43,
+      "chunk_id": "doc10::paragraph::182::thus_your_html_les_replace_default_ones_of_nginx::chunk::43::thus_your_html_les_replace_default_ones_of_nginx",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Selected Errors"
+      ],
+      "concepts": [
+        "nginx",
+        "docker run",
+        "docker start",
+        "docker ps",
+        "docker stop"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 44,
+      "chunk_id": "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "On Option -v"
+      ],
+      "concepts": [
+        "nginx",
+        "Docker",
+        "Powershell",
+        "Bash",
+        "WSL terminal"
+      ],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 45,
+      "chunk_id": "doc10::paragraph::201::try_v_mnt_c_users_with_wsl_terminal::chunk::45::try_v_mnt_c_users_with_wsl_terminal",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Docker Toolbox under Windows"
+      ],
+      "concepts": [
+        "Docker Toolbox",
+        "Virtual Machine",
+        "IP address",
+        "File system path",
+        "nginx"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Docker Toolbox",
+          "target": "Virtual Machine",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 46,
+      "chunk_id": "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::46::maybe_you_need_double_slashes",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Conclusions"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 47,
+      "chunk_id": "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::47::maybe_you_need_double_slashes",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Summary"
+      ],
+      "concepts": [
+        "Virtual machines",
+        "Containers",
+        "OS kernel"
+      ],
+      "definitions": [
+        {
+          "concept": "Virtual machines",
+          "definition": "isolated duplicates of the real machine"
+        },
+        {
+          "concept": "Containers",
+          "definition": "running processes, defined by images"
+        }
+      ],
+      "relations": [
+        {
+          "source": "Containers",
+          "target": "OS kernel",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Virtual machines",
+          "target": "Containers",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 48,
+      "chunk_id": "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Outlook"
+      ],
+      "concepts": [
+        "Containerization",
+        "DevOps",
+        "Git",
+        "Development",
+        "Operations",
+        "Communication and collaboration",
+        "Continuous integration (CI)",
+        "Continuous deployment (CD)",
+        "GitOps",
+        "Self-service IT",
+        "Pull requests (PRs)",
+        "Infrastructure as Code (IaC)"
+      ],
+      "definitions": [
+        {
+          "concept": "DevOps",
+          "definition": "Combination of Development and Operations"
+        }
+      ],
+      "relations": [
+        {
+          "source": "Containerization",
+          "target": "DevOps",
+          "relation": "enables",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "DevOps",
+          "target": "Development",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "DevOps",
+          "target": "Operations",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "GitOps",
+          "target": "Git",
+          "relation": "based_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "GitOps",
+          "target": "Self-service IT",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Infrastructure as Code (IaC)",
+          "target": "GitOps",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 49,
+      "chunk_id": "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "Bibliography"
+      ],
+      "concepts": [
+        "Communication and collaboration",
+        "Continuous integration (CI)",
+        "Continuous deployment (CD)",
+        "GitOps",
+        "Self-service IT",
+        "Pull requests (PRs)",
+        "Infrastructure as Code (IaC)"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "GitOps",
+          "target": "Git",
+          "relation": "based_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "GitOps",
+          "target": "Self-service IT",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Infrastructure as Code (IaC)",
+          "target": "GitOps",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 50,
+      "chunk_id": "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "section_path": [
+        "License Information"
+      ],
+      "concepts": [
+        "Communication and collaboration",
+        "Continuous integration (CI)",
+        "Continuous deployment (CD)",
+        "GitOps",
+        "Self-service IT",
+        "Pull requests (PRs)",
+        "Infrastructure as Code (IaC)"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "GitOps",
+          "target": "Git",
+          "relation": "based_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "GitOps",
+          "target": "Self-service IT",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Infrastructure as Code (IaC)",
+          "target": "GitOps",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 45,
+    "concept_count": 107,
+    "relation_count": 67
+  }
+}

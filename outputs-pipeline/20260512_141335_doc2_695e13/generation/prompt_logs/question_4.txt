@@ -1,0 +1,40 @@
+Index: 4
+Target concept: p->context
+Tested fact block id: doc2::concept::53::p_context
+Image description: A diagram showing the relationship between a process and its saved registers.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: p->context
+Question type: multiple_choice
+Difficulty: medium
+Reasoning type: factoid
+Image role: illustrative
+Learning objective: Understand the role of p->context in process management.
+Image context: A diagram showing the relationship between a process and its saved registers.
+Tested fact block ID: doc2::concept::53::p_context
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+**Prompt:**
+Create a simple, high-contrast diagram showing a labeled process (e.g., "Process X") connected to a set of labeled saved registers (e.g., "Registers: PC, SP, R1-R4") via a bold arrow labeled "p->context." Use a clean, technical style with a neutral background and distinct colors for the process (blue) and registers (green). Ensure all text is legible and labels are clear.
+
+**Alt:** A diagram illustrating how a process links to its saved registers via a labeled arrow.
+
+--- Raw LLM image-prompt response ---
+**Prompt:**
+Create a simple, high-contrast diagram showing a labeled process (e.g., "Process X") connected to a set of labeled saved registers (e.g., "Registers: PC, SP, R1-R4") via a bold arrow labeled "p->context." Use a clean, technical style with a neutral background and distinct colors for the process (blue) and registers (green). Ensure all text is legible and labels are clear.
+
+**Alt:** A diagram illustrating how a process links to its saved registers via a labeled arrow.

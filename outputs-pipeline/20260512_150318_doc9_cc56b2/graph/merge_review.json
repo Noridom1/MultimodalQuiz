@@ -1,0 +1,81 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc9::concept::4::mental_health_and_substance_use",
+        "doc9::concept::8::mental_health"
+      ],
+      "labels": [
+        "Mental Health and Substance Use",
+        "mental health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::8::mental_health",
+        "doc9::concept::14::mental_health_and_psychosocial_support_services"
+      ],
+      "labels": [
+        "mental health",
+        "mental health and psychosocial support services"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::8::mental_health",
+        "doc9::concept::17::mental_health_and_neurological_complaints"
+      ],
+      "labels": [
+        "mental health",
+        "mental health and neurological complaints"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::8::mental_health",
+        "doc9::concept::23::mental_health_conditions"
+      ],
+      "labels": [
+        "mental health",
+        "mental health conditions"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::20::severe_anxiety",
+        "doc9::concept::31::anxiety"
+      ],
+      "labels": [
+        "severe anxiety",
+        "anxiety"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::22::psychotropic_medications",
+        "doc9::concept::38::medications"
+      ],
+      "labels": [
+        "psychotropic medications",
+        "medications"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

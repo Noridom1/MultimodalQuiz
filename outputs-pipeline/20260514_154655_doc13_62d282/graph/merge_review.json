@@ -1,0 +1,441 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::4::badminton_court"
+      ],
+      "labels": [
+        "BADMINTON",
+        "badminton court"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::1::racket_sport",
+        "doc13::concept::6::racket"
+      ],
+      "labels": [
+        "racket sport",
+        "racket"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::10::competitive_badminton"
+      ],
+      "labels": [
+        "BADMINTON",
+        "Competitive badminton"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::19::badminton_house"
+      ],
+      "labels": [
+        "BADMINTON",
+        "Badminton House"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::21::the_game_of_badminton"
+      ],
+      "labels": [
+        "BADMINTON",
+        "The Game of Badminton"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::22::badminton_rackets"
+      ],
+      "labels": [
+        "BADMINTON",
+        "Badminton rackets"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::6::racket",
+        "doc13::concept::24::racket_handle"
+      ],
+      "labels": [
+        "racket",
+        "Racket handle"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::28::shuttlecocks_with_feathers",
+        "doc13::concept::29::feathers"
+      ],
+      "labels": [
+        "Shuttlecocks with feathers",
+        "Feathers"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::28::shuttlecocks_with_feathers",
+        "doc13::concept::33::shuttlecocks"
+      ],
+      "labels": [
+        "Shuttlecocks with feathers",
+        "shuttlecocks"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::2::singles",
+        "doc13::concept::35::singles_court"
+      ],
+      "labels": [
+        "singles",
+        "singles court"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::3::doubles",
+        "doc13::concept::36::doubles_court"
+      ],
+      "labels": [
+        "doubles",
+        "doubles court"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::3::doubles",
+        "doc13::concept::39::side_line_for_doubles"
+      ],
+      "labels": [
+        "doubles",
+        "Side Line for Doubles"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::2::singles",
+        "doc13::concept::41::side_line_for_singles"
+      ],
+      "labels": [
+        "singles",
+        "Side Line for Singles"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::3::doubles",
+        "doc13::concept::46::long_service_line_for_doubles"
+      ],
+      "labels": [
+        "doubles",
+        "Long Service Line for Doubles"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::2::singles",
+        "doc13::concept::48::long_service_line_for_singles"
+      ],
+      "labels": [
+        "singles",
+        "Long Service Line for Singles"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::21::the_game_of_badminton",
+        "doc13::concept::50::game"
+      ],
+      "labels": [
+        "The Game of Badminton",
+        "game"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::3::doubles",
+        "doc13::concept::55::doubles_service_court"
+      ],
+      "labels": [
+        "doubles",
+        "doubles service court"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::2::singles",
+        "doc13::concept::56::singles_service_court"
+      ],
+      "labels": [
+        "singles",
+        "singles service court"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::59::badminton_player"
+      ],
+      "labels": [
+        "BADMINTON",
+        "Badminton player"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::43::short_service_line",
+        "doc13::concept::64::service"
+      ],
+      "labels": [
+        "Short Service Line",
+        "Service"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::46::long_service_line_for_doubles",
+        "doc13::concept::65::long_service"
+      ],
+      "labels": [
+        "Long Service Line for Doubles",
+        "Long service"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::64::service",
+        "doc13::concept::66::drive_service"
+      ],
+      "labels": [
+        "Service",
+        "Drive service"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::67::clear",
+        "doc13::concept::68::attacking_clear"
+      ],
+      "labels": [
+        "Clear",
+        "Attacking clear"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::66::drive_service",
+        "doc13::concept::71::drive"
+      ],
+      "labels": [
+        "Drive service",
+        "Drive"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::7::net",
+        "doc13::concept::72::hairpin_net_shot"
+      ],
+      "labels": [
+        "net",
+        "Hairpin net shot"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::73::lob",
+        "doc13::concept::74::attacking_lob"
+      ],
+      "labels": [
+        "Lob",
+        "Attacking lob"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::73::lob",
+        "doc13::concept::75::defensive_lob"
+      ],
+      "labels": [
+        "Lob",
+        "Defensive lob"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::77::doubles_badminton"
+      ],
+      "labels": [
+        "BADMINTON",
+        "Doubles badminton"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::2::singles",
+        "doc13::concept::91::singles_playing_court"
+      ],
+      "labels": [
+        "singles",
+        "singles playing court"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::3::doubles",
+        "doc13::concept::92::doubles_playing_court"
+      ],
+      "labels": [
+        "doubles",
+        "doubles playing court"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::93::badminton_net"
+      ],
+      "labels": [
+        "BADMINTON",
+        "badminton net"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::58::serve",
+        "doc13::concept::94::over_waist_serve"
+      ],
+      "labels": [
+        "serve",
+        "over-waist serve"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::58::serve",
+        "doc13::concept::95::under_waist_serve"
+      ],
+      "labels": [
+        "serve",
+        "under-waist serve"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::43::short_service_line",
+        "doc13::concept::98::service_line"
+      ],
+      "labels": [
+        "Short Service Line",
+        "service line"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::6::racket",
+        "doc13::concept::100::frame_of_the_racket"
+      ],
+      "labels": [
+        "racket",
+        "frame of the racket"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc13::concept::6::racket",
+        "doc13::concept::101::handle_of_the_racket"
+      ],
+      "labels": [
+        "racket",
+        "handle of the racket"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

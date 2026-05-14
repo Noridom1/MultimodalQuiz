@@ -1,0 +1,146 @@
+{
+  "run_id": "20260512_150512_doc10_d6bda0",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_b6409668f0",
+        "question_text": "What is the primary function of a hypervisor in virtualization?",
+        "options": [
+          "To encrypt data transmitted between virtual machines",
+          "To manage and allocate physical hardware resources to multiple virtual machines",
+          "To serve as an operating system for end-users",
+          "To physically separate hardware components in a data center"
+        ],
+        "correct_answer": "To manage and allocate physical hardware resources to multiple virtual machines",
+        "explanation": "A hypervisor, also known as a Virtual Machine Monitor (VMM), is a software layer that enables multiple virtual machines to share a single physical host by managing and allocating hardware resources such as CPU, memory, and storage. This allows for efficient utilization of physical resources and isolation between virtual machines. (Source: doc10::concept::43::hypervisor)",
+        "target_concept": "Hypervisor",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc10::concept::43::hypervisor",
+          "run_id": "20260512_150512_doc10_d6bda0"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Hypervisor\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role and function of a hypervisor in virtualization.\nImage context: A diagram showing a hypervisor managing multiple virtual machines on a single physical host.\nTested fact block ID: doc10::concept::43::hypervisor\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram of a physical host (labeled \"Host Machine\") with a hypervisor layer (labeled \"Hypervisor\") sitting between the hardware and multiple colorful virtual machines (labeled \"VM 1,\" \"VM 2,\" etc.). Use distinct colors for each VM and arrows to show the hypervisor allocating resources. Keep the design simple, with bold labels and no branded elements.\n\n**Alt:** A diagram showing a hypervisor managing multiple virtual machines on a single physical host."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_e210e72638",
+        "question_text": "What is the primary function of a hypervisor (VMM) in virtualization?",
+        "options": [
+          "To manage physical hardware resources and allocate them to virtual machines",
+          "To serve as an operating system for end-user applications",
+          "To provide a graphical interface for virtual machine configuration",
+          "To encrypt data stored on virtual disks"
+        ],
+        "correct_answer": "A",
+        "explanation": "A hypervisor, or Virtual Machine Monitor (VMM), is a software layer that abstracts and manages physical hardware resources, enabling multiple virtual machines to run on a single host system. (Source: doc10::concept::10::hypervisor_vmm)",
+        "target_concept": "Hypervisor/VMM",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc10::concept::10::hypervisor_vmm",
+          "run_id": "20260512_150512_doc10_d6bda0"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Hypervisor/VMM\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role and function of a hypervisor in virtualization.\nImage context: A diagram showing the hypervisor layer between hardware and virtual machines.\nTested fact block ID: doc10::concept::10::hypervisor_vmm\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, layered diagram with high contrast: at the bottom, depict physical hardware (CPU, memory, storage) in neutral grays; above it, a distinct horizontal hypervisor layer labeled \"Hypervisor\" in bold, using a bright accent color (e.g., teal); on top, show multiple abstract virtual machines (VMs) as colored rectangles (e.g., blue, green, orange) with labels like \"VM 1,\" \"VM 2,\" and arrows indicating resource allocation. Use simple icons (no logos) and ensure all text is legible against backgrounds.\n\nAlt: A diagram illustrating a hypervisor as a middle layer between physical hardware and multiple virtual machines, showing resource management."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_d79ffa4a27",
+        "question_text": "How does a hypervisor manage physical CPU resources when multiple virtual machines (VMs) are running simultaneously?",
+        "options": [
+          "A) By assigning a dedicated physical CPU core to each VM exclusively",
+          "B) By dynamically allocating CPU time slices to each VM as needed",
+          "C) By limiting all VMs to use only a single CPU core regardless of workload",
+          "D) By disabling CPU virtualization features to ensure stability"
+        ],
+        "correct_answer": "B",
+        "explanation": "A hypervisor manages physical CPU resources by dynamically allocating CPU time slices to each virtual machine, allowing multiple VMs to share the same physical CPU efficiently. This is known as CPU scheduling or time-sharing. (Source: doc10::chunk::1)",
+        "target_concept": "Hardware (CPU, RAM, I/O)",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc10::chunk::1",
+          "run_id": "20260512_150512_doc10_d6bda0"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Hardware (CPU, RAM, I/O)\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand how a hypervisor interacts with physical CPU resources to manage virtual machines.\nImage context: A diagram showing a hypervisor managing multiple virtual machines on a single physical CPU.\nTested fact block ID: doc10::chunk::1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing a physical CPU at the bottom, labeled \"Physical CPU,\" with a hypervisor layer above it labeled \"Hypervisor.\" Above the hypervisor, depict three distinct virtual machines (VMs) labeled \"VM 1,\" \"VM 2,\" and \"VM 3,\" each with arrows connecting them to the hypervisor to illustrate resource allocation. Use a neutral color palette with bold outlines for clarity, ensuring all labels are legible. Avoid trademarked logos or branding.\n\n**Alt:** A diagram illustrating a hypervisor managing multiple virtual machines on a single physical CPU."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_6714ee2629",
+        "question_text": "What is the primary purpose of virtual hardware in a virtual machine?",
+        "options": [
+          "To replace physical hardware entirely in all computing scenarios",
+          "To emulate physical hardware components, allowing multiple virtual machines to run on a single physical machine",
+          "To increase the physical hardware's performance beyond its actual capabilities",
+          "To provide a direct, one-to-one mapping to physical hardware without any abstraction"
+        ],
+        "correct_answer": "B",
+        "explanation": "Virtual hardware emulates physical components like CPUs, memory, and storage, enabling multiple virtual machines to share a single physical machine efficiently. This abstraction is key to virtualization technology. (Source: doc10::chunk::15::virtual_hardware::0)",
+        "target_concept": "Virtual Hardware",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc10::chunk::15::virtual_hardware::0",
+          "run_id": "20260512_150512_doc10_d6bda0"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Virtual Hardware\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and purpose of virtual hardware in virtual machines.\nImage context: A diagram showing virtual hardware components like virtual CPUs, memory, and storage.\nTested fact block ID: doc10::chunk::15::virtual_hardware::0\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram of a virtual machine’s internal architecture, featuring labeled blocks for virtual CPU, memory (RAM), and storage (disk), connected by simple lines to show their relationship. Use a neutral color palette with one accent color (e.g., teal) for the labels and borders, ensuring readability. Avoid realistic branding or proprietary icons—opt for generic, abstract representations.\n\n**Alt:** A diagram illustrating virtual hardware components (CPU, memory, storage) within a virtual machine, with labeled blocks and connecting lines."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_ca003c2ffb",
+        "question_text": "What is the primary purpose of isolation in containerization?",
+        "options": [
+          "To allow containers to share the same kernel and libraries",
+          "To ensure containers run on separate physical machines",
+          "To prevent containers from interfering with each other and the host system",
+          "To reduce the overall resource consumption of containers"
+        ],
+        "correct_answer": "To prevent containers from interfering with each other and the host system",
+        "explanation": "Isolation in containerization ensures that each container operates independently, sharing the host OS kernel while maintaining separation to enhance security and stability. (Source: doc10::chunk::18::containerization::1)",
+        "target_concept": "Isolation",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc10::chunk::18::containerization::1",
+          "run_id": "20260512_150512_doc10_d6bda0"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Isolation\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of isolation in containerization.\nImage context: A diagram showing isolated containers running on a shared OS kernel.\nTested fact block ID: doc10::chunk::18::containerization::1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing three distinct containers (labeled \"Container 1,\" \"Container 2,\" \"Container 3\") running on a shared OS kernel (labeled \"Host OS\"). Use solid borders and muted colors for containers (e.g., blue, green, orange) with a neutral gray for the kernel. Emphasize isolation by depicting each container as a separate, self-contained unit with arrows indicating shared kernel access. Avoid brand logos or trademarks.\n\n**Alt:** A diagram of three isolated containers running on a shared operating system kernel, illustrating containerization."
+    }
+  ]
+}

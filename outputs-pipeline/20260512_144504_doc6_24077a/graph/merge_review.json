@@ -1,0 +1,153 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc6::concept::4::vesicle",
+        "doc6::concept::15::vesicle_fusion"
+      ],
+      "labels": [
+        "vesicle",
+        "vesicle fusion"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::2::receptors",
+        "doc6::concept::17::postsynaptic_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "postsynaptic receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::3::enzymes",
+        "doc6::concept::24::synthesizing_enzymes"
+      ],
+      "labels": [
+        "enzymes",
+        "synthesizing enzymes"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::31::neurotransmitter_metabolism",
+        "doc6::concept::35::neurotransmitter"
+      ],
+      "labels": [
+        "neurotransmitter metabolism",
+        "neurotransmitter"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::2::receptors",
+        "doc6::concept::37::ionotropic_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "ionotropic receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::2::receptors",
+        "doc6::concept::38::metabotropic_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "metabotropic receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::2::receptors",
+        "doc6::concept::43::g_protein_coupled_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "G-protein coupled receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::40::ligand_gated_transmembrane_ion_channels",
+        "doc6::concept::44::ligand_gated_ion_channels"
+      ],
+      "labels": [
+        "ligand-gated transmembrane ion channels",
+        "ligand-gated ion channels"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::37::ionotropic_receptors",
+        "doc6::concept::45::ionotropic"
+      ],
+      "labels": [
+        "ionotropic receptors",
+        "ionotropic"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::38::metabotropic_receptors",
+        "doc6::concept::46::metabotropic"
+      ],
+      "labels": [
+        "metabotropic receptors",
+        "metabotropic"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::42::g_protein",
+        "doc6::concept::48::g_protein_subunits"
+      ],
+      "labels": [
+        "G-protein",
+        "G-protein subunits"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::12::synaptic_vesicles",
+        "doc6::concept::56::vesicles"
+      ],
+      "labels": [
+        "synaptic vesicles",
+        "vesicles"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

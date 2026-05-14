@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_e0d2717ac1",
+    "question_text": "What is the primary reason the Moon always shows the same face to Earth?",
+    "options": [
+      "A) The Moon does not rotate on its axis.",
+      "B) The Moon's rotation period matches its orbital period around Earth.",
+      "C) Earth's gravity prevents the Moon from rotating.",
+      "D) The Moon's rotation is retrograded compared to its orbit."
+    ],
+    "correct_answer": "B",
+    "explanation": "The Moon exhibits synchronous rotation, meaning its rotation period is equal to its orbital period around Earth, causing the same side to always face Earth. This is a result of tidal locking over time. (Source: doc5::chunk::1)",
+    "target_concept": "synchronous rotation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc5::chunk::1",
+      "run_id": "20260512_144244_doc5_9b3f7e"
+    }
+  },
+  {
+    "id": "q_0535334015",
+    "question_text": "Approximately how many Earth diameters would fit across the diameter of the Moon?",
+    "options": [
+      "A) 1/4",
+      "B) 1/2",
+      "C) 3/4",
+      "D) 1"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Moon's diameter is about 1/4 that of Earth's, as documented in doc5::concept::2::moon. This illustrates the significant size difference between the two celestial bodies.",
+    "target_concept": "Earth-diameters",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc5::concept::2::moon",
+      "run_id": "20260512_144244_doc5_9b3f7e"
+    }
+  },
+  {
+    "id": "q_14dd06c01f",
+    "question_text": "What is the primary cause of the Moon's phases as observed from Earth?",
+    "options": [
+      "A) The Moon's rotation on its own axis",
+      "B) The Earth's rotation on its own axis",
+      "C) The changing position of the Moon relative to the Earth and Sun",
+      "D) The Moon's varying distance from the Earth"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Moon's phases are caused by its changing position relative to the Earth and Sun, which alters the portion of its illuminated surface visible from Earth. As the Moon orbits Earth, sunlight reflects off different parts of its surface, creating the observed phases. (doc5::chunk::0)",
+    "target_concept": "Moon",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "doc5::chunk::0",
+      "run_id": "20260512_144244_doc5_9b3f7e"
+    }
+  },
+  {
+    "id": "q_c0d103a91b",
+    "question_text": "What is the Sun?",
+    "options": [
+      "A planet",
+      "A star",
+      "A moon",
+      "A comet"
+    ],
+    "correct_answer": "A star",
+    "explanation": "The Sun is a star, which is a luminous sphere of plasma held together by its own gravity. It is the central and most massive object in the Solar System, around which the planets orbit. (Source: doc5::concept::3::sun)",
+    "target_concept": "Sun",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc5::concept::3::sun",
+      "run_id": "20260512_144244_doc5_9b3f7e"
+    }
+  },
+  {
+    "id": "q_86c61f2540",
+    "question_text": "During the waxing gibbous phase, what portion of the Moon is illuminated as seen from Earth?",
+    "options": [
+      "Less than half of the visible side",
+      "Exactly half of the visible side",
+      "More than half but not fully illuminated",
+      "The entire visible side"
+    ],
+    "correct_answer": "More than half but not fully illuminated",
+    "explanation": "The waxing gibbous phase occurs when more than half of the Moon's visible side is illuminated but it is not yet full. This is due to the angle between the Earth, Moon, and Sun. (doc5::concept::42::illumination)",
+    "target_concept": "Illumination",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc5::concept::42::illumination",
+      "run_id": "20260512_144244_doc5_9b3f7e"
+    }
+  }
+]

@@ -1,0 +1,1132 @@
+{
+  "count": 23,
+  "topics": [
+    {
+      "id": "doc12::topic_candidate::section::0::toolbox_talk_stress_management",
+      "label": "TOOLBOX TALK: Stress Management",
+      "description": "Section-seeded topic for TOOLBOX TALK: Stress Management",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "TOOLBOX TALK: Stress Management"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::0::safety_manager_foreman",
+        "doc12::concept::1::workers"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::1::speaker_safety_manager_foreman::chunk::0::speaker_safety_manager_foreman"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::0::safety_manager_foreman",
+        "doc12::concept::1::workers"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "section_id": "doc12::section::0::toolbox_talk_stress_management",
+        "source_section_label": "TOOLBOX TALK: Stress Management"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::1::i_introduction",
+      "label": "I. Introduction",
+      "description": "Section-seeded topic for I. Introduction",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "I. Introduction"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::34::social_connections",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::4::construction_industry",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::4::construction_industry"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc12::section::3::i_introduction",
+        "source_section_label": "I. Introduction"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::2::ii_different_types_of_stress",
+      "label": "II. Different Types of Stress?",
+      "description": "Section-seeded topic for II. Different Types of Stress?",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "II. Different Types of Stress?"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress",
+        "doc12::concept::6::stressor"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress",
+        "doc12::concept::6::stressor"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc12::section::7::ii_different_types_of_stress",
+        "source_section_label": "II. Different Types of Stress?"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::3::iii_relevance_of_topic_why_stress_is_bad_for_your_well_being",
+      "label": "III. Relevance of Topic: Why Stress is Bad for Your Well-being",
+      "description": "Section-seeded topic for III. Relevance of Topic: Why Stress is Bad for Your Well-being",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::12::workplace_injury",
+        "doc12::concept::13::cardiovascular_disease",
+        "doc12::concept::14::suicide",
+        "doc12::concept::15::musculoskeletal_disorders",
+        "doc12::concept::16::cancer",
+        "doc12::concept::17::depression",
+        "doc12::concept::18::ulcers",
+        "doc12::concept::19::anxiety",
+        "doc12::concept::20::impaired_immune_function",
+        "doc12::concept::5::stress",
+        "doc12::concept::8::chronic_job_stress",
+        "doc12::concept::9::substance_abuse"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::16::cancer",
+        "doc12::concept::20::impaired_immune_function",
+        "doc12::concept::5::stress"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.645
+      },
+      "metadata": {
+        "section_id": "doc12::section::11::iii_relevance_of_topic_why_stress_is_bad_for_you",
+        "source_section_label": "III. Relevance of Topic: Why Stress is Bad for Your Well-being"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::4::iv_what_causes_work_stress",
+      "label": "IV. What Causes Work Stress?",
+      "description": "Section-seeded topic for IV. What Causes Work Stress?",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::20::impaired_immune_function",
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress",
+        "doc12::concept::8::chronic_job_stress",
+        "doc12::concept::9::substance_abuse"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::3::job_stress"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc12::section::16::iv_what_causes_work_stress",
+        "source_section_label": "IV. What Causes Work Stress?"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::5::iv_recognizing_the_signs_and_symptoms_of_stress",
+      "label": "IV. Recognizing the Signs and Symptoms of Stress",
+      "description": "Section-seeded topic for IV. Recognizing the Signs and Symptoms of Stress",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "IV. Recognizing the Signs and Symptoms of Stress"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::30::short_temper",
+        "doc12::concept::31::upset_stomach",
+        "doc12::concept::32::job_dissatisfaction",
+        "doc12::concept::33::low_morale",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::5::stress"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.583,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.674
+      },
+      "metadata": {
+        "section_id": "doc12::section::19::iv_recognizing_the_signs_and_symptoms_of_stress",
+        "source_section_label": "IV. Recognizing the Signs and Symptoms of Stress"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::6::v_how_to_deal_with_job_stress_how_to_make_changes_that_lead_to_less_stress",
+      "label": "V. How to Deal with Job Stress (how to make changes that lead to less stress)",
+      "description": "Section-seeded topic for V. How to Deal with Job Stress (how to make changes that lead to less stress)",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::34::social_connections",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::40::healthy_work_organizations",
+        "doc12::concept::41::recognition_of_employees",
+        "doc12::concept::42::opportunities_for_career_development",
+        "doc12::concept::43::organizational_culture",
+        "doc12::concept::44::management_actions",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::37::exercise",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::5::stress"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc12::section::22::v_how_to_deal_with_job_stress_how_to_make_change",
+        "source_section_label": "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::7::vi_conclusion",
+      "label": "VI. Conclusion",
+      "description": "Section-seeded topic for VI. Conclusion",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "VI. Conclusion"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::34::social_connections",
+        "doc12::concept::35::breaks",
+        "doc12::concept::36::health",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::45::healthy_work_culture",
+        "doc12::concept::46::resources",
+        "doc12::concept::4::construction_industry"
+      ],
+      "chunk_ids": [
+        "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu",
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::45::healthy_work_culture",
+        "doc12::concept::46::resources"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.636,
+        "breadth_score": 0.5,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.723
+      },
+      "metadata": {
+        "section_id": "doc12::section::32::vi_conclusion",
+        "source_section_label": "VI. Conclusion"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::11::how_to_deal_with_job_stress",
+      "label": "How to deal with job stress",
+      "description": "Section-seeded topic for How to deal with job stress",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "How to deal with job stress"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::34::social_connections",
+        "doc12::concept::35::breaks",
+        "doc12::concept::36::health",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::45::healthy_work_culture",
+        "doc12::concept::46::resources",
+        "doc12::concept::4::construction_industry",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu",
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::37::exercise",
+        "doc12::concept::39::healthcare_provider"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc12::section::41::how_to_deal_with_job_stress",
+        "source_section_label": "How to deal with job stress"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::12::information_on_stress_management",
+      "label": "Information on STRESS MANAGEMENT",
+      "description": "Section-seeded topic for Information on STRESS MANAGEMENT",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Information on STRESS MANAGEMENT"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::34::social_connections",
+        "doc12::concept::35::breaks",
+        "doc12::concept::36::health",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::45::healthy_work_culture",
+        "doc12::concept::46::resources",
+        "doc12::concept::4::construction_industry"
+      ],
+      "chunk_ids": [
+        "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu",
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::39::healthcare_provider"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.636,
+        "breadth_score": 0.5,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.723
+      },
+      "metadata": {
+        "section_id": "doc12::section::55::information_on_stress_management",
+        "source_section_label": "Information on STRESS MANAGEMENT"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::section::13::these_articles_and_resources_can_help_you_learn_to_cope_with_stress",
+      "label": "These articles and resources can help you learn to cope with stress:",
+      "description": "Section-seeded topic for These articles and resources can help you learn to cope with stress:",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "These articles and resources can help you learn to cope with stress:"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::47::workplace_stress",
+        "doc12::concept::48::niosh_science_blog",
+        "doc12::concept::49::national_institute_of_mental_health",
+        "doc12::concept::50::center_for_workplace_mental_health",
+        "doc12::concept::51::samhsa_treatment_referral_helpline",
+        "doc12::concept::52::behavioral_health_treatment_locator",
+        "doc12::concept::53::university_of_michigan_depression_center",
+        "doc12::concept::54::right_direction",
+        "doc12::concept::56::all_the_right_moves"
+      ],
+      "chunk_ids": [
+        "doc12::details::70::details_summary_text_image_summary_arm_all_the_r::chunk::15::details_summary_text_image_summary_arm_all_the_r",
+        "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::10::workplace_stress_niosh_science_blog_2007_decembe",
+        "doc12::list_item::37::3_workplace_stress_niosh_science_blog_2007_decem::chunk::9::workplace_stress_niosh_science_blog_2007_decembe",
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::13::talk_to_a_healthcare_providerif_you_are_overwhel"
+      ],
+      "artifact_ids": [
+        "doc12::artifact::70::details_summary_text_image_summary_arm_all_the_r"
+      ],
+      "seed_concept_ids": [
+        "doc12::concept::47::workplace_stress",
+        "doc12::concept::48::niosh_science_blog",
+        "doc12::concept::56::all_the_right_moves"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.556,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.754
+      },
+      "metadata": {
+        "section_id": "doc12::section::56::these_articles_and_resources_can_help_you_learn_",
+        "source_section_label": "These articles and resources can help you learn to cope with stress:"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::0::stress",
+      "label": "Stress",
+      "description": "Concept-anchored topic centered on stress",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "II. Different Types of Stress?"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::5::stress"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::5::stress"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::1::stress_management",
+      "label": "Stress management",
+      "description": "Concept-anchored topic centered on stress management",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "I. Introduction"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::34::social_connections",
+        "doc12::concept::36::health",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::45::healthy_work_culture",
+        "doc12::concept::46::resources",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu",
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::2::stress_management"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::2::stress_management"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::2::job_stress",
+      "label": "Job stress",
+      "description": "Concept-anchored topic centered on job stress",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "I. Introduction"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::4::construction_industry",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::3::job_stress"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::3::job_stress"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::3::healthcare_provider",
+      "label": "Healthcare provider",
+      "description": "Concept-anchored topic centered on Healthcare provider",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::2::stress_management",
+        "doc12::concept::34::social_connections",
+        "doc12::concept::35::breaks",
+        "doc12::concept::36::health",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::45::healthy_work_culture",
+        "doc12::concept::46::resources"
+      ],
+      "chunk_ids": [
+        "doc12::list_item::31::4_everybody_contributes_to_a_healthy_low_stress_::chunk::7::everybody_contributes_to_a_healthy_low_stress_cu",
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::39::healthcare_provider"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.7,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.775
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::39::healthcare_provider"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::4::the_design_of_tasks",
+      "label": "The Design of Tasks",
+      "description": "Concept-anchored topic centered on The Design of Tasks",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::21::the_design_of_tasks"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::21::the_design_of_tasks"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::5::management_style",
+      "label": "Management Style",
+      "description": "Concept-anchored topic centered on Management Style",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::22::management_style"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::22::management_style"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::6::co_worker_relationships",
+      "label": "Co-worker Relationships",
+      "description": "Concept-anchored topic centered on Co-worker Relationships",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::23::co_worker_relationships"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::23::co_worker_relationships"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::7::work_rules",
+      "label": "Work Rules",
+      "description": "Concept-anchored topic centered on Work Rules",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::24::work_rules"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::24::work_rules"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::8::career_concerns",
+      "label": "Career Concerns",
+      "description": "Concept-anchored topic centered on Career Concerns",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::25::career_concerns"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::25::career_concerns"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::9::environmental_conditions_of_work",
+      "label": "Environmental Conditions of Work",
+      "description": "Concept-anchored topic centered on Environmental Conditions of Work",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "IV. What Causes Work Stress?"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::21::the_design_of_tasks",
+        "doc12::concept::22::management_style",
+        "doc12::concept::23::co_worker_relationships",
+        "doc12::concept::24::work_rules",
+        "doc12::concept::25::career_concerns",
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::paragraph::10::not_all_stress_is_bad_stress_can_motivate_people::chunk::3::not_all_stress_is_bad_stress_can_motivate_people",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::26::environmental_conditions_of_work"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::26::environmental_conditions_of_work"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::10::exercise",
+      "label": "Exercise",
+      "description": "Concept-anchored topic centered on Exercise",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::34::social_connections",
+        "doc12::concept::35::breaks",
+        "doc12::concept::36::health",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::37::exercise"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::37::exercise"
+      }
+    },
+    {
+      "id": "doc12::topic_candidate::anchor::11::relaxation_activities",
+      "label": "Relaxation activities",
+      "description": "Concept-anchored topic centered on Relaxation activities",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "V. How to Deal with Job Stress (how to make changes that lead to less stress)"
+        ]
+      ],
+      "concept_ids": [
+        "doc12::concept::26::environmental_conditions_of_work",
+        "doc12::concept::2::stress_management",
+        "doc12::concept::34::social_connections",
+        "doc12::concept::35::breaks",
+        "doc12::concept::36::health",
+        "doc12::concept::37::exercise",
+        "doc12::concept::38::relaxation_activities",
+        "doc12::concept::39::healthcare_provider",
+        "doc12::concept::3::job_stress",
+        "doc12::concept::5::stress"
+      ],
+      "chunk_ids": [
+        "doc12::list_item::54::talk_to_a_healthcare_providerif_you_are_overwhel::chunk::12::talk_to_a_healthcare_providerif_you_are_overwhel",
+        "doc12::paragraph::15::substance_abuse_ptsd_aggression3_workplace_injur::chunk::4::substance_abuse_ptsd_aggression3_workplace_injur",
+        "doc12::paragraph::18::the_design_of_tasks_heavy_workload_not_getting_b::chunk::5::the_design_of_tasks_heavy_workload_not_getting_b",
+        "doc12::paragraph::21::headache_sleep_disturbances_difficulty_sleeping_::chunk::6::headache_sleep_disturbances_difficulty_sleeping_",
+        "doc12::paragraph::2::audience_workers::chunk::1::audience_workers",
+        "doc12::paragraph::33::we_have_a_limited_amount_of_time_here_so_i_want_::chunk::8::we_have_a_limited_amount_of_time_here_so_i_want_",
+        "doc12::paragraph::40::it_s_not_a_sign_of_weakness_or_failure_it_likely::chunk::11::it_s_not_a_sign_of_weakness_or_failure_it_likely",
+        "doc12::paragraph::6::stress_is_an_important_topic_for_everyone_and_es::chunk::2::stress_is_an_important_topic_for_everyone_and_es"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc12::concept::38::relaxation_activities"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc12::concept::38::relaxation_activities"
+      }
+    }
+  ]
+}

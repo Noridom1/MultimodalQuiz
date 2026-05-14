@@ -1,0 +1,225 @@
+{
+  "section_count": 11,
+  "sections": [
+    {
+      "id": "doc8::section::0::a_quantum_router_for_the_entangled_web",
+      "label": "A Quantum Router For The Entangled Web",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "A Quantum Router For The Entangled Web"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::5::abstract",
+      "label": "Abstract",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Abstract"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 5,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::7::introduction",
+      "label": "INTRODUCTION",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "INTRODUCTION"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 7,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::13::the_entangled_web",
+      "label": "THE ENTANGLED WEB",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "THE ENTANGLED WEB"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 13,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::52::a_quantum_router_for_the_entangled_web",
+      "label": "A QUANTUM ROUTER FOR THE ENTANGLED WEB",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "A QUANTUM ROUTER FOR THE ENTANGLED WEB"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 52,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::53::quantum_routing_architecture",
+      "label": "Quantum Routing Architecture",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Quantum Routing Architecture"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 53,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::73::quantum_router_design",
+      "label": "Quantum Router Design",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Quantum Router Design"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 73,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::90::entangled_pair_management",
+      "label": "Entangled Pair Management",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Entangled Pair Management"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 90,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::100::2_epm_then",
+      "label": "2. EPM then:",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "2. EPM then:"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 100,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::102::entangled_web_prototype",
+      "label": "Entangled Web Prototype",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Entangled Web Prototype"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 102,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc8::section::105::summary_and_next_steps",
+      "label": "SUMMARY AND NEXT STEPS",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc8/hybrid_auto/doc8.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "SUMMARY AND NEXT STEPS"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 105,
+        "level": 1
+      }
+    }
+  ]
+}

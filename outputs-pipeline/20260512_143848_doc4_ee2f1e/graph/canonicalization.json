@@ -1,0 +1,3210 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc4::concept::0::qr_code",
+      "label": "QR code",
+      "normalized_label": "qr code",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "image containing encoded data, no visible human-readable text"
+      ],
+      "source_chunk_ids": [
+        "doc4::details::1::details_summary_text_image_summary_qr_code_image::chunk::1::details_summary_text_image_summary_qr_code_image"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::1::geography",
+      "label": "geography",
+      "normalized_label": "geography",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "an integrative, empirical, and practical field of study that examines events or phenomena varying over space and time."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::2::physical_geography",
+      "label": "Population Geography",
+      "normalized_label": "physical geography",
+      "aliases": [
+        "Political Geography",
+        "physical geography"
+      ],
+      "mention_count": 6,
+      "definitions": [
+        "the study of the physical environment."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::3::human_geography",
+      "label": "Historical Geography",
+      "normalized_label": "human geography",
+      "aliases": [
+        "Human Geography",
+        "human geography"
+      ],
+      "mention_count": 13,
+      "definitions": [
+        "the study of the relationship between the physical/natural and human worlds, the spatial distributions of human phenomena, and how they come about, including social and economic differences between different parts of the world.",
+        "the study of the relationship between the physical/natural and the human worlds, the spatial distributions of human phenomena, and how they come about, including social and economic differences between different parts of the world.",
+        "conception resulting from a more synthetic knowledge of the physical laws governing our earth and of the relations between the living beings which inhabit it.",
+        "studies the inter-relationship between the physical environment and socio-cultural environment created by human beings through mutual interaction with each other.",
+        "attempts to explain the relationship between all elements of human life and the space they occur over."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ],
+        [
+          "Human Geography Defined"
+        ],
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::4::physical_environment",
+      "label": "physical environment",
+      "normalized_label": "physical environment",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ],
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::5::spatial_distributions",
+      "label": "spatial distributions",
+      "normalized_label": "spatial distributions",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::6::social_and_economic_differences",
+      "label": "social and economic differences",
+      "normalized_label": "social and economic differences",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::7::dualism",
+      "label": "dualism",
+      "normalized_label": "dualism",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::8::nomothetic",
+      "label": "nomothetic",
+      "normalized_label": "nomothetic",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::9::idiographic",
+      "label": "idiographic",
+      "normalized_label": "idiographic",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::10::regional_approach",
+      "label": "regional approach",
+      "normalized_label": "regional approach",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::11::systematic_approach",
+      "label": "systematic approach",
+      "normalized_label": "systematic approach",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::12::theoretical_interpretation",
+      "label": "theoretical interpretation",
+      "normalized_label": "theoretical interpretation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::13::historic_institutional_approach",
+      "label": "historic-institutional approach",
+      "normalized_label": "historic-institutional approach",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::14::face_of_the_earth",
+      "label": "face of the earth",
+      "normalized_label": "face of the earth",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::15::eye_of_the_storm",
+      "label": "eye of the storm",
+      "normalized_label": "eye of the storm",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::16::mouth_of_the_river",
+      "label": "mouth of the river",
+      "normalized_label": "mouth of the river",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::17::snout_of_the_glacier",
+      "label": "snout of the glacier",
+      "normalized_label": "snout of the glacier",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::18::neck_of_the_isthmus",
+      "label": "neck of the isthmus",
+      "normalized_label": "neck of the isthmus",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::19::profile_of_the_soil",
+      "label": "profile of the soil",
+      "normalized_label": "profile of the soil",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::20::organisms",
+      "label": "organisms",
+      "normalized_label": "organisms",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::21::living_organism",
+      "label": "living organism",
+      "normalized_label": "living organism",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::22::arteries_of_circulation",
+      "label": "arteries of circulation",
+      "normalized_label": "arteries of circulation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::23::synthetic_study",
+      "label": "synthetic study",
+      "normalized_label": "synthetic study",
+      "aliases": [
+        "social sciences"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "section_paths": [
+        [
+          "Human Geography Defined"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::24::relationship_between_human_societies_and_earth_s",
+      "label": "relationship between human societies and earth’s surface",
+      "normalized_label": "relationship between human societies and earth s surface",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Human Geography Defined"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::25::dynamism",
+      "label": "dynamism",
+      "normalized_label": "dynamism",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Human Geography Defined"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::26::interrelationships_between_earth_and_human_being",
+      "label": "interrelationships between earth and human beings",
+      "normalized_label": "interrelationships between earth and human beings",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th"
+      ],
+      "section_paths": [
+        [
+          "Human Geography Defined"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::27::socio_cultural_environment",
+      "label": "socio-cultural environment",
+      "normalized_label": "socio-cultural environment",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::28::landforms",
+      "label": "landforms",
+      "normalized_label": "landforms",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::29::soils",
+      "label": "soils",
+      "normalized_label": "soils",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::30::climate",
+      "label": "climate",
+      "normalized_label": "climate",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::31::water",
+      "label": "water",
+      "normalized_label": "water",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::32::natural_vegetation",
+      "label": "natural vegetation",
+      "normalized_label": "natural vegetation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::33::flora_and_fauna",
+      "label": "flora and fauna",
+      "normalized_label": "flora and fauna",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::34::houses",
+      "label": "houses",
+      "normalized_label": "houses",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::35::villages",
+      "label": "villages",
+      "normalized_label": "villages",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::36::cities",
+      "label": "cities",
+      "normalized_label": "cities",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::37::road_rail_networks",
+      "label": "road-rail networks",
+      "normalized_label": "road-rail networks",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::38::industries",
+      "label": "industries",
+      "normalized_label": "industries",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::39::farms",
+      "label": "farms",
+      "normalized_label": "farms",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::40::ports",
+      "label": "ports",
+      "normalized_label": "ports",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::41::material_culture",
+      "label": "material culture",
+      "normalized_label": "material culture",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b"
+      ],
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::42::technology",
+      "label": "technology",
+      "normalized_label": "technology",
+      "aliases": [],
+      "mention_count": 6,
+      "definitions": [
+        "indicates the level of cultural development of society."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::43::cultural_development",
+      "label": "cultural development",
+      "normalized_label": "cultural development",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::44::natural_laws",
+      "label": "natural laws",
+      "normalized_label": "natural laws",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::45::friction",
+      "label": "friction",
+      "normalized_label": "friction",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::46::heat",
+      "label": "heat",
+      "normalized_label": "heat",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::47::fire",
+      "label": "fire",
+      "normalized_label": "fire",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::48::dna",
+      "label": "DNA",
+      "normalized_label": "dna",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::49::genetics",
+      "label": "genetics",
+      "normalized_label": "genetics",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::50::aerodynamics",
+      "label": "aerodynamics",
+      "normalized_label": "aerodynamics",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::51::environmental_determinism",
+      "label": "environmental determinism",
+      "normalized_label": "environmental determinism",
+      "aliases": [],
+      "mention_count": 6,
+      "definitions": [
+        "the type of interaction between primitive human society and strong forces of nature where humans were greatly influenced by and adapted to the dictates of Nature.",
+        "The type of interaction between primitive human society and strong forces of nature."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ],
+        [
+          "The Naturalisation of Humans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::52::possibilism",
+      "label": "possibilism",
+      "normalized_label": "possibilism",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The idea that nature provides opportunities and humans make use of these, slowly humanizing nature."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::28::the_people_begin_to_understand_their_environment::chunk::20::the_people_begin_to_understand_their_environment"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::53::cultural_landscape",
+      "label": "cultural landscape",
+      "normalized_label": "cultural landscape",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The imprints of human activities created everywhere, such as health resorts, urban sprawls, fields, and ports."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::28::the_people_begin_to_understand_their_environment::chunk::20::the_people_begin_to_understand_their_environment"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::54::humanisation_of_nature",
+      "label": "humanisation of nature",
+      "normalized_label": "humanisation of nature",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::28::the_people_begin_to_understand_their_environment::chunk::20::the_people_begin_to_understand_their_environment"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::55::radical_school_of_thought",
+      "label": "Radical school of thought",
+      "normalized_label": "radical school of thought",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::56::marxian_theory",
+      "label": "Marxian theory",
+      "normalized_label": "marxian theory",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::57::capitalism",
+      "label": "capitalism",
+      "normalized_label": "capitalism",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::58::behavioural_school_of_thought",
+      "label": "Behavioural school of thought",
+      "normalized_label": "behavioural school of thought",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::59::lived_experience",
+      "label": "lived experience",
+      "normalized_label": "lived experience",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::60::perception_of_space",
+      "label": "perception of space",
+      "normalized_label": "perception of space",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::61::social_categories",
+      "label": "social categories",
+      "normalized_label": "social categories",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::62::ethnicity",
+      "label": "ethnicity",
+      "normalized_label": "ethnicity",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::63::race",
+      "label": "race",
+      "normalized_label": "race",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::64::religion",
+      "label": "religion",
+      "normalized_label": "religion",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ],
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::65::inter_disciplinary_nature",
+      "label": "inter-disciplinary nature",
+      "normalized_label": "inter-disciplinary nature",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::66::areal_differentiation",
+      "label": "Areal differentiation",
+      "normalized_label": "areal differentiation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The focus was on identifying the uniqueness of any region and understanding how and why it was different from others."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::67::spatial_organisation",
+      "label": "Spatial organisation",
+      "normalized_label": "spatial organisation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "Marked by the use of computers and sophisticated statistical tools. Laws of physics were often applied to map and analyse human phenomena."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::68::quantitative_revolution",
+      "label": "quantitative revolution",
+      "normalized_label": "quantitative revolution",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The main objective was to identify mappable patterns for different human activities."
+      ],
+      "source_chunk_ids": [
+        "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::69::humanistic_schools",
+      "label": "humanistic schools",
+      "normalized_label": "humanistic schools",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::70::radical_schools",
+      "label": "radical schools",
+      "normalized_label": "radical schools",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::71::behavioural_schools",
+      "label": "behavioural schools",
+      "normalized_label": "behavioural schools",
+      "aliases": [
+        "Business Studies"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::72::post_modernism_in_geography",
+      "label": "Post-modernism in geography",
+      "normalized_label": "post-modernism in geography",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::73::social_geography",
+      "label": "Settlement Geography",
+      "normalized_label": "social geography",
+      "aliases": [
+        "Social Geography"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::74::behavioural_geography",
+      "label": "Behavioural Geography",
+      "normalized_label": "behavioural geography",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::75::geography_of_social_well_being",
+      "label": "Geography of Social Well-being",
+      "normalized_label": "geography of social well-being",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::76::geography_of_leisure",
+      "label": "Geography of Leisure",
+      "normalized_label": "geography of leisure",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::77::cultural_geography",
+      "label": "Cultural Geography",
+      "normalized_label": "cultural geography",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::78::gender_geography",
+      "label": "Gender Geography",
+      "normalized_label": "gender geography",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::79::medical_geography",
+      "label": "Military Geography",
+      "normalized_label": "medical geography",
+      "aliases": [
+        "Medical Geography"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::80::urban_geography",
+      "label": "Urban Geography",
+      "normalized_label": "urban geography",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::81::electoral_geography",
+      "label": "Electoral Geography",
+      "normalized_label": "electoral geography",
+      "aliases": [
+        "Economic Geography"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::82::geography_of_resources",
+      "label": "Geography of Resources",
+      "normalized_label": "geography of resources",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::83::geography_of_agriculture",
+      "label": "Geography of Agriculture",
+      "normalized_label": "geography of agriculture",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::84::geography_of_industries",
+      "label": "Geography of Industries",
+      "normalized_label": "geography of industries",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::85::geography_of_marketing",
+      "label": "Geography of Marketing",
+      "normalized_label": "geography of marketing",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::86::geography_of_tourism",
+      "label": "Geography of Tourism",
+      "normalized_label": "geography of tourism",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::87::geography_of_international_trade",
+      "label": "Geography of International Trade",
+      "normalized_label": "geography of international trade",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::88::sociology",
+      "label": "Sociology",
+      "normalized_label": "sociology",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::89::psychology",
+      "label": "Psychology",
+      "normalized_label": "psychology",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::90::welfare_economics",
+      "label": "Welfare Economics",
+      "normalized_label": "welfare economics",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::91::anthropology",
+      "label": "Anthropology",
+      "normalized_label": "anthropology",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::92::women_s_studies",
+      "label": "Women's Studies",
+      "normalized_label": "women s studies",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::93::history",
+      "label": "History",
+      "normalized_label": "history",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::94::epidemiology",
+      "label": "Epidemiology",
+      "normalized_label": "epidemiology",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::95::urban_studies_and_planning",
+      "label": "Urban Studies and Planning",
+      "normalized_label": "urban studies and planning",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::96::political_science",
+      "label": "Political Science",
+      "normalized_label": "political science",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::97::psephology",
+      "label": "Psephology",
+      "normalized_label": "psephology",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::98::military_science",
+      "label": "Military Science",
+      "normalized_label": "military science",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::99::demography",
+      "label": "Demography",
+      "normalized_label": "demography",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::100::economics",
+      "label": "Economics",
+      "normalized_label": "economics",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::101::resource_economics",
+      "label": "Resource Economics",
+      "normalized_label": "resource economics",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::102::agricultural_sciences",
+      "label": "Agricultural Sciences",
+      "normalized_label": "agricultural sciences",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::103::industrial_economics",
+      "label": "Industrial Economics",
+      "normalized_label": "industrial economics",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::104::commerce",
+      "label": "Commerce",
+      "normalized_label": "commerce",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::105::tourism_and_travel_management",
+      "label": "Tourism and Travel Management",
+      "normalized_label": "tourism and travel management",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc4::concept::106::international_trade",
+      "label": "International Trade",
+      "normalized_label": "international trade",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::2::physical_geography"
+      ],
+      "labels": [
+        "geography",
+        "physical geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::3::human_geography"
+      ],
+      "labels": [
+        "geography",
+        "human geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::72::post_modernism_in_geography"
+      ],
+      "labels": [
+        "geography",
+        "Post-modernism in geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::73::social_geography"
+      ],
+      "labels": [
+        "geography",
+        "Social Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::74::behavioural_geography"
+      ],
+      "labels": [
+        "geography",
+        "Behavioural Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::75::geography_of_social_well_being"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Social Well-being"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::76::geography_of_leisure"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Leisure"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::77::cultural_geography"
+      ],
+      "labels": [
+        "geography",
+        "Cultural Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::78::gender_geography"
+      ],
+      "labels": [
+        "geography",
+        "Gender Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::79::medical_geography"
+      ],
+      "labels": [
+        "geography",
+        "Medical Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::80::urban_geography"
+      ],
+      "labels": [
+        "geography",
+        "Urban Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::81::electoral_geography"
+      ],
+      "labels": [
+        "geography",
+        "Electoral Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::82::geography_of_resources"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Resources"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::83::geography_of_agriculture"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Agriculture"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::84::geography_of_industries"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Industries"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::85::geography_of_marketing"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Marketing"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::86::geography_of_tourism"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Tourism"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::87::geography_of_international_trade"
+      ],
+      "labels": [
+        "geography",
+        "Geography of International Trade"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::90::welfare_economics",
+        "doc4::concept::100::economics"
+      ],
+      "labels": [
+        "Welfare Economics",
+        "Economics"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::100::economics",
+        "doc4::concept::101::resource_economics"
+      ],
+      "labels": [
+        "Economics",
+        "Resource Economics"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::100::economics",
+        "doc4::concept::103::industrial_economics"
+      ],
+      "labels": [
+        "Economics",
+        "Industrial Economics"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::87::geography_of_international_trade",
+        "doc4::concept::106::international_trade"
+      ],
+      "labels": [
+        "Geography of International Trade",
+        "International Trade"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 187,
+    "canonical_concept_count": 107,
+    "candidate_merge_count": 22
+  }
+}

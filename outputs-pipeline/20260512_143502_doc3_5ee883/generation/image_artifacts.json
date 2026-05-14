@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nDepict a black-and-white historical photograph of a dense crowd gathering in a city square (Site 1) during a revolutionary event, with a prominent leader (Leader A) addressing the crowd from a raised platform. Use high contrast to emphasize the scale and energy of the scene, and include subtle labels like \"1945\" discreetly in the corner (e.g., on a faded banner or sign). Avoid modern elements or identifiable trademarks.\n\n**Alt:** A historical black-and-white photo of a large crowd in a city square during a revolution, with a leader speaking from a platform.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143502_doc3_5ee883/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:** A realistic portrait of *Leader A* (a distinguished elder figure with a goatee and simple attire) delivering a speech to a diverse crowd, set against a backdrop of a rural village with rice fields and a rising sun. Use warm earth tones (ochre, olive, deep red) for the foreground and soft blues/greens for the background to evoke hope and resilience. Include subtle labels like \"Independence Declaration\" (on a scroll in hand) and \"Agrarian Reform\" (near farmers in the crowd). Avoid modern or branded elements.\n\n**Alt:** A historical leader in traditional clothing speaks to a gathered crowd in a rural setting, symbolizing key societal changes.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143502_doc3_5ee883/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Depict a joyful crowd of diverse Vietnamese people gathered in a public square, waving homemade flags and banners (no text) in red, yellow, and white. Include a central figure (labeled \"Leader A\") speaking from a balcony at \"Site 1,\" with high-contrast lighting to emphasize unity and celebration. Avoid modern or copyrighted elements.\n\n**Alt:** A black-and-white historical scene of a large crowd celebrating independence, with a leader addressing them from a balcony.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143502_doc3_5ee883/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Create a portrait of *Leader A* (a respected elder with a simple, thoughtful expression) set against a harmonious backdrop blending rural Vietnamese landscapes (rice fields, traditional stilt houses) and subtle industrial symbols (gears, factories in the distance). Use warm earth tones for the countryside and muted metallic hues for industrial elements, ensuring high contrast for clarity. Label key symbols discreetly (e.g., \"agriculture,\" \"industry\") without text overlays.\n\n**Alt:** A portrait of a historical leader with a backdrop merging Vietnamese rural scenery and industrial motifs, symbolizing adapted ideological principles.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143502_doc3_5ee883/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:** A black-and-white historical photograph depicting a Việt Minh leader (labeled \"Leader A\") speaking to a diverse crowd of resistance fighters and civilians in a rural Indochinese setting, with dense jungle foliage and makeshift banners in the background. Use high contrast to emphasize faces and expressions, avoiding modern or copyrighted elements. Include subtle labels for key figures (e.g., \"Military Advisor,\" \"Local Organizer\") without revealing identities.\n\n**Alt:** A historical photo of a Việt Minh leader addressing a crowd during the Indochinese resistance against French colonial rule.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_143502_doc3_5ee883/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

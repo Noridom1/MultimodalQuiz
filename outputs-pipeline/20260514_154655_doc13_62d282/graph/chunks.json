@@ -1,0 +1,1964 @@
+{
+  "chunk_count": 69,
+  "chunks": [
+    {
+      "id": "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+      "label": "BADMINTON is a racket sport played by either two opposing players (singles) or two opposing pairs (doubles). The badm...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON"
+      ],
+      "text": "BADMINTON is a racket sport played by either two opposing players (singles) or two opposing pairs (doubles).\n\nThe badminton court is rectangular and is divided by a net.\n\nPlayers score points by hitting a shuttlecock with their racket so that it passes over the net and lands in the other side of the court.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two",
+          "doc13::paragraph::2::the_badminton_court_is_rectangular_and_is_divide",
+          "doc13::paragraph::3::players_score_points_by_hitting_a_shuttlecock_wi"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 54,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc13::image::4::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c::chunk::1::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c",
+      "label": "![](images/54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5cdd407f67bde0f854d549c03.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::4::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c::chunk::1::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON"
+      ],
+      "text": "![](images/54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5cdd407f67bde0f854d549c03.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::4::images_54c7d3d819ed5e27d107ac7c2102b68c7f18bdc5c"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::5::details_summary_natural_image_summary_cartoon_il::chunk::2::details_summary_natural_image_summary_cartoon_il",
+      "label": "<details> <summary>natural_image</summary> Cartoon illustration of two badminton players at the net, one passing and...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::5::details_summary_natural_image_summary_cartoon_il::chunk::2::details_summary_natural_image_summary_cartoon_il",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nCartoon illustration of two badminton players at the net, one passing and the other running (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::5::details_summary_natural_image_summary_cartoon_il"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 24,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::6::competitive_badminton_is_best_played_indoors_bec::chunk::3::competitive_badminton_is_best_played_indoors_bec",
+      "label": "Competitive badminton is best played indoors because shuttlecock flight is affected by wind. But badminton, as a casu...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::6::competitive_badminton_is_best_played_indoors_bec::chunk::3::competitive_badminton_is_best_played_indoors_bec",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON"
+      ],
+      "text": "Competitive badminton is best played indoors because shuttlecock flight is affected by wind. But badminton, as a casual recreational activity, can also be played outdoors.\n\nBadminton has been an Olympic sport since 1992 (Barcelona),",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::6::competitive_badminton_is_best_played_indoors_bec",
+          "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 34,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b::chunk::4::badminton_has_been_an_olympic_sport_since_1992_b",
+      "label": "Badminton has been an Olympic sport since 1992 (Barcelona), Games similar to badminton have existed throughout histor...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b::chunk::4::badminton_has_been_an_olympic_sport_since_1992_b",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "Badminton has been an Olympic sport since 1992 (Barcelona),\n\nGames similar to badminton have existed throughout history, from ancient Greece to medieval Japan and colonial India, where a form of the game called “poona” was played.\n\nIn the 1860’s, British Army officers posted to India became interested in “Poona” and took the game home to England, where the rules of badminton were set out.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b",
+          "doc13::paragraph::9::games_similar_to_badminton_have_existed_througho",
+          "doc13::paragraph::10::in_the_1860_s_british_army_officers_posted_to_in"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 65,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc13::image::11::images_f027d926038c4a59136712492bba7495702809c1a::chunk::5::images_f027d926038c4a59136712492bba7495702809c1a",
+      "label": "![](images/f027d926038c4a59136712492bba7495702809c1a6ebfc53f87349cea8d91ea2.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::11::images_f027d926038c4a59136712492bba7495702809c1a::chunk::5::images_f027d926038c4a59136712492bba7495702809c1a",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "![](images/f027d926038c4a59136712492bba7495702809c1a6ebfc53f87349cea8d91ea2.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::11::images_f027d926038c4a59136712492bba7495702809c1a"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::12::details_summary_natural_image_summary_historical::chunk::6::details_summary_natural_image_summary_historical",
+      "label": "<details> <summary>natural_image</summary> Historical sketch depicting a court scene with two men, one holding a bato...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::12::details_summary_natural_image_summary_historical::chunk::6::details_summary_natural_image_summary_historical",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nHistorical sketch depicting a court scene with two men, one holding a baton and the other observing (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::12::details_summary_natural_image_summary_historical"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 27,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::image::13::images_103b20b1a19d3ab9e642b915b369f7de4e11e45c9::chunk::7::images_103b20b1a19d3ab9e642b915b369f7de4e11e45c9",
+      "label": "![](images/103b20b1a19d3ab9e642b915b369f7de4e11e45c9be7c2312d39d2a71416ffdd.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::13::images_103b20b1a19d3ab9e642b915b369f7de4e11e45c9::chunk::7::images_103b20b1a19d3ab9e642b915b369f7de4e11e45c9",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "![](images/103b20b1a19d3ab9e642b915b369f7de4e11e45c9be7c2312d39d2a71416ffdd.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::13::images_103b20b1a19d3ab9e642b915b369f7de4e11e45c9"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::14::details_summary_natural_image_summary_watercolor::chunk::8::details_summary_natural_image_summary_watercolor",
+      "label": "<details> <summary>natural_image</summary> Watercolor painting of a grand palace with horseback riders and deer in a...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::14::details_summary_natural_image_summary_watercolor::chunk::8::details_summary_natural_image_summary_watercolor",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nWatercolor painting of a grand palace with horseback riders and deer in a grassy courtyard under a cloudy sky (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::14::details_summary_natural_image_summary_watercolor"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 28,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::15::badminton_house_gloucestershire_painted_by_josep::chunk::9::badminton_house_gloucestershire_painted_by_josep",
+      "label": "BADMINTON HOUSE, GLOUCESTERSHIRE painted by JOSEPH APPLEYARD This new sport was definitively launched in 1873 at the...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::15::badminton_house_gloucestershire_painted_by_josep::chunk::9::badminton_house_gloucestershire_painted_by_josep",
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": "BADMINTON HOUSE, GLOUCESTERSHIRE painted by JOSEPH APPLEYARD\n\nThis new sport was definitively launched in 1873 at the Badminton House, where the Duke of Beaufort introduced the game to his guests. The sport was then known as \"The Game of Badminton\" for a number of years, until the name was shortened to BADMINTON.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::15::badminton_house_gloucestershire_painted_by_josep",
+          "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 52,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::10::this_new_sport_was_definitively_launched_in_1873",
+      "label": "This new sport was definitively launched in 1873 at the Badminton House, where the Duke of Beaufort introduced the ga...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::10::this_new_sport_was_definitively_launched_in_1873",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON EQUIPMENT"
+      ],
+      "text": "This new sport was definitively launched in 1873 at the Badminton House, where the Duke of Beaufort introduced the game to his guests. The sport was then known as \"The Game of Badminton\" for a number of years, until the name was shortened to BADMINTON.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 45,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::11::this_new_sport_was_definitively_launched_in_1873",
+      "label": "This new sport was definitively launched in 1873 at the Badminton House, where the Duke of Beaufort introduced the ga...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::11::this_new_sport_was_definitively_launched_in_1873",
+      "page_idx": null,
+      "section_path": [
+        "Rackets"
+      ],
+      "text": "This new sport was definitively launched in 1873 at the Badminton House, where the Duke of Beaufort introduced the game to his guests. The sport was then known as \"The Game of Badminton\" for a number of years, until the name was shortened to BADMINTON.\n\nBadminton rackets are light, with top quality rackets weighting between 79 and 91 grams including the strings. The grip of the racket is very important. The choice of grip allows a player to increase the thickness of his racket handle and choose a comfortable surface to hold.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873",
+          "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 92,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac::chunk::12::badminton_rackets_are_light_with_top_quality_rac",
+      "label": "Badminton rackets are light, with top quality rackets weighting between 79 and 91 grams including the strings. The gr...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac::chunk::12::badminton_rackets_are_light_with_top_quality_rac",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "Badminton rackets are light, with top quality rackets weighting between 79 and 91 grams including the strings. The grip of the racket is very important. The choice of grip allows a player to increase the thickness of his racket handle and choose a comfortable surface to hold.\n\nA shuttlecock (often abbreviated to shuttle and also commonly known as bird or birdie) is a projectile with an open conical shape.\n\nThere are different types of shuttles:\n\nShuttlecocks with feathers. They are often used by high level players. The cork is covered in goat skin (usually).",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac",
+          "doc13::paragraph::21::a_shuttlecock_often_abbreviated_to_shuttle_and_a",
+          "doc13::paragraph::22::there_are_different_types_of_shuttles",
+          "doc13::paragraph::23::shuttlecocks_with_feathers_they_are_often_used_b"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 94,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "doc13::image::24::images_b232247767d994e7770043a8a1f3f393e3c579bd0::chunk::13::images_b232247767d994e7770043a8a1f3f393e3c579bd0",
+      "label": "![](images/b232247767d994e7770043a8a1f3f393e3c579bd047a9b825e167af245dc6319.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::24::images_b232247767d994e7770043a8a1f3f393e3c579bd0::chunk::13::images_b232247767d994e7770043a8a1f3f393e3c579bd0",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "![](images/b232247767d994e7770043a8a1f3f393e3c579bd047a9b825e167af245dc6319.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::24::images_b232247767d994e7770043a8a1f3f393e3c579bd0"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::25::details_summary_text_image_summary_head_throat_t::chunk::14::details_summary_text_image_summary_head_throat_t",
+      "label": "<details> <summary>text_image</summary> head throat throat shaft handle A Racket frame stringed area </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::25::details_summary_text_image_summary_head_throat_t::chunk::14::details_summary_text_image_summary_head_throat_t",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nhead\nthroat\nthroat\nshaft\nhandle\nA Racket\nframe\nstringed area\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::25::details_summary_text_image_summary_head_throat_t"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 15,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::image::26::images_e3282afb491e7161f0534557fd5e626de6beb0ae7::chunk::15::images_e3282afb491e7161f0534557fd5e626de6beb0ae7",
+      "label": "![](images/e3282afb491e7161f0534557fd5e626de6beb0ae76b01c498c6acd58efc6d5f9.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::26::images_e3282afb491e7161f0534557fd5e626de6beb0ae7::chunk::15::images_e3282afb491e7161f0534557fd5e626de6beb0ae7",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "![](images/e3282afb491e7161f0534557fd5e626de6beb0ae76b01c498c6acd58efc6d5f9.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::26::images_e3282afb491e7161f0534557fd5e626de6beb0ae7"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::27::details_summary_text_image_summary_feathers_cork::chunk::16::details_summary_text_image_summary_feathers_cork",
+      "label": "<details> <summary>text_image</summary> Feathers Cork base </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::27::details_summary_text_image_summary_feathers_cork::chunk::16::details_summary_text_image_summary_feathers_cork",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nFeathers\nCork base\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::27::details_summary_text_image_summary_feathers_cork"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 8,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often::chunk::17::synthetic_shuttles_nylon_shuttles_they_are_often",
+      "label": "Synthetic shuttles (nylon shuttles). They are often used by recreational players and beginners. Feathered shuttles ar...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often::chunk::17::synthetic_shuttles_nylon_shuttles_they_are_often",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "Synthetic shuttles (nylon shuttles). They are often used by recreational players and beginners.\n\nFeathered shuttles are more expensive and break more easily than nylon shuttles.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often",
+          "doc13::paragraph::29::feathered_shuttles_are_more_expensive_and_break_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 25,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::image::30::images_03b299f302a5164fcf472b032093aeabb7692fce1::chunk::18::images_03b299f302a5164fcf472b032093aeabb7692fce1",
+      "label": "![](images/03b299f302a5164fcf472b032093aeabb7692fce16efe9eb8eab89edf1f11579.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::30::images_03b299f302a5164fcf472b032093aeabb7692fce1::chunk::18::images_03b299f302a5164fcf472b032093aeabb7692fce1",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "![](images/03b299f302a5164fcf472b032093aeabb7692fce16efe9eb8eab89edf1f11579.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::30::images_03b299f302a5164fcf472b032093aeabb7692fce1"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::31::details_summary_natural_image_summary_black_and_::chunk::19::details_summary_natural_image_summary_black_and_",
+      "label": "<details> <summary>natural_image</summary> Black and white photo of a shuttlecock with fins and body (no text or symb...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::31::details_summary_natural_image_summary_black_and_::chunk::19::details_summary_natural_image_summary_black_and_",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nBlack and white photo of a shuttlecock with fins and body (no text or symbols visible)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::31::details_summary_natural_image_summary_black_and_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 21,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::image::32::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14::chunk::20::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14",
+      "label": "![](images/5a3bfd5e7f07f159c1660e62b7944846fae856e146812cb1d97ec2ce9b10d70f.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::32::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14::chunk::20::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "![](images/5a3bfd5e7f07f159c1660e62b7944846fae856e146812cb1d97ec2ce9b10d70f.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::32::images_5a3bfd5e7f07f159c1660e62b7944846fae856e14"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::33::details_summary_natural_image_summary_two_types_::chunk::21::details_summary_natural_image_summary_two_types_",
+      "label": "<details> <summary>natural_image</summary> Two types of shuttlecockes with pink caps, one large and one small, shown...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::33::details_summary_natural_image_summary_two_types_::chunk::21::details_summary_natural_image_summary_two_types_",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nTwo types of shuttlecockes with pink caps, one large and one small, shown without any text or symbols.\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::33::details_summary_natural_image_summary_two_types_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 23,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::34::plastic_shuttles_they_are_smaller_and_it_is_almo::chunk::22::plastic_shuttles_they_are_smaller_and_it_is_almo",
+      "label": "Plastic shuttles. They are smaller and it is almost impossible to play badminton with them. NEVER BUY ONE OF THESE !!!",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::34::plastic_shuttles_they_are_smaller_and_it_is_almo::chunk::22::plastic_shuttles_they_are_smaller_and_it_is_almo",
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": "Plastic shuttles. They are smaller and it is almost impossible to play badminton with them.\n\nNEVER BUY ONE OF THESE !!!",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::34::plastic_shuttles_they_are_smaller_and_it_is_almo",
+          "doc13::paragraph::35::never_buy_one_of_these"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 20,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+      "label": "NEVER BUY ONE OF THESE !!! Badminton is played on a court marked for both singles and doubles matches. The court is r...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "NEVER BUY ONE OF THESE !!!\n\nBadminton is played on a court marked for both singles and doubles matches. The court is rectangular and divided into halves by a net. The doubles court is wider than the singles court, but both are the same length. The exception, which often causes confusion to newer players, is that the doubles court has a shorter serve-length dimension.\n\nThe doubles court is 6,10 metres wide and 13,40 m. long.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::35::never_buy_one_of_these",
+          "doc13::paragraph::37::badminton_is_played_on_a_court_marked_for_both_s",
+          "doc13::paragraph::38::the_doubles_court_is_6_10_metres_wide_and_13_40_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 77,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc13::image::39::images_aa172452deaf35518810c07eb325ab2619ce3bb79::chunk::24::images_aa172452deaf35518810c07eb325ab2619ce3bb79",
+      "label": "![](images/aa172452deaf35518810c07eb325ab2619ce3bb7982d37146785171342060241.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::39::images_aa172452deaf35518810c07eb325ab2619ce3bb79::chunk::24::images_aa172452deaf35518810c07eb325ab2619ce3bb79",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "![](images/aa172452deaf35518810c07eb325ab2619ce3bb7982d37146785171342060241.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::39::images_aa172452deaf35518810c07eb325ab2619ce3bb79"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph LR A[\"Grid with vertical dashed line\"] --> B[\"Doubles court\"]...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph LR\n    A[\"Grid with vertical dashed line\"] --> B[\"Doubles court\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::40::details_summary_flowchart_summary_mermaid_graph_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 17,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::41::the_singles_court_is_a_little_smaller_5_18_m_wid::chunk::26::the_singles_court_is_a_little_smaller_5_18_m_wid",
+      "label": "The singles court is a little smaller (5,18 m. wide and 13,40 m. long).",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::41::the_singles_court_is_a_little_smaller_5_18_m_wid::chunk::26::the_singles_court_is_a_little_smaller_5_18_m_wid",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "The singles court is a little smaller (5,18 m. wide and 13,40 m. long).",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::41::the_singles_court_is_a_little_smaller_5_18_m_wid"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 16,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc13::image::42::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd::chunk::27::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd",
+      "label": "![](images/28c8b9c3d3281f265d83c0c8fb37842101468a9bd53324789b2e9f5890926070.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::42::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd::chunk::27::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "![](images/28c8b9c3d3281f265d83c0c8fb37842101468a9bd53324789b2e9f5890926070.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::42::images_28c8b9c3d3281f265d83c0c8fb37842101468a9bd"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::43::details_summary_flowchart_summary_mermaid_graph_::chunk::28::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph LR A[\"Grid with vertical division\"] --> B[\"Singles court\"] ``...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::43::details_summary_flowchart_summary_mermaid_graph_::chunk::28::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph LR\n    A[\"Grid with vertical division\"] --> B[\"Singles court\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::43::details_summary_flowchart_summary_mermaid_graph_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 16,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::44::the_net_is_1_55_m_high::chunk::29::the_net_is_1_55_m_high",
+      "label": "The net is 1,55 m. high.",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::44::the_net_is_1_55_m_high::chunk::29::the_net_is_1_55_m_high",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "The net is 1,55 m. high.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::44::the_net_is_1_55_m_high"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 7,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc13::image::45::images_13151dac5aaa963d45fda9f8f19665cb53082af36::chunk::30::images_13151dac5aaa963d45fda9f8f19665cb53082af36",
+      "label": "![](images/13151dac5aaa963d45fda9f8f19665cb53082af36427a2658e28eea26f7ff594.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::45::images_13151dac5aaa963d45fda9f8f19665cb53082af36::chunk::30::images_13151dac5aaa963d45fda9f8f19665cb53082af36",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "![](images/13151dac5aaa963d45fda9f8f19665cb53082af36427a2658e28eea26f7ff594.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::45::images_13151dac5aaa963d45fda9f8f19665cb53082af36"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::46::details_summary_text_image_summary_side_line_for::chunk::31::details_summary_text_image_summary_side_line_for",
+      "label": "<details> <summary>text_image</summary> Side Line for Doubles 5.18 m 2.59 m 0.46 m Side Boundary Line 13.40 m Side Li...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::46::details_summary_text_image_summary_side_line_for::chunk::31::details_summary_text_image_summary_side_line_for",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nSide Line for Doubles\n5.18 m 2.59 m\n0.46 m Side Boundary Line 13.40 m\nSide Line for Singles\nCenter Line Net\n1.55 m\nShort Service Line Right Service Court\nLeft Service Court Long Service Line for Doubles\nBack Boundary Line and Long Service Line for Singles\n0.76 m 3.98 m 1.98 m 6.1 m\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::46::details_summary_text_image_summary_side_line_for"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 69,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::49::before_may_2006_players_could_only_win_a_point_o::chunk::32::before_may_2006_players_could_only_win_a_point_o",
+      "label": "Before May 2006, players could only win a point on their own serve. But the scoring system was changed in 2006, and n...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::49::before_may_2006_players_could_only_win_a_point_o::chunk::32::before_may_2006_players_could_only_win_a_point_o",
+      "page_idx": null,
+      "section_path": [
+        "1. Scoring system: 3 x 21 rally point scoring system."
+      ],
+      "text": "Before May 2006, players could only win a point on their own serve. But the scoring system was changed in 2006, and now players can earn a point on their own serve and also when their opponent serves.\n\nEach game is played with 21 points (with a margin of at least two points), with players scoring a point whenever they win a rally. If the score reaches 20-all, then the game continues until one side gains a two point lead (such as 24-22), up to a maximum of 30 points (30-29 is a winning score).\n\nA match is the best of three games. (The first player who wins two games wins the match.)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::49::before_may_2006_players_could_only_win_a_point_o",
+          "doc13::paragraph::50::each_game_is_played_with_21_points_with_a_margin",
+          "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 116,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla::chunk::33::a_match_is_the_best_of_three_games_the_first_pla",
+      "label": "A match is the best of three games. (The first player who wins two games wins the match.) At the start of the rally,...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla::chunk::33::a_match_is_the_best_of_three_games_the_first_pla",
+      "page_idx": null,
+      "section_path": [
+        "2. Service:"
+      ],
+      "text": "A match is the best of three games. (The first player who wins two games wins the match.)\n\nAt the start of the rally, the server and receiver stand in diagonally opposite service courts. The serve must travel diagonally to be good. The server must hit the birdie so that it passes over the net and the short service line, and would land in the receiver's service court. 曲 The server must hit the shuttle from below the waist. There is only one serve. In singles, the server stands:\n\n⇒ in his right service court when his score is even (or 0);\n\n⇒ in his left service court when his score is odd.\n\nIn doubles, if the serving side wins a rally, the same player continues serving, but he changes service courts so that he serves to each opponent in turn. If the opponents win the rally and their new score is even, the player in the right service court serves; if odd, the player in the left service court serves. The winners of the previous game serve first in the following one. The server and receiver must stand inside their respective service courts until the serve is made. The server can do deceptive movements to disconcert the opponent (FEINTS).",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla",
+          "doc13::paragraph::53::at_the_start_of_the_rally_the_server_and_receive",
+          "doc13::paragraph::54::in_his_right_service_court_when_his_score_is_eve",
+          "doc13::paragraph::55::in_his_left_service_court_when_his_score_is_odd",
+          "doc13::paragraph::56::in_doubles_if_the_serving_side_wins_a_rally_the_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 209,
+        "contains_atomic_block": false,
+        "block_count": 5
+      }
+    },
+    {
+      "id": "doc13::image::57::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f::chunk::34::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f",
+      "label": "![](images/8af94e3faffbce4b1052a12aa024c047a23da2f3f2a9880ef9f3ad255302333e.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::57::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f::chunk::34::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f",
+      "page_idx": null,
+      "section_path": [
+        "2. Service:"
+      ],
+      "text": "![](images/8af94e3faffbce4b1052a12aa024c047a23da2f3f2a9880ef9f3ad255302333e.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::57::images_8af94e3faffbce4b1052a12aa024c047a23da2f3f"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::58::details_summary_text_image_summary_doubles_servi::chunk::35::details_summary_text_image_summary_doubles_servi",
+      "label": "<details> <summary>text_image</summary> DOUBLES SERVICE COURT SINGLES SERVICE COURT </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::58::details_summary_text_image_summary_doubles_servi::chunk::35::details_summary_text_image_summary_doubles_servi",
+      "page_idx": null,
+      "section_path": [
+        "2. Service:"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nDOUBLES SERVICE COURT\nSINGLES SERVICE COURT\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::58::details_summary_text_image_summary_doubles_servi"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 11,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+      "label": "The object of the game is to hit the shuttlecock back and forth over a net without permitting it to hit the floor in...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+      "page_idx": null,
+      "section_path": [
+        "3. Playing the game:"
+      ],
+      "text": "The object of the game is to hit the shuttlecock back and forth over a net without permitting it to hit the floor in bounds on your side of the net. 牛 The shuttlecock is not allowed to bounce on the floor. The rally continues until someone wins it by hitting a good shot which their opponent cannot return, or until someone loses it by hitting a fault. Faults include:\n\n⇒ hitting the birdie into the net; ⇒ hitting the shuttle outside the court; ⇒ hitting the bird twice before it goes over the net. Each side may only strike the shuttlecock once before it passes back over the net; ⇒ carrying the bird on the racket; ⇒ it is also a fault if the shuttlecock hits the ceiling; ⇒ touching the net with the racket or any part of the body during play; ⇒ reaching over the net to hit the shuttlecock.\n\nWhoever wins the rally earns one point, and serves to start the next point. A birdie can hit the net on its way across during play and the rally can continue. The players change ends at the start of the second game; if the match reaches a third game, they change ends both at the start of the game and when the leading pair's score reaches 11 points. All lines are considered in bounds.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock",
+          "doc13::paragraph::61::hitting_the_birdie_into_the_net_hitting_the_shut",
+          "doc13::paragraph::62::whoever_wins_the_rally_earns_one_point_and_serve"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 221,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc13::paragraph::62::whoever_wins_the_rally_earns_one_point_and_serve::chunk::37::whoever_wins_the_rally_earns_one_point_and_serve",
+      "label": "Whoever wins the rally earns one point, and serves to start the next point. A birdie can hit the net on its way acros...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::62::whoever_wins_the_rally_earns_one_point_and_serve::chunk::37::whoever_wins_the_rally_earns_one_point_and_serve",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON STROKES"
+      ],
+      "text": "Whoever wins the rally earns one point, and serves to start the next point. A birdie can hit the net on its way across during play and the rally can continue. The players change ends at the start of the second game; if the match reaches a third game, they change ends both at the start of the game and when the leading pair's score reaches 11 points. All lines are considered in bounds.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::62::whoever_wins_the_rally_earns_one_point_and_serve"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 75,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc13::paragraph::62::whoever_wins_the_rally_earns_one_point_and_serve::chunk::38::whoever_wins_the_rally_earns_one_point_and_serve",
+      "label": "Whoever wins the rally earns one point, and serves to start the next point. A birdie can hit the net on its way acros...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::62::whoever_wins_the_rally_earns_one_point_and_serve::chunk::38::whoever_wins_the_rally_earns_one_point_and_serve",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "Whoever wins the rally earns one point, and serves to start the next point. A birdie can hit the net on its way across during play and the rally can continue. The players change ends at the start of the second game; if the match reaches a third game, they change ends both at the start of the game and when the leading pair's score reaches 11 points. All lines are considered in bounds.\n\nBadminton offers a wide variety of basic strokes. All strokes can be played either forehand or backhand. A player's forehand side is the same side as his playing hand: for a right-handed player, the forehand side is his right side and the backhand side is his left side.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::62::whoever_wins_the_rally_earns_one_point_and_serve",
+          "doc13::paragraph::65::badminton_offers_a_wide_variety_of_basic_strokes"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 125,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::image::66::images_feb89fe658184cdb896326a4690bec1592f757ff0::chunk::39::images_feb89fe658184cdb896326a4690bec1592f757ff0",
+      "label": "![](images/feb89fe658184cdb896326a4690bec1592f757ff0d9331cf005cc716cefcfb2e.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::66::images_feb89fe658184cdb896326a4690bec1592f757ff0::chunk::39::images_feb89fe658184cdb896326a4690bec1592f757ff0",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "![](images/feb89fe658184cdb896326a4690bec1592f757ff0d9331cf005cc716cefcfb2e.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::66::images_feb89fe658184cdb896326a4690bec1592f757ff0"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::67::details_summary_natural_image_summary_badminton_::chunk::40::details_summary_natural_image_summary_badminton_",
+      "label": "<details> <summary>natural_image</summary> Badminton player in red and yellow jersey mid-swing, racket extended, with...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::67::details_summary_natural_image_summary_badminton_::chunk::40::details_summary_natural_image_summary_badminton_",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nBadminton player in red and yellow jersey mid-swing, racket extended, with blurred background showing blue triangles and green bars (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::67::details_summary_natural_image_summary_badminton_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 29,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::68::forehand_shot::chunk::41::forehand_shot",
+      "label": "Forehand shot",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::68::forehand_shot::chunk::41::forehand_shot",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "Forehand shot",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::68::forehand_shot"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 2,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc13::image::69::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff::chunk::42::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff",
+      "label": "![](images/acdb662860ba09e089a8528a4ced6a8b5efc512ff1b9e203f02bc305d67ae03c.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::69::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff::chunk::42::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "![](images/acdb662860ba09e089a8528a4ced6a8b5efc512ff1b9e203f02bc305d67ae03c.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::69::images_acdb662860ba09e089a8528a4ced6a8b5efc512ff"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::70::details_summary_natural_image_summary_badminton_::chunk::43::details_summary_natural_image_summary_badminton_",
+      "label": "<details> <summary>natural_image</summary> Badminton player in action on court, wearing maroon jersey with 'Fed' logo...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::70::details_summary_natural_image_summary_badminton_::chunk::43::details_summary_natural_image_summary_badminton_",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nBadminton player in action on court, wearing maroon jersey with 'Fed' logo (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::70::details_summary_natural_image_summary_badminton_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 22,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::71::backhand_shot::chunk::44::backhand_shot",
+      "label": "Backhand shot",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::71::backhand_shot::chunk::44::backhand_shot",
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": "Backhand shot",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::71::backhand_shot"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 2,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+      "label": "Backhand shot You can play upper arm shots or under arm shots. The choice of stroke depends on: how near the shuttlec...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+      "page_idx": null,
+      "section_path": [
+        "2. Basic strokes."
+      ],
+      "text": "Backhand shot\n\nYou can play upper arm shots or under arm shots. The choice of stroke depends on:\n\nhow near the shuttlecock is to the net; how high the birdie is; the current position of the opponent.\n\nPlayers have much better attacking options if they can reach the shuttle well above net height, especially if it is also close to the net.\n\nSERVICE (under waist shot):\n\no short service; o long service; o drive service (hitting the shuttle as far as you can with a horizontal direction and fast); o backhand service.\n\nCLEAR (upper arm or overhead shot - hitting the shuttle high and to the back of the opponents' court, the rearcourt):\n\no attacking clear - 2; o defensive clear - 1;\n\nDROP SHOT - 5 (upper arm or overhead shot - hitting the shuttle so that it falls softly downwards into the opponents' forecourt, very close to the net).\n\nSMASH – 4 (upper arm or overhead shot – hitting the shuttle downwards and fast, attempting to win the rally immediately). It is also called “kill”.\n\n中 DRIVE – 3 (hitting the shuttle as far as you can, not too high, horizontally and fast)\n\nHAIRPIN NET SHOT - 6 (under arm shot - hitting the shuttle softly back to the net)\n\nLOB (under arm shot – hitting the shuttle high and to the back of the opponents’ court):\n\no attacking lob, used when your opponent is very close to the net; o defensive lob, often used to get time enough to return to the midcourt.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::71::backhand_shot",
+          "doc13::paragraph::73::you_can_play_upper_arm_shots_or_under_arm_shots_",
+          "doc13::paragraph::74::how_near_the_shuttlecock_is_to_the_net_how_high_",
+          "doc13::paragraph::75::players_have_much_better_attacking_options_if_th",
+          "doc13::paragraph::76::service_under_waist_shot",
+          "doc13::paragraph::77::o_short_service_o_long_service_o_drive_service_h",
+          "doc13::paragraph::78::clear_upper_arm_or_overhead_shot_hitting_the_shu",
+          "doc13::paragraph::79::o_attacking_clear_2_o_defensive_clear_1",
+          "doc13::paragraph::80::drop_shot_5_upper_arm_or_overhead_shot_hitting_t",
+          "doc13::paragraph::81::smash_4_upper_arm_or_overhead_shot_hitting_the_s",
+          "doc13::paragraph::82::drive_3_hitting_the_shuttle_as_far_as_you_can_no",
+          "doc13::paragraph::83::hairpin_net_shot_6_under_arm_shot_hitting_the_sh",
+          "doc13::paragraph::84::lob_under_arm_shot_hitting_the_shuttle_high_and_",
+          "doc13::paragraph::85::o_attacking_lob_used_when_your_opponent_is_very_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 245,
+        "contains_atomic_block": false,
+        "block_count": 14
+      }
+    },
+    {
+      "id": "doc13::image::86::images_78efb5406f7b3183c35bbaceecc76c77998b629f7::chunk::46::images_78efb5406f7b3183c35bbaceecc76c77998b629f7",
+      "label": "![](images/78efb5406f7b3183c35bbaceecc76c77998b629f75fe14dc9dd978cedaa59bb1.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::86::images_78efb5406f7b3183c35bbaceecc76c77998b629f7::chunk::46::images_78efb5406f7b3183c35bbaceecc76c77998b629f7",
+      "page_idx": null,
+      "section_path": [
+        "2. Basic strokes."
+      ],
+      "text": "![](images/78efb5406f7b3183c35bbaceecc76c77998b629f75fe14dc9dd978cedaa59bb1.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::86::images_78efb5406f7b3183c35bbaceecc76c77998b629f7"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::47::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"1\"] --> B[\"2\"] B --> C[\"3\"] C --> D[\"4\"] D --> E[\"5\"] E...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::47::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "2. Basic strokes."
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"1\"] --> B[\"2\"]\n    B --> C[\"3\"]\n    C --> D[\"4\"]\n    D --> E[\"5\"]\n    E --> F[\"6\"]\n    style A fill:#d4edda,stroke:#333\n    style B fill:#d4edda,stroke:#333\n    style C fill:#d4edda,stroke:#333\n    style D fill:#d4edda,stroke:#333\n    style E fill:#d4edda,stroke:#333\n    style F fill:#d4edda,stroke:#333\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::87::details_summary_flowchart_summary_mermaid_graph_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 60,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+      "label": "Defensive clear; 2. Attacking clear; 3. Drive; 4. Smash; 5. Drop shot; 6. Net shot; 7. Lob.",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+      "page_idx": null,
+      "section_path": [
+        "2. Basic strokes."
+      ],
+      "text": "Defensive clear; 2. Attacking clear; 3. Drive; 4. Smash; 5. Drop shot; 6. Net shot; 7. Lob.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm"
+        ],
+        "block_kinds": [
+          "list_item"
+        ],
+        "token_count": 17,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+      "label": "Defensive clear; 2. Attacking clear; 3. Drive; 4. Smash; 5. Drop shot; 6. Net shot; 7. Lob. To win in badminton, play...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON STRATEGY"
+      ],
+      "text": "Defensive clear; 2. Attacking clear; 3. Drive; 4. Smash; 5. Drop shot; 6. Net shot; 7. Lob.\n\nTo win in badminton, players need to employ a wide variety of strokes in the right situations. The position in the court is also really important.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm",
+          "doc13::paragraph::90::to_win_in_badminton_players_need_to_employ_a_wid"
+        ],
+        "block_kinds": [
+          "list_item",
+          "paragraph"
+        ],
+        "token_count": 43,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::paragraph::90::to_win_in_badminton_players_need_to_employ_a_wid::chunk::50::to_win_in_badminton_players_need_to_employ_a_wid",
+      "label": "To win in badminton, players need to employ a wide variety of strokes in the right situations. The position in the co...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::90::to_win_in_badminton_players_need_to_employ_a_wid::chunk::50::to_win_in_badminton_players_need_to_employ_a_wid",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "To win in badminton, players need to employ a wide variety of strokes in the right situations. The position in the court is also really important.\n\nDuring a doubles badminton match, the players can use one of the following strategies:\n\nFront-Back Position: attacking formation",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::90::to_win_in_badminton_players_need_to_employ_a_wid",
+          "doc13::paragraph::92::during_a_doubles_badminton_match_the_players_can",
+          "doc13::paragraph::93::front_back_position_attacking_formation"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 45,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc13::image::94::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14::chunk::51::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14",
+      "label": "![](images/6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14034f7685c72ef1e7d334801.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::94::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14::chunk::51::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "![](images/6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14034f7685c72ef1e7d334801.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::94::images_6cb74d043664d2b4ec5ab3fcf0c21670b7274cf14"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::95::details_summary_natural_image_summary_green_fiel::chunk::52::details_summary_natural_image_summary_green_fiel",
+      "label": "<details> <summary>natural_image</summary> Green field with two white human figures on the left side and a vertical d...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::95::details_summary_natural_image_summary_green_fiel::chunk::52::details_summary_natural_image_summary_green_fiel",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nGreen field with two white human figures on the left side and a vertical dotted line dividing the right half (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::95::details_summary_natural_image_summary_green_fiel"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 29,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::96::side_by_side_position_defensive_formation::chunk::53::side_by_side_position_defensive_formation",
+      "label": "Side by side Position: defensive formation",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::96::side_by_side_position_defensive_formation::chunk::53::side_by_side_position_defensive_formation",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "Side by side Position: defensive formation",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::96::side_by_side_position_defensive_formation"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 6,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc13::image::97::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f::chunk::54::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f",
+      "label": "![](images/0b72b2503d069268cf033db4e9711bae5b2d20e4fa642a323d5de9a8f6e2612b.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::97::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f::chunk::54::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "![](images/0b72b2503d069268cf033db4e9711bae5b2d20e4fa642a323d5de9a8f6e2612b.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::97::images_0b72b2503d069268cf033db4e9711bae5b2d20e4f"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::98::details_summary_natural_image_summary_green_grid::chunk::55::details_summary_natural_image_summary_green_grid",
+      "label": "<details> <summary>natural_image</summary> Green grid layout with white human icons and a vertical dotted line (no te...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::98::details_summary_natural_image_summary_green_grid::chunk::55::details_summary_natural_image_summary_green_grid",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nGreen grid layout with white human icons and a vertical dotted line (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::98::details_summary_natural_image_summary_green_grid"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 21,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos",
+      "label": "High level players tend to use both, changing positions depending on the situation. When you defend, try to hit the s...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos",
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": "High level players tend to use both, changing positions depending on the situation.\n\nWhen you defend, try to hit the shuttle deep into your opponent's court. This is to prevent your opponent in the front position intercepting the shuttle from mid to front court. Whenever is possible try to smash or drive the shuttle to the middle ground between your opponents in order to take advantage of confusion and clashes. Another possibility is to play a drop shot or a net shot, forcing your opponents to lift the shuttle. And remember...Teamwork is the success formula in doubles!",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos",
+          "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 99,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+      "label": "When you defend, try to hit the shuttle deep into your opponent's court. This is to prevent your opponent in the fron...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+      "page_idx": null,
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "text": "When you defend, try to hit the shuttle deep into your opponent's court. This is to prevent your opponent in the front position intercepting the shuttle from mid to front court. Whenever is possible try to smash or drive the shuttle to the middle ground between your opponents in order to take advantage of confusion and clashes. Another possibility is to play a drop shot or a net shot, forcing your opponents to lift the shuttle. And remember...Teamwork is the success formula in doubles!\n\nRemember always to get back to your HOME POSITION in the midcourt area after making each shot. This is a position where you can possibly reach any of your opponent's shots.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into",
+          "doc13::paragraph::102::remember_always_to_get_back_to_your_home_positio"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 118,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::image::103::images_3845b63ff0f348fb7dd3332c79c342855a7c11ecc::chunk::58::images_3845b63ff0f348fb7dd3332c79c342855a7c11ecc",
+      "label": "![](images/3845b63ff0f348fb7dd3332c79c342855a7c11ecc80b5834c05e63f37c27a769.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::103::images_3845b63ff0f348fb7dd3332c79c342855a7c11ecc::chunk::58::images_3845b63ff0f348fb7dd3332c79c342855a7c11ecc",
+      "page_idx": null,
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "text": "![](images/3845b63ff0f348fb7dd3332c79c342855a7c11ecc80b5834c05e63f37c27a769.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::103::images_3845b63ff0f348fb7dd3332c79c342855a7c11ecc"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::104::details_summary_text_image_summary_home_position::chunk::59::details_summary_text_image_summary_home_position",
+      "label": "<details> <summary>text_image</summary> HOME POSITION </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::104::details_summary_text_image_summary_home_position::chunk::59::details_summary_text_image_summary_home_position",
+      "page_idx": null,
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nHOME POSITION\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::104::details_summary_text_image_summary_home_position"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 7,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+      "label": "FOUR CORNERS \\_STRATEGy. Always try to hit the shuttle away from your opponent and make your opponent move around the...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+      "page_idx": null,
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "text": "FOUR CORNERS \\_STRATEGy. Always try to hit the shuttle away from your opponent and make your opponent move around the court. The singles court is narrower than the doubles court, but the same length (with the service exception). Since one person needs to cover the entire court, singles tactics are based on forcing the opponent to move as much as possible; this means that singles strokes are normally directed to the corners of the court, combining lobs and clears with drop shots and net shots. If you are in a difficult situation during the rally, you need to make time for yourself to get back to a good position. Do this by hitting the shuttle high towards the back of the court, near the middle of the baseline (if possible). Try to use a WIDE VARIETY OF STROKES, depending on the situation. The key is to be flexible. One simple badminton strategy often used in singles is to serve long and high to your opponent's back court. This will force your opponent to move back to the baseline and open up his forecourt. Observe your opponent's strength, weakness, favourite shots and pattern of play. Use it to your advantage. CONCENTRATION during the game is also very important to reach any of your opponent’s shots.\n\nBadminton Vocabulary (www.englishclub.com)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut",
+          "doc13::paragraph::106::badminton_vocabulary_www_englishclub_com"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 222,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::paragraph::106::badminton_vocabulary_www_englishclub_com::chunk::61::badminton_vocabulary_www_englishclub_com",
+      "label": "Badminton Vocabulary (www.englishclub.com) <table><tr><td>Word</td><td>Example sentence</td><td>Meaning</td></tr><tr>...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::106::badminton_vocabulary_www_englishclub_com::chunk::61::badminton_vocabulary_www_englishclub_com",
+      "page_idx": null,
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "text": "Badminton Vocabulary (www.englishclub.com)\n\n<table><tr><td>Word</td><td>Example sentence</td><td>Meaning</td></tr><tr><td>Ace</td><td>Jenny's accuracy means she serves lots of aces.</td><td>a serve that the opponent fails to hit</td></tr><tr><td>Backcourt</td><td>I ran to the backcourt to return his lob.</td><td>back third of the court (same as \"rearcourt\")</td></tr><tr><td>Backhand</td><td>If his backhand is weak, play more to his left side.</td><td>a stroke made on the side of the body opposite the racket side</td></tr><tr><td>Baseline</td><td>The shuttlecock landed just inside the baseline.</td><td>back line of the court</td></tr><tr><td>bird / birdie</td><td>The U.S. players say birdie instead of shuttlecock.</td><td>shuttlecock (mostly used in North America)</td></tr><tr><td>Carry</td><td>The umpire called my shot a carry, so I lost the point.</td><td>an illegal stroke in which the shuttle is caught and held on the racket before being released; also called a \"sling\" or \"throw\"</td></tr><tr><td>centre line</td><td>The centre line divides the court into two service courts.</td><td>a line that separates the left and right service courts</td></tr><tr><td>Clear</td><td>She hit a clear high and to the back of her opponent's court.</td><td>a shot hit deep into the opponent's court</td></tr><tr><td>Doubles</td><td>Why don't you ask her to be your partner in mixed doubles?</td><td>a game between teams of two players</td></tr><tr><td>drop shot</td><td>He was at the back of the court, so I played a drop shot and he couldn't reach it.</td><td>An upper arm shot that just clears the net and then drops sharply</td></tr><tr><td>Drive</td><td>She played a forehand drive straight down the line and won the point.</td><td>a fast hard shot, not too high, with an horizontal trajectory</td></tr><tr><td>Fault</td><td>It is also a fault if the shuttlecock hits the ceiling during a rally.</td><td>a foul shot, such as one that hits the net or lands outside the court</td></tr><tr><td>Forecourt</td><td>If you play from the forecourt, you'll have a better chance of hitting a winner.</td><td>the front third of the court</td></tr><tr><td>home position</td><td>Players in singles matches try to get back to the home position whenever they can during a game.</td><td>central position on court which is halfway between the baseline and net, and the two sidelines</td></tr><tr><td>Lob</td><td>Her lob flew high into the air and dropped into the back of the court, just inside the baseline.</td><td>a shot that is hit in a high arc, usually over the opponent's head</td></tr><tr><td>Net</td><td>The shuttlecock hit the top of the net and just went over, so she won the point.</td><td>the length of meshed material supported on a cord between two posts that divides the court</td></tr><tr><td>Net shot / hairpin net shot</td><td>Net shots are good to play if your opponent is in his or her rearcourt.</td><td>a shot hit from the forecourt that just clears the net and drops sharply</td></tr><tr><td>racket (also racquet)</td><td>A badminton racket is smaller and lighter than a tennis racket.</td><td>the instrument used by players to hit the shuttlecock</td></tr><tr><td>Rally</td><td>The crowd applauded after watching another long, exciting rally.</td><td>a series of shots hit back and forth across the net</td></tr><tr><td>Rearcourt</td><td>Players try not to get caught in the rearcourt if possible.</td><td>rear third of the court (same as \"backcourt\")</td></tr><tr><td>Serve / service</td><td>In tennis players use overhead serves, but in badminton they use underarm serves.</td><td>a shot which begins play</td></tr><tr><td>service court</td><td>You have to serve from inside your own service court.</td><td>the area into which a serve must be hit</td></tr><tr><td>Smash/“kill”</td><td>Dan jumped high in the air and hit a powerful smash to win the rally.</td><td>a powerful overhead shot</td></tr><tr><td>Wood shot</td><td>He was lucky when he hit a wood shot and the shuttlecock still went over the net.</td><td>a legal shot in which the shuttlecock hits the frame of the racket</td></tr></table>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::106::badminton_vocabulary_www_englishclub_com",
+          "doc13::paragraph::107::table_tr_td_word_td_td_example_sentence_td_td_me"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 815,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::paragraph::107::table_tr_td_word_td_td_example_sentence_td_td_me::chunk::62::table_tr_td_word_td_td_example_sentence_td_td_me",
+      "label": "<table><tr><td>Word</td><td>Example sentence</td><td>Meaning</td></tr><tr><td>Ace</td><td>Jenny's accuracy means she...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::107::table_tr_td_word_td_td_example_sentence_td_td_me::chunk::62::table_tr_td_word_td_td_example_sentence_td_td_me",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "<table><tr><td>Word</td><td>Example sentence</td><td>Meaning</td></tr><tr><td>Ace</td><td>Jenny's accuracy means she serves lots of aces.</td><td>a serve that the opponent fails to hit</td></tr><tr><td>Backcourt</td><td>I ran to the backcourt to return his lob.</td><td>back third of the court (same as \"rearcourt\")</td></tr><tr><td>Backhand</td><td>If his backhand is weak, play more to his left side.</td><td>a stroke made on the side of the body opposite the racket side</td></tr><tr><td>Baseline</td><td>The shuttlecock landed just inside the baseline.</td><td>back line of the court</td></tr><tr><td>bird / birdie</td><td>The U.S. players say birdie instead of shuttlecock.</td><td>shuttlecock (mostly used in North America)</td></tr><tr><td>Carry</td><td>The umpire called my shot a carry, so I lost the point.</td><td>an illegal stroke in which the shuttle is caught and held on the racket before being released; also called a \"sling\" or \"throw\"</td></tr><tr><td>centre line</td><td>The centre line divides the court into two service courts.</td><td>a line that separates the left and right service courts</td></tr><tr><td>Clear</td><td>She hit a clear high and to the back of her opponent's court.</td><td>a shot hit deep into the opponent's court</td></tr><tr><td>Doubles</td><td>Why don't you ask her to be your partner in mixed doubles?</td><td>a game between teams of two players</td></tr><tr><td>drop shot</td><td>He was at the back of the court, so I played a drop shot and he couldn't reach it.</td><td>An upper arm shot that just clears the net and then drops sharply</td></tr><tr><td>Drive</td><td>She played a forehand drive straight down the line and won the point.</td><td>a fast hard shot, not too high, with an horizontal trajectory</td></tr><tr><td>Fault</td><td>It is also a fault if the shuttlecock hits the ceiling during a rally.</td><td>a foul shot, such as one that hits the net or lands outside the court</td></tr><tr><td>Forecourt</td><td>If you play from the forecourt, you'll have a better chance of hitting a winner.</td><td>the front third of the court</td></tr><tr><td>home position</td><td>Players in singles matches try to get back to the home position whenever they can during a game.</td><td>central position on court which is halfway between the baseline and net, and the two sidelines</td></tr><tr><td>Lob</td><td>Her lob flew high into the air and dropped into the back of the court, just inside the baseline.</td><td>a shot that is hit in a high arc, usually over the opponent's head</td></tr><tr><td>Net</td><td>The shuttlecock hit the top of the net and just went over, so she won the point.</td><td>the length of meshed material supported on a cord between two posts that divides the court</td></tr><tr><td>Net shot / hairpin net shot</td><td>Net shots are good to play if your opponent is in his or her rearcourt.</td><td>a shot hit from the forecourt that just clears the net and drops sharply</td></tr><tr><td>racket (also racquet)</td><td>A badminton racket is smaller and lighter than a tennis racket.</td><td>the instrument used by players to hit the shuttlecock</td></tr><tr><td>Rally</td><td>The crowd applauded after watching another long, exciting rally.</td><td>a series of shots hit back and forth across the net</td></tr><tr><td>Rearcourt</td><td>Players try not to get caught in the rearcourt if possible.</td><td>rear third of the court (same as \"backcourt\")</td></tr><tr><td>Serve / service</td><td>In tennis players use overhead serves, but in badminton they use underarm serves.</td><td>a shot which begins play</td></tr><tr><td>service court</td><td>You have to serve from inside your own service court.</td><td>the area into which a serve must be hit</td></tr><tr><td>Smash/“kill”</td><td>Dan jumped high in the air and hit a powerful smash to win the rally.</td><td>a powerful overhead shot</td></tr><tr><td>Wood shot</td><td>He was lucky when he hit a wood shot and the shuttlecock still went over the net.</td><td>a legal shot in which the shuttlecock hits the frame of the racket</td></tr></table>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::107::table_tr_td_word_td_td_example_sentence_td_td_me"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 810,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc13::paragraph::107::table_tr_td_word_td_td_example_sentence_td_td_me::chunk::63::table_tr_td_word_td_td_example_sentence_td_td_me",
+      "label": "<table><tr><td>Word</td><td>Example sentence</td><td>Meaning</td></tr><tr><td>Ace</td><td>Jenny's accuracy means she...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::107::table_tr_td_word_td_td_example_sentence_td_td_me::chunk::63::table_tr_td_word_td_td_example_sentence_td_td_me",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "<table><tr><td>Word</td><td>Example sentence</td><td>Meaning</td></tr><tr><td>Ace</td><td>Jenny's accuracy means she serves lots of aces.</td><td>a serve that the opponent fails to hit</td></tr><tr><td>Backcourt</td><td>I ran to the backcourt to return his lob.</td><td>back third of the court (same as \"rearcourt\")</td></tr><tr><td>Backhand</td><td>If his backhand is weak, play more to his left side.</td><td>a stroke made on the side of the body opposite the racket side</td></tr><tr><td>Baseline</td><td>The shuttlecock landed just inside the baseline.</td><td>back line of the court</td></tr><tr><td>bird / birdie</td><td>The U.S. players say birdie instead of shuttlecock.</td><td>shuttlecock (mostly used in North America)</td></tr><tr><td>Carry</td><td>The umpire called my shot a carry, so I lost the point.</td><td>an illegal stroke in which the shuttle is caught and held on the racket before being released; also called a \"sling\" or \"throw\"</td></tr><tr><td>centre line</td><td>The centre line divides the court into two service courts.</td><td>a line that separates the left and right service courts</td></tr><tr><td>Clear</td><td>She hit a clear high and to the back of her opponent's court.</td><td>a shot hit deep into the opponent's court</td></tr><tr><td>Doubles</td><td>Why don't you ask her to be your partner in mixed doubles?</td><td>a game between teams of two players</td></tr><tr><td>drop shot</td><td>He was at the back of the court, so I played a drop shot and he couldn't reach it.</td><td>An upper arm shot that just clears the net and then drops sharply</td></tr><tr><td>Drive</td><td>She played a forehand drive straight down the line and won the point.</td><td>a fast hard shot, not too high, with an horizontal trajectory</td></tr><tr><td>Fault</td><td>It is also a fault if the shuttlecock hits the ceiling during a rally.</td><td>a foul shot, such as one that hits the net or lands outside the court</td></tr><tr><td>Forecourt</td><td>If you play from the forecourt, you'll have a better chance of hitting a winner.</td><td>the front third of the court</td></tr><tr><td>home position</td><td>Players in singles matches try to get back to the home position whenever they can during a game.</td><td>central position on court which is halfway between the baseline and net, and the two sidelines</td></tr><tr><td>Lob</td><td>Her lob flew high into the air and dropped into the back of the court, just inside the baseline.</td><td>a shot that is hit in a high arc, usually over the opponent's head</td></tr><tr><td>Net</td><td>The shuttlecock hit the top of the net and just went over, so she won the point.</td><td>the length of meshed material supported on a cord between two posts that divides the court</td></tr><tr><td>Net shot / hairpin net shot</td><td>Net shots are good to play if your opponent is in his or her rearcourt.</td><td>a shot hit from the forecourt that just clears the net and drops sharply</td></tr><tr><td>racket (also racquet)</td><td>A badminton racket is smaller and lighter than a tennis racket.</td><td>the instrument used by players to hit the shuttlecock</td></tr><tr><td>Rally</td><td>The crowd applauded after watching another long, exciting rally.</td><td>a series of shots hit back and forth across the net</td></tr><tr><td>Rearcourt</td><td>Players try not to get caught in the rearcourt if possible.</td><td>rear third of the court (same as \"backcourt\")</td></tr><tr><td>Serve / service</td><td>In tennis players use overhead serves, but in badminton they use underarm serves.</td><td>a shot which begins play</td></tr><tr><td>service court</td><td>You have to serve from inside your own service court.</td><td>the area into which a serve must be hit</td></tr><tr><td>Smash/“kill”</td><td>Dan jumped high in the air and hit a powerful smash to win the rally.</td><td>a powerful overhead shot</td></tr><tr><td>Wood shot</td><td>He was lucky when he hit a wood shot and the shuttlecock still went over the net.</td><td>a legal shot in which the shuttlecock hits the frame of the racket</td></tr></table>\n\nWrite the proper stroke below each diagram. (Strokes: clear, drop shot, smash, drive, hairpin net shot, lob.)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::107::table_tr_td_word_td_td_example_sentence_td_td_me",
+          "doc13::list_item::109::1_write_the_proper_stroke_below_each_diagram_str"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "list_item"
+        ],
+        "token_count": 827,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::image::110::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8::chunk::64::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8",
+      "label": "![](images/94079f8fdb6940db60d0f2ef4d872553b26d914c8d1be534c4b85a78dcc86bac.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::110::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8::chunk::64::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "![](images/94079f8fdb6940db60d0f2ef4d872553b26d914c8d1be534c4b85a78dcc86bac.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::110::images_94079f8fdb6940db60d0f2ef4d872553b26d914c8"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::list_item::111::2_draw_a_badminton_court_and_mark_a_the_singles_::chunk::65::draw_a_badminton_court_and_mark_a_the_singles_pl",
+      "label": "Draw a badminton court and mark: a) the singles playing court; b) the doubles playing court; c) the net; d) the short...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::list_item::111::2_draw_a_badminton_court_and_mark_a_the_singles_::chunk::65::draw_a_badminton_court_and_mark_a_the_singles_pl",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "Draw a badminton court and mark: a) the singles playing court; b) the doubles playing court; c) the net; d) the short service line; e) the singles service court; f) the doubles service court.\n\nPut a cross next to the correct answer.\n\n-British officers brought a game like badminton back from: a) China b) India c) Greece\n\n-The word \"badminton\" was originally the name of: a) an Indian bird b) a British officer c) an English house",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::list_item::111::2_draw_a_badminton_court_and_mark_a_the_singles_",
+          "doc13::list_item::112::3_put_a_cross_next_to_the_correct_answer",
+          "doc13::paragraph::113::british_officers_brought_a_game_like_badminton_b",
+          "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 77,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+      "label": "-The word \"badminton\" was originally the name of: a) an Indian bird b) a British officer c) an English house -A badmi...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "-The word \"badminton\" was originally the name of: a) an Indian bird b) a British officer c) an English house\n\n-A badminton net is: a) 1,55 m. b) 1,85 m. c) 1,35 m. -The game begins with: a) an overhead serve b) a over-waist serve c) an under-waist serve -Hitting the shuttle into the net is: a) a drop shot b) a net shot c) a fault -To win, the margin in the score must be at least: a) 1 point b) 2 points c) 3 points -Badminton was first introduced at the: a) Sydney Olympics b) Seoul Olympics c) Barcelona Olympics -In Badminton, a player must serve from the service: a) line b) lane c) court -An upper arm gentle shot that just goes over the net is a: a) net shot b) drop shot c) smash -A shot that goes high over the net to the backcourt is a: a) lob b) net shot c) drive shot -A very hard, long, horizontal and powerful overhead shot is a: a) drive b) clear c) smash/”kill” -A series of several shots in a row is called a: a) record b) rally c) set -The central position players try to get to is the: a) home position b) top position c) court position -A wood shot is one where the shuttlecock is hit by the: a) strings of the racket b) frame of the racket c) handle of the racket -Hitting the shuttle twice before it goes over the net is a: a) point b) double c) fault",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_",
+          "doc13::paragraph::115::a_badminton_net_is_a_1_55_m_b_1_85_m_c_1_35_m_th"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 263,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc13::image::116::images_7698f465b9bedbcb9d446893a6368edb687d44453::chunk::67::images_7698f465b9bedbcb9d446893a6368edb687d44453",
+      "label": "![](images/7698f465b9bedbcb9d446893a6368edb687d44453d401e7081b71213a1c32610.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::image::116::images_7698f465b9bedbcb9d446893a6368edb687d44453::chunk::67::images_7698f465b9bedbcb9d446893a6368edb687d44453",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "![](images/7698f465b9bedbcb9d446893a6368edb687d44453d401e7081b71213a1c32610.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::image::116::images_7698f465b9bedbcb9d446893a6368edb687d44453"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc13::details::117::details_summary_text_image_summary_playing_badmi::chunk::68::details_summary_text_image_summary_playing_badmi",
+      "label": "<details> <summary>text_image</summary> Playing badminton is really funny, HEALTHY and very easy to learn and practis...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": "doc13::details::117::details_summary_text_image_summary_playing_badmi::chunk::68::details_summary_text_image_summary_playing_badmi",
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nPlaying badminton\nis really funny,\nHEALTHY and\nvery easy to learn\nand practise.\nTRY IT !!\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc13::details::117::details_summary_text_image_summary_playing_badmi"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 20,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3223 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc11::concept::0::stress",
+      "label": "Stress",
+      "normalized_label": "stress",
+      "aliases": [
+        "stress"
+      ],
+      "mention_count": 14,
+      "definitions": [
+        "a feeling of being under abnormal pressure",
+        "A condition that affects life, health, and wellbeing, characterized by symptoms such as constant worry, mood swings, and physical ailments.",
+        "A natural reaction to difficult situations in life, such as work, family, relationships, and money problems."
+      ],
+      "source_chunk_ids": [
+        "doc11::paragraph::3::stress_is_a_feeling_of_being_under_abnormal_pres::chunk::0::stress_is_a_feeling_of_being_under_abnormal_pres",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::14::people_react_differently_to_stress_some_common_s::chunk::6::people_react_differently_to_stress_some_common_s",
+        "doc11::details::19::details_summary_text_image_summary_common_sympto::chunk::8::details_summary_text_image_summary_common_sympto",
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::49::identify_the_causes_try_to_identify_the_underlyi",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi",
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug"
+      ],
+      "section_paths": [
+        [
+          "WHAT IS STRESS?"
+        ],
+        [
+          "PHYSICAL SYMPTOMS"
+        ],
+        [
+          "EFFECTS"
+        ],
+        [
+          "IDENTIFYING THE SIGNS OF STRESS"
+        ],
+        [
+          "RELATIONSHIPS"
+        ],
+        [
+          "YOURSELF?"
+        ],
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::1::heart_disease",
+      "label": "heart disease",
+      "normalized_label": "heart disease",
+      "aliases": [
+        "healthy diet"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "section_paths": [
+        [
+          "WHAT IS STRESS?"
+        ],
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::2::anxiety",
+      "label": "anxiety",
+      "normalized_label": "anxiety",
+      "aliases": [],
+      "mention_count": 7,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug"
+      ],
+      "section_paths": [
+        [
+          "WHAT IS STRESS?"
+        ],
+        [
+          "EFFECTS"
+        ],
+        [
+          "IDENTIFYING THE SIGNS OF STRESS"
+        ],
+        [
+          "WORK-LIFE BALANCE"
+        ],
+        [
+          "MONEY"
+        ],
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ],
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::3::depression",
+      "label": "depression",
+      "normalized_label": "depression",
+      "aliases": [
+        "Depression"
+      ],
+      "mention_count": 5,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "WHAT IS STRESS?"
+        ],
+        [
+          "IDENTIFYING THE SIGNS OF STRESS"
+        ],
+        [
+          "WORK-LIFE BALANCE"
+        ],
+        [
+          "MONEY"
+        ],
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::4::adrenaline",
+      "label": "adrenaline",
+      "normalized_label": "adrenaline",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::14::people_react_differently_to_stress_some_common_s::chunk::6::people_react_differently_to_stress_some_common_s"
+      ],
+      "section_paths": [
+        [
+          "PHYSICAL SYMPTOMS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::5::noradrenaline",
+      "label": "noradrenaline",
+      "normalized_label": "noradrenaline",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::14::people_react_differently_to_stress_some_common_s::chunk::6::people_react_differently_to_stress_some_common_s"
+      ],
+      "section_paths": [
+        [
+          "PHYSICAL SYMPTOMS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::6::cortisol",
+      "label": "cortisol",
+      "normalized_label": "cortisol",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::14::people_react_differently_to_stress_some_common_s::chunk::6::people_react_differently_to_stress_some_common_s"
+      ],
+      "section_paths": [
+        [
+          "PHYSICAL SYMPTOMS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::7::fight_or_flight_response",
+      "label": "fight or flight response",
+      "normalized_label": "fight or flight response",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "A physiological reaction triggered by stress hormones that prepares the body for an emergency response."
+      ],
+      "source_chunk_ids": [
+        "doc11::paragraph::14::people_react_differently_to_stress_some_common_s::chunk::6::people_react_differently_to_stress_some_common_s"
+      ],
+      "section_paths": [
+        [
+          "PHYSICAL SYMPTOMS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::8::sleeping_problems",
+      "label": "sleeping problems",
+      "normalized_label": "sleeping problems",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::19::details_summary_text_image_summary_common_sympto::chunk::8::details_summary_text_image_summary_common_sympto",
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug"
+      ],
+      "section_paths": [
+        [
+          "PHYSICAL SYMPTOMS"
+        ],
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::9::stress_hormone_levels",
+      "label": "stress hormone levels",
+      "normalized_label": "stress hormone levels",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::20::humans_have_inherited_these_things_from_our_anci::chunk::9::humans_have_inherited_these_things_from_our_anci"
+      ],
+      "section_paths": [
+        [
+          "PHYSICAL SYMPTOMS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::10::symptoms_of_stress",
+      "label": "symptoms of stress",
+      "normalized_label": "symptoms of stress",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::20::humans_have_inherited_these_things_from_our_anci::chunk::9::humans_have_inherited_these_things_from_our_anci"
+      ],
+      "section_paths": [
+        [
+          "PHYSICAL SYMPTOMS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::11::e_james_s_park",
+      "label": "E. James's Park",
+      "normalized_label": "e james s park",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::22::details_summary_text_image_summary_e_james_s_par::chunk::11::details_summary_text_image_summary_e_james_s_par"
+      ],
+      "section_paths": [
+        [
+          "PHYSICAL SYMPTOMS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::12::irritability",
+      "label": "irritability",
+      "normalized_label": "irritability",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::13::low_self_esteem",
+      "label": "low self-esteem",
+      "normalized_label": "low self-esteem",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::14::withdrawn",
+      "label": "withdrawn",
+      "normalized_label": "withdrawn",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::15::indecisive",
+      "label": "indecisive",
+      "normalized_label": "indecisive",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::16::tearful",
+      "label": "tearful",
+      "normalized_label": "tearful",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::17::constant_worry",
+      "label": "constant worry",
+      "normalized_label": "constant worry",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::18::racing_thoughts",
+      "label": "relaxation techniques",
+      "normalized_label": "racing thoughts",
+      "aliases": [
+        "racing thoughts"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe",
+        "doc11::paragraph::128::we_d_like_to_thank_everyone_who_contributed_some::chunk::68::we_d_like_to_thank_everyone_who_contributed_some"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ],
+        [
+          "101 TOP TIPS FROM YOU"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::19::behavioural_changes",
+      "label": "behavioural changes",
+      "normalized_label": "behavioural changes",
+      "aliases": [
+        "bar chart"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe",
+        "doc11::details::52::details_summary_text_image_summary_illustration_::chunk::28::details_summary_text_image_summary_illustration_"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ],
+        [
+          "STRESS?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::20::physical_symptoms",
+      "label": "physical symptoms",
+      "normalized_label": "physical symptoms",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::21::happy",
+      "label": "Happy",
+      "normalized_label": "happy",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::31::details_summary_pie_summary_emotion_value_happy_::chunk::15::details_summary_pie_summary_emotion_value_happy_"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::22::sad",
+      "label": "Sad",
+      "normalized_label": "sad",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::31::details_summary_pie_summary_emotion_value_happy_::chunk::15::details_summary_pie_summary_emotion_value_happy_"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::23::neutral",
+      "label": "Neutral",
+      "normalized_label": "neutral",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::31::details_summary_pie_summary_emotion_value_happy_::chunk::15::details_summary_pie_summary_emotion_value_happy_"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::24::negative",
+      "label": "Negative",
+      "normalized_label": "negative",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::31::details_summary_pie_summary_emotion_value_happy_::chunk::15::details_summary_pie_summary_emotion_value_happy_"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::25::frowning",
+      "label": "Frowning",
+      "normalized_label": "frowning",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::31::details_summary_pie_summary_emotion_value_happy_::chunk::15::details_summary_pie_summary_emotion_value_happy_"
+      ],
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::26::gp",
+      "label": "GP",
+      "normalized_label": "gp",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho"
+      ],
+      "section_paths": [
+        [
+          "IDENTIFYING THE SIGNS OF STRESS"
+        ],
+        [
+          "Every Mind Matters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::27::natural_image",
+      "label": "natural_image",
+      "normalized_label": "natural image",
+      "aliases": [],
+      "mention_count": 12,
+      "definitions": [
+        "Illustration of a person cleaning a wall with a framed picture and bookshelf (no text or symbols)",
+        "Elderly man wearing a helmet and green shirt, smiling outdoors with trees in the background (no visible text or symbols)"
+      ],
+      "source_chunk_ids": [
+        "doc11::details::45::details_summary_natural_image_summary_illustrati::chunk::21::details_summary_natural_image_summary_illustrati",
+        "doc11::details::50::details_summary_natural_image_summary_illustrati::chunk::26::details_summary_natural_image_summary_illustrati",
+        "doc11::details::56::details_summary_natural_image_summary_illustrati::chunk::32::details_summary_natural_image_summary_illustrati",
+        "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati",
+        "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati",
+        "doc11::details::94::details_summary_natural_image_summary_abstract_p::chunk::48::details_summary_natural_image_summary_abstract_p",
+        "doc11::details::167::details_summary_natural_image_summary_illustrati::chunk::77::details_summary_natural_image_summary_illustrati",
+        "doc11::details::213::details_summary_natural_image_summary_illustrati::chunk::86::details_summary_natural_image_summary_illustrati",
+        "doc11::details::217::details_summary_natural_image_summary_elderly_ma::chunk::89::details_summary_natural_image_summary_elderly_ma",
+        "doc11::details::227::details_summary_natural_image_summary_illustrati::chunk::92::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "STRESS?"
+        ],
+        [
+          "RELATIONSHIPS"
+        ],
+        [
+          "MONEY"
+        ],
+        [
+          "YOURSELF?"
+        ],
+        [
+          "27. Go to a yoga class"
+        ],
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::28::medical_professional",
+      "label": "medical_professional",
+      "normalized_label": "medical professional",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::45::details_summary_natural_image_summary_illustrati::chunk::21::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "STRESS?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::29::clipboard",
+      "label": "clipboard",
+      "normalized_label": "clipboard",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::45::details_summary_natural_image_summary_illustrati::chunk::21::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "STRESS?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::30::red_cross_symbol",
+      "label": "red_cross_symbol",
+      "normalized_label": "red cross symbol",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::45::details_summary_natural_image_summary_illustrati::chunk::21::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "STRESS?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::31::removals",
+      "label": "REMOVALS",
+      "normalized_label": "removals",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::48::details_summary_text_image_summary_removals_deta::chunk::24::details_summary_text_image_summary_removals_deta"
+      ],
+      "section_paths": [
+        [
+          "STRESS?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::32::data_visualization",
+      "label": "data visualization",
+      "normalized_label": "data visualization",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::52::details_summary_text_image_summary_illustration_::chunk::28::details_summary_text_image_summary_illustration_"
+      ],
+      "section_paths": [
+        [
+          "STRESS?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::33::performance",
+      "label": "performance",
+      "normalized_label": "performance",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::52::details_summary_text_image_summary_illustration_::chunk::28::details_summary_text_image_summary_illustration_"
+      ],
+      "section_paths": [
+        [
+          "STRESS?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::34::news",
+      "label": "NEWS",
+      "normalized_label": "news",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::54::details_summary_text_image_summary_news_details::chunk::30::details_summary_text_image_summary_news_details"
+      ],
+      "section_paths": [
+        [
+          "STRESS?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::35::angry_expression",
+      "label": "angry_expression",
+      "normalized_label": "angry expression",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::56::details_summary_natural_image_summary_illustrati::chunk::32::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "STRESS?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::36::relationships",
+      "label": "relationships",
+      "normalized_label": "relationships",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_"
+      ],
+      "section_paths": [
+        [
+          "RELATIONSHIPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::37::minor_arguments",
+      "label": "minor_arguments",
+      "normalized_label": "minor arguments",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_"
+      ],
+      "section_paths": [
+        [
+          "RELATIONSHIPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::38::family_crises",
+      "label": "family_crises",
+      "normalized_label": "family crises",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_"
+      ],
+      "section_paths": [
+        [
+          "RELATIONSHIPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::39::affair",
+      "label": "affair",
+      "normalized_label": "affair",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_"
+      ],
+      "section_paths": [
+        [
+          "RELATIONSHIPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::40::illness",
+      "label": "illness",
+      "normalized_label": "illness",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_"
+      ],
+      "section_paths": [
+        [
+          "RELATIONSHIPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::41::bereavement",
+      "label": "bereavement",
+      "normalized_label": "bereavement",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_"
+      ],
+      "section_paths": [
+        [
+          "RELATIONSHIPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::42::couple",
+      "label": "couple",
+      "normalized_label": "couple",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "RELATIONSHIPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::43::cozy_living_room",
+      "label": "cozy_living_room",
+      "normalized_label": "cozy living room",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "RELATIONSHIPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::44::work_related_stress",
+      "label": "work-related stress",
+      "normalized_label": "work-related stress",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c"
+      ],
+      "section_paths": [
+        [
+          "WORK-LIFE BALANCE"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::45::burn_out",
+      "label": "burn-out",
+      "normalized_label": "burn-out",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "A state resulting from increased levels of stress that is not addressed early enough."
+      ],
+      "source_chunk_ids": [
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c"
+      ],
+      "section_paths": [
+        [
+          "WORK-LIFE BALANCE"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::46::mental_health_problems",
+      "label": "mental health problems",
+      "normalized_label": "mental health problems",
+      "aliases": [
+        "Mental health problems"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "WORK-LIFE BALANCE"
+        ],
+        [
+          "MONEY"
+        ],
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ],
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::47::cost_of_living_crisis",
+      "label": "cost-of-living crisis",
+      "normalized_label": "cost-of-living crisis",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre"
+      ],
+      "section_paths": [
+        [
+          "MONEY"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::48::chronic_stress",
+      "label": "chronic stress",
+      "normalized_label": "chronic stress",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre"
+      ],
+      "section_paths": [
+        [
+          "MONEY"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::49::debt",
+      "label": "debt",
+      "normalized_label": "debt",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre"
+      ],
+      "section_paths": [
+        [
+          "MONEY"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::50::piggy_banks",
+      "label": "piggy banks",
+      "normalized_label": "piggy banks",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "MONEY"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::51::gold_coins",
+      "label": "gold coins",
+      "normalized_label": "gold coins",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "MONEY"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::52::smoking",
+      "label": "smoking",
+      "normalized_label": "smoking",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati"
+      ],
+      "section_paths": [
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::53::alcohol",
+      "label": "alcohol",
+      "normalized_label": "alcohol",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati"
+      ],
+      "section_paths": [
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::54::recreational_drugs",
+      "label": "recreational drugs",
+      "normalized_label": "recreational drugs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati"
+      ],
+      "section_paths": [
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::55::nicotine",
+      "label": "nicotine",
+      "normalized_label": "nicotine",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati"
+      ],
+      "section_paths": [
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::56::tranquillisers",
+      "label": "tranquillisers",
+      "normalized_label": "tranquillisers",
+      "aliases": [
+        "Tranquillisers"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ],
+        [
+          "HOW CAN"
+        ],
+        [
+          "YOU HELP"
+        ],
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::57::sleeping_tablets",
+      "label": "sleeping tablets",
+      "normalized_label": "sleeping tablets",
+      "aliases": [
+        "Sleeping tablets"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ],
+        [
+          "HOW CAN"
+        ],
+        [
+          "YOU HELP"
+        ],
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::58::cannabis",
+      "label": "cannabis",
+      "normalized_label": "cannabis",
+      "aliases": [
+        "Cannabis"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ],
+        [
+          "HOW CAN"
+        ],
+        [
+          "YOU HELP"
+        ],
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::59::ecstasy",
+      "label": "ecstasy",
+      "normalized_label": "ecstasy",
+      "aliases": [
+        "Ecstasy"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ],
+        [
+          "HOW CAN"
+        ],
+        [
+          "YOU HELP"
+        ],
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::60::prescription_drugs",
+      "label": "prescription drugs",
+      "normalized_label": "prescription drugs",
+      "aliases": [
+        "Prescription drugs"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "HOW CAN"
+        ],
+        [
+          "YOU HELP"
+        ],
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::61::mental_and_physical_health_problems",
+      "label": "mental and physical health problems",
+      "normalized_label": "mental and physical health problems",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "HOW CAN"
+        ],
+        [
+          "YOU HELP"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::62::street_drugs",
+      "label": "street drugs",
+      "normalized_label": "street drugs",
+      "aliases": [
+        "Street drugs"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "HOW CAN"
+        ],
+        [
+          "YOU HELP"
+        ],
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::63::physical_health_problems",
+      "label": "Physical health problems",
+      "normalized_label": "physical health problems",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::64::immunity_levels",
+      "label": "Immunity levels",
+      "normalized_label": "immunity levels",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::65::irritable_bowel_syndrome_ibs",
+      "label": "Irritable bowel syndrome (IBS)",
+      "normalized_label": "irritable bowel syndrome",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::66::tense_muscles",
+      "label": "Tense muscles",
+      "normalized_label": "tense muscles",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::67::over_tiredness",
+      "label": "Over-tiredness",
+      "normalized_label": "over-tiredness",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::68::headaches",
+      "label": "Headaches",
+      "normalized_label": "headaches",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::69::migraines",
+      "label": "Migraines",
+      "normalized_label": "migraines",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::70::geometric_shape",
+      "label": "geometric shape",
+      "normalized_label": "geometric shape",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::94::details_summary_natural_image_summary_abstract_p::chunk::48::details_summary_natural_image_summary_abstract_p"
+      ],
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::71::lifestyle",
+      "label": "lifestyle",
+      "normalized_label": "lifestyle",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::49::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::72::mood",
+      "label": "mood",
+      "normalized_label": "mood",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "section_paths": [
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::73::brain_nutrients",
+      "label": "brain nutrients",
+      "normalized_label": "brain nutrients",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "section_paths": [
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::74::essential_vitamins",
+      "label": "essential vitamins",
+      "normalized_label": "essential vitamins",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "section_paths": [
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::75::minerals",
+      "label": "minerals",
+      "normalized_label": "minerals",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "section_paths": [
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::76::mindfulness_meditation",
+      "label": "mindfulness meditation",
+      "normalized_label": "mindfulness meditation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "A practice that can reduce the effects of stress, anxiety, and other related problems such as insomnia, poor concentration, and low moods."
+      ],
+      "source_chunk_ids": [
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug"
+      ],
+      "section_paths": [
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::77::insomnia",
+      "label": "insomnia",
+      "normalized_label": "insomnia",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug"
+      ],
+      "section_paths": [
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::78::cognitive_behavioural_therapy",
+      "label": "Cognitive Behavioural Therapy",
+      "normalized_label": "cognitive behavioural therapy",
+      "aliases": [
+        "CBT",
+        "Cognitive behavioral therapy"
+      ],
+      "mention_count": 5,
+      "definitions": [
+        "Cognitive behavioral therapy"
+      ],
+      "source_chunk_ids": [
+        "doc11::paragraph::110::it_s_okay_to_ask_for_professional_help_if_you_fe::chunk::59::it_s_okay_to_ask_for_professional_help_if_you_fe",
+        "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho",
+        "doc11::list_item::168::35_ask_yourself_what_would_other_people_do::chunk::78::ask_yourself_what_would_other_people_do"
+      ],
+      "section_paths": [
+        [
+          "SEEKING HELP"
+        ],
+        [
+          "Every Mind Matters"
+        ],
+        [
+          "27. Go to a yoga class"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::79::mindfulness_based_approaches",
+      "label": "Mindfulness based approaches",
+      "normalized_label": "mindfulness based approaches",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::110::it_s_okay_to_ask_for_professional_help_if_you_fe::chunk::59::it_s_okay_to_ask_for_professional_help_if_you_fe",
+        "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho"
+      ],
+      "section_paths": [
+        [
+          "SEEKING HELP"
+        ],
+        [
+          "Every Mind Matters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::80::mental_health_foundation",
+      "label": "Mental Health Foundation",
+      "normalized_label": "mental health foundation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho",
+        "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel::chunk::61::the_mental_health_foundation_supported_the_devel"
+      ],
+      "section_paths": [
+        [
+          "Every Mind Matters"
+        ],
+        [
+          "Anxiety UK"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::81::every_mind_matters",
+      "label": "Every Mind Matters",
+      "normalized_label": "every mind matters",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho",
+        "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel::chunk::61::the_mental_health_foundation_supported_the_devel"
+      ],
+      "section_paths": [
+        [
+          "Every Mind Matters"
+        ],
+        [
+          "Anxiety UK"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::82::anxiety_uk",
+      "label": "Anxiety UK",
+      "normalized_label": "anxiety uk",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel::chunk::61::the_mental_health_foundation_supported_the_devel",
+        "doc11::paragraph::115::anxiety_uk_runs_a_helpline_staffed_by_volunteers::chunk::62::anxiety_uk_runs_a_helpline_staffed_by_volunteers"
+      ],
+      "section_paths": [
+        [
+          "Anxiety UK"
+        ],
+        [
+          "Citizens Advice"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::83::citizens_advice",
+      "label": "Citizens Advice",
+      "normalized_label": "citizens advice",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::115::anxiety_uk_runs_a_helpline_staffed_by_volunteers::chunk::62::anxiety_uk_runs_a_helpline_staffed_by_volunteers",
+        "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co::chunk::63::citizens_advice_provides_free_independent_and_co"
+      ],
+      "section_paths": [
+        [
+          "Citizens Advice"
+        ],
+        [
+          "StepChange"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::84::stepchange",
+      "label": "StepChange",
+      "normalized_label": "stepchange",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co::chunk::63::citizens_advice_provides_free_independent_and_co",
+        "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo::chunk::64::stepchange_provides_help_and_information_for_peo"
+      ],
+      "section_paths": [
+        [
+          "StepChange"
+        ],
+        [
+          "Samaritans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::85::freephone",
+      "label": "Freephone",
+      "normalized_label": "freephone",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo::chunk::64::stepchange_provides_help_and_information_for_peo"
+      ],
+      "section_paths": [
+        [
+          "Samaritans"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::86::samaritans",
+      "label": "Samaritans",
+      "normalized_label": "samaritans",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo::chunk::64::stepchange_provides_help_and_information_for_peo",
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "section_paths": [
+        [
+          "Samaritans"
+        ],
+        [
+          "Specialist mental health services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::87::emotional_support",
+      "label": "emotional support",
+      "normalized_label": "emotional support",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "section_paths": [
+        [
+          "Specialist mental health services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::88::community_mental_health_team_cmht",
+      "label": "community mental health team (CMHT)",
+      "normalized_label": "community mental health team",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "section_paths": [
+        [
+          "Specialist mental health services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::89::counselling",
+      "label": "counselling",
+      "normalized_label": "counselling",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "section_paths": [
+        [
+          "Specialist mental health services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::90::talking_therapies",
+      "label": "talking therapies",
+      "normalized_label": "talking therapies",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "section_paths": [
+        [
+          "Specialist mental health services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::91::community_mental_health_centre",
+      "label": "community mental health centre",
+      "normalized_label": "community mental health centre",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "section_paths": [
+        [
+          "Specialist mental health services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::92::social_services",
+      "label": "social services",
+      "normalized_label": "social services",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "section_paths": [
+        [
+          "Specialist mental health services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::93::social_work_team",
+      "label": "social work team",
+      "normalized_label": "social work team",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "section_paths": [
+        [
+          "Specialist mental health services"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::94::stress_management",
+      "label": "stress management",
+      "normalized_label": "stress management",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::paragraph::128::we_d_like_to_thank_everyone_who_contributed_some::chunk::68::we_d_like_to_thank_everyone_who_contributed_some"
+      ],
+      "section_paths": [
+        [
+          "101 TOP TIPS FROM YOU"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::95::painting",
+      "label": "painting",
+      "normalized_label": "painting",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::147::details_summary_natural_image_summary_two_women_::chunk::71::details_summary_natural_image_summary_two_women_"
+      ],
+      "section_paths": [
+        [
+          "17. Painting or drawing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::96::drawing",
+      "label": "drawing",
+      "normalized_label": "drawing",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::147::details_summary_natural_image_summary_two_women_::chunk::71::details_summary_natural_image_summary_two_women_"
+      ],
+      "section_paths": [
+        [
+          "17. Painting or drawing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::97::massage",
+      "label": "massage",
+      "normalized_label": "massage",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::148::18_book_a_massage_or_spend_time_in_a_spa_with_a_::chunk::72::book_a_massage_or_spend_time_in_a_spa_with_a_fri"
+      ],
+      "section_paths": [
+        [
+          "17. Painting or drawing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::98::spa",
+      "label": "spa",
+      "normalized_label": "spa",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::148::18_book_a_massage_or_spend_time_in_a_spa_with_a_::chunk::72::book_a_massage_or_spend_time_in_a_spa_with_a_fri"
+      ],
+      "section_paths": [
+        [
+          "17. Painting or drawing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::99::perspective",
+      "label": "perspective",
+      "normalized_label": "perspective",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::151::20_try_putting_things_into_perspective::chunk::74::try_putting_things_into_perspective"
+      ],
+      "section_paths": [
+        [
+          "17. Painting or drawing"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::100::yoga_class",
+      "label": "yoga class",
+      "normalized_label": "yoga class",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::157::26_go_out_and_meet_new_people::chunk::75::go_out_and_meet_new_people"
+      ],
+      "section_paths": [
+        [
+          "27. Go to a yoga class"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::101::caffeine",
+      "label": "caffeine",
+      "normalized_label": "caffeine",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::157::26_go_out_and_meet_new_people::chunk::75::go_out_and_meet_new_people"
+      ],
+      "section_paths": [
+        [
+          "27. Go to a yoga class"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::102::karaoke_night",
+      "label": "Karaoke night",
+      "normalized_label": "karaoke night",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::195::61_going_for_a_walk_at_lunchtime::chunk::81::going_for_a_walk_at_lunchtime"
+      ],
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::103::wartime",
+      "label": "wartime",
+      "normalized_label": "wartime",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::203::67_imagine_living_in_a_different_era_maybe_warti::chunk::84::imagine_living_in_a_different_era_maybe_wartime_"
+      ],
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::104::scrabble",
+      "label": "Scrabble",
+      "normalized_label": "scrabble",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::203::67_imagine_living_in_a_different_era_maybe_warti::chunk::84::imagine_living_in_a_different_era_maybe_wartime_"
+      ],
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::105::airfix_model",
+      "label": "Airfix model",
+      "normalized_label": "airfix model",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::203::67_imagine_living_in_a_different_era_maybe_warti::chunk::84::imagine_living_in_a_different_era_maybe_wartime_"
+      ],
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::106::tai_chi",
+      "label": "Tai Chi",
+      "normalized_label": "tai chi",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::218::78_use_a_relaxing_room_fragrance_or_scented_cand::chunk::90::use_a_relaxing_room_fragrance_or_scented_candle_"
+      ],
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::107::aquafit",
+      "label": "Aquafit",
+      "normalized_label": "aquafit",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::218::78_use_a_relaxing_room_fragrance_or_scented_cand::chunk::90::use_a_relaxing_room_fragrance_or_scented_candle_"
+      ],
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::108::illustration",
+      "label": "illustration",
+      "normalized_label": "illustration",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::details::227::details_summary_natural_image_summary_illustrati::chunk::92::details_summary_natural_image_summary_illustrati"
+      ],
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::109::mental_health",
+      "label": "mental_health",
+      "normalized_label": "mental health",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::228::86_listen_to_the_birds_singing::chunk::93::listen_to_the_birds_singing"
+      ],
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::110::relaxation_activities",
+      "label": "relaxation_activities",
+      "normalized_label": "relaxation activities",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::228::86_listen_to_the_birds_singing::chunk::93::listen_to_the_birds_singing"
+      ],
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::111::salsa_class",
+      "label": "salsa_class",
+      "normalized_label": "salsa class",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::242::100_go_to_a_salsa_class::chunk::94::go_to_a_salsa_class",
+        "doc11::list_item::242::100_go_to_a_salsa_class::chunk::95::go_to_a_salsa_class"
+      ],
+      "section_paths": [
+        [
+          "101. Get a cuddle"
+        ],
+        [
+          "Make a donation to help us continue our vital work:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc11::concept::112::donation",
+      "label": "donation",
+      "normalized_label": "donation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc11::list_item::242::100_go_to_a_salsa_class::chunk::95::go_to_a_salsa_class"
+      ],
+      "section_paths": [
+        [
+          "Make a donation to help us continue our vital work:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::9::stress_hormone_levels"
+      ],
+      "labels": [
+        "Stress",
+        "stress hormone levels"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::10::symptoms_of_stress"
+      ],
+      "labels": [
+        "Stress",
+        "symptoms of stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::44::work_related_stress"
+      ],
+      "labels": [
+        "Stress",
+        "work-related stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::48::chronic_stress"
+      ],
+      "labels": [
+        "Stress",
+        "chronic stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::61::mental_and_physical_health_problems"
+      ],
+      "labels": [
+        "mental health problems",
+        "mental and physical health problems"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::61::mental_and_physical_health_problems",
+        "doc11::concept::63::physical_health_problems"
+      ],
+      "labels": [
+        "mental and physical health problems",
+        "Physical health problems"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::2::anxiety",
+        "doc11::concept::82::anxiety_uk"
+      ],
+      "labels": [
+        "anxiety",
+        "Anxiety UK"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::94::stress_management"
+      ],
+      "labels": [
+        "Stress",
+        "stress management"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::109::mental_health"
+      ],
+      "labels": [
+        "mental health problems",
+        "mental_health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 187,
+    "canonical_concept_count": 113,
+    "candidate_merge_count": 9
+  }
+}

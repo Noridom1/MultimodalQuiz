@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing four distinct quantum state outcomes labeled as \"Bell State 1\" to \"Bell State 4,\" each represented by a unique geometric arrangement of entangled qubits (e.g., paired circles or linked arrows). Use a color-coded scheme (e.g., blue, green, red, purple) to differentiate the states, with clear labels in bold, sans-serif font. Ensure the layout is symmetrical and uncluttered, with minimal decorative elements.\n\n**Alt:** A diagram illustrating four labeled Bell states as distinct entangled qubit pairs, color-coded for clarity.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_145921_doc8_117710/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "Create a minimalist diagram with two distinct photons (labeled \"Photon 1\" and \"Photon 2\") connected by a glowing, wavy blue line to symbolize entanglement. Use high-contrast colors (e.g., bright yellow photons on a dark background) and ensure the line is visually dynamic but uncluttered. Avoid any text beyond the labels, and keep the composition balanced with ample negative space.\n\nAlt: Two labeled photons linked by a wavy blue line, illustrating quantum entanglement.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_145921_doc8_117710/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, abstract diagram of a quantum network with 4-6 labeled nodes (e.g., \"Node 1,\" \"Node 2\") connected by glowing, wavy lines representing entangled quantum links. Use a dark blue or purple background with bright, high-contrast colors (neon teal, gold) for the nodes and connections to emphasize the quantum nature. Avoid realistic depictions—opt for geometric shapes (circles/spheres) with subtle particle-like textures.\n\n**Alt:** Abstract diagram of a quantum network with labeled nodes connected by entangled links, set against a dark background.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_145921_doc8_117710/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast diagram showing two entangled particles (labeled \"Particle A\" and \"Particle B\") connected by a wavy line, with a third particle (\"Particle C\") interacting with Particle A. Depict a classical communication channel (e.g., a dashed arrow labeled \"Classical Info\") from Site 1 to Site 2, where Particle B is located, to complete the teleportation. Use a cool blue/purple palette for quantum elements and warm orange for classical signals to emphasize the distinction.\n\nAlt: A diagram illustrating quantum teleportation with entangled particles and a classical communication channel.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_145921_doc8_117710/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing two quantum network nodes (labeled \"Node A\" and \"Node B\") connected by wavy lines representing entangled particle pairs, with a central \"EPM Controller\" icon managing the links. Use a cool blue and purple color scheme for quantum elements, with bold labels and arrows indicating entanglement distribution. Avoid text that explains EPM’s role—focus on visual flow.\n\n**Alt:** A diagram of two quantum nodes connected by entangled particles, managed by a central controller.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_145921_doc8_117710/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

@@ -1,0 +1,1391 @@
+{
+  "artifact_count": 66,
+  "artifacts": [
+    {
+      "id": "doc11::artifact::4::images_0077f97e39edc868ad8846f580aa3502573ac45ca",
+      "label": "![](images/0077f97e39edc868ad8846f580aa3502573ac45cad19c5d624bfe3cdb80100c6.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::4::images_0077f97e39edc868ad8846f580aa3502573ac45ca::chunk::1::images_0077f97e39edc868ad8846f580aa3502573ac45ca",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "![](images/0077f97e39edc868ad8846f580aa3502573ac45cad19c5d624bfe3cdb80100c6.jpg)",
+      "image_path": "images/0077f97e39edc868ad8846f580aa3502573ac45cad19c5d624bfe3cdb80100c6.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::4::images_0077f97e39edc868ad8846f580aa3502573ac45ca",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::5::details_summary_natural_image_summary_close_up_p",
+      "label": "<details> <summary>natural_image</summary> Close-up portrait of a man with closed eyes and beard, wearing a black nec...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::5::details_summary_natural_image_summary_close_up_p::chunk::2::details_summary_natural_image_summary_close_up_p",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nClose-up portrait of a man with closed eyes and beard, wearing a black necklace (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::5::details_summary_natural_image_summary_close_up_p",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::11::images_7c231555679d7b2f009dad6512c6c5218509e48a2",
+      "label": "![](images/7c231555679d7b2f009dad6512c6c5218509e48a2fa432b19053c94d5421c55b.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::11::images_7c231555679d7b2f009dad6512c6c5218509e48a2::chunk::4::images_7c231555679d7b2f009dad6512c6c5218509e48a2",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "![](images/7c231555679d7b2f009dad6512c6c5218509e48a2fa432b19053c94d5421c55b.jpg)",
+      "image_path": "images/7c231555679d7b2f009dad6512c6c5218509e48a2fa432b19053c94d5421c55b.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::11::images_7c231555679d7b2f009dad6512c6c5218509e48a2",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::12::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a person sleeping at a desk with books and papers, holding...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::12::details_summary_natural_image_summary_illustrati::chunk::5::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a person sleeping at a desk with books and papers, holding a 'Help' sign (no text or symbols on the main subject)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::12::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::18::images_2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6",
+      "label": "![](images/2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6be1e9e1e83d8357d8119933.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::18::images_2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6::chunk::7::images_2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "![](images/2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6be1e9e1e83d8357d8119933.jpg)",
+      "image_path": "images/2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6be1e9e1e83d8357d8119933.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::18::images_2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::19::details_summary_text_image_summary_common_sympto",
+      "label": "<details> <summary>text_image</summary> Common symptoms of stress include sleeping problems. </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::19::details_summary_text_image_summary_common_sympto::chunk::8::details_summary_text_image_summary_common_sympto",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nCommon symptoms\nof stress include\nsleeping problems.\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::19::details_summary_text_image_summary_common_sympto",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::21::images_acfa657beed306a4273b8c563ed6e439a9a71bf17",
+      "label": "![](images/acfa657beed306a4273b8c563ed6e439a9a71bf171f7f11b570408cfe3154cc4.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::21::images_acfa657beed306a4273b8c563ed6e439a9a71bf17::chunk::10::images_acfa657beed306a4273b8c563ed6e439a9a71bf17",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "![](images/acfa657beed306a4273b8c563ed6e439a9a71bf171f7f11b570408cfe3154cc4.jpg)",
+      "image_path": "images/acfa657beed306a4273b8c563ed6e439a9a71bf171f7f11b570408cfe3154cc4.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::21::images_acfa657beed306a4273b8c563ed6e439a9a71bf17",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::22::details_summary_text_image_summary_e_james_s_par",
+      "label": "<details> <summary>text_image</summary> E. James's Park. This is a Circle </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::22::details_summary_text_image_summary_e_james_s_par::chunk::11::details_summary_text_image_summary_e_james_s_par",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nE. James's Park. This is a Circle\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::22::details_summary_text_image_summary_e_james_s_par",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::27::images_2073f641eca69ad4b3297c5f9b26e13340600f120",
+      "label": "![](images/2073f641eca69ad4b3297c5f9b26e13340600f120e4d8e511cc0a678bdf8aaee.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::27::images_2073f641eca69ad4b3297c5f9b26e13340600f120::chunk::12::images_2073f641eca69ad4b3297c5f9b26e13340600f120",
+      "page_idx": null,
+      "section_path": [
+        "EFFECTS"
+      ],
+      "text": "![](images/2073f641eca69ad4b3297c5f9b26e13340600f120e4d8e511cc0a678bdf8aaee.jpg)",
+      "image_path": "images/2073f641eca69ad4b3297c5f9b26e13340600f120e4d8e511cc0a678bdf8aaee.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::27::images_2073f641eca69ad4b3297c5f9b26e13340600f120",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::30::images_518720de7f1f07f4ff2d4eec3241ada622f4982ae",
+      "label": "![](images/518720de7f1f07f4ff2d4eec3241ada622f4982aece1446b2d30b8f3e4993c58.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::30::images_518720de7f1f07f4ff2d4eec3241ada622f4982ae::chunk::14::images_518720de7f1f07f4ff2d4eec3241ada622f4982ae",
+      "page_idx": null,
+      "section_path": [
+        "EFFECTS"
+      ],
+      "text": "![](images/518720de7f1f07f4ff2d4eec3241ada622f4982aece1446b2d30b8f3e4993c58.jpg)",
+      "image_path": "images/518720de7f1f07f4ff2d4eec3241ada622f4982aece1446b2d30b8f3e4993c58.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::30::images_518720de7f1f07f4ff2d4eec3241ada622f4982ae",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::31::details_summary_pie_summary_emotion_value_happy_",
+      "label": "<details> <summary>pie</summary> | Emotion | Value | |---|---| | Happy | 100 | | Sad | 85 | | Neutral | 75 | | Negati...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::31::details_summary_pie_summary_emotion_value_happy_::chunk::15::details_summary_pie_summary_emotion_value_happy_",
+      "page_idx": null,
+      "section_path": [
+        "EFFECTS"
+      ],
+      "text": "<details>\n<summary>pie</summary>\n\n| Emotion | Value |\n|---|---|\n| Happy | 100 |\n| Sad | 85 |\n| Neutral | 75 |\n| Negative | 60 |\n| Frowning | 45 |\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::31::details_summary_pie_summary_emotion_value_happy_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::37::images_1058379b6ee365eac6c8a5989520e629f2c3c1bf5",
+      "label": "![](images/1058379b6ee365eac6c8a5989520e629f2c3c1bf5e6a05e31ec53cb8801827db.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::37::images_1058379b6ee365eac6c8a5989520e629f2c3c1bf5::chunk::17::images_1058379b6ee365eac6c8a5989520e629f2c3c1bf5",
+      "page_idx": null,
+      "section_path": [
+        "IDENTIFYING THE SIGNS OF STRESS"
+      ],
+      "text": "![](images/1058379b6ee365eac6c8a5989520e629f2c3c1bf5e6a05e31ec53cb8801827db.jpg)",
+      "image_path": "images/1058379b6ee365eac6c8a5989520e629f2c3c1bf5e6a05e31ec53cb8801827db.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::37::images_1058379b6ee365eac6c8a5989520e629f2c3c1bf5",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::38::details_summary_text_image_summary_consulting_ro",
+      "label": "<details> <summary>text_image</summary> Consulting Room 20 First </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::38::details_summary_text_image_summary_consulting_ro::chunk::18::details_summary_text_image_summary_consulting_ro",
+      "page_idx": null,
+      "section_path": [
+        "IDENTIFYING THE SIGNS OF STRESS"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nConsulting Room 20\nFirst\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::38::details_summary_text_image_summary_consulting_ro",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::44::images_e11f70b45696b6d567e8eb2dcb80f0420cc489178",
+      "label": "![](images/e11f70b45696b6d567e8eb2dcb80f0420cc48917858012dca3f28610a93e41fe.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::44::images_e11f70b45696b6d567e8eb2dcb80f0420cc489178::chunk::20::images_e11f70b45696b6d567e8eb2dcb80f0420cc489178",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/e11f70b45696b6d567e8eb2dcb80f0420cc48917858012dca3f28610a93e41fe.jpg)",
+      "image_path": "images/e11f70b45696b6d567e8eb2dcb80f0420cc48917858012dca3f28610a93e41fe.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::44::images_e11f70b45696b6d567e8eb2dcb80f0420cc489178",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::45::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a medical professional holding a clipboard with a red cros...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::45::details_summary_natural_image_summary_illustrati::chunk::21::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a medical professional holding a clipboard with a red cross symbol (no text or symbols present)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::45::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::46::images_d1fdf0659341f179e89b5e80923a92ac66f812d41",
+      "label": "![](images/d1fdf0659341f179e89b5e80923a92ac66f812d417a72003a5a377f7c566b7d8.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::46::images_d1fdf0659341f179e89b5e80923a92ac66f812d41::chunk::22::images_d1fdf0659341f179e89b5e80923a92ac66f812d41",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/d1fdf0659341f179e89b5e80923a92ac66f812d417a72003a5a377f7c566b7d8.jpg)",
+      "image_path": "images/d1fdf0659341f179e89b5e80923a92ac66f812d417a72003a5a377f7c566b7d8.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::46::images_d1fdf0659341f179e89b5e80923a92ac66f812d41",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::47::images_bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7",
+      "label": "![](images/bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7a42fd81b8141a8e9381dcb6.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::47::images_bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7::chunk::23::images_bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7a42fd81b8141a8e9381dcb6.jpg)",
+      "image_path": "images/bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7a42fd81b8141a8e9381dcb6.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::47::images_bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::48::details_summary_text_image_summary_removals_deta",
+      "label": "<details> <summary>text_image</summary> REMOVALS </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::48::details_summary_text_image_summary_removals_deta::chunk::24::details_summary_text_image_summary_removals_deta",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nREMOVALS\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::48::details_summary_text_image_summary_removals_deta",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::49::images_230c9c2a44df5ca50543c30a56727265a1ac8bed3",
+      "label": "![](images/230c9c2a44df5ca50543c30a56727265a1ac8bed3434d9c6a604579e1fa90644.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::49::images_230c9c2a44df5ca50543c30a56727265a1ac8bed3::chunk::25::images_230c9c2a44df5ca50543c30a56727265a1ac8bed3",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/230c9c2a44df5ca50543c30a56727265a1ac8bed3434d9c6a604579e1fa90644.jpg)",
+      "image_path": "images/230c9c2a44df5ca50543c30a56727265a1ac8bed3434d9c6a604579e1fa90644.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::49::images_230c9c2a44df5ca50543c30a56727265a1ac8bed3",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::50::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of two pink piggy banks with coins and a hammer, symbolizing...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::50::details_summary_natural_image_summary_illustrati::chunk::26::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of two pink piggy banks with coins and a hammer, symbolizing financial or investment (no text present)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::50::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::51::images_2278c702c619e66d77d748b54318e5abefce405b0",
+      "label": "![](images/2278c702c619e66d77d748b54318e5abefce405b0d8cb3051f38ca5997827393.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::51::images_2278c702c619e66d77d748b54318e5abefce405b0::chunk::27::images_2278c702c619e66d77d748b54318e5abefce405b0",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/2278c702c619e66d77d748b54318e5abefce405b0d8cb3051f38ca5997827393.jpg)",
+      "image_path": "images/2278c702c619e66d77d748b54318e5abefce405b0d8cb3051f38ca5997827393.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::51::images_2278c702c619e66d77d748b54318e5abefce405b0",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::52::details_summary_text_image_summary_illustration_",
+      "label": "<details> <summary>text_image</summary> Illustration of a person presenting a bar chart with two colored bars (blue a...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::52::details_summary_text_image_summary_illustration_::chunk::28::details_summary_text_image_summary_illustration_",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nIllustration of a person presenting a bar chart with two colored bars (blue and pink) to indicate data or performance.\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::52::details_summary_text_image_summary_illustration_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::53::images_a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d",
+      "label": "![](images/a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d4b913308a786415f353d36e.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::53::images_a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d::chunk::29::images_a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d4b913308a786415f353d36e.jpg)",
+      "image_path": "images/a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d4b913308a786415f353d36e.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::53::images_a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::54::details_summary_text_image_summary_news_details",
+      "label": "<details> <summary>text_image</summary> NEWS </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::54::details_summary_text_image_summary_news_details::chunk::30::details_summary_text_image_summary_news_details",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nNEWS\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::54::details_summary_text_image_summary_news_details",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::55::images_22e72807a3bec77cbece4fb1a1ba0232838384a0d",
+      "label": "![](images/22e72807a3bec77cbece4fb1a1ba0232838384a0d988c62d19f3b295727567f9.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::55::images_22e72807a3bec77cbece4fb1a1ba0232838384a0d::chunk::31::images_22e72807a3bec77cbece4fb1a1ba0232838384a0d",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/22e72807a3bec77cbece4fb1a1ba0232838384a0d988c62d19f3b295727567f9.jpg)",
+      "image_path": "images/22e72807a3bec77cbece4fb1a1ba0232838384a0d988c62d19f3b295727567f9.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::55::images_22e72807a3bec77cbece4fb1a1ba0232838384a0d",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::56::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a person with hands on head and torso, showing an angry ex...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::56::details_summary_natural_image_summary_illustrati::chunk::32::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a person with hands on head and torso, showing an angry expression (no text or symbols present)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::56::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::61::images_eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e6",
+      "label": "![](images/eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e694cd5605e007ce7b4d165ad.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::61::images_eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e6::chunk::34::images_eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e6",
+      "page_idx": null,
+      "section_path": [
+        "RELATIONSHIPS"
+      ],
+      "text": "![](images/eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e694cd5605e007ce7b4d165ad.jpg)",
+      "image_path": "images/eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e694cd5605e007ce7b4d165ad.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::61::images_eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e6",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::62::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a couple in a cozy living room with books and a framed pho...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "RELATIONSHIPS"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a couple in a cozy living room with books and a framed photo on the wall (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::62::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::64::images_77ca5082d29c6200a02403e55072ff447bd1b7d67",
+      "label": "![](images/77ca5082d29c6200a02403e55072ff447bd1b7d6795c40cc1e4652e1d5b7c03f.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::64::images_77ca5082d29c6200a02403e55072ff447bd1b7d67::chunk::36::images_77ca5082d29c6200a02403e55072ff447bd1b7d67",
+      "page_idx": null,
+      "section_path": [
+        "WORK-LIFE BALANCE"
+      ],
+      "text": "![](images/77ca5082d29c6200a02403e55072ff447bd1b7d6795c40cc1e4652e1d5b7c03f.jpg)",
+      "image_path": "images/77ca5082d29c6200a02403e55072ff447bd1b7d6795c40cc1e4652e1d5b7c03f.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::64::images_77ca5082d29c6200a02403e55072ff447bd1b7d67",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::75::images_9633948039e9be3d1985cd225509e9e1df83ae3ee",
+      "label": "![](images/9633948039e9be3d1985cd225509e9e1df83ae3ee893fcd5c3b58ec00bfdecc3.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::75::images_9633948039e9be3d1985cd225509e9e1df83ae3ee::chunk::39::images_9633948039e9be3d1985cd225509e9e1df83ae3ee",
+      "page_idx": null,
+      "section_path": [
+        "MONEY"
+      ],
+      "text": "![](images/9633948039e9be3d1985cd225509e9e1df83ae3ee893fcd5c3b58ec00bfdecc3.jpg)",
+      "image_path": "images/9633948039e9be3d1985cd225509e9e1df83ae3ee893fcd5c3b58ec00bfdecc3.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::75::images_9633948039e9be3d1985cd225509e9e1df83ae3ee",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::76::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of two pink piggy banks with scattered gold coins (no text or...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "MONEY"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of two pink piggy banks with scattered gold coins (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::76::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::91::images_bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649",
+      "label": "![](images/bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649de452040685a9fa2d229b48.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::91::images_bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649::chunk::45::images_bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "![](images/bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649de452040685a9fa2d229b48.jpg)",
+      "image_path": "images/bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649de452040685a9fa2d229b48.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::91::images_bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::92::details_summary_natural_image_summary_elderly_ma",
+      "label": "<details> <summary>natural_image</summary> Elderly man sitting with hands on neck in a modern indoor setting (no visi...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::92::details_summary_natural_image_summary_elderly_ma::chunk::46::details_summary_natural_image_summary_elderly_ma",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nElderly man sitting with hands on neck in a modern indoor setting (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::92::details_summary_natural_image_summary_elderly_ma",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::93::images_d05ad0e2ce814d239c83c69dfddcc67b5ccefa976",
+      "label": "![](images/d05ad0e2ce814d239c83c69dfddcc67b5ccefa9761a9579d136a33c1393e688f.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::93::images_d05ad0e2ce814d239c83c69dfddcc67b5ccefa976::chunk::47::images_d05ad0e2ce814d239c83c69dfddcc67b5ccefa976",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "![](images/d05ad0e2ce814d239c83c69dfddcc67b5ccefa9761a9579d136a33c1393e688f.jpg)",
+      "image_path": "images/d05ad0e2ce814d239c83c69dfddcc67b5ccefa9761a9579d136a33c1393e688f.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::93::images_d05ad0e2ce814d239c83c69dfddcc67b5ccefa976",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::94::details_summary_natural_image_summary_abstract_p",
+      "label": "<details> <summary>natural_image</summary> Abstract pink geometric shape resembling a stylized letter or symbol (no t...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::94::details_summary_natural_image_summary_abstract_p::chunk::48::details_summary_natural_image_summary_abstract_p",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nAbstract pink geometric shape resembling a stylized letter or symbol (no text or symbols present)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::94::details_summary_natural_image_summary_abstract_p",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::98::images_058a91c556d4aa2a807d35dcdbca0015bc86f14e2",
+      "label": "![](images/058a91c556d4aa2a807d35dcdbca0015bc86f14e226afc8ad699e388c682ca2a.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::98::images_058a91c556d4aa2a807d35dcdbca0015bc86f14e2::chunk::51::images_058a91c556d4aa2a807d35dcdbca0015bc86f14e2",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "![](images/058a91c556d4aa2a807d35dcdbca0015bc86f14e226afc8ad699e388c682ca2a.jpg)",
+      "image_path": "images/058a91c556d4aa2a807d35dcdbca0015bc86f14e226afc8ad699e388c682ca2a.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::98::images_058a91c556d4aa2a807d35dcdbca0015bc86f14e2",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::99::details_summary_natural_image_summary_woman_wash",
+      "label": "<details> <summary>natural_image</summary> Woman washing dishes in a kitchen sink, wearing striped shirt and jeans (n...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::99::details_summary_natural_image_summary_woman_wash::chunk::52::details_summary_natural_image_summary_woman_wash",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nWoman washing dishes in a kitchen sink, wearing striped shirt and jeans (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::99::details_summary_natural_image_summary_woman_wash",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::104::images_9ffceb33a20433597bf5c11077029f7edebbf80c0",
+      "label": "![](images/9ffceb33a20433597bf5c11077029f7edebbf80c0483cd52016fbac6f6e16a82.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::104::images_9ffceb33a20433597bf5c11077029f7edebbf80c0::chunk::54::images_9ffceb33a20433597bf5c11077029f7edebbf80c0",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "![](images/9ffceb33a20433597bf5c11077029f7edebbf80c0483cd52016fbac6f6e16a82.jpg)",
+      "image_path": "images/9ffceb33a20433597bf5c11077029f7edebbf80c0483cd52016fbac6f6e16a82.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::104::images_9ffceb33a20433597bf5c11077029f7edebbf80c0",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::105::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a person meditating in a lotus pose with hands raised, nex...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::105::details_summary_natural_image_summary_illustrati::chunk::55::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a person meditating in a lotus pose with hands raised, next to a potted plant (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::105::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::107::images_ba45c68638026a72796d3b28d3c4423be5e844488",
+      "label": "![](images/ba45c68638026a72796d3b28d3c4423be5e84448815747e97ce2de4de4c01cd7.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::107::images_ba45c68638026a72796d3b28d3c4423be5e844488::chunk::57::images_ba45c68638026a72796d3b28d3c4423be5e844488",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "![](images/ba45c68638026a72796d3b28d3c4423be5e84448815747e97ce2de4de4c01cd7.jpg)",
+      "image_path": "images/ba45c68638026a72796d3b28d3c4423be5e84448815747e97ce2de4de4c01cd7.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::107::images_ba45c68638026a72796d3b28d3c4423be5e844488",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::108::details_summary_natural_image_summary_close_up_o",
+      "label": "<details> <summary>natural_image</summary> Close-up of hands gently holding an elderly person's hand, no visible text...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::108::details_summary_natural_image_summary_close_up_o::chunk::58::details_summary_natural_image_summary_close_up_o",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nClose-up of hands gently holding an elderly person's hand, no visible text or symbols\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::108::details_summary_natural_image_summary_close_up_o",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::125::images_3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fc",
+      "label": "![](images/3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fcf81a6dffc7621c45385c464.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::125::images_3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fc::chunk::66::images_3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fc",
+      "page_idx": null,
+      "section_path": [
+        "Specialist mental health services"
+      ],
+      "text": "![](images/3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fcf81a6dffc7621c45385c464.jpg)",
+      "image_path": "images/3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fcf81a6dffc7621c45385c464.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::125::images_3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fc",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::126::details_summary_natural_image_summary_person_sit",
+      "label": "<details> <summary>natural_image</summary> Person sitting on a sofa with hands typing on a tablet, another person par...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::126::details_summary_natural_image_summary_person_sit::chunk::67::details_summary_natural_image_summary_person_sit",
+      "page_idx": null,
+      "section_path": [
+        "Specialist mental health services"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nPerson sitting on a sofa with hands typing on a tablet, another person partially visible in background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::126::details_summary_natural_image_summary_person_sit",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::146::images_f0481022b1a00f10461530b27247d7a727adea402",
+      "label": "![](images/f0481022b1a00f10461530b27247d7a727adea402861c1bca457f345a54466d4.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::146::images_f0481022b1a00f10461530b27247d7a727adea402::chunk::70::images_f0481022b1a00f10461530b27247d7a727adea402",
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": "![](images/f0481022b1a00f10461530b27247d7a727adea402861c1bca457f345a54466d4.jpg)",
+      "image_path": "images/f0481022b1a00f10461530b27247d7a727adea402861c1bca457f345a54466d4.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::146::images_f0481022b1a00f10461530b27247d7a727adea402",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::147::details_summary_natural_image_summary_two_women_",
+      "label": "<details> <summary>natural_image</summary> Two women smiling while painting at a table with colorful glasses and brus...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::147::details_summary_natural_image_summary_two_women_::chunk::71::details_summary_natural_image_summary_two_women_",
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nTwo women smiling while painting at a table with colorful glasses and brushes (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::147::details_summary_natural_image_summary_two_women_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::150::images_42113675dba68d9fce3035eeed0954fecc5fe827b",
+      "label": "![](images/42113675dba68d9fce3035eeed0954fecc5fe827bbf8294105fc3063beec2364.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::150::images_42113675dba68d9fce3035eeed0954fecc5fe827b::chunk::73::images_42113675dba68d9fce3035eeed0954fecc5fe827b",
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": "![](images/42113675dba68d9fce3035eeed0954fecc5fe827bbf8294105fc3063beec2364.jpg)",
+      "image_path": "images/42113675dba68d9fce3035eeed0954fecc5fe827bbf8294105fc3063beec2364.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::150::images_42113675dba68d9fce3035eeed0954fecc5fe827b",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::166::images_8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c",
+      "label": "![](images/8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c312e3251909813dd6c2f317.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::166::images_8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c::chunk::76::images_8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "![](images/8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c312e3251909813dd6c2f317.jpg)",
+      "image_path": "images/8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c312e3251909813dd6c2f317.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::166::images_8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::167::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a woman in a blue sports outfit performing a yoga pose (no...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::167::details_summary_natural_image_summary_illustrati::chunk::77::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a woman in a blue sports outfit performing a yoga pose (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::167::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::192::images_d3fda0a9e140aff248795373200c84eaf3808246a",
+      "label": "![](images/d3fda0a9e140aff248795373200c84eaf3808246a527e502b4801ae0dd4ce2e7.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::192::images_d3fda0a9e140aff248795373200c84eaf3808246a::chunk::79::images_d3fda0a9e140aff248795373200c84eaf3808246a",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "![](images/d3fda0a9e140aff248795373200c84eaf3808246a527e502b4801ae0dd4ce2e7.jpg)",
+      "image_path": "images/d3fda0a9e140aff248795373200c84eaf3808246a527e502b4801ae0dd4ce2e7.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::192::images_d3fda0a9e140aff248795373200c84eaf3808246a",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::193::details_summary_text_image_summary_59_take_a_nap",
+      "label": "<details> <summary>text_image</summary> 59. Take a nap SALE </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::193::details_summary_text_image_summary_59_take_a_nap::chunk::80::details_summary_text_image_summary_59_take_a_nap",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\n59. Take a nap\nSALE\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::193::details_summary_text_image_summary_59_take_a_nap",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::201::images_1974fad8449f1b9fb4ac9fa4e893974a91385b908",
+      "label": "![](images/1974fad8449f1b9fb4ac9fa4e893974a91385b908bf70b1d78142aedf9d36db7.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::201::images_1974fad8449f1b9fb4ac9fa4e893974a91385b908::chunk::82::images_1974fad8449f1b9fb4ac9fa4e893974a91385b908",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "![](images/1974fad8449f1b9fb4ac9fa4e893974a91385b908bf70b1d78142aedf9d36db7.jpg)",
+      "image_path": "images/1974fad8449f1b9fb4ac9fa4e893974a91385b908bf70b1d78142aedf9d36db7.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::201::images_1974fad8449f1b9fb4ac9fa4e893974a91385b908",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::202::details_summary_natural_image_summary_two_women_",
+      "label": "<details> <summary>natural_image</summary> Two women sitting outdoors in a park, one wearing a hijab and the other in...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::202::details_summary_natural_image_summary_two_women_::chunk::83::details_summary_natural_image_summary_two_women_",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nTwo women sitting outdoors in a park, one wearing a hijab and the other in a coat (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::202::details_summary_natural_image_summary_two_women_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::212::images_f1126e2cee3b700750b32376ad4ea704d354707df",
+      "label": "![](images/f1126e2cee3b700750b32376ad4ea704d354707df563a538eb45499b038db7dc.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::212::images_f1126e2cee3b700750b32376ad4ea704d354707df::chunk::85::images_f1126e2cee3b700750b32376ad4ea704d354707df",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "![](images/f1126e2cee3b700750b32376ad4ea704d354707df563a538eb45499b038db7dc.jpg)",
+      "image_path": "images/f1126e2cee3b700750b32376ad4ea704d354707df563a538eb45499b038db7dc.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::212::images_f1126e2cee3b700750b32376ad4ea704d354707df",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::213::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a person cleaning a wall with a framed picture and bookshe...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::213::details_summary_natural_image_summary_illustrati::chunk::86::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a person cleaning a wall with a framed picture and bookshelf (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::213::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::216::images_1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43",
+      "label": "![](images/1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43925fa36992010b444f53fa1.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::216::images_1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43::chunk::88::images_1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "![](images/1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43925fa36992010b444f53fa1.jpg)",
+      "image_path": "images/1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43925fa36992010b444f53fa1.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::216::images_1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::217::details_summary_natural_image_summary_elderly_ma",
+      "label": "<details> <summary>natural_image</summary> Elderly man wearing a helmet and green shirt, smiling outdoors with trees...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::217::details_summary_natural_image_summary_elderly_ma::chunk::89::details_summary_natural_image_summary_elderly_ma",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nElderly man wearing a helmet and green shirt, smiling outdoors with trees in the background (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::217::details_summary_natural_image_summary_elderly_ma",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::226::images_948ac02a26eacdac253151f8335501c5b0d92c4c0",
+      "label": "![](images/948ac02a26eacdac253151f8335501c5b0d92c4c00f551eadd19fffc38729ae5.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::226::images_948ac02a26eacdac253151f8335501c5b0d92c4c0::chunk::91::images_948ac02a26eacdac253151f8335501c5b0d92c4c0",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "![](images/948ac02a26eacdac253151f8335501c5b0d92c4c00f551eadd19fffc38729ae5.jpg)",
+      "image_path": "images/948ac02a26eacdac253151f8335501c5b0d92c4c00f551eadd19fffc38729ae5.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::226::images_948ac02a26eacdac253151f8335501c5b0d92c4c0",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::227::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a teal-colored coffee mug with polka dots, containing dark...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::227::details_summary_natural_image_summary_illustrati::chunk::92::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a teal-colored coffee mug with polka dots, containing dark liquid (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::227::details_summary_natural_image_summary_illustrati",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::246::images_a9cfdf0e250c98e93a15a1cc82837a578bfd719b0",
+      "label": "![](images/a9cfdf0e250c98e93a15a1cc82837a578bfd719b077d19e8378e2b0c2d9182cb.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::246::images_a9cfdf0e250c98e93a15a1cc82837a578bfd719b0::chunk::96::images_a9cfdf0e250c98e93a15a1cc82837a578bfd719b0",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "![](images/a9cfdf0e250c98e93a15a1cc82837a578bfd719b077d19e8378e2b0c2d9182cb.jpg)",
+      "image_path": "images/a9cfdf0e250c98e93a15a1cc82837a578bfd719b077d19e8378e2b0c2d9182cb.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::246::images_a9cfdf0e250c98e93a15a1cc82837a578bfd719b0",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::247::details_summary_natural_image_summary_three_peop",
+      "label": "<details> <summary>natural_image</summary> Three people seated in a circle, engaged in conversation (no visible text...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::247::details_summary_natural_image_summary_three_peop::chunk::97::details_summary_natural_image_summary_three_peop",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nThree people seated in a circle, engaged in conversation (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::247::details_summary_natural_image_summary_three_peop",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::254::images_2d0e26dc74f915146fc88a2960bb48c7518a192e4",
+      "label": "![](images/2d0e26dc74f915146fc88a2960bb48c7518a192e488f402cc8350c480038477c.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::254::images_2d0e26dc74f915146fc88a2960bb48c7518a192e4::chunk::99::images_2d0e26dc74f915146fc88a2960bb48c7518a192e4",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "![](images/2d0e26dc74f915146fc88a2960bb48c7518a192e488f402cc8350c480038477c.jpg)",
+      "image_path": "images/2d0e26dc74f915146fc88a2960bb48c7518a192e488f402cc8350c480038477c.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::254::images_2d0e26dc74f915146fc88a2960bb48c7518a192e4",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::255::details_summary_natural_image_summary_abstract_g",
+      "label": "<details> <summary>natural_image</summary> Abstract graphic with curved white lines and a light blue rectangular bar...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::255::details_summary_natural_image_summary_abstract_g::chunk::100::details_summary_natural_image_summary_abstract_g",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nAbstract graphic with curved white lines and a light blue rectangular bar on a purple background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::255::details_summary_natural_image_summary_abstract_g",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::256::images_ab25bde59403dd18705e9fbb8e86135fc5fe9cee6",
+      "label": "![](images/ab25bde59403dd18705e9fbb8e86135fc5fe9cee6f299d6b5d5350052da8b601.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::256::images_ab25bde59403dd18705e9fbb8e86135fc5fe9cee6::chunk::101::images_ab25bde59403dd18705e9fbb8e86135fc5fe9cee6",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "![](images/ab25bde59403dd18705e9fbb8e86135fc5fe9cee6f299d6b5d5350052da8b601.jpg)",
+      "image_path": "images/ab25bde59403dd18705e9fbb8e86135fc5fe9cee6f299d6b5d5350052da8b601.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::256::images_ab25bde59403dd18705e9fbb8e86135fc5fe9cee6",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::257::details_summary_natural_image_summary_abstract_g",
+      "label": "<details> <summary>natural_image</summary> Abstract geometric logo with stylized letter M inside a circle (no text or...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::257::details_summary_natural_image_summary_abstract_g::chunk::102::details_summary_natural_image_summary_abstract_g",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nAbstract geometric logo with stylized letter M inside a circle (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::257::details_summary_natural_image_summary_abstract_g",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc11::artifact::260::images_58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee8001",
+      "label": "![](images/58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee80016d3d5d77cb00c72dc824a35.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::260::images_58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee8001::chunk::104::images_58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee8001",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "![](images/58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee80016d3d5d77cb00c72dc824a35.jpg)",
+      "image_path": "images/58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee80016d3d5d77cb00c72dc824a35.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::image::260::images_58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee8001",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc11::artifact::261::details_summary_natural_image_summary_abstract_c",
+      "label": "<details> <summary>natural_image</summary> Abstract cloud-like shapes in light blue and white against a solid purple...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::261::details_summary_natural_image_summary_abstract_c::chunk::105::details_summary_natural_image_summary_abstract_c",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nAbstract cloud-like shapes in light blue and white against a solid purple background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc11::details::261::details_summary_natural_image_summary_abstract_c",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    }
+  ]
+}

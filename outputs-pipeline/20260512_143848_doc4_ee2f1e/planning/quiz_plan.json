@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "Demography",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A map showing population distribution across different regions.",
+    "learning_objective": "Understand the key factors studied in demography.",
+    "tested_fact_block_id": "doc4::chunk::0",
+    "metadata": {}
+  },
+  {
+    "target_concept": "relationship between human societies and earth’s surface",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A map showing the distribution of human settlements in relation to natural features like rivers and mountains.",
+    "learning_objective": "Understand the dynamic relationship between human societies and the physical environment.",
+    "tested_fact_block_id": "doc4::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "geography",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A world map highlighting various physical features such as mountains, rivers, and deserts.",
+    "learning_objective": "Understand the fundamental definition of geography.",
+    "tested_fact_block_id": "doc4::concept::1::geography",
+    "metadata": {}
+  },
+  {
+    "target_concept": "natural laws",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the relationship between natural laws and scientific principles.",
+    "learning_objective": "Understand the definition and scope of natural laws in the context of technology and science.",
+    "tested_fact_block_id": "doc4::chunk::44::natural_laws",
+    "metadata": {}
+  },
+  {
+    "target_concept": "humanisation of nature",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing human modifications to a natural landscape, such as agriculture and urban development.",
+    "learning_objective": "Understand the definition and implications of the humanisation of nature.",
+    "tested_fact_block_id": "doc4::concept::54::humanisation_of_nature",
+    "metadata": {}
+  }
+]

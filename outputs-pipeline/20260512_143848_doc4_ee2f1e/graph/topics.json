@@ -1,0 +1,510 @@
+{
+  "count": 10,
+  "topics": [
+    {
+      "id": "doc4::topic_candidate::anchor::2::population_geography",
+      "label": "Population Geography",
+      "description": "Concept-anchored topic centered on Population Geography",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::2::physical_geography",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::7::dualism",
+        "doc4::concept::96::political_science",
+        "doc4::concept::99::demography"
+      ],
+      "chunk_ids": [
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::2::physical_geography"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 1.0,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 1.0
+      },
+      "metadata": {
+        "anchor_concept_id": "doc4::concept::2::physical_geography"
+      }
+    },
+    {
+      "id": "doc4::topic_candidate::anchor::1::technology",
+      "label": "Technology",
+      "description": "Concept-anchored topic centered on technology",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::42::technology",
+        "doc4::concept::43::cultural_development",
+        "doc4::concept::44::natural_laws"
+      ],
+      "chunk_ids": [
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::42::technology",
+        "doc4::concept::43::cultural_development",
+        "doc4::concept::44::natural_laws"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.91
+      },
+      "metadata": {
+        "anchor_concept_id": "doc4::concept::42::technology",
+        "merged_candidate_ids": [
+          "doc4::topic_candidate::anchor::4::cultural_development",
+          "doc4::topic_candidate::anchor::5::natural_laws"
+        ]
+      }
+    },
+    {
+      "id": "doc4::topic_candidate::section::2::human_geography_defined",
+      "label": "Human Geography Defined",
+      "description": "Section-seeded topic for Human Geography Defined",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Human Geography Defined"
+        ],
+        [
+          "Nature and Scope"
+        ],
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::23::synthetic_study",
+        "doc4::concept::24::relationship_between_human_societies_and_earth_s",
+        "doc4::concept::25::dynamism",
+        "doc4::concept::26::interrelationships_between_earth_and_human_being",
+        "doc4::concept::27::socio_cultural_environment",
+        "doc4::concept::2::physical_geography",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::4::physical_environment",
+        "doc4::concept::7::dualism",
+        "doc4::concept::93::history"
+      ],
+      "chunk_ids": [
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::23::synthetic_study",
+        "doc4::concept::24::relationship_between_human_societies_and_earth_s",
+        "doc4::concept::27::socio_cultural_environment",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::4::physical_environment"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.636,
+        "breadth_score": 0.5,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.723
+      },
+      "metadata": {
+        "section_id": "doc4::section::11::human_geography_defined",
+        "source_section_label": "Human Geography Defined",
+        "merged_candidate_ids": [
+          "doc4::topic_candidate::anchor::0::historical_geography",
+          "doc4::topic_candidate::anchor::3::physical_environment",
+          "doc4::topic_candidate::anchor::6::geography",
+          "doc4::topic_candidate::anchor::10::synthetic_study",
+          "doc4::topic_candidate::anchor::11::socio_cultural_environment"
+        ]
+      }
+    },
+    {
+      "id": "doc4::topic_candidate::anchor::7::behavioural_school_of_thought",
+      "label": "Behavioural school of thought",
+      "description": "Concept-anchored topic centered on Behavioural school of thought",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::58::behavioural_school_of_thought",
+        "doc4::concept::59::lived_experience",
+        "doc4::concept::60::perception_of_space",
+        "doc4::concept::61::social_categories"
+      ],
+      "chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::58::behavioural_school_of_thought",
+        "doc4::concept::60::perception_of_space"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.765
+      },
+      "metadata": {
+        "anchor_concept_id": "doc4::concept::58::behavioural_school_of_thought",
+        "merged_candidate_ids": [
+          "doc4::topic_candidate::anchor::8::perception_of_space"
+        ]
+      }
+    },
+    {
+      "id": "doc4::topic_candidate::section::5::the_naturalisation_of_humans",
+      "label": "The Naturalisation of Humans",
+      "description": "Section-seeded topic for The Naturalisation of Humans",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The Naturalisation of Humans"
+        ],
+        [
+          "Naturalisation of Humans and Humanisation of Nature"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::27::socio_cultural_environment",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::42::technology",
+        "doc4::concept::43::cultural_development",
+        "doc4::concept::44::natural_laws",
+        "doc4::concept::45::friction",
+        "doc4::concept::46::heat",
+        "doc4::concept::47::fire",
+        "doc4::concept::49::genetics",
+        "doc4::concept::4::physical_environment",
+        "doc4::concept::50::aerodynamics",
+        "doc4::concept::51::environmental_determinism"
+      ],
+      "chunk_ids": [
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+        "doc4::paragraph::23::human_beings_interact_with_their_physical_enviro::chunk::14::human_beings_interact_with_their_physical_enviro",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::15::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::24::technology_indicates_the_level_of_cultural_devel::chunk::16::technology_indicates_the_level_of_cultural_devel",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::3::human_geography",
+        "doc4::concept::42::technology",
+        "doc4::concept::43::cultural_development",
+        "doc4::concept::44::natural_laws",
+        "doc4::concept::4::physical_environment"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc4::section::25::the_naturalisation_of_humans",
+        "source_section_label": "The Naturalisation of Humans",
+        "merged_candidate_ids": [
+          "doc4::topic_candidate::section::4::naturalisation_of_humans_and_humanisation_of_nature"
+        ]
+      }
+    },
+    {
+      "id": "doc4::topic_candidate::section::1::nature_and_scope",
+      "label": "Nature and Scope",
+      "description": "Section-seeded topic for Nature and Scope",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Nature and Scope"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::21::living_organism",
+        "doc4::concept::22::arteries_of_circulation",
+        "doc4::concept::23::synthetic_study",
+        "doc4::concept::2::physical_geography",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::4::physical_environment",
+        "doc4::concept::5::spatial_distributions",
+        "doc4::concept::6::social_and_economic_differences",
+        "doc4::concept::7::dualism",
+        "doc4::concept::8::nomothetic",
+        "doc4::concept::9::idiographic"
+      ],
+      "chunk_ids": [
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::10::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::2::physical_geography",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::4::physical_environment"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc4::section::4::nature_and_scope",
+        "source_section_label": "Nature and Scope"
+      }
+    },
+    {
+      "id": "doc4::topic_candidate::section::7::fields_and_sub_fields_of_human_geography",
+      "label": "Fields and Sub-fields of Human Geography",
+      "description": "Section-seeded topic for Fields and Sub-fields of Human Geography",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::100::economics",
+        "doc4::concept::2::physical_geography",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::58::behavioural_school_of_thought",
+        "doc4::concept::68::quantitative_revolution",
+        "doc4::concept::71::behavioural_schools",
+        "doc4::concept::78::gender_geography",
+        "doc4::concept::79::medical_geography",
+        "doc4::concept::81::electoral_geography",
+        "doc4::concept::85::geography_of_marketing",
+        "doc4::concept::88::sociology",
+        "doc4::concept::91::anthropology"
+      ],
+      "chunk_ids": [
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+        "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::2::physical_geography",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::58::behavioural_school_of_thought"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc4::section::37::fields_and_sub_fields_of_human_geography",
+        "source_section_label": "Fields and Sub-fields of Human Geography"
+      }
+    },
+    {
+      "id": "doc4::topic_candidate::anchor::9::behavioural_schools",
+      "label": "Behavioural schools",
+      "description": "Concept-anchored topic centered on behavioural schools",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Fields and Sub-fields of Human Geography"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::100::economics",
+        "doc4::concept::104::commerce",
+        "doc4::concept::68::quantitative_revolution",
+        "doc4::concept::69::humanistic_schools",
+        "doc4::concept::70::radical_schools",
+        "doc4::concept::71::behavioural_schools",
+        "doc4::concept::72::post_modernism_in_geography",
+        "doc4::concept::85::geography_of_marketing"
+      ],
+      "chunk_ids": [
+        "doc4::paragraph::42::table_tr_td_1930s_through_the_inter_war_period_t::chunk::27::table_tr_td_1930s_through_the_inter_war_period_t",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::71::behavioural_schools"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.25,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.677
+      },
+      "metadata": {
+        "anchor_concept_id": "doc4::concept::71::behavioural_schools"
+      }
+    },
+    {
+      "id": "doc4::topic_candidate::section::3::nature_of_human_geography",
+      "label": "NATURE OF HUMAN GEOGRAPHY",
+      "description": "Section-seeded topic for NATURE OF HUMAN GEOGRAPHY",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "NATURE OF HUMAN GEOGRAPHY"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::27::socio_cultural_environment",
+        "doc4::concept::33::flora_and_fauna",
+        "doc4::concept::34::houses",
+        "doc4::concept::35::villages",
+        "doc4::concept::36::cities",
+        "doc4::concept::37::road_rail_networks",
+        "doc4::concept::38::industries",
+        "doc4::concept::39::farms",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::40::ports",
+        "doc4::concept::41::material_culture",
+        "doc4::concept::4::physical_environment"
+      ],
+      "chunk_ids": [
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+        "doc4::paragraph::10::we_often_talk_of_the_face_of_the_earth_eye_of_th::chunk::11::we_often_talk_of_the_face_of_the_earth_eye_of_th",
+        "doc4::paragraph::19::human_geography_offers_a_new_conception_of_the_i::chunk::12::human_geography_offers_a_new_conception_of_the_i",
+        "doc4::paragraph::21::human_geography_studies_the_inter_relationship_b::chunk::13::human_geography_studies_the_inter_relationship_b",
+        "doc4::paragraph::43::table_1_2_human_geography_and_sister_disciplines::chunk::28::table_1_2_human_geography_and_sister_disciplines",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::7::you_have_already_studied_geography_as_a_discipli",
+        "doc4::paragraph::7::you_have_already_studied_geography_as_a_discipli::chunk::8::you_have_already_studied_geography_as_a_discipli"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::27::socio_cultural_environment",
+        "doc4::concept::3::human_geography",
+        "doc4::concept::4::physical_environment"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.583,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.674
+      },
+      "metadata": {
+        "section_id": "doc4::section::20::nature_of_human_geography",
+        "source_section_label": "NATURE OF HUMAN GEOGRAPHY"
+      }
+    },
+    {
+      "id": "doc4::topic_candidate::section::6::humanisation_of_nature",
+      "label": "Humanisation of Nature",
+      "description": "Section-seeded topic for Humanisation of Nature",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Humanisation of Nature"
+        ]
+      ],
+      "concept_ids": [
+        "doc4::concept::52::possibilism",
+        "doc4::concept::53::cultural_landscape",
+        "doc4::concept::54::humanisation_of_nature",
+        "doc4::concept::55::radical_school_of_thought",
+        "doc4::concept::56::marxian_theory",
+        "doc4::concept::57::capitalism",
+        "doc4::concept::58::behavioural_school_of_thought",
+        "doc4::concept::59::lived_experience",
+        "doc4::concept::60::perception_of_space",
+        "doc4::concept::61::social_categories",
+        "doc4::concept::63::race",
+        "doc4::concept::64::religion"
+      ],
+      "chunk_ids": [
+        "doc4::list_item::35::radical_school_of_thought_employed_marxian_theor::chunk::24::radical_school_of_thought_employed_marxian_theor",
+        "doc4::list_item::36::behavioural_school_of_thought_laid_great_emphasi::chunk::25::behavioural_school_of_thought_laid_great_emphasi",
+        "doc4::paragraph::28::the_people_begin_to_understand_their_environment::chunk::20::the_people_begin_to_understand_their_environment"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc4::concept::58::behavioural_school_of_thought",
+        "doc4::concept::59::lived_experience",
+        "doc4::concept::60::perception_of_space"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.25,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.557
+      },
+      "metadata": {
+        "section_id": "doc4::section::29::humanisation_of_nature",
+        "source_section_label": "Humanisation of Nature"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_count": 19,
+    "consolidated_count": 10,
+    "accepted_count": 10
+  }
+}

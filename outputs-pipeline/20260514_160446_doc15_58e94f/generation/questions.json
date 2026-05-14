@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_94337ac909",
+    "question_text": "According to the Classical Theory of Concepts, what defines a category?",
+    "options": [
+      "A set of necessary and sufficient conditions that all members must satisfy",
+      "A prototype that best represents the category",
+      "A family resemblance among members without strict rules",
+      "A statistical analysis of common features among members"
+    ],
+    "correct_answer": "A set of necessary and sufficient conditions that all members must satisfy",
+    "explanation": "The Classical Theory of Concepts posits that categories are defined by strict, shared features (necessary and sufficient conditions) that all members must possess. This is distinct from prototype or family resemblance theories. (doc15::concept::41::classical_theory_of_concepts)",
+    "target_concept": "Classical Theory of Concepts",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc15::concept::41::classical_theory_of_concepts",
+      "run_id": "20260514_160446_doc15_58e94f"
+    }
+  },
+  {
+    "id": "q_d99b004bae",
+    "question_text": "What do attributes represent in the context of an individual entity?",
+    "options": [
+      "A. The actions an entity can perform",
+      "B. The characteristics or properties of the entity",
+      "C. The relationships between entities",
+      "D. The unique identifier of the entity"
+    ],
+    "correct_answer": "B",
+    "explanation": "Attributes represent the characteristics or properties of an individual entity, such as 'name', 'age', or 'color'. This is a fundamental concept in understanding how entities are described in data models. (Source: doc15::chunk::1)",
+    "target_concept": "attributes",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc15::chunk::1",
+      "run_id": "20260514_160446_doc15_58e94f"
+    }
+  },
+  {
+    "id": "q_e9ff99ffbb",
+    "question_text": "Which of the following is an example of a contingent attribute of a 'car'?",
+    "options": [
+      "Having four wheels",
+      "Being a mode of transportation",
+      "Having a red paint color",
+      "Having an engine"
+    ],
+    "correct_answer": "Having a red paint color",
+    "explanation": "A contingent attribute is a characteristic that an object can possess but is not necessary for its identity. The color of a car is contingent because a car can exist in any color, whereas essential attributes like having wheels or an engine are fundamental to its nature. (Source: doc15::concept::23::contingent_attributes)",
+    "target_concept": "contingent attributes",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc15::concept::23::contingent_attributes",
+      "run_id": "20260514_160446_doc15_58e94f"
+    }
+  },
+  {
+    "id": "q_ef679d7264",
+    "question_text": "What is the definition of social experience?",
+    "options": [
+      "A. An individual's personal thoughts and feelings",
+      "B. Interactions and relationships between individuals in a society",
+      "C. A person's physical surroundings and environment",
+      "D. The process of learning new skills independently"
+    ],
+    "correct_answer": "B",
+    "explanation": "Social experience refers to the interactions and relationships between individuals in a society, as outlined in doc15::concept::24::social_experience.",
+    "target_concept": "social experience",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc15::concept::24::social_experience",
+      "run_id": "20260514_160446_doc15_58e94f"
+    }
+  },
+  {
+    "id": "q_094f992283",
+    "question_text": "What is the primary purpose of a concept in cognitive processes?",
+    "options": [
+      "A. To represent a specific physical object",
+      "B. To categorize and generalize ideas or objects",
+      "C. To describe emotional states exclusively",
+      "D. To measure quantitative data"
+    ],
+    "correct_answer": "B",
+    "explanation": "A concept is an abstract idea or mental representation that helps categorize and generalize objects, events, or ideas, as defined in doc15::concept::26::concepts.",
+    "target_concept": "concepts",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc15::concept::26::concepts",
+      "run_id": "20260514_160446_doc15_58e94f"
+    }
+  }
+]

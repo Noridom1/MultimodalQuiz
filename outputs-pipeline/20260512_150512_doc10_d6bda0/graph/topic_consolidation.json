@@ -1,0 +1,1342 @@
+{
+  "count": 24,
+  "topics": [
+    {
+      "id": "doc10::topic_candidate::anchor::1::virtual_machine_vm",
+      "label": "Virtual machine (VM)",
+      "description": "Concept-anchored topic centered on Virtual machine (VM)",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::75::nginx",
+        "doc10::concept::81::docker_toolbox",
+        "doc10::concept::82::ip_address",
+        "doc10::concept::83::file_system_path"
+      ],
+      "chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::169::docker_rmi_f_hello_world::chunk::42::docker_rmi_f_hello_world",
+        "doc10::paragraph::182::thus_your_html_les_replace_default_ones_of_nginx::chunk::43::thus_your_html_les_replace_default_ones_of_nginx",
+        "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces",
+        "doc10::paragraph::201::try_v_mnt_c_users_with_wsl_terminal::chunk::45::try_v_mnt_c_users_with_wsl_terminal",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc10::concept::3::virtual_machine"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.97
+      },
+      "metadata": {
+        "anchor_concept_id": "doc10::concept::3::virtual_machine"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::anchor::6::hardware_cpu_ram_i_o",
+      "label": "Hardware (CPU, RAM, I/O)",
+      "description": "Concept-anchored topic centered on Hardware (CPU, RAM, I/O)",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::10::hypervisor_vmm",
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::15::virtual_hardware",
+        "doc10::concept::16::virtual_machines_vms",
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager",
+        "doc10::concept::61::image",
+        "doc10::concept::9::host_os"
+      ],
+      "chunk_ids": [
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+        "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::47::maybe_you_need_double_slashes",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::8::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::10::hypervisor_vmm",
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::9::host_os"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.5,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.85
+      },
+      "metadata": {
+        "anchor_concept_id": "doc10::concept::14::hardware_cpu_ram_i_o",
+        "merged_candidate_ids": [
+          "doc10::topic_candidate::anchor::11::hypervisor_vmm",
+          "doc10::topic_candidate::anchor::3::host_os"
+        ]
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::anchor::7::container_manager",
+      "label": "Container manager",
+      "description": "Concept-anchored topic centered on Container manager",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::10::hypervisor_vmm",
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager",
+        "doc10::concept::63::kubernetes",
+        "doc10::concept::65::load_balancer",
+        "doc10::concept::9::host_os"
+      ],
+      "chunk_ids": [
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::8::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::21::container_manager"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.94
+      },
+      "metadata": {
+        "anchor_concept_id": "doc10::concept::21::container_manager"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::0::docker_introduction",
+      "label": "Docker Introduction \\*",
+      "description": "Section-seeded topic for Docker Introduction \\*",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Docker Introduction \\*"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::0::jens_lechtenb_rger",
+        "doc10::concept::1::data_science_winter_school_2023",
+        "doc10::concept::2::virtualization_software"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::1::jens_lechtenb_rger::chunk::0::jens_lechtenb_rger",
+        "doc10::paragraph::2::data_science_winter_school_2023::chunk::1::data_science_winter_school_2023",
+        "doc10::paragraph::2::data_science_winter_school_2023::chunk::2::data_science_winter_school_2023",
+        "doc10::paragraph::2::data_science_winter_school_2023::chunk::3::data_science_winter_school_2023"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc10::concept::0::jens_lechtenb_rger",
+        "doc10::concept::1::data_science_winter_school_2023"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.91
+      },
+      "metadata": {
+        "section_id": "doc10::section::0::docker_introduction",
+        "source_section_label": "Docker Introduction \\*"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::anchor::5::gitops",
+      "label": "GitOps",
+      "description": "Concept-anchored topic centered on GitOps",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Outlook"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::91::gitops",
+        "doc10::concept::92::self_service_it",
+        "doc10::concept::94::infrastructure_as_code_iac"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc10::concept::91::gitops",
+        "doc10::concept::92::self_service_it",
+        "doc10::concept::94::infrastructure_as_code_iac"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.91
+      },
+      "metadata": {
+        "anchor_concept_id": "doc10::concept::91::gitops",
+        "merged_candidate_ids": [
+          "doc10::topic_candidate::anchor::9::self_service_it",
+          "doc10::topic_candidate::anchor::10::infrastructure_as_code_iac"
+        ]
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::anchor::0::container",
+      "label": "Container",
+      "description": "Concept-anchored topic centered on Container",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager",
+        "doc10::concept::22::os_interface",
+        "doc10::concept::23::os_kernel",
+        "doc10::concept::24::external_libraries",
+        "doc10::concept::25::application",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::61::image",
+        "doc10::concept::63::kubernetes",
+        "doc10::concept::9::host_os"
+      ],
+      "chunk_ids": [
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+        "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::8::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.3,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.79
+      },
+      "metadata": {
+        "anchor_concept_id": "doc10::concept::20::container",
+        "merged_candidate_ids": [
+          "doc10::topic_candidate::section::4::motivation_2_2"
+        ]
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::anchor::2::containers",
+      "label": "Containers",
+      "description": "Concept-anchored topic centered on containers",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "History (2/2)"
+        ],
+        [
+          "Summary"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::10::hypervisor_vmm",
+        "doc10::concept::15::virtual_hardware",
+        "doc10::concept::16::virtual_machines_vms",
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::23::os_kernel",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::32::ibm_mainframes",
+        "doc10::concept::35::server_consolidation",
+        "doc10::concept::36::containers",
+        "doc10::concept::37::lightweight_virtualization",
+        "doc10::concept::54::java_vm",
+        "doc10::concept::66::dockerfile"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o",
+        "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::47::maybe_you_need_double_slashes",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::14::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::8::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::16::virtual_machines_vms",
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::23::os_kernel",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::36::containers"
+      ],
+      "scores": {
+        "coherence_score": 0.7,
+        "grounding_score": 0.933,
+        "breadth_score": 0.1,
+        "distinctness_score": 0.64,
+        "pedagogical_usefulness": 0.602
+      },
+      "metadata": {
+        "anchor_concept_id": "doc10::concept::36::containers",
+        "merged_candidate_ids": [
+          "doc10::topic_candidate::section::30::summary",
+          "doc10::topic_candidate::section::9::history_2_2"
+        ]
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::anchor::4::virtual_machines_vms",
+      "label": "Virtual Machines (VMs)",
+      "description": "Concept-anchored topic centered on Virtual Machines (VMs)",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::10::hypervisor_vmm",
+        "doc10::concept::15::virtual_hardware",
+        "doc10::concept::16::virtual_machines_vms",
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::19::docker",
+        "doc10::concept::23::os_kernel",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::35::server_consolidation",
+        "doc10::concept::36::containers",
+        "doc10::concept::66::dockerfile"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o",
+        "doc10::paragraph::146::run_apt_get_update_apt_get_no_install_recommends::chunk::38::run_apt_get_update_apt_get_no_install_recommends",
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::39::which_conditions_for_virtualization_as_de_ned_in",
+        "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::47::maybe_you_need_double_slashes",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::8::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::16::virtual_machines_vms"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc10::concept::16::virtual_machines_vms"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::anchor::8::java_vm",
+      "label": "Java VM",
+      "description": "Concept-anchored topic centered on Java VM",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Review Question"
+        ],
+        [
+          "Virtualization"
+        ],
+        [
+          "History (1/2)"
+        ],
+        [
+          "Containerization"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::23::os_kernel",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::30::web_solid_server",
+        "doc10::concept::31::docker_files",
+        "doc10::concept::32::ibm_mainframes",
+        "doc10::concept::34::multitasking_oss",
+        "doc10::concept::35::server_consolidation",
+        "doc10::concept::36::containers",
+        "doc10::concept::54::java_vm",
+        "doc10::concept::84::devops"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::14::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::32::ibm_mainframes",
+        "doc10::concept::34::multitasking_oss",
+        "doc10::concept::54::java_vm"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.857,
+        "breadth_score": 0.2,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.71
+      },
+      "metadata": {
+        "anchor_concept_id": "doc10::concept::54::java_vm",
+        "merged_candidate_ids": [
+          "doc10::topic_candidate::section::7::virtualization",
+          "doc10::topic_candidate::section::8::history_1_2",
+          "doc10::topic_candidate::section::16::containerization"
+        ]
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::3::motivation_1_2",
+      "label": "Motivation (1/2)",
+      "description": "Section-seeded topic for Motivation (1/2)",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::10::hypervisor_vmm",
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::15::virtual_hardware",
+        "doc10::concept::16::virtual_machines_vms",
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::1::data_science_winter_school_2023",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::36::containers",
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::9::host_os"
+      ],
+      "chunk_ids": [
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization",
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::8::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::1::data_science_winter_school_2023",
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::9::host_os"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "section_id": "doc10::section::5::motivation_1_2",
+        "source_section_label": "Motivation (1/2)"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::18::layering_with_containerization",
+      "label": "Layering with Containerization",
+      "description": "Section-seeded topic for Layering with Containerization",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Layering with Containerization"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::10::hypervisor_vmm",
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager",
+        "doc10::concept::24::external_libraries",
+        "doc10::concept::59::localized_changes",
+        "doc10::concept::60::layering_with_containerization",
+        "doc10::concept::61::image",
+        "doc10::concept::63::kubernetes",
+        "doc10::concept::9::host_os"
+      ],
+      "chunk_ids": [
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+        "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::8::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::20::container",
+        "doc10::concept::9::host_os"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "section_id": "doc10::section::123::layering_with_containerization",
+        "source_section_label": "Layering with Containerization"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::19::selected_technologies",
+      "label": "Selected Technologies",
+      "description": "Section-seeded topic for Selected Technologies",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Selected Technologies"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::31::docker_files",
+        "doc10::concept::61::image",
+        "doc10::concept::62::registries",
+        "doc10::concept::63::kubernetes",
+        "doc10::concept::65::load_balancer",
+        "doc10::concept::9::host_os"
+      ],
+      "chunk_ids": [
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::8::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "section_id": "doc10::section::127::selected_technologies",
+        "source_section_label": "Selected Technologies"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::32::bibliography",
+      "label": "Bibliography",
+      "description": "Section-seeded topic for Bibliography",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Bibliography"
+        ],
+        [
+          "License Information"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::88::communication_and_collaboration",
+        "doc10::concept::89::continuous_integration_ci",
+        "doc10::concept::90::continuous_deployment_cd",
+        "doc10::concept::91::gitops",
+        "doc10::concept::92::self_service_it",
+        "doc10::concept::93::pull_requests_prs",
+        "doc10::concept::94::infrastructure_as_code_iac"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc10::concept::91::gitops",
+        "doc10::concept::92::self_service_it",
+        "doc10::concept::94::infrastructure_as_code_iac"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.429,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.77
+      },
+      "metadata": {
+        "section_id": "doc10::section::226::bibliography",
+        "source_section_label": "Bibliography",
+        "merged_candidate_ids": [
+          "doc10::topic_candidate::section::33::license_information"
+        ]
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::5::learning_objectives",
+      "label": "Learning Objectives",
+      "description": "Section-seeded topic for Learning Objectives",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Learning Objectives"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager",
+        "doc10::concept::23::os_kernel",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::28::isolation",
+        "doc10::concept::29::layering",
+        "doc10::concept::36::containers",
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::54::java_vm",
+        "doc10::concept::63::kubernetes"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::27::virtualization"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc10::section::25::learning_objectives",
+        "source_section_label": "Learning Objectives"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::6::core_questions",
+      "label": "Core Questions",
+      "description": "Section-seeded topic for Core Questions",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Core Questions"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::23::os_kernel",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::30::web_solid_server",
+        "doc10::concept::31::docker_files",
+        "doc10::concept::35::server_consolidation",
+        "doc10::concept::36::containers",
+        "doc10::concept::54::java_vm",
+        "doc10::concept::61::image"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::31::docker_files"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc10::section::29::core_questions",
+        "source_section_label": "Core Questions"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::17::basics",
+      "label": "Basics",
+      "description": "Section-seeded topic for Basics",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Basics"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::23::os_kernel",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::36::containers",
+        "doc10::concept::54::java_vm",
+        "doc10::concept::55::kernel_namespaces",
+        "doc10::concept::56::control_groups_cgroups",
+        "doc10::concept::57::copy_on_write",
+        "doc10::concept::58::unionfs"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::47::maybe_you_need_double_slashes",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::54::java_vm"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc10::section::112::basics",
+        "source_section_label": "Basics"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::20::on_images",
+      "label": "On Images",
+      "description": "Section-seeded topic for On Images",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "On Images"
+        ],
+        [
+          "Review Question"
+        ],
+        [
+          "Docker"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::16::virtual_machines_vms",
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::35::server_consolidation",
+        "doc10::concept::36::containers",
+        "doc10::concept::54::java_vm",
+        "doc10::concept::63::kubernetes",
+        "doc10::concept::66::dockerfile",
+        "doc10::concept::67::images",
+        "doc10::concept::70::bash"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+        "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::16::virtual_machines_vms",
+        "doc10::concept::19::docker",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::54::java_vm",
+        "doc10::concept::66::dockerfile"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.857,
+        "breadth_score": 0.2,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.71
+      },
+      "metadata": {
+        "section_id": "doc10::section::139::on_images",
+        "source_section_label": "On Images",
+        "merged_candidate_ids": [
+          "doc10::topic_candidate::section::21::review_question",
+          "doc10::topic_candidate::section::22::docker"
+        ]
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::23::docker_installation",
+      "label": "Docker Installation",
+      "description": "Section-seeded topic for Docker Installation",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Docker Installation"
+        ],
+        [
+          "On Option -v"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::16::virtual_machines_vms",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::63::kubernetes",
+        "doc10::concept::66::dockerfile",
+        "doc10::concept::68::community_edition",
+        "doc10::concept::70::bash",
+        "doc10::concept::71::docker_run",
+        "doc10::concept::75::nginx",
+        "doc10::concept::79::powershell",
+        "doc10::concept::80::wsl_terminal"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+        "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o",
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::40::which_conditions_for_virtualization_as_de_ned_in",
+        "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+        "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::68::community_edition",
+        "doc10::concept::70::bash",
+        "doc10::concept::75::nginx"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.857,
+        "breadth_score": 0.2,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.71
+      },
+      "metadata": {
+        "section_id": "doc10::section::150::docker_installation",
+        "source_section_label": "Docker Installation",
+        "merged_candidate_ids": [
+          "doc10::topic_candidate::section::27::on_option_v"
+        ]
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::31::outlook",
+      "label": "Outlook",
+      "description": "Section-seeded topic for Outlook",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Outlook"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::20::container",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::84::devops",
+        "doc10::concept::87::operations",
+        "doc10::concept::88::communication_and_collaboration",
+        "doc10::concept::89::continuous_integration_ci",
+        "doc10::concept::90::continuous_deployment_cd",
+        "doc10::concept::91::gitops",
+        "doc10::concept::92::self_service_it",
+        "doc10::concept::93::pull_requests_prs",
+        "doc10::concept::94::infrastructure_as_code_iac"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean"
+      ],
+      "artifact_ids": [
+        "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::91::gitops",
+        "doc10::concept::94::infrastructure_as_code_iac"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc10::section::220::outlook",
+        "source_section_label": "Outlook"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::13::layering_with_virtualization",
+      "label": "Layering with Virtualization",
+      "description": "Section-seeded topic for Layering with Virtualization",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Layering with Virtualization"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::41::hypervisor_privilege_escalation",
+        "doc10::concept::42::cross_vm_side_channel_attacks"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::90::e_g_hypervisor_privilege_escalation_and_cross_vm::chunk::20::e_g_hypervisor_privilege_escalation_and_cross_vm"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc10::concept::41::hypervisor_privilege_escalation",
+        "doc10::concept::42::cross_vm_side_channel_attacks"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "section_id": "doc10::section::91::layering_with_virtualization",
+        "source_section_label": "Layering with Virtualization"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::10::intuition_and_examples",
+      "label": "Intuition and Examples",
+      "description": "Section-seeded topic for Intuition and Examples",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Intuition and Examples"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::16::virtual_machines_vms",
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::23::os_kernel",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::35::server_consolidation",
+        "doc10::concept::36::containers",
+        "doc10::concept::37::lightweight_virtualization",
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::40::execution_environment",
+        "doc10::concept::54::java_vm"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::47::maybe_you_need_double_slashes",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization",
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc10::concept::27::virtualization",
+        "doc10::concept::36::containers",
+        "doc10::concept::3::virtual_machine"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc10::section::47::intuition_and_examples",
+        "source_section_label": "Intuition and Examples"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::14::layering_explained",
+      "label": "Layering Explained",
+      "description": "Section-seeded topic for Layering Explained",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::17::cloud_computing",
+        "doc10::concept::18::containerization",
+        "doc10::concept::19::docker",
+        "doc10::concept::27::virtualization",
+        "doc10::concept::36::containers",
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::43::hypervisor",
+        "doc10::concept::49::privileged_sensitive_instructions",
+        "doc10::concept::52::shared_memory",
+        "doc10::concept::53::pipes",
+        "doc10::concept::54::java_vm",
+        "doc10::concept::6::guest_os1"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc10::concept::27::virtualization",
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::6::guest_os1"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc10::section::95::layering_explained",
+        "source_section_label": "Layering Explained"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::24::first_steps",
+      "label": "First Steps",
+      "description": "Section-seeded topic for First Steps",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "First Steps"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::70::bash",
+        "doc10::concept::71::docker_run",
+        "doc10::concept::72::docker_image_ls",
+        "doc10::concept::73::docker_container_ls",
+        "doc10::concept::74::docker_container_help",
+        "doc10::concept::75::nginx",
+        "doc10::concept::76::docker_stop",
+        "doc10::concept::77::docker_logs",
+        "doc10::concept::78::docker_ps",
+        "doc10::concept::79::powershell",
+        "doc10::concept::80::wsl_terminal"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::40::which_conditions_for_virtualization_as_de_ned_in",
+        "doc10::paragraph::155::some_students_perceive_the_gui_to_be_confusing_u::chunk::41::some_students_perceive_the_gui_to_be_confusing_u",
+        "doc10::paragraph::169::docker_rmi_f_hello_world::chunk::42::docker_rmi_f_hello_world",
+        "doc10::paragraph::182::thus_your_html_les_replace_default_ones_of_nginx::chunk::43::thus_your_html_les_replace_default_ones_of_nginx",
+        "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+        "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces",
+        "doc10::paragraph::201::try_v_mnt_c_users_with_wsl_terminal::chunk::45::try_v_mnt_c_users_with_wsl_terminal",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc10::concept::70::bash",
+        "doc10::concept::71::docker_run",
+        "doc10::concept::74::docker_container_help"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc10::section::156::first_steps",
+        "source_section_label": "First Steps"
+      }
+    },
+    {
+      "id": "doc10::topic_candidate::section::25::a_web_server",
+      "label": "A Web Server",
+      "description": "Section-seeded topic for A Web Server",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "A Web Server"
+        ],
+        [
+          "Selected Errors"
+        ],
+        [
+          "Docker Toolbox under Windows"
+        ]
+      ],
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::70::bash",
+        "doc10::concept::71::docker_run",
+        "doc10::concept::75::nginx",
+        "doc10::concept::76::docker_stop",
+        "doc10::concept::77::docker_logs",
+        "doc10::concept::78::docker_ps",
+        "doc10::concept::79::powershell",
+        "doc10::concept::80::wsl_terminal",
+        "doc10::concept::81::docker_toolbox",
+        "doc10::concept::82::ip_address",
+        "doc10::concept::83::file_system_path"
+      ],
+      "chunk_ids": [
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::40::which_conditions_for_virtualization_as_de_ned_in",
+        "doc10::paragraph::155::some_students_perceive_the_gui_to_be_confusing_u::chunk::41::some_students_perceive_the_gui_to_be_confusing_u",
+        "doc10::paragraph::169::docker_rmi_f_hello_world::chunk::42::docker_rmi_f_hello_world",
+        "doc10::paragraph::182::thus_your_html_les_replace_default_ones_of_nginx::chunk::43::thus_your_html_les_replace_default_ones_of_nginx",
+        "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces",
+        "doc10::paragraph::201::try_v_mnt_c_users_with_wsl_terminal::chunk::45::try_v_mnt_c_users_with_wsl_terminal",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::71::docker_run",
+        "doc10::concept::75::nginx",
+        "doc10::concept::76::docker_stop",
+        "doc10::concept::81::docker_toolbox"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.615,
+        "breadth_score": 0.3,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.655
+      },
+      "metadata": {
+        "section_id": "doc10::section::170::a_web_server",
+        "source_section_label": "A Web Server",
+        "merged_candidate_ids": [
+          "doc10::topic_candidate::section::26::selected_errors",
+          "doc10::topic_candidate::section::28::docker_toolbox_under_windows"
+        ]
+      }
+    }
+  ]
+}

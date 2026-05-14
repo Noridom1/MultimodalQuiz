@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "sexual reproduction",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the fusion of gametes from two parents to form a zygote.",
+    "learning_objective": "Understand how sexual reproduction contributes to genetic diversity.",
+    "tested_fact_block_id": "doc14::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "zygote",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A microscopic image of a zygote showing the fusion of sperm and egg.",
+    "learning_objective": "Define what a zygote is and how it is formed.",
+    "tested_fact_block_id": "doc14::concept::9::zygote",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Embryo",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the stages of early embryonic development.",
+    "learning_objective": "Understand the definition and early stages of an embryo.",
+    "tested_fact_block_id": "doc14::concept::9::zygote",
+    "metadata": {}
+  },
+  {
+    "target_concept": "sperm",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A labeled diagram of a sperm cell showing its parts.",
+    "learning_objective": "Identify the part of the sperm that contains enzymes to penetrate the ovum.",
+    "tested_fact_block_id": "doc14::chunk::12::sperm",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Head",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A labeled diagram of a sperm cell highlighting the head region.",
+    "learning_objective": "Identify the key structure in the sperm head responsible for penetrating the ovum.",
+    "tested_fact_block_id": "doc14::chunk::15::head::0",
+    "metadata": {}
+  }
+]

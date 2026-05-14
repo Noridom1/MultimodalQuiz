@@ -1,0 +1,146 @@
+{
+  "run_id": "20260514_155627_doc14_93df26",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_d5d91d3184",
+        "question_text": "How does sexual reproduction contribute to genetic diversity in offspring?",
+        "options": [
+          "By producing genetically identical clones of the parent organism",
+          "By combining genetic material from two parents during gamete fusion",
+          "By ensuring all offspring inherit the same advantageous traits",
+          "By relying solely on asexual processes like binary fission"
+        ],
+        "correct_answer": "By combining genetic material from two parents during gamete fusion",
+        "explanation": "Sexual reproduction enhances genetic diversity by merging gametes from two parents, creating unique combinations of alleles in the zygote. This process is illustrated by the fusion of gametes in the diagram (doc14::chunk::1).",
+        "target_concept": "sexual reproduction",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "doc14::chunk::1",
+          "run_id": "20260514_155627_doc14_93df26"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: sexual reproduction\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand how sexual reproduction contributes to genetic diversity.\nImage context: A diagram showing the fusion of gametes from two parents to form a zygote.\nTested fact block ID: doc14::chunk::1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing two distinct gametes (labeled \"Gamete A\" and \"Gamete B\") fusing to form a zygote, with arrows indicating the combination of genetic material. Use a neutral color palette with bright accents for clarity, and ensure labels are legible. Avoid realistic human figures—use abstract shapes or symbols for gametes.\n\n**Alt:** A diagram illustrating two gametes merging to form a zygote, demonstrating genetic diversity in sexual reproduction."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_5239cc0c96",
+        "question_text": "What is a zygote?",
+        "options": [
+          "A cell formed by the fusion of sperm and egg",
+          "A type of stem cell found in adults",
+          "A stage of cell division in bacteria",
+          "A hormone produced during pregnancy"
+        ],
+        "correct_answer": "A cell formed by the fusion of sperm and egg",
+        "explanation": "A zygote is the initial cell formed when a sperm cell fertilizes an egg cell, marking the beginning of a new organism. This process is described in doc14::concept::9::zygote.",
+        "target_concept": "zygote",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc14::concept::9::zygote",
+          "run_id": "20260514_155627_doc14_93df26"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: zygote\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Define what a zygote is and how it is formed.\nImage context: A microscopic image of a zygote showing the fusion of sperm and egg.\nTested fact block ID: doc14::concept::9::zygote\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a high-contrast microscopic illustration of a zygote formation, showing a sperm cell (labeled \"Sperm\") fusing with an egg cell (labeled \"Egg\") against a dark background with bright, glowing highlights. Use a simple, scientific style with clear outlines and a neutral color palette (blues, purples, and whites) to emphasize the cellular structures. Avoid any text beyond the labels.\n\n**Alt:** A microscopic view of a sperm cell merging with an egg cell to form a zygote."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_e4a0f69552",
+        "question_text": "What is the term for the fertilized egg cell that marks the beginning of an embryo's development?",
+        "options": [
+          "A. Zygote",
+          "B. Fetus",
+          "C. Blastocyst",
+          "D. Gamete"
+        ],
+        "correct_answer": "A",
+        "explanation": "The zygote is the initial cell formed when sperm and egg unite, representing the first stage of embryonic development. (Source: doc14::concept::9::zygote)",
+        "target_concept": "Embryo",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc14::concept::9::zygote",
+          "run_id": "20260514_155627_doc14_93df26"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Embryo\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the definition and early stages of an embryo.\nImage context: A diagram showing the stages of early embryonic development.\nTested fact block ID: doc14::concept::9::zygote\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast diagram illustrating the early stages of embryonic development, from zygote to blastocyst, with labeled stages (e.g., \"Stage 1: Zygote,\" \"Stage 2: Morula\") in a neutral color palette (blues, grays, and soft yellows). Use simple, abstract shapes to represent cells, ensuring clarity and avoiding realistic human forms. Alt: A labeled diagram showing the progression of early embryonic development stages."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_5823f6ee67",
+        "question_text": "Which part of the sperm contains enzymes that help it penetrate the ovum?",
+        "options": [
+          "A) Head",
+          "B) Midpiece",
+          "C) Tail",
+          "D) Acrosome"
+        ],
+        "correct_answer": "D) Acrosome",
+        "explanation": "The acrosome, located at the tip of the sperm head, contains enzymes that digest the outer membrane of the ovum, allowing penetration. (Source: doc14::chunk::12::sperm)",
+        "target_concept": "sperm",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc14::chunk::12::sperm",
+          "run_id": "20260514_155627_doc14_93df26"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: sperm\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the part of the sperm that contains enzymes to penetrate the ovum.\nImage context: A labeled diagram of a sperm cell showing its parts.\nTested fact block ID: doc14::chunk::12::sperm\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast diagram of a sperm cell with clear labels for key parts (e.g., head, midpiece, tail), using a neutral color palette with one accent color for emphasis. Highlight the acrosome at the tip of the head with a distinct label (e.g., \"Part X\") but avoid naming its function. Ensure all text is legible and the composition is balanced.\n\nAlt: A labeled diagram of a sperm cell with parts marked, emphasizing a specific section at the head."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_51769d75e9",
+        "question_text": "Which structure in the sperm head is responsible for penetrating the ovum?",
+        "options": [
+          "A) Acrosome",
+          "B) Nucleus",
+          "C) Mitochondria",
+          "D) Flagellum"
+        ],
+        "correct_answer": "A",
+        "explanation": "The acrosome contains enzymes that enable the sperm to penetrate the ovum. This is a key function of the sperm head as described in doc14::chunk::15::head::0.",
+        "target_concept": "Head",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc14::chunk::15::head::0",
+          "run_id": "20260514_155627_doc14_93df26"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Head\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the key structure in the sperm head responsible for penetrating the ovum.\nImage context: A labeled diagram of a sperm cell highlighting the head region.\nTested fact block ID: doc14::chunk::15::head::0\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simplified, high-contrast diagram of a sperm cell with the head region prominently highlighted in a distinct color (e.g., bright blue). Label key structures like the acrosome (marked as \"Structure X\") and nucleus, using clear, bold text on a neutral background. Ensure the acrosome is visually emphasized as the focal point without explicitly naming its function.\n\nAlt: Labeled diagram of a sperm cell with the head region highlighted, showing key structures including Structure X."
+    }
+  ]
+}

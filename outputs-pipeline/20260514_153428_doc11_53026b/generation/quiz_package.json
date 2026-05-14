@@ -1,0 +1,146 @@
+{
+  "run_id": "20260514_153428_doc11_53026b",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_8982e31ff5",
+        "question_text": "Which of the following hormones is primarily responsible for initiating the fight or flight response?",
+        "options": [
+          "A) Insulin",
+          "B) Adrenaline",
+          "C) Dopamine",
+          "D) Serotonin"
+        ],
+        "correct_answer": "B) Adrenaline",
+        "explanation": "Adrenaline is the primary hormone released during the fight or flight response, preparing the body for rapid action. This is supported by physiological studies (doc11::chunk::0).",
+        "target_concept": "fight or flight response",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc11::chunk::0",
+          "run_id": "20260514_153428_doc11_53026b"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: fight or flight response\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the primary hormones involved in the fight or flight response.\nImage context: A diagram showing the physiological changes during the fight or flight response.\nTested fact block ID: doc11::chunk::0\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast diagram of a human body with labeled arrows showing key physiological changes (e.g., increased heart rate, dilated pupils, tense muscles) during the fight or flight response. Use bold, neutral colors (reds for activation, blues for context) and label hormones as \"Hormone X\" and \"Hormone Y\" without revealing their names. Alt: A diagram illustrating physiological changes during the fight or flight response, with labeled hormones and body reactions."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_4ddd85eed9",
+        "question_text": "Which mood-related condition is commonly associated with an increased risk of heart disease?",
+        "options": [
+          "A) Euphoria",
+          "B) Depression",
+          "C) Excitement",
+          "D) Contentment"
+        ],
+        "correct_answer": "B",
+        "explanation": "Depression is a mood-related condition linked to higher risks of heart disease, as noted in doc11::chunk::11::mood. Chronic low mood can affect cardiovascular health.",
+        "target_concept": "mood",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc11::chunk::11::mood",
+          "run_id": "20260514_153428_doc11_53026b"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: mood\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the mood-related condition associated with heart disease.\nImage context: A person looking sad and withdrawn, illustrating a low mood.\nTested fact block ID: doc11::chunk::11::mood\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast illustration of a person sitting alone with slumped shoulders, downcast eyes, and a neutral background to depict a low mood. Use muted blues and grays for a somber tone, and label the scene subtly with \"Mood Condition\" in a small, unobtrusive corner. Avoid any text that reveals the specific condition.\n\n**Alt:** A person sitting alone with a sad expression, illustrating a low mood."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_0ef8f8e2fe",
+        "question_text": "Which of the following is a common physical symptom associated with anxiety?",
+        "options": [
+          "Increased appetite",
+          "Chest pain or discomfort",
+          "Lowered heart rate",
+          "Feeling excessively cold"
+        ],
+        "correct_answer": "Chest pain or discomfort",
+        "explanation": "Chest pain or discomfort is a common physical symptom of anxiety, often resulting from heightened stress responses. Source: doc11::chunk::20::physical_symptoms::0.",
+        "target_concept": "physical symptoms",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc11::chunk::20::physical_symptoms::0",
+          "run_id": "20260514_153428_doc11_53026b"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: physical symptoms\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify common physical symptoms associated with anxiety.\nImage context: A person clutching their chest with a visible tense posture.\nTested fact block ID: doc11::chunk::20::physical_symptoms::0\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Illustrate a person with a tense posture, clutching their chest, with visible signs of distress like sweating or rapid breathing. Use high-contrast colors (e.g., deep blues for clothing, warm reds for stress indicators) and label key symptoms like \"chest tightness\" and \"muscle tension\" with neutral, unobtrusive text. Avoid realistic faces or branded items.\n\n**Alt:** A person in distress clutching their chest, showing physical symptoms of anxiety."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_0853a5b916",
+        "question_text": "What is the primary role of cortisol in the body?",
+        "options": [
+          "A) Regulating blood sugar levels",
+          "B) Promoting muscle growth",
+          "C) Enhancing memory retention",
+          "D) Increasing red blood cell production"
+        ],
+        "correct_answer": "A",
+        "explanation": "Cortisol is a steroid hormone that plays a key role in the body's stress response by regulating metabolism, including blood sugar levels. Source: doc11::concept::6::cortisol.",
+        "target_concept": "cortisol",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc11::concept::6::cortisol",
+          "run_id": "20260514_153428_doc11_53026b"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: cortisol\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of cortisol in the body's stress response.\nImage context: A diagram showing the release of cortisol from the adrenal glands during stress.\nTested fact block ID: doc11::concept::6::cortisol\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simplified anatomical diagram showing the adrenal glands (labeled \"Adrenal Glands\") atop the kidneys, with arrows radiating outward to depict cortisol release (labeled \"Cortisol\") during stress. Use a warm, high-contrast color palette (e.g., red/orange for cortisol, neutral tones for anatomy) to emphasize the stress response, and include a small brain icon with a \"Stress Signal\" label to show the trigger. Alt: A diagram illustrating cortisol release from the adrenal glands in response to stress."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_34bae0d1af",
+        "question_text": "Which of the following is a common physiological symptom of stress?",
+        "options": [
+          "Increased heart rate",
+          "Decreased appetite",
+          "Improved concentration",
+          "Lower blood pressure"
+        ],
+        "correct_answer": "Increased heart rate",
+        "explanation": "Increased heart rate is a well-documented physiological response to stress, as the body prepares for a 'fight or flight' reaction. Source: doc11::chunk::10::symptoms_of_stress::0.",
+        "target_concept": "symptoms of stress",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc11::chunk::10::symptoms_of_stress::0",
+          "run_id": "20260514_153428_doc11_53026b"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: symptoms of stress\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify common physiological symptoms associated with stress.\nImage context: A person holding their chest, appearing anxious, with a visible heartbeat line indicating elevated heart rate.\nTested fact block ID: doc11::chunk::10::symptoms_of_stress::0\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Illustrate a person clutching their chest with a tense expression, their face flushed and forehead slightly sweaty, while a pulsing red heartbeat line (EKG-style) rises sharply beside them to indicate elevated heart rate. Add subtle labels like \"rapid heartbeat\" and \"chest tightness\" near the relevant areas, using high-contrast colors (e.g., red for the heartbeat, neutral tones for the person). Avoid text that states \"stress\" directly.\n\n**Alt:** A person holds their chest with a worried expression, with a visible elevated heartbeat line and labels for physiological symptoms."
+    }
+  ]
+}

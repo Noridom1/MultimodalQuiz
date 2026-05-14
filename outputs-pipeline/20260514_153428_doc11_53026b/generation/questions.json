@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_8982e31ff5",
+    "question_text": "Which of the following hormones is primarily responsible for initiating the fight or flight response?",
+    "options": [
+      "A) Insulin",
+      "B) Adrenaline",
+      "C) Dopamine",
+      "D) Serotonin"
+    ],
+    "correct_answer": "B) Adrenaline",
+    "explanation": "Adrenaline is the primary hormone released during the fight or flight response, preparing the body for rapid action. This is supported by physiological studies (doc11::chunk::0).",
+    "target_concept": "fight or flight response",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc11::chunk::0",
+      "run_id": "20260514_153428_doc11_53026b"
+    }
+  },
+  {
+    "id": "q_4ddd85eed9",
+    "question_text": "Which mood-related condition is commonly associated with an increased risk of heart disease?",
+    "options": [
+      "A) Euphoria",
+      "B) Depression",
+      "C) Excitement",
+      "D) Contentment"
+    ],
+    "correct_answer": "B",
+    "explanation": "Depression is a mood-related condition linked to higher risks of heart disease, as noted in doc11::chunk::11::mood. Chronic low mood can affect cardiovascular health.",
+    "target_concept": "mood",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc11::chunk::11::mood",
+      "run_id": "20260514_153428_doc11_53026b"
+    }
+  },
+  {
+    "id": "q_0ef8f8e2fe",
+    "question_text": "Which of the following is a common physical symptom associated with anxiety?",
+    "options": [
+      "Increased appetite",
+      "Chest pain or discomfort",
+      "Lowered heart rate",
+      "Feeling excessively cold"
+    ],
+    "correct_answer": "Chest pain or discomfort",
+    "explanation": "Chest pain or discomfort is a common physical symptom of anxiety, often resulting from heightened stress responses. Source: doc11::chunk::20::physical_symptoms::0.",
+    "target_concept": "physical symptoms",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc11::chunk::20::physical_symptoms::0",
+      "run_id": "20260514_153428_doc11_53026b"
+    }
+  },
+  {
+    "id": "q_0853a5b916",
+    "question_text": "What is the primary role of cortisol in the body?",
+    "options": [
+      "A) Regulating blood sugar levels",
+      "B) Promoting muscle growth",
+      "C) Enhancing memory retention",
+      "D) Increasing red blood cell production"
+    ],
+    "correct_answer": "A",
+    "explanation": "Cortisol is a steroid hormone that plays a key role in the body's stress response by regulating metabolism, including blood sugar levels. Source: doc11::concept::6::cortisol.",
+    "target_concept": "cortisol",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc11::concept::6::cortisol",
+      "run_id": "20260514_153428_doc11_53026b"
+    }
+  },
+  {
+    "id": "q_34bae0d1af",
+    "question_text": "Which of the following is a common physiological symptom of stress?",
+    "options": [
+      "Increased heart rate",
+      "Decreased appetite",
+      "Improved concentration",
+      "Lower blood pressure"
+    ],
+    "correct_answer": "Increased heart rate",
+    "explanation": "Increased heart rate is a well-documented physiological response to stress, as the body prepares for a 'fight or flight' reaction. Source: doc11::chunk::10::symptoms_of_stress::0.",
+    "target_concept": "symptoms of stress",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc11::chunk::10::symptoms_of_stress::0",
+      "run_id": "20260514_153428_doc11_53026b"
+    }
+  }
+]

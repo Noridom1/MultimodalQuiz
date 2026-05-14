@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_dbe19da104",
+    "question_text": "What is a Public Health Emergency of International Concern (PHEIC)?",
+    "options": [
+      "A. A local health issue affecting only one country",
+      "B. An extraordinary event that may require a coordinated international response",
+      "C. A routine health monitoring process by the World Health Organization",
+      "D. A financial crisis impacting global healthcare systems"
+    ],
+    "correct_answer": "B",
+    "explanation": "A Public Health Emergency of International Concern (PHEIC) is defined as an extraordinary event that may constitute a public health risk to other countries through international spread and may require a coordinated international response. This definition is established by the World Health Organization (WHO) under the International Health Regulations (2005). (Source: doc9::chunk::1)",
+    "target_concept": "Public Health Emergency of International Concern",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc9::chunk::1",
+      "run_id": "20260512_150318_doc9_cc56b2"
+    }
+  },
+  {
+    "id": "q_573b461c75",
+    "question_text": "What is the causative agent of COVID-19?",
+    "options": [
+      "Influenza virus",
+      "SARS-CoV-2 virus",
+      "Bacteria",
+      "Fungus"
+    ],
+    "correct_answer": "SARS-CoV-2 virus",
+    "explanation": "COVID-19 is caused by the SARS-CoV-2 virus, a type of coronavirus. This fact is documented in doc9::concept::1::covid_19.",
+    "target_concept": "COVID-19",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc9::concept::1::covid_19",
+      "run_id": "20260512_150318_doc9_cc56b2"
+    }
+  },
+  {
+    "id": "q_e0d0473ddd",
+    "question_text": "Which of the following is a positive coping strategy that supports psychosocial well-being?",
+    "options": [
+      "Avoiding social interactions",
+      "Engaging in regular physical activity",
+      "Ignoring stressful situations",
+      "Overworking to distract from problems"
+    ],
+    "correct_answer": "B",
+    "explanation": "Engaging in regular physical activity is a positive coping strategy that supports psychosocial well-being by reducing stress and improving mood. (Source: doc9::concept::10::coping_strategies)",
+    "target_concept": "psychosocial well-being",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc9::concept::10::coping_strategies",
+      "run_id": "20260512_150318_doc9_cc56b2"
+    }
+  },
+  {
+    "id": "q_35b5509f01",
+    "question_text": "How does chronic stress most directly contribute to the development of mental health disorders?",
+    "options": [
+      "A) By increasing physical activity levels, which improves mood",
+      "B) By altering brain structure and function, particularly in areas regulating emotions",
+      "C) By reducing social interactions, leading to loneliness",
+      "D) By improving cognitive performance through heightened alertness"
+    ],
+    "correct_answer": "B",
+    "explanation": "Chronic stress can negatively impact mental health by altering brain structure and function, particularly in areas like the amygdala and prefrontal cortex, which regulate emotions and decision-making. This is supported by research on the physiological effects of prolonged stress (doc9::chunk::11::stress::mental_health::0).",
+    "target_concept": "mental health",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "doc9::chunk::11::stress::mental_health::0",
+      "run_id": "20260512_150318_doc9_cc56b2"
+    }
+  },
+  {
+    "id": "q_a7cf8a51c5",
+    "question_text": "Which of the following is a primary physiological response to stress caused by the activation of the sympathetic nervous system?",
+    "options": [
+      "Increased heart rate and blood pressure",
+      "Decreased respiratory rate",
+      "Reduced muscle tension",
+      "Lowered blood sugar levels"
+    ],
+    "correct_answer": "Increased heart rate and blood pressure",
+    "explanation": "Stress triggers the sympathetic nervous system, leading to the 'fight or flight' response, which includes increased heart rate and blood pressure to prepare the body for action. (doc9::chunk::11::stress::0)",
+    "target_concept": "stress",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "doc9::chunk::11::stress::0",
+      "run_id": "20260512_150318_doc9_cc56b2"
+    }
+  }
+]

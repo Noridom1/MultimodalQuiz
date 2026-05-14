@@ -1,0 +1,362 @@
+{
+  "count": 7,
+  "topics": [
+    {
+      "id": "doc9::topic_candidate::anchor::2::psychotropic_medications",
+      "label": "Psychotropic medications",
+      "description": "Concept-anchored topic centered on psychotropic medications",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "concept_ids": [
+        "doc9::concept::22::psychotropic_medications",
+        "doc9::concept::23::mental_health_conditions",
+        "doc9::concept::24::epileptic_seizures",
+        "doc9::concept::25::social_worker",
+        "doc9::concept::36::handwashing"
+      ],
+      "chunk_ids": [
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com",
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc9::concept::22::psychotropic_medications"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.6,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.83
+      },
+      "metadata": {
+        "anchor_concept_id": "doc9::concept::22::psychotropic_medications"
+      }
+    },
+    {
+      "id": "doc9::topic_candidate::anchor::1::stress",
+      "label": "Stress",
+      "description": "Concept-anchored topic centered on stress",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Messages for healthcare workers"
+        ]
+      ],
+      "concept_ids": [
+        "doc9::concept::10::coping_strategies",
+        "doc9::concept::11::stress",
+        "doc9::concept::13::buddy_system",
+        "doc9::concept::16::mhgap_humanitarian_intervention_guide",
+        "doc9::concept::1::covid_19",
+        "doc9::concept::24::epileptic_seizures",
+        "doc9::concept::29::crisis",
+        "doc9::concept::31::anxiety",
+        "doc9::concept::8::mental_health",
+        "doc9::concept::9::psychosocial_well_being"
+      ],
+      "chunk_ids": [
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_",
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur",
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f",
+        "doc9::list_item::6::2_do_not_refer_to_people_with_the_disease_as_cov::chunk::2::do_not_refer_to_people_with_the_disease_as_covid",
+        "doc9::list_item::8::4_protect_yourself_and_be_supportive_to_others_a::chunk::3::protect_yourself_and_be_supportive_to_others_ass",
+        "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020",
+        "doc9::paragraph::3::who_and_public_health_authorities_around_the_wor::chunk::1::who_and_public_health_authorities_around_the_wor"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc9::concept::11::stress"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.8,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.81
+      },
+      "metadata": {
+        "anchor_concept_id": "doc9::concept::11::stress"
+      }
+    },
+    {
+      "id": "doc9::topic_candidate::anchor::0::covid_19",
+      "label": "COVID-19",
+      "description": "Concept-anchored topic centered on COVID-19",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Mental health and psychosocial considerations during the COVID-19 outbreak"
+        ],
+        [
+          "Messages for the general population"
+        ],
+        [
+          "Messages for healthcare workers"
+        ]
+      ],
+      "concept_ids": [
+        "doc9::concept::0::world_health_organization_who",
+        "doc9::concept::10::coping_strategies",
+        "doc9::concept::11::stress",
+        "doc9::concept::13::buddy_system",
+        "doc9::concept::1::covid_19",
+        "doc9::concept::2::public_health_emergency_of_international_concern",
+        "doc9::concept::31::anxiety",
+        "doc9::concept::3::pandemic",
+        "doc9::concept::4::mental_health_and_substance_use",
+        "doc9::concept::6::stigma",
+        "doc9::concept::7::solidarity",
+        "doc9::concept::8::mental_health",
+        "doc9::concept::9::psychosocial_well_being"
+      ],
+      "chunk_ids": [
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_",
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f",
+        "doc9::list_item::6::2_do_not_refer_to_people_with_the_disease_as_cov::chunk::2::do_not_refer_to_people_with_the_disease_as_covid",
+        "doc9::list_item::8::4_protect_yourself_and_be_supportive_to_others_a::chunk::3::protect_yourself_and_be_supportive_to_others_ass",
+        "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020",
+        "doc9::paragraph::3::who_and_public_health_authorities_around_the_wor::chunk::1::who_and_public_health_authorities_around_the_wor"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc9::concept::11::stress",
+        "doc9::concept::1::covid_19",
+        "doc9::concept::2::public_health_emergency_of_international_concern",
+        "doc9::concept::4::mental_health_and_substance_use",
+        "doc9::concept::6::stigma",
+        "doc9::concept::9::psychosocial_well_being"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.538,
+        "breadth_score": 0.3,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.628
+      },
+      "metadata": {
+        "anchor_concept_id": "doc9::concept::1::covid_19",
+        "merged_candidate_ids": [
+          "doc9::topic_candidate::anchor::4::mental_health_and_substance_use",
+          "doc9::topic_candidate::section::0::mental_health_and_psychosocial_considerations_during_the_covid_19_outbreak",
+          "doc9::topic_candidate::section::1::messages_for_the_general_population",
+          "doc9::topic_candidate::section::2::messages_for_healthcare_workers"
+        ]
+      }
+    },
+    {
+      "id": "doc9::topic_candidate::section::4::messages_for_carers_of_children",
+      "label": "Messages for carers of children",
+      "description": "Section-seeded topic for Messages for carers of children",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Messages for carers of children"
+        ]
+      ],
+      "concept_ids": [
+        "doc9::concept::15::psychological_first_aid",
+        "doc9::concept::22::psychotropic_medications",
+        "doc9::concept::23::mental_health_conditions",
+        "doc9::concept::24::epileptic_seizures",
+        "doc9::concept::25::social_worker",
+        "doc9::concept::26::routines",
+        "doc9::concept::27::age_appropriate_activities",
+        "doc9::concept::28::social_contact",
+        "doc9::concept::31::anxiety",
+        "doc9::concept::36::handwashing"
+      ],
+      "chunk_ids": [
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur",
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com",
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot",
+        "doc9::list_item::27::20_maintain_familiar_routines_in_daily_life_as_m::chunk::11::maintain_familiar_routines_in_daily_life_as_much",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc9::concept::22::psychotropic_medications",
+        "doc9::concept::24::epileptic_seizures",
+        "doc9::concept::28::social_contact"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "section_id": "doc9::section::24::messages_for_carers_of_children",
+        "source_section_label": "Messages for carers of children"
+      }
+    },
+    {
+      "id": "doc9::topic_candidate::anchor::3::epileptic_seizures",
+      "label": "Epileptic seizures",
+      "description": "Concept-anchored topic centered on epileptic seizures",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Messages for carers of children"
+        ]
+      ],
+      "concept_ids": [
+        "doc9::concept::11::stress",
+        "doc9::concept::14::mental_health_and_psychosocial_support_services",
+        "doc9::concept::15::psychological_first_aid",
+        "doc9::concept::16::mhgap_humanitarian_intervention_guide",
+        "doc9::concept::22::psychotropic_medications",
+        "doc9::concept::23::mental_health_conditions",
+        "doc9::concept::24::epileptic_seizures",
+        "doc9::concept::25::social_worker",
+        "doc9::concept::29::crisis",
+        "doc9::concept::31::anxiety"
+      ],
+      "chunk_ids": [
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_",
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur",
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com",
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc9::concept::24::epileptic_seizures"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.5,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.705
+      },
+      "metadata": {
+        "anchor_concept_id": "doc9::concept::24::epileptic_seizures"
+      }
+    },
+    {
+      "id": "doc9::topic_candidate::section::3::messages_for_team_leaders_or_managers_in_health_facilities",
+      "label": "Messages for team leaders or managers in health facilities",
+      "description": "Section-seeded topic for Messages for team leaders or managers in health facilities",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "concept_ids": [
+        "doc9::concept::11::stress",
+        "doc9::concept::12::communication",
+        "doc9::concept::13::buddy_system",
+        "doc9::concept::14::mental_health_and_psychosocial_support_services",
+        "doc9::concept::15::psychological_first_aid",
+        "doc9::concept::16::mhgap_humanitarian_intervention_guide",
+        "doc9::concept::19::psychosis",
+        "doc9::concept::1::covid_19",
+        "doc9::concept::20::severe_anxiety",
+        "doc9::concept::21::depression",
+        "doc9::concept::22::psychotropic_medications",
+        "doc9::concept::24::epileptic_seizures"
+      ],
+      "chunk_ids": [
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_",
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur",
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com",
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f",
+        "doc9::list_item::8::4_protect_yourself_and_be_supportive_to_others_a::chunk::3::protect_yourself_and_be_supportive_to_others_ass",
+        "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020",
+        "doc9::paragraph::3::who_and_public_health_authorities_around_the_wor::chunk::1::who_and_public_health_authorities_around_the_wor"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc9::concept::11::stress",
+        "doc9::concept::16::mhgap_humanitarian_intervention_guide",
+        "doc9::concept::22::psychotropic_medications"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc9::section::17::messages_for_team_leaders_or_managers_in_health_",
+        "source_section_label": "Messages for team leaders or managers in health facilities"
+      }
+    },
+    {
+      "id": "doc9::topic_candidate::section::5::messages_for_older_adults_people_with_underlying_health_conditions_and_their_carers",
+      "label": "Messages for older adults, people with underlying health conditions and their carers",
+      "description": "Section-seeded topic for Messages for older adults, people with underlying health conditions and their carers",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "concept_ids": [
+        "doc9::concept::11::stress",
+        "doc9::concept::1::covid_19",
+        "doc9::concept::22::psychotropic_medications",
+        "doc9::concept::24::epileptic_seizures",
+        "doc9::concept::29::crisis",
+        "doc9::concept::31::anxiety",
+        "doc9::concept::35::cognitive_impairment",
+        "doc9::concept::36::handwashing",
+        "doc9::concept::37::underlying_health_condition",
+        "doc9::concept::38::medications",
+        "doc9::concept::4::mental_health_and_substance_use",
+        "doc9::concept::8::mental_health"
+      ],
+      "chunk_ids": [
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_",
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com",
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f",
+        "doc9::list_item::6::2_do_not_refer_to_people_with_the_disease_as_cov::chunk::2::do_not_refer_to_people_with_the_disease_as_covid",
+        "doc9::list_item::8::4_protect_yourself_and_be_supportive_to_others_a::chunk::3::protect_yourself_and_be_supportive_to_others_ass",
+        "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020",
+        "doc9::paragraph::3::who_and_public_health_authorities_around_the_wor::chunk::1::who_and_public_health_authorities_around_the_wor"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc9::concept::11::stress",
+        "doc9::concept::1::covid_19",
+        "doc9::concept::22::psychotropic_medications"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "section_id": "doc9::section::29::messages_for_older_adults_people_with_underlying",
+        "source_section_label": "Messages for older adults, people with underlying health conditions and their carers"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_count": 11,
+    "consolidated_count": 7,
+    "accepted_count": 7
+  }
+}

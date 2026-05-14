@@ -1,0 +1,117 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::9::stress_hormone_levels"
+      ],
+      "labels": [
+        "Stress",
+        "stress hormone levels"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::10::symptoms_of_stress"
+      ],
+      "labels": [
+        "Stress",
+        "symptoms of stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::44::work_related_stress"
+      ],
+      "labels": [
+        "Stress",
+        "work-related stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::48::chronic_stress"
+      ],
+      "labels": [
+        "Stress",
+        "chronic stress"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::61::mental_and_physical_health_problems"
+      ],
+      "labels": [
+        "mental health problems",
+        "mental and physical health problems"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::61::mental_and_physical_health_problems",
+        "doc11::concept::63::physical_health_problems"
+      ],
+      "labels": [
+        "mental and physical health problems",
+        "Physical health problems"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::2::anxiety",
+        "doc11::concept::82::anxiety_uk"
+      ],
+      "labels": [
+        "anxiety",
+        "Anxiety UK"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::94::stress_management"
+      ],
+      "labels": [
+        "Stress",
+        "stress management"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::109::mental_health"
+      ],
+      "labels": [
+        "mental health problems",
+        "mental_health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,45 @@
+{
+  "section_count": 2,
+  "sections": [
+    {
+      "id": "doc15::section::0::the_psychology_of_concepts",
+      "label": "The Psychology of Concepts",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "The Psychology of Concepts"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc15::section::16::the_classical_theory_of_concepts",
+      "label": "The Classical Theory of Concepts",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc15/hybrid_auto/doc15.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "The Classical Theory of Concepts"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 16,
+        "level": 1
+      }
+    }
+  ]
+}

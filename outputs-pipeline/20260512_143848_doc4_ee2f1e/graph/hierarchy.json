@@ -1,0 +1,185 @@
+{
+  "section_count": 9,
+  "sections": [
+    {
+      "id": "doc4::section::3::human_geography",
+      "label": "Human Geography",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Human Geography"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 3,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc4::section::4::nature_and_scope",
+      "label": "Nature and Scope",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Nature and Scope"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 4,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc4::section::11::human_geography_defined",
+      "label": "Human Geography Defined",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Human Geography Defined"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 11,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc4::section::20::nature_of_human_geography",
+      "label": "NATURE OF HUMAN GEOGRAPHY",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "NATURE OF HUMAN GEOGRAPHY"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 20,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc4::section::22::naturalisation_of_humans_and_humanisation_of_nat",
+      "label": "Naturalisation of Humans and Humanisation of Nature",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Naturalisation of Humans and Humanisation of Nature"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 22,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc4::section::25::the_naturalisation_of_humans",
+      "label": "The Naturalisation of Humans",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "The Naturalisation of Humans"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 25,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc4::section::29::humanisation_of_nature",
+      "label": "Humanisation of Nature",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Humanisation of Nature"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 29,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc4::section::37::fields_and_sub_fields_of_human_geography",
+      "label": "Fields and Sub-fields of Human Geography",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Fields and Sub-fields of Human Geography"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 37,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc4::section::46::exercises",
+      "label": "EXERCISES",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc4/hybrid_auto/doc4.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "EXERCISES"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 46,
+        "level": 1
+      }
+    }
+  ]
+}

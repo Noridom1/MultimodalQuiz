@@ -1,0 +1,215 @@
+{
+  "artifact_count": 10,
+  "artifacts": [
+    {
+      "id": "doc10::artifact::7::images_f81ea6a008bab81ab468858b7006b024c37d301de",
+      "label": "![](images/f81ea6a008bab81ab468858b7006b024c37d301ded4cda42586da2ed4071558d.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::image::7::images_f81ea6a008bab81ab468858b7006b024c37d301de::chunk::4::images_f81ea6a008bab81ab468858b7006b024c37d301de",
+      "page_idx": null,
+      "section_path": [
+        "Motivation (1/2)"
+      ],
+      "text": "![](images/f81ea6a008bab81ab468858b7006b024c37d301ded4cda42586da2ed4071558d.jpg)",
+      "image_path": "images/f81ea6a008bab81ab468858b7006b024c37d301ded4cda42586da2ed4071558d.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::image::7::images_f81ea6a008bab81ab468858b7006b024c37d301de",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc10::artifact::8::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD subgraph Virtual Machine 1 A[\"App A (with libraries)\"] B[\"...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Motivation (1/2)"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    subgraph Virtual Machine 1\n        A[\"App A (with libraries)\"]\n        B[\"App B (with libraries)\"]\n        C[\"Guest OS1\"]\n        D[\"Virtual Hardware 1\"]\n    end\n    subgraph Virtual Machine 2\n        E[\"App A (with libraries)\"]\n        F[\"Guest OS2\"]\n        G[\"Virtual Hardware 2\"]\n    end\n    H[\"Host OS with Hypervisor/VMM (e.g., KVM, Xen, VirtualBox)\"]\n    I[\"Hardware (CPU, RAM, I/O)\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc10::artifact::21::images_c5bf71aaea7eb99b4f3432941977b0f8d15c0d18e",
+      "label": "![](images/c5bf71aaea7eb99b4f3432941977b0f8d15c0d18ef6e0e937bf65be8890b774c.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::image::21::images_c5bf71aaea7eb99b4f3432941977b0f8d15c0d18e::chunk::8::images_c5bf71aaea7eb99b4f3432941977b0f8d15c0d18e",
+      "page_idx": null,
+      "section_path": [
+        "Motivation (2/2)"
+      ],
+      "text": "![](images/c5bf71aaea7eb99b4f3432941977b0f8d15c0d18ef6e0e937bf65be8890b774c.jpg)",
+      "image_path": "images/c5bf71aaea7eb99b4f3432941977b0f8d15c0d18ef6e0e937bf65be8890b774c.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::image::21::images_c5bf71aaea7eb99b4f3432941977b0f8d15c0d18e",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc10::artifact::22::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Container 1\\nApp A (with libraries)\\nEnvironment 1 base...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Motivation (2/2)"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Container 1\\nApp A (with libraries)\\nEnvironment 1 based\\non kernel of Host OS\"] --> B[\"Container 2\\nApp B (with libraries)\\nEnvironment 2 based\\non kernel of Host OS\"]\n    B --> C[\"Container 3\\nApp A (with libraries)\\nEnvironment 1 based\\non kernel of Host OS\"]\n    D[\"Container manager (e.g., Docker)\"] --> E[\"Host OS\"]\n    F[\"Hardware (CPU, RAM, I/O)\"] --> G[\"End\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc10::artifact::92::images_3ada7b908ce9c0c093acc5a1321c273beb6af02ce",
+      "label": "![](images/3ada7b908ce9c0c093acc5a1321c273beb6af02ce08a07e3aab9a7c123ca1ed7.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::image::92::images_3ada7b908ce9c0c093acc5a1321c273beb6af02ce::chunk::21::images_3ada7b908ce9c0c093acc5a1321c273beb6af02ce",
+      "page_idx": null,
+      "section_path": [
+        "Layering with Virtualization"
+      ],
+      "text": "![](images/3ada7b908ce9c0c093acc5a1321c273beb6af02ce08a07e3aab9a7c123ca1ed7.jpg)",
+      "image_path": "images/3ada7b908ce9c0c093acc5a1321c273beb6af02ce08a07e3aab9a7c123ca1ed7.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::image::92::images_3ada7b908ce9c0c093acc5a1321c273beb6af02ce",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc10::artifact::93::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD subgraph Virtual Machine 1 A[\"App A (with libraries)\"] B[\"...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::details::93::details_summary_flowchart_summary_mermaid_graph_::chunk::22::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Layering with Virtualization"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    subgraph Virtual Machine 1\n        A[\"App A (with libraries)\"]\n        B[\"App B (with libraries)\"]\n        C[\"Guest OS1\"]\n        D[\"Virtual Hardware 1\"]\n    end\n    subgraph Virtual Machine 2\n        E[\"App A (with libraries)\"]\n        F[\"Guest OS2\"]\n        G[\"Virtual Hardware 2\"]\n    end\n    H[\"Host OS with Hypervisor/VMM (e.g., KVM, Xen, VirtualBox)\"]\n    I[\"Hardware (CPU, RAM, I/O)\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::details::93::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc10::artifact::124::images_2baf90a7bc3275cb0a48b94d8b1f9b99c6762bb4b",
+      "label": "![](images/2baf90a7bc3275cb0a48b94d8b1f9b99c6762bb4b745a77649711e85dbbb042c.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::image::124::images_2baf90a7bc3275cb0a48b94d8b1f9b99c6762bb4b::chunk::29::images_2baf90a7bc3275cb0a48b94d8b1f9b99c6762bb4b",
+      "page_idx": null,
+      "section_path": [
+        "Layering with Containerization"
+      ],
+      "text": "![](images/2baf90a7bc3275cb0a48b94d8b1f9b99c6762bb4b745a77649711e85dbbb042c.jpg)",
+      "image_path": "images/2baf90a7bc3275cb0a48b94d8b1f9b99c6762bb4b745a77649711e85dbbb042c.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::image::124::images_2baf90a7bc3275cb0a48b94d8b1f9b99c6762bb4b",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc10::artifact::125::details_summary_flowchart_summary_mermaid_graph_",
+      "label": "<details> <summary>flowchart</summary> ```mermaid graph TD A[\"Container 1\\nApp A (with libraries)\\nEnvironment 1 base...",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+      "page_idx": null,
+      "section_path": [
+        "Layering with Containerization"
+      ],
+      "text": "<details>\n<summary>flowchart</summary>\n\n```mermaid\ngraph TD\n    A[\"Container 1\\nApp A (with libraries)\\nEnvironment 1 based\\non kernel of Host OS\"] --> B[\"Container 2\\nApp B (with libraries)\\nEnvironment 2 based\\non kernel of Host OS\"]\n    B --> C[\"Container 3\\nApp A (with libraries)\\nEnvironment 1 based\\non kernel of Host OS\"]\n    D[\"Container manager (e.g., Docker)\"] --> E[\"Host OS\"]\n    F[\"Hardware (CPU, RAM, I/O)\"] --> G[\"End\"]\n```\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    },
+    {
+      "id": "doc10::artifact::129::images_2e7cac49ff0779c51b09ed69e9d5bd50d9e207cd5",
+      "label": "![](images/2e7cac49ff0779c51b09ed69e9d5bd50d9e207cd5dd0259d01e8e7074708a2b0.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::image::129::images_2e7cac49ff0779c51b09ed69e9d5bd50d9e207cd5::chunk::33::images_2e7cac49ff0779c51b09ed69e9d5bd50d9e207cd5",
+      "page_idx": null,
+      "section_path": [
+        "Selected Technologies"
+      ],
+      "text": "![](images/2e7cac49ff0779c51b09ed69e9d5bd50d9e207cd5dd0259d01e8e7074708a2b0.jpg)",
+      "image_path": "images/2e7cac49ff0779c51b09ed69e9d5bd50d9e207cd5dd0259d01e8e7074708a2b0.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::image::129::images_2e7cac49ff0779c51b09ed69e9d5bd50d9e207cd5",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc10::artifact::135::images_56b45d1d1369434147eca801964cb00c5b022dc08",
+      "label": "![](images/56b45d1d1369434147eca801964cb00c5b022dc0879904197491d50c4ba9ae9c.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc10/hybrid_auto/doc10.md",
+      "source_location": null,
+      "source_chunk_id": "doc10::image::135::images_56b45d1d1369434147eca801964cb00c5b022dc08::chunk::35::images_56b45d1d1369434147eca801964cb00c5b022dc08",
+      "page_idx": null,
+      "section_path": [
+        "Selected Technologies"
+      ],
+      "text": "![](images/56b45d1d1369434147eca801964cb00c5b022dc0879904197491d50c4ba9ae9c.jpg)",
+      "image_path": "images/56b45d1d1369434147eca801964cb00c5b022dc0879904197491d50c4ba9ae9c.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc10::image::135::images_56b45d1d1369434147eca801964cb00c5b022dc08",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    }
+  ]
+}

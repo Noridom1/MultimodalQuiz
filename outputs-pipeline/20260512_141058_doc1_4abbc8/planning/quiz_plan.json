@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "Navarre plan",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A map showing the strategic location of Dien Bien Phu in relation to Viet Minh supply lines.",
+    "learning_objective": "Understand the strategic intent behind the Navarre plan during the First Indochina War.",
+    "tested_fact_block_id": "doc1::concept::14::navarre_plan",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Dien Bien Phu",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A map showing the location of Dien Bien Phu in northwestern Vietnam.",
+    "learning_objective": "Identify the significance of Dien Bien Phu in the context of the First Indochina War.",
+    "tested_fact_block_id": "doc1::concept::0::dien_bien_phu",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Winter-Spring campaign",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A map showing the regions involved in the Winter-Spring campaign.",
+    "learning_objective": "Understand the nature and context of the Winter-Spring campaign.",
+    "tested_fact_block_id": "doc1::concept::9::winter_spring_campaign",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Government",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the hierarchical structure of the party's Central Committee.",
+    "learning_objective": "Understand the role and authority of the Party's Central Committee within the government structure.",
+    "tested_fact_block_id": "doc1::concept::10::party_s_central_committee",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Phu Tho",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A map highlighting the Red River Delta region of Vietnam with Phu Tho province marked.",
+    "learning_objective": "Identify the geographical location of Phu Tho province in Vietnam.",
+    "tested_fact_block_id": "doc1::concept::13::phu_tho",
+    "metadata": {}
+  }
+]

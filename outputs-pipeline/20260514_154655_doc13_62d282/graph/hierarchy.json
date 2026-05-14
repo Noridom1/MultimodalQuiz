@@ -1,0 +1,345 @@
+{
+  "section_count": 17,
+  "sections": [
+    {
+      "id": "doc13::section::0::badminton",
+      "label": "BADMINTON",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::8::history",
+      "label": "History",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "History"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 8,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::17::badminton_equipment",
+      "label": "BADMINTON EQUIPMENT",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON EQUIPMENT"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 17,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::18::rackets",
+      "label": "Rackets",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Rackets"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 18,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::20::shuttlecocks",
+      "label": "Shuttlecocks",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Shuttlecocks"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 20,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::36::badminton_court",
+      "label": "BADMINTON COURT",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON COURT"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 36,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::47::badminton_rules",
+      "label": "BADMINTON RULES",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON RULES"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 47,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::48::1_scoring_system_3_x_21_rally_point_scoring_syst",
+      "label": "1. Scoring system: 3 x 21 rally point scoring system.",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "1. Scoring system: 3 x 21 rally point scoring system."
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 48,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::52::2_service",
+      "label": "2. Service:",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "2. Service:"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 52,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::59::3_playing_the_game",
+      "label": "3. Playing the game:",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "3. Playing the game:"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 59,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::63::badminton_strokes",
+      "label": "BADMINTON STROKES",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON STROKES"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 63,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::64::1_forehand_and_backhand",
+      "label": "1. Forehand and backhand.",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "1. Forehand and backhand."
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 64,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::72::2_basic_strokes",
+      "label": "2. Basic strokes.",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "2. Basic strokes."
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 72,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::89::badminton_strategy",
+      "label": "BADMINTON STRATEGY",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "BADMINTON STRATEGY"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 89,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::91::doubles_badminton_strategies",
+      "label": "Doubles Badminton Strategies",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Doubles Badminton Strategies"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 91,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::101::singles_badminton_strategies",
+      "label": "Singles Badminton Strategies",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Singles Badminton Strategies"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 101,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc13::section::108::activities",
+      "label": "ACTIVITIES",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc13/hybrid_auto/doc13.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "ACTIVITIES"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 108,
+        "level": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_b6409668f0",
+    "question_text": "What is the primary function of a hypervisor in virtualization?",
+    "options": [
+      "To encrypt data transmitted between virtual machines",
+      "To manage and allocate physical hardware resources to multiple virtual machines",
+      "To serve as an operating system for end-users",
+      "To physically separate hardware components in a data center"
+    ],
+    "correct_answer": "To manage and allocate physical hardware resources to multiple virtual machines",
+    "explanation": "A hypervisor, also known as a Virtual Machine Monitor (VMM), is a software layer that enables multiple virtual machines to share a single physical host by managing and allocating hardware resources such as CPU, memory, and storage. This allows for efficient utilization of physical resources and isolation between virtual machines. (Source: doc10::concept::43::hypervisor)",
+    "target_concept": "Hypervisor",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc10::concept::43::hypervisor",
+      "run_id": "20260512_150512_doc10_d6bda0"
+    }
+  },
+  {
+    "id": "q_e210e72638",
+    "question_text": "What is the primary function of a hypervisor (VMM) in virtualization?",
+    "options": [
+      "To manage physical hardware resources and allocate them to virtual machines",
+      "To serve as an operating system for end-user applications",
+      "To provide a graphical interface for virtual machine configuration",
+      "To encrypt data stored on virtual disks"
+    ],
+    "correct_answer": "A",
+    "explanation": "A hypervisor, or Virtual Machine Monitor (VMM), is a software layer that abstracts and manages physical hardware resources, enabling multiple virtual machines to run on a single host system. (Source: doc10::concept::10::hypervisor_vmm)",
+    "target_concept": "Hypervisor/VMM",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc10::concept::10::hypervisor_vmm",
+      "run_id": "20260512_150512_doc10_d6bda0"
+    }
+  },
+  {
+    "id": "q_d79ffa4a27",
+    "question_text": "How does a hypervisor manage physical CPU resources when multiple virtual machines (VMs) are running simultaneously?",
+    "options": [
+      "A) By assigning a dedicated physical CPU core to each VM exclusively",
+      "B) By dynamically allocating CPU time slices to each VM as needed",
+      "C) By limiting all VMs to use only a single CPU core regardless of workload",
+      "D) By disabling CPU virtualization features to ensure stability"
+    ],
+    "correct_answer": "B",
+    "explanation": "A hypervisor manages physical CPU resources by dynamically allocating CPU time slices to each virtual machine, allowing multiple VMs to share the same physical CPU efficiently. This is known as CPU scheduling or time-sharing. (Source: doc10::chunk::1)",
+    "target_concept": "Hardware (CPU, RAM, I/O)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc10::chunk::1",
+      "run_id": "20260512_150512_doc10_d6bda0"
+    }
+  },
+  {
+    "id": "q_6714ee2629",
+    "question_text": "What is the primary purpose of virtual hardware in a virtual machine?",
+    "options": [
+      "To replace physical hardware entirely in all computing scenarios",
+      "To emulate physical hardware components, allowing multiple virtual machines to run on a single physical machine",
+      "To increase the physical hardware's performance beyond its actual capabilities",
+      "To provide a direct, one-to-one mapping to physical hardware without any abstraction"
+    ],
+    "correct_answer": "B",
+    "explanation": "Virtual hardware emulates physical components like CPUs, memory, and storage, enabling multiple virtual machines to share a single physical machine efficiently. This abstraction is key to virtualization technology. (Source: doc10::chunk::15::virtual_hardware::0)",
+    "target_concept": "Virtual Hardware",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc10::chunk::15::virtual_hardware::0",
+      "run_id": "20260512_150512_doc10_d6bda0"
+    }
+  },
+  {
+    "id": "q_ca003c2ffb",
+    "question_text": "What is the primary purpose of isolation in containerization?",
+    "options": [
+      "To allow containers to share the same kernel and libraries",
+      "To ensure containers run on separate physical machines",
+      "To prevent containers from interfering with each other and the host system",
+      "To reduce the overall resource consumption of containers"
+    ],
+    "correct_answer": "To prevent containers from interfering with each other and the host system",
+    "explanation": "Isolation in containerization ensures that each container operates independently, sharing the host OS kernel while maintaining separation to enhance security and stability. (Source: doc10::chunk::18::containerization::1)",
+    "target_concept": "Isolation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc10::chunk::18::containerization::1",
+      "run_id": "20260512_150512_doc10_d6bda0"
+    }
+  }
+]

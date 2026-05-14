@@ -1,0 +1,3934 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc8::concept::0::bernardo_a_huberman",
+      "label": "Bernardo A. Huberman",
+      "normalized_label": "bernardo a huberman",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::1::bernardo_a_huberman_bob_lund::chunk::0::bernardo_a_huberman_bob_lund"
+      ],
+      "section_paths": [
+        [
+          "A Quantum Router For The Entangled Web"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::1::bob_lund",
+      "label": "Bob Lund",
+      "normalized_label": "bob lund",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::1::bernardo_a_huberman_bob_lund::chunk::0::bernardo_a_huberman_bob_lund"
+      ],
+      "section_paths": [
+        [
+          "A Quantum Router For The Entangled Web"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::2::cablelabs",
+      "label": "CableLabs",
+      "normalized_label": "cablelabs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::1::bernardo_a_huberman_bob_lund::chunk::0::bernardo_a_huberman_bob_lund"
+      ],
+      "section_paths": [
+        [
+          "A Quantum Router For The Entangled Web"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::3::occams_solutions",
+      "label": "Orbiting satellites",
+      "normalized_label": "occams solutions",
+      "aliases": [
+        "Occams Solutions",
+        "Optical switches"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::1::bernardo_a_huberman_bob_lund::chunk::0::bernardo_a_huberman_bob_lund",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu"
+      ],
+      "section_paths": [
+        [
+          "A Quantum Router For The Entangled Web"
+        ],
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::4::qubit_transmission_protocols",
+      "label": "Qubit transmission protocols",
+      "normalized_label": "qubit transmission protocols",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::4::bob_occams_solutions::chunk::1::bob_occams_solutions",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point"
+      ],
+      "section_paths": [
+        [
+          "Abstract"
+        ],
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::5::quantum_router",
+      "label": "Quantum repeaters",
+      "normalized_label": "quantum router",
+      "aliases": [
+        "QR",
+        "Quantum Repeater",
+        "Quantum Router",
+        "Quantum router",
+        "Quantum routers",
+        "quantum Repeaters",
+        "quantum repeaters",
+        "quantum router"
+      ],
+      "mention_count": 25,
+      "definitions": [
+        "An automated control plane required for the Entangled Web.",
+        "A device that connects to multiple destinations via classical and quantum communication paths.",
+        "A novel device that extends existing digital network forwarding concepts to the routing of quantum states."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::4::bob_occams_solutions::chunk::1::bob_occams_solutions",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu",
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via",
+        "doc8::paragraph::50::figure_5_limits_of_manual_re_configuration::chunk::18::figure_5_limits_of_manual_re_configuration",
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::19::as_was_the_case_with_telephone_and_data_networks",
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::20::as_was_the_case_with_telephone_and_data_networks",
+        "doc8::paragraph::57::figure_6_routing_in_the_entangled_web::chunk::23::figure_6_routing_in_the_entangled_web",
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "Abstract"
+        ],
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "A QUANTUM ROUTER FOR THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Routing Architecture"
+        ],
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Pair Management"
+        ],
+        [
+          "Entangled Web Prototype"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::6::teleportation",
+      "label": "Teleportation",
+      "normalized_label": "teleportation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::4::bob_occams_solutions::chunk::1::bob_occams_solutions",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point"
+      ],
+      "section_paths": [
+        [
+          "Abstract"
+        ],
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::7::entangled_pair_management",
+      "label": "Entangled Pair Management (EPM)",
+      "normalized_label": "entangled pair management",
+      "aliases": [
+        "EPM",
+        "Entangled Pair Management",
+        "Entangled pair management"
+      ],
+      "mention_count": 7,
+      "definitions": [
+        "A function that manages the creation of entangled pairs for quantum forwarding in the Entangled Web."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::4::bob_occams_solutions::chunk::1::bob_occams_solutions",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further",
+        "doc8::paragraph::98::figure_9_entangled_pair_management::chunk::35::figure_9_entangled_pair_management",
+        "doc8::list_item::99::1_createepr_src_dest_causes_epm_to_create_an_ent::chunk::36::createepr_src_dest_causes_epm_to_create_an_entan"
+      ],
+      "section_paths": [
+        [
+          "Abstract"
+        ],
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Pair Management"
+        ],
+        [
+          "2. EPM then:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::8::quantum_simulator",
+      "label": "Quantum simulations",
+      "normalized_label": "quantum simulator",
+      "aliases": [
+        "Quantum simulator",
+        "Quantum solution",
+        "Qubit Selection",
+        "quantum simulator",
+        "quantum state",
+        "qubit storage"
+      ],
+      "mention_count": 8,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::4::bob_occams_solutions::chunk::1::bob_occams_solutions",
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu",
+        "doc8::paragraph::17::figure_1_point_to_point_communication::chunk::7::figure_1_point_to_point_communication",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "Abstract"
+        ],
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Web Prototype"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::9::quantum_internet",
+      "label": "Quantum information",
+      "normalized_label": "quantum internet",
+      "aliases": [
+        "Quantum Internet",
+        "Quantum internet",
+        "quantum Internet"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::10::entangled_photons",
+      "label": "Entangled photons",
+      "normalized_label": "entangled photons",
+      "aliases": [
+        "EP",
+        "Entangled Pairs",
+        "entangled pair",
+        "entangled pairs",
+        "entangled photons"
+      ],
+      "mention_count": 11,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::17::figure_1_point_to_point_communication::chunk::7::figure_1_point_to_point_communication",
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::98::figure_9_entangled_pair_management::chunk::35::figure_9_entangled_pair_management",
+        "doc8::list_item::99::1_createepr_src_dest_causes_epm_to_create_an_ent::chunk::36::createepr_src_dest_causes_epm_to_create_an_entan",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Routing Architecture"
+        ],
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Pair Management"
+        ],
+        [
+          "2. EPM then:"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::11::fiber_optics",
+      "label": "Fiber optics",
+      "normalized_label": "fiber optics",
+      "aliases": [
+        "fiber optics"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::12::qubit",
+      "label": "Qubit",
+      "normalized_label": "qubit",
+      "aliases": [
+        "qubit"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Pair Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::13::bit",
+      "label": "Bit",
+      "normalized_label": "bit",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::14::quantum_applications",
+      "label": "Quantum applications",
+      "normalized_label": "quantum applications",
+      "aliases": [
+        "Quantum advantage",
+        "Quantum auctions"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::15::cryptographic_keys",
+      "label": "Cryptographic keys",
+      "normalized_label": "cryptographic keys",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::16::communication_complexity",
+      "label": "Communication complexity",
+      "normalized_label": "communication complexity",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::17::coordination_problems",
+      "label": "Coordination problems",
+      "normalized_label": "coordination problems",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::18::public_goods",
+      "label": "Public goods",
+      "normalized_label": "public goods",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::19::quantum_computers",
+      "label": "Quantum communication",
+      "normalized_label": "quantum computers",
+      "aliases": [
+        "Quantum Circuits",
+        "Quantum computation",
+        "Quantum computers",
+        "Quantum cryptography"
+      ],
+      "mention_count": 5,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::20::quantum_teleportation",
+      "label": "Quantum teleportation",
+      "normalized_label": "quantum teleportation",
+      "aliases": [
+        "quantum teleportation"
+      ],
+      "mention_count": 6,
+      "definitions": [
+        "A protocol whereby the quantum state of a particle, e.g., photon, is transferred from photon 1 to photon 2 via a second pair of entangled photons."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu",
+        "doc8::paragraph::17::figure_1_point_to_point_communication::chunk::7::figure_1_point_to_point_communication",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu",
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::21::open_space_transmission",
+      "label": "Open space transmission",
+      "normalized_label": "open space transmission",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::22::solid_state_quantum_emitters",
+      "label": "Solid-state quantum emitters",
+      "normalized_label": "solid-state quantum emitters",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu",
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::23::global_quantum_communication",
+      "label": "Global quantum communication",
+      "normalized_label": "global quantum communication",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::6::qubit_transmission_protocols_are_presently_point::chunk::2::qubit_transmission_protocols_are_presently_point",
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::24::qubits",
+      "label": "Qubits",
+      "normalized_label": "qubits",
+      "aliases": [
+        "qubits"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu",
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via",
+        "doc8::paragraph::17::figure_1_point_to_point_communication::chunk::7::figure_1_point_to_point_communication",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ],
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::25::quantum_network_architecture",
+      "label": "Quantum network architecture",
+      "normalized_label": "quantum network architecture",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::26::point_to_point_communication",
+      "label": "Point-to-point communication",
+      "normalized_label": "point-to-point communication",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::27::patch_networks",
+      "label": "Patch networks",
+      "normalized_label": "patch networks",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::10::presently_the_practical_implementation_of_quantu::chunk::3::presently_the_practical_implementation_of_quantu"
+      ],
+      "section_paths": [
+        [
+          "INTRODUCTION"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::28::entangled_web",
+      "label": "Entangled Web",
+      "normalized_label": "entangled web",
+      "aliases": [],
+      "mention_count": 7,
+      "definitions": [
+        "A network enabled by the transmission of qubits over fiber optics.",
+        "A network requiring a routing layer similar in functionality to today’s digital Internet."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via",
+        "doc8::paragraph::50::figure_5_limits_of_manual_re_configuration::chunk::18::figure_5_limits_of_manual_re_configuration",
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::19::as_was_the_case_with_telephone_and_data_networks",
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::20::as_was_the_case_with_telephone_and_data_networks",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "A QUANTUM ROUTER FOR THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Routing Architecture"
+        ],
+        [
+          "Entangled Pair Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::29::quantum_key_distribution_qkd",
+      "label": "Quantum Key Distribution (QKD)",
+      "normalized_label": "quantum key distribution",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::30::quantum_photon",
+      "label": "quantum photon",
+      "normalized_label": "quantum photon",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::31::attenuation",
+      "label": "attenuation",
+      "normalized_label": "attenuation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::32::no_cloning_restriction",
+      "label": "no-cloning restriction",
+      "normalized_label": "no-cloning restriction",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::33::continuous_wave_cw_fiber_optics",
+      "label": "continuous wave (CW) fiber optics",
+      "normalized_label": "continuous wave fiber optics",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::34::point_to_point_links",
+      "label": "point-to-point links",
+      "normalized_label": "point-to-point links",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::12::this_paper_reports_on_the_design_and_testing_via::chunk::4::this_paper_reports_on_the_design_and_testing_via"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::35::cw_optics",
+      "label": "CW optics",
+      "normalized_label": "cw optics",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::17::figure_1_point_to_point_communication::chunk::7::figure_1_point_to_point_communication",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::36::photon",
+      "label": "photon",
+      "normalized_label": "photon",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::17::figure_1_point_to_point_communication::chunk::7::figure_1_point_to_point_communication"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::37::bsmbell_state_measurement",
+      "label": "BSMBell State Measurement",
+      "normalized_label": "bsmbell state measurement",
+      "aliases": [
+        "BSM",
+        "Bell State Measurement"
+      ],
+      "mention_count": 8,
+      "definitions": [
+        "A measurement process performed by Alice on her source and entangled particle, causing them to collapse into a basis state.",
+        "A process involving the qubit to be forwarded and the entangled pair to the next hop."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement",
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::56::details_summary_flowchart_summary_mermaid_graph_::chunk::22::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Routing Architecture"
+        ],
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::38::dp_destination_particle",
+      "label": "DP Destination Particle",
+      "normalized_label": "dp destination particle",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::39::ep_entangled_particle",
+      "label": "EP Entangled Particle",
+      "normalized_label": "ep entangled particle",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::40::epc_entangled_particle_creation",
+      "label": "EPC Entangled Particle Creation",
+      "normalized_label": "epc entangled particle creation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The process of creating a pair of entangled particles, one sent to Alice and another to Bob."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::41::qsr_quantum_state_recovery",
+      "label": "QSR Quantum State Recovery",
+      "normalized_label": "qsr quantum state recovery",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::42::sp_source_particle",
+      "label": "SP Source Particle",
+      "normalized_label": "sp source particle",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::43::qp_quantum_photon_transmission",
+      "label": "QP Quantum Photon Transmission",
+      "normalized_label": "qp quantum photon transmission",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::44::quantum_entanglement",
+      "label": "Quantum Entanglement",
+      "normalized_label": "quantum entanglement",
+      "aliases": [
+        "Quantum entanglement"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement",
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::45::digital_communication",
+      "label": "Digital Communication",
+      "normalized_label": "digital communication",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::46::quantum_state_transfer",
+      "label": "quantum state transmission",
+      "normalized_label": "quantum state transfer",
+      "aliases": [
+        "Quantum State Transfer"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "The transfer of the quantum state from Alice's source particle to Bob's entangled particle."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement",
+        "doc8::paragraph::41::figure_3_entangled_state_teleportation::chunk::12::figure_3_entangled_state_teleportation"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::47::entanglement_swapping",
+      "label": "Entanglement Swapping",
+      "normalized_label": "entanglement swapping",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The transfer of the state of an entangled quantum particle from Alice to Bob, resulting in Bob and a third party (e.g., Charlie) possessing an entangled connection."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::48::quantum_state_recovery",
+      "label": "quantum state recovery (qsr)",
+      "normalized_label": "quantum state recovery",
+      "aliases": [
+        "QSR",
+        "Quantum State Recovery"
+      ],
+      "mention_count": 6,
+      "definitions": [
+        "A quantum operation performed by Bob on his entangled particle based on the BSM result from Alice.",
+        "the portion of the teleportation protocol that recovers the quantum state using bsmResult and eprId."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::20::bsmbell_state_measurement::chunk::9::bsmbell_state_measurement",
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::56::details_summary_flowchart_summary_mermaid_graph_::chunk::22::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::details::64::details_summary_flowchart_summary_mermaid_graph_::chunk::25::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::85::network_component::chunk::31::network_component"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Routing Architecture"
+        ],
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::49::charlie",
+      "label": "Charlie",
+      "normalized_label": "charlie",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::50::sp",
+      "label": "SP",
+      "normalized_label": "sp",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::51::epc",
+      "label": "Entangled Particles Creation",
+      "normalized_label": "epc",
+      "aliases": [
+        "EPC"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::41::figure_3_entangled_state_teleportation::chunk::12::figure_3_entangled_state_teleportation"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::52::alice",
+      "label": "Alice",
+      "normalized_label": "alice",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::53::dp",
+      "label": "DP",
+      "normalized_label": "dp",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::54::bob",
+      "label": "Bob",
+      "normalized_label": "bob",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::40::details_summary_flowchart_summary_mermaid_graph_::chunk::11::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::55::entangled_state_teleportation",
+      "label": "Entangled State Teleportation",
+      "normalized_label": "entangled state teleportation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The transfer of entanglement enables cloud or distributed quantum computing."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::41::figure_3_entangled_state_teleportation::chunk::12::figure_3_entangled_state_teleportation"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::56::cloud_quantum_computing",
+      "label": "cloud quantum computing",
+      "normalized_label": "cloud quantum computing",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::41::figure_3_entangled_state_teleportation::chunk::12::figure_3_entangled_state_teleportation"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::57::distributed_quantum_computing",
+      "label": "distributed quantum computing",
+      "normalized_label": "distributed quantum computing",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::41::figure_3_entangled_state_teleportation::chunk::12::figure_3_entangled_state_teleportation"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::58::quantum_information_processing",
+      "label": "quantum information processing",
+      "normalized_label": "quantum information processing",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::41::figure_3_entangled_state_teleportation::chunk::12::figure_3_entangled_state_teleportation"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::59::cw_optical_link",
+      "label": "CW optical link",
+      "normalized_label": "cw optical link",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::41::figure_3_entangled_state_teleportation::chunk::12::figure_3_entangled_state_teleportation",
+        "doc8::list_item::99::1_createepr_src_dest_causes_epm_to_create_an_ent::chunk::36::createepr_src_dest_causes_epm_to_create_an_entan"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ],
+        [
+          "2. EPM then:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::60::natural_image",
+      "label": "natural_image",
+      "normalized_label": "natural image",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::49::details_summary_natural_image_summary_vintage_el::chunk::17::details_summary_natural_image_summary_vintage_el"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::61::vintage_electrical_control_console",
+      "label": "Vintage electrical control console",
+      "normalized_label": "vintage electrical control console",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::49::details_summary_natural_image_summary_vintage_el::chunk::17::details_summary_natural_image_summary_vintage_el"
+      ],
+      "section_paths": [
+        [
+          "THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::62::telephone_networks",
+      "label": "telephone networks",
+      "normalized_label": "telephone networks",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::19::as_was_the_case_with_telephone_and_data_networks"
+      ],
+      "section_paths": [
+        [
+          "A QUANTUM ROUTER FOR THE ENTANGLED WEB"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::63::data_networks",
+      "label": "Destination node",
+      "normalized_label": "data networks",
+      "aliases": [
+        "Digital Network",
+        "data networks",
+        "digital network"
+      ],
+      "mention_count": 8,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::19::as_was_the_case_with_telephone_and_data_networks",
+        "doc8::paragraph::72::table_1_qr1_forwarding_table::chunk::27::table_1_qr1_forwarding_table",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu"
+      ],
+      "section_paths": [
+        [
+          "A QUANTUM ROUTER FOR THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Pair Management"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::64::automated_control_plane",
+      "label": "automated control plane",
+      "normalized_label": "automated control plane",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::19::as_was_the_case_with_telephone_and_data_networks",
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::20::as_was_the_case_with_telephone_and_data_networks"
+      ],
+      "section_paths": [
+        [
+          "A QUANTUM ROUTER FOR THE ENTANGLED WEB"
+        ],
+        [
+          "Quantum Routing Architecture"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::65::routing_layer",
+      "label": "routing layer",
+      "normalized_label": "routing layer",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::51::as_was_the_case_with_telephone_and_data_networks::chunk::20::as_was_the_case_with_telephone_and_data_networks"
+      ],
+      "section_paths": [
+        [
+          "Quantum Routing Architecture"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::66::source_sp",
+      "label": "Source SP",
+      "normalized_label": "source sp",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::56::details_summary_flowchart_summary_mermaid_graph_::chunk::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Quantum Routing Architecture"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::67::destination_dp",
+      "label": "Destination DP",
+      "normalized_label": "destination dp",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::56::details_summary_flowchart_summary_mermaid_graph_::chunk::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Quantum Routing Architecture"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::68::destination_ep",
+      "label": "Destination EP",
+      "normalized_label": "destination ep",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::56::details_summary_flowchart_summary_mermaid_graph_::chunk::22::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Quantum Routing Architecture"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::69::bell_state_measurement_results",
+      "label": "Bell State Measurement Results",
+      "normalized_label": "bell state measurement results",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::57::figure_6_routing_in_the_entangled_web::chunk::23::figure_6_routing_in_the_entangled_web"
+      ],
+      "section_paths": [
+        [
+          "Quantum Routing Architecture"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::70::digital_forwarding",
+      "label": "Digital Forwarding",
+      "normalized_label": "digital forwarding",
+      "aliases": [
+        "Digital forwarding"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "The process used in digital networks today, e.g., the IP network."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::57::figure_6_routing_in_the_entangled_web::chunk::23::figure_6_routing_in_the_entangled_web",
+        "doc8::paragraph::72::table_1_qr1_forwarding_table::chunk::27::table_1_qr1_forwarding_table"
+      ],
+      "section_paths": [
+        [
+          "Quantum Routing Architecture"
+        ],
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::71::quantum_forwarding",
+      "label": "Quantum Forwarding",
+      "normalized_label": "quantum forwarding",
+      "aliases": [
+        "Quantum forwarding",
+        "quantum forwarding"
+      ],
+      "mention_count": 4,
+      "definitions": [
+        "Forwarding via teleportation, a new process in quantum networks."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::57::figure_6_routing_in_the_entangled_web::chunk::23::figure_6_routing_in_the_entangled_web",
+        "doc8::paragraph::72::table_1_qr1_forwarding_table::chunk::27::table_1_qr1_forwarding_table",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further"
+      ],
+      "section_paths": [
+        [
+          "Quantum Routing Architecture"
+        ],
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Pair Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::72::routing_table",
+      "label": "routing table",
+      "normalized_label": "routing table",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::65::figure_7::chunk::26::figure_7"
+      ],
+      "section_paths": [
+        [
+          "Quantum Routing Architecture"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::73::quantum_network",
+      "label": "quantum network",
+      "normalized_label": "quantum network",
+      "aliases": [
+        "Quantum Network"
+      ],
+      "mention_count": 5,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::72::table_1_qr1_forwarding_table::chunk::27::table_1_qr1_forwarding_table",
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::106::we_have_described_how_the_addition_of_a_novel_qu::chunk::39::we_have_described_how_the_addition_of_a_novel_qu"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Pair Management"
+        ],
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::74::forward_qubit",
+      "label": "Forward Qubit",
+      "normalized_label": "forward qubit",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::75::next_hop",
+      "label": "Next Hop",
+      "normalized_label": "next hop",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::76::bsmresult",
+      "label": "bsmResult",
+      "normalized_label": "bsmresult",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_::chunk::38::txt_source_node_getqubit_return_0_4091_0_0_9125_"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::77::eprid",
+      "label": "eprId",
+      "normalized_label": "eprid",
+      "aliases": [],
+      "mention_count": 6,
+      "definitions": [
+        "the entangled pair ID of an entangled pair between nodes.",
+        "The entangled pair label sent over a digital interface to the Quantum Network nodes."
+      ],
+      "source_chunk_ids": [
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::list_item::99::1_createepr_src_dest_causes_epm_to_create_an_ent::chunk::36::createepr_src_dest_causes_epm_to_create_an_entan"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "2. EPM then:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::78::recover_qubit",
+      "label": "Recover Qubit",
+      "normalized_label": "recover qubit",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::76::details_summary_flowchart_summary_mermaid_graph_::chunk::29::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::79::source_node",
+      "label": "Source node",
+      "normalized_label": "source node",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::80::getqubits_request",
+      "label": "getQubits request",
+      "normalized_label": "getqubits request",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::81::qubitid",
+      "label": "qubitId",
+      "normalized_label": "qubitid",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "a reference to a qubit, which may be newly created or existing."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::paragraph::85::network_component::chunk::31::network_component",
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Pair Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::82::nexthop",
+      "label": "nextHop",
+      "normalized_label": "nexthop",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "the next node in the path to the Destination node."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::83::teleport",
+      "label": "teleport",
+      "normalized_label": "teleport",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_::chunk::38::txt_source_node_getqubit_return_0_4091_0_0_9125_"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::84::bell_state",
+      "label": "Bell State",
+      "normalized_label": "bell state",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_::chunk::38::txt_source_node_getqubit_return_0_4091_0_0_9125_"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::85::qsr",
+      "label": "qsr",
+      "normalized_label": "qsr",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::77::figure_8_figure_8_shows_a_simple_network_where_a::chunk::30::figure_8_figure_8_shows_a_simple_network_where_a",
+        "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_::chunk::38::txt_source_node_getqubit_return_0_4091_0_0_9125_"
+      ],
+      "section_paths": [
+        [
+          "Quantum Router Design"
+        ],
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::86::receiving_node",
+      "label": "receiving node",
+      "normalized_label": "receiving node",
+      "aliases": [
+        "repeater nodes"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further",
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Pair Management"
+        ],
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::87::destination",
+      "label": "Destination",
+      "normalized_label": "destination",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further"
+      ],
+      "section_paths": [
+        [
+          "Entangled Pair Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::88::entangled_pair_identifier_eprid",
+      "label": "entangled pair identifier (eprId)",
+      "normalized_label": "entangled pair identifier",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "Unique labels for entangled pairs created by the EPM."
+      ],
+      "source_chunk_ids": [
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further"
+      ],
+      "section_paths": [
+        [
+          "Entangled Pair Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::89::quantum_network_nodes",
+      "label": "quantum network nodes",
+      "normalized_label": "quantum network nodes",
+      "aliases": [
+        "Quantum Network nodes"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::89::if_the_receiving_node_is_the_destination_further::chunk::32::if_the_receiving_node_is_the_destination_further",
+        "doc8::paragraph::98::figure_9_entangled_pair_management::chunk::35::figure_9_entangled_pair_management",
+        "doc8::list_item::99::1_createepr_src_dest_causes_epm_to_create_an_ent::chunk::36::createepr_src_dest_causes_epm_to_create_an_entan"
+      ],
+      "section_paths": [
+        [
+          "Entangled Pair Management"
+        ],
+        [
+          "2. EPM then:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::90::epr_eprid",
+      "label": "epr(eprId)",
+      "normalized_label": "epr",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Entangled Pair Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::91::createepr_src_dest",
+      "label": "createEpr(src, dest)",
+      "normalized_label": "createepr",
+      "aliases": [
+        "createEpr"
+      ],
+      "mention_count": 5,
+      "definitions": [
+        "A function that causes EPM to create an entangled pair between the src and dest Quantum Network nodes."
+      ],
+      "source_chunk_ids": [
+        "doc8::details::97::details_summary_flowchart_summary_mermaid_graph_::chunk::34::details_summary_flowchart_summary_mermaid_graph_",
+        "doc8::paragraph::98::figure_9_entangled_pair_management::chunk::35::figure_9_entangled_pair_management",
+        "doc8::list_item::99::1_createepr_src_dest_causes_epm_to_create_an_ent::chunk::36::createepr_src_dest_causes_epm_to_create_an_entan"
+      ],
+      "section_paths": [
+        [
+          "Entangled Pair Management"
+        ],
+        [
+          "2. EPM then:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::92::src",
+      "label": "src",
+      "normalized_label": "src",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::98::figure_9_entangled_pair_management::chunk::35::figure_9_entangled_pair_management"
+      ],
+      "section_paths": [
+        [
+          "Entangled Pair Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::93::dest",
+      "label": "dest",
+      "normalized_label": "dest",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::98::figure_9_entangled_pair_management::chunk::35::figure_9_entangled_pair_management"
+      ],
+      "section_paths": [
+        [
+          "Entangled Pair Management"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::94::digital_interface",
+      "label": "digital interface",
+      "normalized_label": "digital interface",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::list_item::99::1_createepr_src_dest_causes_epm_to_create_an_ent::chunk::36::createepr_src_dest_causes_epm_to_create_an_entan"
+      ],
+      "section_paths": [
+        [
+          "2. EPM then:"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::95::digital_forwarding_plane",
+      "label": "digital forwarding plane",
+      "normalized_label": "digital forwarding plane",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::96::quantum_forwarding_plane",
+      "label": "quantum forwarding plane",
+      "normalized_label": "quantum forwarding plane",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::97::quantum_network_protocol",
+      "label": "quantum network protocol",
+      "normalized_label": "quantum network protocol",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::98::javascript_quantum_computer_simulator",
+      "label": "JavaScript quantum computer simulator",
+      "normalized_label": "javascript quantum computer simulator",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::99::jsqubits",
+      "label": "JSQUBITS",
+      "normalized_label": "jsqubits",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::100::digital_network_functions",
+      "label": "digital network functions",
+      "normalized_label": "digital network functions",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::101::node_js",
+      "label": "node.js",
+      "normalized_label": "node js",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::102::nodejs",
+      "label": "NODEJS",
+      "normalized_label": "nodejs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::103::physical_teleportation",
+      "label": "physical teleportation",
+      "normalized_label": "physical teleportation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::101::a_creates_an_entangled_pair_b_sends_one_photon_o::chunk::37::a_creates_an_entangled_pair_b_sends_one_photon_o"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::104::getqubit",
+      "label": "getqubit",
+      "normalized_label": "getqubit",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_::chunk::38::txt_source_node_getqubit_return_0_4091_0_0_9125_"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::105::entangled_pair_id",
+      "label": "Entangled Pair ID",
+      "normalized_label": "entangled pair id",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_::chunk::38::txt_source_node_getqubit_return_0_4091_0_0_9125_"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::106::forward",
+      "label": "forward",
+      "normalized_label": "forward",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_::chunk::38::txt_source_node_getqubit_return_0_4091_0_0_9125_"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::107::epid",
+      "label": "epId",
+      "normalized_label": "epid",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::code::104::txt_source_node_getqubit_return_0_4091_0_0_9125_::chunk::38::txt_source_node_getqubit_return_0_4091_0_0_9125_"
+      ],
+      "section_paths": [
+        [
+          "Entangled Web Prototype"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::108::quantum_mechanism",
+      "label": "Quantum mechanism",
+      "normalized_label": "quantum mechanism",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::109::public_goods_game",
+      "label": "Public goods game",
+      "normalized_label": "public goods game",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::110::optical_fiber_telecommunications",
+      "label": "Optical fiber telecommunications",
+      "normalized_label": "optical fiber telecommunications",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::111::bell_inequality_violation",
+      "label": "Bell inequality violation",
+      "normalized_label": "bell inequality violation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::112::entangled_photon_pairs",
+      "label": "Entangled photon pairs",
+      "normalized_label": "entangled photon pairs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::113::multi_agent_protocols",
+      "label": "Multi-agent protocols",
+      "normalized_label": "multi-agent protocols",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::114::one_way_communication_complexity",
+      "label": "One-way communication complexity",
+      "normalized_label": "one-way communication complexity",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc8::concept::115::all_photonic_quantum_teleportation",
+      "label": "All-photonic quantum teleportation",
+      "normalized_label": "all-photonic quantum teleportation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc8::paragraph::109::references::chunk::40::references"
+      ],
+      "section_paths": [
+        [
+          "SUMMARY AND NEXT STEPS"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc8::concept::4::qubit_transmission_protocols",
+        "doc8::concept::12::qubit"
+      ],
+      "labels": [
+        "Qubit transmission protocols",
+        "Qubit"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::6::teleportation",
+        "doc8::concept::20::quantum_teleportation"
+      ],
+      "labels": [
+        "Teleportation",
+        "Quantum teleportation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::11::fiber_optics",
+        "doc8::concept::33::continuous_wave_cw_fiber_optics"
+      ],
+      "labels": [
+        "Fiber optics",
+        "continuous wave (CW) fiber optics"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::30::quantum_photon",
+        "doc8::concept::36::photon"
+      ],
+      "labels": [
+        "quantum photon",
+        "photon"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::30::quantum_photon",
+        "doc8::concept::43::qp_quantum_photon_transmission"
+      ],
+      "labels": [
+        "quantum photon",
+        "QP Quantum Photon Transmission"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::41::qsr_quantum_state_recovery",
+        "doc8::concept::48::quantum_state_recovery"
+      ],
+      "labels": [
+        "QSR Quantum State Recovery",
+        "Quantum State Recovery"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::42::sp_source_particle",
+        "doc8::concept::50::sp"
+      ],
+      "labels": [
+        "SP Source Particle",
+        "SP"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::40::epc_entangled_particle_creation",
+        "doc8::concept::51::epc"
+      ],
+      "labels": [
+        "EPC Entangled Particle Creation",
+        "EPC"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::38::dp_destination_particle",
+        "doc8::concept::53::dp"
+      ],
+      "labels": [
+        "DP Destination Particle",
+        "DP"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::1::bob_lund",
+        "doc8::concept::54::bob"
+      ],
+      "labels": [
+        "Bob Lund",
+        "Bob"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::6::teleportation",
+        "doc8::concept::55::entangled_state_teleportation"
+      ],
+      "labels": [
+        "Teleportation",
+        "Entangled State Teleportation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::42::sp_source_particle",
+        "doc8::concept::66::source_sp"
+      ],
+      "labels": [
+        "SP Source Particle",
+        "Source SP"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::38::dp_destination_particle",
+        "doc8::concept::67::destination_dp"
+      ],
+      "labels": [
+        "DP Destination Particle",
+        "Destination DP"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::25::quantum_network_architecture",
+        "doc8::concept::73::quantum_network"
+      ],
+      "labels": [
+        "Quantum network architecture",
+        "quantum network"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::12::qubit",
+        "doc8::concept::74::forward_qubit"
+      ],
+      "labels": [
+        "Qubit",
+        "Forward Qubit"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::12::qubit",
+        "doc8::concept::78::recover_qubit"
+      ],
+      "labels": [
+        "Qubit",
+        "Recover Qubit"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::69::bell_state_measurement_results",
+        "doc8::concept::84::bell_state"
+      ],
+      "labels": [
+        "Bell State Measurement Results",
+        "Bell State"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::41::qsr_quantum_state_recovery",
+        "doc8::concept::85::qsr"
+      ],
+      "labels": [
+        "QSR Quantum State Recovery",
+        "qsr"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::38::dp_destination_particle",
+        "doc8::concept::87::destination"
+      ],
+      "labels": [
+        "DP Destination Particle",
+        "Destination"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::89::quantum_network_nodes"
+      ],
+      "labels": [
+        "quantum network",
+        "quantum network nodes"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::70::digital_forwarding",
+        "doc8::concept::95::digital_forwarding_plane"
+      ],
+      "labels": [
+        "Digital Forwarding",
+        "digital forwarding plane"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::71::quantum_forwarding",
+        "doc8::concept::96::quantum_forwarding_plane"
+      ],
+      "labels": [
+        "Quantum Forwarding",
+        "quantum forwarding plane"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::73::quantum_network",
+        "doc8::concept::97::quantum_network_protocol"
+      ],
+      "labels": [
+        "quantum network",
+        "quantum network protocol"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::8::quantum_simulator",
+        "doc8::concept::98::javascript_quantum_computer_simulator"
+      ],
+      "labels": [
+        "Quantum simulator",
+        "JavaScript quantum computer simulator"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::6::teleportation",
+        "doc8::concept::103::physical_teleportation"
+      ],
+      "labels": [
+        "Teleportation",
+        "physical teleportation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::74::forward_qubit",
+        "doc8::concept::106::forward"
+      ],
+      "labels": [
+        "Forward Qubit",
+        "forward"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::18::public_goods",
+        "doc8::concept::109::public_goods_game"
+      ],
+      "labels": [
+        "Public goods",
+        "Public goods game"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::36::photon",
+        "doc8::concept::112::entangled_photon_pairs"
+      ],
+      "labels": [
+        "photon",
+        "Entangled photon pairs"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::16::communication_complexity",
+        "doc8::concept::114::one_way_communication_complexity"
+      ],
+      "labels": [
+        "Communication complexity",
+        "One-way communication complexity"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc8::concept::6::teleportation",
+        "doc8::concept::115::all_photonic_quantum_teleportation"
+      ],
+      "labels": [
+        "Teleportation",
+        "All-photonic quantum teleportation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 263,
+    "canonical_concept_count": 116,
+    "candidate_merge_count": 30
+  }
+}

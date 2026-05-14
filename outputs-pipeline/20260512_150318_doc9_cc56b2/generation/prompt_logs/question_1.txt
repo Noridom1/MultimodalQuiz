@@ -1,0 +1,40 @@
+Index: 1
+Target concept: Public Health Emergency of International Concern
+Tested fact block id: doc9::chunk::1
+Image description: A world map highlighting regions affected by a global health emergency.
+
+--- Attached knowledge_context (if any) ---
+(none)
+
+--- Question prompt sent to LLM ---
+You are generating one high-quality quiz question.
+Target concept: Public Health Emergency of International Concern
+Question type: multiple_choice
+Difficulty: easy
+Reasoning type: factoid
+Image role: illustrative
+Learning objective: Understand the definition and scope of a Public Health Emergency of International Concern.
+Image context: A world map highlighting regions affected by a global health emergency.
+Tested fact block ID: doc9::chunk::1
+Cite this fact source in your explanation.
+Required output JSON schema:
+{"question_text": "string", "options": ["string"], "correct_answer": "string", "explanation": "string"}
+Constraints:
+- Return ONLY valid JSON with no markdown fences.
+- Do not include any keys beyond the required schema.
+- If question_type is multiple-choice, include 4 options.
+- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).
+- Keep explanation concise and instructional (1-3 sentences).
+- The associated image is illustrative support only. The question should remain answerable without inspecting the image.
+
+--- Image prompt ---
+**Prompt:**
+Create a minimalist world map with high-contrast colors (e.g., red for affected regions, neutral gray for unaffected areas) and clear, bold labels like "Affected Zone 1" and "Affected Zone 2." Include subtle icons (e.g., medical crosses, alert symbols) to denote health emergencies, ensuring all elements are generic and non-copyrighted. Use a clean, accessible design with sufficient color differentiation for visibility.
+
+**Alt:** A world map with highlighted regions marked as affected by a global health emergency, using symbols and labels for clarity.
+
+--- Raw LLM image-prompt response ---
+**Prompt:**
+Create a minimalist world map with high-contrast colors (e.g., red for affected regions, neutral gray for unaffected areas) and clear, bold labels like "Affected Zone 1" and "Affected Zone 2." Include subtle icons (e.g., medical crosses, alert symbols) to denote health emergencies, ensuring all elements are generic and non-copyrighted. Use a clean, accessible design with sufficient color differentiation for visibility.
+
+**Alt:** A world map with highlighted regions marked as affected by a global health emergency, using symbols and labels for clarity.

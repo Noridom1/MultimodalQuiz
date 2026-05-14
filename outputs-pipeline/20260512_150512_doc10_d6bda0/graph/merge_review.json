@@ -1,0 +1,249 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc10::concept::7::virtual_hardware_1",
+        "doc10::concept::14::hardware_cpu_ram_i_o"
+      ],
+      "labels": [
+        "Virtual Hardware 1",
+        "Hardware (CPU, RAM, I/O)"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::7::virtual_hardware_1",
+        "doc10::concept::15::virtual_hardware"
+      ],
+      "labels": [
+        "Virtual Hardware 1",
+        "Virtual Hardware"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager"
+      ],
+      "labels": [
+        "Container",
+        "Container manager"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::26::virtual_machine_monitor"
+      ],
+      "labels": [
+        "Virtual Machine",
+        "Virtual machine monitor"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::2::virtualization_software",
+        "doc10::concept::27::virtualization"
+      ],
+      "labels": [
+        "Virtualization software",
+        "Virtualization"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::31::docker_files"
+      ],
+      "labels": [
+        "Docker",
+        "docker files"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::27::virtualization",
+        "doc10::concept::37::lightweight_virtualization"
+      ],
+      "labels": [
+        "Virtualization",
+        "Lightweight virtualization"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::10::hypervisor_vmm",
+        "doc10::concept::43::hypervisor"
+      ],
+      "labels": [
+        "Hypervisor/VMM",
+        "Hypervisor"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::44::virtual_machine_manager_vmm"
+      ],
+      "labels": [
+        "Virtual Machine",
+        "Virtual Machine Manager (VMM)"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::9::host_os",
+        "doc10::concept::45::host"
+      ],
+      "labels": [
+        "Host OS",
+        "Host"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::50::hardware_access"
+      ],
+      "labels": [
+        "Hardware (CPU, RAM, I/O)",
+        "Hardware access"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::60::layering_with_containerization"
+      ],
+      "labels": [
+        "Containerization",
+        "Layering with containerization"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::71::docker_run"
+      ],
+      "labels": [
+        "Docker",
+        "docker run"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::72::docker_image_ls"
+      ],
+      "labels": [
+        "Docker",
+        "docker image ls"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::73::docker_container_ls"
+      ],
+      "labels": [
+        "Docker",
+        "docker container ls"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::74::docker_container_help"
+      ],
+      "labels": [
+        "Docker",
+        "docker container --help"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::76::docker_stop"
+      ],
+      "labels": [
+        "Docker",
+        "docker stop"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::77::docker_logs"
+      ],
+      "labels": [
+        "Docker",
+        "docker logs"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::78::docker_ps"
+      ],
+      "labels": [
+        "Docker",
+        "docker ps"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::81::docker_toolbox"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Toolbox"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

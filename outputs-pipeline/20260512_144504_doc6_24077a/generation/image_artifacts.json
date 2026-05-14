@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Create a simplified, high-contrast diagram of a synaptic cleft with two neurons: a presynaptic neuron releasing small, colorful spheres (labeled \"Neurotransmitters\") into the gap, and a postsynaptic neuron with receptors. Use bright, distinct colors for clarity (e.g., blue for vesicles, green for receptors), and label key parts: \"Presynaptic Neuron,\" \"Synaptic Cleft,\" \"Postsynaptic Neuron,\" and \"Receptors.\" Avoid realistic styling—opt for clean, schematic lines.\n\n**Alt:** A labeled diagram showing neurotransmitter release between two neurons across a synaptic gap.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_144504_doc6_24077a/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a synaptic cleft, showing spherical neurotransmitters (e.g., dopamine or serotonin) binding to labeled receptor proteins embedded in the postsynaptic membrane. Use distinct colors for neurotransmitters (e.g., blue) and receptors (e.g., green), with clear arrows indicating binding. Include minimal labels like \"Neurotransmitter,\" \"Receptor,\" and \"Postsynaptic Membrane,\" avoiding specific names or answers.\n\n**Alt:** A diagram of neurotransmitters binding to receptors on a postsynaptic neuron.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_144504_doc6_24077a/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of an enzyme active site (labeled \"Active Site\") with a metal ion (e.g., Mg²⁺ or Zn²⁺, labeled \"Metal Ion Cofactor\") bound to it, showing interactions like coordination bonds or charge stabilization. Use a neutral background with bright, distinct colors for the enzyme (blue), metal ion (gold/orange), and substrate (green), and include dashed lines to indicate bonds or interactions. Avoid realistic protein structures—opt for a schematic style with clear, bold labels.\n\n**Alt:** A diagram of an enzyme active site with a metal ion cofactor bound to it, illustrating their role in catalysis.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_144504_doc6_24077a/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a simplified cross-section diagram of a synapse, showing a presynaptic neuron releasing neurotransmitters into the synaptic cleft, with labeled transporter proteins actively recycling excess molecules back into the neuron. Use high-contrast colors: bright blue for neurotransmitters, orange for transporter proteins, and neutral grays for neurons. Include minimal labels like \"Presynaptic Neuron,\" \"Postsynaptic Neuron,\" \"Neurotransmitter,\" and \"Reuptake Transporter,\" avoiding any quiz-revealing text. Alt: A labeled diagram of a synapse illustrating neurotransmitter release and reuptake via transporter proteins.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_144504_doc6_24077a/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simplified cross-section diagram of a presynaptic neuron membrane, showing **transporter proteins** (labeled as \"Transporter\") embedded in the lipid bilayer. Depict them actively moving **neurotransmitter molecules** (small, colorful spheres) from the synaptic cleft back into the neuron, with arrows indicating direction. Use high-contrast colors (e.g., blue membrane, yellow transporters, red neurotransmitters) and clear, bold labels for key structures. Avoid realistic cellular details to focus on the recycling process.\n\n**Alt:** A diagram of transporter proteins in a neuron membrane recycling neurotransmitters back into the cell.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_144504_doc6_24077a/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

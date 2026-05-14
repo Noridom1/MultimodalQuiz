@@ -1,0 +1,47 @@
+{
+  "artifact_count": 2,
+  "artifacts": [
+    {
+      "id": "doc12::artifact::69::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7",
+      "label": "![](images/9b9a23678b9b7123ed79530a20eeaba8b1f133cd768b5086d38c51e3562cd224.jpg)",
+      "kind": "artifact",
+      "content_type": "image",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::image::69::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7::chunk::14::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7",
+      "page_idx": null,
+      "section_path": [
+        "These articles and resources can help you learn to cope with stress:"
+      ],
+      "text": "![](images/9b9a23678b9b7123ed79530a20eeaba8b1f133cd768b5086d38c51e3562cd224.jpg)",
+      "image_path": "images/9b9a23678b9b7123ed79530a20eeaba8b1f133cd768b5086d38c51e3562cd224.jpg",
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc12::image::69::images_9b9a23678b9b7123ed79530a20eeaba8b1f133cd7",
+        "block_kind": "image",
+        "alt_text": ""
+      }
+    },
+    {
+      "id": "doc12::artifact::70::details_summary_text_image_summary_arm_all_the_r",
+      "label": "<details> <summary>text_image</summary> ARM All the Right Moves </details>",
+      "kind": "artifact",
+      "content_type": "details",
+      "source_file": "data/markdown/doc12/hybrid_auto/doc12.md",
+      "source_location": null,
+      "source_chunk_id": "doc12::details::70::details_summary_text_image_summary_arm_all_the_r::chunk::15::details_summary_text_image_summary_arm_all_the_r",
+      "page_idx": null,
+      "section_path": [
+        "These articles and resources can help you learn to cope with stress:"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nARM\nAll the Right Moves\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_id": "doc12::details::70::details_summary_text_image_summary_arm_all_the_r",
+        "block_kind": "details",
+        "format": "html_details"
+      }
+    }
+  ]
+}

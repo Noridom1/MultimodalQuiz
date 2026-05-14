@@ -1,0 +1,665 @@
+{
+  "section_count": 33,
+  "sections": [
+    {
+      "id": "doc11::section::0::how",
+      "label": "How",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "How"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 0,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::1::manage_and_reduce_stress",
+      "label": "MANAGE AND REDUCE STRESS",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "MANAGE AND REDUCE STRESS"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 1,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::2::what_is_stress",
+      "label": "WHAT IS STRESS?",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 2,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::6::what_is_stress",
+      "label": "WHAT IS STRESS?",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 6,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::13::physical_symptoms",
+      "label": "PHYSICAL SYMPTOMS",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 13,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::23::behavioural",
+      "label": "BEHAVIOURAL",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "BEHAVIOURAL"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 23,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::24::and",
+      "label": "AND",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "AND"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 24,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::25::emotional",
+      "label": "EMOTIONAL",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "EMOTIONAL"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 25,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::26::effects",
+      "label": "EFFECTS",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "EFFECTS"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 26,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::32::identifying_the_signs_of_stress",
+      "label": "IDENTIFYING THE SIGNS OF STRESS",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "IDENTIFYING THE SIGNS OF STRESS"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 32,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::39::what_causes",
+      "label": "WHAT CAUSES",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "WHAT CAUSES"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 39,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::40::stress",
+      "label": "STRESS?",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 40,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::57::relationships",
+      "label": "RELATIONSHIPS",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "RELATIONSHIPS"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 57,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::63::work_life_balance",
+      "label": "WORK-LIFE BALANCE",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "WORK-LIFE BALANCE"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 63,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::70::money",
+      "label": "MONEY",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "MONEY"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 70,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::77::smoking_drinking_and_drug_use",
+      "label": "SMOKING, DRINKING AND DRUG USE",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "SMOKING, DRINKING AND DRUG USE"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 77,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::83::how_can",
+      "label": "HOW CAN",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "HOW CAN"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 83,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::84::you_help",
+      "label": "YOU HELP",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "YOU HELP"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 84,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::85::yourself",
+      "label": "YOURSELF?",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 85,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::96::you_can_also_help_protect_yourself_from_stress_i",
+      "label": "You can also help protect yourself from stress in a number of ways:",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 96,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::109::seeking_help",
+      "label": "SEEKING HELP",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "SEEKING HELP"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 109,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::112::every_mind_matters",
+      "label": "Every Mind Matters",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Every Mind Matters"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 112,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::114::anxiety_uk",
+      "label": "Anxiety UK",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Anxiety UK"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 114,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::116::citizens_advice",
+      "label": "Citizens Advice",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Citizens Advice"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 116,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::118::stepchange",
+      "label": "StepChange",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "StepChange"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 118,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::120::samaritans",
+      "label": "Samaritans",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Samaritans"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 120,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::122::specialist_mental_health_services",
+      "label": "Specialist mental health services",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Specialist mental health services"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 122,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::127::101_top_tips_from_you",
+      "label": "101 TOP TIPS FROM YOU",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "101 TOP TIPS FROM YOU"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 127,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::145::17_painting_or_drawing",
+      "label": "17. Painting or drawing",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 145,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::158::27_go_to_a_yoga_class",
+      "label": "27. Go to a yoga class",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 158,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::194::60_take_a_break_even_a_short_one_can_make_a_diff",
+      "label": "60. Take a break, even a short one can make a difference",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 194,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::243::101_get_a_cuddle",
+      "label": "101. Get a cuddle",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "101. Get a cuddle"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 243,
+        "level": 1
+      }
+    },
+    {
+      "id": "doc11::section::244::make_a_donation_to_help_us_continue_our_vital_wo",
+      "label": "Make a donation to help us continue our vital work:",
+      "kind": "section",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": null,
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": null,
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "order": 244,
+        "level": 1
+      }
+    }
+  ]
+}

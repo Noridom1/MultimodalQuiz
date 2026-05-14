@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "neurotransmitters",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the release of neurotransmitters into the synaptic cleft.",
+    "learning_objective": "Understand the role of neurotransmitters in neuronal communication.",
+    "tested_fact_block_id": "doc6::concept::1::neurotransmitters",
+    "metadata": {}
+  },
+  {
+    "target_concept": "receptors",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing neurotransmitters binding to receptors on the postsynaptic membrane.",
+    "learning_objective": "Understand the role of receptors in neurotransmitter signaling.",
+    "tested_fact_block_id": "doc6::chunk::1::receptors",
+    "metadata": {}
+  },
+  {
+    "target_concept": "metal ions",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing metal ions interacting with an enzyme active site.",
+    "learning_objective": "Understand the role of metal ions as cofactors in enzymatic reactions.",
+    "tested_fact_block_id": "doc6::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "reuptake",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the reuptake process at a synapse.",
+    "learning_objective": "Understand the role of reuptake in neurotransmitter recycling.",
+    "tested_fact_block_id": "doc6::concept::21::reuptake",
+    "metadata": {}
+  },
+  {
+    "target_concept": "transporter proteins",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing transporter proteins embedded in the presynaptic membrane, moving neurotransmitters back into the neuron.",
+    "learning_objective": "Understand the role of transporter proteins in neurotransmitter recycling.",
+    "tested_fact_block_id": "doc6::concept::57::transporter_proteins",
+    "metadata": {}
+  }
+]

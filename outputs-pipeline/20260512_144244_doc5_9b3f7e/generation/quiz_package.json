@@ -1,0 +1,146 @@
+{
+  "run_id": "20260512_144244_doc5_9b3f7e",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_e0d2717ac1",
+        "question_text": "What is the primary reason the Moon always shows the same face to Earth?",
+        "options": [
+          "A) The Moon does not rotate on its axis.",
+          "B) The Moon's rotation period matches its orbital period around Earth.",
+          "C) Earth's gravity prevents the Moon from rotating.",
+          "D) The Moon's rotation is retrograded compared to its orbit."
+        ],
+        "correct_answer": "B",
+        "explanation": "The Moon exhibits synchronous rotation, meaning its rotation period is equal to its orbital period around Earth, causing the same side to always face Earth. This is a result of tidal locking over time. (Source: doc5::chunk::1)",
+        "target_concept": "synchronous rotation",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc5::chunk::1",
+          "run_id": "20260512_144244_doc5_9b3f7e"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: synchronous rotation\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the concept of synchronous rotation and its relation to the Moon's orbit.\nImage context: A diagram showing the Moon's rotation and orbit around Earth, with arrows indicating synchronous rotation.\nTested fact block ID: doc5::chunk::1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram of the Moon orbiting Earth, with a curved arrow showing its orbital path and a smaller arrow indicating its rotation on its axis. Label the Moon, Earth, and arrows clearly (e.g., \"Orbit\" and \"Rotation\"), using bold, legible text. Use a dark blue background for space, a pale blue-green for Earth, and gray for the Moon to ensure clarity. Avoid realistic textures or copyrighted elements.\n\n**Alt:** A diagram showing the Moon orbiting Earth with arrows indicating its synchronous rotation and orbital path."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_0535334015",
+        "question_text": "Approximately how many Earth diameters would fit across the diameter of the Moon?",
+        "options": [
+          "A) 1/4",
+          "B) 1/2",
+          "C) 3/4",
+          "D) 1"
+        ],
+        "correct_answer": "A",
+        "explanation": "The Moon's diameter is about 1/4 that of Earth's, as documented in doc5::concept::2::moon. This illustrates the significant size difference between the two celestial bodies.",
+        "target_concept": "Earth-diameters",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc5::concept::2::moon",
+          "run_id": "20260512_144244_doc5_9b3f7e"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Earth-diameters\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the relative size of the Moon compared to Earth.\nImage context: A side-by-side comparison of Earth and the Moon showing their relative sizes.\nTested fact block ID: doc5::concept::2::moon\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Create a side-by-side illustration of Earth and the Moon, scaled to show their relative sizes with high contrast and clear labels (e.g., \"Earth\" and \"Moon\"). Use a simple, neutral background with distinct colors for each celestial body (e.g., blue-green for Earth, gray for the Moon). Ensure the image is accessible with bold outlines for visibility.\n\n**Alt:** A side-by-side comparison of Earth and the Moon, labeled and scaled to show their relative sizes."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_14dd06c01f",
+        "question_text": "What is the primary cause of the Moon's phases as observed from Earth?",
+        "options": [
+          "A) The Moon's rotation on its own axis",
+          "B) The Earth's rotation on its own axis",
+          "C) The changing position of the Moon relative to the Earth and Sun",
+          "D) The Moon's varying distance from the Earth"
+        ],
+        "correct_answer": "C",
+        "explanation": "The Moon's phases are caused by its changing position relative to the Earth and Sun, which alters the portion of its illuminated surface visible from Earth. As the Moon orbits Earth, sunlight reflects off different parts of its surface, creating the observed phases. (doc5::chunk::0)",
+        "target_concept": "Moon",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "doc5::chunk::0",
+          "run_id": "20260512_144244_doc5_9b3f7e"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Moon\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the cause of the Moon's phases.\nImage context: A diagram showing the Moon in different positions around the Earth, with sunlight illuminating varying portions of its surface.\nTested fact block ID: doc5::chunk::0\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast diagram showing the Earth at the center with the Moon in 8 key positions around it, each labeled (e.g., \"New Moon,\" \"First Quarter\"). Use a bright yellow sun on one side casting light to illustrate how different portions of the Moon are illuminated, with the visible lit portion shaded white and the shadowed area dark gray. Keep the background minimal (deep blue or black) for clarity.\n\nAlt: A diagram of the Moon orbiting Earth, with sunlight showing how its phases change based on position."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_c0d103a91b",
+        "question_text": "What is the Sun?",
+        "options": [
+          "A planet",
+          "A star",
+          "A moon",
+          "A comet"
+        ],
+        "correct_answer": "A star",
+        "explanation": "The Sun is a star, which is a luminous sphere of plasma held together by its own gravity. It is the central and most massive object in the Solar System, around which the planets orbit. (Source: doc5::concept::3::sun)",
+        "target_concept": "Sun",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc5::concept::3::sun",
+          "run_id": "20260512_144244_doc5_9b3f7e"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Sun\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the Sun as a star and its central role in the Solar System.\nImage context: A diagram showing the Sun at the center of the Solar System with planets orbiting around it.\nTested fact block ID: doc5::concept::3::sun\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast diagram with the Sun as a bright yellow star at the center, surrounded by labeled planetary orbits (e.g., \"Planet 1,\" \"Planet 2\") in distinct colors. Use bold, clear lines and avoid realistic textures to emphasize the Sun’s central role. Alt: A diagram of the Solar System with the Sun at the center and labeled planets orbiting around it."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_86c61f2540",
+        "question_text": "During the waxing gibbous phase, what portion of the Moon is illuminated as seen from Earth?",
+        "options": [
+          "Less than half of the visible side",
+          "Exactly half of the visible side",
+          "More than half but not fully illuminated",
+          "The entire visible side"
+        ],
+        "correct_answer": "More than half but not fully illuminated",
+        "explanation": "The waxing gibbous phase occurs when more than half of the Moon's visible side is illuminated but it is not yet full. This is due to the angle between the Earth, Moon, and Sun. (doc5::concept::42::illumination)",
+        "target_concept": "Illumination",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc5::concept::42::illumination",
+          "run_id": "20260512_144244_doc5_9b3f7e"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Illumination\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of illumination in determining the Moon's phases, specifically the waxing gibbous phase.\nImage context: A diagram showing the Moon's phases with the waxing gibbous phase highlighted and the illuminated portion clearly marked.\nTested fact block ID: doc5::concept::42::illumination\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a diagram of the Moon's phases in a circular arrangement, with the waxing gibbous phase prominently highlighted in a warm yellow glow to emphasize illumination. Label each phase clearly (e.g., \"New Moon,\" \"First Quarter\") and use arrows to show the direction of orbit, with the waxing gibbous phase marked by a bold outline and a label like \"Highlighted Phase.\" Use high-contrast colors (dark background, bright Moon phases) for accessibility, and avoid realistic Earth/Moon textures to prevent copyright issues.\n\nAlt: A diagram of the Moon's phases with the waxing gibbous phase highlighted to show illumination."
+    }
+  ]
+}

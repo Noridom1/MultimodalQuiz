@@ -1,0 +1,348 @@
+{
+  "count": 7,
+  "topics": [
+    {
+      "id": "doc3::topic_candidate::anchor::8::democratic_republic_of_vietnam",
+      "label": "Democratic Republic of Vietnam",
+      "description": "Concept-anchored topic centered on Democratic Republic of Vietnam",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "ĐỖ QUANG HƯNG\\*"
+        ]
+      ],
+      "concept_ids": [
+        "doc3::concept::0::august_revolution_1945",
+        "doc3::concept::1::marxist_leninism",
+        "doc3::concept::20::freedom_of_beliefs",
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::3::democratic_republic_of_vietnam",
+        "doc3::concept::4::vietnamese_communists"
+      ],
+      "chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc3::concept::3::democratic_republic_of_vietnam"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 1.0,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 1.0
+      },
+      "metadata": {
+        "anchor_concept_id": "doc3::concept::3::democratic_republic_of_vietnam"
+      }
+    },
+    {
+      "id": "doc3::topic_candidate::anchor::5::national_assembly",
+      "label": "National Assembly",
+      "description": "Concept-anchored topic centered on National Assembly",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "concept_ids": [
+        "doc3::concept::10::indochinese_communist_party",
+        "doc3::concept::11::vi_t_minh",
+        "doc3::concept::12::national_liberation_committee",
+        "doc3::concept::13::national_assembly",
+        "doc3::concept::14::catholics_for_the_national_salvation",
+        "doc3::concept::23::international_communism",
+        "doc3::concept::24::stalin",
+        "doc3::concept::25::tr_ng_chinh",
+        "doc3::concept::26::s_th_t",
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::5::august_revolution"
+      ],
+      "chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i",
+        "doc3::paragraph::29::these_manifestations_expressed_a_conspicuous_ref::chunk::7::these_manifestations_expressed_a_conspicuous_ref",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc3::concept::10::indochinese_communist_party",
+        "doc3::concept::11::vi_t_minh",
+        "doc3::concept::13::national_assembly"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.727,
+        "breadth_score": 0.5,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.755
+      },
+      "metadata": {
+        "anchor_concept_id": "doc3::concept::13::national_assembly",
+        "merged_candidate_ids": [
+          "doc3::topic_candidate::anchor::4::vi_t_minh",
+          "doc3::topic_candidate::anchor::3::indochinese_communist_party"
+        ]
+      }
+    },
+    {
+      "id": "doc3::topic_candidate::anchor::7::tr_ng_chinh",
+      "label": "Trường Chinh",
+      "description": "Concept-anchored topic centered on Trường Chinh",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "concept_ids": [
+        "doc3::concept::23::international_communism",
+        "doc3::concept::24::stalin",
+        "doc3::concept::25::tr_ng_chinh",
+        "doc3::concept::26::s_th_t",
+        "doc3::concept::27::marxists",
+        "doc3::concept::28::leftist_infantilism",
+        "doc3::concept::5::august_revolution"
+      ],
+      "chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i",
+        "doc3::paragraph::29::these_manifestations_expressed_a_conspicuous_ref::chunk::7::these_manifestations_expressed_a_conspicuous_ref",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc3::concept::25::tr_ng_chinh"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.857,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.92
+      },
+      "metadata": {
+        "anchor_concept_id": "doc3::concept::25::tr_ng_chinh"
+      }
+    },
+    {
+      "id": "doc3::topic_candidate::anchor::6::international_communism",
+      "label": "International Communism",
+      "description": "Concept-anchored topic centered on International Communism",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "concept_ids": [
+        "doc3::concept::10::indochinese_communist_party",
+        "doc3::concept::11::vi_t_minh",
+        "doc3::concept::12::national_liberation_committee",
+        "doc3::concept::23::international_communism",
+        "doc3::concept::24::stalin",
+        "doc3::concept::25::tr_ng_chinh",
+        "doc3::concept::26::s_th_t",
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::5::august_revolution"
+      ],
+      "chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i",
+        "doc3::paragraph::29::these_manifestations_expressed_a_conspicuous_ref::chunk::7::these_manifestations_expressed_a_conspicuous_ref",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc3::concept::23::international_communism"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.889,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.871
+      },
+      "metadata": {
+        "anchor_concept_id": "doc3::concept::23::international_communism"
+      }
+    },
+    {
+      "id": "doc3::topic_candidate::anchor::1::august_revolution",
+      "label": "August Revolution",
+      "description": "Concept-anchored topic centered on August Revolution",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "The August Revolution (1945) and Religious Issues"
+        ]
+      ],
+      "concept_ids": [
+        "doc3::concept::10::indochinese_communist_party",
+        "doc3::concept::11::vi_t_minh",
+        "doc3::concept::13::national_assembly",
+        "doc3::concept::1::marxist_leninism",
+        "doc3::concept::23::international_communism",
+        "doc3::concept::25::tr_ng_chinh",
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::5::august_revolution",
+        "doc3::concept::6::national_independence",
+        "doc3::concept::7::socialism",
+        "doc3::concept::8::communist_party_of_vietnam",
+        "doc3::concept::9::h_ch_minh_s_thought"
+      ],
+      "chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i",
+        "doc3::paragraph::29::these_manifestations_expressed_a_conspicuous_ref::chunk::7::these_manifestations_expressed_a_conspicuous_ref",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc3::concept::11::vi_t_minh",
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::5::august_revolution"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "anchor_concept_id": "doc3::concept::5::august_revolution",
+        "merged_candidate_ids": [
+          "doc3::topic_candidate::section::2::the_august_revolution_1945_and_religious_issues"
+        ]
+      }
+    },
+    {
+      "id": "doc3::topic_candidate::anchor::0::h_ch_minh",
+      "label": "Hồ Chí Minh",
+      "description": "Concept-anchored topic centered on Hồ Chí Minh",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "ĐỖ QUANG HƯNG\\*"
+        ]
+      ],
+      "concept_ids": [
+        "doc3::concept::0::august_revolution_1945",
+        "doc3::concept::10::indochinese_communist_party",
+        "doc3::concept::11::vi_t_minh",
+        "doc3::concept::12::national_liberation_committee",
+        "doc3::concept::13::national_assembly",
+        "doc3::concept::1::marxist_leninism",
+        "doc3::concept::20::freedom_of_beliefs",
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::3::democratic_republic_of_vietnam",
+        "doc3::concept::4::vietnamese_communists",
+        "doc3::concept::5::august_revolution",
+        "doc3::concept::8::communist_party_of_vietnam"
+      ],
+      "chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc3::concept::1::marxist_leninism",
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::3::democratic_republic_of_vietnam"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.583,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.674
+      },
+      "metadata": {
+        "anchor_concept_id": "doc3::concept::2::h_ch_minh",
+        "merged_candidate_ids": [
+          "doc3::topic_candidate::section::1::quang_h_ng"
+        ]
+      }
+    },
+    {
+      "id": "doc3::topic_candidate::anchor::2::marxist_leninism",
+      "label": "Marxist-Leninism",
+      "description": "Concept-anchored topic centered on Marxist-Leninism",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "ĐỖ QUANG HƯNG\\*"
+        ]
+      ],
+      "concept_ids": [
+        "doc3::concept::0::august_revolution_1945",
+        "doc3::concept::1::marxist_leninism",
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::3::democratic_republic_of_vietnam",
+        "doc3::concept::4::vietnamese_communists",
+        "doc3::concept::5::august_revolution",
+        "doc3::concept::6::national_independence",
+        "doc3::concept::7::socialism",
+        "doc3::concept::8::communist_party_of_vietnam",
+        "doc3::concept::9::h_ch_minh_s_thought"
+      ],
+      "chunk_ids": [
+        "doc3::paragraph::12::in_the_national_assembly_of_the_national_resista::chunk::4::in_the_national_assembly_of_the_national_resista",
+        "doc3::paragraph::16::the_author_of_this_article_has_published_a_numbe::chunk::5::the_author_of_this_article_has_published_a_numbe",
+        "doc3::paragraph::22::meanwhile_leftist_viewpoints_of_stalin_and_the_i::chunk::6::meanwhile_leftist_viewpoints_of_stalin_and_the_i",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::0::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::2::abstract_by_analysis_on_rich_and_original_materi::chunk::1::abstract_by_analysis_on_rich_and_original_materi",
+        "doc3::paragraph::7::even_in_the_eve_of_the_revolution_in_the_war_bas::chunk::2::even_in_the_eve_of_the_revolution_in_the_war_bas",
+        "doc3::paragraph::9::on_25_august_1945_in_hanoi_when_the_power_was_ju::chunk::3::on_25_august_1945_in_hanoi_when_the_power_was_ju"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc3::concept::1::marxist_leninism"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.7,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.775
+      },
+      "metadata": {
+        "anchor_concept_id": "doc3::concept::1::marxist_leninism"
+      }
+    }
+  ]
+}

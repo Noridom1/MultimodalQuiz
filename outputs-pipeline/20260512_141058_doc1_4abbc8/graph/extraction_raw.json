@@ -1,0 +1,1013 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Bac Bo",
+        "Upper Laos",
+        "Lai Chau",
+        "Tuan Giao",
+        "Son La",
+        "Na San",
+        "Luang Prabang",
+        "Sam Neua"
+      ],
+      "definitions": [
+        {
+          "concept": "Dien Bien Phu",
+          "definition": "A large plain 18 kilometers long and six to eight kilometers wide in the mountainous zone of the North-West, situated at the junction of important roads."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Dien Bien Phu",
+          "target": "Bac Bo",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Upper Laos",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Lai Chau",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Tuan Giao",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Son La",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Na San",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Luang Prabang",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Sam Neua",
+          "relation": "connected_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "concepts": [
+        "Lai Chau",
+        "Dien Bien Phu",
+        "Winter-Spring campaign",
+        "Party's Central Committee",
+        "Government",
+        "Thanh Hoa",
+        "Phu Tho"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Lai Chau",
+          "target": "Dien Bien Phu",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Winter-Spring campaign",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Party's Central Committee",
+          "target": "Government",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Thanh Hoa",
+          "target": "Phu Tho",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 5,
+      "chunk_id": "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Winter-Spring campaign",
+        "Party's Central Committee",
+        "Government",
+        "Navarre plan"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Dien Bien Phu",
+          "target": "Winter-Spring campaign",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Party's Central Committee",
+          "target": "Government",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Navarre plan",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 6,
+      "chunk_id": "doc1::paragraph::15::in_the_first_week_of_march_the_preparations_were::chunk::6::in_the_first_week_of_march_the_preparations_were",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "The Historic Dien Bien Phu Campaign"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Navarre plan"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Dien Bien Phu",
+          "target": "Navarre plan",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 7,
+      "chunk_id": "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Him Lam",
+        "Tuan Giao",
+        "Doc Lap",
+        "Lai Chau",
+        "Muong Thanh"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Him Lam",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Tuan Giao",
+          "target": "Dien Bien Phu",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Doc Lap",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Lai Chau",
+          "target": "Dien Bien Phu",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Muong Thanh",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "concepts": [
+        "Doc Lap",
+        "Lai Chau",
+        "Dien Bien Phu",
+        "Muong Thanh",
+        "Ban Keo"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Doc Lap",
+          "target": "northern sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Ban Keo",
+          "target": "northern sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Muong Thanh",
+          "target": "Dien Bien Phu",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "doc1::paragraph::24::the_great_and_resounding_victory_which_ended_the::chunk::9::the_great_and_resounding_victory_which_ended_the",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "First phase: destruction of the northern sub-sector"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "Muong Thanh",
+        "central sub-sector",
+        "supply lines"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "central sub-sector",
+          "target": "Muong Thanh",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply lines",
+          "target": "logistic difficulties",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "hill A-1",
+        "hill C-1",
+        "hill D-1",
+        "hill E-1",
+        "central sub-sector",
+        "Dien Bien Phu"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "hill A-1",
+          "target": "central sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hill C-1",
+          "target": "central sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hill D-1",
+          "target": "central sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hill E-1",
+          "target": "central sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "central sub-sector",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "fortified heights",
+        "hill A-1",
+        "defensive system",
+        "central sub-sector",
+        "command post",
+        "casemates",
+        "trenches",
+        "paratroop reinforcements",
+        "counter-attack",
+        "encirclement",
+        "artillery",
+        "mortars",
+        "nibbling operations",
+        "full-scale attack"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "fortified heights",
+          "target": "defensive system",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hill A-1",
+          "target": "command post",
+          "relation": "protects",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "casemates",
+          "target": "trenches",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "paratroop reinforcements",
+          "target": "counter-attack",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "encirclement",
+          "target": "artillery",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "nibbling operations",
+          "target": "full-scale attack",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "encirclement",
+        "artillery",
+        "mortars",
+        "nibbling operations",
+        "full-scale attack",
+        "airfield",
+        "counterattacks",
+        "tanks",
+        "aircraft"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "encirclement",
+          "target": "artillery",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "encirclement",
+          "target": "mortars",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "nibbling operations",
+          "target": "full-scale attack",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "counterattacks",
+          "target": "tanks",
+          "relation": "supported_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "counterattacks",
+          "target": "aircraft",
+          "relation": "supported_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "doc1::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "airfield",
+        "counterattacks",
+        "tanks",
+        "aircraft",
+        "anti-aircraft fire",
+        "parachute",
+        "food",
+        "ammunition"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "counterattacks",
+          "target": "tanks",
+          "relation": "supported_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "counterattacks",
+          "target": "aircraft",
+          "relation": "supported_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "parachute",
+          "target": "food",
+          "relation": "carries",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "parachute",
+          "target": "ammunition",
+          "relation": "carries",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "airfield",
+        "anti-aircraft fire",
+        "parachute",
+        "food",
+        "ammunition",
+        "American interventionists",
+        "bombers",
+        "transport planes",
+        "napalm bombs",
+        "artillery bases",
+        "supply lines",
+        "block-busters",
+        "delayed-action bombs",
+        "butterfly anti-personnel bombs",
+        "voluntary carriers",
+        "pack-horses",
+        "trucks"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "American interventionists",
+          "target": "bombers",
+          "relation": "uses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "American interventionists",
+          "target": "transport planes",
+          "relation": "uses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "bombers",
+          "target": "napalm bombs",
+          "relation": "drops",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "bombers",
+          "target": "artillery bases",
+          "relation": "targets",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "bombers",
+          "target": "supply lines",
+          "relation": "targets",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "bombers",
+          "target": "block-busters",
+          "relation": "drops",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "bombers",
+          "target": "delayed-action bombs",
+          "relation": "drops",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "bombers",
+          "target": "butterfly anti-personnel bombs",
+          "relation": "drops",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "voluntary carriers",
+          "target": "pack-horses",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "voluntary carriers",
+          "target": "trucks",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+      ],
+      "concepts": [
+        "American interventionists",
+        "Dien Bien Phu base",
+        "napalm bombs",
+        "artillery bases",
+        "supply lines",
+        "voluntary carriers",
+        "pack-horses",
+        "encirclement",
+        "French Expeditionary Corps",
+        "Viet Bac",
+        "Upper Laos"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "American interventionists",
+          "target": "Dien Bien Phu base",
+          "relation": "supports",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "napalm bombs",
+          "target": "vegetation",
+          "relation": "burns",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "supply lines",
+          "target": "food and ammunition",
+          "relation": "transports",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "encirclement",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "French Expeditionary Corps",
+          "target": "Viet Bac",
+          "relation": "targets",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "French Expeditionary Corps",
+          "target": "Upper Laos",
+          "relation": "targets",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 17,
+      "chunk_id": "doc1::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "concepts": [
+        "French and American generals",
+        "Dien Bien Phu entrenched camp",
+        "High Command of the French Expeditionary Corps",
+        "Viet Bac",
+        "Dien Bien Phu garrison",
+        "Upper Laos"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "French and American generals",
+          "target": "Dien Bien Phu entrenched camp",
+          "relation": "realized_danger_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "High Command of the French Expeditionary Corps",
+          "target": "Viet Bac",
+          "relation": "planned_attack_towards",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu garrison",
+          "target": "Upper Laos",
+          "relation": "intended_to_reach",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 18,
+      "chunk_id": "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "concepts": [
+        "third phase",
+        "hill C-1",
+        "hill A-1",
+        "central sub-sector",
+        "Nam Rom river",
+        "Muong Thanh",
+        "General de Castries",
+        "Dien Bien Phu",
+        "Determined to Fight and Win"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "third phase",
+          "target": "hill C-1",
+          "relation": "includes_occupation_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "third phase",
+          "target": "hill A-1",
+          "relation": "includes_occupation_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hill A-1",
+          "target": "central sub-sector",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Muong Thanh",
+          "target": "General de Castries",
+          "relation": "location_of_capture",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Determined to Fight and Win",
+          "target": "Dien Bien Phu",
+          "relation": "symbolizes_victory_at",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 19,
+      "chunk_id": "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "concepts": [
+        "Red River delta",
+        "Road No. 5",
+        "Fifth Zone",
+        "Road No. 19",
+        "An Khe",
+        "Cheo Reo",
+        "Pleiku",
+        "Banmethuot",
+        "Binh-Tri-Thien",
+        "Nam Bo",
+        "Middle Laos",
+        "Pathet Lao",
+        "Road No. 9"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "Red River delta",
+          "target": "Road No. 5",
+          "relation": "threatens",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "Road No. 19",
+          "relation": "targets",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "An Khe",
+          "relation": "liberates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "Cheo Reo",
+          "relation": "penetrates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "Pleiku",
+          "relation": "threatens",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Fifth Zone",
+          "target": "Banmethuot",
+          "relation": "threatens",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Middle Laos",
+          "target": "Road No. 9",
+          "relation": "increases_activities_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 20,
+      "chunk_id": "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene",
+      "source_file": "data/markdown/doc1/hybrid_auto/doc1.md",
+      "section_path": [
+        "Third phase: Annihilation of the enemy"
+      ],
+      "concepts": [
+        "Dien Bien Phu",
+        "Vietnam People's Army",
+        "Navarre plan",
+        "Franco-American imperialists",
+        "Geneva Conference",
+        "Vo Nguyen Giap",
+        "Communist Party of Vietnam",
+        "Socialist Republic of Vietnam"
+      ],
+      "definitions": [
+        {
+          "concept": "Navarre plan",
+          "definition": "A plan by the Franco-American imperialists to prolong and extend the war in Vietnam."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Vietnam People's Army",
+          "target": "Dien Bien Phu",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Navarre plan",
+          "relation": "smashed",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Franco-American imperialists",
+          "relation": "foiled",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Dien Bien Phu",
+          "target": "Geneva Conference",
+          "relation": "contributed_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Vo Nguyen Giap",
+          "target": "Vietnam People's Army",
+          "relation": "Commander-in-chief",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Vo Nguyen Giap",
+          "target": "Communist Party of Vietnam",
+          "relation": "member_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Vo Nguyen Giap",
+          "target": "Socialist Republic of Vietnam",
+          "relation": "Defence Minister",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 18,
+    "concept_count": 86,
+    "relation_count": 84
+  }
+}

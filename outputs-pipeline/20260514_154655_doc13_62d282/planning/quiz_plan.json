@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "racket sport",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A player holding a badminton racket on a court.",
+    "learning_objective": "Identify badminton as a racket sport.",
+    "tested_fact_block_id": "doc13::concept::1::racket_sport",
+    "metadata": {}
+  },
+  {
+    "target_concept": "racket",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A badminton player holding a racket and hitting a shuttlecock.",
+    "learning_objective": "Identify the role of a racket in the context of a shuttlecock.",
+    "tested_fact_block_id": "doc13::concept::6::racket",
+    "metadata": {}
+  },
+  {
+    "target_concept": "BADMINTON",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A vintage illustration of a badminton game being played in Poona, India.",
+    "learning_objective": "Identify the historical name and origin of the sport of badminton.",
+    "tested_fact_block_id": "doc13::concept::12::poona",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Duke of Beaufort",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A portrait of Henry Somerset, the 1st Duke of Beaufort, in historical attire.",
+    "learning_objective": "Identify the first Duke of Beaufort associated with Badminton House.",
+    "tested_fact_block_id": "doc13::chunk::1::badminton_house::duke_of_beaufort",
+    "metadata": {}
+  },
+  {
+    "target_concept": "singles",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A badminton court with a single player on each side.",
+    "learning_objective": "Understand the basic setup of a singles badminton match.",
+    "tested_fact_block_id": "doc13::concept::2::singles",
+    "metadata": {}
+  }
+]

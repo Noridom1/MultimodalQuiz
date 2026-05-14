@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "multiplexing",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing multiple processes sharing a single CPU resource.",
+    "learning_objective": "Understand the basic definition of multiplexing in operating systems.",
+    "tested_fact_block_id": "doc2::concept::5::multiplexing",
+    "metadata": {}
+  },
+  {
+    "target_concept": "context switching",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the steps involved in saving and restoring process states during context switching.",
+    "learning_objective": "Understand the purpose and mechanism of context switching in operating systems.",
+    "tested_fact_block_id": "doc2::concept::11::context_switches",
+    "metadata": {}
+  },
+  {
+    "target_concept": "processes",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the lifecycle of a process in an operating system.",
+    "learning_objective": "Understand the definition and role of a process in an operating system.",
+    "tested_fact_block_id": "doc2::concept::1::processes",
+    "metadata": {}
+  },
+  {
+    "target_concept": "p->context",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the relationship between a process and its saved registers.",
+    "learning_objective": "Understand the role of p->context in process management.",
+    "tested_fact_block_id": "doc2::concept::53::p_context",
+    "metadata": {}
+  },
+  {
+    "target_concept": "high throughput",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing a hardware timer enforcing time slices for processes.",
+    "learning_objective": "Understand the role of hardware timers in enforcing time slices for processes.",
+    "tested_fact_block_id": "doc2::concept::10::hardware_timer",
+    "metadata": {}
+  }
+]

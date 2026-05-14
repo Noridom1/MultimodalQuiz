@@ -1,0 +1,423 @@
+{
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Mental health and psychosocial considerations during the COVID-19 outbreak"
+      ],
+      "concepts": [
+        "World Health Organization (WHO)",
+        "COVID-19",
+        "Public Health Emergency of International Concern",
+        "pandemic",
+        "Mental Health and Substance Use"
+      ],
+      "definitions": [
+        {
+          "concept": "COVID-19",
+          "definition": "A new coronavirus disease declared as a Public Health Emergency of International Concern by the World Health Organization (WHO)."
+        },
+        {
+          "concept": "Public Health Emergency of International Concern",
+          "definition": "A declaration by the World Health Organization (WHO) indicating a high risk of a disease spreading globally."
+        }
+      ],
+      "relations": [
+        {
+          "source": "COVID-19",
+          "target": "Public Health Emergency of International Concern",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "COVID-19",
+          "target": "pandemic",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "doc9::paragraph::3::who_and_public_health_authorities_around_the_wor::chunk::1::who_and_public_health_authorities_around_the_wor",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Messages for the general population"
+      ],
+      "concepts": [
+        "WHO",
+        "COVID-19",
+        "Mental Health and Substance Use"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "WHO",
+          "target": "COVID-19",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "COVID-19",
+          "target": "Mental Health and Substance Use",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 2,
+      "chunk_id": "doc9::list_item::6::2_do_not_refer_to_people_with_the_disease_as_cov::chunk::2::do_not_refer_to_people_with_the_disease_as_covid",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Messages for the general population"
+      ],
+      "concepts": [
+        "COVID-19",
+        "stigma"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "COVID-19",
+          "target": "stigma",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "check by telephone on neighbours or people in your community who may need some extra assistance"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 3,
+      "chunk_id": "doc9::list_item::8::4_protect_yourself_and_be_supportive_to_others_a::chunk::3::protect_yourself_and_be_supportive_to_others_ass",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Messages for the general population"
+      ],
+      "concepts": [
+        "COVID-19",
+        "solidarity"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "COVID-19",
+          "target": "solidarity",
+          "relation": "related_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "stories of people who have recovered or who have supported a loved one and are willing to share their experience"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Messages for healthcare workers"
+      ],
+      "concepts": [
+        "COVID-19",
+        "mental health",
+        "psychosocial well-being",
+        "coping strategies",
+        "stress"
+      ],
+      "definitions": [
+        {
+          "concept": "psychosocial well-being",
+          "definition": "The state of mental and physical health influenced by social and psychological factors."
+        }
+      ],
+      "relations": [
+        {
+          "source": "stress",
+          "target": "mental health",
+          "relation": "affects",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "coping strategies",
+          "target": "psychosocial well-being",
+          "relation": "improves",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "ensuring sufficient rest and respite during work or between shifts",
+        "eat sufficient and healthy food",
+        "engage in physical activity",
+        "stay in contact with family and friends"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Messages for team leaders or managers in health facilities"
+      ],
+      "concepts": [
+        "communication",
+        "stress",
+        "buddy system",
+        "mental health and psychosocial support services",
+        "psychological first aid",
+        "mhGAP Humanitarian Intervention Guide"
+      ],
+      "definitions": [
+        {
+          "concept": "buddy system",
+          "definition": "A system where inexperienced workers are paired with more experienced colleagues to provide support, monitor stress, and reinforce safety procedures."
+        }
+      ],
+      "relations": [
+        {
+          "source": "buddy system",
+          "target": "support",
+          "relation": "provides",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "buddy system",
+          "target": "stress",
+          "relation": "monitors",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "buddy system",
+          "target": "safety procedures",
+          "relation": "reinforces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "mental health and psychosocial support services",
+          "target": "staff",
+          "relation": "accessed_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "psychological first aid",
+          "target": "emotional support",
+          "relation": "provides",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "mhGAP Humanitarian Intervention Guide",
+          "target": "mental health and psychosocial support",
+          "relation": "guides",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 9,
+      "chunk_id": "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Messages for team leaders or managers in health facilities"
+      ],
+      "concepts": [
+        "mental health and neurological complaints",
+        "delirium",
+        "psychosis",
+        "severe anxiety",
+        "depression",
+        "mhGAP Humanitarian Intervention Guide",
+        "psychotropic medications"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "mental health and neurological complaints",
+          "target": "emergency healthcare facilities",
+          "relation": "managed_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "psychotropic medications",
+          "target": "health care",
+          "relation": "essential_for",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "delirium, psychosis, severe anxiety or depression"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 10,
+      "chunk_id": "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Messages for carers of children"
+      ],
+      "concepts": [
+        "psychotropic medications",
+        "mental health conditions",
+        "epileptic seizures",
+        "social worker"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "psychotropic medications",
+          "target": "mental health conditions",
+          "relation": "treats",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "social worker",
+          "target": "child",
+          "relation": "follows_up_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 11,
+      "chunk_id": "doc9::list_item::27::20_maintain_familiar_routines_in_daily_life_as_m::chunk::11::maintain_familiar_routines_in_daily_life_as_much",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Messages for carers of children"
+      ],
+      "concepts": [
+        "routines",
+        "age-appropriate activities",
+        "social contact"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "routines",
+          "target": "children",
+          "relation": "supports",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "age-appropriate activities",
+          "target": "children",
+          "relation": "engages",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f",
+      "source_file": "data/markdown/doc9/hybrid_auto/doc9.md",
+      "section_path": [
+        "Messages for older adults, people with underlying health conditions and their carers"
+      ],
+      "concepts": [
+        "stress",
+        "crisis",
+        "attachment",
+        "COVID-19",
+        "anxiety",
+        "cognitive decline",
+        "dementia",
+        "quarantine",
+        "emotional support",
+        "cognitive impairment",
+        "prevention measures",
+        "handwashing",
+        "underlying health condition",
+        "medications",
+        "social contacts"
+      ],
+      "definitions": [
+        {
+          "concept": "COVID-19",
+          "definition": "A disease caused by a novel coronavirus that has led to a global outbreak."
+        }
+      ],
+      "relations": [
+        {
+          "source": "stress",
+          "target": "anxiety",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "crisis",
+          "target": "anxiety",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "emotional support",
+          "target": "anxiety",
+          "relation": "reduces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "prevention measures",
+          "target": "infection",
+          "relation": "reduces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "handwashing",
+          "target": "prevention measures",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "handwashing"
+      ],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 10,
+    "concept_count": 42,
+    "relation_count": 25
+  }
+}

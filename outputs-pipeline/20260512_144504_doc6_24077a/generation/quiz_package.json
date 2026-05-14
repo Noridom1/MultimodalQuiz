@@ -1,0 +1,146 @@
+{
+  "run_id": "20260512_144504_doc6_24077a",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_5dbe82ccff",
+        "question_text": "What is the primary role of neurotransmitters in neuronal communication?",
+        "options": [
+          "A) To provide structural support to neurons",
+          "B) To transmit signals across the synaptic cleft",
+          "C) To produce energy for neuronal activity",
+          "D) To insulate neurons for faster signal transmission"
+        ],
+        "correct_answer": "B",
+        "explanation": "Neurotransmitters are chemical messengers that transmit signals from one neuron to another across the synaptic cleft. This process is essential for communication within the nervous system. (Source: doc6::concept::1::neurotransmitters)",
+        "target_concept": "neurotransmitters",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc6::concept::1::neurotransmitters",
+          "run_id": "20260512_144504_doc6_24077a"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: neurotransmitters\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of neurotransmitters in neuronal communication.\nImage context: A diagram showing the release of neurotransmitters into the synaptic cleft.\nTested fact block ID: doc6::concept::1::neurotransmitters\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:** Create a simplified, high-contrast diagram of a synaptic cleft with two neurons: a presynaptic neuron releasing small, colorful spheres (labeled \"Neurotransmitters\") into the gap, and a postsynaptic neuron with receptors. Use bright, distinct colors for clarity (e.g., blue for vesicles, green for receptors), and label key parts: \"Presynaptic Neuron,\" \"Synaptic Cleft,\" \"Postsynaptic Neuron,\" and \"Receptors.\" Avoid realistic styling—opt for clean, schematic lines.\n\n**Alt:** A labeled diagram showing neurotransmitter release between two neurons across a synaptic gap."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_5f6d18211b",
+        "question_text": "What is the primary role of receptors in neurotransmitter signaling?",
+        "options": [
+          "A) To produce neurotransmitters",
+          "B) To bind neurotransmitters and initiate a response",
+          "C) To break down neurotransmitters",
+          "D) To transport neurotransmitters across the synapse"
+        ],
+        "correct_answer": "B",
+        "explanation": "Receptors bind neurotransmitters released into the synaptic cleft, initiating a response in the postsynaptic neuron. This is a key step in chemical signaling between neurons. (Source: doc6::chunk::1::receptors)",
+        "target_concept": "receptors",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc6::chunk::1::receptors",
+          "run_id": "20260512_144504_doc6_24077a"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: receptors\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of receptors in neurotransmitter signaling.\nImage context: A diagram showing neurotransmitters binding to receptors on the postsynaptic membrane.\nTested fact block ID: doc6::chunk::1::receptors\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of a synaptic cleft, showing spherical neurotransmitters (e.g., dopamine or serotonin) binding to labeled receptor proteins embedded in the postsynaptic membrane. Use distinct colors for neurotransmitters (e.g., blue) and receptors (e.g., green), with clear arrows indicating binding. Include minimal labels like \"Neurotransmitter,\" \"Receptor,\" and \"Postsynaptic Membrane,\" avoiding specific names or answers.\n\n**Alt:** A diagram of neurotransmitters binding to receptors on a postsynaptic neuron."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_22f63fe884",
+        "question_text": "Which of the following metal ions is commonly known to serve as a cofactor in enzymatic reactions by stabilizing negative charges in the active site?",
+        "options": [
+          "A) Sodium (Na⁺)",
+          "B) Potassium (K⁺)",
+          "C) Magnesium (Mg²⁺)",
+          "D) Calcium (Ca²⁺)"
+        ],
+        "correct_answer": "C) Magnesium (Mg²⁺)",
+        "explanation": "Magnesium ions (Mg²⁺) are frequently involved in enzymatic reactions as cofactors, often stabilizing negative charges in the active site to facilitate catalysis. This role is well-documented in processes such as ATP hydrolysis. (Source: doc6::chunk::1)",
+        "target_concept": "metal ions",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc6::chunk::1",
+          "run_id": "20260512_144504_doc6_24077a"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: metal ions\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of metal ions as cofactors in enzymatic reactions.\nImage context: A diagram showing metal ions interacting with an enzyme active site.\nTested fact block ID: doc6::chunk::1\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simplified, high-contrast diagram of an enzyme active site (labeled \"Active Site\") with a metal ion (e.g., Mg²⁺ or Zn²⁺, labeled \"Metal Ion Cofactor\") bound to it, showing interactions like coordination bonds or charge stabilization. Use a neutral background with bright, distinct colors for the enzyme (blue), metal ion (gold/orange), and substrate (green), and include dashed lines to indicate bonds or interactions. Avoid realistic protein structures—opt for a schematic style with clear, bold labels.\n\n**Alt:** A diagram of an enzyme active site with a metal ion cofactor bound to it, illustrating their role in catalysis."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_551838c491",
+        "question_text": "What is the primary function of reuptake in neurotransmission?",
+        "options": [
+          "To degrade excess neurotransmitters in the synaptic cleft",
+          "To recycle neurotransmitters back into the presynaptic neuron",
+          "To bind neurotransmitters to postsynaptic receptors",
+          "To synthesize new neurotransmitters in the presynaptic neuron"
+        ],
+        "correct_answer": "To recycle neurotransmitters back into the presynaptic neuron",
+        "explanation": "Reuptake is the process by which neurotransmitters are transported back into the presynaptic neuron for reuse, ensuring efficient recycling and regulation of synaptic signaling. (doc6::concept::21::reuptake)",
+        "target_concept": "reuptake",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc6::concept::21::reuptake",
+          "run_id": "20260512_144504_doc6_24077a"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: reuptake\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of reuptake in neurotransmitter recycling.\nImage context: A diagram showing the reuptake process at a synapse.\nTested fact block ID: doc6::concept::21::reuptake\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simplified cross-section diagram of a synapse, showing a presynaptic neuron releasing neurotransmitters into the synaptic cleft, with labeled transporter proteins actively recycling excess molecules back into the neuron. Use high-contrast colors: bright blue for neurotransmitters, orange for transporter proteins, and neutral grays for neurons. Include minimal labels like \"Presynaptic Neuron,\" \"Postsynaptic Neuron,\" \"Neurotransmitter,\" and \"Reuptake Transporter,\" avoiding any quiz-revealing text. Alt: A labeled diagram of a synapse illustrating neurotransmitter release and reuptake via transporter proteins."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_531f5f9741",
+        "question_text": "What is the primary role of transporter proteins in the context of neurotransmitter recycling?",
+        "options": [
+          "A) To synthesize neurotransmitters from precursor molecules",
+          "B) To degrade neurotransmitters in the synaptic cleft",
+          "C) To move neurotransmitters back into the presynaptic neuron",
+          "D) To release neurotransmitters into the synaptic cleft"
+        ],
+        "correct_answer": "C",
+        "explanation": "Transporter proteins facilitate the reuptake of neurotransmitters from the synaptic cleft back into the presynaptic neuron, which is essential for recycling and regulating neurotransmitter levels. This process is critical for terminating synaptic transmission and maintaining neuronal function. (doc6::concept::57::transporter_proteins)",
+        "target_concept": "transporter proteins",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc6::concept::57::transporter_proteins",
+          "run_id": "20260512_144504_doc6_24077a"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: transporter proteins\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of transporter proteins in neurotransmitter recycling.\nImage context: A diagram showing transporter proteins embedded in the presynaptic membrane, moving neurotransmitters back into the neuron.\nTested fact block ID: doc6::concept::57::transporter_proteins\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a simplified cross-section diagram of a presynaptic neuron membrane, showing **transporter proteins** (labeled as \"Transporter\") embedded in the lipid bilayer. Depict them actively moving **neurotransmitter molecules** (small, colorful spheres) from the synaptic cleft back into the neuron, with arrows indicating direction. Use high-contrast colors (e.g., blue membrane, yellow transporters, red neurotransmitters) and clear, bold labels for key structures. Avoid realistic cellular details to focus on the recycling process.\n\n**Alt:** A diagram of transporter proteins in a neuron membrane recycling neurotransmitters back into the cell."
+    }
+  ]
+}

@@ -1,0 +1,1268 @@
+{
+  "count": 23,
+  "topics": [
+    {
+      "id": "doc11::topic_candidate::section::22::anxiety_uk",
+      "label": "Anxiety UK",
+      "description": "Section-seeded topic for Anxiety UK",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Anxiety UK"
+        ],
+        [
+          "Every Mind Matters"
+        ],
+        [
+          "SEEKING HELP"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::78::cognitive_behavioural_therapy",
+        "doc11::concept::79::mindfulness_based_approaches",
+        "doc11::concept::80::mental_health_foundation",
+        "doc11::concept::81::every_mind_matters",
+        "doc11::concept::82::anxiety_uk",
+        "doc11::concept::83::citizens_advice"
+      ],
+      "chunk_ids": [
+        "doc11::list_item::168::35_ask_yourself_what_would_other_people_do::chunk::78::ask_yourself_what_would_other_people_do",
+        "doc11::paragraph::110::it_s_okay_to_ask_for_professional_help_if_you_fe::chunk::59::it_s_okay_to_ask_for_professional_help_if_you_fe",
+        "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho",
+        "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel::chunk::61::the_mental_health_foundation_supported_the_devel",
+        "doc11::paragraph::115::anxiety_uk_runs_a_helpline_staffed_by_volunteers::chunk::62::anxiety_uk_runs_a_helpline_staffed_by_volunteers",
+        "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co::chunk::63::citizens_advice_provides_free_independent_and_co"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc11::concept::78::cognitive_behavioural_therapy",
+        "doc11::concept::79::mindfulness_based_approaches",
+        "doc11::concept::80::mental_health_foundation",
+        "doc11::concept::81::every_mind_matters",
+        "doc11::concept::82::anxiety_uk"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 1.0,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 1.0
+      },
+      "metadata": {
+        "section_id": "doc11::section::114::anxiety_uk",
+        "source_section_label": "Anxiety UK",
+        "merged_candidate_ids": [
+          "doc11::topic_candidate::section::21::every_mind_matters",
+          "doc11::topic_candidate::anchor::9::mental_health_foundation",
+          "doc11::topic_candidate::section::20::seeking_help"
+        ]
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::23::citizens_advice",
+      "label": "Citizens Advice",
+      "description": "Section-seeded topic for Citizens Advice",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Citizens Advice"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::80::mental_health_foundation",
+        "doc11::concept::81::every_mind_matters",
+        "doc11::concept::82::anxiety_uk",
+        "doc11::concept::83::citizens_advice",
+        "doc11::concept::84::stepchange"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho",
+        "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel::chunk::61::the_mental_health_foundation_supported_the_devel",
+        "doc11::paragraph::115::anxiety_uk_runs_a_helpline_staffed_by_volunteers::chunk::62::anxiety_uk_runs_a_helpline_staffed_by_volunteers",
+        "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co::chunk::63::citizens_advice_provides_free_independent_and_co",
+        "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo::chunk::64::stepchange_provides_help_and_information_for_peo"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc11::concept::82::anxiety_uk",
+        "doc11::concept::83::citizens_advice"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.97
+      },
+      "metadata": {
+        "section_id": "doc11::section::116::citizens_advice",
+        "source_section_label": "Citizens Advice"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::24::stepchange",
+      "label": "StepChange",
+      "description": "Section-seeded topic for StepChange",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "StepChange"
+        ],
+        [
+          "Samaritans"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::82::anxiety_uk",
+        "doc11::concept::83::citizens_advice",
+        "doc11::concept::84::stepchange",
+        "doc11::concept::85::freephone",
+        "doc11::concept::86::samaritans",
+        "doc11::concept::87::emotional_support"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel::chunk::61::the_mental_health_foundation_supported_the_devel",
+        "doc11::paragraph::115::anxiety_uk_runs_a_helpline_staffed_by_volunteers::chunk::62::anxiety_uk_runs_a_helpline_staffed_by_volunteers",
+        "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co::chunk::63::citizens_advice_provides_free_independent_and_co",
+        "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo::chunk::64::stepchange_provides_help_and_information_for_peo",
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc11::concept::83::citizens_advice",
+        "doc11::concept::84::stepchange",
+        "doc11::concept::85::freephone",
+        "doc11::concept::86::samaritans"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 1.0,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.942
+      },
+      "metadata": {
+        "section_id": "doc11::section::118::stepchange",
+        "source_section_label": "StepChange",
+        "merged_candidate_ids": [
+          "doc11::topic_candidate::section::25::samaritans"
+        ]
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::anchor::8::mental_and_physical_health_problems",
+      "label": "Mental and physical health problems",
+      "description": "Concept-anchored topic centered on mental and physical health problems",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "HOW CAN"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::60::prescription_drugs",
+        "doc11::concept::61::mental_and_physical_health_problems",
+        "doc11::concept::63::physical_health_problems"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc11::concept::61::mental_and_physical_health_problems"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.94
+      },
+      "metadata": {
+        "anchor_concept_id": "doc11::concept::61::mental_and_physical_health_problems"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::28::painting_or_drawing",
+      "label": ". Painting or drawing",
+      "description": "Section-seeded topic for 17. Painting or drawing",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "17. Painting or drawing"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::95::painting",
+        "doc11::concept::96::drawing",
+        "doc11::concept::97::massage",
+        "doc11::concept::99::perspective"
+      ],
+      "chunk_ids": [
+        "doc11::details::147::details_summary_natural_image_summary_two_women_::chunk::71::details_summary_natural_image_summary_two_women_",
+        "doc11::list_item::148::18_book_a_massage_or_spend_time_in_a_spa_with_a_::chunk::72::book_a_massage_or_spend_time_in_a_spa_with_a_fri",
+        "doc11::list_item::151::20_try_putting_things_into_perspective::chunk::74::try_putting_things_into_perspective"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::147::details_summary_natural_image_summary_two_women_"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::95::painting",
+        "doc11::concept::96::drawing",
+        "doc11::concept::97::massage"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.94
+      },
+      "metadata": {
+        "section_id": "doc11::section::145::17_painting_or_drawing",
+        "source_section_label": "17. Painting or drawing"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::27::top_tips_from_you",
+      "label": "TOP TIPS FROM YOU",
+      "description": "Section-seeded topic for 101 TOP TIPS FROM YOU",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "101 TOP TIPS FROM YOU"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::18::racing_thoughts",
+        "doc11::concept::94::stress_management"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::128::we_d_like_to_thank_everyone_who_contributed_some::chunk::68::we_d_like_to_thank_everyone_who_contributed_some",
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc11::concept::18::racing_thoughts",
+        "doc11::concept::94::stress_management"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "section_id": "doc11::section::127::101_top_tips_from_you",
+        "source_section_label": "101 TOP TIPS FROM YOU"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::32::make_a_donation_to_help_us_continue_our_vital_work",
+      "label": "Make a donation to help us continue our vital work:",
+      "description": "Section-seeded topic for Make a donation to help us continue our vital work:",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Make a donation to help us continue our vital work:"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::111::salsa_class",
+        "doc11::concept::112::donation"
+      ],
+      "chunk_ids": [
+        "doc11::list_item::242::100_go_to_a_salsa_class::chunk::94::go_to_a_salsa_class",
+        "doc11::list_item::242::100_go_to_a_salsa_class::chunk::95::go_to_a_salsa_class"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc11::concept::111::salsa_class",
+        "doc11::concept::112::donation"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "section_id": "doc11::section::244::make_a_donation_to_help_us_continue_our_vital_wo",
+        "source_section_label": "Make a donation to help us continue our vital work:"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::anchor::0::stress",
+      "label": "Stress",
+      "description": "Concept-anchored topic centered on Stress",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "WHAT IS STRESS?"
+        ],
+        [
+          "PHYSICAL SYMPTOMS"
+        ],
+        [
+          "IDENTIFYING THE SIGNS OF STRESS"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::10::symptoms_of_stress",
+        "doc11::concept::11::e_james_s_park",
+        "doc11::concept::1::heart_disease",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::48::chronic_stress",
+        "doc11::concept::4::adrenaline",
+        "doc11::concept::52::smoking",
+        "doc11::concept::5::noradrenaline",
+        "doc11::concept::6::cortisol",
+        "doc11::concept::76::mindfulness_meditation",
+        "doc11::concept::7::fight_or_flight_response",
+        "doc11::concept::8::sleeping_problems",
+        "doc11::concept::9::stress_hormone_levels"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+        "doc11::paragraph::14::people_react_differently_to_stress_some_common_s::chunk::6::people_react_differently_to_stress_some_common_s",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto",
+        "doc11::artifact::22::details_summary_text_image_summary_e_james_s_par"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::7::fight_or_flight_response",
+        "doc11::concept::8::sleeping_problems"
+      ],
+      "scores": {
+        "coherence_score": 0.7,
+        "grounding_score": 0.688,
+        "breadth_score": 0.0,
+        "distinctness_score": 0.64,
+        "pedagogical_usefulness": 0.486
+      },
+      "metadata": {
+        "anchor_concept_id": "doc11::concept::0::stress",
+        "merged_candidate_ids": [
+          "doc11::topic_candidate::anchor::2::depression",
+          "doc11::topic_candidate::anchor::7::sleeping_problems",
+          "doc11::topic_candidate::section::4::physical_symptoms",
+          "doc11::topic_candidate::section::9::identifying_the_signs_of_stress"
+        ]
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::anchor::1::anxiety",
+      "label": "Anxiety",
+      "description": "Concept-anchored topic centered on anxiety",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "WHAT IS STRESS?"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::1::heart_disease",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::48::chronic_stress",
+        "doc11::concept::52::smoking",
+        "doc11::concept::5::noradrenaline",
+        "doc11::concept::6::cortisol",
+        "doc11::concept::72::mood",
+        "doc11::concept::76::mindfulness_meditation",
+        "doc11::concept::77::insomnia",
+        "doc11::concept::8::sleeping_problems"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.692,
+        "breadth_score": 0.3,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.682
+      },
+      "metadata": {
+        "anchor_concept_id": "doc11::concept::2::anxiety",
+        "merged_candidate_ids": [
+          "doc11::topic_candidate::section::3::what_is_stress"
+        ]
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::anchor::6::heart_disease",
+      "label": "Heart disease",
+      "description": "Concept-anchored topic centered on heart disease",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "WHAT IS STRESS?"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::1::heart_disease",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::5::noradrenaline",
+        "doc11::concept::6::cortisol",
+        "doc11::concept::72::mood",
+        "doc11::concept::73::brain_nutrients",
+        "doc11::concept::76::mindfulness_meditation",
+        "doc11::concept::8::sleeping_problems"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+        "doc11::paragraph::14::people_react_differently_to_stress_some_common_s::chunk::6::people_react_differently_to_stress_some_common_s",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::1::heart_disease"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc11::concept::1::heart_disease"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::11::stress",
+      "label": "STRESS?",
+      "description": "Section-seeded topic for STRESS?",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "STRESS?"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::19::behavioural_changes",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::28::medical_professional",
+        "doc11::concept::29::clipboard",
+        "doc11::concept::30::red_cross_symbol",
+        "doc11::concept::31::removals",
+        "doc11::concept::32::data_visualization",
+        "doc11::concept::33::performance",
+        "doc11::concept::34::news",
+        "doc11::concept::35::angry_expression",
+        "doc11::concept::51::gold_coins",
+        "doc11::concept::70::geometric_shape"
+      ],
+      "chunk_ids": [
+        "doc11::details::45::details_summary_natural_image_summary_illustrati::chunk::21::details_summary_natural_image_summary_illustrati",
+        "doc11::details::52::details_summary_text_image_summary_illustration_::chunk::28::details_summary_text_image_summary_illustration_",
+        "doc11::details::54::details_summary_text_image_summary_news_details::chunk::30::details_summary_text_image_summary_news_details",
+        "doc11::details::56::details_summary_natural_image_summary_illustrati::chunk::32::details_summary_natural_image_summary_illustrati",
+        "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati",
+        "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati",
+        "doc11::details::94::details_summary_natural_image_summary_abstract_p::chunk::48::details_summary_natural_image_summary_abstract_p",
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::167::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::213::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::217::details_summary_natural_image_summary_elderly_ma",
+        "doc11::artifact::227::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::45::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::48::details_summary_text_image_summary_removals_deta",
+        "doc11::artifact::50::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::52::details_summary_text_image_summary_illustration_",
+        "doc11::artifact::54::details_summary_text_image_summary_news_details",
+        "doc11::artifact::56::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::62::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::76::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::94::details_summary_natural_image_summary_abstract_p"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::19::behavioural_changes",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::28::medical_professional"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc11::section::40::stress",
+        "source_section_label": "STRESS?"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::12::relationships",
+      "label": "RELATIONSHIPS",
+      "description": "Section-seeded topic for RELATIONSHIPS",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "RELATIONSHIPS"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::37::minor_arguments",
+        "doc11::concept::38::family_crises",
+        "doc11::concept::39::affair",
+        "doc11::concept::3::depression",
+        "doc11::concept::40::illness",
+        "doc11::concept::41::bereavement",
+        "doc11::concept::42::couple",
+        "doc11::concept::43::cozy_living_room",
+        "doc11::concept::8::sleeping_problems"
+      ],
+      "chunk_ids": [
+        "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati",
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::167::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto",
+        "doc11::artifact::213::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::217::details_summary_natural_image_summary_elderly_ma",
+        "doc11::artifact::227::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::45::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::50::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::56::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::62::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::76::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::94::details_summary_natural_image_summary_abstract_p"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::38::family_crises"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc11::section::57::relationships",
+        "source_section_label": "RELATIONSHIPS"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::14::money",
+      "label": "MONEY",
+      "description": "Section-seeded topic for MONEY",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "MONEY"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::45::burn_out",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::47::cost_of_living_crisis",
+        "doc11::concept::48::chronic_stress",
+        "doc11::concept::49::debt",
+        "doc11::concept::50::piggy_banks",
+        "doc11::concept::51::gold_coins",
+        "doc11::concept::62::street_drugs"
+      ],
+      "chunk_ids": [
+        "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati",
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::167::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto",
+        "doc11::artifact::213::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::217::details_summary_natural_image_summary_elderly_ma",
+        "doc11::artifact::227::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::45::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::50::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::56::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::62::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::76::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::94::details_summary_natural_image_summary_abstract_p"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::27::natural_image",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc11::section::70::money",
+        "source_section_label": "MONEY"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::18::yourself",
+      "label": "YOURSELF?",
+      "description": "Section-seeded topic for YOURSELF?",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "YOURSELF?"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::1::heart_disease",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::60::prescription_drugs",
+        "doc11::concept::62::street_drugs",
+        "doc11::concept::63::physical_health_problems",
+        "doc11::concept::70::geometric_shape",
+        "doc11::concept::71::lifestyle",
+        "doc11::concept::8::sleeping_problems"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::49::identify_the_causes_try_to_identify_the_underlyi",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::167::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto",
+        "doc11::artifact::213::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::217::details_summary_natural_image_summary_elderly_ma",
+        "doc11::artifact::227::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::45::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::50::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::56::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::62::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::76::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::94::details_summary_natural_image_summary_abstract_p"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::3::depression"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc11::section::85::yourself",
+        "source_section_label": "YOURSELF?"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::29::go_to_a_yoga_class",
+      "label": ". Go to a yoga class",
+      "description": "Section-seeded topic for 27. Go to a yoga class",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "27. Go to a yoga class"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::100::yoga_class",
+        "doc11::concept::101::caffeine",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::42::couple",
+        "doc11::concept::43::cozy_living_room",
+        "doc11::concept::50::piggy_banks",
+        "doc11::concept::51::gold_coins",
+        "doc11::concept::70::geometric_shape",
+        "doc11::concept::78::cognitive_behavioural_therapy",
+        "doc11::concept::79::mindfulness_based_approaches",
+        "doc11::concept::80::mental_health_foundation",
+        "doc11::concept::81::every_mind_matters"
+      ],
+      "chunk_ids": [
+        "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati",
+        "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati",
+        "doc11::details::94::details_summary_natural_image_summary_abstract_p::chunk::48::details_summary_natural_image_summary_abstract_p",
+        "doc11::list_item::157::26_go_out_and_meet_new_people::chunk::75::go_out_and_meet_new_people",
+        "doc11::list_item::168::35_ask_yourself_what_would_other_people_do::chunk::78::ask_yourself_what_would_other_people_do",
+        "doc11::paragraph::110::it_s_okay_to_ask_for_professional_help_if_you_fe::chunk::59::it_s_okay_to_ask_for_professional_help_if_you_fe",
+        "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho",
+        "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel::chunk::61::the_mental_health_foundation_supported_the_devel"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::167::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::213::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::217::details_summary_natural_image_summary_elderly_ma",
+        "doc11::artifact::227::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::45::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::50::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::56::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::62::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::76::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::94::details_summary_natural_image_summary_abstract_p"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::101::caffeine",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::78::cognitive_behavioural_therapy"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc11::section::158::27_go_to_a_yoga_class",
+        "source_section_label": "27. Go to a yoga class"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::30::take_a_break_even_a_short_one_can_make_a_difference",
+      "label": ". Take a break, even a short one can make a difference",
+      "description": "Section-seeded topic for 60. Take a break, even a short one can make a difference",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "60. Take a break, even a short one can make a difference"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::102::karaoke_night",
+        "doc11::concept::103::wartime",
+        "doc11::concept::104::scrabble",
+        "doc11::concept::105::airfix_model",
+        "doc11::concept::106::tai_chi",
+        "doc11::concept::107::aquafit",
+        "doc11::concept::108::illustration",
+        "doc11::concept::109::mental_health",
+        "doc11::concept::110::relaxation_activities",
+        "doc11::concept::27::natural_image",
+        "doc11::concept::51::gold_coins",
+        "doc11::concept::70::geometric_shape"
+      ],
+      "chunk_ids": [
+        "doc11::details::227::details_summary_natural_image_summary_illustrati::chunk::92::details_summary_natural_image_summary_illustrati",
+        "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati",
+        "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati",
+        "doc11::details::94::details_summary_natural_image_summary_abstract_p::chunk::48::details_summary_natural_image_summary_abstract_p",
+        "doc11::list_item::195::61_going_for_a_walk_at_lunchtime::chunk::81::going_for_a_walk_at_lunchtime",
+        "doc11::list_item::203::67_imagine_living_in_a_different_era_maybe_warti::chunk::84::imagine_living_in_a_different_era_maybe_wartime_",
+        "doc11::list_item::218::78_use_a_relaxing_room_fragrance_or_scented_cand::chunk::90::use_a_relaxing_room_fragrance_or_scented_candle_",
+        "doc11::list_item::228::86_listen_to_the_birds_singing::chunk::93::listen_to_the_birds_singing"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::167::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::213::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::217::details_summary_natural_image_summary_elderly_ma",
+        "doc11::artifact::227::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::45::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::50::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::56::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::62::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::76::details_summary_natural_image_summary_illustrati",
+        "doc11::artifact::94::details_summary_natural_image_summary_abstract_p"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::108::illustration",
+        "doc11::concept::109::mental_health",
+        "doc11::concept::27::natural_image"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc11::section::194::60_take_a_break_even_a_short_one_can_make_a_diff",
+        "source_section_label": "60. Take a break, even a short one can make a difference"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::anchor::3::mental_health_problems",
+      "label": "Mental health problems",
+      "description": "Concept-anchored topic centered on mental health problems",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "WORK-LIFE BALANCE"
+        ],
+        [
+          "HOW CAN"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::44::work_related_stress",
+        "doc11::concept::45::burn_out",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::48::chronic_stress",
+        "doc11::concept::49::debt",
+        "doc11::concept::53::alcohol",
+        "doc11::concept::60::prescription_drugs",
+        "doc11::concept::61::mental_and_physical_health_problems",
+        "doc11::concept::62::street_drugs",
+        "doc11::concept::63::physical_health_problems"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::60::prescription_drugs",
+        "doc11::concept::62::street_drugs"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.703
+      },
+      "metadata": {
+        "anchor_concept_id": "doc11::concept::46::mental_health_problems",
+        "merged_candidate_ids": [
+          "doc11::topic_candidate::anchor::4::prescription_drugs",
+          "doc11::topic_candidate::anchor::5::street_drugs"
+        ]
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::16::how_can",
+      "label": "HOW CAN",
+      "description": "Section-seeded topic for HOW CAN",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "HOW CAN"
+        ],
+        [
+          "YOU HELP"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::56::tranquillisers",
+        "doc11::concept::57::sleeping_tablets",
+        "doc11::concept::58::cannabis",
+        "doc11::concept::59::ecstasy",
+        "doc11::concept::60::prescription_drugs",
+        "doc11::concept::61::mental_and_physical_health_problems",
+        "doc11::concept::62::street_drugs",
+        "doc11::concept::63::physical_health_problems"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc11::concept::56::tranquillisers",
+        "doc11::concept::57::sleeping_tablets",
+        "doc11::concept::59::ecstasy"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.667,
+        "breadth_score": 0.7,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.793
+      },
+      "metadata": {
+        "section_id": "doc11::section::83::how_can",
+        "source_section_label": "HOW CAN",
+        "merged_candidate_ids": [
+          "doc11::topic_candidate::section::17::you_help"
+        ]
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::8::effects",
+      "label": "EFFECTS",
+      "description": "Section-seeded topic for EFFECTS",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "EFFECTS"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::19::behavioural_changes",
+        "doc11::concept::1::heart_disease",
+        "doc11::concept::21::happy",
+        "doc11::concept::23::neutral",
+        "doc11::concept::24::negative",
+        "doc11::concept::25::frowning",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::76::mindfulness_meditation",
+        "doc11::concept::8::sleeping_problems"
+      ],
+      "chunk_ids": [
+        "doc11::details::31::details_summary_pie_summary_emotion_value_happy_::chunk::15::details_summary_pie_summary_emotion_value_happy_",
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+        "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto",
+        "doc11::artifact::31::details_summary_pie_summary_emotion_value_happy_",
+        "doc11::artifact::52::details_summary_text_image_summary_illustration_"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::19::behavioural_changes",
+        "doc11::concept::2::anxiety"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "section_id": "doc11::section::26::effects",
+        "source_section_label": "EFFECTS"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::13::work_life_balance",
+      "label": "WORK-LIFE BALANCE",
+      "description": "Section-seeded topic for WORK-LIFE BALANCE",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "WORK-LIFE BALANCE"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::1::heart_disease",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::44::work_related_stress",
+        "doc11::concept::45::burn_out",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::48::chronic_stress",
+        "doc11::concept::60::prescription_drugs",
+        "doc11::concept::62::street_drugs",
+        "doc11::concept::76::mindfulness_meditation",
+        "doc11::concept::8::sleeping_problems"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::46::mental_health_problems"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc11::section::63::work_life_balance",
+        "source_section_label": "WORK-LIFE BALANCE"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::15::smoking_drinking_and_drug_use",
+      "label": "SMOKING, DRINKING AND DRUG USE",
+      "description": "Section-seeded topic for SMOKING, DRINKING AND DRUG USE",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "SMOKING, DRINKING AND DRUG USE"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::52::smoking",
+        "doc11::concept::53::alcohol",
+        "doc11::concept::56::tranquillisers",
+        "doc11::concept::57::sleeping_tablets",
+        "doc11::concept::58::cannabis",
+        "doc11::concept::59::ecstasy",
+        "doc11::concept::60::prescription_drugs",
+        "doc11::concept::62::street_drugs"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::2::anxiety",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::56::tranquillisers"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc11::section::77::smoking_drinking_and_drug_use",
+        "source_section_label": "SMOKING, DRINKING AND DRUG USE"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::19::you_can_also_help_protect_yourself_from_stress_in_a_number_of_ways",
+      "label": "You can also help protect yourself from stress in a number of ways:",
+      "description": "Section-seeded topic for You can also help protect yourself from stress in a number of ways:",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "You can also help protect yourself from stress in a number of ways:"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::1::heart_disease",
+        "doc11::concept::2::anxiety",
+        "doc11::concept::3::depression",
+        "doc11::concept::46::mental_health_problems",
+        "doc11::concept::72::mood",
+        "doc11::concept::73::brain_nutrients",
+        "doc11::concept::74::essential_vitamins",
+        "doc11::concept::75::minerals",
+        "doc11::concept::76::mindfulness_meditation",
+        "doc11::concept::77::insomnia",
+        "doc11::concept::8::sleeping_problems"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+        "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+        "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+        "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+        "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+        "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+        "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl",
+        "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi"
+      ],
+      "artifact_ids": [
+        "doc11::artifact::19::details_summary_text_image_summary_common_sympto"
+      ],
+      "seed_concept_ids": [
+        "doc11::concept::0::stress",
+        "doc11::concept::1::heart_disease",
+        "doc11::concept::2::anxiety"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.75,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.732
+      },
+      "metadata": {
+        "section_id": "doc11::section::96::you_can_also_help_protect_yourself_from_stress_i",
+        "source_section_label": "You can also help protect yourself from stress in a number of ways:"
+      }
+    },
+    {
+      "id": "doc11::topic_candidate::section::26::specialist_mental_health_services",
+      "label": "Specialist mental health services",
+      "description": "Section-seeded topic for Specialist mental health services",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Specialist mental health services"
+        ]
+      ],
+      "concept_ids": [
+        "doc11::concept::84::stepchange",
+        "doc11::concept::85::freephone",
+        "doc11::concept::86::samaritans",
+        "doc11::concept::87::emotional_support",
+        "doc11::concept::88::community_mental_health_team_cmht",
+        "doc11::concept::89::counselling",
+        "doc11::concept::90::talking_therapies",
+        "doc11::concept::91::community_mental_health_centre",
+        "doc11::concept::92::social_services",
+        "doc11::concept::93::social_work_team"
+      ],
+      "chunk_ids": [
+        "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co::chunk::63::citizens_advice_provides_free_independent_and_co",
+        "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo::chunk::64::stepchange_provides_help_and_information_for_peo",
+        "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da"
+      ],
+      "artifact_ids": [],
+      "seed_concept_ids": [
+        "doc11::concept::86::samaritans",
+        "doc11::concept::88::community_mental_health_team_cmht",
+        "doc11::concept::90::talking_therapies"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.3,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.635
+      },
+      "metadata": {
+        "section_id": "doc11::section::122::specialist_mental_health_services",
+        "source_section_label": "Specialist mental health services"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_count": 35,
+    "consolidated_count": 23,
+    "accepted_count": 23
+  }
+}

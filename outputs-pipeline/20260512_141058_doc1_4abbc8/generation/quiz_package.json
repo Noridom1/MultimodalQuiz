@@ -1,0 +1,146 @@
+{
+  "run_id": "20260512_141058_doc1_4abbc8",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_3fd7280edc",
+        "question_text": "What was the primary strategic intent behind the Navarre Plan during the First Indochina War?",
+        "options": [
+          "A. To launch a full-scale invasion of North Vietnam to capture Hanoi",
+          "B. To lure the Viet Minh into a decisive battle at Dien Bien Phu to cripple their forces",
+          "C. To establish a defensive perimeter around Saigon to protect French colonial interests",
+          "D. To negotiate a peaceful withdrawal from Indochina under international supervision"
+        ],
+        "correct_answer": "B",
+        "explanation": "The Navarre Plan aimed to draw the Viet Minh into a large-scale confrontation at Dien Bien Phu, where French forces could leverage superior firepower to decisively weaken them. This strategy was intended to force a favorable negotiation outcome. (doc1::concept::14::navarre_plan)",
+        "target_concept": "Navarre plan",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "causal",
+          "tested_fact_source": "doc1::concept::14::navarre_plan",
+          "run_id": "20260512_141058_doc1_4abbc8"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Navarre plan\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: causal\nImage role: illustrative\nLearning objective: Understand the strategic intent behind the Navarre plan during the First Indochina War.\nImage context: A map showing the strategic location of Dien Bien Phu in relation to Viet Minh supply lines.\nTested fact block ID: doc1::concept::14::navarre_plan\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simplified, high-contrast map of Southeast Asia with clear labels for 'Site 1' (Dien Bien Phu) and 'Supply Routes' (Viet Minh paths), using muted earth tones for terrain and bold red/blue lines to distinguish opposing forces' movements. Highlight the strategic isolation of Site 1 near the border, emphasizing its proximity to supply lines with directional arrows. Avoid modern symbols or copyrighted imagery.\n\nAlt: A strategic map showing Site 1's location relative to supply routes during the First Indochina War."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_2da7678a16",
+        "question_text": "What was the significance of the Battle of Dien Bien Phu in the First Indochina War?",
+        "options": [
+          "A. It marked the beginning of French colonial rule in Indochina.",
+          "B. It was a decisive Vietnamese victory that led to the Geneva Accords and the end of French involvement in Indochina.",
+          "C. It was a minor skirmish with no significant impact on the war's outcome.",
+          "D. It resulted in the immediate unification of Vietnam under communist rule."
+        ],
+        "correct_answer": "B",
+        "explanation": "The Battle of Dien Bien Phu was a decisive victory for the Viet Minh, leading to the 1954 Geneva Accords and the withdrawal of French forces from Indochina. (doc1::concept::0::dien_bien_phu)",
+        "target_concept": "Dien Bien Phu",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc1::concept::0::dien_bien_phu",
+          "run_id": "20260512_141058_doc1_4abbc8"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Dien Bien Phu\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the significance of Dien Bien Phu in the context of the First Indochina War.\nImage context: A map showing the location of Dien Bien Phu in northwestern Vietnam.\nTested fact block ID: doc1::concept::0::dien_bien_phu\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simple, high-contrast map of northwestern Vietnam with a bold red marker at **Site 1** (Dien Bien Phu), surrounded by key terrain features like mountains and rivers. Label neighboring countries (e.g., Laos, China) and major cities with neutral placeholders (e.g., \"City X\"), using a clean, sans-serif font. Use muted earth tones for the base map with a bright accent color for Site 1 to emphasize its strategic isolation. Alt: A map highlighting a remote mountainous location in northwestern Vietnam, marked as a key site in a historical conflict."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_c1a3b58ac1",
+        "question_text": "Which of the following best describes the primary objective of the Winter-Spring campaign during the Vietnam War?",
+        "options": [
+          "A. To secure key urban areas in South Vietnam",
+          "B. To disrupt enemy supply lines and logistics",
+          "C. To launch a large-scale offensive to gain territorial control",
+          "D. To negotiate a ceasefire with opposing forces"
+        ],
+        "correct_answer": "C",
+        "explanation": "The Winter-Spring campaign was a major military offensive aimed at gaining territorial control and weakening enemy positions. (doc1::concept::9::winter_spring_campaign)",
+        "target_concept": "Winter-Spring campaign",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc1::concept::9::winter_spring_campaign",
+          "run_id": "20260512_141058_doc1_4abbc8"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Winter-Spring campaign\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the nature and context of the Winter-Spring campaign.\nImage context: A map showing the regions involved in the Winter-Spring campaign.\nTested fact block ID: doc1::concept::9::winter_spring_campaign\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a stylized, high-contrast map illustrating the key regions of the Winter-Spring campaign, using muted winter blues and fresh spring greens to denote seasonal transitions. Label major locations as \"Site 1,\" \"Site 2,\" etc., and mark movement paths with subtle arrows, ensuring all text is legible against the background. Avoid realistic depictions of people or modern symbols.\n\nAlt: A seasonal map showing labeled regions and movement paths for the Winter-Spring campaign."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_6dbe932ccb",
+        "question_text": "Which of the following best describes the primary role of the Party's Central Committee within the government structure?",
+        "options": [
+          "A. It serves as the legislative body responsible for drafting and passing laws.",
+          "B. It acts as the highest decision-making authority, setting major policies and directives.",
+          "C. It functions as the judicial branch, interpreting laws and resolving disputes.",
+          "D. It manages day-to-day administrative tasks, such as local governance and public services."
+        ],
+        "correct_answer": "B",
+        "explanation": "The Party's Central Committee is the highest decision-making authority, responsible for setting major policies and directives that guide the government. This is outlined in doc1::concept::10::party_s_central_committee.",
+        "target_concept": "Government",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc1::concept::10::party_s_central_committee",
+          "run_id": "20260512_141058_doc1_4abbc8"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Government\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role and authority of the Party's Central Committee within the government structure.\nImage context: A diagram showing the hierarchical structure of the party's Central Committee.\nTested fact block ID: doc1::concept::10::party_s_central_committee\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast hierarchical diagram of the Party's Central Committee, using a pyramid or flowchart structure with labeled tiers (e.g., \"Top Leadership,\" \"Regional Branches,\" \"Local Committees\") in bold, neutral colors (blues/grays) for clarity. Replace specific names with placeholders like \"Chairperson\" or \"Department X,\" and use arrows to show authority flow. Avoid symbols or logos; focus on abstract shapes and text boxes.\n\nAlt: A diagram illustrating the hierarchical structure of a governing party's Central Committee with labeled tiers and directional arrows."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_b2da9ffd15",
+        "question_text": "Where is Phu Tho province located in Vietnam?",
+        "options": [
+          "In the Mekong Delta region",
+          "In the Central Highlands region",
+          "In the Red River Delta region",
+          "In the Southeast region"
+        ],
+        "correct_answer": "In the Red River Delta region",
+        "explanation": "Phu Tho province is situated in the Red River Delta region of northern Vietnam, as documented in doc1::concept::13::phu_tho.",
+        "target_concept": "Phu Tho",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc1::concept::13::phu_tho",
+          "run_id": "20260512_141058_doc1_4abbc8"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Phu Tho\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Identify the geographical location of Phu Tho province in Vietnam.\nImage context: A map highlighting the Red River Delta region of Vietnam with Phu Tho province marked.\nTested fact block ID: doc1::concept::13::phu_tho\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a simplified, high-contrast map of northern Vietnam focusing on the Red River Delta region, with a distinct highlight (e.g., bold outline or fill) on a province labeled \"Site 1\" in the upper area near the river’s bend. Use a muted color palette for surrounding regions and a bright, contrasting color (e.g., warm orange or teal) for the highlighted province, ensuring clear visibility. Include a compass rose or directional indicator for orientation, and avoid political borders beyond the delta.\n\nAlt: A map of northern Vietnam’s Red River Delta with one province highlighted in a contrasting color for identification."
+    }
+  ]
+}

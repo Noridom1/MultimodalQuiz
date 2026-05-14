@@ -1,0 +1,146 @@
+{
+  "run_id": "20260512_145921_doc8_117710",
+  "image_dir": "generation/images",
+  "results": [
+    {
+      "index": 1,
+      "question": {
+        "id": "q_6f1cea8476",
+        "question_text": "Which of the following is a possible outcome of a Bell State Measurement in a two-qubit quantum system?",
+        "options": [
+          "A: |00⟩ + |11⟩",
+          "B: |01⟩ + |10⟩",
+          "C: |00⟩ + |01⟩",
+          "D: |10⟩ + |11⟩"
+        ],
+        "correct_answer": "A",
+        "explanation": "A Bell State Measurement projects the two-qubit system onto one of the four maximally entangled Bell states, such as |00⟩ + |11⟩. This is a fundamental result in quantum information theory (doc8::concept::69::bell_state_measurement_results).",
+        "target_concept": "Bell State Measurement Results",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/1.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc8::concept::69::bell_state_measurement_results",
+          "run_id": "20260512_145921_doc8_117710"
+        }
+      },
+      "image_url": "generation/images/1.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Bell State Measurement Results\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the outcome of Bell State Measurement in quantum systems.\nImage context: A diagram showing the four possible Bell states resulting from a Bell State Measurement.\nTested fact block ID: doc8::concept::69::bell_state_measurement_results\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing four distinct quantum state outcomes labeled as \"Bell State 1\" to \"Bell State 4,\" each represented by a unique geometric arrangement of entangled qubits (e.g., paired circles or linked arrows). Use a color-coded scheme (e.g., blue, green, red, purple) to differentiate the states, with clear labels in bold, sans-serif font. Ensure the layout is symmetrical and uncluttered, with minimal decorative elements.\n\n**Alt:** A diagram illustrating four labeled Bell states as distinct entangled qubit pairs, color-coded for clarity."
+    },
+    {
+      "index": 2,
+      "question": {
+        "id": "q_d641e800ea",
+        "question_text": "What are entangled photons?",
+        "options": [
+          "Photons that are physically connected by a visible thread",
+          "Photons that remain connected and share properties regardless of distance",
+          "Photons that have been split into two separate particles",
+          "Photons that travel at different speeds"
+        ],
+        "correct_answer": "Photons that remain connected and share properties regardless of distance",
+        "explanation": "Entangled photons are pairs of photons that remain connected such that the state of one instantly influences the state of the other, no matter how far apart they are. This phenomenon is a fundamental aspect of quantum mechanics. (Source: doc8::concept::10::entangled_photons)",
+        "target_concept": "Entangled photons",
+        "difficulty": "easy",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/2.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc8::concept::10::entangled_photons",
+          "run_id": "20260512_145921_doc8_117710"
+        }
+      },
+      "image_url": "generation/images/2.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Entangled photons\nQuestion type: multiple_choice\nDifficulty: easy\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the basic definition of entangled photons.\nImage context: A diagram showing two photons connected by a wavy line, representing their entangled state.\nTested fact block ID: doc8::concept::10::entangled_photons\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a minimalist diagram with two distinct photons (labeled \"Photon 1\" and \"Photon 2\") connected by a glowing, wavy blue line to symbolize entanglement. Use high-contrast colors (e.g., bright yellow photons on a dark background) and ensure the line is visually dynamic but uncluttered. Avoid any text beyond the labels, and keep the composition balanced with ample negative space.\n\nAlt: Two labeled photons linked by a wavy blue line, illustrating quantum entanglement."
+    },
+    {
+      "index": 3,
+      "question": {
+        "id": "q_3e0eebedea",
+        "question_text": "What is the primary purpose of a quantum network?",
+        "options": [
+          "To enable faster classical internet speeds using quantum algorithms",
+          "To securely transmit quantum information between distant nodes using entanglement",
+          "To store large amounts of quantum data in a centralized location",
+          "To replace traditional computing infrastructure with quantum processors"
+        ],
+        "correct_answer": "To securely transmit quantum information between distant nodes using entanglement",
+        "explanation": "A quantum network leverages quantum entanglement to enable secure communication and distribution of quantum information between nodes, as defined in doc8::concept::73::quantum_network.",
+        "target_concept": "quantum network",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/3.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc8::concept::73::quantum_network",
+          "run_id": "20260512_145921_doc8_117710"
+        }
+      },
+      "image_url": "generation/images/3.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: quantum network\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the fundamental definition and purpose of a quantum network.\nImage context: A diagram showing nodes connected via quantum entanglement in a quantum network.\nTested fact block ID: doc8::concept::73::quantum_network\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, abstract diagram of a quantum network with 4-6 labeled nodes (e.g., \"Node 1,\" \"Node 2\") connected by glowing, wavy lines representing entangled quantum links. Use a dark blue or purple background with bright, high-contrast colors (neon teal, gold) for the nodes and connections to emphasize the quantum nature. Avoid realistic depictions—opt for geometric shapes (circles/spheres) with subtle particle-like textures.\n\n**Alt:** Abstract diagram of a quantum network with labeled nodes connected by entangled links, set against a dark background."
+    },
+    {
+      "index": 4,
+      "question": {
+        "id": "q_a283ddd91b",
+        "question_text": "What are the two key resources required for quantum teleportation to successfully transmit the state of a qubit?",
+        "options": [
+          "A) Entangled particles and classical communication",
+          "B) Superconducting qubits and microwave pulses",
+          "C) Quantum error correction and laser cooling",
+          "D) Single photons and optical fibers"
+        ],
+        "correct_answer": "A",
+        "explanation": "Quantum teleportation relies on pre-shared entanglement between particles and a classical communication channel to transmit the state of a qubit without physical transfer. This process is fundamental to quantum information protocols. (Source: doc8::concept::20::quantum_teleportation)",
+        "target_concept": "Quantum teleportation",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/4.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc8::concept::20::quantum_teleportation",
+          "run_id": "20260512_145921_doc8_117710"
+        }
+      },
+      "image_url": "generation/images/4.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Quantum teleportation\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the basic mechanism of quantum teleportation and its reliance on entanglement and classical communication.\nImage context: A diagram showing the process of quantum teleportation with entangled particles and classical communication channels.\nTested fact block ID: doc8::concept::20::quantum_teleportation\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "Create a clean, high-contrast diagram showing two entangled particles (labeled \"Particle A\" and \"Particle B\") connected by a wavy line, with a third particle (\"Particle C\") interacting with Particle A. Depict a classical communication channel (e.g., a dashed arrow labeled \"Classical Info\") from Site 1 to Site 2, where Particle B is located, to complete the teleportation. Use a cool blue/purple palette for quantum elements and warm orange for classical signals to emphasize the distinction.\n\nAlt: A diagram illustrating quantum teleportation with entangled particles and a classical communication channel."
+    },
+    {
+      "index": 5,
+      "question": {
+        "id": "q_ac89f0bd67",
+        "question_text": "What is the primary role of Entangled Pair Management (EPM) in quantum networks?",
+        "options": [
+          "A. To physically transport qubits between nodes",
+          "B. To generate and distribute entangled particle pairs across network nodes",
+          "C. To encrypt classical data using quantum algorithms",
+          "D. To measure the spin of individual particles in real-time"
+        ],
+        "correct_answer": "B",
+        "explanation": "Entangled Pair Management (EPM) is responsible for generating and distributing entangled particle pairs across quantum network nodes, enabling secure communication and quantum protocols. (Source: doc8::concept::7::entangled_pair_management)",
+        "target_concept": "Entangled Pair Management (EPM)",
+        "difficulty": "medium",
+        "question_type": "multiple_choice",
+        "associated_image": "generation/images/5.png",
+        "image_grounded": false,
+        "metadata": {
+          "reasoning_type": "factoid",
+          "tested_fact_source": "doc8::concept::7::entangled_pair_management",
+          "run_id": "20260512_145921_doc8_117710"
+        }
+      },
+      "image_url": "generation/images/5.png",
+      "question_prompt": "You are generating one high-quality quiz question.\nTarget concept: Entangled Pair Management (EPM)\nQuestion type: multiple_choice\nDifficulty: medium\nReasoning type: factoid\nImage role: illustrative\nLearning objective: Understand the role of Entangled Pair Management in quantum networks.\nImage context: A diagram showing entangled particles being managed between quantum network nodes.\nTested fact block ID: doc8::concept::7::entangled_pair_management\nCite this fact source in your explanation.\nRequired output JSON schema:\n{\"question_text\": \"string\", \"options\": [\"string\"], \"correct_answer\": \"string\", \"explanation\": \"string\"}\nConstraints:\n- Return ONLY valid JSON with no markdown fences.\n- Do not include any keys beyond the required schema.\n- If question_type is multiple-choice, include 4 options.\n- Ensure correct_answer matches either the exact option text or option label (A/B/C/D).\n- Keep explanation concise and instructional (1-3 sentences).\n- The associated image is illustrative support only. The question should remain answerable without inspecting the image.",
+      "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing two quantum network nodes (labeled \"Node A\" and \"Node B\") connected by wavy lines representing entangled particle pairs, with a central \"EPM Controller\" icon managing the links. Use a cool blue and purple color scheme for quantum elements, with bold labels and arrows indicating entanglement distribution. Avoid text that explains EPM’s role—focus on visual flow.\n\n**Alt:** A diagram of two quantum nodes connected by entangled particles, managed by a central controller."
+    }
+  ]
+}

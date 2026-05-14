@@ -1,0 +1,1837 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc6::concept::0::neurons",
+      "label": "neurons",
+      "normalized_label": "neurons",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::1::neurotransmitters",
+      "label": "neurotransmitters",
+      "normalized_label": "neurotransmitters",
+      "aliases": [],
+      "mention_count": 6,
+      "definitions": [
+        "Chemical substances produced by neurons that underlie behavior."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::2::receptors",
+      "label": "receptors",
+      "normalized_label": "receptors",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::3::enzymes",
+      "label": "enzymes",
+      "normalized_label": "enzymes",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "proteins that help build, breakdown or otherwise modify substances in our cells."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::4::vesicle",
+      "label": "vesicle",
+      "normalized_label": "vesicle",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::5::intracellular_signals",
+      "label": "intracellular signals",
+      "normalized_label": "intracellular signals",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general"
+      ],
+      "section_paths": [
+        [
+          "LEARNING OBJECTIVES"
+        ],
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::6::nutrients",
+      "label": "nutrients",
+      "normalized_label": "nutrients",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::7::amino_acids",
+      "label": "amino acids",
+      "normalized_label": "amino acids",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::8::fatty_acids",
+      "label": "fatty acids",
+      "normalized_label": "fatty acids",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::9::sugar_molecules",
+      "label": "secondary messenger",
+      "normalized_label": "sugar molecules",
+      "aliases": [
+        "sugar molecules"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::10::blood_brain_barrier",
+      "label": "blood-brain barrier (BBB)",
+      "normalized_label": "blood-brain barrier",
+      "aliases": [
+        "blood-brain barrier"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "A firewall-like structure that regulates the passage of nutrients into the brain."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::11::astrocytes",
+      "label": "astrocytes",
+      "normalized_label": "astrocytes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::12::synaptic_vesicles",
+      "label": "synaptic vesicles",
+      "normalized_label": "synaptic vesicles",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "very tiny spheres clustered at the presynaptic terminal with hollow centers into which approximately 10,000 molecules of a typical neurotransmitter can be stored for later release from a neuron."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::13::action_potential",
+      "label": "action potential",
+      "normalized_label": "action potential",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::14::ca_influx",
+      "label": "calcium ions",
+      "normalized_label": "ca + influx",
+      "aliases": [
+        "Ca²+ influx"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::15::vesicle_fusion",
+      "label": "vesicle fusion",
+      "normalized_label": "vesicle fusion",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::16::synaptic_cleft",
+      "label": "synaptic communication",
+      "normalized_label": "synaptic cleft",
+      "aliases": [
+        "synaptic cleft"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ],
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::17::postsynaptic_receptors",
+      "label": "postsynaptic receptors",
+      "normalized_label": "postsynaptic receptors",
+      "aliases": [
+        "presynaptic receptors"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::18::epsps",
+      "label": "EPSPs",
+      "normalized_label": "epsps",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::19::ips",
+      "label": "IPs",
+      "normalized_label": "ips",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::20::secondary_biochemical_processes",
+      "label": "secondary biochemical processes",
+      "normalized_label": "secondary biochemical processes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::21::reuptake",
+      "label": "reuptake",
+      "normalized_label": "reuptake",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "The reabsorption of a neurotransmitter via a protein transporter located on the (pre-synaptic) membrane of the axon terminal."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::22::transporters",
+      "label": "transporters",
+      "normalized_label": "transporters",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::23::degradation",
+      "label": "degradation",
+      "normalized_label": "degradation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::24::synthesizing_enzymes",
+      "label": "synthesizing enzymes",
+      "normalized_label": "synthesizing enzymes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::25::metal_ions",
+      "label": "metal ions",
+      "normalized_label": "metal ions",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "co-factors that assist with the conversion process in enzyme actions."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::26::co_factors",
+      "label": "co-factors",
+      "normalized_label": "co-factors",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::27::substantia_nigra",
+      "label": "substantia nigra",
+      "normalized_label": "substantia nigra",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::28::hippocampus",
+      "label": "hippocampus",
+      "normalized_label": "hippocampus",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::29::locus_coeruleus",
+      "label": "locus coeruleus",
+      "normalized_label": "locus coeruleus",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::30::red_nucleus",
+      "label": "red nucleus",
+      "normalized_label": "red nucleus",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::31::neurotransmitter_metabolism",
+      "label": "neurotransmitter metabolism",
+      "normalized_label": "neurotransmitter metabolism",
+      "aliases": [
+        "neurotransmitter molecules"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How do neurons produce neurotransmitters?"
+        ],
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::32::presynaptic_terminal",
+      "label": "presynaptic terminal",
+      "normalized_label": "presynaptic terminal",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::33::voltage_dependent_calcium_channels",
+      "label": "voltage-dependent calcium channels",
+      "normalized_label": "voltage-dependent calcium channels",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::34::synapse",
+      "label": "synapse",
+      "normalized_label": "synapse",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The junction at which two neurons communicate via the release of a neurotransmitter molecule."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules"
+      ],
+      "section_paths": [
+        [
+          "How are neurotransmitters stored and released?"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::35::neurotransmitter",
+      "label": "neurotransmitter",
+      "normalized_label": "neurotransmitter",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::36::receptor",
+      "label": "receptor",
+      "normalized_label": "receptor",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::37::ionotropic_receptors",
+      "label": "ionotropic receptors",
+      "normalized_label": "ionotropic receptors",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "transmembrane molecules that can 'open' or 'close' a channel that would allow smaller particles to travel in and out of the cell."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::38::metabotropic_receptors",
+      "label": "metabotropic receptors",
+      "normalized_label": "metabotropic receptors",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "receptors linked to a G-protein that activate secondary messengers upon ligand binding."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::39::ligand",
+      "label": "ligand",
+      "normalized_label": "ligand",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::40::ligand_gated_transmembrane_ion_channels",
+      "label": "ligand-gated transmembrane ion channels",
+      "normalized_label": "ligand-gated transmembrane ion channels",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "ionotropic receptors that open or close in response to ligand binding, allowing ions to travel through."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::41::post_synaptic_neuron",
+      "label": "post-synaptic neuron",
+      "normalized_label": "post-synaptic neuron",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::42::g_protein",
+      "label": "G-protein",
+      "normalized_label": "g-protein",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::43::g_protein_coupled_receptors",
+      "label": "G-protein coupled receptors",
+      "normalized_label": "g-protein coupled receptors",
+      "aliases": [
+        "G-protein-coupled receptors"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "a large group of evolutionarily related proteins that activate G-proteins upon ligand binding."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+        "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::44::ligand_gated_ion_channels",
+      "label": "ligand-gated ion channels",
+      "normalized_label": "ligand-gated ion channels",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::45::ionotropic",
+      "label": "ionotropic",
+      "normalized_label": "ionotropic",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::46::metabotropic",
+      "label": "metabotropic",
+      "normalized_label": "metabotropic",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::47::effector_protein",
+      "label": "effector protein",
+      "normalized_label": "effector protein",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::48::g_protein_subunits",
+      "label": "G-protein subunits",
+      "normalized_label": "g-protein subunits",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::49::intracellular_messengers",
+      "label": "intracellular messengers",
+      "normalized_label": "intracellular messengers",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::50::neural_systems",
+      "label": "neural systems",
+      "normalized_label": "neural systems",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::51::redundancy",
+      "label": "redundancy",
+      "normalized_label": "redundancy",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::52::energy_efficiency",
+      "label": "energy efficiency",
+      "normalized_label": "energy efficiency",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::53::enzymatic_inactivation",
+      "label": "enzymatic inactivation",
+      "normalized_label": "enzymatic inactivation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::54::axon_terminal",
+      "label": "axon terminal",
+      "normalized_label": "axon terminal",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ],
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::55::dietary_supplements",
+      "label": "dietary supplements",
+      "normalized_label": "dietary supplements",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors"
+      ],
+      "section_paths": [
+        [
+          "Post-synaptic actions of neurotransmitters"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::56::vesicles",
+      "label": "vesicles",
+      "normalized_label": "vesicles",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::57::transporter_proteins",
+      "label": "transporter proteins",
+      "normalized_label": "transporter proteins",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::58::autoreceptor",
+      "label": "autoreceptor",
+      "normalized_label": "autoreceptor",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "A special type of protein receptor that provides feedback on how much neurotransmitter is being released at axonal terminals."
+      ],
+      "source_chunk_ids": [
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc6::concept::59::feedback",
+      "label": "feedback",
+      "normalized_label": "feedback",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati"
+      ],
+      "section_paths": [
+        [
+          "Ending neurotransmitter action"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc6::concept::4::vesicle",
+        "doc6::concept::15::vesicle_fusion"
+      ],
+      "labels": [
+        "vesicle",
+        "vesicle fusion"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::2::receptors",
+        "doc6::concept::17::postsynaptic_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "postsynaptic receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::3::enzymes",
+        "doc6::concept::24::synthesizing_enzymes"
+      ],
+      "labels": [
+        "enzymes",
+        "synthesizing enzymes"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::31::neurotransmitter_metabolism",
+        "doc6::concept::35::neurotransmitter"
+      ],
+      "labels": [
+        "neurotransmitter metabolism",
+        "neurotransmitter"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::2::receptors",
+        "doc6::concept::37::ionotropic_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "ionotropic receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::2::receptors",
+        "doc6::concept::38::metabotropic_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "metabotropic receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::2::receptors",
+        "doc6::concept::43::g_protein_coupled_receptors"
+      ],
+      "labels": [
+        "receptors",
+        "G-protein coupled receptors"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::40::ligand_gated_transmembrane_ion_channels",
+        "doc6::concept::44::ligand_gated_ion_channels"
+      ],
+      "labels": [
+        "ligand-gated transmembrane ion channels",
+        "ligand-gated ion channels"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::37::ionotropic_receptors",
+        "doc6::concept::45::ionotropic"
+      ],
+      "labels": [
+        "ionotropic receptors",
+        "ionotropic"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::38::metabotropic_receptors",
+        "doc6::concept::46::metabotropic"
+      ],
+      "labels": [
+        "metabotropic receptors",
+        "metabotropic"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::42::g_protein",
+        "doc6::concept::48::g_protein_subunits"
+      ],
+      "labels": [
+        "G-protein",
+        "G-protein subunits"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc6::concept::12::synaptic_vesicles",
+        "doc6::concept::56::vesicles"
+      ],
+      "labels": [
+        "synaptic vesicles",
+        "vesicles"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 109,
+    "canonical_concept_count": 60,
+    "candidate_merge_count": 12
+  }
+}

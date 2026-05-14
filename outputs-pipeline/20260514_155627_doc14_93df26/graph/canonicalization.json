@@ -1,0 +1,1850 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc14::concept::0::digestion",
+      "label": "digestion",
+      "normalized_label": "digestion",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::0::do_you_recall_the_processes_of_digestion_circula::chunk::0::do_you_recall_the_processes_of_digestion_circula"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::1::circulation",
+      "label": "circulation",
+      "normalized_label": "circulation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::0::do_you_recall_the_processes_of_digestion_circula::chunk::0::do_you_recall_the_processes_of_digestion_circula"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::2::respiration",
+      "label": "respiration",
+      "normalized_label": "respiration",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::0::do_you_recall_the_processes_of_digestion_circula::chunk::0::do_you_recall_the_processes_of_digestion_circula"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::3::reproduction",
+      "label": "reproduction",
+      "normalized_label": "reproduction",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "essential for the continuation of a species"
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::0::do_you_recall_the_processes_of_digestion_circula::chunk::0::do_you_recall_the_processes_of_digestion_circula"
+      ],
+      "section_paths": [],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::4::reproduction_in_plants",
+      "label": "reproduction in plants",
+      "normalized_label": "reproduction in plants",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::1::you_have_already_learnt_in_your_previous_class_a::chunk::1::you_have_already_learnt_in_your_previous_class_a"
+      ],
+      "section_paths": [
+        [
+          "6.1 Modes of Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::5::reproduction_in_animals",
+      "label": "reproduction in animals",
+      "normalized_label": "reproduction in animals",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::1::you_have_already_learnt_in_your_previous_class_a::chunk::1::you_have_already_learnt_in_your_previous_class_a"
+      ],
+      "section_paths": [
+        [
+          "6.1 Modes of Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::6::sexual_reproduction",
+      "label": "sexual reproduction",
+      "normalized_label": "sexual reproduction",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "reproduction beginning from the fusion of male and female gametes"
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::1::you_have_already_learnt_in_your_previous_class_a::chunk::1::you_have_already_learnt_in_your_previous_class_a",
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction",
+        "doc14::paragraph::11::try_to_recall_reproduction_in_plants_which_you_s::chunk::3::try_to_recall_reproduction_in_plants_which_you_s"
+      ],
+      "section_paths": [
+        [
+          "6.1 Modes of Reproduction"
+        ],
+        [
+          "6.2 Sexual Reproduction"
+        ],
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::7::asexual_reproduction",
+      "label": "asexual reproduction",
+      "normalized_label": "asexual reproduction",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::1::you_have_already_learnt_in_your_previous_class_a::chunk::1::you_have_already_learnt_in_your_previous_class_a",
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction"
+      ],
+      "section_paths": [
+        [
+          "6.1 Modes of Reproduction"
+        ],
+        [
+          "6.2 Sexual Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::8::gametes",
+      "label": "gametes",
+      "normalized_label": "gametes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction"
+      ],
+      "section_paths": [
+        [
+          "6.2 Sexual Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::9::zygote",
+      "label": "zygote",
+      "normalized_label": "zygote",
+      "aliases": [
+        "Zygote"
+      ],
+      "mention_count": 12,
+      "definitions": [
+        "the beginning of a new individual",
+        "a fertilised egg",
+        "The structure formed after fertilisation that begins to develop into an embryo.",
+        "The cell formed after fertilization that divides repeatedly and travels down the oviduct."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::9::ii_asexual_reproduction::chunk::2::ii_asexual_reproduction",
+        "doc14::paragraph::32::fig_6_5_fertilisation::chunk::21::fig_6_5_fertilisation",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus"
+      ],
+      "section_paths": [
+        [
+          "6.2 Sexual Reproduction"
+        ],
+        [
+          "Female Reproductive Organs"
+        ],
+        [
+          "Fertilisation"
+        ],
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::10::male_reproductive_organs",
+      "label": "male reproductive organs",
+      "normalized_label": "male reproductive organs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::11::try_to_recall_reproduction_in_plants_which_you_s::chunk::3::try_to_recall_reproduction_in_plants_which_you_s"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::11::testes",
+      "label": "testes",
+      "normalized_label": "testes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::11::try_to_recall_reproduction_in_plants_which_you_s::chunk::3::try_to_recall_reproduction_in_plants_which_you_s"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::12::sperm",
+      "label": "sperm",
+      "normalized_label": "sperm",
+      "aliases": [
+        "Sperm"
+      ],
+      "mention_count": 5,
+      "definitions": [
+        "a single cell with all the usual cell components"
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::11::try_to_recall_reproduction_in_plants_which_you_s::chunk::3::try_to_recall_reproduction_in_plants_which_you_s",
+        "doc14::details::18::details_summary_text_image_summary_sperm_duct_pe::chunk::8::details_summary_text_image_summary_sperm_duct_pe",
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::11::what_purpose_does_the_tail_in_a_sperm_serve",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ],
+        [
+          "Fertilisation"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::13::sperm_ducts",
+      "label": "sperm ducts",
+      "normalized_label": "sperm ducts",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::11::try_to_recall_reproduction_in_plants_which_you_s::chunk::3::try_to_recall_reproduction_in_plants_which_you_s"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::14::penis",
+      "label": "penis",
+      "normalized_label": "penis",
+      "aliases": [
+        "Penis"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::11::try_to_recall_reproduction_in_plants_which_you_s::chunk::3::try_to_recall_reproduction_in_plants_which_you_s",
+        "doc14::details::18::details_summary_text_image_summary_sperm_duct_pe::chunk::8::details_summary_text_image_summary_sperm_duct_pe"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::15::head",
+      "label": "Head",
+      "normalized_label": "head",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::15::details_summary_text_image_summary_head_middle_p::chunk::5::details_summary_text_image_summary_head_middle_p"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::16::middle_piece",
+      "label": "Middle piece",
+      "normalized_label": "middle piece",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::15::details_summary_text_image_summary_head_middle_p::chunk::5::details_summary_text_image_summary_head_middle_p"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::17::tail",
+      "label": "Tail",
+      "normalized_label": "tail",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::15::details_summary_text_image_summary_head_middle_p::chunk::5::details_summary_text_image_summary_head_middle_p"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::18::human_sperm",
+      "label": "Human sperm",
+      "normalized_label": "human sperm",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::16::fig_6_2_human_sperm::chunk::6::fig_6_2_human_sperm"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::19::duct",
+      "label": "Duct",
+      "normalized_label": "duct",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::18::details_summary_text_image_summary_sperm_duct_pe::chunk::8::details_summary_text_image_summary_sperm_duct_pe"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::20::testis",
+      "label": "Testis",
+      "normalized_label": "testis",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::18::details_summary_text_image_summary_sperm_duct_pe::chunk::8::details_summary_text_image_summary_sperm_duct_pe"
+      ],
+      "section_paths": [
+        [
+          "Male Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::21::tail_in_a_sperm",
+      "label": "tail in a sperm",
+      "normalized_label": "tail in a sperm",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::22::female_reproductive_organs",
+      "label": "female reproductive organs",
+      "normalized_label": "female reproductive organs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::23::ovaries",
+      "label": "ovaries",
+      "normalized_label": "ovaries",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The ovary produces female gametes called ova (eggs)."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::24::oviducts",
+      "label": "oviducts",
+      "normalized_label": "oviducts",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::25::fallopian_tubes",
+      "label": "fallopian tubes",
+      "normalized_label": "fallopian tubes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::26::uterus",
+      "label": "uterus",
+      "normalized_label": "uterus",
+      "aliases": [
+        "Uterus"
+      ],
+      "mention_count": 6,
+      "definitions": [
+        "Uterus is the part where development of the baby takes place."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::details::68::details_summary_text_image_summary_uterus_detail::chunk::41::details_summary_text_image_summary_uterus_detail"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ],
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::27::ova",
+      "label": "ova",
+      "normalized_label": "ova",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::28::eggs",
+      "label": "eggs",
+      "normalized_label": "eggs",
+      "aliases": [
+        "Eggs"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re",
+        "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::48::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ],
+        [
+          "Activity 6.1"
+        ],
+        [
+          "6.3 Asexual Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::29::egg",
+      "label": "egg",
+      "normalized_label": "egg",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::21::what_purpose_does_the_tail_in_a_sperm_serve::chunk::12::what_purpose_does_the_tail_in_a_sperm_serve"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::30::nucleus",
+      "label": "Nucleus",
+      "normalized_label": "nucleus",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::28::details_summary_text_image_summary_nucleus_detai::chunk::17::details_summary_text_image_summary_nucleus_detai"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::31::human_ovum",
+      "label": "Human Ovum",
+      "normalized_label": "human ovum",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::29::fig_6_4_human_ovum::chunk::18::fig_6_4_human_ovum"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::32::sperms",
+      "label": "Sperms",
+      "normalized_label": "sperms",
+      "aliases": [
+        "sperms"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::31::details_summary_text_image_summary_sperms_ovum_d::chunk::20::details_summary_text_image_summary_sperms_ovum_d",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ],
+        [
+          "Activity 6.1"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::33::ovum",
+      "label": "Ovum",
+      "normalized_label": "ovum",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::31::details_summary_text_image_summary_sperms_ovum_d::chunk::20::details_summary_text_image_summary_sperms_ovum_d",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ],
+        [
+          "Fertilisation"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::34::fertilisation",
+      "label": "Fertilisation",
+      "normalized_label": "fertilisation",
+      "aliases": [
+        "fertilisation"
+      ],
+      "mention_count": 8,
+      "definitions": [
+        "the fusion of the egg and the sperm",
+        "The process of fertilisation is the meeting of an egg cell from the mother and a sperm cell from the father."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::32::fig_6_5_fertilisation::chunk::21::fig_6_5_fertilisation",
+        "doc14::paragraph::37::the_first_step_in_the_process_of_reproduction_is::chunk::23::the_first_step_in_the_process_of_reproduction_is",
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote",
+        "doc14::paragraph::45::you_will_be_surprised_to_know_that_in_many_anima::chunk::28::you_will_be_surprised_to_know_that_in_many_anima",
+        "doc14::paragraph::56::though_these_animals_lay_hundreds_of_eggs_and_re::chunk::34::though_these_animals_lay_hundreds_of_eggs_and_re",
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote"
+      ],
+      "section_paths": [
+        [
+          "Female Reproductive Organs"
+        ],
+        [
+          "Fertilisation"
+        ],
+        [
+          "Activity 6.1"
+        ],
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::35::fusing_nuclei",
+      "label": "Fusing nuclei",
+      "normalized_label": "fusing nuclei",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::39::details_summary_text_image_summary_fusing_nuclei::chunk::25::details_summary_text_image_summary_fusing_nuclei"
+      ],
+      "section_paths": [
+        [
+          "Fertilisation"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::36::egg_cell",
+      "label": "Egg cell",
+      "normalized_label": "egg cell",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote"
+      ],
+      "section_paths": [
+        [
+          "Fertilisation"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::37::sperm_cell",
+      "label": "Sperm cell",
+      "normalized_label": "sperm cell",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote"
+      ],
+      "section_paths": [
+        [
+          "Fertilisation"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::38::internal_fertilisation",
+      "label": "Internal fertilisation",
+      "normalized_label": "internal fertilisation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "Fertilisation which takes place inside the female body is called internal fertilisation."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::40::fig_6_6_zygote::chunk::26::fig_6_6_zygote"
+      ],
+      "section_paths": [
+        [
+          "Fertilisation"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::39::frog_s_eggs",
+      "label": "frog's eggs",
+      "normalized_label": "frog s eggs",
+      "aliases": [
+        "frog's egg"
+      ],
+      "mention_count": 2,
+      "definitions": [
+        "Not covered by a shell and comparatively very delicate."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::45::you_will_be_surprised_to_know_that_in_many_anima::chunk::28::you_will_be_surprised_to_know_that_in_many_anima"
+      ],
+      "section_paths": [
+        [
+          "Activity 6.1"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::40::jelly_layer",
+      "label": "jelly layer",
+      "normalized_label": "jelly layer",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::45::you_will_be_surprised_to_know_that_in_many_anima::chunk::28::you_will_be_surprised_to_know_that_in_many_anima"
+      ],
+      "section_paths": [
+        [
+          "Activity 6.1"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::41::mechanical_component_cluster",
+      "label": "mechanical component cluster",
+      "normalized_label": "mechanical component cluster",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::50::details_summary_natural_image_summary_overhead_v::chunk::30::details_summary_natural_image_summary_overhead_v"
+      ],
+      "section_paths": [
+        [
+          "Activity 6.1"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::42::external_fertilisation",
+      "label": "external fertilisation",
+      "normalized_label": "external fertilisation",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The type of fertilisation in which the fusion of a male and a female gamete takes place outside the body of the female."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::51::fig_6_7_eggs_of_frog::chunk::31::fig_6_7_eggs_of_frog"
+      ],
+      "section_paths": [
+        [
+          "Activity 6.1"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::43::aquatic_animals",
+      "label": "aquatic animals",
+      "normalized_label": "aquatic animals",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::51::fig_6_7_eggs_of_frog::chunk::31::fig_6_7_eggs_of_frog"
+      ],
+      "section_paths": [
+        [
+          "Activity 6.1"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::44::gamete",
+      "label": "gamete",
+      "normalized_label": "gamete",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::51::fig_6_7_eggs_of_frog::chunk::31::fig_6_7_eggs_of_frog"
+      ],
+      "section_paths": [
+        [
+          "Activity 6.1"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::45::embryo",
+      "label": "Embryo",
+      "normalized_label": "embryo",
+      "aliases": [],
+      "mention_count": 5,
+      "definitions": [
+        "The developing structure formed from the zygote that eventually develops into different tissues and organs."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_",
+        "doc14::paragraph::66::fig_6_8_a_zygote_formation_and_development_of_an::chunk::39::fig_6_8_a_zygote_formation_and_development_of_an",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus"
+      ],
+      "section_paths": [
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::46::foetus",
+      "label": "Foetus",
+      "normalized_label": "foetus",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "The stage of the embryo in which all the body parts can be identified."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::62::fertilisation_results_in_the_formation_of_zygote::chunk::36::fertilisation_results_in_the_formation_of_zygote",
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus"
+      ],
+      "section_paths": [
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::47::ovary",
+      "label": "Ovary",
+      "normalized_label": "ovary",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_"
+      ],
+      "section_paths": [
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::48::ovulation",
+      "label": "Ovulation",
+      "normalized_label": "ovulation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::65::details_summary_text_image_summary_uterus_ovary_::chunk::38::details_summary_text_image_summary_uterus_ovary_"
+      ],
+      "section_paths": [
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::49::oviduct",
+      "label": "Oviduct",
+      "normalized_label": "oviduct",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus"
+      ],
+      "section_paths": [
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::50::egg_shell",
+      "label": "Egg shell",
+      "normalized_label": "egg shell",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus"
+      ],
+      "section_paths": [
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::51::chick",
+      "label": "Chick",
+      "normalized_label": "chick",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::paragraph::69::fig_6_9_foetus_in_the_uterus::chunk::42::fig_6_9_foetus_in_the_uterus"
+      ],
+      "section_paths": [
+        [
+          "Development of Embryo"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::52::viviparous_animals",
+      "label": "Viviparous animals",
+      "normalized_label": "viviparous animals",
+      "aliases": [
+        "viviparous animals"
+      ],
+      "mention_count": 4,
+      "definitions": [
+        "Animals which give birth to young ones.",
+        "The animals which give birth to young ones."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::73::in_animals_which_undergo_external_fertilisation_::chunk::43::in_animals_which_undergo_external_fertilisation_",
+        "doc14::paragraph::75::we_have_learnt_that_some_animals_give_birth_to_y::chunk::44::we_have_learnt_that_some_animals_give_birth_to_y"
+      ],
+      "section_paths": [
+        [
+          "Viviparous and Oviparous Animals"
+        ],
+        [
+          "Activity 6.2"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::53::oviparous_animals",
+      "label": "Oviparous animals",
+      "normalized_label": "oviparous animals",
+      "aliases": [
+        "oviparous animals"
+      ],
+      "mention_count": 4,
+      "definitions": [
+        "Animals which lay eggs that later develop into young ones.",
+        "Those animals which lay eggs."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::73::in_animals_which_undergo_external_fertilisation_::chunk::43::in_animals_which_undergo_external_fertilisation_",
+        "doc14::paragraph::75::we_have_learnt_that_some_animals_give_birth_to_y::chunk::44::we_have_learnt_that_some_animals_give_birth_to_y"
+      ],
+      "section_paths": [
+        [
+          "Viviparous and Oviparous Animals"
+        ],
+        [
+          "Activity 6.2"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::54::metamorphosis",
+      "label": "metamorphosis",
+      "normalized_label": "metamorphosis",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "The transformation of the larva into an adult through drastic changes."
+      ],
+      "source_chunk_ids": [
+        "doc14::paragraph::79::can_you_now_give_some_more_examples_of_viviparou::chunk::45::can_you_now_give_some_more_examples_of_viviparou",
+        "doc14::paragraph::83::the_tadpoles_transform_into_adults_capable_of_ju::chunk::46::the_tadpoles_transform_into_adults_capable_of_ju"
+      ],
+      "section_paths": [
+        [
+          "Young Ones to Adults"
+        ],
+        [
+          "6.3 Asexual Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::55::flowchart",
+      "label": "flowchart",
+      "normalized_label": "flowchart",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::48::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "6.3 Asexual Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::56::early_tadpole",
+      "label": "Early tadpole",
+      "normalized_label": "early tadpole",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::48::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "6.3 Asexual Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::57::late_tadpole",
+      "label": "Late tadpole",
+      "normalized_label": "late tadpole",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::48::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "6.3 Asexual Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc14::concept::58::adult_frog",
+      "label": "Adult frog",
+      "normalized_label": "adult frog",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc14::details::87::details_summary_flowchart_summary_mermaid_graph_::chunk::48::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "6.3 Asexual Reproduction"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc14::concept::3::reproduction",
+        "doc14::concept::4::reproduction_in_plants"
+      ],
+      "labels": [
+        "reproduction",
+        "reproduction in plants"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::3::reproduction",
+        "doc14::concept::5::reproduction_in_animals"
+      ],
+      "labels": [
+        "reproduction",
+        "reproduction in animals"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::3::reproduction",
+        "doc14::concept::6::sexual_reproduction"
+      ],
+      "labels": [
+        "reproduction",
+        "sexual reproduction"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::3::reproduction",
+        "doc14::concept::7::asexual_reproduction"
+      ],
+      "labels": [
+        "reproduction",
+        "asexual reproduction"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::13::sperm_ducts"
+      ],
+      "labels": [
+        "sperm",
+        "sperm ducts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::18::human_sperm"
+      ],
+      "labels": [
+        "sperm",
+        "Human sperm"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::21::tail_in_a_sperm"
+      ],
+      "labels": [
+        "sperm",
+        "tail in a sperm"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::31::human_ovum",
+        "doc14::concept::33::ovum"
+      ],
+      "labels": [
+        "Human Ovum",
+        "Ovum"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::29::egg",
+        "doc14::concept::36::egg_cell"
+      ],
+      "labels": [
+        "egg",
+        "Egg cell"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::12::sperm",
+        "doc14::concept::37::sperm_cell"
+      ],
+      "labels": [
+        "sperm",
+        "Sperm cell"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::38::internal_fertilisation"
+      ],
+      "labels": [
+        "Fertilisation",
+        "Internal fertilisation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::28::eggs",
+        "doc14::concept::39::frog_s_eggs"
+      ],
+      "labels": [
+        "eggs",
+        "frog's eggs"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::34::fertilisation",
+        "doc14::concept::42::external_fertilisation"
+      ],
+      "labels": [
+        "Fertilisation",
+        "external fertilisation"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc14::concept::29::egg",
+        "doc14::concept::50::egg_shell"
+      ],
+      "labels": [
+        "egg",
+        "Egg shell"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 114,
+    "canonical_concept_count": 59,
+    "candidate_merge_count": 14
+  }
+}

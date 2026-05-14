@@ -1,0 +1,1399 @@
+{
+  "concepts": [
+    "neurons",
+    "neurotransmitters",
+    "receptors",
+    "enzymes",
+    "vesicle",
+    "intracellular signals",
+    "nutrients",
+    "amino acids",
+    "fatty acids",
+    "sugar molecules",
+    "blood-brain barrier",
+    "astrocytes",
+    "blood-brain barrier (bbb)",
+    "synaptic vesicles",
+    "action potential",
+    "ca²+ influx",
+    "vesicle fusion",
+    "synaptic cleft",
+    "postsynaptic receptors",
+    "epsps",
+    "ips",
+    "secondary biochemical processes",
+    "presynaptic receptors",
+    "reuptake",
+    "transporters",
+    "degradation",
+    "synthesizing enzymes",
+    "metal ions",
+    "co-factors",
+    "substantia nigra",
+    "hippocampus",
+    "locus coeruleus",
+    "red nucleus",
+    "neurotransmitter metabolism",
+    "neurotransmitter molecules",
+    "presynaptic terminal",
+    "voltage-dependent calcium channels",
+    "calcium ions",
+    "synapse",
+    "neurotransmitter",
+    "receptor",
+    "ionotropic receptors",
+    "metabotropic receptors",
+    "ligand",
+    "ligand-gated transmembrane ion channels",
+    "post-synaptic neuron",
+    "g-protein",
+    "secondary messenger",
+    "g-protein coupled receptors",
+    "ligand-gated ion channels",
+    "ionotropic",
+    "g-protein-coupled receptors",
+    "metabotropic",
+    "effector protein",
+    "g-protein subunits",
+    "intracellular messengers",
+    "synaptic communication",
+    "neural systems",
+    "redundancy",
+    "energy efficiency",
+    "enzymatic inactivation",
+    "axon terminal",
+    "dietary supplements",
+    "vesicles",
+    "transporter proteins",
+    "autoreceptor",
+    "feedback"
+  ],
+  "definitions": {
+    "neurotransmitters": "Chemical substances produced by neurons that underlie behavior.",
+    "blood-brain barrier": "A firewall-like structure that regulates the passage of nutrients into the brain.",
+    "enzymes": "proteins that help build, breakdown or otherwise modify substances in our cells.",
+    "metal ions": "co-factors that assist with the conversion process in enzyme actions.",
+    "synaptic vesicles": "very tiny spheres clustered at the presynaptic terminal with hollow centers into which approximately 10,000 molecules of a typical neurotransmitter can be stored for later release from a neuron.",
+    "synapse": "The junction at which two neurons communicate via the release of a neurotransmitter molecule.",
+    "ionotropic receptors": "transmembrane molecules that can 'open' or 'close' a channel that would allow smaller particles to travel in and out of the cell.",
+    "ligand-gated transmembrane ion channels": "ionotropic receptors that open or close in response to ligand binding, allowing ions to travel through.",
+    "metabotropic receptors": "receptors linked to a G-protein that activate secondary messengers upon ligand binding.",
+    "reuptake": "The reabsorption of a neurotransmitter via a protein transporter located on the (pre-synaptic) membrane of the axon terminal.",
+    "autoreceptor": "A special type of protein receptor that provides feedback on how much neurotransmitter is being released at axonal terminals."
+  },
+  "relations": [
+    {
+      "source": "neurons",
+      "target": "neurotransmitters",
+      "relation": "produces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitters",
+      "target": "receptors",
+      "relation": "interacts_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "enzymes",
+      "target": "neurotransmitters",
+      "relation": "produces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitters",
+      "target": "vesicle",
+      "relation": "stored_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "intracellular signals",
+      "target": "neurotransmitters",
+      "relation": "triggers_release",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurons",
+      "target": "nutrients",
+      "relation": "accesses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "nutrients",
+      "target": "neurotransmitters",
+      "relation": "produces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "enzymes",
+      "target": "neurotransmitters",
+      "relation": "produces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitters",
+      "target": "vesicle",
+      "relation": "stored_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "intracellular signals",
+      "target": "neurotransmitters",
+      "relation": "triggers_release",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "blood-brain barrier",
+      "target": "nutrients",
+      "relation": "regulates_passage",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "astrocytes",
+      "target": "nutrients",
+      "relation": "assists_transport",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "action potential",
+      "target": "Ca²+ influx",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "Ca²+ influx",
+      "target": "vesicle fusion",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "vesicle fusion",
+      "target": "neurotransmitter release",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitter",
+      "target": "postsynaptic receptors",
+      "relation": "binds_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitter",
+      "target": "EPSPs",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitter",
+      "target": "IPs",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitter",
+      "target": "secondary biochemical processes",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "presynaptic receptors",
+      "target": "neurotransmitter synthesis",
+      "relation": "inhibits",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "presynaptic receptors",
+      "target": "neurotransmitter release",
+      "relation": "inhibits",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitter actions",
+      "target": "reuptake",
+      "relation": "terminated_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitter actions",
+      "target": "degradation",
+      "relation": "terminated_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "enzymes",
+      "target": "metal ions",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "substantia nigra neurons",
+      "target": "iron",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "hippocampus neurons",
+      "target": "zinc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "locus coeruleus neurons",
+      "target": "copper",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "red nucleus neurons",
+      "target": "cobalt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "metal ions",
+      "target": "neurotransmitter metabolism",
+      "relation": "critical_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitter molecules",
+      "target": "synaptic vesicles",
+      "relation": "stored_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "synaptic vesicles",
+      "target": "presynaptic terminal",
+      "relation": "located_at",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "action potential",
+      "target": "voltage-dependent calcium channels",
+      "relation": "opens",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "calcium ions",
+      "target": "synaptic vesicle",
+      "relation": "initiates_release",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "synaptic vesicle",
+      "target": "synaptic cleft",
+      "relation": "releases_into",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitter",
+      "target": "receptor",
+      "relation": "binds_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "ligand",
+      "target": "ionotropic receptors",
+      "relation": "binds_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "ionotropic receptors",
+      "target": "ligand-gated transmembrane ion channels",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "ion flow",
+      "target": "post-synaptic neuron behavior",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitter",
+      "target": "receptor",
+      "relation": "binds_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "ligand",
+      "target": "metabotropic receptors",
+      "relation": "binds_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "metabotropic receptors",
+      "target": "G-protein",
+      "relation": "activates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "G-protein",
+      "target": "secondary messenger",
+      "relation": "activates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "secondary messenger",
+      "target": "ion channels",
+      "relation": "may_open",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "ligand-gated ion channels",
+      "target": "ion channel",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "G-protein-coupled receptors",
+      "target": "effector protein",
+      "relation": "interacts_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "effector protein",
+      "target": "G-protein subunits",
+      "relation": "activates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "G-protein subunits",
+      "target": "intracellular messengers",
+      "relation": "modulate",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "intracellular messengers",
+      "target": "ion channel",
+      "relation": "modulate",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neural systems",
+      "target": "redundancy",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitters",
+      "target": "enzymatic inactivation",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitters",
+      "target": "axon terminal",
+      "relation": "re-absorbed by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "synaptic communication",
+      "target": "vesicles",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitters",
+      "target": "oxidation",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neural systems",
+      "target": "redundancy",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "neurotransmitters",
+      "target": "reuptake",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "reuptake",
+      "target": "transporter proteins",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    },
+    {
+      "source": "autoreceptor",
+      "target": "neurotransmitter release",
+      "relation": "regulates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_chunk_id": "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "extraction_method": "langchain"
+    }
+  ],
+  "examples": [
+    "neurons in the substantia nigra contain iron",
+    "neurons in the hippocampus contain zinc",
+    "neurons in the locus coeruleus contain copper",
+    "neurons in the red nucleus contain cobalt"
+  ],
+  "chunk_extractions": [
+    {
+      "chunk_index": 0,
+      "chunk_id": "doc6::paragraph::2::by_the_end_of_this_section_you_should_be_able_to::chunk::0::by_the_end_of_this_section_you_should_be_able_to",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "LEARNING OBJECTIVES"
+      ],
+      "concepts": [
+        "neurons",
+        "neurotransmitters",
+        "receptors",
+        "enzymes",
+        "vesicle",
+        "intracellular signals"
+      ],
+      "definitions": [
+        {
+          "concept": "neurotransmitters",
+          "definition": "Chemical substances produced by neurons that underlie behavior."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurons",
+          "target": "neurotransmitters",
+          "relation": "produces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "receptors",
+          "relation": "interacts_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "enzymes",
+          "target": "neurotransmitters",
+          "relation": "produces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "vesicle",
+          "relation": "stored_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "intracellular signals",
+          "target": "neurotransmitters",
+          "relation": "triggers_release",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 1,
+      "chunk_id": "doc6::paragraph::4::in_the_following_sections_you_will_learn_general::chunk::1::in_the_following_sections_you_will_learn_general",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "concepts": [
+        "neurons",
+        "neurotransmitters",
+        "nutrients",
+        "amino acids",
+        "fatty acids",
+        "sugar molecules",
+        "enzymes",
+        "vesicle",
+        "intracellular signals",
+        "blood-brain barrier",
+        "astrocytes"
+      ],
+      "definitions": [
+        {
+          "concept": "blood-brain barrier",
+          "definition": "A firewall-like structure that regulates the passage of nutrients into the brain."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurons",
+          "target": "nutrients",
+          "relation": "accesses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "nutrients",
+          "target": "neurotransmitters",
+          "relation": "produces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "enzymes",
+          "target": "neurotransmitters",
+          "relation": "produces",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "vesicle",
+          "relation": "stored_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "intracellular signals",
+          "target": "neurotransmitters",
+          "relation": "triggers_release",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "blood-brain barrier",
+          "target": "nutrients",
+          "relation": "regulates_passage",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "astrocytes",
+          "target": "nutrients",
+          "relation": "assists_transport",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 4,
+      "chunk_id": "doc6::paragraph::9::nutrients_absorbed_from_food_are_transported_out::chunk::4::nutrients_absorbed_from_food_are_transported_out",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "How do neurons produce neurotransmitters?"
+      ],
+      "concepts": [
+        "nutrients",
+        "blood-brain barrier (BBB)",
+        "neurons",
+        "enzymes",
+        "neurotransmitters",
+        "synaptic vesicles",
+        "action potential",
+        "Ca²+ influx",
+        "vesicle fusion",
+        "synaptic cleft",
+        "postsynaptic receptors",
+        "EPSPs",
+        "IPs",
+        "secondary biochemical processes",
+        "presynaptic receptors",
+        "reuptake",
+        "transporters",
+        "degradation",
+        "synthesizing enzymes",
+        "metal ions",
+        "co-factors",
+        "substantia nigra",
+        "hippocampus",
+        "locus coeruleus",
+        "red nucleus",
+        "neurotransmitter metabolism"
+      ],
+      "definitions": [
+        {
+          "concept": "enzymes",
+          "definition": "proteins that help build, breakdown or otherwise modify substances in our cells."
+        },
+        {
+          "concept": "metal ions",
+          "definition": "co-factors that assist with the conversion process in enzyme actions."
+        }
+      ],
+      "relations": [
+        {
+          "source": "action potential",
+          "target": "Ca²+ influx",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "Ca²+ influx",
+          "target": "vesicle fusion",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "vesicle fusion",
+          "target": "neurotransmitter release",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitter",
+          "target": "postsynaptic receptors",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitter",
+          "target": "EPSPs",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitter",
+          "target": "IPs",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitter",
+          "target": "secondary biochemical processes",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "presynaptic receptors",
+          "target": "neurotransmitter synthesis",
+          "relation": "inhibits",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "presynaptic receptors",
+          "target": "neurotransmitter release",
+          "relation": "inhibits",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitter actions",
+          "target": "reuptake",
+          "relation": "terminated_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitter actions",
+          "target": "degradation",
+          "relation": "terminated_by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "enzymes",
+          "target": "metal ions",
+          "relation": "uses",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "substantia nigra neurons",
+          "target": "iron",
+          "relation": "contains",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "hippocampus neurons",
+          "target": "zinc",
+          "relation": "contains",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "locus coeruleus neurons",
+          "target": "copper",
+          "relation": "contains",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "red nucleus neurons",
+          "target": "cobalt",
+          "relation": "contains",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "metal ions",
+          "target": "neurotransmitter metabolism",
+          "relation": "critical_for",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [
+        "neurons in the substantia nigra contain iron",
+        "neurons in the hippocampus contain zinc",
+        "neurons in the locus coeruleus contain copper",
+        "neurons in the red nucleus contain cobalt"
+      ],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 8,
+      "chunk_id": "doc6::paragraph::17::once_synthesized_most_neurotransmitter_molecules::chunk::8::once_synthesized_most_neurotransmitter_molecules",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "How are neurotransmitters stored and released?"
+      ],
+      "concepts": [
+        "neurotransmitter molecules",
+        "synaptic vesicles",
+        "presynaptic terminal",
+        "neurons",
+        "action potential",
+        "voltage-dependent calcium channels",
+        "calcium ions",
+        "synaptic cleft",
+        "synapse"
+      ],
+      "definitions": [
+        {
+          "concept": "synaptic vesicles",
+          "definition": "very tiny spheres clustered at the presynaptic terminal with hollow centers into which approximately 10,000 molecules of a typical neurotransmitter can be stored for later release from a neuron."
+        },
+        {
+          "concept": "synapse",
+          "definition": "The junction at which two neurons communicate via the release of a neurotransmitter molecule."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurotransmitter molecules",
+          "target": "synaptic vesicles",
+          "relation": "stored_in",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "synaptic vesicles",
+          "target": "presynaptic terminal",
+          "relation": "located_at",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "action potential",
+          "target": "voltage-dependent calcium channels",
+          "relation": "opens",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "calcium ions",
+          "target": "synaptic vesicle",
+          "relation": "initiates_release",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "synaptic vesicle",
+          "target": "synaptic cleft",
+          "relation": "releases_into",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 12,
+      "chunk_id": "doc6::paragraph::21::figure_3_4_vesicle_fusion::chunk::12::figure_3_4_vesicle_fusion",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [
+        "vesicle fusion",
+        "neurotransmitter",
+        "receptor",
+        "ionotropic receptors",
+        "metabotropic receptors",
+        "ligand",
+        "ligand-gated transmembrane ion channels",
+        "post-synaptic neuron"
+      ],
+      "definitions": [
+        {
+          "concept": "ionotropic receptors",
+          "definition": "transmembrane molecules that can 'open' or 'close' a channel that would allow smaller particles to travel in and out of the cell."
+        },
+        {
+          "concept": "ligand-gated transmembrane ion channels",
+          "definition": "ionotropic receptors that open or close in response to ligand binding, allowing ions to travel through."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurotransmitter",
+          "target": "receptor",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "ligand",
+          "target": "ionotropic receptors",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "ionotropic receptors",
+          "target": "ligand-gated transmembrane ion channels",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "ion flow",
+          "target": "post-synaptic neuron behavior",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 13,
+      "chunk_id": "doc6::paragraph::23::once_released_into_the_synapse_neurotransmitter_::chunk::13::once_released_into_the_synapse_neurotransmitter_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [
+        "neurotransmitter",
+        "receptor",
+        "ionotropic receptors",
+        "metabotropic receptors",
+        "ligand",
+        "G-protein",
+        "secondary messenger",
+        "G-protein coupled receptors"
+      ],
+      "definitions": [
+        {
+          "concept": "metabotropic receptors",
+          "definition": "receptors linked to a G-protein that activate secondary messengers upon ligand binding."
+        },
+        {
+          "concept": "G-protein coupled receptors",
+          "definition": "a large group of evolutionarily related proteins that activate G-proteins upon ligand binding."
+        }
+      ],
+      "relations": [
+        {
+          "source": "neurotransmitter",
+          "target": "receptor",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "ligand",
+          "target": "metabotropic receptors",
+          "relation": "binds_to",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "metabotropic receptors",
+          "target": "G-protein",
+          "relation": "activates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "G-protein",
+          "target": "secondary messenger",
+          "relation": "activates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "secondary messenger",
+          "target": "ion channels",
+          "relation": "may_open",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 14,
+      "chunk_id": "doc6::image::25::images_884dab45a79553af8b92ed385b7d5c05dd929ce8b::chunk::14::images_884dab45a79553af8b92ed385b7d5c05dd929ce8b",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 15,
+      "chunk_id": "doc6::details::26::details_summary_flowchart_summary_mermaid_graph_::chunk::15::details_summary_flowchart_summary_mermaid_graph_",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [
+        "ligand-gated ion channels",
+        "ionotropic",
+        "G-protein-coupled receptors",
+        "metabotropic",
+        "effector protein",
+        "G-protein subunits",
+        "intracellular messengers"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "ligand-gated ion channels",
+          "target": "ion channel",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "G-protein-coupled receptors",
+          "target": "effector protein",
+          "relation": "interacts_with",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "effector protein",
+          "target": "G-protein subunits",
+          "relation": "activates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "G-protein subunits",
+          "target": "intracellular messengers",
+          "relation": "modulate",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "intracellular messengers",
+          "target": "ion channel",
+          "relation": "modulate",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 16,
+      "chunk_id": "doc6::paragraph::27::figure_3_5_metabotropic_vs_ionotropic_receptors::chunk::16::figure_3_5_metabotropic_vs_ionotropic_receptors",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "Post-synaptic actions of neurotransmitters"
+      ],
+      "concepts": [
+        "metabotropic receptors",
+        "ionotropic receptors",
+        "synaptic communication",
+        "neurotransmitters",
+        "neural systems",
+        "redundancy",
+        "energy efficiency",
+        "enzymatic inactivation",
+        "axon terminal",
+        "dietary supplements"
+      ],
+      "definitions": [],
+      "relations": [
+        {
+          "source": "neural systems",
+          "target": "redundancy",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "enzymatic inactivation",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "axon terminal",
+          "relation": "re-absorbed by",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 17,
+      "chunk_id": "doc6::paragraph::28::despite_many_safeguards_the_synaptic_communicati::chunk::17::despite_many_safeguards_the_synaptic_communicati",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "concepts": [
+        "synaptic communication",
+        "vesicles",
+        "neurotransmitters",
+        "neural systems",
+        "redundancy",
+        "energy efficiency",
+        "enzymatic inactivation",
+        "axon terminal",
+        "reuptake",
+        "transporter proteins",
+        "autoreceptor",
+        "feedback"
+      ],
+      "definitions": [
+        {
+          "concept": "reuptake",
+          "definition": "The reabsorption of a neurotransmitter via a protein transporter located on the (pre-synaptic) membrane of the axon terminal."
+        },
+        {
+          "concept": "autoreceptor",
+          "definition": "A special type of protein receptor that provides feedback on how much neurotransmitter is being released at axonal terminals."
+        }
+      ],
+      "relations": [
+        {
+          "source": "synaptic communication",
+          "target": "vesicles",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "oxidation",
+          "relation": "causes",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neural systems",
+          "target": "redundancy",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "neurotransmitters",
+          "target": "reuptake",
+          "relation": "part_of",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "reuptake",
+          "target": "transporter proteins",
+          "relation": "depends_on",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        },
+        {
+          "source": "autoreceptor",
+          "target": "neurotransmitter release",
+          "relation": "regulates",
+          "confidence": "EXTRACTED",
+          "confidence_score": 1.0
+        }
+      ],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 18,
+      "chunk_id": "doc6::image::33::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33::chunk::18::images_049c91dd66e7771b6b47d9fd7739a66b555d8db33",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    },
+    {
+      "chunk_index": 19,
+      "chunk_id": "doc6::details::34::details_summary_natural_image_summary_pure_geome::chunk::19::details_summary_natural_image_summary_pure_geome",
+      "source_file": "data/markdown/doc6/hybrid_auto/doc6.md",
+      "section_path": [
+        "Ending neurotransmitter action"
+      ],
+      "concepts": [],
+      "definitions": [],
+      "relations": [],
+      "examples": [],
+      "extraction_method": "langchain"
+    }
+  ],
+  "summary": {
+    "chunk_count": 12,
+    "concept_count": 67,
+    "relation_count": 57
+  }
+}

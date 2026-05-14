@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing a single CPU (labeled \"CPU\") at the center, with 3-4 labeled process blocks (e.g., \"Process 1,\" \"Process 2\") connected to it via distinct, colored arrows to illustrate time-sliced sharing. Use a neutral background with bold, legible labels and a simple timeline or clock icon to suggest scheduling. Avoid text explaining multiplexing—let the visual imply shared access.\n\n**Alt:** A diagram of a CPU with multiple labeled processes connected to it, showing resource sharing via colored arrows.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141335_doc2_695e13/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram illustrating context switching in an OS. Show two labeled process states (e.g., \"Process X\" and \"Process Y\") with arrows depicting the steps: 1) Save state of Process X to memory, 2) Load state of Process Y from memory, 3) CPU executes Process Y. Use a neutral color palette (blues/greys) with bold labels for clarity, and avoid realistic UI elements. Alt: A diagram showing how an operating system saves one process's state and loads another during context switching.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141335_doc2_695e13/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast diagram illustrating the lifecycle of an operating system process, with labeled stages (e.g., \"New,\" \"Ready,\" \"Running,\" \"Waiting,\" \"Terminated\") arranged in a circular flow. Use distinct colors for each stage (e.g., blue for \"Ready,\" green for \"Running\") and minimalist arrows to show transitions. Avoid text-heavy explanations; focus on visual clarity with bold, legible labels.\n\nAlt: A circular diagram showing the stages of a process lifecycle in an operating system, with labeled states and directional arrows.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141335_doc2_695e13/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a simple, high-contrast diagram showing a labeled process (e.g., \"Process X\") connected to a set of labeled saved registers (e.g., \"Registers: PC, SP, R1-R4\") via a bold arrow labeled \"p->context.\" Use a clean, technical style with a neutral background and distinct colors for the process (blue) and registers (green). Ensure all text is legible and labels are clear.\n\n**Alt:** A diagram illustrating how a process links to its saved registers via a labeled arrow.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141335_doc2_695e13/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing a hardware timer (labeled \"Timer\") connected to a CPU, with multiple labeled processes (e.g., \"Process 1,\" \"Process 2\") taking turns in time slices. Use a circular or segmented timeline to visualize the enforced time intervals, with distinct colors for each process. Keep labels minimal and avoid text that explains the mechanism—focus on visual clarity.\n\n**Alt:** A diagram illustrating a hardware timer regulating time slices for multiple processes in a CPU.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141335_doc2_695e13/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

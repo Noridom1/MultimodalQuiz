@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "synchronous rotation",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Moon's rotation and orbit around Earth, with arrows indicating synchronous rotation.",
+    "learning_objective": "Understand the concept of synchronous rotation and its relation to the Moon's orbit.",
+    "tested_fact_block_id": "doc5::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Earth-diameters",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A side-by-side comparison of Earth and the Moon showing their relative sizes.",
+    "learning_objective": "Understand the relative size of the Moon compared to Earth.",
+    "tested_fact_block_id": "doc5::concept::2::moon",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Moon",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "causal",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Moon in different positions around the Earth, with sunlight illuminating varying portions of its surface.",
+    "learning_objective": "Understand the cause of the Moon's phases.",
+    "tested_fact_block_id": "doc5::chunk::0",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Sun",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Sun at the center of the Solar System with planets orbiting around it.",
+    "learning_objective": "Identify the Sun as a star and its central role in the Solar System.",
+    "tested_fact_block_id": "doc5::concept::3::sun",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Illumination",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing the Moon's phases with the waxing gibbous phase highlighted and the illuminated portion clearly marked.",
+    "learning_objective": "Understand the role of illumination in determining the Moon's phases, specifically the waxing gibbous phase.",
+    "tested_fact_block_id": "doc5::concept::42::illumination",
+    "metadata": {}
+  }
+]

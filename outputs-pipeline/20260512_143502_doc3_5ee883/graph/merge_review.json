@@ -1,0 +1,45 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc3::concept::0::august_revolution_1945",
+        "doc3::concept::5::august_revolution"
+      ],
+      "labels": [
+        "August Revolution 1945",
+        "August Revolution"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc3::concept::2::h_ch_minh",
+        "doc3::concept::9::h_ch_minh_s_thought"
+      ],
+      "labels": [
+        "Hồ Chí Minh",
+        "Hồ Chí Minh’s thought"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc3::concept::13::national_assembly",
+        "doc3::concept::15::national_assembly_of_the_national_resistance"
+      ],
+      "labels": [
+        "National Assembly",
+        "National Assembly of the National Resistance"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

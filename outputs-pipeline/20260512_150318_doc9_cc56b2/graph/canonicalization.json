@@ -1,0 +1,1097 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc9::concept::0::world_health_organization_who",
+      "label": "World Health Organization (WHO)",
+      "normalized_label": "world health organization",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020"
+      ],
+      "section_paths": [
+        [
+          "Mental health and psychosocial considerations during the COVID-19 outbreak"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::1::covid_19",
+      "label": "COVID-19",
+      "normalized_label": "covid-19",
+      "aliases": [],
+      "mention_count": 8,
+      "definitions": [
+        "A new coronavirus disease declared as a Public Health Emergency of International Concern by the World Health Organization (WHO).",
+        "A disease caused by a novel coronavirus that has led to a global outbreak."
+      ],
+      "source_chunk_ids": [
+        "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020",
+        "doc9::paragraph::3::who_and_public_health_authorities_around_the_wor::chunk::1::who_and_public_health_authorities_around_the_wor",
+        "doc9::list_item::6::2_do_not_refer_to_people_with_the_disease_as_cov::chunk::2::do_not_refer_to_people_with_the_disease_as_covid",
+        "doc9::list_item::8::4_protect_yourself_and_be_supportive_to_others_a::chunk::3::protect_yourself_and_be_supportive_to_others_ass",
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Mental health and psychosocial considerations during the COVID-19 outbreak"
+        ],
+        [
+          "Messages for the general population"
+        ],
+        [
+          "Messages for healthcare workers"
+        ],
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::2::public_health_emergency_of_international_concern",
+      "label": "Public Health Emergency of International Concern",
+      "normalized_label": "public health emergency of international concern",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "A declaration by the World Health Organization (WHO) indicating a high risk of a disease spreading globally."
+      ],
+      "source_chunk_ids": [
+        "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020"
+      ],
+      "section_paths": [
+        [
+          "Mental health and psychosocial considerations during the COVID-19 outbreak"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::3::pandemic",
+      "label": "pandemic",
+      "normalized_label": "pandemic",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020"
+      ],
+      "section_paths": [
+        [
+          "Mental health and psychosocial considerations during the COVID-19 outbreak"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::4::mental_health_and_substance_use",
+      "label": "Mental Health and Substance Use",
+      "normalized_label": "mental health and substance use",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::paragraph::1::18_march_2020::chunk::0::18_march_2020",
+        "doc9::paragraph::3::who_and_public_health_authorities_around_the_wor::chunk::1::who_and_public_health_authorities_around_the_wor"
+      ],
+      "section_paths": [
+        [
+          "Mental health and psychosocial considerations during the COVID-19 outbreak"
+        ],
+        [
+          "Messages for the general population"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::5::who",
+      "label": "WHO",
+      "normalized_label": "who",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::paragraph::3::who_and_public_health_authorities_around_the_wor::chunk::1::who_and_public_health_authorities_around_the_wor"
+      ],
+      "section_paths": [
+        [
+          "Messages for the general population"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::6::stigma",
+      "label": "stigma",
+      "normalized_label": "stigma",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::6::2_do_not_refer_to_people_with_the_disease_as_cov::chunk::2::do_not_refer_to_people_with_the_disease_as_covid"
+      ],
+      "section_paths": [
+        [
+          "Messages for the general population"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::7::solidarity",
+      "label": "solidarity",
+      "normalized_label": "solidarity",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::8::4_protect_yourself_and_be_supportive_to_others_a::chunk::3::protect_yourself_and_be_supportive_to_others_ass"
+      ],
+      "section_paths": [
+        [
+          "Messages for the general population"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::8::mental_health",
+      "label": "mental health",
+      "normalized_label": "mental health",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_"
+      ],
+      "section_paths": [
+        [
+          "Messages for healthcare workers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::9::psychosocial_well_being",
+      "label": "psychosocial well-being",
+      "normalized_label": "psychosocial well-being",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The state of mental and physical health influenced by social and psychological factors."
+      ],
+      "source_chunk_ids": [
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_"
+      ],
+      "section_paths": [
+        [
+          "Messages for healthcare workers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::10::coping_strategies",
+      "label": "coping strategies",
+      "normalized_label": "coping strategies",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_"
+      ],
+      "section_paths": [
+        [
+          "Messages for healthcare workers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::11::stress",
+      "label": "stress",
+      "normalized_label": "stress",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::10::6_honour_carers_and_healthcare_workers_supportin::chunk::4::honour_carers_and_healthcare_workers_supporting_",
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for healthcare workers"
+        ],
+        [
+          "Messages for team leaders or managers in health facilities"
+        ],
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::12::communication",
+      "label": "communication",
+      "normalized_label": "communication",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::13::buddy_system",
+      "label": "buddy system",
+      "normalized_label": "buddy system",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "A system where inexperienced workers are paired with more experienced colleagues to provide support, monitor stress, and reinforce safety procedures."
+      ],
+      "source_chunk_ids": [
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::14::mental_health_and_psychosocial_support_services",
+      "label": "mental health and psychosocial support services",
+      "normalized_label": "mental health and psychosocial support services",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::15::psychological_first_aid",
+      "label": "psychological first aid",
+      "normalized_label": "psychological first aid",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::16::mhgap_humanitarian_intervention_guide",
+      "label": "mhGAP Humanitarian Intervention Guide",
+      "normalized_label": "mhgap humanitarian intervention guide",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::19::13_ensure_that_good_quality_communication_and_ac::chunk::8::ensure_that_good_quality_communication_and_accur",
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::17::mental_health_and_neurological_complaints",
+      "label": "mental health and neurological complaints",
+      "normalized_label": "mental health and neurological complaints",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::18::delirium",
+      "label": "delirium",
+      "normalized_label": "delirium",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::19::psychosis",
+      "label": "psychosis",
+      "normalized_label": "psychosis",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::20::severe_anxiety",
+      "label": "severe anxiety",
+      "normalized_label": "severe anxiety",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::21::depression",
+      "label": "depression",
+      "normalized_label": "depression",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::22::psychotropic_medications",
+      "label": "psychotropic medications",
+      "normalized_label": "psychotropic medications",
+      "aliases": [
+        "prevention measures"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::22::16_manage_urgent_mental_health_and_neurological_::chunk::9::manage_urgent_mental_health_and_neurological_com",
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for team leaders or managers in health facilities"
+        ],
+        [
+          "Messages for carers of children"
+        ],
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::23::mental_health_conditions",
+      "label": "mental health conditions",
+      "normalized_label": "mental health conditions",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot"
+      ],
+      "section_paths": [
+        [
+          "Messages for carers of children"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::24::epileptic_seizures",
+      "label": "epileptic seizures",
+      "normalized_label": "epileptic seizures",
+      "aliases": [
+        "emotional support"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for carers of children"
+        ],
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::25::social_worker",
+      "label": "social worker",
+      "normalized_label": "social worker",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::23::17_ensure_availability_of_essential_generic_psyc::chunk::10::ensure_availability_of_essential_generic_psychot"
+      ],
+      "section_paths": [
+        [
+          "Messages for carers of children"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::26::routines",
+      "label": "routines",
+      "normalized_label": "routines",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::27::20_maintain_familiar_routines_in_daily_life_as_m::chunk::11::maintain_familiar_routines_in_daily_life_as_much"
+      ],
+      "section_paths": [
+        [
+          "Messages for carers of children"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::27::age_appropriate_activities",
+      "label": "age-appropriate activities",
+      "normalized_label": "age-appropriate activities",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::27::20_maintain_familiar_routines_in_daily_life_as_m::chunk::11::maintain_familiar_routines_in_daily_life_as_much"
+      ],
+      "section_paths": [
+        [
+          "Messages for carers of children"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::28::social_contact",
+      "label": "social contacts",
+      "normalized_label": "social contact",
+      "aliases": [
+        "social contact"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::27::20_maintain_familiar_routines_in_daily_life_as_m::chunk::11::maintain_familiar_routines_in_daily_life_as_much",
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for carers of children"
+        ],
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::29::crisis",
+      "label": "crisis",
+      "normalized_label": "crisis",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::30::attachment",
+      "label": "attachment",
+      "normalized_label": "attachment",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::31::anxiety",
+      "label": "anxiety",
+      "normalized_label": "anxiety",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::32::cognitive_decline",
+      "label": "cognitive decline",
+      "normalized_label": "cognitive decline",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::33::dementia",
+      "label": "dementia",
+      "normalized_label": "dementia",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::34::quarantine",
+      "label": "quarantine",
+      "normalized_label": "quarantine",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::35::cognitive_impairment",
+      "label": "cognitive impairment",
+      "normalized_label": "cognitive impairment",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::36::handwashing",
+      "label": "handwashing",
+      "normalized_label": "handwashing",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::37::underlying_health_condition",
+      "label": "underlying health condition",
+      "normalized_label": "underlying health condition",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc9::concept::38::medications",
+      "label": "medications",
+      "normalized_label": "medications",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc9::list_item::28::21_during_times_of_stress_and_crisis_it_is_commo::chunk::12::during_times_of_stress_and_crisis_it_is_common_f"
+      ],
+      "section_paths": [
+        [
+          "Messages for older adults, people with underlying health conditions and their carers"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc9::concept::4::mental_health_and_substance_use",
+        "doc9::concept::8::mental_health"
+      ],
+      "labels": [
+        "Mental Health and Substance Use",
+        "mental health"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::8::mental_health",
+        "doc9::concept::14::mental_health_and_psychosocial_support_services"
+      ],
+      "labels": [
+        "mental health",
+        "mental health and psychosocial support services"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::8::mental_health",
+        "doc9::concept::17::mental_health_and_neurological_complaints"
+      ],
+      "labels": [
+        "mental health",
+        "mental health and neurological complaints"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::8::mental_health",
+        "doc9::concept::23::mental_health_conditions"
+      ],
+      "labels": [
+        "mental health",
+        "mental health conditions"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::20::severe_anxiety",
+        "doc9::concept::31::anxiety"
+      ],
+      "labels": [
+        "severe anxiety",
+        "anxiety"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc9::concept::22::psychotropic_medications",
+        "doc9::concept::38::medications"
+      ],
+      "labels": [
+        "psychotropic medications",
+        "medications"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 57,
+    "canonical_concept_count": 39,
+    "candidate_merge_count": 6
+  }
+}

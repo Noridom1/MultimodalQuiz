@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "August Revolution",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A historical photograph of a large crowd gathering in Hanoi during the August Revolution.",
+    "learning_objective": "Identify the year in which the August Revolution took place.",
+    "tested_fact_block_id": "doc3::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Hồ Chí Minh",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A portrait of Hồ Chí Minh delivering a speech.",
+    "learning_objective": "Identify key historical contributions of Hồ Chí Minh.",
+    "tested_fact_block_id": "doc3::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "National Independence",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A historical photograph of Vietnamese people celebrating independence during the August Revolution.",
+    "learning_objective": "Understand the primary goal of the August Revolution in Vietnam.",
+    "tested_fact_block_id": "doc3::concept::5::august_revolution",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Hồ Chí Minh’s thought",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A portrait of Hồ Chí Minh with a backdrop of Vietnamese countryside and industrial symbols.",
+    "learning_objective": "Understand the core principle of Hồ Chí Minh’s thought in adapting Marxism-Leninism to Vietnam.",
+    "tested_fact_block_id": "doc3::concept::9::h_ch_minh_s_thought::block_1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "Việt Minh",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A historical photograph of Việt Minh leaders addressing a crowd during the resistance against French colonial rule.",
+    "learning_objective": "Understand the role and composition of the Việt Minh in the context of Indochinese resistance movements.",
+    "tested_fact_block_id": "doc3::concept::11::vi_t_minh",
+    "metadata": {}
+  }
+]

@@ -1,0 +1,273 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::2::physical_geography"
+      ],
+      "labels": [
+        "geography",
+        "physical geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::3::human_geography"
+      ],
+      "labels": [
+        "geography",
+        "human geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::72::post_modernism_in_geography"
+      ],
+      "labels": [
+        "geography",
+        "Post-modernism in geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::73::social_geography"
+      ],
+      "labels": [
+        "geography",
+        "Social Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::74::behavioural_geography"
+      ],
+      "labels": [
+        "geography",
+        "Behavioural Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::75::geography_of_social_well_being"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Social Well-being"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::76::geography_of_leisure"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Leisure"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::77::cultural_geography"
+      ],
+      "labels": [
+        "geography",
+        "Cultural Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::78::gender_geography"
+      ],
+      "labels": [
+        "geography",
+        "Gender Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::79::medical_geography"
+      ],
+      "labels": [
+        "geography",
+        "Medical Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::80::urban_geography"
+      ],
+      "labels": [
+        "geography",
+        "Urban Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::81::electoral_geography"
+      ],
+      "labels": [
+        "geography",
+        "Electoral Geography"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::82::geography_of_resources"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Resources"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::83::geography_of_agriculture"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Agriculture"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::84::geography_of_industries"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Industries"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::85::geography_of_marketing"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Marketing"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::86::geography_of_tourism"
+      ],
+      "labels": [
+        "geography",
+        "Geography of Tourism"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::1::geography",
+        "doc4::concept::87::geography_of_international_trade"
+      ],
+      "labels": [
+        "geography",
+        "Geography of International Trade"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::90::welfare_economics",
+        "doc4::concept::100::economics"
+      ],
+      "labels": [
+        "Welfare Economics",
+        "Economics"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::100::economics",
+        "doc4::concept::101::resource_economics"
+      ],
+      "labels": [
+        "Economics",
+        "Resource Economics"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::100::economics",
+        "doc4::concept::103::industrial_economics"
+      ],
+      "labels": [
+        "Economics",
+        "Industrial Economics"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc4::concept::87::geography_of_international_trade",
+        "doc4::concept::106::international_trade"
+      ],
+      "labels": [
+        "Geography of International Trade",
+        "International Trade"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

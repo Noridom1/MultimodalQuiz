@@ -1,0 +1,57 @@
+[
+  {
+    "target_concept": "Classical Theory of Concepts",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A Venn diagram showing overlapping features of different categories.",
+    "learning_objective": "Understand the defining characteristics of the Classical Theory of Concepts.",
+    "tested_fact_block_id": "doc15::concept::41::classical_theory_of_concepts",
+    "metadata": {}
+  },
+  {
+    "target_concept": "attributes",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing an individual entity with labeled attributes such as 'name', 'age', and 'color'.",
+    "learning_objective": "Understand what attributes represent in the context of individual entities.",
+    "tested_fact_block_id": "doc15::chunk::1",
+    "metadata": {}
+  },
+  {
+    "target_concept": "contingent attributes",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing an object with attributes labeled as either essential or contingent.",
+    "learning_objective": "Distinguish between essential and contingent attributes of an object.",
+    "tested_fact_block_id": "doc15::concept::23::contingent_attributes",
+    "metadata": {}
+  },
+  {
+    "target_concept": "social experience",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A group of people interacting in a social setting, such as a café or park.",
+    "learning_objective": "Understand the definition and scope of social experience.",
+    "tested_fact_block_id": "doc15::concept::24::social_experience",
+    "metadata": {}
+  },
+  {
+    "target_concept": "concepts",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "reasoning_type": "factoid",
+    "image_role": "illustrative",
+    "image_description": "A diagram showing a hierarchy of abstract ideas and their relationships.",
+    "learning_objective": "Understand the definition and scope of concepts.",
+    "tested_fact_block_id": "doc15::concept::26::concepts",
+    "metadata": {}
+  }
+]

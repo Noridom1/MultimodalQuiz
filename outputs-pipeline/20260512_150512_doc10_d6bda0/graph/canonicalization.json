@@ -1,0 +1,3150 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc10::concept::0::jens_lechtenb_rger",
+      "label": "Jens Lechtenbörger",
+      "normalized_label": "jens lechtenb rger",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::1::jens_lechtenb_rger::chunk::0::jens_lechtenb_rger"
+      ],
+      "section_paths": [
+        [
+          "Docker Introduction \\*"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::1::data_science_winter_school_2023",
+      "label": "Data Science Winter School 2023",
+      "normalized_label": "data science winter school 2023",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::1::jens_lechtenb_rger::chunk::0::jens_lechtenb_rger",
+        "doc10::paragraph::2::data_science_winter_school_2023::chunk::1::data_science_winter_school_2023",
+        "doc10::paragraph::2::data_science_winter_school_2023::chunk::2::data_science_winter_school_2023",
+        "doc10::paragraph::2::data_science_winter_school_2023::chunk::3::data_science_winter_school_2023"
+      ],
+      "section_paths": [
+        [
+          "Docker Introduction \\*"
+        ],
+        [
+          "Contents"
+        ],
+        [
+          "Introduction"
+        ],
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::2::virtualization_software",
+      "label": "Virtualization software",
+      "normalized_label": "virtualization software",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "provides (virtual) hardware interface"
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::2::data_science_winter_school_2023::chunk::3::data_science_winter_school_2023"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::3::virtual_machine",
+      "label": "Virtual machine (VM)",
+      "normalized_label": "virtual machine",
+      "aliases": [
+        "VM",
+        "Virtual Machine",
+        "Virtual machine",
+        "Virtual memory"
+      ],
+      "mention_count": 7,
+      "definitions": [
+        "A guest OS running on abstract hardware."
+      ],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization",
+        "doc10::paragraph::201::try_v_mnt_c_users_with_wsl_terminal::chunk::45::try_v_mnt_c_users_with_wsl_terminal"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ],
+        [
+          "Learning Objectives"
+        ],
+        [
+          "Intuition and Examples"
+        ],
+        [
+          "Layering Explained"
+        ],
+        [
+          "Docker Toolbox under Windows"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::4::app_a",
+      "label": "App A",
+      "normalized_label": "app a",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::5::app_b",
+      "label": "App B",
+      "normalized_label": "app b",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::6::guest_os1",
+      "label": "Guest OS1",
+      "normalized_label": "guest os1",
+      "aliases": [
+        "Guest OS",
+        "Guest OS2"
+      ],
+      "mention_count": 4,
+      "definitions": [
+        "A guest OS is de-privileged and no longer has full hardware access."
+      ],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ],
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::7::virtual_hardware_1",
+      "label": "Virtual Hardware 1",
+      "normalized_label": "virtual hardware 1",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::8::virtual_hardware_2",
+      "label": "Virtual Hardware 2",
+      "normalized_label": "virtual hardware 2",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::9::host_os",
+      "label": "Host OS",
+      "normalized_label": "host os",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ],
+        [
+          "Motivation (2/2)"
+        ],
+        [
+          "Layering with Containerization"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::10::hypervisor_vmm",
+      "label": "Hypervisor/VMM",
+      "normalized_label": "hypervisor vmm",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [
+        "Interface implemented by Hypervisor/VMM that runs on (usual) host OS, manages real hardware."
+      ],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::11::kvm",
+      "label": "KVM",
+      "normalized_label": "kvm",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::12::xen",
+      "label": "Xen",
+      "normalized_label": "xen",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::13::virtualbox",
+      "label": "VirtualBox",
+      "normalized_label": "virtualbox",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::14::hardware_cpu_ram_i_o",
+      "label": "Hardware (CPU, RAM, I/O)",
+      "normalized_label": "hardware",
+      "aliases": [
+        "Hardware"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::8::details_summary_flowchart_summary_mermaid_graph_::chunk::5::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ],
+        [
+          "Motivation (2/2)"
+        ],
+        [
+          "Layering with Containerization"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::15::virtual_hardware",
+      "label": "Virtual Hardware",
+      "normalized_label": "virtual hardware",
+      "aliases": [
+        "Virtual hardware"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "Virtual hardware can have arbitrary features, largely independent of real hardware."
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ],
+        [
+          "Intuition and Examples"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::16::virtual_machines_vms",
+      "label": "Virtual Machines (VMs)",
+      "normalized_label": "virtual machines",
+      "aliases": [
+        "Virtual machines"
+      ],
+      "mention_count": 4,
+      "definitions": [
+        "isolated duplicates of the real machine"
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization",
+        "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o",
+        "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::47::maybe_you_need_double_slashes"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ],
+        [
+          "On Images"
+        ],
+        [
+          "Summary"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::17::cloud_computing",
+      "label": "Cloud Computing",
+      "normalized_label": "cloud computing",
+      "aliases": [
+        "cloud computing"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::9::figure_1_layering_with_virtualization::chunk::6::figure_1_layering_with_virtualization",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo"
+      ],
+      "section_paths": [
+        [
+          "Motivation (1/2)"
+        ],
+        [
+          "History (2/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::18::containerization",
+      "label": "Containerization",
+      "normalized_label": "containerization",
+      "aliases": [
+        "containerization"
+      ],
+      "mention_count": 9,
+      "definitions": [
+        "Provides OS interface and executes software in a controlled way.",
+        "The main idea of containerization is to share the kernel among containers instead of having a separate OS per VM."
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app"
+      ],
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ],
+        [
+          "Learning Objectives"
+        ],
+        [
+          "Core Questions"
+        ],
+        [
+          "Virtualization"
+        ],
+        [
+          "Basics"
+        ],
+        [
+          "Outlook"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::19::docker",
+      "label": "Docker",
+      "normalized_label": "docker",
+      "aliases": [],
+      "mention_count": 10,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::18::this_and_the_subsequent_slide_are_intended_as_qu::chunk::7::this_and_the_subsequent_slide_are_intended_as_qu",
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::126::figure_4_layering_with_containerization::chunk::32::figure_4_layering_with_containerization",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+        "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o",
+        "doc10::paragraph::146::run_apt_get_update_apt_get_no_install_recommends::chunk::38::run_apt_get_update_apt_get_no_install_recommends",
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::39::which_conditions_for_virtualization_as_de_ned_in",
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::40::which_conditions_for_virtualization_as_de_ned_in",
+        "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces"
+      ],
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ],
+        [
+          "Learning Objectives"
+        ],
+        [
+          "Selected Technologies"
+        ],
+        [
+          "On Images"
+        ],
+        [
+          "Review Question"
+        ],
+        [
+          "Docker"
+        ],
+        [
+          "Docker Installation"
+        ],
+        [
+          "On Option -v"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::20::container",
+      "label": "Container",
+      "normalized_label": "container",
+      "aliases": [],
+      "mention_count": 6,
+      "definitions": [
+        "process (set), created from image (image is template for container)"
+      ],
+      "source_chunk_ids": [
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::122::new_container_without_copying_all_les_localized_::chunk::28::new_container_without_copying_all_les_localized_",
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin"
+      ],
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ],
+        [
+          "Layering with Containerization"
+        ],
+        [
+          "Selected Technologies"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::21::container_manager",
+      "label": "Container manager",
+      "normalized_label": "container manager",
+      "aliases": [
+        "Cluster manager"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::details::22::details_summary_flowchart_summary_mermaid_graph_::chunk::9::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::details::125::details_summary_flowchart_summary_mermaid_graph_::chunk::30::details_summary_flowchart_summary_mermaid_graph_",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi"
+      ],
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ],
+        [
+          "Layering with Containerization"
+        ],
+        [
+          "Selected Technologies"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::22::os_interface",
+      "label": "OS interface",
+      "normalized_label": "os interface",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization"
+      ],
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::23::os_kernel",
+      "label": "OS kernel",
+      "normalized_label": "os kernel",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization",
+        "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::47::maybe_you_need_double_slashes"
+      ],
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ],
+        [
+          "Summary"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::24::external_libraries",
+      "label": "External libraries",
+      "normalized_label": "external libraries",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization"
+      ],
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::25::application",
+      "label": "Application",
+      "normalized_label": "application",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::23::figure_2_layering_with_containerization::chunk::10::figure_2_layering_with_containerization"
+      ],
+      "section_paths": [
+        [
+          "Motivation (2/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::26::virtual_machine_monitor",
+      "label": "Virtual machine monitor",
+      "normalized_label": "virtual machine monitor",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua"
+      ],
+      "section_paths": [
+        [
+          "Learning Objectives"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::27::virtualization",
+      "label": "Virtualization",
+      "normalized_label": "virtualization",
+      "aliases": [
+        "virtualization"
+      ],
+      "mention_count": 14,
+      "definitions": [
+        "An old concept originating from IBM mainframes in the 1960s, aimed at better resource utilization and running different OS versions in parallel.",
+        "Creation of virtual/abstract version of something."
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua",
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::13::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::14::what_do_virtualization_and_containerization_mean",
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization",
+        "doc10::paragraph::108::each_with_full_os_own_portion_of_underlying_hard::chunk::25::each_with_full_os_own_portion_of_underlying_hard",
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::26::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::146::run_apt_get_update_apt_get_no_install_recommends::chunk::38::run_apt_get_update_apt_get_no_install_recommends",
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::39::which_conditions_for_virtualization_as_de_ned_in"
+      ],
+      "section_paths": [
+        [
+          "Learning Objectives"
+        ],
+        [
+          "Core Questions"
+        ],
+        [
+          "Virtualization"
+        ],
+        [
+          "History (1/2)"
+        ],
+        [
+          "History (2/2)"
+        ],
+        [
+          "Intuition and Examples"
+        ],
+        [
+          "Layering Explained"
+        ],
+        [
+          "Review Question"
+        ],
+        [
+          "Containerization"
+        ],
+        [
+          "Basics"
+        ],
+        [
+          "Docker"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::28::isolation",
+      "label": "Isolation",
+      "normalized_label": "isolation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua"
+      ],
+      "section_paths": [
+        [
+          "Learning Objectives"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::29::layering",
+      "label": "Layering",
+      "normalized_label": "layering",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::24::containerization_provides_os_interface_no_virtua::chunk::11::containerization_provides_os_interface_no_virtua"
+      ],
+      "section_paths": [
+        [
+          "Learning Objectives"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::30::web_solid_server",
+      "label": "Web/Solid server",
+      "normalized_label": "web solid server",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter"
+      ],
+      "section_paths": [
+        [
+          "Core Questions"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::31::docker_files",
+      "label": "docker files",
+      "normalized_label": "docker files",
+      "aliases": [
+        "Docker files"
+      ],
+      "mention_count": 3,
+      "definitions": [
+        "build recipes for images in simple text format"
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::28::e_g_start_web_solid_server_with_static_les_inter::chunk::12::e_g_start_web_solid_server_with_static_les_inter",
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin"
+      ],
+      "section_paths": [
+        [
+          "Core Questions"
+        ],
+        [
+          "Selected Technologies"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::32::ibm_mainframes",
+      "label": "IBM mainframes",
+      "normalized_label": "ibm mainframes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::14::what_do_virtualization_and_containerization_mean"
+      ],
+      "section_paths": [
+        [
+          "History (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::33::vms",
+      "label": "VMs",
+      "normalized_label": "vms",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::14::what_do_virtualization_and_containerization_mean"
+      ],
+      "section_paths": [
+        [
+          "History (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::34::multitasking_oss",
+      "label": "multitasking OSs",
+      "normalized_label": "multitasking oss",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::30::what_do_virtualization_and_containerization_mean::chunk::14::what_do_virtualization_and_containerization_mean"
+      ],
+      "section_paths": [
+        [
+          "History (1/2)"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::35::server_consolidation",
+      "label": "server consolidation",
+      "normalized_label": "server consolidation",
+      "aliases": [
+        "Serverless computing",
+        "serverless computing"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization"
+      ],
+      "section_paths": [
+        [
+          "History (2/2)"
+        ],
+        [
+          "Intuition and Examples"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::36::containers",
+      "label": "containers",
+      "normalized_label": "containers",
+      "aliases": [
+        "Containers"
+      ],
+      "mention_count": 4,
+      "definitions": [
+        "running processes, defined by images"
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::38::cheap_hardware_did_not_o_er_virtualization_suppo::chunk::15::cheap_hardware_did_not_o_er_virtualization_suppo",
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization",
+        "doc10::paragraph::212::maybe_you_need_double_slashes::chunk::47::maybe_you_need_double_slashes"
+      ],
+      "section_paths": [
+        [
+          "History (2/2)"
+        ],
+        [
+          "Intuition and Examples"
+        ],
+        [
+          "Summary"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::37::lightweight_virtualization",
+      "label": "Lightweight virtualization",
+      "normalized_label": "lightweight virtualization",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Intuition and Examples"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::38::overlay_networks",
+      "label": "Overlay networks",
+      "normalized_label": "overlay networks",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Intuition and Examples"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::39::software_defined_networking",
+      "label": "Software-defined networking",
+      "normalized_label": "software-defined networking",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Intuition and Examples"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::40::execution_environment",
+      "label": "Execution environment",
+      "normalized_label": "execution environment",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::46::spf_07_containers_for_lightweight_virtualization::chunk::16::spf_07_containers_for_lightweight_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Intuition and Examples"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::41::hypervisor_privilege_escalation",
+      "label": "hypervisor privilege escalation",
+      "normalized_label": "hypervisor privilege escalation",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::90::e_g_hypervisor_privilege_escalation_and_cross_vm::chunk::20::e_g_hypervisor_privilege_escalation_and_cross_vm"
+      ],
+      "section_paths": [
+        [
+          "Layering with Virtualization"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::42::cross_vm_side_channel_attacks",
+      "label": "cross-VM side channel attacks",
+      "normalized_label": "cross-vm side channel attacks",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::90::e_g_hypervisor_privilege_escalation_and_cross_vm::chunk::20::e_g_hypervisor_privilege_escalation_and_cross_vm"
+      ],
+      "section_paths": [
+        [
+          "Layering with Virtualization"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::43::hypervisor",
+      "label": "Hypervisor",
+      "normalized_label": "hypervisor",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "A hypervisor or virtual machine manager (VMM) with full access to physical hardware."
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::44::virtual_machine_manager_vmm",
+      "label": "Virtual Machine Manager (VMM)",
+      "normalized_label": "virtual machine manager",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::45::host",
+      "label": "Host",
+      "normalized_label": "host",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "The environment in which the VMM runs."
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::46::cpu_ring_0",
+      "label": "CPU ring 0",
+      "normalized_label": "cpu ring 0",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::47::root_mode",
+      "label": "root mode",
+      "normalized_label": "root mode",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::48::cpu_ring_1",
+      "label": "CPU ring 1",
+      "normalized_label": "cpu ring 1",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::49::privileged_sensitive_instructions",
+      "label": "Privileged/sensitive instructions",
+      "normalized_label": "privileged sensitive instructions",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::50::hardware_access",
+      "label": "Hardware access",
+      "normalized_label": "hardware access",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::51::vm_backups_snapshots",
+      "label": "VM backups/snapshots",
+      "normalized_label": "vm backups snapshots",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::52::shared_memory",
+      "label": "Shared memory",
+      "normalized_label": "shared memory",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::53::pipes",
+      "label": "Pipes",
+      "normalized_label": "pipes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::94::figure_3_layering_with_virtualization::chunk::24::figure_3_layering_with_virtualization"
+      ],
+      "section_paths": [
+        [
+          "Layering Explained"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::54::java_vm",
+      "label": "Java VM",
+      "normalized_label": "java vm",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::108::each_with_full_os_own_portion_of_underlying_hard::chunk::25::each_with_full_os_own_portion_of_underlying_hard",
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::26::the_java_vm_was_mentioned_as_variant_of_virtuali",
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali"
+      ],
+      "section_paths": [
+        [
+          "Review Question"
+        ],
+        [
+          "Containerization"
+        ],
+        [
+          "Basics"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::55::kernel_namespaces",
+      "label": "Kernel namespaces",
+      "normalized_label": "kernel namespaces",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali"
+      ],
+      "section_paths": [
+        [
+          "Basics"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::56::control_groups_cgroups",
+      "label": "Control groups (cgroups)",
+      "normalized_label": "control groups",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali"
+      ],
+      "section_paths": [
+        [
+          "Basics"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::57::copy_on_write",
+      "label": "Copy-on-write",
+      "normalized_label": "copy-on-write",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali"
+      ],
+      "section_paths": [
+        [
+          "Basics"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::58::unionfs",
+      "label": "UnionFS",
+      "normalized_label": "unionfs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::110::the_java_vm_was_mentioned_as_variant_of_virtuali::chunk::27::the_java_vm_was_mentioned_as_variant_of_virtuali"
+      ],
+      "section_paths": [
+        [
+          "Basics"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::59::localized_changes",
+      "label": "Localized changes",
+      "normalized_label": "localized changes",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::122::new_container_without_copying_all_les_localized_::chunk::28::new_container_without_copying_all_les_localized_"
+      ],
+      "section_paths": [
+        [
+          "Layering with Containerization"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::60::layering_with_containerization",
+      "label": "Layering with containerization",
+      "normalized_label": "layering with containerization",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::126::figure_4_layering_with_containerization::chunk::31::figure_4_layering_with_containerization"
+      ],
+      "section_paths": [
+        [
+          "Layering with Containerization"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::61::image",
+      "label": "Image",
+      "normalized_label": "image",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "describes OS/application environment"
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin"
+      ],
+      "section_paths": [
+        [
+          "Selected Technologies"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::62::registries",
+      "label": "Registries",
+      "normalized_label": "registries",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "publish images"
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin"
+      ],
+      "section_paths": [
+        [
+          "Selected Technologies"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::63::kubernetes",
+      "label": "Kubernetes",
+      "normalized_label": "kubernetes",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::130::figure_5_docker_logo_under_docker_brand_guidelin::chunk::34::figure_5_docker_logo_under_docker_brand_guidelin",
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi"
+      ],
+      "section_paths": [
+        [
+          "Selected Technologies"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::64::pod",
+      "label": "Pod",
+      "normalized_label": "pod",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "group of containers sharing resources, unit of deployment"
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi",
+        "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o"
+      ],
+      "section_paths": [
+        [
+          "Selected Technologies"
+        ],
+        [
+          "On Images"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::65::load_balancer",
+      "label": "Load-balancer",
+      "normalized_label": "load-balancer",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::136::figure_6_kubernetes_logo_under_kubernetes_brandi::chunk::36::figure_6_kubernetes_logo_under_kubernetes_brandi"
+      ],
+      "section_paths": [
+        [
+          "Selected Technologies"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::66::dockerfile",
+      "label": "Dockerfile",
+      "normalized_label": "dockerfile",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o"
+      ],
+      "section_paths": [
+        [
+          "On Images"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::67::images",
+      "label": "Images",
+      "normalized_label": "images",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::138::pod_group_of_containers_sharing_resources_unit_o::chunk::37::pod_group_of_containers_sharing_resources_unit_o"
+      ],
+      "section_paths": [
+        [
+          "On Images"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::68::community_edition",
+      "label": "Community Edition",
+      "normalized_label": "community edition",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::40::which_conditions_for_virtualization_as_de_ned_in"
+      ],
+      "section_paths": [
+        [
+          "Docker Installation"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::69::gui",
+      "label": "GUI",
+      "normalized_label": "gui",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::40::which_conditions_for_virtualization_as_de_ned_in",
+        "doc10::paragraph::155::some_students_perceive_the_gui_to_be_confusing_u::chunk::41::some_students_perceive_the_gui_to_be_confusing_u"
+      ],
+      "section_paths": [
+        [
+          "Docker Installation"
+        ],
+        [
+          "First Steps"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::70::bash",
+      "label": "Bash",
+      "normalized_label": "bash",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::148::which_conditions_for_virtualization_as_de_ned_in::chunk::40::which_conditions_for_virtualization_as_de_ned_in",
+        "doc10::paragraph::155::some_students_perceive_the_gui_to_be_confusing_u::chunk::41::some_students_perceive_the_gui_to_be_confusing_u",
+        "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces"
+      ],
+      "section_paths": [
+        [
+          "Docker Installation"
+        ],
+        [
+          "First Steps"
+        ],
+        [
+          "On Option -v"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::71::docker_run",
+      "label": "docker run",
+      "normalized_label": "docker run",
+      "aliases": [
+        "docker rm",
+        "docker rmi"
+      ],
+      "mention_count": 5,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::155::some_students_perceive_the_gui_to_be_confusing_u::chunk::41::some_students_perceive_the_gui_to_be_confusing_u",
+        "doc10::paragraph::169::docker_rmi_f_hello_world::chunk::42::docker_rmi_f_hello_world",
+        "doc10::paragraph::182::thus_your_html_les_replace_default_ones_of_nginx::chunk::43::thus_your_html_les_replace_default_ones_of_nginx"
+      ],
+      "section_paths": [
+        [
+          "First Steps"
+        ],
+        [
+          "A Web Server"
+        ],
+        [
+          "Selected Errors"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::72::docker_image_ls",
+      "label": "docker image ls",
+      "normalized_label": "docker image ls",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::155::some_students_perceive_the_gui_to_be_confusing_u::chunk::41::some_students_perceive_the_gui_to_be_confusing_u"
+      ],
+      "section_paths": [
+        [
+          "First Steps"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::73::docker_container_ls",
+      "label": "docker container ls",
+      "normalized_label": "docker container ls",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::155::some_students_perceive_the_gui_to_be_confusing_u::chunk::41::some_students_perceive_the_gui_to_be_confusing_u"
+      ],
+      "section_paths": [
+        [
+          "First Steps"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::74::docker_container_help",
+      "label": "docker container --help",
+      "normalized_label": "docker container --help",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::155::some_students_perceive_the_gui_to_be_confusing_u::chunk::41::some_students_perceive_the_gui_to_be_confusing_u"
+      ],
+      "section_paths": [
+        [
+          "First Steps"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::75::nginx",
+      "label": "nginx",
+      "normalized_label": "nginx",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::169::docker_rmi_f_hello_world::chunk::42::docker_rmi_f_hello_world",
+        "doc10::paragraph::182::thus_your_html_les_replace_default_ones_of_nginx::chunk::43::thus_your_html_les_replace_default_ones_of_nginx",
+        "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces",
+        "doc10::paragraph::201::try_v_mnt_c_users_with_wsl_terminal::chunk::45::try_v_mnt_c_users_with_wsl_terminal"
+      ],
+      "section_paths": [
+        [
+          "A Web Server"
+        ],
+        [
+          "Selected Errors"
+        ],
+        [
+          "On Option -v"
+        ],
+        [
+          "Docker Toolbox under Windows"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::76::docker_stop",
+      "label": "docker start",
+      "normalized_label": "docker stop",
+      "aliases": [
+        "docker stop"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::169::docker_rmi_f_hello_world::chunk::42::docker_rmi_f_hello_world",
+        "doc10::paragraph::182::thus_your_html_les_replace_default_ones_of_nginx::chunk::43::thus_your_html_les_replace_default_ones_of_nginx"
+      ],
+      "section_paths": [
+        [
+          "A Web Server"
+        ],
+        [
+          "Selected Errors"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::77::docker_logs",
+      "label": "docker logs",
+      "normalized_label": "docker logs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::169::docker_rmi_f_hello_world::chunk::42::docker_rmi_f_hello_world"
+      ],
+      "section_paths": [
+        [
+          "A Web Server"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::78::docker_ps",
+      "label": "docker ps",
+      "normalized_label": "docker ps",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::182::thus_your_html_les_replace_default_ones_of_nginx::chunk::43::thus_your_html_les_replace_default_ones_of_nginx"
+      ],
+      "section_paths": [
+        [
+          "Selected Errors"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::79::powershell",
+      "label": "Powershell",
+      "normalized_label": "powershell",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces"
+      ],
+      "section_paths": [
+        [
+          "On Option -v"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::80::wsl_terminal",
+      "label": "WSL terminal",
+      "normalized_label": "wsl terminal",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::193::or_some_other_process_uses_that_port_kill_proces::chunk::44::or_some_other_process_uses_that_port_kill_proces"
+      ],
+      "section_paths": [
+        [
+          "On Option -v"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::81::docker_toolbox",
+      "label": "Docker Toolbox",
+      "normalized_label": "docker toolbox",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::201::try_v_mnt_c_users_with_wsl_terminal::chunk::45::try_v_mnt_c_users_with_wsl_terminal"
+      ],
+      "section_paths": [
+        [
+          "Docker Toolbox under Windows"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::82::ip_address",
+      "label": "IP address",
+      "normalized_label": "ip address",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::201::try_v_mnt_c_users_with_wsl_terminal::chunk::45::try_v_mnt_c_users_with_wsl_terminal"
+      ],
+      "section_paths": [
+        [
+          "Docker Toolbox under Windows"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::83::file_system_path",
+      "label": "File system path",
+      "normalized_label": "file system path",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::201::try_v_mnt_c_users_with_wsl_terminal::chunk::45::try_v_mnt_c_users_with_wsl_terminal"
+      ],
+      "section_paths": [
+        [
+          "Docker Toolbox under Windows"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::84::devops",
+      "label": "DevOps",
+      "normalized_label": "devops",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [
+        "Combination of Development and Operations"
+      ],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::85::git",
+      "label": "Git",
+      "normalized_label": "git",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::86::development",
+      "label": "Development",
+      "normalized_label": "development",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::87::operations",
+      "label": "Operations",
+      "normalized_label": "operations",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::88::communication_and_collaboration",
+      "label": "Communication and collaboration",
+      "normalized_label": "communication and collaboration",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ],
+        [
+          "Bibliography"
+        ],
+        [
+          "License Information"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::89::continuous_integration_ci",
+      "label": "Continuous integration (CI)",
+      "normalized_label": "continuous integration",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ],
+        [
+          "Bibliography"
+        ],
+        [
+          "License Information"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::90::continuous_deployment_cd",
+      "label": "Continuous deployment (CD)",
+      "normalized_label": "continuous deployment",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ],
+        [
+          "Bibliography"
+        ],
+        [
+          "License Information"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::91::gitops",
+      "label": "GitOps",
+      "normalized_label": "gitops",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ],
+        [
+          "Bibliography"
+        ],
+        [
+          "License Information"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::92::self_service_it",
+      "label": "Self-service IT",
+      "normalized_label": "self-service it",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ],
+        [
+          "Bibliography"
+        ],
+        [
+          "License Information"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::93::pull_requests_prs",
+      "label": "Pull requests (PRs)",
+      "normalized_label": "pull requests",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ],
+        [
+          "Bibliography"
+        ],
+        [
+          "License Information"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc10::concept::94::infrastructure_as_code_iac",
+      "label": "Infrastructure as Code (IaC)",
+      "normalized_label": "infrastructure as code",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc10::paragraph::219::can_be_contrasted_in_terms_of_their_layering_app::chunk::48::can_be_contrasted_in_terms_of_their_layering_app",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::49::communication_and_collaboration_continuous_integ",
+        "doc10::paragraph::225::communication_and_collaboration_continuous_integ::chunk::50::communication_and_collaboration_continuous_integ"
+      ],
+      "section_paths": [
+        [
+          "Outlook"
+        ],
+        [
+          "Bibliography"
+        ],
+        [
+          "License Information"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc10::concept::7::virtual_hardware_1",
+        "doc10::concept::14::hardware_cpu_ram_i_o"
+      ],
+      "labels": [
+        "Virtual Hardware 1",
+        "Hardware (CPU, RAM, I/O)"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::7::virtual_hardware_1",
+        "doc10::concept::15::virtual_hardware"
+      ],
+      "labels": [
+        "Virtual Hardware 1",
+        "Virtual Hardware"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::20::container",
+        "doc10::concept::21::container_manager"
+      ],
+      "labels": [
+        "Container",
+        "Container manager"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::26::virtual_machine_monitor"
+      ],
+      "labels": [
+        "Virtual Machine",
+        "Virtual machine monitor"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::2::virtualization_software",
+        "doc10::concept::27::virtualization"
+      ],
+      "labels": [
+        "Virtualization software",
+        "Virtualization"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::31::docker_files"
+      ],
+      "labels": [
+        "Docker",
+        "docker files"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::27::virtualization",
+        "doc10::concept::37::lightweight_virtualization"
+      ],
+      "labels": [
+        "Virtualization",
+        "Lightweight virtualization"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::10::hypervisor_vmm",
+        "doc10::concept::43::hypervisor"
+      ],
+      "labels": [
+        "Hypervisor/VMM",
+        "Hypervisor"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::3::virtual_machine",
+        "doc10::concept::44::virtual_machine_manager_vmm"
+      ],
+      "labels": [
+        "Virtual Machine",
+        "Virtual Machine Manager (VMM)"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::9::host_os",
+        "doc10::concept::45::host"
+      ],
+      "labels": [
+        "Host OS",
+        "Host"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::14::hardware_cpu_ram_i_o",
+        "doc10::concept::50::hardware_access"
+      ],
+      "labels": [
+        "Hardware (CPU, RAM, I/O)",
+        "Hardware access"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::18::containerization",
+        "doc10::concept::60::layering_with_containerization"
+      ],
+      "labels": [
+        "Containerization",
+        "Layering with containerization"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::71::docker_run"
+      ],
+      "labels": [
+        "Docker",
+        "docker run"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::72::docker_image_ls"
+      ],
+      "labels": [
+        "Docker",
+        "docker image ls"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::73::docker_container_ls"
+      ],
+      "labels": [
+        "Docker",
+        "docker container ls"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::74::docker_container_help"
+      ],
+      "labels": [
+        "Docker",
+        "docker container --help"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::76::docker_stop"
+      ],
+      "labels": [
+        "Docker",
+        "docker stop"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::77::docker_logs"
+      ],
+      "labels": [
+        "Docker",
+        "docker logs"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::78::docker_ps"
+      ],
+      "labels": [
+        "Docker",
+        "docker ps"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc10::concept::19::docker",
+        "doc10::concept::81::docker_toolbox"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Toolbox"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 203,
+    "canonical_concept_count": 95,
+    "candidate_merge_count": 20
+  }
+}

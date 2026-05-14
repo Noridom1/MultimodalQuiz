@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "Create a simplified, high-contrast map of Southeast Asia with clear labels for 'Site 1' (Dien Bien Phu) and 'Supply Routes' (Viet Minh paths), using muted earth tones for terrain and bold red/blue lines to distinguish opposing forces' movements. Highlight the strategic isolation of Site 1 near the border, emphasizing its proximity to supply lines with directional arrows. Avoid modern symbols or copyrighted imagery.\n\nAlt: A strategic map showing Site 1's location relative to supply routes during the First Indochina War.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141058_doc1_4abbc8/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "Create a simple, high-contrast map of northwestern Vietnam with a bold red marker at **Site 1** (Dien Bien Phu), surrounded by key terrain features like mountains and rivers. Label neighboring countries (e.g., Laos, China) and major cities with neutral placeholders (e.g., \"City X\"), using a clean, sans-serif font. Use muted earth tones for the base map with a bright accent color for Site 1 to emphasize its strategic isolation. Alt: A map highlighting a remote mountainous location in northwestern Vietnam, marked as a key site in a historical conflict.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141058_doc1_4abbc8/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "Create a stylized, high-contrast map illustrating the key regions of the Winter-Spring campaign, using muted winter blues and fresh spring greens to denote seasonal transitions. Label major locations as \"Site 1,\" \"Site 2,\" etc., and mark movement paths with subtle arrows, ensuring all text is legible against the background. Avoid realistic depictions of people or modern symbols.\n\nAlt: A seasonal map showing labeled regions and movement paths for the Winter-Spring campaign.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141058_doc1_4abbc8/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "Create a clean, high-contrast hierarchical diagram of the Party's Central Committee, using a pyramid or flowchart structure with labeled tiers (e.g., \"Top Leadership,\" \"Regional Branches,\" \"Local Committees\") in bold, neutral colors (blues/grays) for clarity. Replace specific names with placeholders like \"Chairperson\" or \"Department X,\" and use arrows to show authority flow. Avoid symbols or logos; focus on abstract shapes and text boxes.\n\nAlt: A diagram illustrating the hierarchical structure of a governing party's Central Committee with labeled tiers and directional arrows.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141058_doc1_4abbc8/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "Create a simplified, high-contrast map of northern Vietnam focusing on the Red River Delta region, with a distinct highlight (e.g., bold outline or fill) on a province labeled \"Site 1\" in the upper area near the river’s bend. Use a muted color palette for surrounding regions and a bright, contrasting color (e.g., warm orange or teal) for the highlighted province, ensuring clear visibility. Include a compass rose or directional indicator for orientation, and avoid political borders beyond the delta.\n\nAlt: A map of northern Vietnam’s Red River Delta with one province highlighted in a contrasting color for identification.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_141058_doc1_4abbc8/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_d885ce802a",
+    "question_text": "Which of the following is a racket sport?",
+    "options": [
+      "A. Soccer",
+      "B. Badminton",
+      "C. Basketball",
+      "D. Swimming"
+    ],
+    "correct_answer": "B",
+    "explanation": "Badminton is a racket sport, as players use rackets to hit a shuttlecock over a net. This is confirmed by doc13::concept::1::racket_sport.",
+    "target_concept": "racket sport",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc13::concept::1::racket_sport",
+      "run_id": "20260514_154655_doc13_62d282"
+    }
+  },
+  {
+    "id": "q_c7d3634465",
+    "question_text": "What is the primary role of a racket in the context of a shuttlecock?",
+    "options": [
+      "To serve as a protective gear for the player",
+      "To hit or strike the shuttlecock during play",
+      "To measure the speed of the shuttlecock",
+      "To hold the shuttlecock in place"
+    ],
+    "correct_answer": "To hit or strike the shuttlecock during play",
+    "explanation": "A racket is used to hit or strike the shuttlecock in sports like badminton, allowing players to control its direction and speed. This is its primary function in gameplay. (Source: doc13::concept::6::racket)",
+    "target_concept": "racket",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc13::concept::6::racket",
+      "run_id": "20260514_154655_doc13_62d282"
+    }
+  },
+  {
+    "id": "q_e0eae36d23",
+    "question_text": "What was the historical name of the sport now known as badminton, which originated in Poona, India?",
+    "options": [
+      "Poona",
+      "Shuttlecock",
+      "Battledore",
+      "Lawn Tennis"
+    ],
+    "correct_answer": "Poona",
+    "explanation": "The sport of badminton was originally known as 'Poona,' named after the city in India where it was first played by British officers. (Source: doc13::concept::12::poona)",
+    "target_concept": "BADMINTON",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc13::concept::12::poona",
+      "run_id": "20260514_154655_doc13_62d282"
+    }
+  },
+  {
+    "id": "q_57101eaa47",
+    "question_text": "Who was the first Duke of Beaufort associated with Badminton House?",
+    "options": [
+      "Henry Somerset",
+      "Charles Somerset",
+      "Edward Somerset",
+      "John Somerset"
+    ],
+    "correct_answer": "Henry Somerset",
+    "explanation": "Henry Somerset was the 1st Duke of Beaufort and is historically linked to Badminton House. This fact is documented in doc13::chunk::1::badminton_house::duke_of_beaufort.",
+    "target_concept": "Duke of Beaufort",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc13::chunk::1::badminton_house::duke_of_beaufort",
+      "run_id": "20260514_154655_doc13_62d282"
+    }
+  },
+  {
+    "id": "q_127af9ebe8",
+    "question_text": "In a singles badminton match, how many players are on the court in total?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct_answer": "2",
+    "explanation": "A singles badminton match involves one player on each side of the court, totaling two players. This is the standard setup for singles play. (Source: doc13::concept::2::singles)",
+    "target_concept": "singles",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc13::concept::2::singles",
+      "run_id": "20260514_154655_doc13_62d282"
+    }
+  }
+]

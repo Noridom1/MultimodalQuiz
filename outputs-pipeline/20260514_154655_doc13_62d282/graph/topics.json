@@ -1,0 +1,1095 @@
+{
+  "count": 19,
+  "topics": [
+    {
+      "id": "doc13::topic_candidate::section::11::forehand_and_backhand",
+      "label": ". Forehand and backhand.",
+      "description": "Section-seeded topic for 1. Forehand and backhand.",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "1. Forehand and backhand."
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::30::synthetic_shuttles",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::32::feathered_shuttles",
+        "doc13::concept::59::badminton_player",
+        "doc13::concept::60::forehand_and_backhand",
+        "doc13::concept::61::backhand_shot",
+        "doc13::concept::76::court_position"
+      ],
+      "chunk_ids": [
+        "doc13::details::67::details_summary_natural_image_summary_badminton_::chunk::40::details_summary_natural_image_summary_badminton_",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often::chunk::17::synthetic_shuttles_nylon_shuttles_they_are_often",
+        "doc13::paragraph::49::before_may_2006_players_could_only_win_a_point_o::chunk::32::before_may_2006_players_could_only_win_a_point_o",
+        "doc13::paragraph::68::forehand_shot::chunk::41::forehand_shot",
+        "doc13::paragraph::71::backhand_shot::chunk::44::backhand_shot",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::67::details_summary_natural_image_summary_badminton_",
+        "doc13::artifact::70::details_summary_natural_image_summary_badminton_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::32::feathered_shuttles",
+        "doc13::concept::59::badminton_player",
+        "doc13::concept::61::backhand_shot"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.9,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.97
+      },
+      "metadata": {
+        "section_id": "doc13::section::64::1_forehand_and_backhand",
+        "source_section_label": "1. Forehand and backhand."
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::anchor::5::smash",
+      "label": "Smash",
+      "description": "Concept-anchored topic centered on Smash",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "2. Basic strokes."
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::37::grid_with_vertical_dashed_line",
+        "doc13::concept::4::badminton_court",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::67::clear",
+        "doc13::concept::68::attacking_clear",
+        "doc13::concept::69::smash",
+        "doc13::concept::70::kill",
+        "doc13::concept::71::drive"
+      ],
+      "chunk_ids": [
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::67::clear",
+        "doc13::concept::68::attacking_clear",
+        "doc13::concept::69::smash"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.909,
+        "breadth_score": 0.5,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.818
+      },
+      "metadata": {
+        "anchor_concept_id": "doc13::concept::69::smash",
+        "merged_candidate_ids": [
+          "doc13::topic_candidate::anchor::10::attacking_clear",
+          "doc13::topic_candidate::anchor::11::clear"
+        ]
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::3::rackets",
+      "label": "Rackets",
+      "description": "Section-seeded topic for Rackets",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Rackets"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::22::badminton_rackets",
+        "doc13::concept::23::grip",
+        "doc13::concept::24::racket_handle",
+        "doc13::concept::25::shuttle",
+        "doc13::concept::26::bird",
+        "doc13::concept::27::birdie",
+        "doc13::concept::28::shuttlecocks_with_feathers",
+        "doc13::concept::5::shuttlecock"
+      ],
+      "chunk_ids": [
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::11::this_new_sport_was_definitively_launched_in_1873",
+        "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac::chunk::12::badminton_rackets_are_light_with_top_quality_rac",
+        "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+        "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::31::details_summary_natural_image_summary_black_and_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::22::badminton_rackets",
+        "doc13::concept::23::grip",
+        "doc13::concept::24::racket_handle"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.8,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.94
+      },
+      "metadata": {
+        "section_id": "doc13::section::18::rackets",
+        "source_section_label": "Rackets"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::anchor::2::singles_court",
+      "label": "Singles court",
+      "description": "Concept-anchored topic centered on singles court",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "BADMINTON COURT"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::37::grid_with_vertical_dashed_line",
+        "doc13::concept::38::grid_with_vertical_division",
+        "doc13::concept::43::short_service_line",
+        "doc13::concept::4::badminton_court",
+        "doc13::concept::52::server",
+        "doc13::concept::53::receiver",
+        "doc13::concept::54::feints",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::67::clear",
+        "doc13::concept::68::attacking_clear"
+      ],
+      "chunk_ids": [
+        "doc13::details::43::details_summary_flowchart_summary_mermaid_graph_::chunk::28::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::list_item::111::2_draw_a_badminton_court_and_mark_a_the_singles_::chunk::65::draw_a_badminton_court_and_mark_a_the_singles_pl",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla::chunk::33::a_match_is_the_best_of_three_games_the_first_pla",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::46::details_summary_text_image_summary_side_line_for"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "anchor_concept_id": "doc13::concept::35::singles_court",
+        "merged_candidate_ids": [
+          "doc13::topic_candidate::anchor::3::defensive_clear"
+        ]
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::anchor::8::overhead_serve",
+      "label": "Overhead serve",
+      "description": "Concept-anchored topic centered on overhead serve",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "BADMINTON"
+        ],
+        [
+          "BADMINTON EQUIPMENT"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::10::competitive_badminton",
+        "doc13::concept::11::olympic_sport",
+        "doc13::concept::12::poona",
+        "doc13::concept::19::badminton_house",
+        "doc13::concept::1::racket_sport",
+        "doc13::concept::20::duke_of_beaufort",
+        "doc13::concept::21::the_game_of_badminton",
+        "doc13::concept::2::singles",
+        "doc13::concept::3::doubles"
+      ],
+      "chunk_ids": [
+        "doc13::details::117::details_summary_text_image_summary_playing_badmi::chunk::68::details_summary_text_image_summary_playing_badmi",
+        "doc13::details::27::details_summary_text_image_summary_feathers_cork::chunk::16::details_summary_text_image_summary_feathers_cork",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::15::badminton_house_gloucestershire_painted_by_josep::chunk::9::badminton_house_gloucestershire_painted_by_josep",
+        "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::10::this_new_sport_was_definitively_launched_in_1873",
+        "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+        "doc13::paragraph::6::competitive_badminton_is_best_played_indoors_bec::chunk::3::competitive_badminton_is_best_played_indoors_bec",
+        "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b::chunk::4::badminton_has_been_an_olympic_sport_since_1992_b"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::117::details_summary_text_image_summary_playing_badmi",
+        "doc13::artifact::27::details_summary_text_image_summary_feathers_cork"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::11::olympic_sport",
+        "doc13::concept::19::badminton_house",
+        "doc13::concept::20::duke_of_beaufort"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.88
+      },
+      "metadata": {
+        "anchor_concept_id": "doc13::concept::11::olympic_sport",
+        "merged_candidate_ids": [
+          "doc13::topic_candidate::section::2::badminton_equipment"
+        ]
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::7::scoring_system_3_x_21_rally_point_scoring_system",
+      "label": ". Scoring system: 3 x 21 rally point scoring system.",
+      "description": "Section-seeded topic for 1. Scoring system: 3 x 21 rally point scoring system.",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "1. Scoring system: 3 x 21 rally point scoring system."
+        ],
+        [
+          "Shuttlecocks"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::27::birdie",
+        "doc13::concept::30::synthetic_shuttles",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::32::feathered_shuttles",
+        "doc13::concept::49::rally",
+        "doc13::concept::50::game",
+        "doc13::concept::51::match",
+        "doc13::concept::57::fault",
+        "doc13::concept::58::serve",
+        "doc13::concept::5::shuttlecock"
+      ],
+      "chunk_ids": [
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac::chunk::12::badminton_rackets_are_light_with_top_quality_rac",
+        "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often::chunk::17::synthetic_shuttles_nylon_shuttles_they_are_often",
+        "doc13::paragraph::49::before_may_2006_players_could_only_win_a_point_o::chunk::32::before_may_2006_players_could_only_win_a_point_o",
+        "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+        "doc13::paragraph::68::forehand_shot::chunk::41::forehand_shot",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::31::details_summary_natural_image_summary_black_and_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::30::synthetic_shuttles",
+        "doc13::concept::49::rally",
+        "doc13::concept::51::match"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "section_id": "doc13::section::48::1_scoring_system_3_x_21_rally_point_scoring_syst",
+        "source_section_label": "1. Scoring system: 3 x 21 rally point scoring system.",
+        "merged_candidate_ids": [
+          "doc13::topic_candidate::anchor::7::rally",
+          "doc13::topic_candidate::anchor::9::synthetic_shuttles"
+        ]
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::anchor::0::nylon_shuttles",
+      "label": "Nylon shuttles",
+      "description": "Concept-anchored topic centered on Nylon shuttles",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Shuttlecocks"
+        ],
+        [
+          "2. Basic strokes."
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::25::shuttle",
+        "doc13::concept::30::synthetic_shuttles",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::32::feathered_shuttles",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::63::opponent",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::68::attacking_clear",
+        "doc13::concept::69::smash",
+        "doc13::concept::71::drive",
+        "doc13::concept::82::teamwork",
+        "doc13::concept::83::home_position"
+      ],
+      "chunk_ids": [
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often::chunk::17::synthetic_shuttles_nylon_shuttles_they_are_often",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::66::drive_service"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "anchor_concept_id": "doc13::concept::31::nylon_shuttles",
+        "merged_candidate_ids": [
+          "doc13::topic_candidate::anchor::1::drive_service"
+        ]
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::anchor::4::shuttlecock",
+      "label": "Shuttlecock",
+      "description": "Concept-anchored topic centered on shuttlecock",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "BADMINTON"
+        ],
+        [
+          "3. Playing the game:"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::22::badminton_rackets",
+        "doc13::concept::25::shuttle",
+        "doc13::concept::27::birdie",
+        "doc13::concept::28::shuttlecocks_with_feathers",
+        "doc13::concept::30::synthetic_shuttles",
+        "doc13::concept::49::rally",
+        "doc13::concept::50::game",
+        "doc13::concept::51::match",
+        "doc13::concept::57::fault",
+        "doc13::concept::58::serve",
+        "doc13::concept::5::shuttlecock",
+        "doc13::concept::6::racket"
+      ],
+      "chunk_ids": [
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::11::this_new_sport_was_definitively_launched_in_1873",
+        "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac::chunk::12::badminton_rackets_are_light_with_top_quality_rac",
+        "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+        "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often::chunk::17::synthetic_shuttles_nylon_shuttles_they_are_often",
+        "doc13::paragraph::49::before_may_2006_players_could_only_win_a_point_o::chunk::32::before_may_2006_players_could_only_win_a_point_o",
+        "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::31::details_summary_natural_image_summary_black_and_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::27::birdie",
+        "doc13::concept::49::rally",
+        "doc13::concept::5::shuttlecock"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "anchor_concept_id": "doc13::concept::5::shuttlecock",
+        "merged_candidate_ids": [
+          "doc13::topic_candidate::section::9::playing_the_game"
+        ]
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::anchor::6::shuttle",
+      "label": "Shuttle",
+      "description": "Concept-anchored topic centered on Shuttle",
+      "seed_source": "concept_anchor",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Shuttlecocks"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::25::shuttle",
+        "doc13::concept::26::bird",
+        "doc13::concept::27::birdie",
+        "doc13::concept::28::shuttlecocks_with_feathers",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::5::shuttlecock",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::82::teamwork",
+        "doc13::concept::83::home_position",
+        "doc13::concept::84::four_corners_strategy"
+      ],
+      "chunk_ids": [
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac::chunk::12::badminton_rackets_are_light_with_top_quality_rac",
+        "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::31::details_summary_natural_image_summary_black_and_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::25::shuttle"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.9,
+        "breadth_score": 0.6,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.845
+      },
+      "metadata": {
+        "anchor_concept_id": "doc13::concept::25::shuttle"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::0::badminton",
+      "label": "BADMINTON",
+      "description": "Section-seeded topic for BADMINTON",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "BADMINTON"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::10::competitive_badminton",
+        "doc13::concept::11::olympic_sport",
+        "doc13::concept::2::singles",
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::3::doubles",
+        "doc13::concept::4::badminton_court",
+        "doc13::concept::5::shuttlecock",
+        "doc13::concept::6::racket",
+        "doc13::concept::8::natural_image",
+        "doc13::concept::9::cartoon_illustration"
+      ],
+      "chunk_ids": [
+        "doc13::details::5::details_summary_natural_image_summary_cartoon_il::chunk::2::details_summary_natural_image_summary_cartoon_il",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::6::competitive_badminton_is_best_played_indoors_bec::chunk::3::competitive_badminton_is_best_played_indoors_bec",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b::chunk::4::badminton_has_been_an_olympic_sport_since_1992_b"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::117::details_summary_text_image_summary_playing_badmi",
+        "doc13::artifact::27::details_summary_text_image_summary_feathers_cork",
+        "doc13::artifact::31::details_summary_natural_image_summary_black_and_",
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::5::details_summary_natural_image_summary_cartoon_il",
+        "doc13::artifact::95::details_summary_natural_image_summary_green_fiel",
+        "doc13::artifact::98::details_summary_natural_image_summary_green_grid"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::4::badminton_court",
+        "doc13::concept::5::shuttlecock"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc13::section::0::badminton",
+        "source_section_label": "BADMINTON"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::8::service",
+      "label": ". Service:",
+      "description": "Section-seeded topic for 2. Service:",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "2. Service:"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::38::grid_with_vertical_division",
+        "doc13::concept::43::short_service_line",
+        "doc13::concept::4::badminton_court",
+        "doc13::concept::52::server",
+        "doc13::concept::53::receiver",
+        "doc13::concept::54::feints",
+        "doc13::concept::55::doubles_service_court",
+        "doc13::concept::56::singles_service_court",
+        "doc13::concept::91::singles_playing_court",
+        "doc13::concept::92::doubles_playing_court"
+      ],
+      "chunk_ids": [
+        "doc13::details::43::details_summary_flowchart_summary_mermaid_graph_::chunk::28::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::details::58::details_summary_text_image_summary_doubles_servi::chunk::35::details_summary_text_image_summary_doubles_servi",
+        "doc13::list_item::111::2_draw_a_badminton_court_and_mark_a_the_singles_::chunk::65::draw_a_badminton_court_and_mark_a_the_singles_pl",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::41::the_singles_court_is_a_little_smaller_5_18_m_wid::chunk::26::the_singles_court_is_a_little_smaller_5_18_m_wid",
+        "doc13::paragraph::51::a_match_is_the_best_of_three_games_the_first_pla::chunk::33::a_match_is_the_best_of_three_games_the_first_pla",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::46::details_summary_text_image_summary_side_line_for",
+        "doc13::artifact::58::details_summary_text_image_summary_doubles_servi"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::35::singles_court",
+        "doc13::concept::55::doubles_service_court",
+        "doc13::concept::56::singles_service_court"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc13::section::52::2_service",
+        "source_section_label": "2. Service:"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::14::doubles_badminton_strategies",
+      "label": "Doubles Badminton Strategies",
+      "description": "Section-seeded topic for Doubles Badminton Strategies",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Doubles Badminton Strategies"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::25::shuttle",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::77::doubles_badminton",
+        "doc13::concept::78::front_back_position",
+        "doc13::concept::79::attacking_formation",
+        "doc13::concept::80::side_by_side_position",
+        "doc13::concept::81::defensive_formation",
+        "doc13::concept::82::teamwork",
+        "doc13::concept::83::home_position",
+        "doc13::concept::8::natural_image"
+      ],
+      "chunk_ids": [
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::90::to_win_in_badminton_players_need_to_employ_a_wid::chunk::50::to_win_in_badminton_players_need_to_employ_a_wid",
+        "doc13::paragraph::96::side_by_side_position_defensive_formation::chunk::53::side_by_side_position_defensive_formation",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::5::details_summary_natural_image_summary_cartoon_il",
+        "doc13::artifact::95::details_summary_natural_image_summary_green_fiel",
+        "doc13::artifact::98::details_summary_natural_image_summary_green_grid"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::25::shuttle",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::66::drive_service"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc13::section::91::doubles_badminton_strategies",
+        "source_section_label": "Doubles Badminton Strategies"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::16::activities",
+      "label": "ACTIVITIES",
+      "description": "Section-seeded topic for ACTIVITIES",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "ACTIVITIES"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::49::rally",
+        "doc13::concept::4::badminton_court",
+        "doc13::concept::55::doubles_service_court",
+        "doc13::concept::56::singles_service_court",
+        "doc13::concept::5::shuttlecock",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::91::singles_playing_court",
+        "doc13::concept::92::doubles_playing_court"
+      ],
+      "chunk_ids": [
+        "doc13::list_item::111::2_draw_a_badminton_court_and_mark_a_the_singles_::chunk::65::draw_a_badminton_court_and_mark_a_the_singles_pl",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::117::details_summary_text_image_summary_playing_badmi",
+        "doc13::artifact::31::details_summary_natural_image_summary_black_and_",
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::58::details_summary_text_image_summary_doubles_servi"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::66::drive_service"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 1.0,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.82
+      },
+      "metadata": {
+        "section_id": "doc13::section::108::activities",
+        "source_section_label": "ACTIVITIES"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::5::badminton_court",
+      "label": "BADMINTON COURT",
+      "description": "Section-seeded topic for BADMINTON COURT",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "BADMINTON COURT"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::37::grid_with_vertical_dashed_line",
+        "doc13::concept::38::grid_with_vertical_division",
+        "doc13::concept::39::side_line_for_doubles",
+        "doc13::concept::40::side_boundary_line",
+        "doc13::concept::41::side_line_for_singles",
+        "doc13::concept::42::center_line",
+        "doc13::concept::43::short_service_line",
+        "doc13::concept::4::badminton_court",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::67::clear"
+      ],
+      "chunk_ids": [
+        "doc13::details::46::details_summary_text_image_summary_side_line_for::chunk::31::details_summary_text_image_summary_side_line_for",
+        "doc13::list_item::111::2_draw_a_badminton_court_and_mark_a_the_singles_::chunk::65::draw_a_badminton_court_and_mark_a_the_singles_pl",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::46::details_summary_text_image_summary_side_line_for"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::4::badminton_court"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "section_id": "doc13::section::36::badminton_court",
+        "source_section_label": "BADMINTON COURT"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::12::basic_strokes",
+      "label": ". Basic strokes.",
+      "description": "Section-seeded topic for 2. Basic strokes.",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "2. Basic strokes."
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::27::birdie",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::49::rally",
+        "doc13::concept::5::shuttlecock",
+        "doc13::concept::63::opponent",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::67::clear",
+        "doc13::concept::68::attacking_clear",
+        "doc13::concept::69::smash",
+        "doc13::concept::71::drive"
+      ],
+      "chunk_ids": [
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::31::details_summary_natural_image_summary_black_and_",
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::66::drive_service"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.917,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.791
+      },
+      "metadata": {
+        "section_id": "doc13::section::72::2_basic_strokes",
+        "source_section_label": "2. Basic strokes."
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::1::history",
+      "label": "History",
+      "description": "Section-seeded topic for History",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "History"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::11::olympic_sport",
+        "doc13::concept::12::poona",
+        "doc13::concept::13::watercolor_painting",
+        "doc13::concept::14::grand_palace",
+        "doc13::concept::15::horseback_riders",
+        "doc13::concept::16::deer",
+        "doc13::concept::17::grassy_courtyard",
+        "doc13::concept::18::cloudy_sky",
+        "doc13::concept::19::badminton_house",
+        "doc13::concept::20::duke_of_beaufort",
+        "doc13::concept::21::the_game_of_badminton"
+      ],
+      "chunk_ids": [
+        "doc13::details::117::details_summary_text_image_summary_playing_badmi::chunk::68::details_summary_text_image_summary_playing_badmi",
+        "doc13::details::14::details_summary_natural_image_summary_watercolor::chunk::8::details_summary_natural_image_summary_watercolor",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::15::badminton_house_gloucestershire_painted_by_josep::chunk::9::badminton_house_gloucestershire_painted_by_josep",
+        "doc13::paragraph::16::this_new_sport_was_definitively_launched_in_1873::chunk::10::this_new_sport_was_definitively_launched_in_1873",
+        "doc13::paragraph::1::badminton_is_a_racket_sport_played_by_either_two::chunk::0::badminton_is_a_racket_sport_played_by_either_two",
+        "doc13::paragraph::6::competitive_badminton_is_best_played_indoors_bec::chunk::3::competitive_badminton_is_best_played_indoors_bec",
+        "doc13::paragraph::7::badminton_has_been_an_olympic_sport_since_1992_b::chunk::4::badminton_has_been_an_olympic_sport_since_1992_b"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::117::details_summary_text_image_summary_playing_badmi",
+        "doc13::artifact::14::details_summary_natural_image_summary_watercolor"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::0::badminton",
+        "doc13::concept::11::olympic_sport",
+        "doc13::concept::19::badminton_house"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc13::section::8::history",
+        "source_section_label": "History"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::4::shuttlecocks",
+      "label": "Shuttlecocks",
+      "description": "Section-seeded topic for Shuttlecocks",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Shuttlecocks"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::22::badminton_rackets",
+        "doc13::concept::25::shuttle",
+        "doc13::concept::26::bird",
+        "doc13::concept::27::birdie",
+        "doc13::concept::28::shuttlecocks_with_feathers",
+        "doc13::concept::29::feathers",
+        "doc13::concept::30::synthetic_shuttles",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::32::feathered_shuttles",
+        "doc13::concept::49::rally",
+        "doc13::concept::5::shuttlecock",
+        "doc13::concept::66::drive_service"
+      ],
+      "chunk_ids": [
+        "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::19::badminton_rackets_are_light_with_top_quality_rac::chunk::12::badminton_rackets_are_light_with_top_quality_rac",
+        "doc13::paragraph::28::synthetic_shuttles_nylon_shuttles_they_are_often::chunk::17::synthetic_shuttles_nylon_shuttles_they_are_often",
+        "doc13::paragraph::60::the_object_of_the_game_is_to_hit_the_shuttlecock::chunk::36::the_object_of_the_game_is_to_hit_the_shuttlecock",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::27::details_summary_text_image_summary_feathers_cork",
+        "doc13::artifact::31::details_summary_natural_image_summary_black_and_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::25::shuttle",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::5::shuttlecock"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc13::section::20::shuttlecocks",
+        "source_section_label": "Shuttlecocks"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::13::badminton_strategy",
+      "label": "BADMINTON STRATEGY",
+      "description": "Section-seeded topic for BADMINTON STRATEGY",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "BADMINTON STRATEGY"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::25::shuttle",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::61::backhand_shot",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::67::clear",
+        "doc13::concept::68::attacking_clear",
+        "doc13::concept::69::smash",
+        "doc13::concept::71::drive",
+        "doc13::concept::76::court_position",
+        "doc13::concept::82::teamwork"
+      ],
+      "chunk_ids": [
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::66::drive_service"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc13::section::89::badminton_strategy",
+        "source_section_label": "BADMINTON STRATEGY"
+      }
+    },
+    {
+      "id": "doc13::topic_candidate::section::15::singles_badminton_strategies",
+      "label": "Singles Badminton Strategies",
+      "description": "Section-seeded topic for Singles Badminton Strategies",
+      "seed_source": "section",
+      "topic_type": "local_topic",
+      "section_paths": [
+        [
+          "Singles Badminton Strategies"
+        ]
+      ],
+      "concept_ids": [
+        "doc13::concept::25::shuttle",
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::35::singles_court",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::4::badminton_court",
+        "doc13::concept::66::drive_service",
+        "doc13::concept::71::drive",
+        "doc13::concept::82::teamwork",
+        "doc13::concept::83::home_position",
+        "doc13::concept::84::four_corners_strategy",
+        "doc13::concept::85::lobs",
+        "doc13::concept::86::clears"
+      ],
+      "chunk_ids": [
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::48::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::list_item::88::1_defensive_clear_2_attacking_clear_3_drive_4_sm::chunk::49::defensive_clear_2_attacking_clear_3_drive_4_smas",
+        "doc13::paragraph::100::when_you_defend_try_to_hit_the_shuttle_deep_into::chunk::57::when_you_defend_try_to_hit_the_shuttle_deep_into",
+        "doc13::paragraph::105::four_corners_strategy_always_try_to_hit_the_shut::chunk::60::four_corners_strategy_always_try_to_hit_the_shut",
+        "doc13::paragraph::114::the_word_badminton_was_originally_the_name_of_a_::chunk::66::the_word_badminton_was_originally_the_name_of_a_",
+        "doc13::paragraph::35::never_buy_one_of_these::chunk::23::never_buy_one_of_these",
+        "doc13::paragraph::71::backhand_shot::chunk::45::backhand_shot",
+        "doc13::paragraph::99::high_level_players_tend_to_use_both_changing_pos::chunk::56::high_level_players_tend_to_use_both_changing_pos"
+      ],
+      "artifact_ids": [
+        "doc13::artifact::40::details_summary_flowchart_summary_mermaid_graph_",
+        "doc13::artifact::43::details_summary_flowchart_summary_mermaid_graph_"
+      ],
+      "seed_concept_ids": [
+        "doc13::concept::31::nylon_shuttles",
+        "doc13::concept::36::doubles_court",
+        "doc13::concept::66::drive_service"
+      ],
+      "scores": {
+        "coherence_score": 1.0,
+        "grounding_score": 0.833,
+        "breadth_score": 0.4,
+        "distinctness_score": 0.8,
+        "pedagogical_usefulness": 0.762
+      },
+      "metadata": {
+        "section_id": "doc13::section::101::singles_badminton_strategies",
+        "source_section_label": "Singles Badminton Strategies"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_count": 27,
+    "consolidated_count": 19,
+    "accepted_count": 19
+  }
+}

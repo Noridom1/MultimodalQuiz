@@ -1,0 +1,117 @@
+{
+  "enabled": false,
+  "method": "disabled",
+  "merge_proposals": [],
+  "do_not_merge": [],
+  "needs_review": [
+    {
+      "concept_ids": [
+        "doc15::concept::20::attributes",
+        "doc15::concept::23::contingent_attributes"
+      ],
+      "labels": [
+        "attributes",
+        "contingent attributes"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::0::psychology_of_concepts",
+        "doc15::concept::26::concepts"
+      ],
+      "labels": [
+        "psychology of concepts",
+        "concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::26::concepts",
+        "doc15::concept::27::made_up_concepts"
+      ],
+      "labels": [
+        "concepts",
+        "made-up concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::21::features",
+        "doc15::concept::36::inessential_features"
+      ],
+      "labels": [
+        "features",
+        "inessential features"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::21::features",
+        "doc15::concept::37::essential_features"
+      ],
+      "labels": [
+        "features",
+        "essential features"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::26::concepts",
+        "doc15::concept::41::classical_theory_of_concepts"
+      ],
+      "labels": [
+        "concepts",
+        "Classical Theory of Concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::26::concepts",
+        "doc15::concept::43::atomic_concepts"
+      ],
+      "labels": [
+        "concepts",
+        "atomic concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::26::concepts",
+        "doc15::concept::44::composite_concepts"
+      ],
+      "labels": [
+        "concepts",
+        "composite concepts"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc15::concept::41::classical_theory_of_concepts",
+        "doc15::concept::46::classical_theory"
+      ],
+      "labels": [
+        "Classical Theory of Concepts",
+        "Classical Theory"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "warnings": []
+}

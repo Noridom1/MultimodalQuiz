@@ -1,0 +1,2255 @@
+{
+  "canonical_concepts": [
+    {
+      "id": "doc1::concept::0::dien_bien_phu",
+      "label": "Dien Bien Phu",
+      "normalized_label": "dien bien phu",
+      "aliases": [],
+      "mention_count": 10,
+      "definitions": [
+        "A large plain 18 kilometers long and six to eight kilometers wide in the mountainous zone of the North-West, situated at the junction of important roads."
+      ],
+      "source_chunk_ids": [
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "doc1::paragraph::15::in_the_first_week_of_march_the_preparations_were::chunk::6::in_the_first_week_of_march_the_preparations_were",
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ],
+        [
+          "First phase: destruction of the northern sub-sector"
+        ],
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::1::bac_bo",
+      "label": "block-busters",
+      "normalized_label": "bac bo",
+      "aliases": [
+        "Bac Bo"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ],
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::2::upper_laos",
+      "label": "Upper Laos",
+      "normalized_label": "upper laos",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ],
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::3::lai_chau",
+      "label": "Lai Chau",
+      "normalized_label": "lai chau",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ],
+        [
+          "First phase: destruction of the northern sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::4::tuan_giao",
+      "label": "Tuan Giao",
+      "normalized_label": "tuan giao",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ],
+        [
+          "First phase: destruction of the northern sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::5::son_la",
+      "label": "supply lines",
+      "normalized_label": "son la",
+      "aliases": [
+        "Son La"
+      ],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ],
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::6::na_san",
+      "label": "Na San",
+      "normalized_label": "na san",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::7::luang_prabang",
+      "label": "Luang Prabang",
+      "normalized_label": "luang prabang",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::8::sam_neua",
+      "label": "Sam Neua",
+      "normalized_label": "sam neua",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::2::vo_nguyen_giap::chunk::0::vo_nguyen_giap"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::9::winter_spring_campaign",
+      "label": "Winter-Spring campaign",
+      "normalized_label": "winter-spring campaign",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::10::party_s_central_committee",
+      "label": "Party's Central Committee",
+      "normalized_label": "party s central committee",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::11::government",
+      "label": "Government",
+      "normalized_label": "government",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_",
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::12::thanh_hoa",
+      "label": "Thanh Hoa",
+      "normalized_label": "thanh hoa",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::13::phu_tho",
+      "label": "Phu Tho",
+      "normalized_label": "phu tho",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::13::on_our_side_after_the_liberation_of_lai_chau_an_::chunk::4::on_our_side_after_the_liberation_of_lai_chau_an_"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::14::navarre_plan",
+      "label": "Navarre plan",
+      "normalized_label": "navarre plan",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [
+        "A plan by the Franco-American imperialists to prolong and extend the war in Vietnam."
+      ],
+      "source_chunk_ids": [
+        "doc1::paragraph::14::three_months_had_passed_from_the_occupation_of_d::chunk::5::three_months_had_passed_from_the_occupation_of_d",
+        "doc1::paragraph::15::in_the_first_week_of_march_the_preparations_were::chunk::6::in_the_first_week_of_march_the_preparations_were",
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "section_paths": [
+        [
+          "The Historic Dien Bien Phu Campaign"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain",
+            "from_definition": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::15::him_lam",
+      "label": "Him Lam",
+      "normalized_label": "him lam",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi"
+      ],
+      "section_paths": [
+        [
+          "First phase: destruction of the northern sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::16::doc_lap",
+      "label": "Doc Lap",
+      "normalized_label": "doc lap",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for"
+      ],
+      "section_paths": [
+        [
+          "First phase: destruction of the northern sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::17::muong_thanh",
+      "label": "Muong Thanh",
+      "normalized_label": "muong thanh",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::17::the_campaign_proceeded_in_three_phases_in_the_fi::chunk::7::the_campaign_proceeded_in_three_phases_in_the_fi",
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for",
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "section_paths": [
+        [
+          "First phase: destruction of the northern sub-sector"
+        ],
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::18::ban_keo",
+      "label": "Ban Keo",
+      "normalized_label": "ban keo",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::21::on_the_night_of_the_14th_we_concentrated_our_for::chunk::8::on_the_night_of_the_14th_we_concentrated_our_for"
+      ],
+      "section_paths": [
+        [
+          "First phase: destruction of the northern sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::19::central_sub_sector",
+      "label": "central sub-sector",
+      "normalized_label": "central sub-sector",
+      "aliases": [],
+      "mention_count": 4,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::25::as_for_the_enemy_despite_their_heavy_losses_they::chunk::10::as_for_the_enemy_despite_their_heavy_losses_they",
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::20::hill_a_1",
+      "label": "hill A-1",
+      "normalized_label": "hill a-1",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::21::hill_c_1",
+      "label": "hill C-1",
+      "normalized_label": "hill c-1",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::22::hill_d_1",
+      "label": "hill D-1",
+      "normalized_label": "hill d-1",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::23::hill_e_1",
+      "label": "hill E-1",
+      "normalized_label": "hill e-1",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::28::during_the_night_of_march_30th_the_second_phase_::chunk::11::during_the_night_of_march_30th_the_second_phase_"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::24::fortified_heights",
+      "label": "fortified heights",
+      "normalized_label": "fortified heights",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::25::defensive_system",
+      "label": "defensive system",
+      "normalized_label": "defensive system",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::26::command_post",
+      "label": "command post",
+      "normalized_label": "command post",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::27::casemates",
+      "label": "casemates",
+      "normalized_label": "casemates",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::28::trenches",
+      "label": "trenches",
+      "normalized_label": "trenches",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::29::paratroop_reinforcements",
+      "label": "paratroop reinforcements",
+      "normalized_label": "paratroop reinforcements",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::30::counter_attack",
+      "label": "counter-attack",
+      "normalized_label": "counter-attack",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::31::encirclement",
+      "label": "encirclement",
+      "normalized_label": "encirclement",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::32::artillery",
+      "label": "artillery",
+      "normalized_label": "artillery",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::33::mortars",
+      "label": "mortars",
+      "normalized_label": "mortars",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::34::nibbling_operations",
+      "label": "nibbling operations",
+      "normalized_label": "nibbling operations",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::35::full_scale_attack",
+      "label": "full-scale attack",
+      "normalized_label": "full-scale attack",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::29::on_the_night_of_march_30th_we_concentrated_impor::chunk::12::on_the_night_of_march_30th_we_concentrated_impor",
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::36::airfield",
+      "label": "airfield",
+      "normalized_label": "airfield",
+      "aliases": [],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "doc1::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::37::counterattacks",
+      "label": "counterattacks",
+      "normalized_label": "counterattacks",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "doc1::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::38::tanks",
+      "label": "tanks",
+      "normalized_label": "tanks",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "doc1::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::39::aircraft",
+      "label": "aircraft",
+      "normalized_label": "aircraft",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::30::while_the_situation_in_the_east_was_static_in_th::chunk::13::while_the_situation_in_the_east_was_static_in_th",
+        "doc1::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::40::anti_aircraft_fire",
+      "label": "anti-aircraft fire",
+      "normalized_label": "anti-aircraft fire",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::41::parachute",
+      "label": "parachute",
+      "normalized_label": "parachute",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::42::food",
+      "label": "food",
+      "normalized_label": "food",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::43::ammunition",
+      "label": "ammunition",
+      "normalized_label": "ammunition",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::31::in_mid_april_after_the_destruction_of_several_en::chunk::14::in_mid_april_after_the_destruction_of_several_en",
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::44::american_interventionists",
+      "label": "American interventionists",
+      "normalized_label": "american interventionists",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::45::bombers",
+      "label": "bombers",
+      "normalized_label": "bombers",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::46::transport_planes",
+      "label": "transport planes",
+      "normalized_label": "transport planes",
+      "aliases": [
+        "third phase"
+      ],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::47::napalm_bombs",
+      "label": "napalm bombs",
+      "normalized_label": "napalm bombs",
+      "aliases": [
+        "Nam Bo"
+      ],
+      "mention_count": 3,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::48::artillery_bases",
+      "label": "artillery bases",
+      "normalized_label": "artillery bases",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::49::delayed_action_bombs",
+      "label": "delayed-action bombs",
+      "normalized_label": "delayed-action bombs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::50::butterfly_anti_personnel_bombs",
+      "label": "butterfly anti-personnel bombs",
+      "normalized_label": "butterfly anti-personnel bombs",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::51::voluntary_carriers",
+      "label": "voluntary carriers",
+      "normalized_label": "voluntary carriers",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::52::pack_horses",
+      "label": "pack-horses",
+      "normalized_label": "pack-horses",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si",
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::53::trucks",
+      "label": "trucks",
+      "normalized_label": "trucks",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::32::the_territory_occupied_by_the_enemy_shrank_in_si::chunk::15::the_territory_occupied_by_the_enemy_shrank_in_si"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::54::dien_bien_phu_base",
+      "label": "Dien Bien Phu base",
+      "normalized_label": "dien bien phu base",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::55::french_expeditionary_corps",
+      "label": "French Expeditionary Corps",
+      "normalized_label": "french expeditionary corps",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::56::viet_bac",
+      "label": "Viet Bac",
+      "normalized_label": "viet bac",
+      "aliases": [],
+      "mention_count": 2,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::33::throughout_the_second_phase_the_situation_was_ex::chunk::16::throughout_the_second_phase_the_situation_was_ex",
+        "doc1::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t"
+      ],
+      "section_paths": [
+        [
+          "Second phase: Occupation of the hills in the east and encirclement of the central sub-sector"
+        ],
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          },
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::57::french_and_american_generals",
+      "label": "French and American generals",
+      "normalized_label": "french and american generals",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::58::dien_bien_phu_entrenched_camp",
+      "label": "Dien Bien Phu entrenched camp",
+      "normalized_label": "dien bien phu entrenched camp",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::59::high_command_of_the_french_expeditionary_corps",
+      "label": "High Command of the French Expeditionary Corps",
+      "normalized_label": "high command of the french expeditionary corps",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::60::dien_bien_phu_garrison",
+      "label": "Dien Bien Phu garrison",
+      "normalized_label": "dien bien phu garrison",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::34::the_french_and_american_generals_then_realised_t::chunk::17::the_french_and_american_generals_then_realised_t"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::61::nam_rom_river",
+      "label": "Nam Rom river",
+      "normalized_label": "nam rom river",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::62::general_de_castries",
+      "label": "General de Castries",
+      "normalized_label": "general de castries",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::63::determined_to_fight_and_win",
+      "label": "Determined to Fight and Win",
+      "normalized_label": "determined to fight and win",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::36::on_may_1st_began_the_third_phase_from_may_1st_to::chunk::18::on_may_1st_began_the_third_phase_from_may_1st_to"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::64::red_river_delta",
+      "label": "Red River delta",
+      "normalized_label": "red river delta",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::65::road_no_5",
+      "label": "Road No. 5",
+      "normalized_label": "road no 5",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::66::fifth_zone",
+      "label": "Fifth Zone",
+      "normalized_label": "fifth zone",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::67::road_no_19",
+      "label": "Road No. 19",
+      "normalized_label": "road no 19",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::68::an_khe",
+      "label": "An Khe",
+      "normalized_label": "an khe",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::69::cheo_reo",
+      "label": "Cheo Reo",
+      "normalized_label": "cheo reo",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::70::pleiku",
+      "label": "Pleiku",
+      "normalized_label": "pleiku",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::71::banmethuot",
+      "label": "Banmethuot",
+      "normalized_label": "banmethuot",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::72::binh_tri_thien",
+      "label": "Binh-Tri-Thien",
+      "normalized_label": "binh-tri-thien",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::73::middle_laos",
+      "label": "Middle Laos",
+      "normalized_label": "middle laos",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::74::pathet_lao",
+      "label": "Pathet Lao",
+      "normalized_label": "pathet lao",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::75::road_no_9",
+      "label": "Road No. 9",
+      "normalized_label": "road no 9",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::40::during_that_time_our_troops_were_very_active_in_::chunk::19::during_that_time_our_troops_were_very_active_in_"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::76::vietnam_people_s_army",
+      "label": "Vietnam People's Army",
+      "normalized_label": "vietnam people s army",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::77::franco_american_imperialists",
+      "label": "Franco-American imperialists",
+      "normalized_label": "franco-american imperialists",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::78::geneva_conference",
+      "label": "Geneva Conference",
+      "normalized_label": "geneva conference",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::79::vo_nguyen_giap",
+      "label": "Vo Nguyen Giap",
+      "normalized_label": "vo nguyen giap",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::80::communist_party_of_vietnam",
+      "label": "Communist Party of Vietnam",
+      "normalized_label": "communist party of vietnam",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doc1::concept::81::socialist_republic_of_vietnam",
+      "label": "Socialist Republic of Vietnam",
+      "normalized_label": "socialist republic of vietnam",
+      "aliases": [],
+      "mention_count": 1,
+      "definitions": [],
+      "source_chunk_ids": [
+        "doc1::paragraph::48::at_dien_bien_phu_we_put_out_of_action_16_200_ene::chunk::20::at_dien_bien_phu_we_put_out_of_action_16_200_ene"
+      ],
+      "section_paths": [
+        [
+          "Third phase: Annihilation of the enemy"
+        ]
+      ],
+      "metadata": {
+        "supporting_mentions": [
+          {
+            "extraction_method": "langchain"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_merges": [
+    {
+      "concept_ids": [
+        "doc1::concept::32::artillery",
+        "doc1::concept::48::artillery_bases"
+      ],
+      "labels": [
+        "artillery",
+        "artillery bases"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::54::dien_bien_phu_base"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu base"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::58::dien_bien_phu_entrenched_camp"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu entrenched camp"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc1::concept::55::french_expeditionary_corps",
+        "doc1::concept::59::high_command_of_the_french_expeditionary_corps"
+      ],
+      "labels": [
+        "French Expeditionary Corps",
+        "High Command of the French Expeditionary Corps"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    },
+    {
+      "concept_ids": [
+        "doc1::concept::0::dien_bien_phu",
+        "doc1::concept::60::dien_bien_phu_garrison"
+      ],
+      "labels": [
+        "Dien Bien Phu",
+        "Dien Bien Phu garrison"
+      ],
+      "score": 0.82,
+      "reason": "subset_token_overlap"
+    }
+  ],
+  "summary": {
+    "mention_count": 140,
+    "canonical_concept_count": 82,
+    "candidate_merge_count": 5
+  }
+}

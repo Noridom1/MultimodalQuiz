@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_d5d91d3184",
+    "question_text": "How does sexual reproduction contribute to genetic diversity in offspring?",
+    "options": [
+      "By producing genetically identical clones of the parent organism",
+      "By combining genetic material from two parents during gamete fusion",
+      "By ensuring all offspring inherit the same advantageous traits",
+      "By relying solely on asexual processes like binary fission"
+    ],
+    "correct_answer": "By combining genetic material from two parents during gamete fusion",
+    "explanation": "Sexual reproduction enhances genetic diversity by merging gametes from two parents, creating unique combinations of alleles in the zygote. This process is illustrated by the fusion of gametes in the diagram (doc14::chunk::1).",
+    "target_concept": "sexual reproduction",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "causal",
+      "tested_fact_source": "doc14::chunk::1",
+      "run_id": "20260514_155627_doc14_93df26"
+    }
+  },
+  {
+    "id": "q_5239cc0c96",
+    "question_text": "What is a zygote?",
+    "options": [
+      "A cell formed by the fusion of sperm and egg",
+      "A type of stem cell found in adults",
+      "A stage of cell division in bacteria",
+      "A hormone produced during pregnancy"
+    ],
+    "correct_answer": "A cell formed by the fusion of sperm and egg",
+    "explanation": "A zygote is the initial cell formed when a sperm cell fertilizes an egg cell, marking the beginning of a new organism. This process is described in doc14::concept::9::zygote.",
+    "target_concept": "zygote",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc14::concept::9::zygote",
+      "run_id": "20260514_155627_doc14_93df26"
+    }
+  },
+  {
+    "id": "q_e4a0f69552",
+    "question_text": "What is the term for the fertilized egg cell that marks the beginning of an embryo's development?",
+    "options": [
+      "A. Zygote",
+      "B. Fetus",
+      "C. Blastocyst",
+      "D. Gamete"
+    ],
+    "correct_answer": "A",
+    "explanation": "The zygote is the initial cell formed when sperm and egg unite, representing the first stage of embryonic development. (Source: doc14::concept::9::zygote)",
+    "target_concept": "Embryo",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc14::concept::9::zygote",
+      "run_id": "20260514_155627_doc14_93df26"
+    }
+  },
+  {
+    "id": "q_5823f6ee67",
+    "question_text": "Which part of the sperm contains enzymes that help it penetrate the ovum?",
+    "options": [
+      "A) Head",
+      "B) Midpiece",
+      "C) Tail",
+      "D) Acrosome"
+    ],
+    "correct_answer": "D) Acrosome",
+    "explanation": "The acrosome, located at the tip of the sperm head, contains enzymes that digest the outer membrane of the ovum, allowing penetration. (Source: doc14::chunk::12::sperm)",
+    "target_concept": "sperm",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc14::chunk::12::sperm",
+      "run_id": "20260514_155627_doc14_93df26"
+    }
+  },
+  {
+    "id": "q_51769d75e9",
+    "question_text": "Which structure in the sperm head is responsible for penetrating the ovum?",
+    "options": [
+      "A) Acrosome",
+      "B) Nucleus",
+      "C) Mitochondria",
+      "D) Flagellum"
+    ],
+    "correct_answer": "A",
+    "explanation": "The acrosome contains enzymes that enable the sperm to penetrate the ovum. This is a key function of the sperm head as described in doc14::chunk::15::head::0.",
+    "target_concept": "Head",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc14::chunk::15::head::0",
+      "run_id": "20260514_155627_doc14_93df26"
+    }
+  }
+]

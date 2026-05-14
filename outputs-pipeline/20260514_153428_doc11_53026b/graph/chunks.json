@@ -1,0 +1,3143 @@
+{
+  "chunk_count": 106,
+  "chunks": [
+    {
+      "id": "doc11::paragraph::3::stress_is_a_feeling_of_being_under_abnormal_pres::chunk::0::stress_is_a_feeling_of_being_under_abnormal_pres",
+      "label": "Stress is a feeling of being under abnormal pressure, whether from increased workload, an argument with a family memb...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::3::stress_is_a_feeling_of_being_under_abnormal_pres::chunk::0::stress_is_a_feeling_of_being_under_abnormal_pres",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "Stress is a feeling of being under abnormal pressure, whether from increased workload, an argument with a family member, or financial worries.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::3::stress_is_a_feeling_of_being_under_abnormal_pres"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 22,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc11::image::4::images_0077f97e39edc868ad8846f580aa3502573ac45ca::chunk::1::images_0077f97e39edc868ad8846f580aa3502573ac45ca",
+      "label": "![](images/0077f97e39edc868ad8846f580aa3502573ac45cad19c5d624bfe3cdb80100c6.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::4::images_0077f97e39edc868ad8846f580aa3502573ac45ca::chunk::1::images_0077f97e39edc868ad8846f580aa3502573ac45ca",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "![](images/0077f97e39edc868ad8846f580aa3502573ac45cad19c5d624bfe3cdb80100c6.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::4::images_0077f97e39edc868ad8846f580aa3502573ac45ca"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::5::details_summary_natural_image_summary_close_up_p::chunk::2::details_summary_natural_image_summary_close_up_p",
+      "label": "<details> <summary>natural_image</summary> Close-up portrait of a man with closed eyes and beard, wearing a black nec...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::5::details_summary_natural_image_summary_close_up_p::chunk::2::details_summary_natural_image_summary_close_up_p",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nClose-up portrait of a man with closed eyes and beard, wearing a black necklace (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::5::details_summary_natural_image_summary_close_up_p"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 25,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+      "label": "Stress affects us in lots of ways, both physically and emotionally, and in varying intensities. Research has shown th...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall::chunk::3::stress_affects_us_in_lots_of_ways_both_physicall",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "Stress affects us in lots of ways, both physically and emotionally, and in varying intensities.\n\nResearch has shown that stress can sometimes be positive. It makes us more alert and helps us perform better in certain situations. However, stress has only been found to be beneficial if it is short-lived. Excessive or prolonged stress can lead to illnesses such as heart disease and mental health problems such as anxiety and depression.\n\nDuring situations that make you feel threatened or upset, your body creates a\n\nstress response. This can cause a variety of physical symptoms, change the way you behave, and lead you to experience more intense emotions.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::7::stress_affects_us_in_lots_of_ways_both_physicall",
+          "doc11::paragraph::8::research_has_shown_that_stress_can_sometimes_be_",
+          "doc11::paragraph::9::during_situations_that_make_you_feel_threatened_",
+          "doc11::paragraph::10::stress_response_this_can_cause_a_variety_of_phys"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 108,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "doc11::image::11::images_7c231555679d7b2f009dad6512c6c5218509e48a2::chunk::4::images_7c231555679d7b2f009dad6512c6c5218509e48a2",
+      "label": "![](images/7c231555679d7b2f009dad6512c6c5218509e48a2fa432b19053c94d5421c55b.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::11::images_7c231555679d7b2f009dad6512c6c5218509e48a2::chunk::4::images_7c231555679d7b2f009dad6512c6c5218509e48a2",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "![](images/7c231555679d7b2f009dad6512c6c5218509e48a2fa432b19053c94d5421c55b.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::11::images_7c231555679d7b2f009dad6512c6c5218509e48a2"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::12::details_summary_natural_image_summary_illustrati::chunk::5::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a person sleeping at a desk with books and papers, holding...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::12::details_summary_natural_image_summary_illustrati::chunk::5::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "WHAT IS STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a person sleeping at a desk with books and papers, holding a 'Help' sign (no text or symbols on the main subject)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::12::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 29,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::14::people_react_differently_to_stress_some_common_s::chunk::6::people_react_differently_to_stress_some_common_s",
+      "label": "People react differently to stress. Some common symptoms of stress include sleeping problems, sweating, or a change i...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::14::people_react_differently_to_stress_some_common_s::chunk::6::people_react_differently_to_stress_some_common_s",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "People react differently to stress. Some common symptoms of stress include sleeping problems, sweating, or a change in appetite.\n\nSymptoms like these are triggered by a rush of stress hormones in your body which, when released, allow you to deal with pressures or threats. This is known as the ‘fight or flight’ response. Hormones called adrenaline and noradrenaline raise your blood pressure, increase your heart rate and increase the amount you sweat. This prepares your body for an emergency response. These hormones can also reduce blood flow to your skin and reduce your\n\nstomach activity. Cortisol, another stress hormone, releases fat and sugar into your system to boost your energy.\n\nAs a result, you may experience headaches, muscle tension, pain, nausea, indigestion and dizziness. You may also breathe more quickly, have palpitations or suffer from various aches and pains. In the long-term, you may be putting yourself at risk from heart attacks and strokes.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::14::people_react_differently_to_stress_some_common_s",
+          "doc11::paragraph::15::symptoms_like_these_are_triggered_by_a_rush_of_s",
+          "doc11::paragraph::16::stomach_activity_cortisol_another_stress_hormone",
+          "doc11::paragraph::17::as_a_result_you_may_experience_headaches_muscle_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 155,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "doc11::image::18::images_2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6::chunk::7::images_2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6",
+      "label": "![](images/2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6be1e9e1e83d8357d8119933.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::18::images_2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6::chunk::7::images_2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "![](images/2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6be1e9e1e83d8357d8119933.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::18::images_2fb4e103eea8b61bfb70a3d3f5756b2935241dbc6"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::19::details_summary_text_image_summary_common_sympto::chunk::8::details_summary_text_image_summary_common_sympto",
+      "label": "<details> <summary>text_image</summary> Common symptoms of stress include sleeping problems. </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::19::details_summary_text_image_summary_common_sympto::chunk::8::details_summary_text_image_summary_common_sympto",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nCommon symptoms\nof stress include\nsleeping problems.\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::19::details_summary_text_image_summary_common_sympto"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 12,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::20::humans_have_inherited_these_things_from_our_anci::chunk::9::humans_have_inherited_these_things_from_our_anci",
+      "label": "Humans have inherited these things from our ancient ancestors, who needed to be able to either run away from danger,...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::20::humans_have_inherited_these_things_from_our_anci::chunk::9::humans_have_inherited_these_things_from_our_anci",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "Humans have inherited these things from our ancient ancestors, who needed to be able to either run away from danger, or stay and fight. Once the pressure or threat has passed, your stress hormone levels usually return to normal. However, if you’re constantly under stress, these hormones remain in your body, leading to the symptoms of stress. If you’re stuck in a busy office or on an overcrowded train, you can’t run away, so you can’t use up the chemicals your own body makes to protect you. Over time, the build-up of these chemicals and the changes they produce can be damaging for your health.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::20::humans_have_inherited_these_things_from_our_anci"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 110,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc11::image::21::images_acfa657beed306a4273b8c563ed6e439a9a71bf17::chunk::10::images_acfa657beed306a4273b8c563ed6e439a9a71bf17",
+      "label": "![](images/acfa657beed306a4273b8c563ed6e439a9a71bf171f7f11b570408cfe3154cc4.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::21::images_acfa657beed306a4273b8c563ed6e439a9a71bf17::chunk::10::images_acfa657beed306a4273b8c563ed6e439a9a71bf17",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "![](images/acfa657beed306a4273b8c563ed6e439a9a71bf171f7f11b570408cfe3154cc4.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::21::images_acfa657beed306a4273b8c563ed6e439a9a71bf17"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::22::details_summary_text_image_summary_e_james_s_par::chunk::11::details_summary_text_image_summary_e_james_s_par",
+      "label": "<details> <summary>text_image</summary> E. James's Park. This is a Circle </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::22::details_summary_text_image_summary_e_james_s_par::chunk::11::details_summary_text_image_summary_e_james_s_par",
+      "page_idx": null,
+      "section_path": [
+        "PHYSICAL SYMPTOMS"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nE. James's Park. This is a Circle\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::22::details_summary_text_image_summary_e_james_s_par"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 13,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::image::27::images_2073f641eca69ad4b3297c5f9b26e13340600f120::chunk::12::images_2073f641eca69ad4b3297c5f9b26e13340600f120",
+      "label": "![](images/2073f641eca69ad4b3297c5f9b26e13340600f120e4d8e511cc0a678bdf8aaee.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::27::images_2073f641eca69ad4b3297c5f9b26e13340600f120::chunk::12::images_2073f641eca69ad4b3297c5f9b26e13340600f120",
+      "page_idx": null,
+      "section_path": [
+        "EFFECTS"
+      ],
+      "text": "![](images/2073f641eca69ad4b3297c5f9b26e13340600f120e4d8e511cc0a678bdf8aaee.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::27::images_2073f641eca69ad4b3297c5f9b26e13340600f120"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe",
+      "label": "When you are stressed you may have lots of different feelings, including anxiety, irritability or low self-esteem, wh...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe::chunk::13::when_you_are_stressed_you_may_have_lots_of_diffe",
+      "page_idx": null,
+      "section_path": [
+        "EFFECTS"
+      ],
+      "text": "When you are stressed you may have lots of different feelings, including anxiety, irritability or low self-esteem, which can lead you to become withdrawn, indecisive or tearful.\n\nYou may have periods of constant worry, racing thoughts, or repeatedly go over the same things in your head. Some people experience changes in their behaviour. They may lose their temper more easily, act irrationally or become more verbally or physically aggressive. These feelings can feed on each other and produce physical symptoms, which can make you feel even worse. For example, extreme anxiety can make you feel so unwell that you then worry you have a serious physical condition.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::28::when_you_are_stressed_you_may_have_lots_of_diffe",
+          "doc11::paragraph::29::you_may_have_periods_of_constant_worry_racing_th"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 108,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::image::30::images_518720de7f1f07f4ff2d4eec3241ada622f4982ae::chunk::14::images_518720de7f1f07f4ff2d4eec3241ada622f4982ae",
+      "label": "![](images/518720de7f1f07f4ff2d4eec3241ada622f4982aece1446b2d30b8f3e4993c58.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::30::images_518720de7f1f07f4ff2d4eec3241ada622f4982ae::chunk::14::images_518720de7f1f07f4ff2d4eec3241ada622f4982ae",
+      "page_idx": null,
+      "section_path": [
+        "EFFECTS"
+      ],
+      "text": "![](images/518720de7f1f07f4ff2d4eec3241ada622f4982aece1446b2d30b8f3e4993c58.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::30::images_518720de7f1f07f4ff2d4eec3241ada622f4982ae"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::31::details_summary_pie_summary_emotion_value_happy_::chunk::15::details_summary_pie_summary_emotion_value_happy_",
+      "label": "<details> <summary>pie</summary> | Emotion | Value | |---|---| | Happy | 100 | | Sad | 85 | | Neutral | 75 | | Negati...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::31::details_summary_pie_summary_emotion_value_happy_::chunk::15::details_summary_pie_summary_emotion_value_happy_",
+      "page_idx": null,
+      "section_path": [
+        "EFFECTS"
+      ],
+      "text": "<details>\n<summary>pie</summary>\n\n| Emotion | Value |\n|---|---|\n| Happy | 100 |\n| Sad | 85 |\n| Neutral | 75 |\n| Negative | 60 |\n| Frowning | 45 |\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::31::details_summary_pie_summary_emotion_value_happy_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 17,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+      "label": "Everyone experiences stress. However, when it affects your life, health and wellbeing, it’s important to tackle it as...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe::chunk::16::everyone_experiences_stress_however_when_it_affe",
+      "page_idx": null,
+      "section_path": [
+        "IDENTIFYING THE SIGNS OF STRESS"
+      ],
+      "text": "Everyone experiences stress. However, when it affects your life, health and wellbeing, it’s important to tackle it as soon as possible. While stress affects everyone differently, there are common signs and symptoms for you to look out for:\n\n• Feelings of constant worry or anxiety Feelings of being overwhelmed Difficulty concentrating • Mood swings or changes in mood\n\nIrritability or having a short temper • Difficulty relaxing • Depression . Low self-esteem Eating more or less than usual Changes in sleeping habits Using alcohol, tobacco or illegal drugs to relax Aches and pains, particularly muscle tension • Diarrhoea and constipation • Feelings of nausea or dizziness • Loss of sex drive\n\nIf you experience these symptoms for a prolonged period of time, and feel they are affecting your everyday life or making you feel unwell, speak to your GP. Ask them for information about the support services and treatments available to you.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::33::everyone_experiences_stress_however_when_it_affe",
+          "doc11::paragraph::34::feelings_of_constant_worry_or_anxiety_feelings_o",
+          "doc11::paragraph::35::irritability_or_having_a_short_temper_difficulty",
+          "doc11::paragraph::36::if_you_experience_these_symptoms_for_a_prolonged"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 146,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "doc11::image::37::images_1058379b6ee365eac6c8a5989520e629f2c3c1bf5::chunk::17::images_1058379b6ee365eac6c8a5989520e629f2c3c1bf5",
+      "label": "![](images/1058379b6ee365eac6c8a5989520e629f2c3c1bf5e6a05e31ec53cb8801827db.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::37::images_1058379b6ee365eac6c8a5989520e629f2c3c1bf5::chunk::17::images_1058379b6ee365eac6c8a5989520e629f2c3c1bf5",
+      "page_idx": null,
+      "section_path": [
+        "IDENTIFYING THE SIGNS OF STRESS"
+      ],
+      "text": "![](images/1058379b6ee365eac6c8a5989520e629f2c3c1bf5e6a05e31ec53cb8801827db.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::37::images_1058379b6ee365eac6c8a5989520e629f2c3c1bf5"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::38::details_summary_text_image_summary_consulting_ro::chunk::18::details_summary_text_image_summary_consulting_ro",
+      "label": "<details> <summary>text_image</summary> Consulting Room 20 First </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::38::details_summary_text_image_summary_consulting_ro::chunk::18::details_summary_text_image_summary_consulting_ro",
+      "page_idx": null,
+      "section_path": [
+        "IDENTIFYING THE SIGNS OF STRESS"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nConsulting Room 20\nFirst\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::38::details_summary_text_image_summary_consulting_ro"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 9,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::41::all_sorts_of_situations_can_cause_stress_the_mos::chunk::19::all_sorts_of_situations_can_cause_stress_the_mos",
+      "label": "All sorts of situations can cause stress. The most common involve work, money matters and relationships with partners...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::41::all_sorts_of_situations_can_cause_stress_the_mos::chunk::19::all_sorts_of_situations_can_cause_stress_the_mos",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "All sorts of situations can cause stress. The most common involve work, money matters and relationships with partners, children or other family members.\n\nStress can be caused either by major upheavals and life events such as divorce, unemployment, moving house and bereavement, or by a series of minor irritations such as feeling undervalued at work or arguing with a family member. Sometimes, there are no obvious causes. As a result, you may experience headaches, muscle tension, pain, nausea, indigestion and dizziness. You may also\n\nbreathe more quickly, have palpitations or suffer from various aches and pains. In the long-term, you may be putting yourself at risk from heart attacks and strokes.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::41::all_sorts_of_situations_can_cause_stress_the_mos",
+          "doc11::paragraph::42::stress_can_be_caused_either_by_major_upheavals_a",
+          "doc11::paragraph::43::breathe_more_quickly_have_palpitations_or_suffer"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 112,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc11::image::44::images_e11f70b45696b6d567e8eb2dcb80f0420cc489178::chunk::20::images_e11f70b45696b6d567e8eb2dcb80f0420cc489178",
+      "label": "![](images/e11f70b45696b6d567e8eb2dcb80f0420cc48917858012dca3f28610a93e41fe.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::44::images_e11f70b45696b6d567e8eb2dcb80f0420cc489178::chunk::20::images_e11f70b45696b6d567e8eb2dcb80f0420cc489178",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/e11f70b45696b6d567e8eb2dcb80f0420cc48917858012dca3f28610a93e41fe.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::44::images_e11f70b45696b6d567e8eb2dcb80f0420cc489178"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::45::details_summary_natural_image_summary_illustrati::chunk::21::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a medical professional holding a clipboard with a red cros...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::45::details_summary_natural_image_summary_illustrati::chunk::21::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a medical professional holding a clipboard with a red cross symbol (no text or symbols present)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::45::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 23,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::image::46::images_d1fdf0659341f179e89b5e80923a92ac66f812d41::chunk::22::images_d1fdf0659341f179e89b5e80923a92ac66f812d41",
+      "label": "![](images/d1fdf0659341f179e89b5e80923a92ac66f812d417a72003a5a377f7c566b7d8.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::46::images_d1fdf0659341f179e89b5e80923a92ac66f812d41::chunk::22::images_d1fdf0659341f179e89b5e80923a92ac66f812d41",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/d1fdf0659341f179e89b5e80923a92ac66f812d417a72003a5a377f7c566b7d8.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::46::images_d1fdf0659341f179e89b5e80923a92ac66f812d41"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::image::47::images_bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7::chunk::23::images_bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7",
+      "label": "![](images/bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7a42fd81b8141a8e9381dcb6.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::47::images_bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7::chunk::23::images_bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7a42fd81b8141a8e9381dcb6.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::47::images_bb8111f02e13d0d886ebf7735a8428b1f3c4fb0c7"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::48::details_summary_text_image_summary_removals_deta::chunk::24::details_summary_text_image_summary_removals_deta",
+      "label": "<details> <summary>text_image</summary> REMOVALS </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::48::details_summary_text_image_summary_removals_deta::chunk::24::details_summary_text_image_summary_removals_deta",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nREMOVALS\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::48::details_summary_text_image_summary_removals_deta"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 6,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::image::49::images_230c9c2a44df5ca50543c30a56727265a1ac8bed3::chunk::25::images_230c9c2a44df5ca50543c30a56727265a1ac8bed3",
+      "label": "![](images/230c9c2a44df5ca50543c30a56727265a1ac8bed3434d9c6a604579e1fa90644.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::49::images_230c9c2a44df5ca50543c30a56727265a1ac8bed3::chunk::25::images_230c9c2a44df5ca50543c30a56727265a1ac8bed3",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/230c9c2a44df5ca50543c30a56727265a1ac8bed3434d9c6a604579e1fa90644.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::49::images_230c9c2a44df5ca50543c30a56727265a1ac8bed3"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::50::details_summary_natural_image_summary_illustrati::chunk::26::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of two pink piggy banks with coins and a hammer, symbolizing...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::50::details_summary_natural_image_summary_illustrati::chunk::26::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of two pink piggy banks with coins and a hammer, symbolizing financial or investment (no text present)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::50::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 23,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::image::51::images_2278c702c619e66d77d748b54318e5abefce405b0::chunk::27::images_2278c702c619e66d77d748b54318e5abefce405b0",
+      "label": "![](images/2278c702c619e66d77d748b54318e5abefce405b0d8cb3051f38ca5997827393.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::51::images_2278c702c619e66d77d748b54318e5abefce405b0::chunk::27::images_2278c702c619e66d77d748b54318e5abefce405b0",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/2278c702c619e66d77d748b54318e5abefce405b0d8cb3051f38ca5997827393.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::51::images_2278c702c619e66d77d748b54318e5abefce405b0"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::52::details_summary_text_image_summary_illustration_::chunk::28::details_summary_text_image_summary_illustration_",
+      "label": "<details> <summary>text_image</summary> Illustration of a person presenting a bar chart with two colored bars (blue a...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::52::details_summary_text_image_summary_illustration_::chunk::28::details_summary_text_image_summary_illustration_",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nIllustration of a person presenting a bar chart with two colored bars (blue and pink) to indicate data or performance.\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::52::details_summary_text_image_summary_illustration_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 25,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::image::53::images_a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d::chunk::29::images_a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d",
+      "label": "![](images/a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d4b913308a786415f353d36e.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::53::images_a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d::chunk::29::images_a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d4b913308a786415f353d36e.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::53::images_a49ca199f45abafcded9c98d4cc5c58fb7bd47f6d"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::54::details_summary_text_image_summary_news_details::chunk::30::details_summary_text_image_summary_news_details",
+      "label": "<details> <summary>text_image</summary> NEWS </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::54::details_summary_text_image_summary_news_details::chunk::30::details_summary_text_image_summary_news_details",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\nNEWS\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::54::details_summary_text_image_summary_news_details"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 6,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::image::55::images_22e72807a3bec77cbece4fb1a1ba0232838384a0d::chunk::31::images_22e72807a3bec77cbece4fb1a1ba0232838384a0d",
+      "label": "![](images/22e72807a3bec77cbece4fb1a1ba0232838384a0d988c62d19f3b295727567f9.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::55::images_22e72807a3bec77cbece4fb1a1ba0232838384a0d::chunk::31::images_22e72807a3bec77cbece4fb1a1ba0232838384a0d",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "![](images/22e72807a3bec77cbece4fb1a1ba0232838384a0d988c62d19f3b295727567f9.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::55::images_22e72807a3bec77cbece4fb1a1ba0232838384a0d"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::56::details_summary_natural_image_summary_illustrati::chunk::32::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a person with hands on head and torso, showing an angry ex...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::56::details_summary_natural_image_summary_illustrati::chunk::32::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "STRESS?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a person with hands on head and torso, showing an angry expression (no text or symbols present)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::56::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 24,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_",
+      "label": "Relationships are a great support in times when we feel stressed. However, from time to time the people close to you,...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_::chunk::33::relationships_are_a_great_support_in_times_when_",
+      "page_idx": null,
+      "section_path": [
+        "RELATIONSHIPS"
+      ],
+      "text": "Relationships are a great support in times when we feel stressed. However, from time to time the people close to you, be it a partner, parent, child, friend or colleague, can increase your stress levels.\n\nEvents such as ongoing minor arguments and disagreements, to larger family crises, such as an affair, illness or bereavement are likely to affect the way you think, feel and behave. This may consequently have an impact on your stress levels.\n\nYou can find out more about investing in healthy relationships at: mentalhealth.org. uk/healthy-relationships",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::58::relationships_are_a_great_support_in_times_when_",
+          "doc11::paragraph::59::events_such_as_ongoing_minor_arguments_and_disag",
+          "doc11::paragraph::60::you_can_find_out_more_about_investing_in_healthy"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 91,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc11::image::61::images_eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e6::chunk::34::images_eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e6",
+      "label": "![](images/eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e694cd5605e007ce7b4d165ad.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::61::images_eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e6::chunk::34::images_eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e6",
+      "page_idx": null,
+      "section_path": [
+        "RELATIONSHIPS"
+      ],
+      "text": "![](images/eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e694cd5605e007ce7b4d165ad.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::61::images_eae4b01ea1db5146c0804c94e0dd726f8b7f1a8e6"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a couple in a cozy living room with books and a framed pho...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::62::details_summary_natural_image_summary_illustrati::chunk::35::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "RELATIONSHIPS"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a couple in a cozy living room with books and a framed photo on the wall (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::62::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 27,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::image::64::images_77ca5082d29c6200a02403e55072ff447bd1b7d67::chunk::36::images_77ca5082d29c6200a02403e55072ff447bd1b7d67",
+      "label": "![](images/77ca5082d29c6200a02403e55072ff447bd1b7d6795c40cc1e4652e1d5b7c03f.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::64::images_77ca5082d29c6200a02403e55072ff447bd1b7d67::chunk::36::images_77ca5082d29c6200a02403e55072ff447bd1b7d67",
+      "page_idx": null,
+      "section_path": [
+        "WORK-LIFE BALANCE"
+      ],
+      "text": "![](images/77ca5082d29c6200a02403e55072ff447bd1b7d6795c40cc1e4652e1d5b7c03f.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::64::images_77ca5082d29c6200a02403e55072ff447bd1b7d67"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+      "label": "The pressure of an increasingly demanding work culture in the UK is one of the biggest contributors to stress among t...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c::chunk::37::the_pressure_of_an_increasingly_demanding_work_c",
+      "page_idx": null,
+      "section_path": [
+        "WORK-LIFE BALANCE"
+      ],
+      "text": "The pressure of an increasingly demanding work culture in the UK is one of the biggest contributors to stress among the general population.\n\nWhile current, average full-time working hours are 37 hours a week, a recent and dramatic rise in Britain’s working hours suggests this is already on the increase. 20.1% of the UK working population work 45 hours or more each week.\n\nThe human costs of unmanaged work related stress is extensive. Feeling unhappy about the amount of time you spend at work and neglecting other\n\naspects of life because of work may increase your vulnerability to stress. Increased levels of stress can, if not addressed early enough, lead to burn-out or more severe mental health problems.\n\nMental health problems such as anxiety and depression are thought to be the leading cause of work absences, accounting for up to 40% of sick-leave. In 2008, mental health accounted for 442,000 cases of work-related illness with a related estimated cost of £13.5 million. As a result, mental ill health now accounts for a significant proportion of long-term sickness and early retirement, cited as the leading cause of illness for 20% of NHS employees.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::65::the_pressure_of_an_increasingly_demanding_work_c",
+          "doc11::paragraph::66::while_current_average_full_time_working_hours_ar",
+          "doc11::paragraph::67::the_human_costs_of_unmanaged_work_related_stress",
+          "doc11::paragraph::68::aspects_of_life_because_of_work_may_increase_you",
+          "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 201,
+        "contains_atomic_block": false,
+        "block_count": 5
+      }
+    },
+    {
+      "id": "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+      "label": "Mental health problems such as anxiety and depression are thought to be the leading cause of work absences, accountin...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre::chunk::38::mental_health_problems_such_as_anxiety_and_depre",
+      "page_idx": null,
+      "section_path": [
+        "MONEY"
+      ],
+      "text": "Mental health problems such as anxiety and depression are thought to be the leading cause of work absences, accounting for up to 40% of sick-leave. In 2008, mental health accounted for 442,000 cases of work-related illness with a related estimated cost of £13.5 million. As a result, mental ill health now accounts for a significant proportion of long-term sickness and early retirement, cited as the leading cause of illness for 20% of NHS employees.\n\nMoney and debt concerns place huge pressure on us, so it comes as no surprise that they have a marked effect on our stress levels.\n\nThe effects of the cost-of-living crisis in 2022 has affected everyone in some capacity. A survey of 3000 adults commissioned by the Mental Health Foundation in November 2022 found that one in ten UK adults were feeling hopeless about their financial circumstances. More that one third were feeling anxious and almost three in ten were feeling stressed.\n\nThe combination of chronic stress and debt can result in depression and anxiety, and has been highlighted as a factor linked to suicidal thoughts and attempts. It’s important if you are worried about your finances and debts that you do not try to deal with them alone. There’s a lot of help and support available to you through organisations such as StepChange.org and citizensadvice.org.uk.\n\nYou could also talk to your GP or a trusted health professional if you are worried about how debt is affecting your mental and physical health.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::69::mental_health_problems_such_as_anxiety_and_depre",
+          "doc11::paragraph::71::money_and_debt_concerns_place_huge_pressure_on_u",
+          "doc11::paragraph::72::the_effects_of_the_cost_of_living_crisis_in_2022",
+          "doc11::paragraph::73::the_combination_of_chronic_stress_and_debt_can_r",
+          "doc11::paragraph::74::you_could_also_talk_to_your_gp_or_a_trusted_heal"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 258,
+        "contains_atomic_block": false,
+        "block_count": 5
+      }
+    },
+    {
+      "id": "doc11::image::75::images_9633948039e9be3d1985cd225509e9e1df83ae3ee::chunk::39::images_9633948039e9be3d1985cd225509e9e1df83ae3ee",
+      "label": "![](images/9633948039e9be3d1985cd225509e9e1df83ae3ee893fcd5c3b58ec00bfdecc3.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::75::images_9633948039e9be3d1985cd225509e9e1df83ae3ee::chunk::39::images_9633948039e9be3d1985cd225509e9e1df83ae3ee",
+      "page_idx": null,
+      "section_path": [
+        "MONEY"
+      ],
+      "text": "![](images/9633948039e9be3d1985cd225509e9e1df83ae3ee893fcd5c3b58ec00bfdecc3.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::75::images_9633948039e9be3d1985cd225509e9e1df83ae3ee"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of two pink piggy banks with scattered gold coins (no text or...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::76::details_summary_natural_image_summary_illustrati::chunk::40::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "MONEY"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of two pink piggy banks with scattered gold coins (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::76::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 19,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+      "label": "Some people smoke, drink alcohol and use recreational drugs to reduce stress. But, this often makes problems worse. R...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati::chunk::41::some_people_smoke_drink_alcohol_and_use_recreati",
+      "page_idx": null,
+      "section_path": [
+        "SMOKING, DRINKING AND DRUG USE"
+      ],
+      "text": "Some people smoke, drink alcohol and use recreational drugs to reduce stress. But, this often makes problems worse.\n\nResearch shows that smoking may increase feelings of anxiety. Nicotine creates an immediate, temporary, sense of relaxation, which can then lead to withdrawal symptoms and cravings.\n\nSimilarly, people may use alcohol as a means to manage and cope with difficult feelings, and to temporarily reduce feelings of anxiety. But, alcohol can make existing\n\nmental health problems worse. It can make you feel more anxious and depressed in the long run. It’s important to know the recommended limits and drink responsibly.\n\nPrescription drugs, such as tranquillisers and sleeping tablets, which may have been prescribed for very good reasons, can also cause mental and physical health problems if used for long periods of time. Street drugs, such as cannabis or ecstasy, are usually taken for recreational purposes. For some people, problems start as their bodies get used to repeated use of the drug. This leads to the need for increased doses to maintain the same effect.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::78::some_people_smoke_drink_alcohol_and_use_recreati",
+          "doc11::paragraph::79::research_shows_that_smoking_may_increase_feeling",
+          "doc11::paragraph::80::similarly_people_may_use_alcohol_as_a_means_to_m",
+          "doc11::paragraph::81::mental_health_problems_worse_it_can_make_you_fee",
+          "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 173,
+        "contains_atomic_block": false,
+        "block_count": 5
+      }
+    },
+    {
+      "id": "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+      "label": "Prescription drugs, such as tranquillisers and sleeping tablets, which may have been prescribed for very good reasons...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::42::prescription_drugs_such_as_tranquillisers_and_sl",
+      "page_idx": null,
+      "section_path": [
+        "HOW CAN"
+      ],
+      "text": "Prescription drugs, such as tranquillisers and sleeping tablets, which may have been prescribed for very good reasons, can also cause mental and physical health problems if used for long periods of time. Street drugs, such as cannabis or ecstasy, are usually taken for recreational purposes. For some people, problems start as their bodies get used to repeated use of the drug. This leads to the need for increased doses to maintain the same effect.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 74,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+      "label": "Prescription drugs, such as tranquillisers and sleeping tablets, which may have been prescribed for very good reasons...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::43::prescription_drugs_such_as_tranquillisers_and_sl",
+      "page_idx": null,
+      "section_path": [
+        "YOU HELP"
+      ],
+      "text": "Prescription drugs, such as tranquillisers and sleeping tablets, which may have been prescribed for very good reasons, can also cause mental and physical health problems if used for long periods of time. Street drugs, such as cannabis or ecstasy, are usually taken for recreational purposes. For some people, problems start as their bodies get used to repeated use of the drug. This leads to the need for increased doses to maintain the same effect.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 74,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl",
+      "label": "Prescription drugs, such as tranquillisers and sleeping tablets, which may have been prescribed for very good reasons...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl::chunk::44::prescription_drugs_such_as_tranquillisers_and_sl",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "Prescription drugs, such as tranquillisers and sleeping tablets, which may have been prescribed for very good reasons, can also cause mental and physical health problems if used for long periods of time. Street drugs, such as cannabis or ecstasy, are usually taken for recreational purposes. For some people, problems start as their bodies get used to repeated use of the drug. This leads to the need for increased doses to maintain the same effect.\n\nStress is a natural reaction to difficult situations in life, such as work, family, relationships and money problems.\n\nWe mentioned earlier on that a moderate amount of stress can help us perform better in challenging situations, but too much or prolonged stress can lead to physical problems. This can include lower immunity levels, digestive and intestinal difficulties such as irritable bowel syndrome (IBS), or mental health problems such as depression. So, it’s important that we manage our stress and keep it at a\n\nhealthy level to prevent long-term damage to our bodies and minds.\n\nWhen you are feeling stressed, try to take these steps:\n\n• Realise when it is causing you a problem. You need to make the connection between feeling tired or ill, with the pressures you are faced with. Don’t ignore physical warnings such as tense muscles, over-tiredness, headaches or migraines.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::82::prescription_drugs_such_as_tranquillisers_and_sl",
+          "doc11::paragraph::86::stress_is_a_natural_reaction_to_difficult_situat",
+          "doc11::paragraph::87::we_mentioned_earlier_on_that_a_moderate_amount_o",
+          "doc11::paragraph::88::healthy_level_to_prevent_long_term_damage_to_our",
+          "doc11::paragraph::89::when_you_are_feeling_stressed_try_to_take_these_",
+          "doc11::paragraph::90::realise_when_it_is_causing_you_a_problem_you_nee"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 220,
+        "contains_atomic_block": false,
+        "block_count": 6
+      }
+    },
+    {
+      "id": "doc11::image::91::images_bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649::chunk::45::images_bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649",
+      "label": "![](images/bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649de452040685a9fa2d229b48.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::91::images_bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649::chunk::45::images_bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "![](images/bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649de452040685a9fa2d229b48.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::91::images_bf93898013f59a2bfbcf2a5ae9ddd5d0cdb0b2649"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::92::details_summary_natural_image_summary_elderly_ma::chunk::46::details_summary_natural_image_summary_elderly_ma",
+      "label": "<details> <summary>natural_image</summary> Elderly man sitting with hands on neck in a modern indoor setting (no visi...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::92::details_summary_natural_image_summary_elderly_ma::chunk::46::details_summary_natural_image_summary_elderly_ma",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nElderly man sitting with hands on neck in a modern indoor setting (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::92::details_summary_natural_image_summary_elderly_ma"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 22,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::image::93::images_d05ad0e2ce814d239c83c69dfddcc67b5ccefa976::chunk::47::images_d05ad0e2ce814d239c83c69dfddcc67b5ccefa976",
+      "label": "![](images/d05ad0e2ce814d239c83c69dfddcc67b5ccefa9761a9579d136a33c1393e688f.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::93::images_d05ad0e2ce814d239c83c69dfddcc67b5ccefa976::chunk::47::images_d05ad0e2ce814d239c83c69dfddcc67b5ccefa976",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "![](images/d05ad0e2ce814d239c83c69dfddcc67b5ccefa9761a9579d136a33c1393e688f.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::93::images_d05ad0e2ce814d239c83c69dfddcc67b5ccefa976"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::94::details_summary_natural_image_summary_abstract_p::chunk::48::details_summary_natural_image_summary_abstract_p",
+      "label": "<details> <summary>natural_image</summary> Abstract pink geometric shape resembling a stylized letter or symbol (no t...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::94::details_summary_natural_image_summary_abstract_p::chunk::48::details_summary_natural_image_summary_abstract_p",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nAbstract pink geometric shape resembling a stylized letter or symbol (no text or symbols present)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::94::details_summary_natural_image_summary_abstract_p"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 20,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::49::identify_the_causes_try_to_identify_the_underlyi",
+      "label": "• Identify the causes. Try to identify the underlying causes. Group the possible reasons for your stress into those w...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::49::identify_the_causes_try_to_identify_the_underlyi",
+      "page_idx": null,
+      "section_path": [
+        "YOURSELF?"
+      ],
+      "text": "• Identify the causes. Try to identify the underlying causes. Group the possible reasons for your stress into those with a practical solution, those that will get better anyway given time, and those you can’t do anything about. Try to let go of those in the second and third groups – there’s no point in worrying about things you can’t change or things that will sort themselves out. • Review your lifestyle. Are you taking on too much? Are there things you are doing which could be handed over to someone else? Can you do things in a more leisurely way? You may need to prioritise things you are trying to achieve and reorganise your life so that you are not trying to do everything at once.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 127,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi",
+      "label": "• Identify the causes. Try to identify the underlying causes. Group the possible reasons for your stress into those w...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi::chunk::50::identify_the_causes_try_to_identify_the_underlyi",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "• Identify the causes. Try to identify the underlying causes. Group the possible reasons for your stress into those with a practical solution, those that will get better anyway given time, and those you can’t do anything about. Try to let go of those in the second and third groups – there’s no point in worrying about things you can’t change or things that will sort themselves out. • Review your lifestyle. Are you taking on too much? Are there things you are doing which could be handed over to someone else? Can you do things in a more leisurely way? You may need to prioritise things you are trying to achieve and reorganise your life so that you are not trying to do everything at once.\n\n• Eat healthily. A healthy diet will reduce the risks of diet-related diseases. Also, there is a growing amount of evidence showing how food affects our mood. Feelings of wellbeing can be protected by ensuring that our diet provides adequate amounts of brain nutrients such as essential vitamins and minerals, as well as water.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::95::identify_the_causes_try_to_identify_the_underlyi",
+          "doc11::paragraph::97::eat_healthily_a_healthy_diet_will_reduce_the_ris"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 181,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::image::98::images_058a91c556d4aa2a807d35dcdbca0015bc86f14e2::chunk::51::images_058a91c556d4aa2a807d35dcdbca0015bc86f14e2",
+      "label": "![](images/058a91c556d4aa2a807d35dcdbca0015bc86f14e226afc8ad699e388c682ca2a.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::98::images_058a91c556d4aa2a807d35dcdbca0015bc86f14e2::chunk::51::images_058a91c556d4aa2a807d35dcdbca0015bc86f14e2",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "![](images/058a91c556d4aa2a807d35dcdbca0015bc86f14e226afc8ad699e388c682ca2a.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::98::images_058a91c556d4aa2a807d35dcdbca0015bc86f14e2"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::99::details_summary_natural_image_summary_woman_wash::chunk::52::details_summary_natural_image_summary_woman_wash",
+      "label": "<details> <summary>natural_image</summary> Woman washing dishes in a kitchen sink, wearing striped shirt and jeans (n...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::99::details_summary_natural_image_summary_woman_wash::chunk::52::details_summary_natural_image_summary_woman_wash",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nWoman washing dishes in a kitchen sink, wearing striped shirt and jeans (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::99::details_summary_natural_image_summary_woman_wash"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 22,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+      "label": "• Be aware of your smoking and drinking. Even though they may seem to reduce tension, this is misleading as they ofte...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug::chunk::53::be_aware_of_your_smoking_and_drinking_even_thoug",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "• Be aware of your smoking and drinking. Even though they may seem to reduce tension, this is misleading as they often make problems worse. • Exercise. Physical exercise can be very effective in relieving stress. Even going out to get some fresh air and taking some light physical exercise, like walking to the shops, can help. • Take time out. Take time to relax. Saying ‘I just can’t take the time off’ is no use if you are forced to take time off later through ill-health. Striking a balance between responsibility to others and responsibility to yourself is important in reducing stress levels. • Be mindful. Mindfulness meditation can be practiced anywhere at any\n\ntime. Research has suggested that it can reduce the effects of stress, anxiety and other related problems such as insomnia, poor concentration and low moods, in some people.\n\nThe ‘Be Mindful’ website features a specially-developed online course in mindfulness, as well as details of local courses in your area:\n\nbemindfulonline.com • Get restful sleep. Sleeping problems are common when you’re suffering from stress. Try to make sure you get enough rest. For more tips on getting a good night’s sleep read our guide ‘How to...sleep better’ at: mentalhealth.org. uk/how-to-sleep",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::100::be_aware_of_your_smoking_and_drinking_even_thoug",
+          "doc11::paragraph::101::time_research_has_suggested_that_it_can_reduce_t",
+          "doc11::paragraph::102::the_be_mindful_website_features_a_specially_deve",
+          "doc11::paragraph::103::bemindfulonline_com_get_restful_sleep_sleeping_p"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 210,
+        "contains_atomic_block": false,
+        "block_count": 4
+      }
+    },
+    {
+      "id": "doc11::image::104::images_9ffceb33a20433597bf5c11077029f7edebbf80c0::chunk::54::images_9ffceb33a20433597bf5c11077029f7edebbf80c0",
+      "label": "![](images/9ffceb33a20433597bf5c11077029f7edebbf80c0483cd52016fbac6f6e16a82.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::104::images_9ffceb33a20433597bf5c11077029f7edebbf80c0::chunk::54::images_9ffceb33a20433597bf5c11077029f7edebbf80c0",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "![](images/9ffceb33a20433597bf5c11077029f7edebbf80c0483cd52016fbac6f6e16a82.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::104::images_9ffceb33a20433597bf5c11077029f7edebbf80c0"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::105::details_summary_natural_image_summary_illustrati::chunk::55::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a person meditating in a lotus pose with hands raised, nex...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::105::details_summary_natural_image_summary_illustrati::chunk::55::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a person meditating in a lotus pose with hands raised, next to a potted plant (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::105::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 26,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::106::don_t_be_too_hard_on_yourself_try_to_keep_things::chunk::56::don_t_be_too_hard_on_yourself_try_to_keep_things",
+      "label": "• Don’t be too hard on yourself. Try to keep things in perspective. After all, we all have bad days.",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::106::don_t_be_too_hard_on_yourself_try_to_keep_things::chunk::56::don_t_be_too_hard_on_yourself_try_to_keep_things",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "• Don’t be too hard on yourself. Try to keep things in perspective. After all, we all have bad days.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::106::don_t_be_too_hard_on_yourself_try_to_keep_things"
+        ],
+        "block_kinds": [
+          "paragraph"
+        ],
+        "token_count": 20,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc11::image::107::images_ba45c68638026a72796d3b28d3c4423be5e844488::chunk::57::images_ba45c68638026a72796d3b28d3c4423be5e844488",
+      "label": "![](images/ba45c68638026a72796d3b28d3c4423be5e84448815747e97ce2de4de4c01cd7.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::107::images_ba45c68638026a72796d3b28d3c4423be5e844488::chunk::57::images_ba45c68638026a72796d3b28d3c4423be5e844488",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "![](images/ba45c68638026a72796d3b28d3c4423be5e84448815747e97ce2de4de4c01cd7.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::107::images_ba45c68638026a72796d3b28d3c4423be5e844488"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::108::details_summary_natural_image_summary_close_up_o::chunk::58::details_summary_natural_image_summary_close_up_o",
+      "label": "<details> <summary>natural_image</summary> Close-up of hands gently holding an elderly person's hand, no visible text...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::108::details_summary_natural_image_summary_close_up_o::chunk::58::details_summary_natural_image_summary_close_up_o",
+      "page_idx": null,
+      "section_path": [
+        "You can also help protect yourself from stress in a number of ways:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nClose-up of hands gently holding an elderly person's hand, no visible text or symbols\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::108::details_summary_natural_image_summary_close_up_o"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 21,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::110::it_s_okay_to_ask_for_professional_help_if_you_fe::chunk::59::it_s_okay_to_ask_for_professional_help_if_you_fe",
+      "label": "It’s okay to ask for professional help if you feel that you are struggling to manage on your own. It’s also important...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::110::it_s_okay_to_ask_for_professional_help_if_you_fe::chunk::59::it_s_okay_to_ask_for_professional_help_if_you_fe",
+      "page_idx": null,
+      "section_path": [
+        "SEEKING HELP"
+      ],
+      "text": "It’s okay to ask for professional help if you feel that you are struggling to manage on your own. It’s also important to get help as soon as possible so you can begin to get better.\n\nThe first person to approach is your GP. They should be able to give you advice about treatment, and may refer you to another local professional. Cognitive Behavioural Therapy and Mindfulness based approaches are known to help reduce stress. There are also a number of voluntary organisations which can help you to tackle the causes of stress and advise you about ways to get better.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::110::it_s_okay_to_ask_for_professional_help_if_you_fe",
+          "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 103,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho",
+      "label": "The first person to approach is your GP. They should be able to give you advice about treatment, and may refer you to...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho::chunk::60::the_first_person_to_approach_is_your_gp_they_sho",
+      "page_idx": null,
+      "section_path": [
+        "Every Mind Matters"
+      ],
+      "text": "The first person to approach is your GP. They should be able to give you advice about treatment, and may refer you to another local professional. Cognitive Behavioural Therapy and Mindfulness based approaches are known to help reduce stress. There are also a number of voluntary organisations which can help you to tackle the causes of stress and advise you about ways to get better.\n\nThe Mental Health Foundation supported the development of the Every Mind Matters stress resource, it offers advice on how to cope with stress. Visit nhs.uk/ every-mind-matters/mental-health-issues/ stress",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::111::the_first_person_to_approach_is_your_gp_they_sho",
+          "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 98,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel::chunk::61::the_mental_health_foundation_supported_the_devel",
+      "label": "The Mental Health Foundation supported the development of the Every Mind Matters stress resource, it offers advice on...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel::chunk::61::the_mental_health_foundation_supported_the_devel",
+      "page_idx": null,
+      "section_path": [
+        "Anxiety UK"
+      ],
+      "text": "The Mental Health Foundation supported the development of the Every Mind Matters stress resource, it offers advice on how to cope with stress. Visit nhs.uk/ every-mind-matters/mental-health-issues/ stress\n\nAnxiety UK runs a helpline staffed by volunteers with personal experience of anxiety from 9:30-5:30, Monday to Friday. Call 03444 775 774. Text 07537 416 905",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::113::the_mental_health_foundation_supported_the_devel",
+          "doc11::paragraph::115::anxiety_uk_runs_a_helpline_staffed_by_volunteers"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 62,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::paragraph::115::anxiety_uk_runs_a_helpline_staffed_by_volunteers::chunk::62::anxiety_uk_runs_a_helpline_staffed_by_volunteers",
+      "label": "Anxiety UK runs a helpline staffed by volunteers with personal experience of anxiety from 9:30-5:30, Monday to Friday...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::115::anxiety_uk_runs_a_helpline_staffed_by_volunteers::chunk::62::anxiety_uk_runs_a_helpline_staffed_by_volunteers",
+      "page_idx": null,
+      "section_path": [
+        "Citizens Advice"
+      ],
+      "text": "Anxiety UK runs a helpline staffed by volunteers with personal experience of anxiety from 9:30-5:30, Monday to Friday. Call 03444 775 774. Text 07537 416 905\n\nCitizens Advice provides free, independent and confidential advice for a range of problems as well as providing information on your rights and responsibilities. Visit citizensadvice.org.uk for more information and advice.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::115::anxiety_uk_runs_a_helpline_staffed_by_volunteers",
+          "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 61,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co::chunk::63::citizens_advice_provides_free_independent_and_co",
+      "label": "Citizens Advice provides free, independent and confidential advice for a range of problems as well as providing infor...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co::chunk::63::citizens_advice_provides_free_independent_and_co",
+      "page_idx": null,
+      "section_path": [
+        "StepChange"
+      ],
+      "text": "Citizens Advice provides free, independent and confidential advice for a range of problems as well as providing information on your rights and responsibilities. Visit citizensadvice.org.uk for more information and advice.\n\nStepChange provides help and information for people dealing with a range of debt problems. Freephone (including from mobiles) 0800 138 1111 or visit the website at stepchange.org.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::117::citizens_advice_provides_free_independent_and_co",
+          "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 60,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo::chunk::64::stepchange_provides_help_and_information_for_peo",
+      "label": "StepChange provides help and information for people dealing with a range of debt problems. Freephone (including from...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo::chunk::64::stepchange_provides_help_and_information_for_peo",
+      "page_idx": null,
+      "section_path": [
+        "Samaritans"
+      ],
+      "text": "StepChange provides help and information for people dealing with a range of debt problems. Freephone (including from mobiles) 0800 138 1111 or visit the website at stepchange.org.\n\nSamaritans offer emotional support 24 hours a day - in full confidence. Call 116 123 or email jo@samaritans.org",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::119::stepchange_provides_help_and_information_for_peo",
+          "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 47,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da",
+      "label": "Samaritans offer emotional support 24 hours a day - in full confidence. Call 116 123 or email jo@samaritans.org There...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da::chunk::65::samaritans_offer_emotional_support_24_hours_a_da",
+      "page_idx": null,
+      "section_path": [
+        "Specialist mental health services"
+      ],
+      "text": "Samaritans offer emotional support 24 hours a day - in full confidence. Call 116 123 or email jo@samaritans.org\n\nThere are a variety of specialist services that provide a range of treatments, including counselling and other talking therapies. These different services are often coordinated by a community mental health team (CMHT), which are usually based either at a hospital or a local community mental health centre.\n\nSome teams provide 24-hour services so that you can contact them in a crisis. You should be able to contact your local CMHT through your local social services or social work team.",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::121::samaritans_offer_emotional_support_24_hours_a_da",
+          "doc11::paragraph::123::there_are_a_variety_of_specialist_services_that_",
+          "doc11::paragraph::124::some_teams_provide_24_hour_services_so_that_you_"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 99,
+        "contains_atomic_block": false,
+        "block_count": 3
+      }
+    },
+    {
+      "id": "doc11::image::125::images_3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fc::chunk::66::images_3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fc",
+      "label": "![](images/3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fcf81a6dffc7621c45385c464.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::125::images_3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fc::chunk::66::images_3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fc",
+      "page_idx": null,
+      "section_path": [
+        "Specialist mental health services"
+      ],
+      "text": "![](images/3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fcf81a6dffc7621c45385c464.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::125::images_3d8e6ed8ba0bd581e0de3eb6596f8ec64894204fc"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::126::details_summary_natural_image_summary_person_sit::chunk::67::details_summary_natural_image_summary_person_sit",
+      "label": "<details> <summary>natural_image</summary> Person sitting on a sofa with hands typing on a tablet, another person par...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::126::details_summary_natural_image_summary_person_sit::chunk::67::details_summary_natural_image_summary_person_sit",
+      "page_idx": null,
+      "section_path": [
+        "Specialist mental health services"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nPerson sitting on a sofa with hands typing on a tablet, another person partially visible in background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::126::details_summary_natural_image_summary_person_sit"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 26,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::128::we_d_like_to_thank_everyone_who_contributed_some::chunk::68::we_d_like_to_thank_everyone_who_contributed_some",
+      "label": "We’d like to thank everyone who contributed some brilliant tips on how to manage stress. Everybody is different and w...",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::128::we_d_like_to_thank_everyone_who_contributed_some::chunk::68::we_d_like_to_thank_everyone_who_contributed_some",
+      "page_idx": null,
+      "section_path": [
+        "101 TOP TIPS FROM YOU"
+      ],
+      "text": "We’d like to thank everyone who contributed some brilliant tips on how to manage stress. Everybody is different and what works for one person might not work for another. Here are 101 tips, find what works for you and give them a try.\n\nMeeting a friend\n\nSetting aside 10 minutes a day to relax and collect my thoughts\n\nWatching late night TV debates that deal with the realities of the world\n\nListening to relaxing music\n\nWatching funny movies\n\nTaking a walk in the countryside\n\nGoing to the gym\n\nSoaking in the bath with lavender oil\n\nMeditating\n\nTalking to someone just to vent a little\n\nWalking the dog\n\nGetting more sleep\n\nPraying\n\nReading a book to distract yourself from stressful thoughts\n\nDo something good for someone else\n\nWriting a letter to someone to get your feelings across and vent, but not actually sending it",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::128::we_d_like_to_thank_everyone_who_contributed_some",
+          "doc11::list_item::129::1_meeting_a_friend",
+          "doc11::list_item::130::2_setting_aside_10_minutes_a_day_to_relax_and_co",
+          "doc11::list_item::131::3_watching_late_night_tv_debates_that_deal_with_",
+          "doc11::list_item::132::4_listening_to_relaxing_music",
+          "doc11::list_item::133::5_watching_funny_movies",
+          "doc11::list_item::134::6_taking_a_walk_in_the_countryside",
+          "doc11::list_item::135::7_going_to_the_gym",
+          "doc11::list_item::136::8_soaking_in_the_bath_with_lavender_oil",
+          "doc11::list_item::137::9_meditating",
+          "doc11::list_item::138::10_talking_to_someone_just_to_vent_a_little",
+          "doc11::list_item::139::11_walking_the_dog",
+          "doc11::list_item::140::12_getting_more_sleep",
+          "doc11::list_item::141::13_praying",
+          "doc11::list_item::142::14_reading_a_book_to_distract_yourself_from_stre",
+          "doc11::list_item::143::15_do_something_good_for_someone_else",
+          "doc11::list_item::144::16_writing_a_letter_to_someone_to_get_your_feeli"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 144,
+        "contains_atomic_block": false,
+        "block_count": 17
+      }
+    },
+    {
+      "id": "doc11::list_item::144::16_writing_a_letter_to_someone_to_get_your_feeli::chunk::69::writing_a_letter_to_someone_to_get_your_feelings",
+      "label": "Writing a letter to someone to get your feelings across and vent, but not actually sending it",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::144::16_writing_a_letter_to_someone_to_get_your_feeli::chunk::69::writing_a_letter_to_someone_to_get_your_feelings",
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": "Writing a letter to someone to get your feelings across and vent, but not actually sending it",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::144::16_writing_a_letter_to_someone_to_get_your_feeli"
+        ],
+        "block_kinds": [
+          "list_item"
+        ],
+        "token_count": 17,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc11::image::146::images_f0481022b1a00f10461530b27247d7a727adea402::chunk::70::images_f0481022b1a00f10461530b27247d7a727adea402",
+      "label": "![](images/f0481022b1a00f10461530b27247d7a727adea402861c1bca457f345a54466d4.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::146::images_f0481022b1a00f10461530b27247d7a727adea402::chunk::70::images_f0481022b1a00f10461530b27247d7a727adea402",
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": "![](images/f0481022b1a00f10461530b27247d7a727adea402861c1bca457f345a54466d4.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::146::images_f0481022b1a00f10461530b27247d7a727adea402"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::147::details_summary_natural_image_summary_two_women_::chunk::71::details_summary_natural_image_summary_two_women_",
+      "label": "<details> <summary>natural_image</summary> Two women smiling while painting at a table with colorful glasses and brus...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::147::details_summary_natural_image_summary_two_women_::chunk::71::details_summary_natural_image_summary_two_women_",
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nTwo women smiling while painting at a table with colorful glasses and brushes (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::147::details_summary_natural_image_summary_two_women_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 23,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::list_item::148::18_book_a_massage_or_spend_time_in_a_spa_with_a_::chunk::72::book_a_massage_or_spend_time_in_a_spa_with_a_fri",
+      "label": "Book a massage or spend time in a spa with a friend Write a list of things to do and cross them off as you do them",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::148::18_book_a_massage_or_spend_time_in_a_spa_with_a_::chunk::72::book_a_massage_or_spend_time_in_a_spa_with_a_fri",
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": "Book a massage or spend time in a spa with a friend\n\nWrite a list of things to do and cross them off as you do them",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::148::18_book_a_massage_or_spend_time_in_a_spa_with_a_",
+          "doc11::list_item::149::19_write_a_list_of_things_to_do_and_cross_them_o"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 27,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::image::150::images_42113675dba68d9fce3035eeed0954fecc5fe827b::chunk::73::images_42113675dba68d9fce3035eeed0954fecc5fe827b",
+      "label": "![](images/42113675dba68d9fce3035eeed0954fecc5fe827bbf8294105fc3063beec2364.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::150::images_42113675dba68d9fce3035eeed0954fecc5fe827b::chunk::73::images_42113675dba68d9fce3035eeed0954fecc5fe827b",
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": "![](images/42113675dba68d9fce3035eeed0954fecc5fe827bbf8294105fc3063beec2364.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::150::images_42113675dba68d9fce3035eeed0954fecc5fe827b"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::list_item::151::20_try_putting_things_into_perspective::chunk::74::try_putting_things_into_perspective",
+      "label": "Try putting things into perspective Switch off the phone and get some time to yourself Do something you like with fam...",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::151::20_try_putting_things_into_perspective::chunk::74::try_putting_things_into_perspective",
+      "page_idx": null,
+      "section_path": [
+        "17. Painting or drawing"
+      ],
+      "text": "Try putting things into perspective\n\nSwitch off the phone and get some time to yourself\n\nDo something you like with family or friends like going to a show\n\nDancing around in your room to your favourite music\n\nGoing to your friend’s house with another friend and putting the world to rights\n\nHave a change of scenery\n\nGo out and meet new people",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::151::20_try_putting_things_into_perspective",
+          "doc11::list_item::152::21_switch_off_the_phone_and_get_some_time_to_you",
+          "doc11::list_item::153::22_do_something_you_like_with_family_or_friends_",
+          "doc11::list_item::154::23_dancing_around_in_your_room_to_your_favourite",
+          "doc11::list_item::155::24_going_to_your_friend_s_house_with_another_fri",
+          "doc11::list_item::156::25_have_a_change_of_scenery",
+          "doc11::list_item::157::26_go_out_and_meet_new_people"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 63,
+        "contains_atomic_block": false,
+        "block_count": 7
+      }
+    },
+    {
+      "id": "doc11::list_item::157::26_go_out_and_meet_new_people::chunk::75::go_out_and_meet_new_people",
+      "label": "Go out and meet new people Express your feelings and emotions Spend time with positive people around you A hot cup of...",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::157::26_go_out_and_meet_new_people::chunk::75::go_out_and_meet_new_people",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "Go out and meet new people\n\nExpress your feelings and emotions\n\nSpend time with positive people around you\n\nA hot cup of something wonderful, a journal and a pen\n\nEat a healthy meal and avoid caffeine\n\nGetting closer with nature e.g. have a walk on the beach, observing the sunset\n\nWatch your favourite programme on TV\n\nGive yourself ‘me time’ just a few minutes to think about pleasant things",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::157::26_go_out_and_meet_new_people",
+          "doc11::list_item::159::28_express_your_feelings_and_emotions",
+          "doc11::list_item::160::29_spend_time_with_positive_people_around_you",
+          "doc11::list_item::161::30_a_hot_cup_of_something_wonderful_a_journal_an",
+          "doc11::list_item::162::31_eat_a_healthy_meal_and_avoid_caffeine",
+          "doc11::list_item::163::32_getting_closer_with_nature_e_g_have_a_walk_on",
+          "doc11::list_item::164::33_watch_your_favourite_programme_on_tv",
+          "doc11::list_item::165::34_give_yourself_me_time_just_a_few_minutes_to_t"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 70,
+        "contains_atomic_block": false,
+        "block_count": 8
+      }
+    },
+    {
+      "id": "doc11::image::166::images_8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c::chunk::76::images_8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c",
+      "label": "![](images/8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c312e3251909813dd6c2f317.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::166::images_8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c::chunk::76::images_8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "![](images/8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c312e3251909813dd6c2f317.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::166::images_8b8bcfdfc9e7fe43e4bf87be2c8bf570a0a11754c"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::167::details_summary_natural_image_summary_illustrati::chunk::77::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a woman in a blue sports outfit performing a yoga pose (no...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::167::details_summary_natural_image_summary_illustrati::chunk::77::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a woman in a blue sports outfit performing a yoga pose (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::167::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 22,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::list_item::168::35_ask_yourself_what_would_other_people_do::chunk::78::ask_yourself_what_would_other_people_do",
+      "label": "Ask yourself what would other people do Thinking of the work you HAVE achieved in a day, rather than what you haven’t...",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::168::35_ask_yourself_what_would_other_people_do::chunk::78::ask_yourself_what_would_other_people_do",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "Ask yourself what would other people do\n\nThinking of the work you HAVE achieved in a day, rather than what you haven’t done\n\nRelaxing with reflexology\n\nGo to uplifting plays, operas and concerts that make the hairs on the back of your neck stand up\n\nGo to bed with a great book\n\nHost a dinner party\n\nCheer up someone who is feeling down\n\nSpend some time doing something you enjoy, like gardening\n\nWriting down my thoughts\n\nPlay games on the computer\n\nAvoid putting things off\n\nFind a quiet place and try to visualise a happy memory\n\nDo something creative like knitting\n\nPlay a musical instrument\n\nPlay with your pet\n\nGet some fresh air\n\nBe gentle to yourself\n\nLaugh!\n\nGo window shopping\n\nWrite short stories\n\nCall a loved one\n\nTalk to a stranger\n\nPractice CBT (Cognitive behavioral therapy)\n\nChat to your friends on Skype or Facebook",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::168::35_ask_yourself_what_would_other_people_do",
+          "doc11::list_item::169::36_thinking_of_the_work_you_have_achieved_in_a_d",
+          "doc11::list_item::170::37_relaxing_with_reflexology",
+          "doc11::list_item::171::38_go_to_uplifting_plays_operas_and_concerts_tha",
+          "doc11::list_item::172::39_go_to_bed_with_a_great_book",
+          "doc11::list_item::173::40_host_a_dinner_party",
+          "doc11::list_item::174::41_cheer_up_someone_who_is_feeling_down",
+          "doc11::list_item::175::42_spend_some_time_doing_something_you_enjoy_lik",
+          "doc11::list_item::176::43_writing_down_my_thoughts",
+          "doc11::list_item::177::44_play_games_on_the_computer",
+          "doc11::list_item::178::45_avoid_putting_things_off",
+          "doc11::list_item::179::46_find_a_quiet_place_and_try_to_visualise_a_hap",
+          "doc11::list_item::180::47_do_something_creative_like_knitting",
+          "doc11::list_item::181::48_play_a_musical_instrument",
+          "doc11::list_item::182::49_play_with_your_pet",
+          "doc11::list_item::183::50_get_some_fresh_air",
+          "doc11::list_item::184::51_be_gentle_to_yourself",
+          "doc11::list_item::185::52_laugh",
+          "doc11::list_item::186::53_go_window_shopping",
+          "doc11::list_item::187::54_write_short_stories",
+          "doc11::list_item::188::55_call_a_loved_one",
+          "doc11::list_item::189::56_talk_to_a_stranger",
+          "doc11::list_item::190::57_practice_cbt_cognitive_behavioral_therapy",
+          "doc11::list_item::191::58_chat_to_your_friends_on_skype_or_facebook"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 146,
+        "contains_atomic_block": false,
+        "block_count": 24
+      }
+    },
+    {
+      "id": "doc11::image::192::images_d3fda0a9e140aff248795373200c84eaf3808246a::chunk::79::images_d3fda0a9e140aff248795373200c84eaf3808246a",
+      "label": "![](images/d3fda0a9e140aff248795373200c84eaf3808246a527e502b4801ae0dd4ce2e7.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::192::images_d3fda0a9e140aff248795373200c84eaf3808246a::chunk::79::images_d3fda0a9e140aff248795373200c84eaf3808246a",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "![](images/d3fda0a9e140aff248795373200c84eaf3808246a527e502b4801ae0dd4ce2e7.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::192::images_d3fda0a9e140aff248795373200c84eaf3808246a"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::193::details_summary_text_image_summary_59_take_a_nap::chunk::80::details_summary_text_image_summary_59_take_a_nap",
+      "label": "<details> <summary>text_image</summary> 59. Take a nap SALE </details>",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::193::details_summary_text_image_summary_59_take_a_nap::chunk::80::details_summary_text_image_summary_59_take_a_nap",
+      "page_idx": null,
+      "section_path": [
+        "27. Go to a yoga class"
+      ],
+      "text": "<details>\n<summary>text_image</summary>\n\n59. Take a nap\nSALE\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::193::details_summary_text_image_summary_59_take_a_nap"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 10,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::list_item::195::61_going_for_a_walk_at_lunchtime::chunk::81::going_for_a_walk_at_lunchtime",
+      "label": "Going for a walk at lunchtime Write poetry Eat or drink something you enjoy Cuddle a baby (ideally one you know - cud...",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::195::61_going_for_a_walk_at_lunchtime::chunk::81::going_for_a_walk_at_lunchtime",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "Going for a walk at lunchtime\n\nWrite poetry\n\nEat or drink something you enjoy\n\nCuddle a baby (ideally one you know - cuddles with my niece or nephew are amazing for destressing)\n\nSpend time with children – they really put things in perspective, like ‘Wow there’s a cool cloud’, and remind you of simple things that used to amaze you\n\nGo out to a Karaoke night",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::195::61_going_for_a_walk_at_lunchtime",
+          "doc11::list_item::196::62_write_poetry",
+          "doc11::list_item::197::63_eat_or_drink_something_you_enjoy",
+          "doc11::list_item::198::64_cuddle_a_baby_ideally_one_you_know_cuddles_wi",
+          "doc11::list_item::199::65_spend_time_with_children_they_really_put_thin",
+          "doc11::list_item::200::66_go_out_to_a_karaoke_night"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 65,
+        "contains_atomic_block": false,
+        "block_count": 6
+      }
+    },
+    {
+      "id": "doc11::image::201::images_1974fad8449f1b9fb4ac9fa4e893974a91385b908::chunk::82::images_1974fad8449f1b9fb4ac9fa4e893974a91385b908",
+      "label": "![](images/1974fad8449f1b9fb4ac9fa4e893974a91385b908bf70b1d78142aedf9d36db7.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::201::images_1974fad8449f1b9fb4ac9fa4e893974a91385b908::chunk::82::images_1974fad8449f1b9fb4ac9fa4e893974a91385b908",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "![](images/1974fad8449f1b9fb4ac9fa4e893974a91385b908bf70b1d78142aedf9d36db7.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::201::images_1974fad8449f1b9fb4ac9fa4e893974a91385b908"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::202::details_summary_natural_image_summary_two_women_::chunk::83::details_summary_natural_image_summary_two_women_",
+      "label": "<details> <summary>natural_image</summary> Two women sitting outdoors in a park, one wearing a hijab and the other in...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::202::details_summary_natural_image_summary_two_women_::chunk::83::details_summary_natural_image_summary_two_women_",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nTwo women sitting outdoors in a park, one wearing a hijab and the other in a coat (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::202::details_summary_natural_image_summary_two_women_"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 27,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::list_item::203::67_imagine_living_in_a_different_era_maybe_warti::chunk::84::imagine_living_in_a_different_era_maybe_wartime_",
+      "label": "Imagine living in a different era, maybe wartime or before cars and trains were invented and how much harder life wou...",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::203::67_imagine_living_in_a_different_era_maybe_warti::chunk::84::imagine_living_in_a_different_era_maybe_wartime_",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "Imagine living in a different era, maybe wartime or before cars and trains were invented and how much harder life would be\n\nBake a cake\n\nSitting in a café with a cup of tea and a magazine\n\nGo for a relaxing swim\n\nSit on a park bench and watch the world go by\n\nTidy a room or cupboard (other people might find this stressful, but I find it relaxing!)\n\nChallenge a friend to a game of Scrabble\n\nBreathe deeply for two minutes, and focus on your breaths\n\nBake something – knit a scarf, build an Airfix model",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::203::67_imagine_living_in_a_different_era_maybe_warti",
+          "doc11::list_item::204::68_bake_a_cake",
+          "doc11::list_item::205::69_sitting_in_a_caf_with_a_cup_of_tea_and_a_maga",
+          "doc11::list_item::206::70_go_for_a_relaxing_swim",
+          "doc11::list_item::207::71_sit_on_a_park_bench_and_watch_the_world_go_by",
+          "doc11::list_item::208::72_tidy_a_room_or_cupboard_other_people_might_fi",
+          "doc11::list_item::209::73_challenge_a_friend_to_a_game_of_scrabble",
+          "doc11::list_item::210::74_breathe_deeply_for_two_minutes_and_focus_on_y",
+          "doc11::list_item::211::75_bake_something_knit_a_scarf_build_an_airfix_m"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 96,
+        "contains_atomic_block": false,
+        "block_count": 9
+      }
+    },
+    {
+      "id": "doc11::image::212::images_f1126e2cee3b700750b32376ad4ea704d354707df::chunk::85::images_f1126e2cee3b700750b32376ad4ea704d354707df",
+      "label": "![](images/f1126e2cee3b700750b32376ad4ea704d354707df563a538eb45499b038db7dc.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::212::images_f1126e2cee3b700750b32376ad4ea704d354707df::chunk::85::images_f1126e2cee3b700750b32376ad4ea704d354707df",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "![](images/f1126e2cee3b700750b32376ad4ea704d354707df563a538eb45499b038db7dc.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::212::images_f1126e2cee3b700750b32376ad4ea704d354707df"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::213::details_summary_natural_image_summary_illustrati::chunk::86::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a person cleaning a wall with a framed picture and bookshe...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::213::details_summary_natural_image_summary_illustrati::chunk::86::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a person cleaning a wall with a framed picture and bookshelf (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::213::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 22,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::list_item::214::76_write_a_list_of_the_reasons_you_have_to_be_ha::chunk::87::write_a_list_of_the_reasons_you_have_to_be_happy",
+      "label": "Write a list of the reasons you have to be happy with life Take a minute to stretch your body",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::214::76_write_a_list_of_the_reasons_you_have_to_be_ha::chunk::87::write_a_list_of_the_reasons_you_have_to_be_happy",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "Write a list of the reasons you have to be happy with life\n\nTake a minute to stretch your body",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::214::76_write_a_list_of_the_reasons_you_have_to_be_ha",
+          "doc11::list_item::215::77_take_a_minute_to_stretch_your_body"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 20,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::image::216::images_1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43::chunk::88::images_1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43",
+      "label": "![](images/1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43925fa36992010b444f53fa1.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::216::images_1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43::chunk::88::images_1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "![](images/1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43925fa36992010b444f53fa1.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::216::images_1c0a0499afaf3f26b6e15a51e4f03d73f90fe5e43"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::217::details_summary_natural_image_summary_elderly_ma::chunk::89::details_summary_natural_image_summary_elderly_ma",
+      "label": "<details> <summary>natural_image</summary> Elderly man wearing a helmet and green shirt, smiling outdoors with trees...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::217::details_summary_natural_image_summary_elderly_ma::chunk::89::details_summary_natural_image_summary_elderly_ma",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nElderly man wearing a helmet and green shirt, smiling outdoors with trees in the background (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::217::details_summary_natural_image_summary_elderly_ma"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 25,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::list_item::218::78_use_a_relaxing_room_fragrance_or_scented_cand::chunk::90::use_a_relaxing_room_fragrance_or_scented_candle_",
+      "label": "Use a relaxing room fragrance or scented candle to create a sense of sanctuary Practicing Tai Chi Looking at photos o...",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::218::78_use_a_relaxing_room_fragrance_or_scented_cand::chunk::90::use_a_relaxing_room_fragrance_or_scented_candle_",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "Use a relaxing room fragrance or scented candle to create a sense of sanctuary\n\nPracticing Tai Chi\n\nLooking at photos of happy memories.\n\nHave a cup of tea\n\nThinking of something you’re looking forward to or something that was fun\n\nGo to the cinema\n\nAquafit classes at lunchtime\n\nGo for a bike ride",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::218::78_use_a_relaxing_room_fragrance_or_scented_cand",
+          "doc11::list_item::219::79_practicing_tai_chi",
+          "doc11::list_item::220::80_looking_at_photos_of_happy_memories",
+          "doc11::list_item::221::81_have_a_cup_of_tea",
+          "doc11::list_item::222::82_thinking_of_something_you_re_looking_forward_",
+          "doc11::list_item::223::83_go_to_the_cinema",
+          "doc11::list_item::224::84_aquafit_classes_at_lunchtime",
+          "doc11::list_item::225::85_go_for_a_bike_ride"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 54,
+        "contains_atomic_block": false,
+        "block_count": 8
+      }
+    },
+    {
+      "id": "doc11::image::226::images_948ac02a26eacdac253151f8335501c5b0d92c4c0::chunk::91::images_948ac02a26eacdac253151f8335501c5b0d92c4c0",
+      "label": "![](images/948ac02a26eacdac253151f8335501c5b0d92c4c00f551eadd19fffc38729ae5.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::226::images_948ac02a26eacdac253151f8335501c5b0d92c4c0::chunk::91::images_948ac02a26eacdac253151f8335501c5b0d92c4c0",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "![](images/948ac02a26eacdac253151f8335501c5b0d92c4c00f551eadd19fffc38729ae5.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::226::images_948ac02a26eacdac253151f8335501c5b0d92c4c0"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::227::details_summary_natural_image_summary_illustrati::chunk::92::details_summary_natural_image_summary_illustrati",
+      "label": "<details> <summary>natural_image</summary> Illustration of a teal-colored coffee mug with polka dots, containing dark...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::227::details_summary_natural_image_summary_illustrati::chunk::92::details_summary_natural_image_summary_illustrati",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nIllustration of a teal-colored coffee mug with polka dots, containing dark liquid (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::227::details_summary_natural_image_summary_illustrati"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 22,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::list_item::228::86_listen_to_the_birds_singing::chunk::93::listen_to_the_birds_singing",
+      "label": "Listen to the birds singing Reminding yourself it could be worse and count your blessings Playing board games with yo...",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::228::86_listen_to_the_birds_singing::chunk::93::listen_to_the_birds_singing",
+      "page_idx": null,
+      "section_path": [
+        "60. Take a break, even a short one can make a difference"
+      ],
+      "text": "Listen to the birds singing\n\nReminding yourself it could be worse and count your blessings\n\nPlaying board games with your family\n\nPlaying my favourite song and singing it out loud\n\nCleaning!\n\nPractising calligraphy\n\nI find moving furniture around the house very soothing\n\nWrite a letter to a loved one\n\nPlay with my children\n\nWatch some programs on TV\n\nGo out for a run in the park\n\nVolunteer at the local homeless shelter, it helps put my worries into perspective\n\nPlay Sudoku or crosswords\n\nRead some gossip magazines\n\nGo to a salsa class",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::228::86_listen_to_the_birds_singing",
+          "doc11::list_item::229::87_reminding_yourself_it_could_be_worse_and_coun",
+          "doc11::list_item::230::88_playing_board_games_with_your_family",
+          "doc11::list_item::231::89_playing_my_favourite_song_and_singing_it_out_",
+          "doc11::list_item::232::90_cleaning",
+          "doc11::list_item::233::91_practising_calligraphy",
+          "doc11::list_item::234::92_i_find_moving_furniture_around_the_house_very",
+          "doc11::list_item::235::93_write_a_letter_to_a_loved_one",
+          "doc11::list_item::236::94_play_with_my_children",
+          "doc11::list_item::237::95_watch_some_programs_on_tv",
+          "doc11::list_item::238::96_go_out_for_a_run_in_the_park",
+          "doc11::list_item::239::97_volunteer_at_the_local_homeless_shelter_it_he",
+          "doc11::list_item::240::98_play_sudoku_or_crosswords",
+          "doc11::list_item::241::99_read_some_gossip_magazines",
+          "doc11::list_item::242::100_go_to_a_salsa_class"
+        ],
+        "block_kinds": [
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item",
+          "list_item"
+        ],
+        "token_count": 92,
+        "contains_atomic_block": false,
+        "block_count": 15
+      }
+    },
+    {
+      "id": "doc11::list_item::242::100_go_to_a_salsa_class::chunk::94::go_to_a_salsa_class",
+      "label": "Go to a salsa class",
+      "kind": "chunk",
+      "content_type": "list",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::242::100_go_to_a_salsa_class::chunk::94::go_to_a_salsa_class",
+      "page_idx": null,
+      "section_path": [
+        "101. Get a cuddle"
+      ],
+      "text": "Go to a salsa class",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::242::100_go_to_a_salsa_class"
+        ],
+        "block_kinds": [
+          "list_item"
+        ],
+        "token_count": 5,
+        "contains_atomic_block": false,
+        "block_count": 1
+      }
+    },
+    {
+      "id": "doc11::list_item::242::100_go_to_a_salsa_class::chunk::95::go_to_a_salsa_class",
+      "label": "Go to a salsa class mentalhealth.org.uk/donate",
+      "kind": "chunk",
+      "content_type": "mixed",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::list_item::242::100_go_to_a_salsa_class::chunk::95::go_to_a_salsa_class",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "Go to a salsa class\n\nmentalhealth.org.uk/donate",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::list_item::242::100_go_to_a_salsa_class",
+          "doc11::paragraph::245::mentalhealth_org_uk_donate"
+        ],
+        "block_kinds": [
+          "list_item",
+          "paragraph"
+        ],
+        "token_count": 9,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::image::246::images_a9cfdf0e250c98e93a15a1cc82837a578bfd719b0::chunk::96::images_a9cfdf0e250c98e93a15a1cc82837a578bfd719b0",
+      "label": "![](images/a9cfdf0e250c98e93a15a1cc82837a578bfd719b077d19e8378e2b0c2d9182cb.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::246::images_a9cfdf0e250c98e93a15a1cc82837a578bfd719b0::chunk::96::images_a9cfdf0e250c98e93a15a1cc82837a578bfd719b0",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "![](images/a9cfdf0e250c98e93a15a1cc82837a578bfd719b077d19e8378e2b0c2d9182cb.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::246::images_a9cfdf0e250c98e93a15a1cc82837a578bfd719b0"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::247::details_summary_natural_image_summary_three_peop::chunk::97::details_summary_natural_image_summary_three_peop",
+      "label": "<details> <summary>natural_image</summary> Three people seated in a circle, engaged in conversation (no visible text...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::247::details_summary_natural_image_summary_three_peop::chunk::97::details_summary_natural_image_summary_three_peop",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nThree people seated in a circle, engaged in conversation (no visible text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::247::details_summary_natural_image_summary_three_peop"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 19,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::248::mental_health_foundation::chunk::98::mental_health_foundation",
+      "label": "Mental Health Foundation Studio 2, 197 Long Lane, London SE1 4PD @mentalhealthfoundation Mental Health Foundation @Me...",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::248::mental_health_foundation::chunk::98::mental_health_foundation",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "Mental Health Foundation\n\nStudio 2, 197 Long Lane, London SE1 4PD\n\n@mentalhealthfoundation\n\nMental Health Foundation\n\n@MentalHealth\n\nFor more information and tips on anxiety, mindfulness, stress and many more visit mentalhealth.org.uk/publications",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::248::mental_health_foundation",
+          "doc11::paragraph::249::studio_2_197_long_lane_london_se1_4pd",
+          "doc11::paragraph::250::mentalhealthfoundation",
+          "doc11::paragraph::251::mental_health_foundation",
+          "doc11::paragraph::252::mentalhealth",
+          "doc11::paragraph::253::for_more_information_and_tips_on_anxiety_mindful"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 33,
+        "contains_atomic_block": false,
+        "block_count": 6
+      }
+    },
+    {
+      "id": "doc11::image::254::images_2d0e26dc74f915146fc88a2960bb48c7518a192e4::chunk::99::images_2d0e26dc74f915146fc88a2960bb48c7518a192e4",
+      "label": "![](images/2d0e26dc74f915146fc88a2960bb48c7518a192e488f402cc8350c480038477c.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::254::images_2d0e26dc74f915146fc88a2960bb48c7518a192e4::chunk::99::images_2d0e26dc74f915146fc88a2960bb48c7518a192e4",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "![](images/2d0e26dc74f915146fc88a2960bb48c7518a192e488f402cc8350c480038477c.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::254::images_2d0e26dc74f915146fc88a2960bb48c7518a192e4"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::255::details_summary_natural_image_summary_abstract_g::chunk::100::details_summary_natural_image_summary_abstract_g",
+      "label": "<details> <summary>natural_image</summary> Abstract graphic with curved white lines and a light blue rectangular bar...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::255::details_summary_natural_image_summary_abstract_g::chunk::100::details_summary_natural_image_summary_abstract_g",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nAbstract graphic with curved white lines and a light blue rectangular bar on a purple background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::255::details_summary_natural_image_summary_abstract_g"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 25,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::image::256::images_ab25bde59403dd18705e9fbb8e86135fc5fe9cee6::chunk::101::images_ab25bde59403dd18705e9fbb8e86135fc5fe9cee6",
+      "label": "![](images/ab25bde59403dd18705e9fbb8e86135fc5fe9cee6f299d6b5d5350052da8b601.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::256::images_ab25bde59403dd18705e9fbb8e86135fc5fe9cee6::chunk::101::images_ab25bde59403dd18705e9fbb8e86135fc5fe9cee6",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "![](images/ab25bde59403dd18705e9fbb8e86135fc5fe9cee6f299d6b5d5350052da8b601.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::256::images_ab25bde59403dd18705e9fbb8e86135fc5fe9cee6"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::257::details_summary_natural_image_summary_abstract_g::chunk::102::details_summary_natural_image_summary_abstract_g",
+      "label": "<details> <summary>natural_image</summary> Abstract geometric logo with stylized letter M inside a circle (no text or...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::257::details_summary_natural_image_summary_abstract_g::chunk::102::details_summary_natural_image_summary_abstract_g",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nAbstract geometric logo with stylized letter M inside a circle (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::257::details_summary_natural_image_summary_abstract_g"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 19,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    },
+    {
+      "id": "doc11::paragraph::258::item::chunk::103::chunk",
+      "label": "# mentalhealth.org.uk",
+      "kind": "chunk",
+      "content_type": "text",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::paragraph::258::item::chunk::103::chunk",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "#\n\nmentalhealth.org.uk",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::paragraph::258::item",
+          "doc11::paragraph::259::mentalhealth_org_uk"
+        ],
+        "block_kinds": [
+          "paragraph",
+          "paragraph"
+        ],
+        "token_count": 3,
+        "contains_atomic_block": false,
+        "block_count": 2
+      }
+    },
+    {
+      "id": "doc11::image::260::images_58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee8001::chunk::104::images_58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee8001",
+      "label": "![](images/58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee80016d3d5d77cb00c72dc824a35.jpg)",
+      "kind": "chunk",
+      "content_type": "image",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::image::260::images_58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee8001::chunk::104::images_58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee8001",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "![](images/58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee80016d3d5d77cb00c72dc824a35.jpg)",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::image::260::images_58c23ecfc153c9e7a54e5c8e7ef8e5241e0ee8001"
+        ],
+        "block_kinds": [
+          "image"
+        ],
+        "token_count": 3,
+        "atomic": true,
+        "block_kind": "image"
+      }
+    },
+    {
+      "id": "doc11::details::261::details_summary_natural_image_summary_abstract_c::chunk::105::details_summary_natural_image_summary_abstract_c",
+      "label": "<details> <summary>natural_image</summary> Abstract cloud-like shapes in light blue and white against a solid purple...",
+      "kind": "chunk",
+      "content_type": "details",
+      "source_file": "data/markdown/doc11/hybrid_auto/doc11.md",
+      "source_location": null,
+      "source_chunk_id": "doc11::details::261::details_summary_natural_image_summary_abstract_c::chunk::105::details_summary_natural_image_summary_abstract_c",
+      "page_idx": null,
+      "section_path": [
+        "Make a donation to help us continue our vital work:"
+      ],
+      "text": "<details>\n<summary>natural_image</summary>\n\nAbstract cloud-like shapes in light blue and white against a solid purple background (no text or symbols)\n</details>",
+      "image_path": null,
+      "aliases": [],
+      "metadata": {
+        "block_ids": [
+          "doc11::details::261::details_summary_natural_image_summary_abstract_c"
+        ],
+        "block_kinds": [
+          "details"
+        ],
+        "token_count": 23,
+        "atomic": true,
+        "block_kind": "details"
+      }
+    }
+  ]
+}

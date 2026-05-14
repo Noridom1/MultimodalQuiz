@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate a dynamic scene of a player mid-swing on a badminton court, holding a clearly labeled \"badminton racket\" with a shuttlecock in motion. Use high-contrast colors (e.g., bright green court, white net, vibrant racket) to emphasize key elements, and ensure the racket’s unique shape (long handle, oval head) is visible. Avoid brand logos or text beyond the label.\n\n**Alt:** A player in action on a badminton court, swinging a labeled racket toward a shuttlecock.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_154655_doc13_62d282/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate a dynamic badminton scene with a player (neutral attire, no logos) mid-swing, holding a clearly labeled racket striking a shuttlecock in sharp focus. Use high-contrast colors (e.g., bright yellow shuttlecock, dark racket) against a simple court background to emphasize the interaction. Avoid text labels on the objects themselves.\n\n**Alt:** A badminton player uses a racket to hit a shuttlecock in mid-air.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_154655_doc13_62d282/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a vintage-style illustration of a badminton game in a colonial-era setting, featuring players in period attire on a lush green court with a net, surrounded by palm trees and a grand estate in the background. Use warm sepia tones with high contrast to emphasize details like rackets, shuttlecocks, and traditional clothing. Label key elements subtly (e.g., \"Site 1\" for the estate, \"Leader A\" for a notable figure if included), avoiding direct references to the sport’s historical name.\n\n**Alt:** A vintage illustration of people playing badminton in a colonial-era setting with palm trees and a grand estate in the background.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_154655_doc13_62d282/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "A formal portrait of a distinguished nobleman in 17th-century aristocratic attire, standing confidently with a regal posture, set against a neutral background with subtle historical details like a draped curtain or classical column. Include a discreet label near the figure reading \"Leader A\" in clear, high-contrast text. Use rich, period-appropriate colors like deep crimson, gold, and navy for the clothing, with soft lighting to emphasize the subject’s authority and status.\n\nAlt: A historical portrait of a nobleman in 17th-century attire, labeled as \"Leader A,\" set against a neutral background with classical elements.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_154655_doc13_62d282/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:** Illustrate a top-down view of a standard badminton court for singles play, with one player positioned near the center of each half. Use high-contrast colors (e.g., green court, white lines, red and blue player figures) and label key areas: service boxes, sidelines, and center line. Avoid branded elements.\n\n**Alt:** Top-down diagram of a singles badminton court with two players, one on each side, and labeled court lines.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260514_154655_doc13_62d282/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]

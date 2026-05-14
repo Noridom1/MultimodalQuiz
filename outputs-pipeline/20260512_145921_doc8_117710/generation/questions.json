@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q_6f1cea8476",
+    "question_text": "Which of the following is a possible outcome of a Bell State Measurement in a two-qubit quantum system?",
+    "options": [
+      "A: |00⟩ + |11⟩",
+      "B: |01⟩ + |10⟩",
+      "C: |00⟩ + |01⟩",
+      "D: |10⟩ + |11⟩"
+    ],
+    "correct_answer": "A",
+    "explanation": "A Bell State Measurement projects the two-qubit system onto one of the four maximally entangled Bell states, such as |00⟩ + |11⟩. This is a fundamental result in quantum information theory (doc8::concept::69::bell_state_measurement_results).",
+    "target_concept": "Bell State Measurement Results",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/1.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc8::concept::69::bell_state_measurement_results",
+      "run_id": "20260512_145921_doc8_117710"
+    }
+  },
+  {
+    "id": "q_d641e800ea",
+    "question_text": "What are entangled photons?",
+    "options": [
+      "Photons that are physically connected by a visible thread",
+      "Photons that remain connected and share properties regardless of distance",
+      "Photons that have been split into two separate particles",
+      "Photons that travel at different speeds"
+    ],
+    "correct_answer": "Photons that remain connected and share properties regardless of distance",
+    "explanation": "Entangled photons are pairs of photons that remain connected such that the state of one instantly influences the state of the other, no matter how far apart they are. This phenomenon is a fundamental aspect of quantum mechanics. (Source: doc8::concept::10::entangled_photons)",
+    "target_concept": "Entangled photons",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/2.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc8::concept::10::entangled_photons",
+      "run_id": "20260512_145921_doc8_117710"
+    }
+  },
+  {
+    "id": "q_3e0eebedea",
+    "question_text": "What is the primary purpose of a quantum network?",
+    "options": [
+      "To enable faster classical internet speeds using quantum algorithms",
+      "To securely transmit quantum information between distant nodes using entanglement",
+      "To store large amounts of quantum data in a centralized location",
+      "To replace traditional computing infrastructure with quantum processors"
+    ],
+    "correct_answer": "To securely transmit quantum information between distant nodes using entanglement",
+    "explanation": "A quantum network leverages quantum entanglement to enable secure communication and distribution of quantum information between nodes, as defined in doc8::concept::73::quantum_network.",
+    "target_concept": "quantum network",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/3.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc8::concept::73::quantum_network",
+      "run_id": "20260512_145921_doc8_117710"
+    }
+  },
+  {
+    "id": "q_a283ddd91b",
+    "question_text": "What are the two key resources required for quantum teleportation to successfully transmit the state of a qubit?",
+    "options": [
+      "A) Entangled particles and classical communication",
+      "B) Superconducting qubits and microwave pulses",
+      "C) Quantum error correction and laser cooling",
+      "D) Single photons and optical fibers"
+    ],
+    "correct_answer": "A",
+    "explanation": "Quantum teleportation relies on pre-shared entanglement between particles and a classical communication channel to transmit the state of a qubit without physical transfer. This process is fundamental to quantum information protocols. (Source: doc8::concept::20::quantum_teleportation)",
+    "target_concept": "Quantum teleportation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/4.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc8::concept::20::quantum_teleportation",
+      "run_id": "20260512_145921_doc8_117710"
+    }
+  },
+  {
+    "id": "q_ac89f0bd67",
+    "question_text": "What is the primary role of Entangled Pair Management (EPM) in quantum networks?",
+    "options": [
+      "A. To physically transport qubits between nodes",
+      "B. To generate and distribute entangled particle pairs across network nodes",
+      "C. To encrypt classical data using quantum algorithms",
+      "D. To measure the spin of individual particles in real-time"
+    ],
+    "correct_answer": "B",
+    "explanation": "Entangled Pair Management (EPM) is responsible for generating and distributing entangled particle pairs across quantum network nodes, enabling secure communication and quantum protocols. (Source: doc8::concept::7::entangled_pair_management)",
+    "target_concept": "Entangled Pair Management (EPM)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "associated_image": "generation/images/5.png",
+    "image_grounded": false,
+    "metadata": {
+      "reasoning_type": "factoid",
+      "tested_fact_source": "doc8::concept::7::entangled_pair_management",
+      "run_id": "20260512_145921_doc8_117710"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram of a physical host (labeled \"Host Machine\") with a hypervisor layer (labeled \"Hypervisor\") sitting between the hardware and multiple colorful virtual machines (labeled \"VM 1,\" \"VM 2,\" etc.). Use distinct colors for each VM and arrows to show the hypervisor allocating resources. Keep the design simple, with bold labels and no branded elements.\n\n**Alt:** A diagram showing a hypervisor managing multiple virtual machines on a single physical host.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150512_doc10_d6bda0/generation/images/1.png",
+    "local_path": "generation/images/1.png",
+    "image_ref": "generation/images/1.png"
+  },
+  {
+    "index": 2,
+    "status": "generated",
+    "image_prompt": "Create a clean, layered diagram with high contrast: at the bottom, depict physical hardware (CPU, memory, storage) in neutral grays; above it, a distinct horizontal hypervisor layer labeled \"Hypervisor\" in bold, using a bright accent color (e.g., teal); on top, show multiple abstract virtual machines (VMs) as colored rectangles (e.g., blue, green, orange) with labels like \"VM 1,\" \"VM 2,\" and arrows indicating resource allocation. Use simple icons (no logos) and ensure all text is legible against backgrounds.\n\nAlt: A diagram illustrating a hypervisor as a middle layer between physical hardware and multiple virtual machines, showing resource management.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150512_doc10_d6bda0/generation/images/2.png",
+    "local_path": "generation/images/2.png",
+    "image_ref": "generation/images/2.png"
+  },
+  {
+    "index": 3,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing a physical CPU at the bottom, labeled \"Physical CPU,\" with a hypervisor layer above it labeled \"Hypervisor.\" Above the hypervisor, depict three distinct virtual machines (VMs) labeled \"VM 1,\" \"VM 2,\" and \"VM 3,\" each with arrows connecting them to the hypervisor to illustrate resource allocation. Use a neutral color palette with bold outlines for clarity, ensuring all labels are legible. Avoid trademarked logos or branding.\n\n**Alt:** A diagram illustrating a hypervisor managing multiple virtual machines on a single physical CPU.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150512_doc10_d6bda0/generation/images/3.png",
+    "local_path": "generation/images/3.png",
+    "image_ref": "generation/images/3.png"
+  },
+  {
+    "index": 4,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram of a virtual machine’s internal architecture, featuring labeled blocks for virtual CPU, memory (RAM), and storage (disk), connected by simple lines to show their relationship. Use a neutral color palette with one accent color (e.g., teal) for the labels and borders, ensuring readability. Avoid realistic branding or proprietary icons—opt for generic, abstract representations.\n\n**Alt:** A diagram illustrating virtual hardware components (CPU, memory, storage) within a virtual machine, with labeled blocks and connecting lines.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150512_doc10_d6bda0/generation/images/4.png",
+    "local_path": "generation/images/4.png",
+    "image_ref": "generation/images/4.png"
+  },
+  {
+    "index": 5,
+    "status": "generated",
+    "image_prompt": "**Prompt:**\nCreate a clean, high-contrast diagram showing three distinct containers (labeled \"Container 1,\" \"Container 2,\" \"Container 3\") running on a shared OS kernel (labeled \"Host OS\"). Use solid borders and muted colors for containers (e.g., blue, green, orange) with a neutral gray for the kernel. Emphasize isolation by depicting each container as a separate, self-contained unit with arrows indicating shared kernel access. Avoid brand logos or trademarks.\n\n**Alt:** A diagram of three isolated containers running on a shared operating system kernel, illustrating containerization.",
+    "source_url": "/raid/ltnghia02/phuc_huy_hai/MultimodalQuiz/outputs/20260512_150512_doc10_d6bda0/generation/images/5.png",
+    "local_path": "generation/images/5.png",
+    "image_ref": "generation/images/5.png"
+  }
+]
