@@ -235,6 +235,11 @@ def build_html(
       
       <div class="flex flex-wrap gap-4">
         <label class="flex items-center gap-2 cursor-pointer select-none">
+          <input id="show-image" type="checkbox" class="accent-indigo-600 w-4 h-4" checked />
+          <span>Show image</span>
+        </label>
+
+        <label class="flex items-center gap-2 cursor-pointer select-none">
           <input id="show-validation" type="checkbox" class="accent-indigo-600 w-4 h-4" />
           <span>Show correct/wrong marks</span>
         </label>
@@ -312,6 +317,7 @@ def build_html(
 
   const progressBar = document.getElementById('progress-bar'),
         progressLabel = document.getElementById('progress-label'),
+      showImageCb = document.getElementById('show-image'),
         imgPanel = document.getElementById('img-panel'),
         qImage = document.getElementById('q-image'),
         metaChips = document.getElementById('meta-chips'),
@@ -328,14 +334,24 @@ def build_html(
         usernameInput = document.getElementById('username-input'),
         downloadBtn = document.getElementById('download-btn');
 
+  function updateImageVisibility(q) {{
+    if (!q.image_uri || !showImageCb.checked) {{
+      imgPanel.classList.replace('flex', 'hidden');
+      qImage.removeAttribute('src');
+      return;
+    }}
+
+    qImage.src = q.image_uri;
+    imgPanel.classList.replace('hidden', 'flex');
+  }}
+
   function renderQuestion(idx) {{
     const q = QUESTIONS[idx];
     selected = null; submitted = false; qStartMs = Date.now();
     progressBar.style.width = Math.round((idx / QUESTIONS.length) * 100) + '%';
     progressLabel.textContent = `Question ${{idx + 1}} of ${{QUESTIONS.length}}`;
 
-    if (q.image_uri) {{ qImage.src = q.image_uri; imgPanel.classList.replace('hidden', 'flex'); }} 
-    else {{ imgPanel.classList.replace('flex', 'hidden'); }}
+    updateImageVisibility(q);
 
     metaChips.innerHTML = '';
     [['#' + (idx + 1), 'bg-slate-100 text-slate-500'], [q.difficulty, difficultyColor(q.difficulty)], [q.question_type, 'bg-violet-50 text-violet-600']].forEach(([l, c]) => {{
@@ -361,6 +377,10 @@ def build_html(
     submitBtn.classList.remove('hidden');
     nextBtn.classList.add('hidden');
   }}
+
+  showImageCb.onchange = () => {{
+    updateImageVisibility(QUESTIONS[current]);
+  }};
 
   function difficultyColor(d) {{
     return {{ easy: 'bg-green-50 text-green-700', medium: 'bg-yellow-50 text-yellow-700', hard: 'bg-red-50 text-red-700' }}[d] || 'bg-slate-100 text-slate-500';

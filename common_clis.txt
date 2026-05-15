@@ -4,6 +4,8 @@ python scripts/visualize_questions.py --json_path outputs/20260426_000329_eco_12
 
 python scripts/visualize_questions.py --no_score --json_path post-test/eco.json --share
 
+python scripts/visualize_questions.py --json_path user-study/20260429_171357_economics_4417a3/generation/questions.json --open
+
 python scripts/run_pipeline.py data/raw/astronomy.pdf
 python scripts/run_pipeline.py data/raw/economics.pdf
 python scripts/run_pipeline.py data/raw/Behavioral_Neuroscience.pdf
