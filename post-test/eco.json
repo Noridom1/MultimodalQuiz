@@ -48,7 +48,7 @@
     "target_concept": "law of supply"
   },
   {
-    "push_text": "Which of the following describes the typical slope of a supply curve on a graph where price is on the vertical axis?",
+    "question_text": "Which of the following describes the typical slope of a supply curve on a graph where price is on the vertical axis?",
     "options": [
       "A) It slopes downward from left to right",
       "B) It is a perfectly horizontal line",
